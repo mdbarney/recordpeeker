@@ -3,6 +3,7 @@ import shlex
 import os
 import socket
 import heapq
+import fileinput
 from collections import OrderedDict, defaultdict
 
 from libmproxy.protocol.http import decoded
@@ -10,6 +11,17 @@ from tabulate import tabulate
 
 from recordpeeker import Equipment, ITEMS, BATTLES, DUNGEONS, slicedict, best_equipment
 from recordpeeker.dispatcher import Dispatcher
+
+# def save_enemy_stats(data, fileName):
+
+
+def save_equipment_list(data):
+    equipment_list_file = open("current_equipment.json", 'w')
+
+    # print >> equipment_list_file, json.dumps(data["equipments"], indent=4, sort_keys=True)
+    print >> equipment_list_file, "{\"equipments\": " + json.dumps(data["equipments"], indent=4, sort_keys=True)
+    print >> equipment_list_file, "}"
+    equipment_list_file.close()
 
 def get_display_name(enemy):
     for child in enemy["children"]:
@@ -23,6 +35,7 @@ def get_drops(enemy):
 
 
 def handle_get_battle_init_data(data):
+    enemy_stats_file = open("enemy.json", 'a+')
     battle_data = data["battle"]
     battle_id = battle_data["battle_id"]
     battle_name = BATTLES.get(battle_id, "battle #" + battle_id)
@@ -65,15 +78,19 @@ def handle_get_battle_init_data(data):
                 tbl.append([round, enemyname, itemname])
             if not had_drop:
                 tbl.append([round, enemyname, "nothing"])
+
+        print >> enemy_stats_file, json.dumps(round_data["enemy"], indent=4, sort_keys=True)
+
     print tabulate(tbl, headers="firstrow")
     print ""
+    enemy_stats_file.close()
 
 def handle_party_list(data):
     wanted = "name series_id acc atk def eva matk mdef mnd series_acc series_atk series_def series_eva series_matk series_mdef series_mnd"
     topn = OrderedDict()
     topn["atk"] = 5
-    topn["matk"] = 2
-    topn["mnd"] = 2
+    topn["matk"] = 5
+    topn["mnd"] = 3
     topn["def"] = 5
     find_series = [101001, 102001, 103001, 104001, 105001, 106001, 107001, 108001, 110001, 113001]
     equips = defaultdict(list)
@@ -98,6 +115,13 @@ def handle_party_list(data):
             tbl.append(tbldata[1][idx] + tbldata[2][idx] + tbldata[3][idx])
         print tabulate(tbl, headers="firstrow")
         print ""
+
+    # print equipment to json file
+    save_equipment_list(data)
+    # # print >> equipment_list_file, json.dumps(data["equipments"], indent=4, sort_keys=True)
+    # print >> equipment_list_file, "{\"equipments\": " + json.dumps(data["equipments"], indent=4, sort_keys=True)
+    # print >> equipment_list_file, "}"
+    # equipment_list_file.close()
 
 def handle_dungeon_list(data):
     tbl = []
