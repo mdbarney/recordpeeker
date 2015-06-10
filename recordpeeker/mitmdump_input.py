@@ -17,8 +17,6 @@ from recordpeeker.dispatcher import Dispatcher
 
 def save_equipment_list(data):
     equipment_list_file = open("current_equipment.json", 'w')
-
-    # print >> equipment_list_file, json.dumps(data["equipments"], indent=4, sort_keys=True)
     print >> equipment_list_file, "{\"equipments\": " + json.dumps(data["equipments"], indent=4, sort_keys=True)
     print >> equipment_list_file, "}"
     equipment_list_file.close()
@@ -118,10 +116,6 @@ def handle_party_list(data):
 
     # print equipment to json file
     save_equipment_list(data)
-    # # print >> equipment_list_file, json.dumps(data["equipments"], indent=4, sort_keys=True)
-    # print >> equipment_list_file, "{\"equipments\": " + json.dumps(data["equipments"], indent=4, sort_keys=True)
-    # print >> equipment_list_file, "}"
-    # equipment_list_file.close()
 
 def handle_dungeon_list(data):
     tbl = []
