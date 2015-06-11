@@ -4,6 +4,8 @@ import os
 import socket
 import heapq
 import fileinput
+import os.path
+import pprint
 from collections import OrderedDict, defaultdict
 
 from libmproxy.protocol.http import decoded
@@ -12,12 +14,68 @@ from tabulate import tabulate
 from recordpeeker import Equipment, ITEMS, BATTLES, DUNGEONS, slicedict, best_equipment
 from recordpeeker.dispatcher import Dispatcher
 
-# def save_enemy_stats(data, fileName):
+current_dungeon_id = 0
 
+# TODO
+# def save_dungeons(data):
+
+# TODO
+# def save_battles(data):
+
+def get_enemy_stats_from_json(dungeon_id):
+    temp = []
+    enemy_file_path = os.getcwd() + "/enemy_data/" + dungeon_id  + ".json"
+
+    with open(enemy_file_path, 'r') as f:
+        temp = json.loads(f.read())
+
+    return temp
+        
+def save_enemy_stats(data, dungeon_id):
+# def save_enemy_stats(data, data, fileName):
+    
+
+    # enemy_stats_file = open("enemy.json", 'a+')
+
+    # dungeon_data = data["dungeon_session"]
+    # dungeon_id = dungeon_data["dungeon_id"]
+    # dungeon_name = dungeon_data["name"]
+
+    temp = []
+    temp2 = []
+    enemy_file_path = os.getcwd() + "/enemy_data/" + dungeon_id  + ".json"
+    
+    if os.path.isfile(enemy_file_path):
+        temp = get_enemy_stats_from_json(dungeon_id)
+        # with open(enemy_file_path, 'r+') as f:
+        #     temp = json.loads(f.read())
+        # print temp
+
+    # for round_data in data["rounds"]:
+    #     for enemy in round_data["enemy"]:
+    #         temp.append(enemy)
+    # for enemy in temp["enemies"]:
+    for enemy in temp:
+        temp2.append(enemy)
+
+    for enemy in data:
+        temp2.append(enemy)
+
+    # print temp2
+
+    enemy_output_file = open(os.getcwd() + "/enemy_data/" + dungeon_id + ".json", 'w')
+    enemy_output_file.seek(0)
+    
+    # print >> enemy_output_file, "{\n\t\"enemies\": " + json.dumps(temp2, indent=4, separators=(',', ': '), sort_keys=True)
+    print >> enemy_output_file, json.dumps(temp2, indent=4, separators=(',', ': '), sort_keys=True)
+    # print >> enemy_output_file, "}"
+    # enemy_file_path.write("{\n\t\"enemies\": " + json.dumps(temp, indent=4, sort_keys=True))
+    # enemy_file_path.write("}")
+    enemy_output_file.close()
 
 def save_equipment_list(data):
     equipment_list_file = open("current_equipment.json", 'w')
-    print >> equipment_list_file, "{\"equipments\": " + json.dumps(data["equipments"], indent=4, sort_keys=True)
+    print >> equipment_list_file, "{\n\t\"equipments\": " + json.dumps(data["equipments"], indent=4, sort_keys=True)
     print >> equipment_list_file, "}"
     equipment_list_file.close()
 
@@ -33,7 +91,13 @@ def get_drops(enemy):
 
 
 def handle_get_battle_init_data(data):
-    enemy_stats_file = open("enemy.json", 'a+')
+    # enemy_stats_file = open("enemy.json", 'w')
+    enemy_list = []
+
+    # # prints out current data list
+    # test_file = open("data.json", 'w')
+    # print >> test_file, json.dumps(data, indent=4, sort_keys=True)
+
     battle_data = data["battle"]
     battle_id = battle_data["battle_id"]
     battle_name = BATTLES.get(battle_id, "battle #" + battle_id)
@@ -77,7 +141,11 @@ def handle_get_battle_init_data(data):
             if not had_drop:
                 tbl.append([round, enemyname, "nothing"])
 
-        print >> enemy_stats_file, json.dumps(round_data["enemy"], indent=4, sort_keys=True)
+            enemy_list.append(enemy)
+
+        # print >> enemy_stats_file, json.dumps(round_data["enemy"], indent=4, sort_keys=True)
+        # print >> enemy_stats_file, json.dumps(enemy_list, indent=4, sort_keys=True)
+    save_enemy_stats(enemy_list, battle_id)
 
     print tabulate(tbl, headers="firstrow")
     print ""
