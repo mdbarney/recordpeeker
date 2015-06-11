@@ -32,14 +32,6 @@ def get_enemy_stats_from_json(dungeon_id):
     return temp
         
 def save_enemy_stats(data, dungeon_id):
-# def save_enemy_stats(data, data, fileName):
-    
-
-    # enemy_stats_file = open("enemy.json", 'a+')
-
-    # dungeon_data = data["dungeon_session"]
-    # dungeon_id = dungeon_data["dungeon_id"]
-    # dungeon_name = dungeon_data["name"]
 
     temp = []
     temp2 = []
@@ -47,14 +39,7 @@ def save_enemy_stats(data, dungeon_id):
     
     if os.path.isfile(enemy_file_path):
         temp = get_enemy_stats_from_json(dungeon_id)
-        # with open(enemy_file_path, 'r+') as f:
-        #     temp = json.loads(f.read())
-        # print temp
 
-    # for round_data in data["rounds"]:
-    #     for enemy in round_data["enemy"]:
-    #         temp.append(enemy)
-    # for enemy in temp["enemies"]:
     for enemy in temp:
         temp2.append(enemy)
 
@@ -149,7 +134,7 @@ def handle_get_battle_init_data(data):
 
     print tabulate(tbl, headers="firstrow")
     print ""
-    enemy_stats_file.close()
+    # enemy_stats_file.close()
 
 def handle_party_list(data):
     wanted = "name series_id acc atk def eva matk mdef mnd series_acc series_atk series_def series_eva series_matk series_mdef series_mnd"
