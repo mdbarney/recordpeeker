@@ -6,6 +6,7 @@ import heapq
 import fileinput
 import os.path
 import pprint
+import csv
 from collections import OrderedDict, defaultdict
 
 from libmproxy.protocol.http import decoded
@@ -17,10 +18,15 @@ from recordpeeker.dispatcher import Dispatcher
 current_dungeon_id = 0
 
 # TODO
-# def save_dungeons(data):
+# def save_battles(data):
 
 # TODO
-# def save_battles(data):
+def save_dungeons(data):
+    # temp.append([dungeon_id, series_id, id, name, difficulty, type, rounds, stamina, has_boss])
+    with open('test.csv', 'wb') as f:
+        writer = csv.writer(f)
+        writer.writerows(someiterable)
+
 
 def get_enemy_stats_from_json(dungeon_id):
     temp = []
@@ -168,20 +174,28 @@ def handle_party_list(data):
     save_equipment_list(data)
 
 def handle_dungeon_list(data):
+    temp = []
     tbl = []
     world_data = data["world"]
     world_id = world_data["id"]
     world_name = world_data["name"]
     print "Dungeon List for {0} (id={1})".format(world_name, world_id)
     dungeons = data["dungeons"]
+    series_id = dungeons["series_id"]
     for dungeon in dungeons:
         name = dungeon["name"]
+        dungeon_id = dungeon["dungeon_id"]
         id = dungeon["id"]
         difficulty = dungeon["challenge_level"]
         type = "ELITE" if dungeon["type"] == 2 else "NORMAL"
+        rounds = dungeon["round_num"]
+        stamina = dungeon["stamina"]
+        has_boss = dungeon["has_boss"]
         tbl.append([name, id, difficulty, type])
+        temp.append([dungeon_id, series_id, id, name, difficulty, type, rounds, stamina, has_boss])
     tbl = sorted(tbl, key=lambda row : int(row[1]))
     tbl.insert(0, ["Name", "ID", "Difficulty", "Type"])
+    save_dungeons(temp)
     print tabulate(tbl, headers="firstrow")
 
 def handle_battle_list(data):
