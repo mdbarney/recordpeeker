@@ -40,6 +40,7 @@ def save_enemy_stats(data, dungeon_id):
     if os.path.isfile(enemy_file_path):
         temp = get_enemy_stats_from_json(dungeon_id)
 
+    # combine the two lists
     for enemy in temp:
         temp2.append(enemy)
 
@@ -51,11 +52,7 @@ def save_enemy_stats(data, dungeon_id):
     enemy_output_file = open(os.getcwd() + "/enemy_data/" + dungeon_id + ".json", 'w')
     enemy_output_file.seek(0)
     
-    # print >> enemy_output_file, "{\n\t\"enemies\": " + json.dumps(temp2, indent=4, separators=(',', ': '), sort_keys=True)
     print >> enemy_output_file, json.dumps(temp2, indent=4, separators=(',', ': '), sort_keys=True)
-    # print >> enemy_output_file, "}"
-    # enemy_file_path.write("{\n\t\"enemies\": " + json.dumps(temp, indent=4, sort_keys=True))
-    # enemy_file_path.write("}")
     enemy_output_file.close()
 
 def save_equipment_list(data):
