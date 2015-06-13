@@ -97,7 +97,7 @@ def handle_get_battle_init_data(data):
     enemy_list = []
 
     # log data
-    debug_path = os.getcwd() + "/debug/handle_get_battle_init_data" + time.strftime("%m%D%Y-%H%M%S") + ".json" 
+    debug_path = os.getcwd() + "/debug/handle_get_battle_init_data_" + time.strftime("%m%d%Y-%H%M%S") + ".json" 
     test_file = open(debug_path, 'w')
     print >> test_file, json.dumps(data, indent=4, sort_keys=True)
     test_file.close()
@@ -155,7 +155,7 @@ def handle_get_battle_init_data(data):
 def handle_party_list(data):
 
     # log data
-    debug_path = os.getcwd() + "/debug/handle_party_list" + time.strftime("%m%D%Y-%H%M%S") + ".json" 
+    debug_path = os.getcwd() + "/debug/handle_party_list_" + time.strftime("%m%d%Y-%H%M%S") + ".json" 
     test_file = open(debug_path, 'w')
     print >> test_file, json.dumps(data, indent=4, sort_keys=True)
     test_file.close()
@@ -196,7 +196,7 @@ def handle_party_list(data):
 def handle_dungeon_list(data):
 
     # log data
-    debug_path = os.getcwd() + "/debug/handle_dungeon_list" + time.strftime("%m%D%Y-%H%M%S") + ".json" 
+    debug_path = os.getcwd() + "/debug/handle_dungeon_list_" + time.strftime("%m%d%Y-%H%M%S") + ".json" 
     test_file = open(debug_path, 'w')
     print >> test_file, json.dumps(data, indent=4, sort_keys=True)
     test_file.close()
@@ -220,7 +220,7 @@ def handle_dungeon_list(data):
 def handle_battle_list(data):
 
     # log data
-    debug_path = os.getcwd() + "/debug/handle_battle_list" + time.strftime("%m%D%Y-%H%M%S") + ".json" 
+    debug_path = os.getcwd() + "/debug/handle_battle_list_" + time.strftime("%m%d%Y-%H%M%S") + ".json" 
     test_file = open(debug_path, 'w')
     print >> test_file, json.dumps(data, indent=4, sort_keys=True)
     test_file.close()
