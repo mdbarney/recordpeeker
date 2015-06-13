@@ -7,6 +7,8 @@ import fileinput
 import os.path
 import pprint
 import csv
+import time
+import datetime
 from collections import OrderedDict, defaultdict
 
 from libmproxy.protocol.http import decoded
@@ -95,7 +97,7 @@ def handle_get_battle_init_data(data):
     enemy_list = []
 
     # log data
-    debug_path = os.getcwd() + "/debug/handle_get_battle_init_data.json" 
+    debug_path = os.getcwd() + "/debug/handle_get_battle_init_data" + time.strftime("%m%D%Y-%H%M%S") + ".json" 
     test_file = open(debug_path, 'w')
     print >> test_file, json.dumps(data, indent=4, sort_keys=True)
     test_file.close()
@@ -153,7 +155,7 @@ def handle_get_battle_init_data(data):
 def handle_party_list(data):
 
     # log data
-    debug_path = os.getcwd() + "/debug/handle_party_list.json" 
+    debug_path = os.getcwd() + "/debug/handle_party_list" + time.strftime("%m%D%Y-%H%M%S") + ".json" 
     test_file = open(debug_path, 'w')
     print >> test_file, json.dumps(data, indent=4, sort_keys=True)
     test_file.close()
@@ -194,7 +196,7 @@ def handle_party_list(data):
 def handle_dungeon_list(data):
 
     # log data
-    debug_path = os.getcwd() + "/debug/handle_dungeon_list.json" 
+    debug_path = os.getcwd() + "/debug/handle_dungeon_list" + time.strftime("%m%D%Y-%H%M%S") + ".json" 
     test_file = open(debug_path, 'w')
     print >> test_file, json.dumps(data, indent=4, sort_keys=True)
     test_file.close()
@@ -218,7 +220,7 @@ def handle_dungeon_list(data):
 def handle_battle_list(data):
 
     # log data
-    debug_path = os.getcwd() + "/debug/handle_battle_list.json" 
+    debug_path = os.getcwd() + "/debug/handle_battle_list" + time.strftime("%m%D%Y-%H%M%S") + ".json" 
     test_file = open(debug_path, 'w')
     print >> test_file, json.dumps(data, indent=4, sort_keys=True)
     test_file.close()
