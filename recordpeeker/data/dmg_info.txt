@@ -1,0 +1,30 @@
+
+
+
+# If ATK ≤ 346, then Damage = ((ATK)^1.8)/sqrt(DEF)
+# If ATK > 346, then Damage = 2000 * sqrt(ATK)/sqrt(DEF)
+# (max hp * sqrt(def))^(1/1.8) = atk
+# (max hp * sqrt(def)/2000)^2 = atk
+
+
+# The base accuracy of an attack is equal to the following:
+# (base chance to hit) + Acc * 8/35 - Eva * 6/35
+# where base chance to hit = 90, thus:
+# 90 + Acc * 8/35 - Eva * 6/35 
+
+# Things to note:
+# 	1. This only applies to physical attacks.
+# 	2. This chance is then capped between 20% and 100% inclusively.
+# 	3. When blinded, your Acc is decreased by 50% (before the calculation).
+# 		This occurs after your hit rate is capped at 100% but before the 20% min cap
+
+
+# Healing spells like Curaga and Prayer use a fairly simple formula with very few additional modifiers. 
+# The base formula to determine the amount that is healed is as follows:
+# Power * (5 + (Mnd^0.75) * 100 / 256)
+ 
+# This is rounded to the nearest integer value. The baseline Power value for Cure is 30. This means 
+# that for someone with 150 Mnd, the amount healed with Cure would be: 
+# 30 * (5 + (1500.75) * 100 / 256) = 30 * (5 + 42.86 * 100 / 256) = 30 * 21.74 = 652.28 = 652
+
+
