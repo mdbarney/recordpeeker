@@ -89,11 +89,11 @@ def main():
 	power_multiplier = 1 # used for regular attack
 
 	enemy_info = get_enemy_info()
-	print "Please enter atk value: "
-	atk = raw_input()
-	damage = calculate_damage(atk, get_stat("def",enemy_info), power_multiplier)
-	print "Damage: " + str(math.floor(damage))
-	# print enemy_info
+	# print "Please enter atk value: "
+	# atk = raw_input()
+	# damage = calculate_damage(atk, get_stat("def",enemy_info), power_multiplier)
+	# print "Damage: " + str(math.floor(damage))
+	print enemy_info
 	# get_max_hp(enemy_info)
 	print "atk needed to 1-hit KO enemy: " + str(atk_to_one_hit_ko(get_stat("max_hp",enemy_info), get_stat("def",enemy_info), power_multiplier))
 	# print atk_to_one_hit_ko(float(get_stat("max_hp",enemy_info)), float(get_stat("def",enemy_info)), power_multiplier)
