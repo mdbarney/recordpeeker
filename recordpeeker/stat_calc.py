@@ -14,7 +14,7 @@ def get_enemy_info():
 
 	data = []
 	temp = []
-	with open(enemy_file, 'r') as f:
+	with open(enemy_file, 'rb') as f:
 		data = json.loads(f.read())
 
 	for child in data["children"]:
