@@ -61,8 +61,12 @@ def get_enemy_info():
 
 	# data = []
 	temp = []
+	temp2 = []
 	with open(enemy_file, 'r') as f:
 		data = json.loads(f.read())
+
+	for a in data:
+		temp.append(a)
 
 	# combine the two lists
 	for enemy in data:
