@@ -67,17 +67,19 @@ def get_enemy_info():
 	# combine the two lists
 	for enemy in data:
 		for param in enemy["children"]:
-			if param["enemy_id"] == enemy["children"]["enemy_id"]:
-				if len(param["drop_item_list"]) > 0:
-					print len(param["drop_item_list"])
-					for item in enemy["children"]["drop_item_list"]:
-						if item["item_id"] != enemy["children"]["enemy_id"]["item_id"]:
-							en["drop_item_list"].append(enemy["children"]["drop_item_list"])
+			# for p in param["enemy_id"]:
+			print param["enemy_id"]
+			# if param["enemy_id"] == enemy["children"]["enemy_id"]:
+			# 	if len(param["drop_item_list"]) > 0:
+			# 		print len(param["drop_item_list"])
+			# 		for item in enemy["children"]["drop_item_list"]:
+			# 			if item["item_id"] != enemy["children"]["enemy_id"]["item_id"]:
+			# 				en["drop_item_list"].append(enemy["children"]["drop_item_list"])
 				
-			else:
-				temp.append(param)
+			# else:
+			# 	temp.append(param)
 
-	return temp
+	# return temp
 
 def combine_enemy_lists():
 	path = str(os.getcwd()) + "/enemy_data/"
