@@ -166,7 +166,7 @@ def handle_party_list(data):
     topn["matk"] = 5
     topn["mnd"] = 3
     topn["def"] = 5
-    find_series = [101001, 102001, 103001, 104001, 105001, 106001, 107001, 108001, 110001, 113001]
+    find_series = [101001, 102001, 103001, 104001, 105001, 106001, 107001, 108001, 109001, 110001, 112001, 113001]
     equips = defaultdict(list)
     for item in data["equipments"]:
         kind = item.get("equipment_type", 1)
