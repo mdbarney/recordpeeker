@@ -90,8 +90,8 @@ def calculate_magic_damage(user_matk, enemy_res, party_member):
 			res_exp = 0.5
 
 	if user_matk <= 346:
-		print (float(user_matk) ** matk_exp)
-		print (float(enemy_res) ** res_exp)
+		# print (float(user_matk) ** matk_exp)
+		# print (float(enemy_res) ** res_exp)
 		damage = ((float(user_matk) ** matk_exp)/(float(enemy_res) ** res_exp))
 	else:#if user_atk > 346:
 		damage = (2000.0 * (float(user_matk) ** matk_exp)/(float(enemy_res) ** res_exp))
@@ -146,17 +146,19 @@ def main():
 
 	# NOTE
 	# Ability Dmg = 5 + Base Damage * Power%
-	power_multiplier = 1 # used for regular attack
+	# power_multiplier = 1 # used for regular attack
+	power_multiplier = 5.1 # comet multiplier
 
 	enemy_info = get_enemy_info()
-	print "Please enter atk value: "
-	atk = raw_input()
-	damage = calculate_damage(atk, get_stat("def",enemy_info), False)
-	magic_damage = calculate_magic_damage(atk, get_stat("mdef",enemy_info), False)
+	# print "Please enter atk value: "
+	# atk = raw_input()
+	# damage = calculate_damage(atk, get_stat("def",enemy_info), False)
+	# magic_damage = calculate_magic_damage(atk, get_stat("mdef",enemy_info), True)
+	damage = calculate_magic_damage(228, 205, True)
 	# print "Damage: " + str(math.floor(damage))
-	print enemy_info
+	# print enemy_info
 	# get_max_hp(enemy_info)
-	print "atk needed to 1-hit KO enemy: " + str(atk_to_one_hit_ko(get_stat("max_hp",enemy_info), get_stat("def",enemy_info), False))
+	# print "atk needed to 1-hit KO enemy: " + str(atk_to_one_hit_ko(get_stat("max_hp",enemy_info), get_stat("def",enemy_info), False))
 	# print atk_to_one_hit_ko(float(get_stat("max_hp",enemy_info)), float(get_stat("def",enemy_info)), power_multiplier)
 
 	ability_damage = 5 + damage * power_multiplier
