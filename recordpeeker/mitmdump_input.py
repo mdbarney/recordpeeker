@@ -34,7 +34,7 @@ def save_battles(data):
             writer = csv.writer(f, delimiter='\t',quoting=csv.QUOTE_NONE)
             writer.writerows(data)
 
-        
+      
 # # TODO
 # def save_dungeons(data):
 #     # temp.append([dungeon_id, series_id, id, name, difficulty, type, rounds, stamina, has_boss])
@@ -51,7 +51,40 @@ def get_enemy_stats_from_json(dungeon_id):
         temp = json.loads(f.read())
 
     return temp
-        
+ 
+def get_abilities_stats_from_json():
+    temp = []
+    enemy_file_path = os.getcwd() + "/data/abilities.json"
+
+    with open(enemy_file_path, 'r') as f:
+        temp = json.loads(f.read())
+
+    return temp
+
+def save_abilities(data):
+
+    temp = []
+    temp2 = []
+    enemy_file_path = os.getcwd() + "/data/abilities.json"
+
+    if os.path.isfile(enemy_file_path):
+        temp = get_abilities_stats_from_json()
+
+    # combine the two lists
+    for ability in temp:
+        temp2.append(ability)
+
+    for ability in data:
+        temp2.append(ability)
+
+    # print temp2
+
+    enemy_output_file = open(os.getcwd() + "/data/abilities.json", 'w')
+    enemy_output_file.seek(0)
+    
+    print >> enemy_output_file, json.dumps(temp2, indent=4, separators=(',', ': '), sort_keys=True)
+    enemy_output_file.close()
+
 def save_enemy_stats(data, dungeon_id):
 
     temp = []
@@ -95,6 +128,7 @@ def get_drops(enemy):
 
 def handle_get_battle_init_data(data):
     enemy_list = []
+    ability_list = []
 
     # log data
     debug_path = os.getcwd() + "/debug/handle_get_battle_init_data_" + time.strftime("%m%d%Y-%H%M%S") + ".json" 
@@ -148,6 +182,19 @@ def handle_get_battle_init_data(data):
             enemy_list.append(enemy)
 
     save_enemy_stats(enemy_list, battle_id)
+
+    # ability data
+    buddy_data = battle_data["buddy"]
+    for buddy in buddy_data:
+        for ability in buddy["abilities"]:
+            # ability_id = ability.get("ability_id")
+            # action_id = ability.get("action_id")
+            # category_id = ability.get("category_id")
+            # exercise_type = ability.get("exercise_type")
+            # for options in ability["options"]:
+            ability_list.append(ability)
+
+    save_abilities(ability_list)
 
     print tabulate(tbl, headers="firstrow")
     print ""
@@ -261,71 +308,6 @@ def handle_battle_list(data):
 #       "round_num": 3,
 #       "stamina": 15
 #     }
-
-# "dungeon_session": {
-#     "background_image_path": "/dff/static/lang/image/dungeon/620072_bg.png",
-#     "battle_id": 720226,
-#     "bgm": "bgm_06_019",
-#     "challenge_level": 80,
-#     "closed_at": 1434268799,
-#     "dungeon_id": 620072,
-#     "kept_out_at": 1434009599,
-#     "max_supporter_ss_gauge": 2,
-#     "name": "Gil Greenwood (VI) - Heroic",
-#     "opened_at": 1433664000,
-#     "order_no": 1,
-#     "party_status": {
-#       "1": {
-#         "ability_1_num": 4,
-#         "ability_2_num": 8,
-#         "hp": 4272,
-#         "no": 1,
-#         "soul_strike_gauge": 0,
-#         "status_ailments": [],
-#         "user_buddy_id": 8614210
-#       },
-#       "2": {
-#         "ability_1_num": 8,
-#         "ability_2_num": 4,
-#         "hp": 3773,
-#         "no": 2,
-#         "soul_strike_gauge": 0,
-#         "status_ailments": [],
-#         "user_buddy_id": 11528112
-#       },
-#       "3": {
-#         "ability_1_num": 4,
-#         "ability_2_num": 4,
-#         "hp": 3864,
-#         "no": 3,
-#         "soul_strike_gauge": 0,
-#         "status_ailments": [],
-#         "user_buddy_id": 9724956
-#       },
-#       "4": {
-#         "ability_1_num": 10,
-#         "ability_2_num": 2,
-#         "hp": 2628,
-#         "no": 4,
-#         "soul_strike_gauge": 0,
-#         "status_ailments": [],
-#         "user_buddy_id": 11532741
-#       },
-#       "5": {
-#         "ability_1_num": 6,
-#         "ability_2_num": 8,
-#         "hp": 4391,
-#         "no": 5,
-#         "soul_strike_gauge": 0,
-#         "status_ailments": [],
-#         "user_buddy_id": 12389534
-#       }
-#     },
-#     "series_id": 106001,
-#     "supporter_ss_gauge": 2,
-#     "type": 1,
-#     "world_id": 800002
-#   }
 
 
 def handle_survival_event(data):

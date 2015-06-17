@@ -31,12 +31,70 @@ def get_enemy_info():
 	#             # data[dir_entry] = my_file.read()
 	#             data[dir_entry] = json.loads(my_file.read())
 
-def calculate_damage(user_atk, enemy_def, power_multiplier):
+def calculate_damage(user_atk, enemy_def, party_member):
+	# if atk <= 346
+	# Atk^1.8 / Def^0.5(when the target is an enemy)
+	# Atk^2.0 / Def^0.84(when the target is a party member)
+	# if atk > 346
+	# 2000 * Atk^0.5 / Def^0.5(when the target is an enemy)
+	# 2000 * Atk^0.7 / Def^0.84(when the target is a party member)
+	if party_member:
+		if user_atk <= 346:
+			atk_exp = 2.0
+			def_exp = 0.84
+		else:
+			atk_exp = 0.7
+			def_exp = 0.84
+	else: # not a party member
+		if user_atk <= 346:
+			atk_exp = 1.8
+			def_exp = 0.5
+		else:
+			atk_exp = 0.5
+			def_exp = 0.5
+
 
 	if user_atk <= 346:
-		damage = ((float(user_atk) ** 1.8)/(math.sqrt(float(enemy_def))) * power_multiplier)
+		damage = ((float(user_atk) ** atk_exp)/(float(enemy_def) ** def_exp))
 	else:#if user_atk > 346:
-		damage = (2000.0 * math.sqrt(float(user_atk))/(math.sqrt(float(enemy_def))) * power_multiplier)
+		damage = (2000.0 * (float(user_atk) ** atk_exp)/(float(enemy_def) ** def_exp))
+
+	# if user_atk <= 346:
+	# 	damage = ((float(user_atk) ** 1.8)/(math.sqrt(float(enemy_def))) * power_multiplier)
+	# else:#if user_atk > 346:
+	# 	damage = (2000.0 * math.sqrt(float(user_atk))/(math.sqrt(float(enemy_def))) * power_multiplier)
+
+	return damage
+
+def calculate_magic_damage(user_matk, enemy_res, party_member):
+	# if matk <= 742
+	# MAtk^1.65 / Res^0.5(when the target is an enemy)
+	# MAtk^1.85 / Res^0.84(when the target is a party member)
+	# if matk > 742
+	# 2000 * MAtk^0.5 / Res^0.5(when the target is an enemy)
+	# 2000 * MAtk^0.7 / Res^0.84(when the target is a party member)
+
+	if party_member:
+		if user_matk <= 742:
+			matk_exp = 1.85
+			res_exp = 0.84
+		else:
+			matk_exp = 0.7
+			res_exp = 0.84
+	else: # not a party member
+		if user_matk <= 742:
+			matk_exp = 1.65
+			res_exp = 0.5
+		else:
+			matk_exp = 0.5
+			res_exp = 0.5
+
+	if user_matk <= 346:
+		print (float(user_matk) ** matk_exp)
+		print (float(enemy_res) ** res_exp)
+		damage = ((float(user_matk) ** matk_exp)/(float(enemy_res) ** res_exp))
+	else:#if user_atk > 346:
+		damage = (2000.0 * (float(user_matk) ** matk_exp)/(float(enemy_res) ** res_exp))
 
 	return damage
 
@@ -86,17 +144,25 @@ def print_basic_stats(data):
 
 def main():
 
+	# NOTE
+	# Ability Dmg = 5 + Base Damage * Power%
 	power_multiplier = 1 # used for regular attack
 
 	enemy_info = get_enemy_info()
-	# print "Please enter atk value: "
-	# atk = raw_input()
-	# damage = calculate_damage(atk, get_stat("def",enemy_info), power_multiplier)
+	print "Please enter atk value: "
+	atk = raw_input()
+	damage = calculate_damage(atk, get_stat("def",enemy_info), False)
+	magic_damage = calculate_magic_damage(atk, get_stat("mdef",enemy_info), False)
 	# print "Damage: " + str(math.floor(damage))
 	print enemy_info
 	# get_max_hp(enemy_info)
-	print "atk needed to 1-hit KO enemy: " + str(atk_to_one_hit_ko(get_stat("max_hp",enemy_info), get_stat("def",enemy_info), power_multiplier))
+	print "atk needed to 1-hit KO enemy: " + str(atk_to_one_hit_ko(get_stat("max_hp",enemy_info), get_stat("def",enemy_info), False))
 	# print atk_to_one_hit_ko(float(get_stat("max_hp",enemy_info)), float(get_stat("def",enemy_info)), power_multiplier)
+
+	ability_damage = 5 + damage * power_multiplier
+	high_random = ability_damage * 1.03
+	print "Ability damage: " + str(int(math.floor(ability_damage)))
+	print "High-end random damage: " + str(int(math.floor(high_random)))
 
 
 main()
