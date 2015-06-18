@@ -194,7 +194,8 @@ def handle_get_battle_init_data(data):
             # for options in ability["options"]:
             ability_list.append(ability)
 
-    save_abilities(ability_list)
+    # only need to save abilities when new ones come out or create the ones I don't have
+    # save_abilities(ability_list)
 
     print tabulate(tbl, headers="firstrow")
     print ""

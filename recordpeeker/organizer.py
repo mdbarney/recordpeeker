@@ -30,6 +30,25 @@ def uniq(input):
 			output.append(x)
 	return output
 
+def get_ability_info(path):
+	enemy_file = os.getcwd() + "/" + path
+
+	temp = []
+	with open(enemy_file, 'r') as f:
+		data = json.loads(f.read())
+
+	temp = uniq(data)
+
+	return temp
+
+def print_list_to_file(data, path):
+
+	file_path = os.getcwd() + "/" + path 
+	test_file = open(file_path, 'w')
+	print >> test_file, json.dumps(data, indent=4, sort_keys=True)
+	test_file.close()
+
+
 def get_enemy_info():
 	enemy_file = os.getcwd() + "/enemy_data/304015.json"
 
@@ -88,6 +107,8 @@ def main():
 
 	# combine_enemy_lists()
 	temp = get_enemy_info()
+	temp2 = get_ability_info("data/abilities.json")
+	print_list_to_file(temp2, "data/abilities_no_duplicates.json")
 	# print temp
 
 	# for i in temp:

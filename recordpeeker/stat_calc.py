@@ -89,11 +89,11 @@ def calculate_magic_damage(user_matk, enemy_res, party_member):
 			matk_exp = 0.5
 			res_exp = 0.5
 
-	if user_matk <= 346:
+	if user_matk <= 742:
 		# print (float(user_matk) ** matk_exp)
 		# print (float(enemy_res) ** res_exp)
-		damage = ((float(user_matk) ** matk_exp)/(float(enemy_res) ** res_exp))
-	else:#if user_atk > 346:
+		damage = ((float(user_matk ** matk_exp))/(float(enemy_res ** res_exp)))
+	else:#if user_matk > 742:
 		damage = (2000.0 * (float(user_matk) ** matk_exp)/(float(enemy_res) ** res_exp))
 
 	return damage
@@ -161,7 +161,7 @@ def main():
 	# print "atk needed to 1-hit KO enemy: " + str(atk_to_one_hit_ko(get_stat("max_hp",enemy_info), get_stat("def",enemy_info), False))
 	# print atk_to_one_hit_ko(float(get_stat("max_hp",enemy_info)), float(get_stat("def",enemy_info)), power_multiplier)
 
-	ability_damage = 5 + damage * power_multiplier
+	ability_damage = (5 + damage) * power_multiplier
 	high_random = ability_damage * 1.03
 	print "Ability damage: " + str(int(math.floor(ability_damage)))
 	print "High-end random damage: " + str(int(math.floor(high_random)))
