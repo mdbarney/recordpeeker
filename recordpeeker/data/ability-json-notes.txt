@@ -1,4 +1,341 @@
 
 fire/blizzard/thunder/dark/-ara/-aga/-aja
 arg1 = power multiplier
-arg2 = element (100 = fire, 101 = blizzard, 102 = thunder, 107 = dark)
+arg2 = element (100 = fire, 101 = ice, 102 = thunder, 103 = earth, 104 = wind, 105 = water, 106 = holy(cure/a/aga/aja), 107 = dark, 108 = poison)
+arg3 = ?
+arg4 = ?
+arg5 = ?
+
+
+
+
+"status_ailments_factor" = % chance to inflict status ailment
+"status_ailments_id" = ID for status ailment
+200 = poison
+201 = silence
+202 = paralyze
+203 = confuse
+204 = haste
+205 = slow
+206 = stop
+207 = protect
+208 = shell
+209 = reflect
+210 = blind
+211 = sleep
+212 = stone/pretrify
+213 = ? Doom ?
+214 = instant KO (death)/gravity/cripple
+215 = ? Berserk ?
+216 = regen
+
+### For "attribute_id": "1XX" ####
+
+"factor": "1" = this means that said enemy is weak to the element with that corresponding attribute_id
+"factor": "6" = this means that said enemy resists the corresponding element
+"factor": "11" = this means that said enemy nulls (takes zero damage from) the corresponding element
+"factor": "21" = this means that said enemy absorbs the corresponding element
+
+
+### For "attribute_id": "2XX" ####
+"factor": "1" = with a factor of one and the attribute_id preset to "2XX", it means said enemy is immune to that debuff
+
+
+# from Bomb (709065.json)
+"def_attributes": [
+                            {
+                                "attribute_id": "202",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "214",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "224",
+                                "factor": "1"
+
+                                ### unknown ###
+                            },
+                            {
+                                "attribute_id": "101",
+                                "factor": "1"
+
+                                ### weak to ice ###
+                            },
+                            {
+                                "attribute_id": "206",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "213",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "220",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "225",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "203",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "104",
+                                "factor": "1" 
+
+                                ### weak to wind ###
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "212",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "219",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "218",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "201",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "105",
+                                "factor": "1"
+
+                                ### weak to water ###
+                            },
+                            {
+                                "attribute_id": "223",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "100",
+                                "factor": "21"
+
+                                ### absorbs fire ###
+                            },
+                            {
+                                "attribute_id": "210",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "211",
+                                "factor": "1"
+                            }
+                        ],
+
+Silence	Paralyze	Confuse	Stop
+Blind	Sleep	Petrify	Doom
+Instant KO
+
+
+
+steiner from (709065.json)
+
+Poison	Silence	Paralyze	Confuse
+Slow	Stop	Blind	Sleep
+Petrify	Doom	Instant KO
+
+"def_attributes": [
+                            {
+                                "attribute_id": "211",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "205",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "203",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "200",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "210",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "214",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "223",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "213",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "206",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "201",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "219",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "224",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "212",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "202",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "218",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "220",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "225",
+                                "factor": "1"
+                            }
+                        ],
+
+
+sealion from (709064.json)
+
+"def_attributes": [
+                            {
+                                "attribute_id": "212",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "224",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "200",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "210",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "213",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "225",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "218",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "103",
+                                "factor": "11"
+
+                                ### nulls earth ###
+                            },
+                            {
+                                "attribute_id": "211",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "100",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "214",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "101",
+                                "factor": "21"
+
+                                ### absorbs ice ###
+                            },
+                            {
+                                "attribute_id": "203",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "219",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "215",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "105",
+                                "factor": "11"
+
+                                ### nulls water ###
+                            },
+                            {
+                                "attribute_id": "223",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "201",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "202",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "206",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "220",
+                                "factor": "1"
+                            }
+                        ],
+                        "disp_name": "Sealion",
+
+
+
+
+
