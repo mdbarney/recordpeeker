@@ -1,0 +1,315 @@
+[
+    {
+        "ai_id": "0",
+        "children": [
+            {
+                "ai_id": "40900801",
+                "child_pos_id": "1",
+                "drop_item_list": [],
+                "enemy_id": "409008",
+                "init_hp": "88140",
+                "lv": "70",
+                "max_hp": "88140",
+                "no": "1",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "102031",
+                                "weight": "20"
+                            },
+                            {
+                                "ability_id": "201385",
+                                "weight": "20"
+                            },
+                            {
+                                "ability_id": "102021",
+                                "weight": "20"
+                            },
+                            {
+                                "ability_id": "102011",
+                                "weight": "40"
+                            }
+                        ],
+                        "acc": "100",
+                        "animation_info": {
+                            "assets": {
+                                "boss-209004_1": "/Content/lang/ab/character/boss/209004/209004_1.json"
+                            },
+                            "enemy_status_id": "4090081",
+                            "hp_gauge_size": "3",
+                            "offset_x": "0",
+                            "offset_y": "0",
+                            "path": "209004_1",
+                            "scale": "1",
+                            "uses_fix_pos": false
+                        },
+                        "atk": "220",
+                        "breed_id": "13",
+                        "counters": [],
+                        "critical": "3",
+                        "def": "182",
+                        "def_attributes": [
+                            {
+                                "attribute_id": "223",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "214",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "211",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "218",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "224",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "203",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "103",
+                                "factor": "11"
+                            },
+                            {
+                                "attribute_id": "206",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "212",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "202",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "200",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "225",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "201",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "213",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "219",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "220",
+                                "factor": "1"
+                            }
+                        ],
+                        "disp_name": "Black Waltz 2",
+                        "eva": "70",
+                        "exp": 2122,
+                        "id": "4090081",
+                        "looking": "0",
+                        "lv": "70",
+                        "matk": "288",
+                        "max_hp": "88140",
+                        "mdef": "225",
+                        "mnd": 105,
+                        "no": "1",
+                        "size": "2",
+                        "spd": "100"
+                    },
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "102031",
+                                "weight": "20"
+                            },
+                            {
+                                "ability_id": "102021",
+                                "weight": "20"
+                            },
+                            {
+                                "ability_id": "201385",
+                                "weight": "20"
+                            },
+                            {
+                                "ability_id": "102011",
+                                "weight": "40"
+                            }
+                        ],
+                        "acc": "100",
+                        "animation_info": {
+                            "assets": {
+                                "boss-209004_1": "/Content/lang/ab/character/boss/209004/209004_1.json"
+                            },
+                            "enemy_status_id": "4090082",
+                            "hp_gauge_size": "3",
+                            "offset_x": "0",
+                            "offset_y": "0",
+                            "path": "209004_1",
+                            "scale": "1",
+                            "uses_fix_pos": false
+                        },
+                        "atk": "220",
+                        "breed_id": "13",
+                        "counters": [
+                            {
+                                "ability_id": "201113",
+                                "condition_type": "2",
+                                "condition_value": "101",
+                                "rate": "100"
+                            },
+                            {
+                                "ability_id": "112012",
+                                "condition_type": "3",
+                                "condition_value": "1",
+                                "rate": "15"
+                            },
+                            {
+                                "ability_id": "112012",
+                                "condition_type": "2",
+                                "condition_value": "100",
+                                "rate": "100"
+                            },
+                            {
+                                "ability_id": "112042",
+                                "condition_type": "2",
+                                "condition_value": "105",
+                                "rate": "100"
+                            },
+                            {
+                                "ability_id": "112032",
+                                "condition_type": "2",
+                                "condition_value": "102",
+                                "rate": "100"
+                            }
+                        ],
+                        "critical": "3",
+                        "def": "182",
+                        "def_attributes": [
+                            {
+                                "attribute_id": "211",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "206",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "103",
+                                "factor": "11"
+                            },
+                            {
+                                "attribute_id": "225",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "203",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "200",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "224",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "220",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "212",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "218",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "223",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "201",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "213",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "219",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "214",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "202",
+                                "factor": "1"
+                            }
+                        ],
+                        "disp_name": "Black Waltz 2",
+                        "eva": "70",
+                        "exp": 0,
+                        "id": "4090082",
+                        "looking": "0",
+                        "lv": "70",
+                        "matk": "288",
+                        "max_hp": "88140",
+                        "mdef": "225",
+                        "mnd": 105,
+                        "no": "1",
+                        "size": "2",
+                        "spd": "100"
+                    }
+                ],
+                "uid": "201"
+            }
+        ],
+        "deform_animation_info": [
+            {
+                "deform_tag": "in",
+                "enemy_id": "409008",
+                "id": "20900401",
+                "is_random": true,
+                "path": "209004_1.json",
+                "state": [
+                    "1"
+                ]
+            }
+        ],
+        "id": "409008",
+        "is_sp_enemy": "1"
+    }
+]

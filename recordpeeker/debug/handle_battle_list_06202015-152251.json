@@ -1,0 +1,239 @@
+{
+    "SERVER_TIME": 1434831771, 
+    "battles": [
+        {
+            "dungeon_id": 203006, 
+            "has_boss": 0, 
+            "id": 303023, 
+            "is_unlocked": true, 
+            "name": "Subterranean Lake - 1st Level", 
+            "order_no": 1, 
+            "rank": 3, 
+            "round_num": 3, 
+            "stamina": 12
+        }, 
+        {
+            "dungeon_id": 203006, 
+            "has_boss": 0, 
+            "id": 303024, 
+            "is_unlocked": false, 
+            "name": "Subterranean Lake - 2nd Level", 
+            "order_no": 1, 
+            "rank": 0, 
+            "round_num": 3, 
+            "stamina": 12
+        }, 
+        {
+            "dungeon_id": 203006, 
+            "has_boss": 1, 
+            "id": 303025, 
+            "is_unlocked": false, 
+            "name": "Subterranean Lake - 3rd Level", 
+            "order_no": 1, 
+            "rank": 0, 
+            "round_num": 3, 
+            "stamina": 13
+        }
+    ], 
+    "dungeon_session": {
+        "background_image_path": "/dff/static/lang/image/dungeon/203006_bg.png", 
+        "battle_id": 303024, 
+        "bgm": "bgm_03_009", 
+        "challenge_level": 45, 
+        "closed_at": 2063066399, 
+        "dungeon_id": 203006, 
+        "kept_out_at": 2062803599, 
+        "max_supporter_ss_gauge": 0, 
+        "name": "Subterranean Lake", 
+        "opened_at": 1431651600, 
+        "order_no": 1, 
+        "party_status": {
+            "1": {
+                "ability_1_num": 8, 
+                "ability_2_num": 8, 
+                "hp": 3739, 
+                "no": 1, 
+                "soul_strike_gauge": 300, 
+                "status_ailments": [], 
+                "user_buddy_id": 7215898
+            }, 
+            "3": {
+                "ability_1_num": 8, 
+                "ability_2_num": 6, 
+                "hp": 1996, 
+                "no": 3, 
+                "soul_strike_gauge": 300, 
+                "status_ailments": [], 
+                "user_buddy_id": 13821463
+            }, 
+            "4": {
+                "ability_1_num": 6, 
+                "ability_2_num": 10, 
+                "hp": 1085, 
+                "no": 4, 
+                "soul_strike_gauge": 200, 
+                "status_ailments": [], 
+                "user_buddy_id": 13909164
+            }
+        }, 
+        "series_id": 103001, 
+        "supporter_ss_gauge": 0, 
+        "type": 1, 
+        "world_id": 103001
+    }, 
+    "fellow_session": {
+        "can_follow": false, 
+        "can_remake_fellow_list": true, 
+        "has_fellow": false, 
+        "status": 2
+    }, 
+    "multi_party": {
+        "current_deck_no": 1, 
+        "parties": [
+            {
+                "deck_no": 1, 
+                "slot_to_row": {
+                    "1": 1, 
+                    "3": 2, 
+                    "4": 2
+                }, 
+                "slot_to_user_buddy_id": {
+                    "1": 7215898, 
+                    "3": 13821463, 
+                    "4": 13909164
+                }
+            }, 
+            {
+                "deck_no": 2, 
+                "slot_to_row": {}, 
+                "slot_to_user_buddy_id": {}
+            }, 
+            {
+                "deck_no": 3, 
+                "slot_to_row": {}, 
+                "slot_to_user_buddy_id": {}
+            }, 
+            {
+                "deck_no": 4, 
+                "slot_to_row": {}, 
+                "slot_to_user_buddy_id": {}
+            }, 
+            {
+                "deck_no": 5, 
+                "slot_to_row": {}, 
+                "slot_to_user_buddy_id": {}
+            }
+        ]
+    }, 
+    "success": true, 
+    "user": {
+        "can_review": true, 
+        "dungeon_id": 203006, 
+        "followee_num": 47, 
+        "func_tutorial_bits": 131071, 
+        "gil": 2988599, 
+        "has_all_clear_ver_to_show": false, 
+        "id": 5570609408901120, 
+        "is_in_dungeon": true, 
+        "is_update_last_logined_at": false, 
+        "last_logined_at": 1434824527, 
+        "max_followee_num": 100, 
+        "max_follower_num": 100, 
+        "max_stamina": 104, 
+        "name": "MDB", 
+        "release_id": 0, 
+        "residual_stamina_piece": 4, 
+        "soul_piece": 66, 
+        "stamina": 21, 
+        "stamina_piece": 524, 
+        "stamina_recovery_remaining_time": 14928, 
+        "stamina_recovery_time": 180, 
+        "start_time_of_today": 1434805200, 
+        "supporter_ss_gauge": 2, 
+        "tutorial_step": 255
+    }, 
+    "user_dungeon": {
+        "background_image_path": "/dff/static/lang/image/dungeon/203006_bg.png", 
+        "bgm": "bgm_03_009", 
+        "button_style": "NORMAL", 
+        "captures": [
+            {
+                "image_path": "/dff/static/lang/image/enemy/403006.png", 
+                "sp_scores": [
+                    {
+                        "battle_id": 303025, 
+                        "title": "Defeat Gutsco without being KO'd."
+                    }
+                ], 
+                "tip_battle": {
+                    "group_id": 410102, 
+                    "id": 410102, 
+                    "message": "Gutsco gets <span class=\"red\">2 actions per turn</span>, kupo! <span class=\"red\">Slow or Paralyze</span> him to keep him from running away with the victory!", 
+                    "title": "Gutsco"
+                }
+            }
+        ], 
+        "challenge_level": 45, 
+        "closed_at": 2145938400, 
+        "epilogue": "The Warriors of Light defeated the thief Gutsco and retrieved the dwarves' Horn of Ice, but a mysterious shadow trailed them as they returned the horn to the altar in the Dwarven Hollows. No sooner was the horn replaced than Gutsco emerged from the shadow and stole both of the horns, which he took to the Molten Cave in order to open the path to his true goal: the Fire Crystal.", 
+        "epilogue_image_path": "/dff/static/lang/image/dungeon/203006_epilogue.png", 
+        "id": 203006, 
+        "is_clear": false, 
+        "is_master": false, 
+        "is_new": false, 
+        "is_unlocked": true, 
+        "name": "Subterranean Lake", 
+        "opened_at": 1434675600, 
+        "order_no": 1, 
+        "prizes": {
+            "1": [
+                {
+                    "id": 92000000, 
+                    "image_path": "/dff/static/lang/image/common_item/92000000.png", 
+                    "name": "Gil", 
+                    "num": 4000, 
+                    "type_name": "COMMON"
+                }
+            ], 
+            "2": [
+                {
+                    "id": 70000003, 
+                    "image_path": "/dff/static/lang/image/growegg/70000003/70000003_112.png", 
+                    "name": "Growth Egg", 
+                    "num": 1, 
+                    "type_name": "GROW_EGG"
+                }, 
+                {
+                    "id": 91000000, 
+                    "image_path": "/dff/static/lang/image/common_item/91000000.png", 
+                    "name": "Mythril", 
+                    "num": 1, 
+                    "type_name": "COMMON"
+                }
+            ], 
+            "3": [
+                {
+                    "id": 40000033, 
+                    "image_path": "/dff/static/lang/image/ability_material/40000033/40000033_112.png", 
+                    "name": "Fire Orb", 
+                    "num": 3, 
+                    "type_name": "ABILITY_MATERIAL"
+                }, 
+                {
+                    "id": 94000000, 
+                    "image_path": "/dff/static/lang/image/common_item/94000000.png", 
+                    "name": "Stamina Shard", 
+                    "num": 1, 
+                    "type_name": "COMMON"
+                }
+            ]
+        }, 
+        "prologue": "The party arrives in the Dwarven Hollows to find the dwarves in a furor over the theft of one of their precious Horns of Ice. At the dwarves' request, the party heads for the subterranean lake to retrieve the horn.", 
+        "prologue_image_path": "/dff/static/lang/image/dungeon/203006_prologue.png", 
+        "rank": 0, 
+        "series_id": 103001, 
+        "total_stamina": 37, 
+        "type": 1, 
+        "world_id": 103001
+    }
+}

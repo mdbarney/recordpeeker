@@ -9,6 +9,7 @@ import pprint
 import csv
 import time
 import datetime
+import pprint
 from collections import OrderedDict, defaultdict
 
 from libmproxy.protocol.http import decoded
@@ -120,6 +121,12 @@ def get_display_name(enemy):
         for param in child["params"]:
             return param.get("disp_name", "Unknown Enemy")
 
+def get_enemy_hp(enemy):
+    for child in enemy["children"]:
+        # return child.get("max_hp", "Unknown HP")
+        for param in child["params"]:
+            return param.get("max_hp", "Unknown HP")
+
 def get_drops(enemy):
     for child in enemy["children"]:
         for drop in child["drop_item_list"]:
@@ -130,6 +137,8 @@ def handle_get_battle_init_data(data):
     enemy_list = []
     ability_list = []
 
+    pp = pprint.PrettyPrinter(indent=4)
+
     # log data
     debug_path = os.getcwd() + "/debug/handle_get_battle_init_data_" + time.strftime("%m%d%Y-%H%M%S") + ".json" 
     test_file = open(debug_path, 'w')
@@ -139,9 +148,10 @@ def handle_get_battle_init_data(data):
     battle_data = data["battle"]
     battle_id = battle_data["battle_id"]
     battle_name = BATTLES.get(battle_id, "battle #" + battle_id)
+    print ""
     print "Entering {0}".format(battle_name)
     all_rounds_data = battle_data['rounds']
-    tbl = [["rnd", "enemy", "drop"]]
+    tbl = [["rnd", "enemy", "hp", "drop"]]
     for round_data in all_rounds_data:
         round = round_data.get("round", "???")
         for round_drop in round_data["drop_item_list"]:
@@ -158,10 +168,11 @@ def handle_get_battle_init_data(data):
                 itemname = "turbo ether"
             else:
                 itemname = "unknown"
-            tbl.append([round, "<round drop>", itemname])
+            tbl.append([round, "<round drop>","", itemname])
         for enemy in round_data["enemy"]:
             had_drop = False
             enemyname = get_display_name(enemy)
+            enemyhp = get_enemy_hp(enemy)
             for drop in get_drops(enemy):
                 item_type = drop.get("type", 0)
                 if item_type == 11:
@@ -175,11 +186,20 @@ def handle_get_battle_init_data(data):
                 else:
                     itemname = "unknown"
                 had_drop = True
-                tbl.append([round, enemyname, itemname])
+            if had_drop:
+                tbl.append([round, enemyname, enemyhp, itemname])
             if not had_drop:
-                tbl.append([round, enemyname, "nothing"])
+                tbl.append([round, enemyname, enemyhp, "nothing"])
+            # for child in enemy["children"]
 
             enemy_list.append(enemy)
+            # print enemy_list
+            # pp.pprint(enemy_list)
+
+    print "enemy_list: " + str(len(enemy_list))
+    print tabulate(tbl, headers="firstrow")
+    print ""
+    # print tabulate(tbl)
 
     save_enemy_stats(enemy_list, battle_id)
 
@@ -196,9 +216,6 @@ def handle_get_battle_init_data(data):
 
     # only need to save abilities when new ones come out or create the ones I don't have
     # save_abilities(ability_list)
-
-    print tabulate(tbl, headers="firstrow")
-    print ""
 
 def handle_party_list(data):
 

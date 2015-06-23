@@ -1,0 +1,147 @@
+[
+    {
+        "ai_id": "0",
+        "children": [
+            {
+                "ai_id": "5",
+                "child_pos_id": "1",
+                "drop_item_list": [
+                    {
+                        "item_id": "40000003",
+                        "num": "1",
+                        "rarity": "3",
+                        "type": 51,
+                        "uid": 201
+                    }
+                ],
+                "enemy_id": "403010",
+                "init_hp": 45603,
+                "lv": "50",
+                "max_hp": 45603,
+                "no": "1",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "112056",
+                                "weight": "10"
+                            },
+                            {
+                                "ability_id": "102059",
+                                "weight": "40"
+                            },
+                            {
+                                "ability_id": "112114",
+                                "weight": "10"
+                            },
+                            {
+                                "ability_id": "112069",
+                                "weight": "5"
+                            },
+                            {
+                                "ability_id": "102032",
+                                "weight": "15"
+                            },
+                            {
+                                "ability_id": "101001",
+                                "weight": "20"
+                            }
+                        ],
+                        "acc": "100",
+                        "animation_info": {
+                            "assets": {
+                                "boss-203010_1": "/Content/lang/ab/character/boss/203010/203010_1.json"
+                            },
+                            "enemy_status_id": "4030101",
+                            "hp_gauge_size": "3",
+                            "offset_x": "0",
+                            "offset_y": "0",
+                            "path": "203010_1",
+                            "scale": "1",
+                            "uses_fix_pos": false
+                        },
+                        "atk": 157,
+                        "breed_id": "13",
+                        "counters": [],
+                        "critical": "3",
+                        "def": 72,
+                        "def_attributes": [
+                            {
+                                "attribute_id": "219",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "203",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "225",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "210",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "212",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "213",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "220",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "214",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "206",
+                                "factor": "1"
+                            }
+                        ],
+                        "disp_name": "Goldor",
+                        "eva": "70",
+                        "exp": 1515,
+                        "id": "4030101",
+                        "looking": "0",
+                        "lv": "50",
+                        "matk": 172,
+                        "max_hp": 45603,
+                        "mdef": 97,
+                        "mnd": 75,
+                        "no": "1",
+                        "size": "3",
+                        "spd": "100"
+                    }
+                ],
+                "uid": "201"
+            }
+        ],
+        "deform_animation_info": [
+            {
+                "deform_tag": "in",
+                "enemy_id": "403010",
+                "id": "20301001",
+                "is_random": true,
+                "path": "203010_1.json",
+                "state": [
+                    "1"
+                ]
+            }
+        ],
+        "id": "403010",
+        "is_sp_enemy": "1"
+    }
+]

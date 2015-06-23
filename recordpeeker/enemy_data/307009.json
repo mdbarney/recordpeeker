@@ -1,0 +1,467 @@
+[
+    {
+        "ai_id": 0,
+        "children": [
+            {
+                "ai_id": "1",
+                "child_pos_id": "1",
+                "drop_item_list": [],
+                "enemy_id": "307052",
+                "init_hp": 1562,
+                "lv": "48",
+                "max_hp": 1562,
+                "no": "1",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "103034",
+                                "weight": "10"
+                            },
+                            {
+                                "ability_id": "101001",
+                                "weight": "90"
+                            }
+                        ],
+                        "acc": "100",
+                        "animation_info": {
+                            "assets": {
+                                "enemy-107012": "/Content/lang/ab/character/enemy/107012.sajson"
+                            },
+                            "enemy_status_id": "3070521",
+                            "hp_gauge_size": "2",
+                            "offset_x": "4",
+                            "offset_y": "-24",
+                            "path": "107012",
+                            "scale": "2",
+                            "uses_fix_pos": false
+                        },
+                        "atk": 151,
+                        "breed_id": "14",
+                        "counters": [],
+                        "critical": "3",
+                        "def": 121,
+                        "def_attributes": [
+                            {
+                                "attribute_id": "210",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "202",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "219",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "108",
+                                "factor": "21"
+                            },
+                            {
+                                "attribute_id": "200",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "211",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "220",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "213",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            }
+                        ],
+                        "disp_name": "Smogger ",
+                        "eva": "86",
+                        "exp": 496,
+                        "id": "3070521",
+                        "looking": "0",
+                        "lv": "48",
+                        "matk": 122,
+                        "max_hp": 1562,
+                        "mdef": 55,
+                        "mnd": 55,
+                        "no": "1",
+                        "size": "2",
+                        "spd": "100"
+                    }
+                ],
+                "uid": "201"
+            }
+        ],
+        "deform_animation_info": [],
+        "id": "307052",
+        "is_sp_enemy": 0
+    },
+    {
+        "ai_id": 0,
+        "children": [
+            {
+                "ai_id": "1",
+                "child_pos_id": "1",
+                "drop_item_list": [],
+                "enemy_id": "307053",
+                "init_hp": 1295,
+                "lv": "48",
+                "max_hp": 1295,
+                "no": "1",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "103035",
+                                "weight": "40"
+                            },
+                            {
+                                "ability_id": "103013",
+                                "weight": "60"
+                            },
+                            {
+                                "ability_id": "101001",
+                                "weight": "0"
+                            }
+                        ],
+                        "acc": "100",
+                        "animation_info": {
+                            "assets": {
+                                "enemy-107013": "/Content/lang/ab/character/enemy/107013.sajson"
+                            },
+                            "enemy_status_id": "3070531",
+                            "hp_gauge_size": "2",
+                            "offset_x": "4",
+                            "offset_y": "-20",
+                            "path": "107013",
+                            "scale": "3",
+                            "uses_fix_pos": false
+                        },
+                        "atk": 151,
+                        "breed_id": "0",
+                        "counters": [],
+                        "critical": "3",
+                        "def": 82,
+                        "def_attributes": [],
+                        "disp_name": "Blood Taste ",
+                        "eva": "70",
+                        "exp": 496,
+                        "id": "3070531",
+                        "looking": "0",
+                        "lv": "48",
+                        "matk": 151,
+                        "max_hp": 1295,
+                        "mdef": 82,
+                        "mnd": 82,
+                        "no": "1",
+                        "size": "2",
+                        "spd": "100"
+                    }
+                ],
+                "uid": "202"
+            }
+        ],
+        "deform_animation_info": [],
+        "id": "307053",
+        "is_sp_enemy": 0
+    },
+    {
+        "ai_id": 0,
+        "children": [
+            {
+                "ai_id": "1",
+                "child_pos_id": "1",
+                "drop_item_list": [
+                    {
+                        "item_id": "40000002",
+                        "num": "1",
+                        "rarity": "2",
+                        "type": 51,
+                        "uid": 203
+                    },
+                    {
+                        "amount": 1021,
+                        "rarity": 1,
+                        "type": 11,
+                        "uid": 203
+                    }
+                ],
+                "enemy_id": "307053",
+                "init_hp": 1295,
+                "lv": "48",
+                "max_hp": 1295,
+                "no": "1",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "103035",
+                                "weight": "40"
+                            },
+                            {
+                                "ability_id": "103013",
+                                "weight": "60"
+                            },
+                            {
+                                "ability_id": "101001",
+                                "weight": "0"
+                            }
+                        ],
+                        "acc": "100",
+                        "animation_info": {
+                            "assets": {
+                                "enemy-107013": "/Content/lang/ab/character/enemy/107013.sajson"
+                            },
+                            "enemy_status_id": "3070531",
+                            "hp_gauge_size": "2",
+                            "offset_x": "4",
+                            "offset_y": "-20",
+                            "path": "107013",
+                            "scale": "3",
+                            "uses_fix_pos": false
+                        },
+                        "atk": 151,
+                        "breed_id": "0",
+                        "counters": [],
+                        "critical": "3",
+                        "def": 82,
+                        "def_attributes": [],
+                        "disp_name": "Blood Taste ",
+                        "eva": "70",
+                        "exp": 496,
+                        "id": "3070531",
+                        "looking": "0",
+                        "lv": "48",
+                        "matk": 151,
+                        "max_hp": 1295,
+                        "mdef": 82,
+                        "mnd": 82,
+                        "no": "1",
+                        "size": "2",
+                        "spd": "100"
+                    }
+                ],
+                "uid": "203"
+            }
+        ],
+        "deform_animation_info": [],
+        "id": "307053",
+        "is_sp_enemy": 0
+    },
+    {
+        "ai_id": 0,
+        "children": [
+            {
+                "ai_id": "1",
+                "child_pos_id": "1",
+                "drop_item_list": [],
+                "enemy_id": "307053",
+                "init_hp": 1295,
+                "lv": "48",
+                "max_hp": 1295,
+                "no": "1",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "103035",
+                                "weight": "40"
+                            },
+                            {
+                                "ability_id": "103013",
+                                "weight": "60"
+                            },
+                            {
+                                "ability_id": "101001",
+                                "weight": "0"
+                            }
+                        ],
+                        "acc": "100",
+                        "animation_info": {
+                            "assets": {
+                                "enemy-107013": "/Content/lang/ab/character/enemy/107013.sajson"
+                            },
+                            "enemy_status_id": "3070531",
+                            "hp_gauge_size": "2",
+                            "offset_x": "4",
+                            "offset_y": "-20",
+                            "path": "107013",
+                            "scale": "3",
+                            "uses_fix_pos": false
+                        },
+                        "atk": 151,
+                        "breed_id": "0",
+                        "counters": [],
+                        "critical": "3",
+                        "def": 82,
+                        "def_attributes": [],
+                        "disp_name": "Blood Taste ",
+                        "eva": "70",
+                        "exp": 496,
+                        "id": "3070531",
+                        "looking": "0",
+                        "lv": "48",
+                        "matk": 151,
+                        "max_hp": 1295,
+                        "mdef": 82,
+                        "mnd": 82,
+                        "no": "1",
+                        "size": "2",
+                        "spd": "100"
+                    }
+                ],
+                "uid": "204"
+            }
+        ],
+        "deform_animation_info": [],
+        "id": "307053",
+        "is_sp_enemy": 0
+    },
+    {
+        "ai_id": 0,
+        "children": [
+            {
+                "ai_id": "1",
+                "child_pos_id": "1",
+                "drop_item_list": [],
+                "enemy_id": "307053",
+                "init_hp": 1295,
+                "lv": "48",
+                "max_hp": 1295,
+                "no": "1",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "103035",
+                                "weight": "40"
+                            },
+                            {
+                                "ability_id": "103013",
+                                "weight": "60"
+                            },
+                            {
+                                "ability_id": "101001",
+                                "weight": "0"
+                            }
+                        ],
+                        "acc": "100",
+                        "animation_info": {
+                            "assets": {
+                                "enemy-107013": "/Content/lang/ab/character/enemy/107013.sajson"
+                            },
+                            "enemy_status_id": "3070531",
+                            "hp_gauge_size": "2",
+                            "offset_x": "4",
+                            "offset_y": "-20",
+                            "path": "107013",
+                            "scale": "3",
+                            "uses_fix_pos": false
+                        },
+                        "atk": 151,
+                        "breed_id": "0",
+                        "counters": [],
+                        "critical": "3",
+                        "def": 82,
+                        "def_attributes": [],
+                        "disp_name": "Blood Taste ",
+                        "eva": "70",
+                        "exp": 496,
+                        "id": "3070531",
+                        "looking": "0",
+                        "lv": "48",
+                        "matk": 151,
+                        "max_hp": 1295,
+                        "mdef": 82,
+                        "mnd": 82,
+                        "no": "1",
+                        "size": "2",
+                        "spd": "100"
+                    }
+                ],
+                "uid": "205"
+            }
+        ],
+        "deform_animation_info": [],
+        "id": "307053",
+        "is_sp_enemy": 0
+    },
+    {
+        "ai_id": 0,
+        "children": [
+            {
+                "ai_id": "1",
+                "child_pos_id": "1",
+                "drop_item_list": [],
+                "enemy_id": "307053",
+                "init_hp": 1295,
+                "lv": "48",
+                "max_hp": 1295,
+                "no": "1",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "103035",
+                                "weight": "40"
+                            },
+                            {
+                                "ability_id": "103013",
+                                "weight": "60"
+                            },
+                            {
+                                "ability_id": "101001",
+                                "weight": "0"
+                            }
+                        ],
+                        "acc": "100",
+                        "animation_info": {
+                            "assets": {
+                                "enemy-107013": "/Content/lang/ab/character/enemy/107013.sajson"
+                            },
+                            "enemy_status_id": "3070531",
+                            "hp_gauge_size": "2",
+                            "offset_x": "4",
+                            "offset_y": "-20",
+                            "path": "107013",
+                            "scale": "3",
+                            "uses_fix_pos": false
+                        },
+                        "atk": 151,
+                        "breed_id": "0",
+                        "counters": [],
+                        "critical": "3",
+                        "def": 82,
+                        "def_attributes": [],
+                        "disp_name": "Blood Taste ",
+                        "eva": "70",
+                        "exp": 496,
+                        "id": "3070531",
+                        "looking": "0",
+                        "lv": "48",
+                        "matk": 151,
+                        "max_hp": 1295,
+                        "mdef": 82,
+                        "mnd": 82,
+                        "no": "1",
+                        "size": "2",
+                        "spd": "100"
+                    }
+                ],
+                "uid": "206"
+            }
+        ],
+        "deform_animation_info": [],
+        "id": "307053",
+        "is_sp_enemy": 0
+    }
+]

@@ -1,0 +1,258 @@
+{
+    "SERVER_TIME": 1434834654, 
+    "battles": [
+        {
+            "dungeon_id": 203008, 
+            "has_boss": 0, 
+            "id": 303030, 
+            "is_unlocked": true, 
+            "name": "Hein's Castle - 1st Floor Cells", 
+            "order_no": 1, 
+            "rank": 3, 
+            "round_num": 3, 
+            "stamina": 12
+        }, 
+        {
+            "dungeon_id": 203008, 
+            "has_boss": 0, 
+            "id": 303032, 
+            "is_unlocked": true, 
+            "name": "Hein's Castle - 3rd Floor", 
+            "order_no": 1, 
+            "rank": 3, 
+            "round_num": 3, 
+            "stamina": 12
+        }, 
+        {
+            "dungeon_id": 203008, 
+            "has_boss": 1, 
+            "id": 303034, 
+            "is_unlocked": false, 
+            "name": "Hein's Castle - Hein's Chambers", 
+            "order_no": 1, 
+            "rank": 0, 
+            "round_num": 1, 
+            "stamina": 13
+        }
+    ], 
+    "dungeon_session": {
+        "background_image_path": "/dff/static/lang/image/dungeon/203008_bg.png", 
+        "battle_id": 303034, 
+        "bgm": "bgm_03_021", 
+        "challenge_level": 48, 
+        "closed_at": 2063066399, 
+        "dungeon_id": 203008, 
+        "kept_out_at": 2062803599, 
+        "max_supporter_ss_gauge": 0, 
+        "name": "Hein's Castle", 
+        "opened_at": 1431651600, 
+        "order_no": 1, 
+        "party_status": {
+            "1": {
+                "ability_1_num": 6, 
+                "ability_2_num": 8, 
+                "hp": 3739, 
+                "no": 1, 
+                "soul_strike_gauge": 350, 
+                "status_ailments": [], 
+                "user_buddy_id": 7215898
+            }, 
+            "2": {
+                "ability_1_num": 4, 
+                "ability_2_num": 4, 
+                "hp": 1755, 
+                "no": 2, 
+                "soul_strike_gauge": 350, 
+                "status_ailments": [], 
+                "user_buddy_id": 13912604
+            }, 
+            "3": {
+                "ability_1_num": 8, 
+                "ability_2_num": 8, 
+                "hp": 1861, 
+                "no": 3, 
+                "soul_strike_gauge": 200, 
+                "status_ailments": [], 
+                "user_buddy_id": 13821463
+            }, 
+            "4": {
+                "ability_1_num": 6, 
+                "ability_2_num": 6, 
+                "hp": 1548, 
+                "no": 4, 
+                "soul_strike_gauge": 100, 
+                "status_ailments": [], 
+                "user_buddy_id": 13909164
+            }
+        }, 
+        "series_id": 103001, 
+        "supporter_ss_gauge": 0, 
+        "type": 1, 
+        "world_id": 103001
+    }, 
+    "fellow_session": {
+        "can_follow": false, 
+        "can_remake_fellow_list": true, 
+        "has_fellow": false, 
+        "status": 2
+    }, 
+    "multi_party": {
+        "current_deck_no": 1, 
+        "parties": [
+            {
+                "deck_no": 1, 
+                "slot_to_row": {
+                    "1": 1, 
+                    "2": 2, 
+                    "3": 2, 
+                    "4": 2
+                }, 
+                "slot_to_user_buddy_id": {
+                    "1": 7215898, 
+                    "2": 13912604, 
+                    "3": 13821463, 
+                    "4": 13909164
+                }
+            }, 
+            {
+                "deck_no": 2, 
+                "slot_to_row": {}, 
+                "slot_to_user_buddy_id": {}
+            }, 
+            {
+                "deck_no": 3, 
+                "slot_to_row": {}, 
+                "slot_to_user_buddy_id": {}
+            }, 
+            {
+                "deck_no": 4, 
+                "slot_to_row": {}, 
+                "slot_to_user_buddy_id": {}
+            }, 
+            {
+                "deck_no": 5, 
+                "slot_to_row": {}, 
+                "slot_to_user_buddy_id": {}
+            }
+        ]
+    }, 
+    "success": true, 
+    "user": {
+        "can_review": true, 
+        "dungeon_id": 203008, 
+        "followee_num": 47, 
+        "func_tutorial_bits": 131071, 
+        "gil": 3001576, 
+        "has_all_clear_ver_to_show": false, 
+        "id": 5570609408901120, 
+        "is_in_dungeon": true, 
+        "is_update_last_logined_at": false, 
+        "last_logined_at": 1434824527, 
+        "max_followee_num": 100, 
+        "max_follower_num": 100, 
+        "max_stamina": 105, 
+        "name": "MDB", 
+        "release_id": 0, 
+        "residual_stamina_piece": 0, 
+        "soul_piece": 67, 
+        "stamina": 41, 
+        "stamina_piece": 525, 
+        "stamina_recovery_remaining_time": 11458, 
+        "stamina_recovery_time": 180, 
+        "start_time_of_today": 1434805200, 
+        "supporter_ss_gauge": 2, 
+        "tutorial_step": 255
+    }, 
+    "user_dungeon": {
+        "background_image_path": "/dff/static/lang/image/dungeon/203008_bg.png", 
+        "bgm": "bgm_03_021", 
+        "button_style": "NORMAL", 
+        "captures": [
+            {
+                "image_path": "/dff/static/lang/image/enemy/403008.png", 
+                "sp_scores": [
+                    {
+                        "battle_id": 303034, 
+                        "title": "Exploit Hein's window of weakness to fire attacks."
+                    }, 
+                    {
+                        "battle_id": 303034, 
+                        "title": "Exploit Hein's window of weakness to ice attacks."
+                    }, 
+                    {
+                        "battle_id": 303034, 
+                        "title": "Exploit Hein's window of weakness to lightning attacks."
+                    }
+                ], 
+                "tip_battle": {
+                    "group_id": 410104, 
+                    "id": 410104, 
+                    "message": "Hein has extremely high evasion, so it's really <span class=\"red\">hard to land a physical attack</span> on him, kupo! Not only that, every 3 turns he uses <span class=\"red\">Barrier Shift</span> to change his elemental weakness. You'll need a whole suite of <span class=\"red\">fire, lightning, and ice magic</span> to bring him down!", 
+                    "title": "Hein"
+                }
+            }
+        ], 
+        "challenge_level": 48, 
+        "closed_at": 2145938400, 
+        "epilogue": "The evil wizard Hein had been using King Argus's soldiers to further his plans for world domination. The party made their way to the throne at the top of Castle Hein where they found the wizard himself, a skeletal creature descended into darkness. Though Hein's Barrier Shift made victory no certain thing, the Warriors of Light prevailed, lifting the curse on the Elder Tree of the Living Woods.", 
+        "epilogue_image_path": "/dff/static/lang/image/dungeon/203008_epilogue.png", 
+        "id": 203008, 
+        "is_clear": false, 
+        "is_master": false, 
+        "is_new": false, 
+        "is_unlocked": true, 
+        "name": "Hein's Castle", 
+        "opened_at": 1434675600, 
+        "order_no": 1, 
+        "prizes": {
+            "1": [
+                {
+                    "id": 92000000, 
+                    "image_path": "/dff/static/lang/image/common_item/92000000.png", 
+                    "name": "Gil", 
+                    "num": 4000, 
+                    "type_name": "COMMON"
+                }
+            ], 
+            "2": [
+                {
+                    "id": 70000003, 
+                    "image_path": "/dff/static/lang/image/growegg/70000003/70000003_112.png", 
+                    "name": "Growth Egg", 
+                    "num": 1, 
+                    "type_name": "GROW_EGG"
+                }, 
+                {
+                    "id": 101000140, 
+                    "image_path": "/dff/static/lang/image/memory_crystal/101000140/101000140_112.png", 
+                    "name": "White Mage Memory Crystal", 
+                    "num": 1, 
+                    "type_name": "MEMORY_CRYSTAL"
+                }
+            ], 
+            "3": [
+                {
+                    "id": 40000038, 
+                    "image_path": "/dff/static/lang/image/ability_material/40000038/40000038_112.png", 
+                    "name": "Ice Orb", 
+                    "num": 3, 
+                    "type_name": "ABILITY_MATERIAL"
+                }, 
+                {
+                    "id": 94000000, 
+                    "image_path": "/dff/static/lang/image/common_item/94000000.png", 
+                    "name": "Stamina Shard", 
+                    "num": 1, 
+                    "type_name": "COMMON"
+                }
+            ]
+        }, 
+        "prologue": "The Warriors of Light are taken captive in Tokkul and thrown in the dungeons of Castle Hein. Now they must free themselves and put an end to Hein's evil schemes.", 
+        "prologue_image_path": "/dff/static/lang/image/dungeon/203008_prologue.png", 
+        "rank": 0, 
+        "series_id": 103001, 
+        "total_stamina": 37, 
+        "type": 1, 
+        "world_id": 103001
+    }
+}

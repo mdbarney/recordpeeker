@@ -1,0 +1,243 @@
+{
+    "SERVER_TIME": 1435028315, 
+    "battles": [
+        {
+            "dungeon_id": 608029, 
+            "has_boss": 0, 
+            "id": 708098, 
+            "is_unlocked": true, 
+            "name": "MD Level - Level 3, Part 1", 
+            "order_no": 1, 
+            "rank": 3, 
+            "round_num": 3, 
+            "stamina": 9
+        }, 
+        {
+            "dungeon_id": 608029, 
+            "has_boss": 0, 
+            "id": 708099, 
+            "is_unlocked": true, 
+            "name": "MD Level - Level 3, Part 2", 
+            "order_no": 1, 
+            "rank": 3, 
+            "round_num": 3, 
+            "stamina": 9
+        }, 
+        {
+            "dungeon_id": 608029, 
+            "has_boss": 0, 
+            "id": 708100, 
+            "is_unlocked": false, 
+            "name": "MD Level - Level 3, Part 3", 
+            "order_no": 1, 
+            "rank": 0, 
+            "round_num": 3, 
+            "stamina": 9
+        }, 
+        {
+            "dungeon_id": 608029, 
+            "has_boss": 1, 
+            "id": 708101, 
+            "is_unlocked": false, 
+            "name": "MD Level - Level 3, Part 4", 
+            "order_no": 1, 
+            "rank": 0, 
+            "round_num": 3, 
+            "stamina": 10
+        }
+    ], 
+    "dungeon_session": {
+        "background_image_path": "/dff/static/lang/image/dungeon/608029_bg.png", 
+        "battle_id": 708100, 
+        "bgm": "bgm_08_025", 
+        "challenge_level": 23, 
+        "closed_at": 1436144399, 
+        "dungeon_id": 608029, 
+        "kept_out_at": 1435885199, 
+        "max_supporter_ss_gauge": 0, 
+        "name": "MD Level - Level 3", 
+        "opened_at": 1435021200, 
+        "order_no": 1, 
+        "party_status": {
+            "1": {
+                "ability_1_num": 8, 
+                "ability_2_num": 8, 
+                "hp": 4041, 
+                "no": 1, 
+                "soul_strike_gauge": 300, 
+                "status_ailments": [], 
+                "user_buddy_id": 7215898
+            }, 
+            "3": {
+                "ability_1_num": 4, 
+                "ability_2_num": 8, 
+                "hp": 2636, 
+                "no": 3, 
+                "soul_strike_gauge": 200, 
+                "status_ailments": [], 
+                "user_buddy_id": 13728389
+            }
+        }, 
+        "series_id": 108001, 
+        "supporter_ss_gauge": 0, 
+        "type": 1, 
+        "world_id": 108003
+    }, 
+    "fellow_session": {
+        "can_follow": false, 
+        "can_remake_fellow_list": true, 
+        "has_fellow": false, 
+        "status": 2
+    }, 
+    "multi_party": {
+        "current_deck_no": 1, 
+        "parties": [
+            {
+                "deck_no": 1, 
+                "slot_to_row": {
+                    "1": 1, 
+                    "3": 2
+                }, 
+                "slot_to_user_buddy_id": {
+                    "1": 7215898, 
+                    "3": 13728389
+                }
+            }, 
+            {
+                "deck_no": 2, 
+                "slot_to_row": {}, 
+                "slot_to_user_buddy_id": {}
+            }, 
+            {
+                "deck_no": 3, 
+                "slot_to_row": {}, 
+                "slot_to_user_buddy_id": {}
+            }, 
+            {
+                "deck_no": 4, 
+                "slot_to_row": {}, 
+                "slot_to_user_buddy_id": {}
+            }, 
+            {
+                "deck_no": 5, 
+                "slot_to_row": {}, 
+                "slot_to_user_buddy_id": {}
+            }
+        ]
+    }, 
+    "success": true, 
+    "user": {
+        "can_review": true, 
+        "dungeon_id": 608029, 
+        "followee_num": 47, 
+        "func_tutorial_bits": 131071, 
+        "gil": 1522473, 
+        "has_all_clear_ver_to_show": false, 
+        "id": 5570609408901120, 
+        "is_in_dungeon": true, 
+        "is_update_last_logined_at": false, 
+        "last_logined_at": 1434980984, 
+        "max_followee_num": 100, 
+        "max_follower_num": 100, 
+        "max_stamina": 109, 
+        "name": "MDB", 
+        "release_id": 0, 
+        "residual_stamina_piece": 2, 
+        "soul_piece": 69, 
+        "stamina": 12, 
+        "stamina_piece": 547, 
+        "stamina_recovery_remaining_time": 17310, 
+        "stamina_recovery_time": 180, 
+        "start_time_of_today": 1434978000, 
+        "supporter_ss_gauge": 2, 
+        "tutorial_step": 255
+    }, 
+    "user_dungeon": {
+        "background_image_path": "/dff/static/lang/image/dungeon/608029_bg.png", 
+        "bgm": "bgm_08_025", 
+        "button_style": "NORMAL", 
+        "captures": [
+            {
+                "image_path": "/dff/static/lang/image/enemy/408021.png", 
+                "sp_scores": [
+                    {
+                        "battle_id": 708101, 
+                        "title": "Defeat the Oilboyle without being KO'd."
+                    }, 
+                    {
+                        "battle_id": 708101, 
+                        "title": "Exploit the Oilboyle's weakness to fire attacks."
+                    }
+                ], 
+                "tip_battle": {
+                    "group_id": 410114, 
+                    "id": 410114, 
+                    "message": "Oilboyle counters attacks with <span class=\"red\">Oil Blast</span>, kupo, and that means you'll end up <span class=\"red\">Blinded or Sapped!</span> Tip the odds back in your favor by exploiting its weakness, <span class=\"red\">fire!</span>", 
+                    "title": "Oilboyle"
+                }
+            }
+        ], 
+        "challenge_level": 23, 
+        "closed_at": 2052453599, 
+        "epilogue": "<<Not Necessary>>", 
+        "epilogue_image_path": "/dff/static/lang/image/dungeon/608029_epilogue.png", 
+        "id": 608029, 
+        "is_clear": false, 
+        "is_master": false, 
+        "is_new": false, 
+        "is_unlocked": true, 
+        "name": "MD Level - Level 3", 
+        "opened_at": 1435021200, 
+        "order_no": 1, 
+        "prizes": {
+            "1": [
+                {
+                    "id": 92000000, 
+                    "image_path": "/dff/static/lang/image/common_item/92000000.png", 
+                    "name": "Gil", 
+                    "num": 3000, 
+                    "type_name": "COMMON"
+                }
+            ], 
+            "2": [
+                {
+                    "id": 22054022, 
+                    "image_path": "/dff/static/lang/image/equipment/22054022/22054022_02_112.png", 
+                    "name": "Galbadian Armor (VIII)", 
+                    "num": 1, 
+                    "type_name": "EQUIPMENT"
+                }, 
+                {
+                    "id": 91000000, 
+                    "image_path": "/dff/static/lang/image/common_item/91000000.png", 
+                    "name": "Mythril", 
+                    "num": 1, 
+                    "type_name": "COMMON"
+                }
+            ], 
+            "3": [
+                {
+                    "id": 30151061, 
+                    "image_path": "/dff/static/lang/image/ability/30151061/30151061_112.png", 
+                    "name": "Magic Break", 
+                    "num": 1, 
+                    "type_name": "ABILITY"
+                }, 
+                {
+                    "id": 24099003, 
+                    "image_path": "/dff/static/lang/image/equipment/24099003/24099003_03_112.png", 
+                    "name": "Adamantite", 
+                    "num": 1, 
+                    "type_name": "EQUIPMENT"
+                }
+            ]
+        }, 
+        "prologue": "<<Not Necessary>>", 
+        "prologue_image_path": "/dff/static/lang/image/dungeon/608029_prologue.png", 
+        "rank": 0, 
+        "series_id": 108001, 
+        "total_stamina": 37, 
+        "type": 1, 
+        "world_id": 108003
+    }
+}
