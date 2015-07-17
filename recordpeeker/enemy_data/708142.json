@@ -1,0 +1,146 @@
+[
+    {
+        "ai_id": "0",
+        "children": [
+            {
+                "ai_id": "1",
+                "child_pos_id": "1",
+                "drop_item_list": [
+                    {
+                        "item_id": "40000039",
+                        "num": "1",
+                        "rarity": "4",
+                        "type": 51,
+                        "uid": 201
+                    }
+                ],
+                "enemy_id": "408022",
+                "init_hp": "90000",
+                "lv": "99",
+                "max_hp": "90000",
+                "no": "1",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "201325",
+                                "weight": "35"
+                            },
+                            {
+                                "ability_id": "101001",
+                                "weight": "65"
+                            }
+                        ],
+                        "acc": "100",
+                        "animation_info": {
+                            "assets": {
+                                "boss-108005_1": "/Content/lang/ab/character/boss/108005/108005_1.json"
+                            },
+                            "enemy_status_id": "4080221",
+                            "hp_gauge_size": "2",
+                            "offset_x": "0",
+                            "offset_y": "0",
+                            "path": "108005_1",
+                            "scale": "1",
+                            "uses_fix_pos": false
+                        },
+                        "atk": "355",
+                        "breed_id": "10",
+                        "counters": [
+                            {
+                                "ability_id": "201324",
+                                "condition_type": "3",
+                                "condition_value": "3",
+                                "rate": "50"
+                            },
+                            {
+                                "ability_id": "201324",
+                                "condition_type": "3",
+                                "condition_value": "4",
+                                "rate": "50"
+                            },
+                            {
+                                "ability_id": "201324",
+                                "condition_type": "1",
+                                "condition_value": "1",
+                                "rate": "30"
+                            }
+                        ],
+                        "critical": "3",
+                        "def": 130,
+                        "def_attributes": [
+                            {
+                                "attribute_id": "108",
+                                "factor": "6"
+                            },
+                            {
+                                "attribute_id": "225",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "214",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "101",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "213",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "212",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "219",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "220",
+                                "factor": "1"
+                            }
+                        ],
+                        "disp_name": "Archaeosaur",
+                        "eva": "62",
+                        "exp": 3000,
+                        "id": "4080221",
+                        "looking": "0",
+                        "lv": "99",
+                        "matk": 331,
+                        "max_hp": "90000",
+                        "mdef": 130,
+                        "mnd": 112,
+                        "no": "1",
+                        "size": "2",
+                        "spd": "100"
+                    }
+                ],
+                "uid": "201"
+            }
+        ],
+        "deform_animation_info": [
+            {
+                "deform_tag": "in",
+                "enemy_id": "408022",
+                "id": "10800502",
+                "is_random": true,
+                "path": "108005_1.json",
+                "state": [
+                    "1"
+                ]
+            }
+        ],
+        "id": "408022",
+        "is_sp_enemy": "1"
+    }
+]

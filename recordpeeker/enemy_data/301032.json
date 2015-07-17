@@ -1,0 +1,881 @@
+[
+    {
+        "ai_id": 0,
+        "children": [
+            {
+                "ai_id": "1",
+                "child_pos_id": "1",
+                "drop_item_list": [],
+                "enemy_id": "301012",
+                "init_hp": 2277,
+                "lv": "52",
+                "max_hp": 2277,
+                "no": "1",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "101001",
+                                "weight": "60"
+                            },
+                            {
+                                "ability_id": "102053",
+                                "weight": "40"
+                            }
+                        ],
+                        "acc": "100",
+                        "animation_info": {
+                            "assets": {
+                                "enemy-101084": "/Content/lang/ab/character/enemy/101084.sajson"
+                            },
+                            "enemy_status_id": "3010121",
+                            "hp_gauge_size": "2",
+                            "offset_x": "0",
+                            "offset_y": "-20",
+                            "path": "101084",
+                            "scale": "2.2",
+                            "uses_fix_pos": false
+                        },
+                        "atk": 176,
+                        "breed_id": "18",
+                        "counters": [],
+                        "critical": "3",
+                        "def": 115,
+                        "def_attributes": [
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "213",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "101",
+                                "factor": "11"
+                            },
+                            {
+                                "attribute_id": "225",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "202",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "220",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "103",
+                                "factor": "11"
+                            },
+                            {
+                                "attribute_id": "203",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "100",
+                                "factor": "11"
+                            },
+                            {
+                                "attribute_id": "212",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "219",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "218",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            }
+                        ],
+                        "disp_name": "Clay Golem",
+                        "eva": "70",
+                        "exp": 535,
+                        "id": "3010121",
+                        "looking": "0",
+                        "lv": "52",
+                        "matk": 87,
+                        "max_hp": 2277,
+                        "mdef": 59,
+                        "mnd": 46,
+                        "no": "1",
+                        "size": "2",
+                        "spd": "100"
+                    }
+                ],
+                "uid": "201"
+            }
+        ],
+        "deform_animation_info": [],
+        "id": "301012",
+        "is_sp_enemy": 0
+    },
+    {
+        "ai_id": 0,
+        "children": [
+            {
+                "ai_id": "1",
+                "child_pos_id": "1",
+                "drop_item_list": [
+                    {
+                        "item_id": "24099002",
+                        "num": "1",
+                        "rarity": "2",
+                        "type": 41,
+                        "uid": 202
+                    }
+                ],
+                "enemy_id": "301014",
+                "init_hp": 810,
+                "lv": "52",
+                "max_hp": 810,
+                "no": "1",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "101001",
+                                "weight": "100"
+                            }
+                        ],
+                        "acc": "100",
+                        "animation_info": {
+                            "assets": {
+                                "enemy-101087": "/Content/lang/ab/character/enemy/101087.sajson"
+                            },
+                            "enemy_status_id": "3010141",
+                            "hp_gauge_size": "2",
+                            "offset_x": "0",
+                            "offset_y": "-12",
+                            "path": "101087",
+                            "scale": "1.5",
+                            "uses_fix_pos": false
+                        },
+                        "atk": 122,
+                        "breed_id": "4",
+                        "counters": [],
+                        "critical": "3",
+                        "def": 102,
+                        "def_attributes": [
+                            {
+                                "attribute_id": "100",
+                                "factor": "11"
+                            },
+                            {
+                                "attribute_id": "219",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "102",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "103",
+                                "factor": "11"
+                            },
+                            {
+                                "attribute_id": "218",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "225",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "220",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            }
+                        ],
+                        "disp_name": "Sahagin Prince",
+                        "eva": "70",
+                        "exp": 428,
+                        "id": "3010141",
+                        "looking": "0",
+                        "lv": "52",
+                        "matk": 128,
+                        "max_hp": 810,
+                        "mdef": 98,
+                        "mnd": 88,
+                        "no": "1",
+                        "size": "1",
+                        "spd": "100"
+                    }
+                ],
+                "uid": "202"
+            }
+        ],
+        "deform_animation_info": [],
+        "id": "301014",
+        "is_sp_enemy": 0
+    },
+    {
+        "ai_id": 0,
+        "children": [
+            {
+                "ai_id": "1",
+                "child_pos_id": "1",
+                "drop_item_list": [],
+                "enemy_id": "301014",
+                "init_hp": 810,
+                "lv": "52",
+                "max_hp": 810,
+                "no": "1",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "101001",
+                                "weight": "100"
+                            }
+                        ],
+                        "acc": "100",
+                        "animation_info": {
+                            "assets": {
+                                "enemy-101087": "/Content/lang/ab/character/enemy/101087.sajson"
+                            },
+                            "enemy_status_id": "3010141",
+                            "hp_gauge_size": "2",
+                            "offset_x": "0",
+                            "offset_y": "-12",
+                            "path": "101087",
+                            "scale": "1.5",
+                            "uses_fix_pos": false
+                        },
+                        "atk": 122,
+                        "breed_id": "4",
+                        "counters": [],
+                        "critical": "3",
+                        "def": 102,
+                        "def_attributes": [
+                            {
+                                "attribute_id": "100",
+                                "factor": "11"
+                            },
+                            {
+                                "attribute_id": "219",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "102",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "103",
+                                "factor": "11"
+                            },
+                            {
+                                "attribute_id": "218",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "225",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "220",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            }
+                        ],
+                        "disp_name": "Sahagin Prince",
+                        "eva": "70",
+                        "exp": 428,
+                        "id": "3010141",
+                        "looking": "0",
+                        "lv": "52",
+                        "matk": 128,
+                        "max_hp": 810,
+                        "mdef": 98,
+                        "mnd": 88,
+                        "no": "1",
+                        "size": "1",
+                        "spd": "100"
+                    }
+                ],
+                "uid": "203"
+            }
+        ],
+        "deform_animation_info": [],
+        "id": "301014",
+        "is_sp_enemy": 0
+    },
+    {
+        "ai_id": 0,
+        "children": [
+            {
+                "ai_id": "1",
+                "child_pos_id": "1",
+                "drop_item_list": [],
+                "enemy_id": "301014",
+                "init_hp": 810,
+                "lv": "52",
+                "max_hp": 810,
+                "no": "1",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "101001",
+                                "weight": "100"
+                            }
+                        ],
+                        "acc": "100",
+                        "animation_info": {
+                            "assets": {
+                                "enemy-101087": "/Content/lang/ab/character/enemy/101087.sajson"
+                            },
+                            "enemy_status_id": "3010141",
+                            "hp_gauge_size": "2",
+                            "offset_x": "0",
+                            "offset_y": "-12",
+                            "path": "101087",
+                            "scale": "1.5",
+                            "uses_fix_pos": false
+                        },
+                        "atk": 122,
+                        "breed_id": "4",
+                        "counters": [],
+                        "critical": "3",
+                        "def": 102,
+                        "def_attributes": [
+                            {
+                                "attribute_id": "100",
+                                "factor": "11"
+                            },
+                            {
+                                "attribute_id": "219",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "102",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "103",
+                                "factor": "11"
+                            },
+                            {
+                                "attribute_id": "218",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "225",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "220",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            }
+                        ],
+                        "disp_name": "Sahagin Prince",
+                        "eva": "70",
+                        "exp": 428,
+                        "id": "3010141",
+                        "looking": "0",
+                        "lv": "52",
+                        "matk": 128,
+                        "max_hp": 810,
+                        "mdef": 98,
+                        "mnd": 88,
+                        "no": "1",
+                        "size": "1",
+                        "spd": "100"
+                    }
+                ],
+                "uid": "204"
+            }
+        ],
+        "deform_animation_info": [],
+        "id": "301014",
+        "is_sp_enemy": 0
+    },
+    {
+        "ai_id": 0,
+        "children": [
+            {
+                "ai_id": "1",
+                "child_pos_id": "1",
+                "drop_item_list": [
+                    {
+                        "item_id": "24099002",
+                        "num": "1",
+                        "rarity": "2",
+                        "type": 41,
+                        "uid": 205
+                    }
+                ],
+                "enemy_id": "301014",
+                "init_hp": 810,
+                "lv": "52",
+                "max_hp": 810,
+                "no": "1",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "101001",
+                                "weight": "100"
+                            }
+                        ],
+                        "acc": "100",
+                        "animation_info": {
+                            "assets": {
+                                "enemy-101087": "/Content/lang/ab/character/enemy/101087.sajson"
+                            },
+                            "enemy_status_id": "3010141",
+                            "hp_gauge_size": "2",
+                            "offset_x": "0",
+                            "offset_y": "-12",
+                            "path": "101087",
+                            "scale": "1.5",
+                            "uses_fix_pos": false
+                        },
+                        "atk": 122,
+                        "breed_id": "4",
+                        "counters": [],
+                        "critical": "3",
+                        "def": 102,
+                        "def_attributes": [
+                            {
+                                "attribute_id": "100",
+                                "factor": "11"
+                            },
+                            {
+                                "attribute_id": "219",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "102",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "103",
+                                "factor": "11"
+                            },
+                            {
+                                "attribute_id": "218",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "225",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "220",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            }
+                        ],
+                        "disp_name": "Sahagin Prince",
+                        "eva": "70",
+                        "exp": 428,
+                        "id": "3010141",
+                        "looking": "0",
+                        "lv": "52",
+                        "matk": 128,
+                        "max_hp": 810,
+                        "mdef": 98,
+                        "mnd": 88,
+                        "no": "1",
+                        "size": "1",
+                        "spd": "100"
+                    }
+                ],
+                "uid": "205"
+            }
+        ],
+        "deform_animation_info": [],
+        "id": "301014",
+        "is_sp_enemy": 0
+    },
+    {
+        "ai_id": 0,
+        "children": [
+            {
+                "ai_id": "1",
+                "child_pos_id": "1",
+                "drop_item_list": [
+                    {
+                        "item_id": "40000047",
+                        "num": "1",
+                        "rarity": "2",
+                        "type": 51,
+                        "uid": 206
+                    }
+                ],
+                "enemy_id": "301014",
+                "init_hp": 810,
+                "lv": "52",
+                "max_hp": 810,
+                "no": "1",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "101001",
+                                "weight": "100"
+                            }
+                        ],
+                        "acc": "100",
+                        "animation_info": {
+                            "assets": {
+                                "enemy-101087": "/Content/lang/ab/character/enemy/101087.sajson"
+                            },
+                            "enemy_status_id": "3010141",
+                            "hp_gauge_size": "2",
+                            "offset_x": "0",
+                            "offset_y": "-12",
+                            "path": "101087",
+                            "scale": "1.5",
+                            "uses_fix_pos": false
+                        },
+                        "atk": 122,
+                        "breed_id": "4",
+                        "counters": [],
+                        "critical": "3",
+                        "def": 102,
+                        "def_attributes": [
+                            {
+                                "attribute_id": "100",
+                                "factor": "11"
+                            },
+                            {
+                                "attribute_id": "219",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "102",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "103",
+                                "factor": "11"
+                            },
+                            {
+                                "attribute_id": "218",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "225",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "220",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            }
+                        ],
+                        "disp_name": "Sahagin Prince",
+                        "eva": "70",
+                        "exp": 428,
+                        "id": "3010141",
+                        "looking": "0",
+                        "lv": "52",
+                        "matk": 128,
+                        "max_hp": 810,
+                        "mdef": 98,
+                        "mnd": 88,
+                        "no": "1",
+                        "size": "1",
+                        "spd": "100"
+                    }
+                ],
+                "uid": "206"
+            }
+        ],
+        "deform_animation_info": [],
+        "id": "301014",
+        "is_sp_enemy": 0
+    },
+    {
+        "ai_id": 0,
+        "children": [
+            {
+                "ai_id": "1",
+                "child_pos_id": "1",
+                "drop_item_list": [],
+                "enemy_id": "301014",
+                "init_hp": 810,
+                "lv": "52",
+                "max_hp": 810,
+                "no": "1",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "101001",
+                                "weight": "100"
+                            }
+                        ],
+                        "acc": "100",
+                        "animation_info": {
+                            "assets": {
+                                "enemy-101087": "/Content/lang/ab/character/enemy/101087.sajson"
+                            },
+                            "enemy_status_id": "3010141",
+                            "hp_gauge_size": "2",
+                            "offset_x": "0",
+                            "offset_y": "-12",
+                            "path": "101087",
+                            "scale": "1.5",
+                            "uses_fix_pos": false
+                        },
+                        "atk": 122,
+                        "breed_id": "4",
+                        "counters": [],
+                        "critical": "3",
+                        "def": 102,
+                        "def_attributes": [
+                            {
+                                "attribute_id": "100",
+                                "factor": "11"
+                            },
+                            {
+                                "attribute_id": "219",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "102",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "103",
+                                "factor": "11"
+                            },
+                            {
+                                "attribute_id": "218",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "225",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "220",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            }
+                        ],
+                        "disp_name": "Sahagin Prince",
+                        "eva": "70",
+                        "exp": 428,
+                        "id": "3010141",
+                        "looking": "0",
+                        "lv": "52",
+                        "matk": 128,
+                        "max_hp": 810,
+                        "mdef": 98,
+                        "mnd": 88,
+                        "no": "1",
+                        "size": "1",
+                        "spd": "100"
+                    }
+                ],
+                "uid": "207"
+            }
+        ],
+        "deform_animation_info": [],
+        "id": "301014",
+        "is_sp_enemy": 0
+    },
+    {
+        "ai_id": "0",
+        "children": [
+            {
+                "ai_id": "1",
+                "child_pos_id": "1",
+                "drop_item_list": [],
+                "enemy_id": "401008",
+                "init_hp": 69626,
+                "lv": "55",
+                "max_hp": 69626,
+                "no": "1",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "221020",
+                                "weight": "40"
+                            },
+                            {
+                                "ability_id": "101001",
+                                "weight": "60"
+                            }
+                        ],
+                        "acc": "100",
+                        "animation_info": {
+                            "assets": {
+                                "boss-201007_1": "/Content/lang/ab/character/boss/201007/201007_1.json"
+                            },
+                            "enemy_status_id": "4010081",
+                            "hp_gauge_size": "3",
+                            "offset_x": "0",
+                            "offset_y": "0",
+                            "path": "201007_1",
+                            "scale": "1",
+                            "uses_fix_pos": false
+                        },
+                        "atk": 222,
+                        "breed_id": "13",
+                        "counters": [],
+                        "critical": "3",
+                        "def": 80,
+                        "def_attributes": [
+                            {
+                                "attribute_id": "102",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "220",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "103",
+                                "factor": "11"
+                            },
+                            {
+                                "attribute_id": "100",
+                                "factor": "11"
+                            },
+                            {
+                                "attribute_id": "225",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "212",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "215",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "219",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "211",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "202",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "224",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "213",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "214",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "218",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "210",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "203",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            }
+                        ],
+                        "disp_name": "Kraken",
+                        "eva": "70",
+                        "exp": 2823,
+                        "id": "4010081",
+                        "looking": "0",
+                        "lv": "55",
+                        "matk": 222,
+                        "max_hp": 69626,
+                        "mdef": 82,
+                        "mnd": 143,
+                        "no": "1",
+                        "size": "3",
+                        "spd": "150"
+                    }
+                ],
+                "uid": "208"
+            }
+        ],
+        "deform_animation_info": [
+            {
+                "deform_tag": "in",
+                "enemy_id": "401008",
+                "id": "20100701",
+                "is_random": true,
+                "path": "201007_1.json",
+                "state": [
+                    "1"
+                ]
+            }
+        ],
+        "id": "401008",
+        "is_sp_enemy": "1"
+    }
+]

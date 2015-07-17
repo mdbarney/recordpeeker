@@ -1,5 +1,7 @@
 import json
 import re
+import os
+import time
 from collections import defaultdict
 
 from libmproxy.protocol.http import decoded
@@ -55,7 +57,13 @@ class Dispatcher(object):
         if not flow.request.pretty_host(hostheader=True).endswith(self._host):
             return
         if args.verbosity >= 1:
-            print flow.request.path
+            data_path = os.getcwd() + "/data_dump/data_dump" + time.strftime("%m%d%Y-%H%M%S") + ".json" 
+            test_file = open(data_path, 'w')
+            print >> test_file, "//" + str(flow.request.path)
+            # print >> test_file, json.dumps(data, indent=4, sort_keys=True)
+            test_file.close()
+
+            # print flow.request.path
         if self.should_ignore(flow.request.path):
             return
         with decoded(flow.response):
@@ -63,7 +71,10 @@ class Dispatcher(object):
             if handlers:
                 data = json_decode(flow.response.content)
                 if args.verbosity >= 2:
-                    print dump_json(data)
+                    test_file = open(data_path, 'w')
+                    print >> test_file, json.dumps(data, indent=4, sort_keys=True)
+                    test_file.close()
+                    # print dump_json(data)
                 for func in handlers:
                     if func in self._wants_flow:
                         func(data, flow)
@@ -72,4 +83,8 @@ class Dispatcher(object):
             else:
                 if args.verbosity >= 3:
                     data = json_decode(flow.response.content)
-                    print dump_json(data)
+                    test_file = open(data_path, 'w')
+                    print >> test_file, json.dumps(data, indent=4, sort_keys=True)
+                    test_file.close()
+                    # print dump_json(data)
+

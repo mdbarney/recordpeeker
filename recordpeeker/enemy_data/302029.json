@@ -1,0 +1,758 @@
+[
+    {
+        "ai_id": 0,
+        "children": [
+            {
+                "ai_id": "1",
+                "child_pos_id": "1",
+                "drop_item_list": [],
+                "enemy_id": "302025",
+                "init_hp": 1265,
+                "lv": "49",
+                "max_hp": 1265,
+                "no": "1",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "101001",
+                                "weight": "100"
+                            }
+                        ],
+                        "acc": "100",
+                        "animation_info": {
+                            "assets": {
+                                "enemy-102012": "/Content/lang/ab/character/enemy/102012.sajson"
+                            },
+                            "enemy_status_id": "3020251",
+                            "hp_gauge_size": "2",
+                            "offset_x": "0",
+                            "offset_y": "-14",
+                            "path": "102012",
+                            "scale": "2",
+                            "uses_fix_pos": false
+                        },
+                        "atk": 144,
+                        "breed_id": "4",
+                        "counters": [],
+                        "critical": "3",
+                        "def": 96,
+                        "def_attributes": [
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "101",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "225",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "102",
+                                "factor": "11"
+                            },
+                            {
+                                "attribute_id": "220",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "200",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "218",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "219",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "108",
+                                "factor": "11"
+                            }
+                        ],
+                        "disp_name": "Great Tortoise",
+                        "eva": "70",
+                        "exp": 506,
+                        "id": "3020251",
+                        "looking": "0",
+                        "lv": "49",
+                        "matk": 151,
+                        "max_hp": 1265,
+                        "mdef": 92,
+                        "mnd": 83,
+                        "no": "1",
+                        "size": "2",
+                        "spd": "100"
+                    }
+                ],
+                "uid": "201"
+            }
+        ],
+        "deform_animation_info": [],
+        "id": "302025",
+        "is_sp_enemy": 0
+    },
+    {
+        "ai_id": 0,
+        "children": [
+            {
+                "ai_id": "1",
+                "child_pos_id": "1",
+                "drop_item_list": [],
+                "enemy_id": "302035",
+                "init_hp": 928,
+                "lv": "49",
+                "max_hp": 928,
+                "no": "1",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "101001",
+                                "weight": "50"
+                            },
+                            {
+                                "ability_id": "201213",
+                                "weight": "50"
+                            }
+                        ],
+                        "acc": "100",
+                        "animation_info": {
+                            "assets": {
+                                "enemy-102086": "/Content/lang/ab/character/enemy/102086.sajson"
+                            },
+                            "enemy_status_id": "3020351",
+                            "hp_gauge_size": "2",
+                            "offset_x": "5",
+                            "offset_y": "-11",
+                            "path": "102086",
+                            "scale": "1.5",
+                            "uses_fix_pos": false
+                        },
+                        "atk": 121,
+                        "breed_id": "0",
+                        "counters": [],
+                        "critical": "3",
+                        "def": 83,
+                        "def_attributes": [
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "220",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "219",
+                                "factor": "1"
+                            }
+                        ],
+                        "disp_name": "Goblin Guard",
+                        "eva": "70",
+                        "exp": 405,
+                        "id": "3020351",
+                        "looking": "0",
+                        "lv": "49",
+                        "matk": 121,
+                        "max_hp": 928,
+                        "mdef": 83,
+                        "mnd": 83,
+                        "no": "1",
+                        "size": "1",
+                        "spd": "100"
+                    }
+                ],
+                "uid": "202"
+            }
+        ],
+        "deform_animation_info": [],
+        "id": "302035",
+        "is_sp_enemy": 0
+    },
+    {
+        "ai_id": 0,
+        "children": [
+            {
+                "ai_id": "1",
+                "child_pos_id": "1",
+                "drop_item_list": [
+                    {
+                        "item_id": "40000047",
+                        "num": "1",
+                        "rarity": "2",
+                        "type": 51,
+                        "uid": 203
+                    }
+                ],
+                "enemy_id": "302035",
+                "init_hp": 928,
+                "lv": "49",
+                "max_hp": 928,
+                "no": "1",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "101001",
+                                "weight": "50"
+                            },
+                            {
+                                "ability_id": "201213",
+                                "weight": "50"
+                            }
+                        ],
+                        "acc": "100",
+                        "animation_info": {
+                            "assets": {
+                                "enemy-102086": "/Content/lang/ab/character/enemy/102086.sajson"
+                            },
+                            "enemy_status_id": "3020351",
+                            "hp_gauge_size": "2",
+                            "offset_x": "5",
+                            "offset_y": "-11",
+                            "path": "102086",
+                            "scale": "1.5",
+                            "uses_fix_pos": false
+                        },
+                        "atk": 121,
+                        "breed_id": "0",
+                        "counters": [],
+                        "critical": "3",
+                        "def": 83,
+                        "def_attributes": [
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "220",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "219",
+                                "factor": "1"
+                            }
+                        ],
+                        "disp_name": "Goblin Guard",
+                        "eva": "70",
+                        "exp": 405,
+                        "id": "3020351",
+                        "looking": "0",
+                        "lv": "49",
+                        "matk": 121,
+                        "max_hp": 928,
+                        "mdef": 83,
+                        "mnd": 83,
+                        "no": "1",
+                        "size": "1",
+                        "spd": "100"
+                    }
+                ],
+                "uid": "203"
+            }
+        ],
+        "deform_animation_info": [],
+        "id": "302035",
+        "is_sp_enemy": 0
+    },
+    {
+        "ai_id": 0,
+        "children": [
+            {
+                "ai_id": "1",
+                "child_pos_id": "1",
+                "drop_item_list": [],
+                "enemy_id": "302035",
+                "init_hp": 928,
+                "lv": "49",
+                "max_hp": 928,
+                "no": "1",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "101001",
+                                "weight": "50"
+                            },
+                            {
+                                "ability_id": "201213",
+                                "weight": "50"
+                            }
+                        ],
+                        "acc": "100",
+                        "animation_info": {
+                            "assets": {
+                                "enemy-102086": "/Content/lang/ab/character/enemy/102086.sajson"
+                            },
+                            "enemy_status_id": "3020351",
+                            "hp_gauge_size": "2",
+                            "offset_x": "5",
+                            "offset_y": "-11",
+                            "path": "102086",
+                            "scale": "1.5",
+                            "uses_fix_pos": false
+                        },
+                        "atk": 121,
+                        "breed_id": "0",
+                        "counters": [],
+                        "critical": "3",
+                        "def": 83,
+                        "def_attributes": [
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "220",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "219",
+                                "factor": "1"
+                            }
+                        ],
+                        "disp_name": "Goblin Guard",
+                        "eva": "70",
+                        "exp": 405,
+                        "id": "3020351",
+                        "looking": "0",
+                        "lv": "49",
+                        "matk": 121,
+                        "max_hp": 928,
+                        "mdef": 83,
+                        "mnd": 83,
+                        "no": "1",
+                        "size": "1",
+                        "spd": "100"
+                    }
+                ],
+                "uid": "204"
+            }
+        ],
+        "deform_animation_info": [],
+        "id": "302035",
+        "is_sp_enemy": 0
+    },
+    {
+        "ai_id": 0,
+        "children": [
+            {
+                "ai_id": "1",
+                "child_pos_id": "1",
+                "drop_item_list": [],
+                "enemy_id": "302035",
+                "init_hp": 928,
+                "lv": "49",
+                "max_hp": 928,
+                "no": "1",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "101001",
+                                "weight": "50"
+                            },
+                            {
+                                "ability_id": "201213",
+                                "weight": "50"
+                            }
+                        ],
+                        "acc": "100",
+                        "animation_info": {
+                            "assets": {
+                                "enemy-102086": "/Content/lang/ab/character/enemy/102086.sajson"
+                            },
+                            "enemy_status_id": "3020351",
+                            "hp_gauge_size": "2",
+                            "offset_x": "5",
+                            "offset_y": "-11",
+                            "path": "102086",
+                            "scale": "1.5",
+                            "uses_fix_pos": false
+                        },
+                        "atk": 121,
+                        "breed_id": "0",
+                        "counters": [],
+                        "critical": "3",
+                        "def": 83,
+                        "def_attributes": [
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "220",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "219",
+                                "factor": "1"
+                            }
+                        ],
+                        "disp_name": "Goblin Guard",
+                        "eva": "70",
+                        "exp": 405,
+                        "id": "3020351",
+                        "looking": "0",
+                        "lv": "49",
+                        "matk": 121,
+                        "max_hp": 928,
+                        "mdef": 83,
+                        "mnd": 83,
+                        "no": "1",
+                        "size": "1",
+                        "spd": "100"
+                    }
+                ],
+                "uid": "205"
+            }
+        ],
+        "deform_animation_info": [],
+        "id": "302035",
+        "is_sp_enemy": 0
+    },
+    {
+        "ai_id": 0,
+        "children": [
+            {
+                "ai_id": "1",
+                "child_pos_id": "1",
+                "drop_item_list": [],
+                "enemy_id": "302027",
+                "init_hp": 1752,
+                "lv": "49",
+                "max_hp": 1752,
+                "no": "1",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "101001",
+                                "weight": "100"
+                            }
+                        ],
+                        "acc": "100",
+                        "animation_info": {
+                            "assets": {
+                                "enemy-102017": "/Content/lang/ab/character/enemy/102017.sajson"
+                            },
+                            "enemy_status_id": "3020271",
+                            "hp_gauge_size": "2",
+                            "offset_x": "0",
+                            "offset_y": "-18",
+                            "path": "102017",
+                            "scale": "2.1",
+                            "uses_fix_pos": false
+                        },
+                        "atk": 159,
+                        "breed_id": "11",
+                        "counters": [],
+                        "critical": "3",
+                        "def": 61,
+                        "def_attributes": [
+                            {
+                                "attribute_id": "225",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "211",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "219",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "218",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "214",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "224",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "210",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "203",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "205",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "213",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "101",
+                                "factor": "11"
+                            },
+                            {
+                                "attribute_id": "223",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "201",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "202",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "212",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "100",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "220",
+                                "factor": "1"
+                            }
+                        ],
+                        "disp_name": "Dual Deads",
+                        "eva": "70",
+                        "exp": 506,
+                        "id": "3020271",
+                        "looking": "0",
+                        "lv": "49",
+                        "matk": 174,
+                        "max_hp": 1752,
+                        "mdef": 74,
+                        "mnd": 65,
+                        "no": "1",
+                        "size": "2",
+                        "spd": "100"
+                    }
+                ],
+                "uid": "206"
+            }
+        ],
+        "deform_animation_info": [],
+        "id": "302027",
+        "is_sp_enemy": 0
+    },
+    {
+        "ai_id": 0,
+        "children": [
+            {
+                "ai_id": "1",
+                "child_pos_id": "1",
+                "drop_item_list": [
+                    {
+                        "item_id": "40000047",
+                        "num": "1",
+                        "rarity": "2",
+                        "type": 51,
+                        "uid": 207
+                    }
+                ],
+                "enemy_id": "302035",
+                "init_hp": 928,
+                "lv": "49",
+                "max_hp": 928,
+                "no": "1",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "101001",
+                                "weight": "50"
+                            },
+                            {
+                                "ability_id": "201213",
+                                "weight": "50"
+                            }
+                        ],
+                        "acc": "100",
+                        "animation_info": {
+                            "assets": {
+                                "enemy-102086": "/Content/lang/ab/character/enemy/102086.sajson"
+                            },
+                            "enemy_status_id": "3020351",
+                            "hp_gauge_size": "2",
+                            "offset_x": "5",
+                            "offset_y": "-11",
+                            "path": "102086",
+                            "scale": "1.5",
+                            "uses_fix_pos": false
+                        },
+                        "atk": 121,
+                        "breed_id": "0",
+                        "counters": [],
+                        "critical": "3",
+                        "def": 83,
+                        "def_attributes": [
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "220",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "219",
+                                "factor": "1"
+                            }
+                        ],
+                        "disp_name": "Goblin Guard",
+                        "eva": "70",
+                        "exp": 405,
+                        "id": "3020351",
+                        "looking": "0",
+                        "lv": "49",
+                        "matk": 121,
+                        "max_hp": 928,
+                        "mdef": 83,
+                        "mnd": 83,
+                        "no": "1",
+                        "size": "1",
+                        "spd": "100"
+                    }
+                ],
+                "uid": "207"
+            }
+        ],
+        "deform_animation_info": [],
+        "id": "302035",
+        "is_sp_enemy": 0
+    },
+    {
+        "ai_id": 0,
+        "children": [
+            {
+                "ai_id": "1",
+                "child_pos_id": "1",
+                "drop_item_list": [
+                    {
+                        "item_id": "40000047",
+                        "num": "1",
+                        "rarity": "2",
+                        "type": 51,
+                        "uid": 208
+                    }
+                ],
+                "enemy_id": "302035",
+                "init_hp": 928,
+                "lv": "49",
+                "max_hp": 928,
+                "no": "1",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "101001",
+                                "weight": "50"
+                            },
+                            {
+                                "ability_id": "201213",
+                                "weight": "50"
+                            }
+                        ],
+                        "acc": "100",
+                        "animation_info": {
+                            "assets": {
+                                "enemy-102086": "/Content/lang/ab/character/enemy/102086.sajson"
+                            },
+                            "enemy_status_id": "3020351",
+                            "hp_gauge_size": "2",
+                            "offset_x": "5",
+                            "offset_y": "-11",
+                            "path": "102086",
+                            "scale": "1.5",
+                            "uses_fix_pos": false
+                        },
+                        "atk": 121,
+                        "breed_id": "0",
+                        "counters": [],
+                        "critical": "3",
+                        "def": 83,
+                        "def_attributes": [
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "220",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "219",
+                                "factor": "1"
+                            }
+                        ],
+                        "disp_name": "Goblin Guard",
+                        "eva": "70",
+                        "exp": 405,
+                        "id": "3020351",
+                        "looking": "0",
+                        "lv": "49",
+                        "matk": 121,
+                        "max_hp": 928,
+                        "mdef": 83,
+                        "mnd": 83,
+                        "no": "1",
+                        "size": "1",
+                        "spd": "100"
+                    }
+                ],
+                "uid": "208"
+            }
+        ],
+        "deform_animation_info": [],
+        "id": "302035",
+        "is_sp_enemy": 0
+    }
+]

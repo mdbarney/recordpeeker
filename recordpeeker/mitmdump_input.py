@@ -43,6 +43,12 @@ def save_battles(data):
 #         writer = csv.writer(f)
 #         writer.writerows(data)
 
+def uniq(input):
+    output = []
+    for x in input:
+        if x not in output:
+            output.append(x)
+    return output
 
 def get_enemy_stats_from_json(dungeon_id):
     temp = []
@@ -62,11 +68,11 @@ def get_abilities_stats_from_json():
 
     return temp
 
-def save_abilities(data):
+def save_enemy_abilities(data):
 
     temp = []
     temp2 = []
-    enemy_file_path = os.getcwd() + "/data/abilities.json"
+    enemy_file_path = os.getcwd() + "/data/enemy_abilities.json"
 
     if os.path.isfile(enemy_file_path):
         temp = get_abilities_stats_from_json()
@@ -80,11 +86,54 @@ def save_abilities(data):
 
     # print temp2
 
-    enemy_output_file = open(os.getcwd() + "/data/abilities.json", 'w')
+    # remove duplicates
+    temp3 = uniq(temp2)
+
+    save_single_ability(temp3, "/data/enemy_abilities/")
+
+    enemy_output_file = open(os.getcwd() + "/data/enemy_abilities.json", 'w')
     enemy_output_file.seek(0)
     
-    print >> enemy_output_file, json.dumps(temp2, indent=4, separators=(',', ': '), sort_keys=True)
+    print >> enemy_output_file, json.dumps(temp3, indent=4, separators=(',', ': '), sort_keys=True)
     enemy_output_file.close()
+
+def save_abilities(data, path):
+
+    temp = []
+    temp2 = []
+    enemy_file_path = os.getcwd() + path + ".json"
+
+    if os.path.isfile(enemy_file_path):
+        temp = get_abilities_stats_from_json()
+
+    # combine the two lists
+    for ability in temp:
+        temp2.append(ability)
+
+    for ability in data:
+        temp2.append(ability)
+
+    # print temp2
+
+    # remove duplicates
+    temp3 = uniq(temp2)
+
+    save_single_ability(temp3, str(path) + "/")
+
+    enemy_output_file = open(os.getcwd() + path + ".json", 'w')
+    enemy_output_file.seek(0)
+    
+    print >> enemy_output_file, json.dumps(temp3, indent=4, separators=(',', ': '), sort_keys=True)
+    enemy_output_file.close()
+
+def save_single_ability(data, path):
+
+    for ability in data:
+        temp_str = ability['options'].get("name","Error")
+        a = temp_str.replace(" ", "_").lower()
+        test_file = open(os.getcwd() + path + a + ".json",'w')
+        print >> test_file, json.dumps(ability, indent=4, sort_keys=True)
+        test_file.close()
 
 def save_enemy_stats(data, dungeon_id):
 
@@ -136,6 +185,8 @@ def get_drops(enemy):
 def handle_get_battle_init_data(data):
     enemy_list = []
     ability_list = []
+    soul_strike_list = []
+    enemy_ability_list = []
 
     pp = pprint.PrettyPrinter(indent=4)
 
@@ -186,7 +237,6 @@ def handle_get_battle_init_data(data):
                 else:
                     itemname = "unknown"
                 had_drop = True
-            if had_drop:
                 tbl.append([round, enemyname, enemyhp, itemname])
             if not had_drop:
                 tbl.append([round, enemyname, enemyhp, "nothing"])
@@ -196,7 +246,7 @@ def handle_get_battle_init_data(data):
             # print enemy_list
             # pp.pprint(enemy_list)
 
-    print "enemy_list: " + str(len(enemy_list))
+    # print "enemy_list: " + str(len(enemy_list))
     print tabulate(tbl, headers="firstrow")
     print ""
     # print tabulate(tbl)
@@ -213,9 +263,25 @@ def handle_get_battle_init_data(data):
             # exercise_type = ability.get("exercise_type")
             # for options in ability["options"]:
             ability_list.append(ability)
+        for soul_strike in buddy["soul_strike"]:
+            # for option in soul_strike:
+            # print soul_strike["options"].get("name","Error")
+            # print soul_strike
+            soul_strike_list.append(soul_strike)
 
     # only need to save abilities when new ones come out or create the ones I don't have
-    # save_abilities(ability_list)
+
+    enemy_ability_data = battle_data["enemy_abilities"]
+    for enemy_ability in enemy_ability_data:
+        enemy_ability_list.append(enemy_ability)
+
+    # print soul_strike_list
+    # print enemy_ability_list
+
+    save_abilities(ability_list, "/data/abilities")
+    # save_abilities(soul_strike_list, "/data/soul_strikes")
+    save_abilities(enemy_ability_list, "/data/enemy_abilities")
+    # save_enemy_abilities(enemy_ability_list)
 
 def handle_party_list(data):
 
