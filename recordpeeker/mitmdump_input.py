@@ -181,12 +181,28 @@ def get_drops(enemy):
         for drop in child["drop_item_list"]:
             yield drop
 
+# def get_buddy_hp(buddy):
+#     for child in buddy["children"]:
+#         # return child.get("max_hp", "Unknown HP")
+#         for param in child["params"]:
+#             return param.get("max_hp", "Unknown HP")
+
+def get_buddy_name(buddy):
+    for param in buddy["params"]:
+        # return child.get("max_hp", "Unknown HP")
+        return param.get("disp_name", "Unknown name")
+
+def get_buddy_param(buddy, param):
+    for par in buddy["params"]:
+        # return child.get("max_hp", "Unknown HP")
+        return par.get(param, "Unknown")
 
 def handle_get_battle_init_data(data):
     enemy_list = []
     ability_list = []
     soul_strike_list = []
     enemy_ability_list = []
+    character_list = []
 
     pp = pprint.PrettyPrinter(indent=4)
 
@@ -256,6 +272,44 @@ def handle_get_battle_init_data(data):
     # ability data
     buddy_data = battle_data["buddy"]
     for buddy in buddy_data:
+        # temp_stats = {}
+        # character_list.append(buddy)
+        temp_str = get_buddy_name(buddy)
+        level = get_buddy_param(buddy, "level")
+        a = temp_str.replace(" ", "_").lower()
+
+        temp_stats = {"acc": get_buddy_param(buddy,"acc"), 
+                        "atk": get_buddy_param(buddy,"atk"), "max_hp": buddy["max_hp"],
+                        "critical": get_buddy_param(buddy,"critical"), 
+                        "def": get_buddy_param(buddy,"def"), 
+                        "disp_name": get_buddy_param(buddy,"disp_name"), 
+                        "eva": get_buddy_param(buddy,"eva"), 
+                        "handedness": get_buddy_param(buddy,"handedness"), 
+                        "id": get_buddy_param(buddy,"id"), 
+                        "level": get_buddy_param(buddy,"level"), 
+                        "matk": get_buddy_param(buddy,"matk"), 
+                        "mdef": get_buddy_param(buddy,"mdef"), 
+                        "mnd": get_buddy_param(buddy,"mnd"), 
+                        "spd": get_buddy_param(buddy,"spd")
+                        }
+        if not os.access(os.getcwd() + "/data/buddy/" + a + "/", os.F_OK):
+            os.mkdir(os.getcwd() + "/data/buddy/" + a + "/")
+
+        if not os.access(os.getcwd() + "/data/buddy/" + a + "/" + level + "/", os.F_OK):
+            os.mkdir(os.getcwd() + "/data/buddy/" + a + "/" + level + "/")
+        # os.mkdir(os.getcwd() + "/data/buddy/" + a + "/raw/")
+        test_file_raw = open(os.getcwd() + "/data/buddy/raw/" + a + "_" + time.strftime("%m%d%Y-%H%M%S")+ ".json",'w')
+        test_file = open(os.getcwd() + "/data/buddy/" + a + "/" + level + "/" + a + "_level_" + level+ "_stats.json",'w')
+        
+        print >> test_file_raw, json.dumps(buddy, indent=4, sort_keys=True)
+        print >> test_file, json.dumps(temp_stats, indent=4, sort_keys=True)
+        test_file.close()
+        # print get_buddy_name(buddy)
+        # for soul_strike in buddy["soul_strike"]:
+        #     # for option in soul_strike["options"]:
+        #     # print soul_strike["options"].get("name","Error")
+        #     # print soul_strike
+        #     soul_strike_list.append(soul_strike)
         for ability in buddy["abilities"]:
             # ability_id = ability.get("ability_id")
             # action_id = ability.get("action_id")
@@ -263,11 +317,7 @@ def handle_get_battle_init_data(data):
             # exercise_type = ability.get("exercise_type")
             # for options in ability["options"]:
             ability_list.append(ability)
-        for soul_strike in buddy["soul_strike"]:
-            # for option in soul_strike:
-            # print soul_strike["options"].get("name","Error")
-            # print soul_strike
-            soul_strike_list.append(soul_strike)
+       
 
     # only need to save abilities when new ones come out or create the ones I don't have
 
@@ -275,7 +325,12 @@ def handle_get_battle_init_data(data):
     for enemy_ability in enemy_ability_data:
         enemy_ability_list.append(enemy_ability)
 
-    # print soul_strike_list
+    # print "\nsoul_stike_list:\n" 
+    # # print soul_strike_list
+    # for option in soul_strike_list["options"]:
+    #     print option
+    # print "\ncharacter_list:\n"
+    # print character_list
     # print enemy_ability_list
 
     save_abilities(ability_list, "/data/abilities")

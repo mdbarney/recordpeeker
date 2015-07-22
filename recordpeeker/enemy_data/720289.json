@@ -577,5 +577,604 @@
         "deform_animation_info": [],
         "id": "307122",
         "is_sp_enemy": 0
+    },
+    {
+        "ai_id": 0,
+        "children": [
+            {
+                "ai_id": "1",
+                "child_pos_id": "1",
+                "drop_item_list": [
+                    {
+                        "item_id": "40000026",
+                        "num": "1",
+                        "rarity": "1",
+                        "type": 51,
+                        "uid": 201
+                    }
+                ],
+                "enemy_id": "307119",
+                "init_hp": 113,
+                "lv": "5",
+                "max_hp": 113,
+                "no": "1",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "103029",
+                                "weight": "100"
+                            },
+                            {
+                                "ability_id": "101001",
+                                "weight": "0"
+                            }
+                        ],
+                        "acc": "100",
+                        "animation_info": {
+                            "assets": {
+                                "enemy-107001": "/Content/lang/ab/character/enemy/107001.sajson"
+                            },
+                            "enemy_status_id": "3071191",
+                            "hp_gauge_size": "2",
+                            "offset_x": "2",
+                            "offset_y": "-15",
+                            "path": "107001",
+                            "scale": "2",
+                            "uses_fix_pos": false
+                        },
+                        "atk": 33,
+                        "breed_id": "12",
+                        "counters": [],
+                        "critical": "3",
+                        "def": 11,
+                        "def_attributes": [],
+                        "disp_name": "MP ",
+                        "eva": "70",
+                        "exp": 70,
+                        "id": "3071191",
+                        "looking": "0",
+                        "lv": "5",
+                        "matk": 35,
+                        "max_hp": 113,
+                        "mdef": 11,
+                        "mnd": 23,
+                        "no": "1",
+                        "size": "2",
+                        "spd": "100"
+                    }
+                ],
+                "uid": "201"
+            }
+        ],
+        "deform_animation_info": [],
+        "id": "307119",
+        "is_sp_enemy": 0
+    },
+    {
+        "ai_id": 0,
+        "children": [
+            {
+                "ai_id": "1",
+                "child_pos_id": "1",
+                "drop_item_list": [
+                    {
+                        "item_id": "40000036",
+                        "num": "1",
+                        "rarity": "1",
+                        "type": 51,
+                        "uid": 202
+                    }
+                ],
+                "enemy_id": "307121",
+                "init_hp": 135,
+                "lv": "5",
+                "max_hp": 135,
+                "no": "1",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "103029",
+                                "weight": "100"
+                            },
+                            {
+                                "ability_id": "101001",
+                                "weight": "0"
+                            }
+                        ],
+                        "acc": "100",
+                        "animation_info": {
+                            "assets": {
+                                "enemy-107014": "/Content/lang/ab/character/enemy/107014.sajson"
+                            },
+                            "enemy_status_id": "3071211",
+                            "hp_gauge_size": "2",
+                            "offset_x": "0",
+                            "offset_y": "-12",
+                            "path": "107014",
+                            "scale": "1.1",
+                            "uses_fix_pos": false
+                        },
+                        "atk": 36,
+                        "breed_id": "14",
+                        "counters": [],
+                        "critical": "3",
+                        "def": 22,
+                        "def_attributes": [
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "102",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "200",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "210",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "213",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "202",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "211",
+                                "factor": "1"
+                            }
+                        ],
+                        "disp_name": "Proto Machinegun ",
+                        "eva": "86",
+                        "exp": 70,
+                        "id": "3071211",
+                        "looking": "0",
+                        "lv": "5",
+                        "matk": 27,
+                        "max_hp": 135,
+                        "mdef": 6,
+                        "mnd": 13,
+                        "no": "1",
+                        "size": "2",
+                        "spd": "100"
+                    }
+                ],
+                "uid": "202"
+            }
+        ],
+        "deform_animation_info": [],
+        "id": "307121",
+        "is_sp_enemy": 0
+    },
+    {
+        "ai_id": 0,
+        "children": [
+            {
+                "ai_id": "1",
+                "child_pos_id": "1",
+                "drop_item_list": [],
+                "enemy_id": "307121",
+                "init_hp": 135,
+                "lv": "5",
+                "max_hp": 135,
+                "no": "1",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "103029",
+                                "weight": "100"
+                            },
+                            {
+                                "ability_id": "101001",
+                                "weight": "0"
+                            }
+                        ],
+                        "acc": "100",
+                        "animation_info": {
+                            "assets": {
+                                "enemy-107014": "/Content/lang/ab/character/enemy/107014.sajson"
+                            },
+                            "enemy_status_id": "3071211",
+                            "hp_gauge_size": "2",
+                            "offset_x": "0",
+                            "offset_y": "-12",
+                            "path": "107014",
+                            "scale": "1.1",
+                            "uses_fix_pos": false
+                        },
+                        "atk": 36,
+                        "breed_id": "14",
+                        "counters": [],
+                        "critical": "3",
+                        "def": 22,
+                        "def_attributes": [
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "102",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "200",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "210",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "213",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "202",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "211",
+                                "factor": "1"
+                            }
+                        ],
+                        "disp_name": "Proto Machinegun ",
+                        "eva": "86",
+                        "exp": 70,
+                        "id": "3071211",
+                        "looking": "0",
+                        "lv": "5",
+                        "matk": 27,
+                        "max_hp": 135,
+                        "mdef": 6,
+                        "mnd": 13,
+                        "no": "1",
+                        "size": "2",
+                        "spd": "100"
+                    }
+                ],
+                "uid": "203"
+            }
+        ],
+        "deform_animation_info": [],
+        "id": "307121",
+        "is_sp_enemy": 0
+    },
+    {
+        "ai_id": 0,
+        "children": [
+            {
+                "ai_id": "1",
+                "child_pos_id": "1",
+                "drop_item_list": [],
+                "enemy_id": "307124",
+                "init_hp": 128,
+                "lv": "5",
+                "max_hp": 128,
+                "no": "1",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "201525",
+                                "weight": "20"
+                            },
+                            {
+                                "ability_id": "103040",
+                                "weight": "20"
+                            },
+                            {
+                                "ability_id": "101001",
+                                "weight": "60"
+                            }
+                        ],
+                        "acc": "100",
+                        "animation_info": {
+                            "assets": {
+                                "enemy-107115": "/Content/lang/ab/character/enemy/107115.sajson"
+                            },
+                            "enemy_status_id": "3071241",
+                            "hp_gauge_size": "2",
+                            "offset_x": "2",
+                            "offset_y": "-20",
+                            "path": "107115",
+                            "scale": "2",
+                            "uses_fix_pos": false
+                        },
+                        "atk": 38,
+                        "breed_id": "11",
+                        "counters": [],
+                        "critical": "3",
+                        "def": 6,
+                        "def_attributes": [
+                            {
+                                "attribute_id": "103",
+                                "factor": "11"
+                            },
+                            {
+                                "attribute_id": "225",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "104",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "220",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "206",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "202",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "218",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "219",
+                                "factor": "1"
+                            }
+                        ],
+                        "disp_name": "Sonic Speed ",
+                        "eva": "70",
+                        "exp": 70,
+                        "id": "3071241",
+                        "looking": "0",
+                        "lv": "5",
+                        "matk": 41,
+                        "max_hp": 128,
+                        "mdef": 8,
+                        "mnd": 16,
+                        "no": "1",
+                        "size": "2",
+                        "spd": "100"
+                    }
+                ],
+                "uid": "204"
+            }
+        ],
+        "deform_animation_info": [],
+        "id": "307124",
+        "is_sp_enemy": 0
+    },
+    {
+        "ai_id": 0,
+        "children": [
+            {
+                "ai_id": "1",
+                "child_pos_id": "1",
+                "drop_item_list": [
+                    {
+                        "item_id": "40000026",
+                        "num": "1",
+                        "rarity": "1",
+                        "type": 51,
+                        "uid": 205
+                    }
+                ],
+                "enemy_id": "307122",
+                "init_hp": 83,
+                "lv": "5",
+                "max_hp": 83,
+                "no": "1",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "201083",
+                                "weight": "25"
+                            },
+                            {
+                                "ability_id": "101001",
+                                "weight": "45"
+                            },
+                            {
+                                "ability_id": "102021",
+                                "weight": "30"
+                            }
+                        ],
+                        "acc": "100",
+                        "animation_info": {
+                            "assets": {
+                                "enemy-107067": "/Content/lang/ab/character/enemy/107067.sajson"
+                            },
+                            "enemy_status_id": "3071221",
+                            "hp_gauge_size": "2",
+                            "offset_x": "0",
+                            "offset_y": "-15",
+                            "path": "107067",
+                            "scale": "2",
+                            "uses_fix_pos": false
+                        },
+                        "atk": 33,
+                        "breed_id": "4",
+                        "counters": [],
+                        "critical": "3",
+                        "def": 17,
+                        "def_attributes": [
+                            {
+                                "attribute_id": "220",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "225",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "101",
+                                "factor": "6"
+                            },
+                            {
+                                "attribute_id": "219",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "218",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            }
+                        ],
+                        "disp_name": "Beachplug ",
+                        "eva": "70",
+                        "exp": 70,
+                        "id": "3071221",
+                        "looking": "0",
+                        "lv": "5",
+                        "matk": 35,
+                        "max_hp": 83,
+                        "mdef": 13,
+                        "mnd": 23,
+                        "no": "1",
+                        "size": "2",
+                        "spd": "100"
+                    }
+                ],
+                "uid": "205"
+            }
+        ],
+        "deform_animation_info": [],
+        "id": "307122",
+        "is_sp_enemy": 0
+    },
+    {
+        "ai_id": 0,
+        "children": [
+            {
+                "ai_id": "1",
+                "child_pos_id": "1",
+                "drop_item_list": [
+                    {
+                        "item_id": "40000036",
+                        "num": "1",
+                        "rarity": "1",
+                        "type": 51,
+                        "uid": 206
+                    }
+                ],
+                "enemy_id": "307122",
+                "init_hp": 83,
+                "lv": "5",
+                "max_hp": 83,
+                "no": "1",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "201083",
+                                "weight": "25"
+                            },
+                            {
+                                "ability_id": "101001",
+                                "weight": "45"
+                            },
+                            {
+                                "ability_id": "102021",
+                                "weight": "30"
+                            }
+                        ],
+                        "acc": "100",
+                        "animation_info": {
+                            "assets": {
+                                "enemy-107067": "/Content/lang/ab/character/enemy/107067.sajson"
+                            },
+                            "enemy_status_id": "3071221",
+                            "hp_gauge_size": "2",
+                            "offset_x": "0",
+                            "offset_y": "-15",
+                            "path": "107067",
+                            "scale": "2",
+                            "uses_fix_pos": false
+                        },
+                        "atk": 33,
+                        "breed_id": "4",
+                        "counters": [],
+                        "critical": "3",
+                        "def": 17,
+                        "def_attributes": [
+                            {
+                                "attribute_id": "220",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "225",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "101",
+                                "factor": "6"
+                            },
+                            {
+                                "attribute_id": "219",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "218",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            }
+                        ],
+                        "disp_name": "Beachplug ",
+                        "eva": "70",
+                        "exp": 70,
+                        "id": "3071221",
+                        "looking": "0",
+                        "lv": "5",
+                        "matk": 35,
+                        "max_hp": 83,
+                        "mdef": 13,
+                        "mnd": 23,
+                        "no": "1",
+                        "size": "2",
+                        "spd": "100"
+                    }
+                ],
+                "uid": "206"
+            }
+        ],
+        "deform_animation_info": [],
+        "id": "307122",
+        "is_sp_enemy": 0
     }
 ]

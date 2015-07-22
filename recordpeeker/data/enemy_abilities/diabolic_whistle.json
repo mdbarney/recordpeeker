@@ -1,0 +1,53 @@
+{
+    "ability_id": "201140", 
+    "action_id": "14", 
+    "animation_info": {
+        "atk_motion": "chant_end", 
+        "chara_in": "", 
+        "chara_out": "", 
+        "damage_tag": "damage_dark", 
+        "hit": "50436/50436_hit.json", 
+        "hit_arg": "0", 
+        "hit_next_tag": "", 
+        "hit_type": "1", 
+        "id": "50436", 
+        "launch": "common/launch_blue.json", 
+        "launch_next_tag": "", 
+        "launch_type": "99", 
+        "miss_hit": "", 
+        "other_in": "", 
+        "other_out": "", 
+        "recover_tag": "", 
+        "return_hit": "", 
+        "return_shot": "", 
+        "return_type": "99", 
+        "reverse_hit": "1", 
+        "reverse_shot": "1", 
+        "shot": "50436/50436_shot.json", 
+        "shot_next_tag": "", 
+        "shot_type": "4"
+    }, 
+    "assets": {
+        "ability-50436_hit": "/Content/lang/ab/ability/50436/50436_hit.json", 
+        "ability-50436_launch": "/Content/lang/ab/ability/common/launch_blue.json", 
+        "ability-50436_shot": "/Content/lang/ab/ability/50436/50436_shot.json"
+    }, 
+    "exercise_type": "7", 
+    "options": {
+        "ability_animation_id": "50436", 
+        "arg1": "200", 
+        "arg2": "203", 
+        "arg3": "210", 
+        "arg4": "213", 
+        "arg5": "205", 
+        "cast_time": "2100", 
+        "counter_enable": "14", 
+        "name": "Diabolic Whistle", 
+        "status_ailments_factor": "10", 
+        "status_ailments_id": "200", 
+        "target_death": "1", 
+        "target_method": "6", 
+        "target_range": "2", 
+        "target_segment": "1"
+    }
+}

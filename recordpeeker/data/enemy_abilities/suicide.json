@@ -1,0 +1,53 @@
+{
+    "ability_id": "201066", 
+    "action_id": "15", 
+    "animation_info": {
+        "atk_motion": "", 
+        "chara_in": "", 
+        "chara_out": "", 
+        "damage_tag": "damage", 
+        "hit": "30002/30002_hit.json", 
+        "hit_arg": "0", 
+        "hit_next_tag": "", 
+        "hit_type": "1", 
+        "id": "30002", 
+        "launch": "common/launch_empty.json", 
+        "launch_next_tag": "", 
+        "launch_type": "99", 
+        "miss_hit": "", 
+        "other_in": "", 
+        "other_out": "", 
+        "recover_tag": "", 
+        "return_hit": "", 
+        "return_shot": "", 
+        "return_type": "99", 
+        "reverse_hit": "1", 
+        "reverse_shot": "1", 
+        "shot": "common/shot_empty.json", 
+        "shot_next_tag": "", 
+        "shot_type": "99"
+    }, 
+    "assets": {
+        "ability-30002_hit": "/Content/lang/ab/ability/30002/30002_hit.json", 
+        "ability-30002_launch": "/Content/lang/ab/ability/common/launch_empty.json", 
+        "ability-30002_shot": "/Content/lang/ab/ability/common/shot_empty.json"
+    }, 
+    "exercise_type": "7", 
+    "options": {
+        "ability_animation_id": "30002", 
+        "arg1": "214", 
+        "arg2": "0", 
+        "arg3": "0", 
+        "arg4": "0", 
+        "arg5": "0", 
+        "cast_time": "2100", 
+        "counter_enable": "15", 
+        "name": "Suicide", 
+        "status_ailments_factor": "26", 
+        "status_ailments_id": "214", 
+        "target_death": "1", 
+        "target_method": "6", 
+        "target_range": "3", 
+        "target_segment": "2"
+    }
+}

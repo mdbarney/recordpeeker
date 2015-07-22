@@ -1,5 +1,5 @@
 {
-    "ability_id": "102065", 
+    "ability_id": "30111141", 
     "action_id": "14", 
     "animation_info": {
         "atk_motion": "chant_end", 
@@ -32,18 +32,22 @@
         "ability-15020_launch": "/Content/lang/ab/ability/common/launch_black.json", 
         "ability-15020_shot": "/Content/lang/ab/ability/common/shot_empty.json"
     }, 
+    "category_id": "1", 
     "exercise_type": "4", 
     "options": {
         "ability_animation_id": "15020", 
+        "active_target_method": "4", 
+        "alias_name": "", 
         "arg1": "212", 
         "arg2": "0", 
         "arg3": "0", 
         "arg4": "0", 
         "arg5": "0", 
-        "cast_time": "1920", 
-        "counter_enable": "14", 
+        "cast_time": "1800", 
+        "counter_enable": "1", 
         "name": "Break", 
-        "status_ailments_factor": "10", 
+        "panel_name": "Break", 
+        "status_ailments_factor": "25", 
         "status_ailments_id": "212", 
         "target_death": "1", 
         "target_method": "4", 

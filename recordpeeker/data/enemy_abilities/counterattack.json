@@ -1,0 +1,53 @@
+{
+    "ability_id": "103027", 
+    "action_id": "3", 
+    "animation_info": {
+        "atk_motion": "", 
+        "chara_in": "", 
+        "chara_out": "", 
+        "damage_tag": "damage", 
+        "hit": "50216/50216_hit.json", 
+        "hit_arg": "0", 
+        "hit_next_tag": "", 
+        "hit_type": "1", 
+        "id": "50216", 
+        "launch": "common/launch_blue.json", 
+        "launch_next_tag": "", 
+        "launch_type": "2", 
+        "miss_hit": "", 
+        "other_in": "", 
+        "other_out": "", 
+        "recover_tag": "", 
+        "return_hit": "", 
+        "return_shot": "", 
+        "return_type": "99", 
+        "reverse_hit": "1", 
+        "reverse_shot": "1", 
+        "shot": "common/shot_empty.json", 
+        "shot_next_tag": "", 
+        "shot_type": "99"
+    }, 
+    "assets": {
+        "ability-50216_hit": "/Content/lang/ab/ability/50216/50216_hit.json", 
+        "ability-50216_launch": "/Content/lang/ab/ability/common/launch_blue.json", 
+        "ability-50216_shot": "/Content/lang/ab/ability/common/shot_empty.json"
+    }, 
+    "exercise_type": "1", 
+    "options": {
+        "ability_animation_id": "50216", 
+        "arg1": "120", 
+        "arg2": "1", 
+        "arg3": "0", 
+        "arg4": "0", 
+        "arg5": "0", 
+        "cast_time": "1760", 
+        "counter_enable": "3", 
+        "name": "Counterattack", 
+        "status_ailments_factor": "6", 
+        "status_ailments_id": "0", 
+        "target_death": "1", 
+        "target_method": "5", 
+        "target_range": "1", 
+        "target_segment": "1"
+    }
+}

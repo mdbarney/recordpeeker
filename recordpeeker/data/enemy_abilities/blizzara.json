@@ -1,5 +1,5 @@
 {
-    "ability_id": "102022", 
+    "ability_id": "30111012", 
     "action_id": "5", 
     "animation_info": {
         "atk_motion": "chant_end", 
@@ -32,21 +32,25 @@
         "ability-12001_launch": "/Content/lang/ab/ability/common/launch_black.json", 
         "ability-12001_shot": "/Content/lang/ab/ability/common/shot_empty.json"
     }, 
+    "category_id": "1", 
     "exercise_type": "4", 
     "options": {
         "ability_animation_id": "12001", 
-        "arg1": "200", 
+        "active_target_method": "4", 
+        "alias_name": "", 
+        "arg1": "290", 
         "arg2": "101", 
         "arg3": "0", 
         "arg4": "0", 
         "arg5": "0", 
-        "cast_time": "2100", 
-        "counter_enable": "5", 
+        "cast_time": "1800", 
+        "counter_enable": "1", 
         "name": "Blizzara", 
-        "status_ailments_factor": "26", 
+        "panel_name": "Blizzara", 
+        "status_ailments_factor": "0", 
         "status_ailments_id": "0", 
         "target_death": "1", 
-        "target_method": "5", 
+        "target_method": "2", 
         "target_range": "1", 
         "target_segment": "1"
     }

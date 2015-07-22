@@ -1,0 +1,1129 @@
+[
+    {
+        "ai_id": 0,
+        "children": [
+            {
+                "ai_id": "1",
+                "child_pos_id": "1",
+                "drop_item_list": [],
+                "enemy_id": "304009",
+                "init_hp": 158,
+                "lv": "7",
+                "max_hp": 158,
+                "no": "1",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "101021",
+                                "weight": "100"
+                            }
+                        ],
+                        "acc": "100",
+                        "animation_info": {
+                            "assets": {
+                                "enemy-104012": "/Content/lang/ab/character/enemy/104012.sajson"
+                            },
+                            "enemy_status_id": "3040091",
+                            "hp_gauge_size": "2",
+                            "offset_x": "5",
+                            "offset_y": "-20",
+                            "path": "104012",
+                            "scale": "2",
+                            "uses_fix_pos": false
+                        },
+                        "atk": 29,
+                        "breed_id": "1",
+                        "counters": [],
+                        "critical": "3",
+                        "def": 20,
+                        "def_attributes": [
+                            {
+                                "attribute_id": "210",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "101",
+                                "factor": "6"
+                            },
+                            {
+                                "attribute_id": "223",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "200",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "219",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "211",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "214",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "220",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "100",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "107",
+                                "factor": "6"
+                            },
+                            {
+                                "attribute_id": "106",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "102",
+                                "factor": "6"
+                            },
+                            {
+                                "attribute_id": "213",
+                                "factor": "1"
+                            }
+                        ],
+                        "disp_name": "Zombie",
+                        "eva": "100",
+                        "exp": 90,
+                        "id": "3040091",
+                        "looking": "0",
+                        "lv": "7",
+                        "matk": 27,
+                        "max_hp": 158,
+                        "mdef": 10,
+                        "mnd": 10,
+                        "no": "1",
+                        "size": "2",
+                        "spd": "49"
+                    }
+                ],
+                "uid": "201"
+            }
+        ],
+        "deform_animation_info": [],
+        "id": "304009",
+        "is_sp_enemy": 0
+    },
+    {
+        "ai_id": 0,
+        "children": [
+            {
+                "ai_id": "1",
+                "child_pos_id": "1",
+                "drop_item_list": [],
+                "enemy_id": "304017",
+                "init_hp": 158,
+                "lv": "7",
+                "max_hp": 158,
+                "no": "1",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "103039",
+                                "weight": "30"
+                            },
+                            {
+                                "ability_id": "101001",
+                                "weight": "70"
+                            }
+                        ],
+                        "acc": "100",
+                        "animation_info": {
+                            "assets": {
+                                "enemy-104009": "/Content/lang/ab/character/enemy/104009.sajson"
+                            },
+                            "enemy_status_id": "3040171",
+                            "hp_gauge_size": "2",
+                            "offset_x": "3",
+                            "offset_y": "-24",
+                            "path": "104009",
+                            "scale": "3",
+                            "uses_fix_pos": false
+                        },
+                        "atk": 27,
+                        "breed_id": "0",
+                        "counters": [],
+                        "critical": "3",
+                        "def": 14,
+                        "def_attributes": [
+                            {
+                                "attribute_id": "103",
+                                "factor": "21"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "100",
+                                "factor": "6"
+                            },
+                            {
+                                "attribute_id": "101",
+                                "factor": "1"
+                            }
+                        ],
+                        "disp_name": "Sand Worm",
+                        "eva": "100",
+                        "exp": 90,
+                        "id": "3040171",
+                        "looking": "0",
+                        "lv": "7",
+                        "matk": 27,
+                        "max_hp": 158,
+                        "mdef": 14,
+                        "mnd": 14,
+                        "no": "1",
+                        "size": "2",
+                        "spd": "70"
+                    }
+                ],
+                "uid": "202"
+            }
+        ],
+        "deform_animation_info": [],
+        "id": "304017",
+        "is_sp_enemy": 0
+    },
+    {
+        "ai_id": 0,
+        "children": [
+            {
+                "ai_id": "1",
+                "child_pos_id": "1",
+                "drop_item_list": [
+                    {
+                        "amount": 186,
+                        "rarity": 1,
+                        "type": 11,
+                        "uid": 203
+                    }
+                ],
+                "enemy_id": "304009",
+                "init_hp": 158,
+                "lv": "7",
+                "max_hp": 158,
+                "no": "1",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "101021",
+                                "weight": "100"
+                            }
+                        ],
+                        "acc": "100",
+                        "animation_info": {
+                            "assets": {
+                                "enemy-104012": "/Content/lang/ab/character/enemy/104012.sajson"
+                            },
+                            "enemy_status_id": "3040091",
+                            "hp_gauge_size": "2",
+                            "offset_x": "5",
+                            "offset_y": "-20",
+                            "path": "104012",
+                            "scale": "2",
+                            "uses_fix_pos": false
+                        },
+                        "atk": 29,
+                        "breed_id": "1",
+                        "counters": [],
+                        "critical": "3",
+                        "def": 20,
+                        "def_attributes": [
+                            {
+                                "attribute_id": "210",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "101",
+                                "factor": "6"
+                            },
+                            {
+                                "attribute_id": "223",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "200",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "219",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "211",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "214",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "220",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "100",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "107",
+                                "factor": "6"
+                            },
+                            {
+                                "attribute_id": "106",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "102",
+                                "factor": "6"
+                            },
+                            {
+                                "attribute_id": "213",
+                                "factor": "1"
+                            }
+                        ],
+                        "disp_name": "Zombie",
+                        "eva": "100",
+                        "exp": 90,
+                        "id": "3040091",
+                        "looking": "0",
+                        "lv": "7",
+                        "matk": 27,
+                        "max_hp": 158,
+                        "mdef": 10,
+                        "mnd": 10,
+                        "no": "1",
+                        "size": "2",
+                        "spd": "49"
+                    }
+                ],
+                "uid": "203"
+            }
+        ],
+        "deform_animation_info": [],
+        "id": "304009",
+        "is_sp_enemy": 0
+    },
+    {
+        "ai_id": 0,
+        "children": [
+            {
+                "ai_id": "1",
+                "child_pos_id": "1",
+                "drop_item_list": [
+                    {
+                        "item_id": "40000056",
+                        "num": "1",
+                        "rarity": "1",
+                        "type": 51,
+                        "uid": 204
+                    }
+                ],
+                "enemy_id": "304017",
+                "init_hp": 158,
+                "lv": "7",
+                "max_hp": 158,
+                "no": "1",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "103039",
+                                "weight": "30"
+                            },
+                            {
+                                "ability_id": "101001",
+                                "weight": "70"
+                            }
+                        ],
+                        "acc": "100",
+                        "animation_info": {
+                            "assets": {
+                                "enemy-104009": "/Content/lang/ab/character/enemy/104009.sajson"
+                            },
+                            "enemy_status_id": "3040171",
+                            "hp_gauge_size": "2",
+                            "offset_x": "3",
+                            "offset_y": "-24",
+                            "path": "104009",
+                            "scale": "3",
+                            "uses_fix_pos": false
+                        },
+                        "atk": 27,
+                        "breed_id": "0",
+                        "counters": [],
+                        "critical": "3",
+                        "def": 14,
+                        "def_attributes": [
+                            {
+                                "attribute_id": "103",
+                                "factor": "21"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "100",
+                                "factor": "6"
+                            },
+                            {
+                                "attribute_id": "101",
+                                "factor": "1"
+                            }
+                        ],
+                        "disp_name": "Sand Worm",
+                        "eva": "100",
+                        "exp": 90,
+                        "id": "3040171",
+                        "looking": "0",
+                        "lv": "7",
+                        "matk": 27,
+                        "max_hp": 158,
+                        "mdef": 14,
+                        "mnd": 14,
+                        "no": "1",
+                        "size": "2",
+                        "spd": "70"
+                    }
+                ],
+                "uid": "204"
+            }
+        ],
+        "deform_animation_info": [],
+        "id": "304017",
+        "is_sp_enemy": 0
+    },
+    {
+        "ai_id": 0,
+        "children": [
+            {
+                "ai_id": "1",
+                "child_pos_id": "1",
+                "drop_item_list": [
+                    {
+                        "item_id": "21001004",
+                        "num": "1",
+                        "rarity": "1",
+                        "type": 41,
+                        "uid": 205
+                    }
+                ],
+                "enemy_id": "304009",
+                "init_hp": 158,
+                "lv": "7",
+                "max_hp": 158,
+                "no": "1",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "101021",
+                                "weight": "100"
+                            }
+                        ],
+                        "acc": "100",
+                        "animation_info": {
+                            "assets": {
+                                "enemy-104012": "/Content/lang/ab/character/enemy/104012.sajson"
+                            },
+                            "enemy_status_id": "3040091",
+                            "hp_gauge_size": "2",
+                            "offset_x": "5",
+                            "offset_y": "-20",
+                            "path": "104012",
+                            "scale": "2",
+                            "uses_fix_pos": false
+                        },
+                        "atk": 29,
+                        "breed_id": "1",
+                        "counters": [],
+                        "critical": "3",
+                        "def": 20,
+                        "def_attributes": [
+                            {
+                                "attribute_id": "210",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "101",
+                                "factor": "6"
+                            },
+                            {
+                                "attribute_id": "223",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "200",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "219",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "211",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "214",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "220",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "100",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "107",
+                                "factor": "6"
+                            },
+                            {
+                                "attribute_id": "106",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "102",
+                                "factor": "6"
+                            },
+                            {
+                                "attribute_id": "213",
+                                "factor": "1"
+                            }
+                        ],
+                        "disp_name": "Zombie",
+                        "eva": "100",
+                        "exp": 90,
+                        "id": "3040091",
+                        "looking": "0",
+                        "lv": "7",
+                        "matk": 27,
+                        "max_hp": 158,
+                        "mdef": 10,
+                        "mnd": 10,
+                        "no": "1",
+                        "size": "2",
+                        "spd": "49"
+                    }
+                ],
+                "uid": "205"
+            }
+        ],
+        "deform_animation_info": [],
+        "id": "304009",
+        "is_sp_enemy": 0
+    },
+    {
+        "ai_id": 0,
+        "children": [
+            {
+                "ai_id": "1",
+                "child_pos_id": "1",
+                "drop_item_list": [
+                    {
+                        "item_id": "40000056",
+                        "num": "1",
+                        "rarity": "1",
+                        "type": 51,
+                        "uid": 206
+                    }
+                ],
+                "enemy_id": "304017",
+                "init_hp": 158,
+                "lv": "7",
+                "max_hp": 158,
+                "no": "1",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "103039",
+                                "weight": "30"
+                            },
+                            {
+                                "ability_id": "101001",
+                                "weight": "70"
+                            }
+                        ],
+                        "acc": "100",
+                        "animation_info": {
+                            "assets": {
+                                "enemy-104009": "/Content/lang/ab/character/enemy/104009.sajson"
+                            },
+                            "enemy_status_id": "3040171",
+                            "hp_gauge_size": "2",
+                            "offset_x": "3",
+                            "offset_y": "-24",
+                            "path": "104009",
+                            "scale": "3",
+                            "uses_fix_pos": false
+                        },
+                        "atk": 27,
+                        "breed_id": "0",
+                        "counters": [],
+                        "critical": "3",
+                        "def": 14,
+                        "def_attributes": [
+                            {
+                                "attribute_id": "103",
+                                "factor": "21"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "100",
+                                "factor": "6"
+                            },
+                            {
+                                "attribute_id": "101",
+                                "factor": "1"
+                            }
+                        ],
+                        "disp_name": "Sand Worm",
+                        "eva": "100",
+                        "exp": 90,
+                        "id": "3040171",
+                        "looking": "0",
+                        "lv": "7",
+                        "matk": 27,
+                        "max_hp": 158,
+                        "mdef": 14,
+                        "mnd": 14,
+                        "no": "1",
+                        "size": "2",
+                        "spd": "70"
+                    }
+                ],
+                "uid": "206"
+            }
+        ],
+        "deform_animation_info": [],
+        "id": "304017",
+        "is_sp_enemy": 0
+    },
+    {
+        "ai_id": 0,
+        "children": [
+            {
+                "ai_id": "1",
+                "child_pos_id": "1",
+                "drop_item_list": [],
+                "enemy_id": "304017",
+                "init_hp": 158,
+                "lv": "7",
+                "max_hp": 158,
+                "no": "1",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "103039",
+                                "weight": "30"
+                            },
+                            {
+                                "ability_id": "101001",
+                                "weight": "70"
+                            }
+                        ],
+                        "acc": "100",
+                        "animation_info": {
+                            "assets": {
+                                "enemy-104009": "/Content/lang/ab/character/enemy/104009.sajson"
+                            },
+                            "enemy_status_id": "3040171",
+                            "hp_gauge_size": "2",
+                            "offset_x": "3",
+                            "offset_y": "-24",
+                            "path": "104009",
+                            "scale": "3",
+                            "uses_fix_pos": false
+                        },
+                        "atk": 27,
+                        "breed_id": "0",
+                        "counters": [],
+                        "critical": "3",
+                        "def": 14,
+                        "def_attributes": [
+                            {
+                                "attribute_id": "103",
+                                "factor": "21"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "100",
+                                "factor": "6"
+                            },
+                            {
+                                "attribute_id": "101",
+                                "factor": "1"
+                            }
+                        ],
+                        "disp_name": "Sand Worm",
+                        "eva": "100",
+                        "exp": 90,
+                        "id": "3040171",
+                        "looking": "0",
+                        "lv": "7",
+                        "matk": 27,
+                        "max_hp": 158,
+                        "mdef": 14,
+                        "mnd": 14,
+                        "no": "1",
+                        "size": "2",
+                        "spd": "70"
+                    }
+                ],
+                "uid": "201"
+            }
+        ],
+        "deform_animation_info": [],
+        "id": "304017",
+        "is_sp_enemy": 0
+    },
+    {
+        "ai_id": 0,
+        "children": [
+            {
+                "ai_id": "1",
+                "child_pos_id": "1",
+                "drop_item_list": [],
+                "enemy_id": "304017",
+                "init_hp": 158,
+                "lv": "7",
+                "max_hp": 158,
+                "no": "1",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "103039",
+                                "weight": "30"
+                            },
+                            {
+                                "ability_id": "101001",
+                                "weight": "70"
+                            }
+                        ],
+                        "acc": "100",
+                        "animation_info": {
+                            "assets": {
+                                "enemy-104009": "/Content/lang/ab/character/enemy/104009.sajson"
+                            },
+                            "enemy_status_id": "3040171",
+                            "hp_gauge_size": "2",
+                            "offset_x": "3",
+                            "offset_y": "-24",
+                            "path": "104009",
+                            "scale": "3",
+                            "uses_fix_pos": false
+                        },
+                        "atk": 27,
+                        "breed_id": "0",
+                        "counters": [],
+                        "critical": "3",
+                        "def": 14,
+                        "def_attributes": [
+                            {
+                                "attribute_id": "103",
+                                "factor": "21"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "100",
+                                "factor": "6"
+                            },
+                            {
+                                "attribute_id": "101",
+                                "factor": "1"
+                            }
+                        ],
+                        "disp_name": "Sand Worm",
+                        "eva": "100",
+                        "exp": 90,
+                        "id": "3040171",
+                        "looking": "0",
+                        "lv": "7",
+                        "matk": 27,
+                        "max_hp": 158,
+                        "mdef": 14,
+                        "mnd": 14,
+                        "no": "1",
+                        "size": "2",
+                        "spd": "70"
+                    }
+                ],
+                "uid": "202"
+            }
+        ],
+        "deform_animation_info": [],
+        "id": "304017",
+        "is_sp_enemy": 0
+    },
+    {
+        "ai_id": 0,
+        "children": [
+            {
+                "ai_id": "1",
+                "child_pos_id": "1",
+                "drop_item_list": [],
+                "enemy_id": "304017",
+                "init_hp": 158,
+                "lv": "7",
+                "max_hp": 158,
+                "no": "1",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "103039",
+                                "weight": "30"
+                            },
+                            {
+                                "ability_id": "101001",
+                                "weight": "70"
+                            }
+                        ],
+                        "acc": "100",
+                        "animation_info": {
+                            "assets": {
+                                "enemy-104009": "/Content/lang/ab/character/enemy/104009.sajson"
+                            },
+                            "enemy_status_id": "3040171",
+                            "hp_gauge_size": "2",
+                            "offset_x": "3",
+                            "offset_y": "-24",
+                            "path": "104009",
+                            "scale": "3",
+                            "uses_fix_pos": false
+                        },
+                        "atk": 27,
+                        "breed_id": "0",
+                        "counters": [],
+                        "critical": "3",
+                        "def": 14,
+                        "def_attributes": [
+                            {
+                                "attribute_id": "103",
+                                "factor": "21"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "100",
+                                "factor": "6"
+                            },
+                            {
+                                "attribute_id": "101",
+                                "factor": "1"
+                            }
+                        ],
+                        "disp_name": "Sand Worm",
+                        "eva": "100",
+                        "exp": 90,
+                        "id": "3040171",
+                        "looking": "0",
+                        "lv": "7",
+                        "matk": 27,
+                        "max_hp": 158,
+                        "mdef": 14,
+                        "mnd": 14,
+                        "no": "1",
+                        "size": "2",
+                        "spd": "70"
+                    }
+                ],
+                "uid": "203"
+            }
+        ],
+        "deform_animation_info": [],
+        "id": "304017",
+        "is_sp_enemy": 0
+    },
+    {
+        "ai_id": 0,
+        "children": [
+            {
+                "ai_id": "1",
+                "child_pos_id": "1",
+                "drop_item_list": [],
+                "enemy_id": "304017",
+                "init_hp": 158,
+                "lv": "7",
+                "max_hp": 158,
+                "no": "1",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "103039",
+                                "weight": "30"
+                            },
+                            {
+                                "ability_id": "101001",
+                                "weight": "70"
+                            }
+                        ],
+                        "acc": "100",
+                        "animation_info": {
+                            "assets": {
+                                "enemy-104009": "/Content/lang/ab/character/enemy/104009.sajson"
+                            },
+                            "enemy_status_id": "3040171",
+                            "hp_gauge_size": "2",
+                            "offset_x": "3",
+                            "offset_y": "-24",
+                            "path": "104009",
+                            "scale": "3",
+                            "uses_fix_pos": false
+                        },
+                        "atk": 27,
+                        "breed_id": "0",
+                        "counters": [],
+                        "critical": "3",
+                        "def": 14,
+                        "def_attributes": [
+                            {
+                                "attribute_id": "103",
+                                "factor": "21"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "100",
+                                "factor": "6"
+                            },
+                            {
+                                "attribute_id": "101",
+                                "factor": "1"
+                            }
+                        ],
+                        "disp_name": "Sand Worm",
+                        "eva": "100",
+                        "exp": 90,
+                        "id": "3040171",
+                        "looking": "0",
+                        "lv": "7",
+                        "matk": 27,
+                        "max_hp": 158,
+                        "mdef": 14,
+                        "mnd": 14,
+                        "no": "1",
+                        "size": "2",
+                        "spd": "70"
+                    }
+                ],
+                "uid": "204"
+            }
+        ],
+        "deform_animation_info": [],
+        "id": "304017",
+        "is_sp_enemy": 0
+    },
+    {
+        "ai_id": 0,
+        "children": [
+            {
+                "ai_id": "1",
+                "child_pos_id": "1",
+                "drop_item_list": [],
+                "enemy_id": "304011",
+                "init_hp": 158,
+                "lv": "7",
+                "max_hp": 158,
+                "no": "1",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "101001",
+                                "weight": "100"
+                            }
+                        ],
+                        "acc": "100",
+                        "animation_info": {
+                            "assets": {
+                                "enemy-104019": "/Content/lang/ab/character/enemy/104019.sajson"
+                            },
+                            "enemy_status_id": "3040111",
+                            "hp_gauge_size": "2",
+                            "offset_x": "4",
+                            "offset_y": "-15",
+                            "path": "104019",
+                            "scale": "3",
+                            "uses_fix_pos": false
+                        },
+                        "atk": 24,
+                        "breed_id": "3",
+                        "counters": [],
+                        "critical": "3",
+                        "def": 16,
+                        "def_attributes": [
+                            {
+                                "attribute_id": "100",
+                                "factor": "6"
+                            },
+                            {
+                                "attribute_id": "105",
+                                "factor": "21"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "101",
+                                "factor": "1"
+                            }
+                        ],
+                        "disp_name": "Alligator",
+                        "eva": "100",
+                        "exp": 90,
+                        "id": "3040111",
+                        "looking": "0",
+                        "lv": "7",
+                        "matk": 24,
+                        "max_hp": 158,
+                        "mdef": 13,
+                        "mnd": 13,
+                        "no": "1",
+                        "size": "2",
+                        "spd": "77"
+                    }
+                ],
+                "uid": "205"
+            }
+        ],
+        "deform_animation_info": [],
+        "id": "304011",
+        "is_sp_enemy": 0
+    },
+    {
+        "ai_id": 0,
+        "children": [
+            {
+                "ai_id": "1",
+                "child_pos_id": "1",
+                "drop_item_list": [
+                    {
+                        "item_id": "22056002",
+                        "num": "1",
+                        "rarity": "1",
+                        "type": 41,
+                        "uid": 206
+                    }
+                ],
+                "enemy_id": "304017",
+                "init_hp": 158,
+                "lv": "7",
+                "max_hp": 158,
+                "no": "1",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "103039",
+                                "weight": "30"
+                            },
+                            {
+                                "ability_id": "101001",
+                                "weight": "70"
+                            }
+                        ],
+                        "acc": "100",
+                        "animation_info": {
+                            "assets": {
+                                "enemy-104009": "/Content/lang/ab/character/enemy/104009.sajson"
+                            },
+                            "enemy_status_id": "3040171",
+                            "hp_gauge_size": "2",
+                            "offset_x": "3",
+                            "offset_y": "-24",
+                            "path": "104009",
+                            "scale": "3",
+                            "uses_fix_pos": false
+                        },
+                        "atk": 27,
+                        "breed_id": "0",
+                        "counters": [],
+                        "critical": "3",
+                        "def": 14,
+                        "def_attributes": [
+                            {
+                                "attribute_id": "103",
+                                "factor": "21"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "100",
+                                "factor": "6"
+                            },
+                            {
+                                "attribute_id": "101",
+                                "factor": "1"
+                            }
+                        ],
+                        "disp_name": "Sand Worm",
+                        "eva": "100",
+                        "exp": 90,
+                        "id": "3040171",
+                        "looking": "0",
+                        "lv": "7",
+                        "matk": 27,
+                        "max_hp": 158,
+                        "mdef": 14,
+                        "mnd": 14,
+                        "no": "1",
+                        "size": "2",
+                        "spd": "70"
+                    }
+                ],
+                "uid": "206"
+            }
+        ],
+        "deform_animation_info": [],
+        "id": "304017",
+        "is_sp_enemy": 0
+    }
+]
