@@ -304,6 +304,7 @@ def handle_get_battle_init_data(data):
         print >> test_file_raw, json.dumps(buddy, indent=4, sort_keys=True)
         print >> test_file, json.dumps(temp_stats, indent=4, sort_keys=True)
         test_file.close()
+        test_file_raw.close()
         # print get_buddy_name(buddy)
         # for soul_strike in buddy["soul_strike"]:
         #     # for option in soul_strike["options"]:
