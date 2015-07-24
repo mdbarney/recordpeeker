@@ -10,6 +10,7 @@ import csv
 import time
 import datetime
 import pprint
+# import wget
 from collections import OrderedDict, defaultdict
 
 from libmproxy.protocol.http import decoded
@@ -42,6 +43,9 @@ def save_battles(data):
 #     with open('test.csv', 'wb') as f:
 #         writer = csv.writer(f)
 #         writer.writerows(data)
+
+# def save_character_sprite(path):
+#     filename = wget.download(path)
 
 def uniq(input):
     output = []
@@ -94,7 +98,7 @@ def save_enemy_abilities(data):
     enemy_output_file = open(os.getcwd() + "/data/enemy_abilities.json", 'w')
     enemy_output_file.seek(0)
     
-    print >> enemy_output_file, json.dumps(temp3, indent=4, separators=(',', ': '), sort_keys=True)
+    print >> enemy_output_file, json.dumps(temp3, indent=4, separators=(',', ': '), sort_keys=False)
     enemy_output_file.close()
 
 def save_abilities(data, path):
@@ -123,7 +127,7 @@ def save_abilities(data, path):
     enemy_output_file = open(os.getcwd() + path + ".json", 'w')
     enemy_output_file.seek(0)
     
-    print >> enemy_output_file, json.dumps(temp3, indent=4, separators=(',', ': '), sort_keys=True)
+    print >> enemy_output_file, json.dumps(temp3, indent=4, separators=(',', ': '), sort_keys=False)
     enemy_output_file.close()
 
 def save_single_ability(data, path):
@@ -156,12 +160,12 @@ def save_enemy_stats(data, dungeon_id):
     enemy_output_file = open(os.getcwd() + "/enemy_data/" + dungeon_id + ".json", 'w')
     enemy_output_file.seek(0)
     
-    print >> enemy_output_file, json.dumps(temp2, indent=4, separators=(',', ': '), sort_keys=True)
+    print >> enemy_output_file, json.dumps(temp2, indent=4, separators=(',', ': '), sort_keys=False)
     enemy_output_file.close()
 
-def save_equipment_list(data):
-    equipment_list_file = open("current_equipment.json", 'w')
-    print >> equipment_list_file, "{\n\t\"equipments\": " + json.dumps(data["equipments"], indent=4, sort_keys=True)
+def save_equipment_list(data, user_id):
+    equipment_list_file = open("current_equipment_" + str(user_id) + ".json", 'w')
+    print >> equipment_list_file, "{\n\t\"equipments\": " + json.dumps(data["equipments"], indent=4, sort_keys=False)
     print >> equipment_list_file, "}"
     equipment_list_file.close()
 
@@ -181,21 +185,31 @@ def get_drops(enemy):
         for drop in child["drop_item_list"]:
             yield drop
 
+def get_buddy_name(buddy):
+    # for param in buddy["params"]:
+    return child.get("max_hp", "Unknown HP")
+        # return param.get("disp_name", "Unknown name")
+
 # def get_buddy_hp(buddy):
 #     for child in buddy["children"]:
 #         # return child.get("max_hp", "Unknown HP")
 #         for param in child["params"]:
 #             return param.get("max_hp", "Unknown HP")
 
-def get_buddy_name(buddy):
-    for param in buddy["params"]:
-        # return child.get("max_hp", "Unknown HP")
-        return param.get("disp_name", "Unknown name")
+# def get_buddy_name(buddy):
+#     for param in buddy["params"]:
+#         # return child.get("max_hp", "Unknown HP")
+#         return param.get("disp_name", "Unknown name")
 
-def get_buddy_param(buddy, param):
-    for par in buddy["params"]:
-        # return child.get("max_hp", "Unknown HP")
-        return par.get(param, "Unknown")
+# def get_buddy_param(buddy, param):
+#     for par in buddy["params"]:
+#         # return child.get("max_hp", "Unknown HP")
+#         return par.get(param, "Unknown")
+
+def get_user_id(data):
+    # for param in data["party"]:
+    return data["party"].get("user_id", "Unknown user_id")
+        # return param.get("disp_name", "Unknown name")
 
 def handle_get_battle_init_data(data):
     enemy_list = []
@@ -209,7 +223,7 @@ def handle_get_battle_init_data(data):
     # log data
     debug_path = os.getcwd() + "/debug/handle_get_battle_init_data_" + time.strftime("%m%d%Y-%H%M%S") + ".json" 
     test_file = open(debug_path, 'w')
-    print >> test_file, json.dumps(data, indent=4, sort_keys=True)
+    print >> test_file, json.dumps(data, indent=4, sort_keys=False)
     test_file.close()
 
     battle_data = data["battle"]
@@ -274,37 +288,38 @@ def handle_get_battle_init_data(data):
     for buddy in buddy_data:
         # temp_stats = {}
         # character_list.append(buddy)
-        temp_str = get_buddy_name(buddy)
-        level = get_buddy_param(buddy, "level")
-        a = temp_str.replace(" ", "_").lower()
+        # temp_str = get_buddy_name(buddy)
+        # level = get_buddy_param(buddy, "level")
+        # a = temp_str.replace(" ", "_").lower()
 
-        temp_stats = {"acc": get_buddy_param(buddy,"acc"), 
-                        "atk": get_buddy_param(buddy,"atk"), "max_hp": buddy["max_hp"],
-                        "critical": get_buddy_param(buddy,"critical"), 
-                        "def": get_buddy_param(buddy,"def"), 
-                        "disp_name": get_buddy_param(buddy,"disp_name"), 
-                        "eva": get_buddy_param(buddy,"eva"), 
-                        "handedness": get_buddy_param(buddy,"handedness"), 
-                        "id": get_buddy_param(buddy,"id"), 
-                        "level": get_buddy_param(buddy,"level"), 
-                        "matk": get_buddy_param(buddy,"matk"), 
-                        "mdef": get_buddy_param(buddy,"mdef"), 
-                        "mnd": get_buddy_param(buddy,"mnd"), 
-                        "spd": get_buddy_param(buddy,"spd")
-                        }
-        if not os.access(os.getcwd() + "/data/buddy/" + a + "/", os.F_OK):
-            os.mkdir(os.getcwd() + "/data/buddy/" + a + "/")
+        # temp_stats = {"acc": get_buddy_param(buddy,"acc"), 
+        #                 "atk": get_buddy_param(buddy,"atk"), "max_hp": buddy["max_hp"],
+        #                 "critical": get_buddy_param(buddy,"critical"), 
+        #                 "def": get_buddy_param(buddy,"def"), 
+        #                 "disp_name": get_buddy_param(buddy,"disp_name"), 
+        #                 "eva": get_buddy_param(buddy,"eva"), 
+        #                 "handedness": get_buddy_param(buddy,"handedness"), 
+        #                 "id": get_buddy_param(buddy,"id"), 
+        #                 "level": get_buddy_param(buddy,"level"), 
+        #                 "matk": get_buddy_param(buddy,"matk"), 
+        #                 "mdef": get_buddy_param(buddy,"mdef"), 
+        #                 "mnd": get_buddy_param(buddy,"mnd"), 
+        #                 "spd": get_buddy_param(buddy,"spd")
+        #                 }
+        # if not os.access(os.getcwd() + "/data/buddy/" + a + "/", os.F_OK):
+        #     os.mkdir(os.getcwd() + "/data/buddy/" + a + "/")
 
-        if not os.access(os.getcwd() + "/data/buddy/" + a + "/" + level + "/", os.F_OK):
-            os.mkdir(os.getcwd() + "/data/buddy/" + a + "/" + level + "/")
-        # os.mkdir(os.getcwd() + "/data/buddy/" + a + "/raw/")
-        test_file_raw = open(os.getcwd() + "/data/buddy/raw/" + a + "_" + time.strftime("%m%d%Y-%H%M%S")+ ".json",'w')
-        test_file = open(os.getcwd() + "/data/buddy/" + a + "/" + level + "/" + a + "_level_" + level+ "_stats.json",'w')
+        # if not os.access(os.getcwd() + "/data/buddy/" + a + "/" + level + "/", os.F_OK):
+        #     os.mkdir(os.getcwd() + "/data/buddy/" + a + "/" + level + "/")
+        # # os.mkdir(os.getcwd() + "/data/buddy/" + a + "/raw/")
+        # test_file_raw = open(os.getcwd() + "/data/buddy/raw/" + a + "_" + time.strftime("%m%d%Y-%H%M%S")+ ".json",'w')
+        # test_file = open(os.getcwd() + "/data/buddy/" + a + "/" + level + "/" + a + "_level_" + level+ "_stats.json",'w')
         
-        print >> test_file_raw, json.dumps(buddy, indent=4, sort_keys=True)
-        print >> test_file, json.dumps(temp_stats, indent=4, sort_keys=True)
-        test_file.close()
-        test_file_raw.close()
+        # print >> test_file_raw, json.dumps(buddy, indent=4, sort_keys=True)
+        # print >> test_file, json.dumps(temp_stats, indent=4, sort_keys=True)
+        # test_file.close()
+        # test_file_raw.close()
+
         # print get_buddy_name(buddy)
         # for soul_strike in buddy["soul_strike"]:
         #     # for option in soul_strike["options"]:
@@ -353,6 +368,7 @@ def handle_party_list(data):
     topn["matk"] = 5
     topn["mnd"] = 3
     topn["def"] = 5
+    topn["mdef"] = 3
     find_series = [101001, 102001, 103001, 104001, 105001, 106001, 107001, 108001, 109001, 110001, 112001, 113001]
     equips = defaultdict(list)
     for item in data["equipments"]:
@@ -378,14 +394,30 @@ def handle_party_list(data):
         print ""
 
     # print equipment to json file
-    save_equipment_list(data)
+    save_equipment_list(data, get_user_id(data))
+
+    for buddy in data["buddies"]:
+        temp_str = buddy.get("name", "Unknown")
+        level = buddy.get("level","Unknown")
+        a = temp_str.replace(" ", "_").lower()
+
+        if not os.access(os.getcwd() + "/data/buddy/" + a + "/", os.F_OK):
+            os.mkdir(os.getcwd() + "/data/buddy/" + a + "/")
+
+        if not os.access(os.getcwd() + "/data/buddy/" + a + "/" + str(level) + "/", os.F_OK):
+            os.mkdir(os.getcwd() + "/data/buddy/" + a + "/" + str(level) + "/")
+
+        test_file = open(os.getcwd() + "/data/buddy/" + a + "/" + str(level) + "/" + a + "_level_" + str(level) + "_stats.json",'w')
+        print >> test_file, json.dumps(buddy, indent=4, sort_keys=True)
+        test_file.close()
+
 
 def handle_dungeon_list(data):
 
     # log data
     debug_path = os.getcwd() + "/debug/handle_dungeon_list_" + time.strftime("%m%d%Y-%H%M%S") + ".json" 
     test_file = open(debug_path, 'w')
-    print >> test_file, json.dumps(data, indent=4, sort_keys=True)
+    print >> test_file, json.dumps(data, indent=4, sort_keys=False)
     test_file.close()
 
     tbl = []
@@ -409,7 +441,7 @@ def handle_battle_list(data):
     # log data
     debug_path = os.getcwd() + "/debug/handle_battle_list_" + time.strftime("%m%d%Y-%H%M%S") + ".json" 
     test_file = open(debug_path, 'w')
-    print >> test_file, json.dumps(data, indent=4, sort_keys=True)
+    print >> test_file, json.dumps(data, indent=4, sort_keys=False)
     test_file.close()
     
     temp = []
