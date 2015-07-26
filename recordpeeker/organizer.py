@@ -8,6 +8,43 @@ import os.path
 import pprint
 from collections import OrderedDict, defaultdict
 
+def get_buddy_info(data):
+    # use with party_list
+    for buddy in data["buddies"]:
+        temp_str = buddy.get("name", "Unknown")
+        level = buddy.get("level","Unknown")
+        job_name = buddy.get("job_name", "Unknown")
+
+        # Tyro check
+        if job_name == "Keeper":
+            buddy["name"] = "Tyro"
+
+        a = temp_str.replace(" ", "_").lower()
+
+        
+
+        if not os.access(os.getcwd() + "/data/buddy/" + a + "/", os.F_OK):
+            os.mkdir(os.getcwd() + "/data/buddy/" + a + "/")
+
+        if not os.access(os.getcwd() + "/data/buddy/" + a + "/" + str(level) + "/", os.F_OK):
+            os.mkdir(os.getcwd() + "/data/buddy/" + a + "/" + str(level) + "/")
+
+        test_file = open(os.getcwd() + "/data/buddy/" + a + "/" + str(level) + "/" + a + "_level_" + str(level) + "_stats.json",'w')
+        print >> test_file, json.dumps(buddy, indent=4, sort_keys=True)
+        test_file.close()
+
+def get_soul_strike_info(data):
+    #use with get battle init 
+    battle = data["battle"]
+    for buddy in battle["buddy"]:
+        a = buddy.get("ability_id","Error")
+        if not os.access(os.getcwd() + "/data/soul_strike/" + str(a) + "/", os.F_OK):
+            os.mkdir(os.getcwd() + "/data/soul_strike/" + str(a) + "/")
+
+        test_file = open(os.getcwd() + "/data/soul_strike/" + str(a) + "/" + str(a) + ".json",'w')
+        print >> test_file, json.dumps(buddy.get("soul_strike","Error"), indent=4, sort_keys=True)
+        test_file.close()
+
 def get_drop_list(enemy):
 	drop_list = []
 	for child in enemy["children"]:
@@ -103,12 +140,24 @@ def main():
 	# enemy in data - first bracket (start of dict)
 	# child in enemy["children"] - array of children dicts
 	# drops in child["drop_item_list"] - array of drop dicts
+	# data = []
+	party_path = os.path.join(os.getcwd(),"data/raw/handle_party_list/")
+	for dir_entry in os.listdir(party_path):
+	    dir_entry_path = os.path.join(party_path, dir_entry)
+	    if os.path.isfile(dir_entry_path):
+	        with open(dir_entry_path, 'r') as my_file:
+	            # data[dir_entry] = my_file.read()
+	            data = json.loads(my_file.read())
+	            get_buddy_info(data)
 
+	# with open(party_path, 'r') as f:
+	# 	data = json.loads(f.read())
+	# get_buddy_info
 
 	# combine_enemy_lists()
-	temp = get_enemy_info()
-	temp2 = get_ability_info("data/abilities.json")
-	print_list_to_file(temp2, "data/abilities_no_duplicates.json")
+	# temp = get_enemy_info()
+	# temp2 = get_ability_info("data/abilities.json")
+	# print_list_to_file(temp2, "data/abilities_no_duplicates.json")
 	# print temp
 
 	# for i in temp:

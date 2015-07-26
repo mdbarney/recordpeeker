@@ -47,6 +47,45 @@ def save_battles(data):
 # def save_character_sprite(path):
 #     filename = wget.download(path)
 
+def get_buddy_info(data):
+    # use with party_list
+    for buddy in data["buddies"]:
+        temp_str = buddy.get("name", "Unknown")
+        level = buddy.get("level","Unknown")
+        job_name = buddy.get("job_name", "Unknown")
+
+        # Tyro check
+        if job_name == "Keeper":
+            buddy["name"] = "Tyro"
+
+        a = temp_str.replace(" ", "_").lower()
+
+        
+
+        if not os.access(os.getcwd() + "/data/buddy/" + a + "/", os.F_OK):
+            os.mkdir(os.getcwd() + "/data/buddy/" + a + "/")
+
+        if not os.access(os.getcwd() + "/data/buddy/" + a + "/" + str(level) + "/", os.F_OK):
+            os.mkdir(os.getcwd() + "/data/buddy/" + a + "/" + str(level) + "/")
+
+        test_file = open(os.getcwd() + "/data/buddy/" + a + "/" + str(level) + "/" + a + "_level_" + str(level) + "_stats.json",'w')    
+        if (os.path.isfile(test_file) == False):
+            print >> test_file, json.dumps(buddy, indent=4, sort_keys=True)
+            test_file.close()
+
+def get_soul_strike_info(data):
+    #use with get battle init 
+    battle = data["battle"]
+    for buddy in battle["buddy"]:
+        a = buddy.get("ability_id","Error")
+        if not os.access(os.getcwd() + "/data/soul_strike/" + str(a) + "/", os.F_OK):
+            os.mkdir(os.getcwd() + "/data/soul_strike/" + str(a) + "/")
+
+        test_file = open(os.getcwd() + "/data/soul_strike/" + str(a) + "/" + str(a) + ".json",'w')
+        print >> test_file, json.dumps(buddy.get("soul_strike","Error"), indent=4, sort_keys=True)
+        test_file.close()
+
+
 def uniq(input):
     output = []
     for x in input:
@@ -72,34 +111,34 @@ def get_abilities_stats_from_json():
 
     return temp
 
-def save_enemy_abilities(data):
+# def save_enemy_abilities(data):
 
-    temp = []
-    temp2 = []
-    enemy_file_path = os.getcwd() + "/data/enemy_abilities.json"
+#     temp = []
+#     temp2 = []
+#     enemy_file_path = os.getcwd() + "/data/enemy_abilities.json"
 
-    if os.path.isfile(enemy_file_path):
-        temp = get_abilities_stats_from_json()
+#     if os.path.isfile(enemy_file_path):
+#         temp = get_abilities_stats_from_json()
 
-    # combine the two lists
-    for ability in temp:
-        temp2.append(ability)
+#     # combine the two lists
+#     for ability in temp:
+#         temp2.append(ability)
 
-    for ability in data:
-        temp2.append(ability)
+#     for ability in data:
+#         temp2.append(ability)
 
-    # print temp2
+#     # print temp2
 
-    # remove duplicates
-    temp3 = uniq(temp2)
+#     # remove duplicates
+#     temp3 = uniq(temp2)
 
-    save_single_ability(temp3, "/data/enemy_abilities/")
+#     save_single_ability(temp3, "/data/enemy_abilities/")
 
-    enemy_output_file = open(os.getcwd() + "/data/enemy_abilities.json", 'w')
-    enemy_output_file.seek(0)
+#     enemy_output_file = open(os.getcwd() + "/data/enemy_abilities.json", 'w')
+#     enemy_output_file.seek(0)
     
-    print >> enemy_output_file, json.dumps(temp3, indent=4, separators=(',', ': '), sort_keys=False)
-    enemy_output_file.close()
+#     print >> enemy_output_file, json.dumps(temp3, indent=4, separators=(',', ': '), sort_keys=False)
+#     enemy_output_file.close()
 
 def save_abilities(data, path):
 
@@ -221,7 +260,7 @@ def handle_get_battle_init_data(data):
     pp = pprint.PrettyPrinter(indent=4)
 
     # log data
-    debug_path = os.getcwd() + "/debug/handle_get_battle_init_data_" + time.strftime("%m%d%Y-%H%M%S") + ".json" 
+    debug_path = os.getcwd() + "/data/raw/handle_get_battle_init_data/handle_get_battle_init_data_" + time.strftime("%m%d%Y-%H%M%S") + ".json" 
     test_file = open(debug_path, 'w')
     print >> test_file, json.dumps(data, indent=4, sort_keys=False)
     test_file.close()
@@ -357,7 +396,7 @@ def handle_get_battle_init_data(data):
 def handle_party_list(data):
 
     # log data
-    debug_path = os.getcwd() + "/debug/handle_party_list_" + time.strftime("%m%d%Y-%H%M%S") + ".json" 
+    debug_path = os.getcwd() + "/data/raw/handle_party_list/handle_party_list_" + time.strftime("%m%d%Y-%H%M%S") + ".json" 
     test_file = open(debug_path, 'w')
     print >> test_file, json.dumps(data, indent=4, sort_keys=True)
     test_file.close()
@@ -396,26 +435,27 @@ def handle_party_list(data):
     # print equipment to json file
     save_equipment_list(data, get_user_id(data))
 
-    for buddy in data["buddies"]:
-        temp_str = buddy.get("name", "Unknown")
-        level = buddy.get("level","Unknown")
-        a = temp_str.replace(" ", "_").lower()
+    get_buddy_info(data)
+    # for buddy in data["buddies"]:
+    #     temp_str = buddy.get("name", "Unknown")
+    #     level = buddy.get("level","Unknown")
+    #     a = temp_str.replace(" ", "_").lower()
 
-        if not os.access(os.getcwd() + "/data/buddy/" + a + "/", os.F_OK):
-            os.mkdir(os.getcwd() + "/data/buddy/" + a + "/")
+    #     if not os.access(os.getcwd() + "/data/buddy/" + a + "/", os.F_OK):
+    #         os.mkdir(os.getcwd() + "/data/buddy/" + a + "/")
 
-        if not os.access(os.getcwd() + "/data/buddy/" + a + "/" + str(level) + "/", os.F_OK):
-            os.mkdir(os.getcwd() + "/data/buddy/" + a + "/" + str(level) + "/")
+    #     if not os.access(os.getcwd() + "/data/buddy/" + a + "/" + str(level) + "/", os.F_OK):
+    #         os.mkdir(os.getcwd() + "/data/buddy/" + a + "/" + str(level) + "/")
 
-        test_file = open(os.getcwd() + "/data/buddy/" + a + "/" + str(level) + "/" + a + "_level_" + str(level) + "_stats.json",'w')
-        print >> test_file, json.dumps(buddy, indent=4, sort_keys=True)
-        test_file.close()
+    #     test_file = open(os.getcwd() + "/data/buddy/" + a + "/" + str(level) + "/" + a + "_level_" + str(level) + "_stats.json",'w')
+    #     print >> test_file, json.dumps(buddy, indent=4, sort_keys=True)
+    #     test_file.close()
 
 
 def handle_dungeon_list(data):
 
     # log data
-    debug_path = os.getcwd() + "/debug/handle_dungeon_list_" + time.strftime("%m%d%Y-%H%M%S") + ".json" 
+    debug_path = os.getcwd() + "/data/raw/handle_dungeon_list/handle_dungeon_list_" + time.strftime("%m%d%Y-%H%M%S") + ".json" 
     test_file = open(debug_path, 'w')
     print >> test_file, json.dumps(data, indent=4, sort_keys=False)
     test_file.close()
@@ -439,7 +479,7 @@ def handle_dungeon_list(data):
 def handle_battle_list(data):
 
     # log data
-    debug_path = os.getcwd() + "/debug/handle_battle_list_" + time.strftime("%m%d%Y-%H%M%S") + ".json" 
+    debug_path = os.getcwd() + "/data/raw/handle_battle_list/handle_battle_list_" + time.strftime("%m%d%Y-%H%M%S") + ".json" 
     test_file = open(debug_path, 'w')
     print >> test_file, json.dumps(data, indent=4, sort_keys=False)
     test_file.close()
