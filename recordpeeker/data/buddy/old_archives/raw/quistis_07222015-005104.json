@@ -1,0 +1,356 @@
+{
+    "abilities": [
+        {
+            "ability_id": "30151001", 
+            "action_id": "3", 
+            "category_id": "5", 
+            "exercise_type": "1", 
+            "options": {
+                "ability_animation_id": "0", 
+                "active_target_method": "4", 
+                "alias_name": "", 
+                "arg1": "100", 
+                "arg2": "1", 
+                "arg3": "0", 
+                "arg4": "0", 
+                "arg5": "0", 
+                "cast_time": "1500", 
+                "counter_enable": "1", 
+                "name": "Attack", 
+                "panel_name": "Attack", 
+                "status_ailments_factor": "0", 
+                "status_ailments_id": "0", 
+                "target_death": "1", 
+                "target_method": "2", 
+                "target_range": "1", 
+                "target_segment": "1"
+            }
+        }, 
+        {
+            "ability_id": "30111023", 
+            "action_id": "5", 
+            "animation_info": {
+                "atk_motion": "chant_end", 
+                "chara_in": "", 
+                "chara_out": "", 
+                "damage_tag": "damage_thunder", 
+                "hit": "13002/13002_hit.json", 
+                "hit_arg": "0", 
+                "hit_next_tag": "", 
+                "hit_type": "1", 
+                "id": "13002", 
+                "launch": "common/launch_black.json", 
+                "launch_next_tag": "", 
+                "launch_type": "2", 
+                "miss_hit": "", 
+                "other_in": "", 
+                "other_out": "", 
+                "recover_tag": "", 
+                "return_hit": "", 
+                "return_shot": "", 
+                "return_type": "99", 
+                "reverse_hit": "1", 
+                "reverse_shot": "1", 
+                "shot": "common/shot_empty.json", 
+                "shot_next_tag": "", 
+                "shot_type": "99"
+            }, 
+            "assets": {
+                "ability-13002_hit": "/Content/lang/ab/ability/13002/13002_hit.json", 
+                "ability-13002_launch": "/Content/lang/ab/ability/common/launch_black.json", 
+                "ability-13002_shot": "/Content/lang/ab/ability/common/shot_empty.json"
+            }, 
+            "category_id": "1", 
+            "exercise_type": "4", 
+            "options": {
+                "ability_animation_id": "13002", 
+                "active_target_method": "4", 
+                "alias_name": "", 
+                "arg1": "490", 
+                "arg2": "102", 
+                "arg3": "0", 
+                "arg4": "0", 
+                "arg5": "0", 
+                "cast_time": "1800", 
+                "counter_enable": "1", 
+                "name": "Thundaga", 
+                "panel_name": "Thundaga", 
+                "status_ailments_factor": "0", 
+                "status_ailments_id": "0", 
+                "target_death": "1", 
+                "target_method": "2", 
+                "target_range": "1", 
+                "target_segment": "1"
+            }
+        }, 
+        {
+            "ability_id": "30161152", 
+            "action_id": "28", 
+            "animation_info": {
+                "atk_motion": "", 
+                "chara_in": "", 
+                "chara_out": "", 
+                "damage_tag": "damage", 
+                "hit": "10110/10110_hit.json", 
+                "hit_arg": "0", 
+                "hit_next_tag": "", 
+                "hit_type": "1", 
+                "id": "10110", 
+                "launch": "common/launch_empty.json", 
+                "launch_next_tag": "", 
+                "launch_type": "99", 
+                "miss_hit": "", 
+                "other_in": "", 
+                "other_out": "", 
+                "recover_tag": "", 
+                "return_hit": "", 
+                "return_shot": "", 
+                "return_type": "99", 
+                "reverse_hit": "1", 
+                "reverse_shot": "1", 
+                "shot": "common/shot_empty.json", 
+                "shot_next_tag": "", 
+                "shot_type": "99"
+            }, 
+            "assets": {
+                "ability-10110_hit": "/Content/lang/ab/ability/10110/10110_hit.json", 
+                "ability-10110_launch": "/Content/lang/ab/ability/common/launch_empty.json", 
+                "ability-10110_shot": "/Content/lang/ab/ability/common/shot_empty.json"
+            }, 
+            "category_id": "6", 
+            "exercise_type": "1", 
+            "options": {
+                "ability_animation_id": "10110", 
+                "active_target_method": "4", 
+                "alias_name": "", 
+                "arg1": "210", 
+                "arg2": "-50", 
+                "arg3": "15000", 
+                "arg4": "1", 
+                "arg5": "0", 
+                "cast_time": "1650", 
+                "counter_enable": "1", 
+                "name": "Mental Breakdown", 
+                "panel_name": "Mental{n}Breakdown", 
+                "status_ailments_factor": "100", 
+                "status_ailments_id": "607", 
+                "target_death": "1", 
+                "target_method": "5", 
+                "target_range": "1", 
+                "target_segment": "1"
+            }
+        }
+    ], 
+    "ability_panels": [
+        {
+            "ability_id": "30151001", 
+            "ability_ss_point": "50", 
+            "assets": {
+                "command_icon_30151001": "/Content/lang/ab_image/ability/30151001/30151001_128.png"
+            }, 
+            "max_num": "0", 
+            "name": "Attack", 
+            "num": 0, 
+            "panel_no": 1, 
+            "uid": "5570609408901120"
+        }, 
+        {
+            "ability_id": "30111023", 
+            "ability_ss_point": "60", 
+            "assets": {
+                "command_icon_30111023": "/Content/lang/ab_image/ability/30111023/30111023_128.png"
+            }, 
+            "max_num": "8", 
+            "name": "Thundaga", 
+            "num": "8", 
+            "panel_no": 2, 
+            "uid": "13047615"
+        }, 
+        {
+            "ability_id": "30161152", 
+            "ability_ss_point": "60", 
+            "assets": {
+                "command_icon_30161152": "/Content/lang/ab_image/ability/30161152/30161152_128.png"
+            }, 
+            "max_num": "2", 
+            "name": "Mental{n}Breakdown", 
+            "num": "2", 
+            "panel_no": 3, 
+            "uid": "14494792"
+        }
+    ], 
+    "animation_info": {
+        "assets": {
+            "buddy-108003": "/Content/lang/ab/character/player/sab/108003/base.sajson", 
+            "buddy-108003_210": "/Content/lang/ab/character/player/sab/108003/glass.sajson", 
+            "buddy-108003_210_left_arm": "/Content/lang/ab/character/player/sab/108003/glass_left_arm.sajson", 
+            "buddy-108003_211": "/Content/lang/ab/character/player/sab/108003/sleep.sajson", 
+            "buddy-108003_212": "/Content/lang/ab/character/player/sab/108003/stone.sajson", 
+            "buddy-108003_221": "/Content/lang/ab/character/player/sab/108003/mini.sajson", 
+            "buddy-108003_222": "/Content/lang/ab/character/player/sab/108003/frog.sajson", 
+            "buddy-108003_left_arm": "/Content/lang/ab/character/player/sab/108003/base_left_arm.sajson"
+        }, 
+        "buddy_id": "10800300", 
+        "left_1_offset_x": "3", 
+        "left_1_offset_y": "-18", 
+        "left_2_offset_x": "-4", 
+        "left_2_offset_y": "-6", 
+        "path": "108003", 
+        "right_1_offset_x": "-1", 
+        "right_1_offset_y": "-18", 
+        "right_2_offset_x": "-6", 
+        "right_2_offset_y": "-6"
+    }, 
+    "id": "10800300", 
+    "init_hp": 1973, 
+    "materias": [], 
+    "max_hp": 1973, 
+    "no": "4", 
+    "params": [
+        {
+            "acc": 116, 
+            "atk": 202, 
+            "atk_attributes": [], 
+            "atk_ss_point_factor": 0, 
+            "atk_type": "2", 
+            "critical": 3, 
+            "def": 115, 
+            "def_attributes": [], 
+            "def_ss_point_factor": 0, 
+            "disp_name": "Quistis", 
+            "eva": 123, 
+            "handedness": "right", 
+            "id": "10800300", 
+            "level": "22", 
+            "matk": 310, 
+            "matk_attributes": [], 
+            "mdef": 214, 
+            "mnd": 84, 
+            "spd": 107
+        }
+    ], 
+    "pos_id": "04", 
+    "row": 2, 
+    "series_flg_of": {
+        "accessory": 0, 
+        "armor": 1, 
+        "buddy": 1, 
+        "weapon": 1
+    }, 
+    "series_id_map": {
+        "accessory": "106001", 
+        "armor": "108001", 
+        "buddy": "108001", 
+        "weapon": "108001"
+    }, 
+    "soul_strike": {
+        "ability_id": "20500002", 
+        "action_id": "5", 
+        "animation_info": {
+            "atk_motion": "ready", 
+            "chara_in": "idle", 
+            "chara_out": "idle", 
+            "damage_tag": "damage", 
+            "hit": "70617/70617_hit.json", 
+            "hit_arg": "0", 
+            "hit_next_tag": "", 
+            "hit_type": "1", 
+            "id": "70617", 
+            "launch": "70617/70617_launch.json", 
+            "launch_next_tag": "", 
+            "launch_type": "2", 
+            "miss_hit": "", 
+            "other_in": "", 
+            "other_out": "", 
+            "recover_tag": "", 
+            "return_hit": "", 
+            "return_shot": "", 
+            "return_type": "99", 
+            "reverse_hit": "1", 
+            "reverse_shot": "1", 
+            "shot": "70617/70617_shot.json", 
+            "shot_next_tag": "", 
+            "shot_type": "2"
+        }, 
+        "assets": {
+            "ability-70617_hit": "/Content/lang/ab/ability/70617/70617_hit.json", 
+            "ability-70617_launch": "/Content/lang/ab/ability/70617/70617_launch.json", 
+            "ability-70617_shot": "/Content/lang/ab/ability/70617/70617_shot.json"
+        }, 
+        "exercise_type": "7", 
+        "icon": {
+            "assets": {
+                "command_icon_20500002": "/Content/lang/ab_image/soulstrike//20500002/20500002_256.png"
+            }
+        }, 
+        "options": {
+            "ability_animation_id": "70617", 
+            "active_target_method": "1", 
+            "alias_name": "Maser Eye", 
+            "arg1": "740", 
+            "arg2": "199", 
+            "arg3": "0", 
+            "arg4": "0", 
+            "arg5": "0", 
+            "cast_time": "3000", 
+            "consume_soul_strike_point": "500", 
+            "counter_enable": "0", 
+            "name": "Maser Eye", 
+            "status_ailments_factor": "0", 
+            "status_ailments_id": "0", 
+            "target_death": "1", 
+            "target_method": "2", 
+            "target_range": "2", 
+            "target_segment": "1"
+        }
+    }, 
+    "soul_strike_gauge": 0, 
+    "status_ailments": [], 
+    "uid": 104, 
+    "weapon": {
+        "animation_info": {
+            "attack_tag": "attack", 
+            "can_move": "1", 
+            "equip_type": "4", 
+            "id": "100013", 
+            "path": "100013/100013.json"
+        }, 
+        "assets": {
+            "weapon-100013": "/Content/lang/ab/equip/weapon/100013/100013.json"
+        }, 
+        "category_id": "12"
+    }, 
+    "weapon_effect": {
+        "animation_info": {
+            "atk_motion": "", 
+            "chara_in": "", 
+            "chara_out": "", 
+            "damage_tag": "damage", 
+            "hit": "30104/30104_hit.json", 
+            "hit_arg": "0", 
+            "hit_next_tag": "", 
+            "hit_type": "1", 
+            "id": "30104", 
+            "launch": "common/launch_empty.json", 
+            "launch_next_tag": "", 
+            "launch_type": "99", 
+            "miss_hit": "", 
+            "other_in": "", 
+            "other_out": "", 
+            "recover_tag": "", 
+            "return_hit": "", 
+            "return_shot": "", 
+            "return_type": "99", 
+            "reverse_hit": "1", 
+            "reverse_shot": "1", 
+            "shot": "common/shot_empty.json", 
+            "shot_next_tag": "", 
+            "shot_type": "99"
+        }, 
+        "assets": {
+            "ability-30104_hit": "/Content/lang/ab/ability/30104/30104_hit.json", 
+            "ability-30104_launch": "/Content/lang/ab/ability/common/launch_empty.json", 
+            "ability-30104_shot": "/Content/lang/ab/ability/common/shot_empty.json"
+        }
+    }
+}

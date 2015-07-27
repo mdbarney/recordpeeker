@@ -1,19 +1,19 @@
 {
-    "ability_id": "201005", 
-    "action_id": "30", 
+    "ability_id": "201230", 
+    "action_id": "3", 
     "animation_info": {
         "atk_motion": "", 
         "chara_in": "", 
         "chara_out": "", 
         "damage_tag": "damage", 
-        "hit": "50210/50210_hit.json", 
+        "hit": "30001/30001_hit.json", 
         "hit_arg": "0", 
         "hit_next_tag": "", 
         "hit_type": "1", 
-        "id": "50210", 
-        "launch": "common/launch_blue.json", 
+        "id": "30001", 
+        "launch": "common/launch_empty.json", 
         "launch_next_tag": "", 
-        "launch_type": "2", 
+        "launch_type": "99", 
         "miss_hit": "", 
         "other_in": "", 
         "other_out": "", 
@@ -28,25 +28,25 @@
         "shot_type": "99"
     }, 
     "assets": {
-        "ability-50210_hit": "/Content/lang/ab/ability/50210/50210_hit.json", 
-        "ability-50210_launch": "/Content/lang/ab/ability/common/launch_blue.json", 
-        "ability-50210_shot": "/Content/lang/ab/ability/common/shot_empty.json"
+        "ability-30001_hit": "/Content/lang/ab/ability/30001/30001_hit.json", 
+        "ability-30001_launch": "/Content/lang/ab/ability/common/launch_empty.json", 
+        "ability-30001_shot": "/Content/lang/ab/ability/common/shot_empty.json"
     }, 
     "exercise_type": "1", 
     "options": {
-        "ability_animation_id": "50210", 
-        "arg1": "20", 
+        "ability_animation_id": "30001", 
+        "arg1": "120", 
         "arg2": "1", 
         "arg3": "0", 
         "arg4": "0", 
         "arg5": "0", 
         "cast_time": "1760", 
-        "counter_enable": "30", 
+        "counter_enable": "3", 
         "name": "Claw", 
         "status_ailments_factor": "6", 
         "status_ailments_id": "0", 
         "target_death": "1", 
-        "target_method": "6", 
+        "target_method": "5", 
         "target_range": "1", 
         "target_segment": "1"
     }

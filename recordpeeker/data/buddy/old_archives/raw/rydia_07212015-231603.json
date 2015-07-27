@@ -1,0 +1,361 @@
+{
+    "abilities": [
+        {
+            "ability_id": "30151001", 
+            "action_id": "3", 
+            "category_id": "5", 
+            "exercise_type": "1", 
+            "options": {
+                "ability_animation_id": "0", 
+                "active_target_method": "4", 
+                "alias_name": "", 
+                "arg1": "100", 
+                "arg2": "1", 
+                "arg3": "0", 
+                "arg4": "0", 
+                "arg5": "0", 
+                "cast_time": "1500", 
+                "counter_enable": "1", 
+                "name": "Attack", 
+                "panel_name": "Attack", 
+                "status_ailments_factor": "0", 
+                "status_ailments_id": "0", 
+                "target_death": "1", 
+                "target_method": "2", 
+                "target_range": "1", 
+                "target_segment": "1"
+            }
+        }, 
+        {
+            "ability_id": "30111011", 
+            "action_id": "5", 
+            "animation_info": {
+                "atk_motion": "chant_end", 
+                "chara_in": "", 
+                "chara_out": "", 
+                "damage_tag": "damage_cold", 
+                "hit": "12000/12000_hit.json", 
+                "hit_arg": "0", 
+                "hit_next_tag": "", 
+                "hit_type": "1", 
+                "id": "12000", 
+                "launch": "common/launch_black.json", 
+                "launch_next_tag": "", 
+                "launch_type": "2", 
+                "miss_hit": "", 
+                "other_in": "", 
+                "other_out": "", 
+                "recover_tag": "", 
+                "return_hit": "", 
+                "return_shot": "", 
+                "return_type": "99", 
+                "reverse_hit": "1", 
+                "reverse_shot": "1", 
+                "shot": "common/shot_empty.json", 
+                "shot_next_tag": "", 
+                "shot_type": "99"
+            }, 
+            "assets": {
+                "ability-12000_hit": "/Content/lang/ab/ability/12000/12000_hit.json", 
+                "ability-12000_launch": "/Content/lang/ab/ability/common/launch_black.json", 
+                "ability-12000_shot": "/Content/lang/ab/ability/common/shot_empty.json"
+            }, 
+            "category_id": "1", 
+            "exercise_type": "4", 
+            "options": {
+                "ability_animation_id": "12000", 
+                "active_target_method": "4", 
+                "alias_name": "", 
+                "arg1": "150", 
+                "arg2": "101", 
+                "arg3": "0", 
+                "arg4": "0", 
+                "arg5": "0", 
+                "cast_time": "1800", 
+                "counter_enable": "1", 
+                "name": "Blizzard", 
+                "panel_name": "Blizzard", 
+                "status_ailments_factor": "0", 
+                "status_ailments_id": "0", 
+                "target_death": "1", 
+                "target_method": "2", 
+                "target_range": "1", 
+                "target_segment": "1"
+            }
+        }, 
+        {
+            "ability_id": "30111021", 
+            "action_id": "5", 
+            "animation_info": {
+                "atk_motion": "chant_end", 
+                "chara_in": "", 
+                "chara_out": "", 
+                "damage_tag": "damage_thunder", 
+                "hit": "13000/13000_hit.json", 
+                "hit_arg": "0", 
+                "hit_next_tag": "", 
+                "hit_type": "1", 
+                "id": "13000", 
+                "launch": "common/launch_black.json", 
+                "launch_next_tag": "", 
+                "launch_type": "2", 
+                "miss_hit": "", 
+                "other_in": "", 
+                "other_out": "", 
+                "recover_tag": "", 
+                "return_hit": "", 
+                "return_shot": "", 
+                "return_type": "99", 
+                "reverse_hit": "1", 
+                "reverse_shot": "1", 
+                "shot": "common/shot_empty.json", 
+                "shot_next_tag": "", 
+                "shot_type": "99"
+            }, 
+            "assets": {
+                "ability-13000_hit": "/Content/lang/ab/ability/13000/13000_hit.json", 
+                "ability-13000_launch": "/Content/lang/ab/ability/common/launch_black.json", 
+                "ability-13000_shot": "/Content/lang/ab/ability/common/shot_empty.json"
+            }, 
+            "category_id": "1", 
+            "exercise_type": "4", 
+            "options": {
+                "ability_animation_id": "13000", 
+                "active_target_method": "4", 
+                "alias_name": "", 
+                "arg1": "150", 
+                "arg2": "102", 
+                "arg3": "0", 
+                "arg4": "0", 
+                "arg5": "0", 
+                "cast_time": "1800", 
+                "counter_enable": "1", 
+                "name": "Thunder", 
+                "panel_name": "Thunder", 
+                "status_ailments_factor": "0", 
+                "status_ailments_id": "0", 
+                "target_death": "1", 
+                "target_method": "2", 
+                "target_range": "1", 
+                "target_segment": "1"
+            }
+        }
+    ], 
+    "ability_panels": [
+        {
+            "ability_id": "30151001", 
+            "ability_ss_point": "50", 
+            "assets": {
+                "command_icon_30151001": "/Content/lang/ab_image/ability/30151001/30151001_128.png"
+            }, 
+            "max_num": "0", 
+            "name": "Attack", 
+            "num": 0, 
+            "panel_no": 1, 
+            "uid": "5143210343006208"
+        }, 
+        {
+            "ability_id": "30111011", 
+            "ability_ss_point": "55", 
+            "assets": {
+                "command_icon_30111011": "/Content/lang/ab_image/ability/30111011/30111011_128.png"
+            }, 
+            "max_num": "2", 
+            "name": "Blizzard", 
+            "num": 2, 
+            "panel_no": 2, 
+            "uid": "8430196"
+        }, 
+        {
+            "ability_id": "30111021", 
+            "ability_ss_point": "55", 
+            "assets": {
+                "command_icon_30111021": "/Content/lang/ab_image/ability/30111021/30111021_128.png"
+            }, 
+            "max_num": "4", 
+            "name": "Thunder", 
+            "num": 4, 
+            "panel_no": 3, 
+            "uid": "8430193"
+        }
+    ], 
+    "animation_info": {
+        "assets": {
+            "buddy-104004": "/Content/lang/ab/character/player/sab/104004/base.sajson", 
+            "buddy-104004_210": "/Content/lang/ab/character/player/sab/104004/glass.sajson", 
+            "buddy-104004_210_left_arm": "/Content/lang/ab/character/player/sab/104004/glass_left_arm.sajson", 
+            "buddy-104004_211": "/Content/lang/ab/character/player/sab/104004/sleep.sajson", 
+            "buddy-104004_212": "/Content/lang/ab/character/player/sab/104004/stone.sajson", 
+            "buddy-104004_221": "/Content/lang/ab/character/player/sab/104004/mini.sajson", 
+            "buddy-104004_222": "/Content/lang/ab/character/player/sab/104004/frog.sajson", 
+            "buddy-104004_left_arm": "/Content/lang/ab/character/player/sab/104004/base_left_arm.sajson"
+        }, 
+        "buddy_id": "10400400", 
+        "left_1_offset_x": "3", 
+        "left_1_offset_y": "-12", 
+        "left_2_offset_x": "-3", 
+        "left_2_offset_y": "-4", 
+        "path": "104004", 
+        "right_1_offset_x": "0", 
+        "right_1_offset_y": "-12", 
+        "right_2_offset_x": "-6", 
+        "right_2_offset_y": "-4"
+    }, 
+    "id": "10400400", 
+    "init_hp": 1427, 
+    "materias": [], 
+    "max_hp": 1427, 
+    "no": "5", 
+    "params": [
+        {
+            "acc": 110, 
+            "atk": 52, 
+            "atk_attributes": [
+                {
+                    "attribute_id": "202", 
+                    "factor": 5
+                }
+            ], 
+            "atk_ss_point_factor": 0, 
+            "atk_type": "2", 
+            "critical": 3, 
+            "def": 31, 
+            "def_attributes": [], 
+            "def_ss_point_factor": 0, 
+            "disp_name": "Rydia", 
+            "eva": 114, 
+            "handedness": "right", 
+            "id": "10400400", 
+            "level": "26", 
+            "matk": 104, 
+            "matk_attributes": [], 
+            "mdef": 65, 
+            "mnd": 53, 
+            "spd": 104
+        }
+    ], 
+    "pos_id": "05", 
+    "row": 2, 
+    "series_flg_of": {
+        "accessory": 0, 
+        "armor": 0, 
+        "buddy": 0, 
+        "weapon": 0
+    }, 
+    "series_id_map": {
+        "accessory": 0, 
+        "armor": "104001", 
+        "buddy": "104001", 
+        "weapon": "104001"
+    }, 
+    "soul_strike": {
+        "ability_id": "20090001", 
+        "action_id": "5", 
+        "animation_info": {
+            "atk_motion": "chant_end", 
+            "chara_in": "stay_white_in", 
+            "chara_out": "stay_white_out", 
+            "damage_tag": "damage", 
+            "hit": "60011/60011_hit.json", 
+            "hit_arg": "0", 
+            "hit_next_tag": "", 
+            "hit_type": "1", 
+            "id": "70131", 
+            "launch": "common/launch_special_summon.json", 
+            "launch_next_tag": "", 
+            "launch_type": "2", 
+            "miss_hit": "", 
+            "other_in": "stay_white_in", 
+            "other_out": "stay_white_out", 
+            "recover_tag": "", 
+            "return_hit": "", 
+            "return_shot": "", 
+            "return_type": "99", 
+            "reverse_hit": "1", 
+            "reverse_shot": "1", 
+            "shot": "60011/60011_shot.json", 
+            "shot_next_tag": "", 
+            "shot_type": "4"
+        }, 
+        "assets": {
+            "ability-70131_hit": "/Content/lang/ab/ability/60011/60011_hit.json", 
+            "ability-70131_launch": "/Content/lang/ab/ability/common/launch_special_summon.json", 
+            "ability-70131_shot": "/Content/lang/ab/ability/60011/60011_shot.json"
+        }, 
+        "exercise_type": "6", 
+        "icon": {
+            "assets": {
+                "command_icon_20090001": "/Content/lang/ab_image/soulstrike//20090001/20090001_256.png"
+            }
+        }, 
+        "options": {
+            "ability_animation_id": "70131", 
+            "active_target_method": "1", 
+            "alias_name": "Chocobo Kick", 
+            "arg1": "98", 
+            "arg2": "199", 
+            "arg3": "100", 
+            "arg4": "0", 
+            "arg5": "0", 
+            "cast_time": "3000", 
+            "consume_soul_strike_point": "500", 
+            "counter_enable": "0", 
+            "name": "Summon Eidolon I", 
+            "status_ailments_factor": "0", 
+            "status_ailments_id": "0", 
+            "target_death": "1", 
+            "target_method": "2", 
+            "target_range": "2", 
+            "target_segment": "1"
+        }
+    }, 
+    "soul_strike_gauge": 100, 
+    "status_ailments": [], 
+    "uid": 104, 
+    "weapon": {
+        "animation_info": {
+            "attack_tag": "attack", 
+            "can_move": "1", 
+            "equip_type": "4", 
+            "id": "100013", 
+            "path": "100013/100013.json"
+        }, 
+        "assets": {
+            "weapon-100013": "/Content/lang/ab/equip/weapon/100013/100013.json"
+        }, 
+        "category_id": "12"
+    }, 
+    "weapon_effect": {
+        "animation_info": {
+            "atk_motion": "", 
+            "chara_in": "", 
+            "chara_out": "", 
+            "damage_tag": "damage", 
+            "hit": "30102/30102_hit.json", 
+            "hit_arg": "0", 
+            "hit_next_tag": "", 
+            "hit_type": "1", 
+            "id": "30102", 
+            "launch": "common/launch_empty.json", 
+            "launch_next_tag": "", 
+            "launch_type": "99", 
+            "miss_hit": "", 
+            "other_in": "", 
+            "other_out": "", 
+            "recover_tag": "", 
+            "return_hit": "", 
+            "return_shot": "", 
+            "return_type": "99", 
+            "reverse_hit": "1", 
+            "reverse_shot": "1", 
+            "shot": "common/shot_empty.json", 
+            "shot_next_tag": "", 
+            "shot_type": "99"
+        }, 
+        "assets": {
+            "ability-30102_hit": "/Content/lang/ab/ability/30102/30102_hit.json", 
+            "ability-30102_launch": "/Content/lang/ab/ability/common/launch_empty.json", 
+            "ability-30102_shot": "/Content/lang/ab/ability/common/shot_empty.json"
+        }
+    }
+}

@@ -1,0 +1,218 @@
+{
+    "abilities": [
+        {
+            "ability_id": "30151001", 
+            "action_id": "3", 
+            "category_id": "5", 
+            "exercise_type": "1", 
+            "options": {
+                "ability_animation_id": "0", 
+                "active_target_method": "4", 
+                "alias_name": "", 
+                "arg1": "100", 
+                "arg2": "1", 
+                "arg3": "0", 
+                "arg4": "0", 
+                "arg5": "0", 
+                "cast_time": "1500", 
+                "counter_enable": "1", 
+                "name": "Attack", 
+                "panel_name": "Attack", 
+                "status_ailments_factor": "0", 
+                "status_ailments_id": "0", 
+                "target_death": "1", 
+                "target_method": "2", 
+                "target_range": "1", 
+                "target_segment": "1"
+            }
+        }
+    ], 
+    "ability_panels": [
+        {
+            "ability_id": "30151001", 
+            "ability_ss_point": "50", 
+            "assets": {
+                "command_icon_30151001": "/Content/lang/ab_image/ability/30151001/30151001_128.png"
+            }, 
+            "max_num": "0", 
+            "name": "Attack", 
+            "num": 0, 
+            "panel_no": 1, 
+            "uid": "5570609408901120"
+        }
+    ], 
+    "animation_info": {
+        "assets": {
+            "buddy-108005": "/Content/lang/ab/character/player/sab/108005/base.sajson", 
+            "buddy-108005_210": "/Content/lang/ab/character/player/sab/108005/glass.sajson", 
+            "buddy-108005_210_left_arm": "/Content/lang/ab/character/player/sab/108005/glass_left_arm.sajson", 
+            "buddy-108005_211": "/Content/lang/ab/character/player/sab/108005/sleep.sajson", 
+            "buddy-108005_212": "/Content/lang/ab/character/player/sab/108005/stone.sajson", 
+            "buddy-108005_221": "/Content/lang/ab/character/player/sab/108005/mini.sajson", 
+            "buddy-108005_222": "/Content/lang/ab/character/player/sab/108005/frog.sajson", 
+            "buddy-108005_left_arm": "/Content/lang/ab/character/player/sab/108005/base_left_arm.sajson"
+        }, 
+        "buddy_id": "10800500", 
+        "left_1_offset_x": "3", 
+        "left_1_offset_y": "-18", 
+        "left_2_offset_x": "-4", 
+        "left_2_offset_y": "-6", 
+        "path": "108005", 
+        "right_1_offset_x": "-1", 
+        "right_1_offset_y": "-18", 
+        "right_2_offset_x": "-6", 
+        "right_2_offset_y": "-6"
+    }, 
+    "id": "10800500", 
+    "init_hp": 1024, 
+    "materias": [], 
+    "max_hp": 1024, 
+    "no": "5", 
+    "params": [
+        {
+            "acc": 115, 
+            "atk": 136, 
+            "atk_attributes": [], 
+            "atk_ss_point_factor": 0, 
+            "atk_type": "1", 
+            "critical": 6, 
+            "def": 99, 
+            "def_attributes": [], 
+            "def_ss_point_factor": 0, 
+            "disp_name": "Selphie", 
+            "eva": 122, 
+            "handedness": "right", 
+            "id": "10800500", 
+            "level": "6", 
+            "matk": 244, 
+            "matk_attributes": [], 
+            "mdef": 172, 
+            "mnd": 286, 
+            "spd": 99
+        }
+    ], 
+    "pos_id": "05", 
+    "row": 2, 
+    "series_flg_of": {
+        "accessory": 0, 
+        "armor": 1, 
+        "buddy": 1, 
+        "weapon": 1
+    }, 
+    "series_id_map": {
+        "accessory": "107001", 
+        "armor": "108001", 
+        "buddy": "108001", 
+        "weapon": "108001"
+    }, 
+    "soul_strike": {
+        "ability_id": "20510002", 
+        "action_id": "12", 
+        "animation_info": {
+            "atk_motion": "ready", 
+            "chara_in": "idle", 
+            "chara_out": "chant_end", 
+            "damage_tag": "", 
+            "hit": "70585/70585_hit.json", 
+            "hit_arg": "0", 
+            "hit_next_tag": "", 
+            "hit_type": "1", 
+            "id": "70585", 
+            "launch": "70585/70585_launch.json", 
+            "launch_next_tag": "", 
+            "launch_type": "2", 
+            "miss_hit": "", 
+            "other_in": "", 
+            "other_out": "", 
+            "recover_tag": "eff_recover", 
+            "return_hit": "", 
+            "return_shot": "", 
+            "return_type": "99", 
+            "reverse_hit": "1", 
+            "reverse_shot": "1", 
+            "shot": "common/shot_empty.json", 
+            "shot_next_tag": "", 
+            "shot_type": "99"
+        }, 
+        "assets": {
+            "ability-70585_hit": "/Content/lang/ab/ability/70585/70585_hit.json", 
+            "ability-70585_launch": "/Content/lang/ab/ability/70585/70585_launch.json", 
+            "ability-70585_shot": "/Content/lang/ab/ability/common/shot_empty.json"
+        }, 
+        "exercise_type": "3", 
+        "icon": {
+            "assets": {
+                "command_icon_20510002": "/Content/lang/ab_image/soulstrike//20510002/20510002_256.png"
+            }
+        }, 
+        "options": {
+            "ability_animation_id": "70585", 
+            "active_target_method": "1", 
+            "alias_name": "Trabia's Light", 
+            "arg1": "56", 
+            "arg2": "0", 
+            "arg3": "0", 
+            "arg4": "0", 
+            "arg5": "0", 
+            "cast_time": "2500", 
+            "consume_soul_strike_point": "500", 
+            "counter_enable": "0", 
+            "name": "Trabia's Light", 
+            "status_ailments_factor": "0", 
+            "status_ailments_id": "0", 
+            "target_death": "1", 
+            "target_method": "2", 
+            "target_range": "2", 
+            "target_segment": "2"
+        }
+    }, 
+    "soul_strike_gauge": 150, 
+    "status_ailments": [], 
+    "uid": 103, 
+    "weapon": {
+        "animation_info": {
+            "attack_tag": "attack", 
+            "can_move": "0", 
+            "equip_type": "4", 
+            "id": "100045", 
+            "path": "100045/100045.json"
+        }, 
+        "assets": {
+            "weapon-100045": "/Content/lang/ab/equip/weapon/100045/100045.json"
+        }, 
+        "category_id": "8"
+    }, 
+    "weapon_effect": {
+        "animation_info": {
+            "atk_motion": "", 
+            "chara_in": "", 
+            "chara_out": "", 
+            "damage_tag": "damage", 
+            "hit": "30064/30064_hit.json", 
+            "hit_arg": "0", 
+            "hit_next_tag": "", 
+            "hit_type": "1", 
+            "id": "30064", 
+            "launch": "30064/30064_launch.json", 
+            "launch_next_tag": "", 
+            "launch_type": "2", 
+            "miss_hit": "", 
+            "other_in": "", 
+            "other_out": "", 
+            "recover_tag": "", 
+            "return_hit": "", 
+            "return_shot": "", 
+            "return_type": "99", 
+            "reverse_hit": "1", 
+            "reverse_shot": "1", 
+            "shot": "common/shot_empty.json", 
+            "shot_next_tag": "", 
+            "shot_type": "99"
+        }, 
+        "assets": {
+            "ability-30064_hit": "/Content/lang/ab/ability/30064/30064_hit.json", 
+            "ability-30064_launch": "/Content/lang/ab/ability/30064/30064_launch.json", 
+            "ability-30064_shot": "/Content/lang/ab/ability/common/shot_empty.json"
+        }
+    }
+}
