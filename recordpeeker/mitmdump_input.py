@@ -49,15 +49,20 @@ def save_battles(data):
 
 def get_buddy_info(data):
     # use with party_list
+    ### TODO ### make this use id rather than names
     for buddy in data["buddies"]:
-        temp_str = buddy.get("name", "Unknown")
         level = buddy.get("level","Unknown")
         job_name = buddy.get("job_name", "Unknown")
 
         # Tyro check
         if job_name == "Keeper":
             buddy["name"] = "Tyro"
+        if job_name == "Dark Knight" and buddy["name"] == "Cecil":
+            buddy["name"] = "CecilDK"
+        if job_name == "Paladin" and buddy["name"] == "Cecil":
+            buddy["name"] = "CecilP"
 
+        temp_str = buddy.get("name", "Unknown")
         a = temp_str.replace(" ", "_").lower()
 
         
@@ -68,20 +73,26 @@ def get_buddy_info(data):
         if not os.access(os.getcwd() + "/data/buddy/" + a + "/" + str(level) + "/", os.F_OK):
             os.mkdir(os.getcwd() + "/data/buddy/" + a + "/" + str(level) + "/")
 
-        test_file = open(os.getcwd() + "/data/buddy/" + a + "/" + str(level) + "/" + a + "_level_" + str(level) + "_stats.json",'w')    
-        if (os.path.isfile(test_file) == False):
-            print >> test_file, json.dumps(buddy, indent=4, sort_keys=True)
-            test_file.close()
+        test_file_path = os.getcwd() + "/data/buddy/" + a + "/" + str(level) + "/" + a + "_level_" + str(level) + "_stats.json"  
+        with open(test_file_path, 'w') as f:
+            print >> f, json.dumps(buddy, indent=4, sort_keys=True)
+        
+        # not working correctly
+        # if not (os.path.isfile(test_file_path)):
+        #     test_file = open(test_file_path)
+        #     print >> test_file, json.dumps(buddy, indent=4, sort_keys=True)
+        #     test_file.close()
+
 
 def get_soul_strike_info(data):
     #use with get battle init 
     battle = data["battle"]
     for buddy in battle["buddy"]:
-        a = buddy.get("ability_id","Error")
-        if not os.access(os.getcwd() + "/data/soul_strike/" + str(a) + "/", os.F_OK):
-            os.mkdir(os.getcwd() + "/data/soul_strike/" + str(a) + "/")
+        a = buddy["soul_strike"]["ability_id"]
+        if not os.access(os.getcwd() + "/data/soul_strikes/" + str(a) + "/", os.F_OK):
+            os.mkdir(os.getcwd() + "/data/soul_strikes/" + str(a) + "/")
 
-        test_file = open(os.getcwd() + "/data/soul_strike/" + str(a) + "/" + str(a) + ".json",'w')
+        test_file = open(os.getcwd() + "/data/soul_strikes/" + str(a) + "/" + str(a) + ".json",'w')
         print >> test_file, json.dumps(buddy.get("soul_strike","Error"), indent=4, sort_keys=True)
         test_file.close()
 
@@ -392,6 +403,7 @@ def handle_get_battle_init_data(data):
     # save_abilities(soul_strike_list, "/data/soul_strikes")
     save_abilities(enemy_ability_list, "/data/enemy_abilities")
     # save_enemy_abilities(enemy_ability_list)
+    get_soul_strike_info(data)
 
 def handle_party_list(data):
 
