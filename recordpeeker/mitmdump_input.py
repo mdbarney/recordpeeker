@@ -133,7 +133,7 @@ def get_buddy_info(data):
 
         test_file_path = os.getcwd() + "/data/buddy/" + a + "/" + str(level) + "/" + a + "_level_" + str(level) + "_stats.json"  
         with open(test_file_path, 'w') as f:
-            print >> f, json.dumps(buddy, indent=4, sort_keys=True)
+            print >> f, json.dumps(buddy, indent=4, sort_keys=False)
         
         # not working correctly
         # if not (os.path.isfile(test_file_path)):
@@ -684,6 +684,36 @@ def handle_grow_egg_get_buddy_level_to_exp_map(data):
 def handle_grow_egg_use(data):
     var = "grow_egg_use"
     log_data(data,var)
+
+    buddy = data["buddy"]
+    level = buddy.get("level","Unknown")
+    job_name = buddy.get("job_name", "Unknown")
+
+    # Tyro check
+    if job_name == "Keeper":
+        buddy["name"] = "Tyro"
+
+    temp_str = buddy.get("name", "Unknown")
+
+    if job_name == "Dark Knight" and buddy["name"] == "Cecil":
+        #buddy["name"] = "CecilDK"
+        temp_str = "CecilDK"
+
+    if job_name == "Paladin" and buddy["name"] == "Cecil":
+        #buddy["name"] = "CecilP"
+        temp_str = "CecilP"
+
+    a = temp_str.replace(" ", "_").lower()
+
+    if not os.access(os.getcwd() + "/data/buddy/" + a + "/", os.F_OK):
+        os.mkdir(os.getcwd() + "/data/buddy/" + a + "/")
+
+    if not os.access(os.getcwd() + "/data/buddy/" + a + "/" + str(level) + "/", os.F_OK):
+        os.mkdir(os.getcwd() + "/data/buddy/" + a + "/" + str(level) + "/")
+
+    test_file_path = os.getcwd() + "/data/buddy/" + a + "/" + str(level) + "/" + a + "_level_" + str(level) + "_stats.json"  
+    with open(test_file_path, 'w') as f:
+        print >> f, json.dumps(buddy, indent=4, sort_keys=False)
 
 def handle_gacha_execute(data):
     var = "gacha_execute"
