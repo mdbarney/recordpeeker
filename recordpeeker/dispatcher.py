@@ -56,14 +56,21 @@ class Dispatcher(object):
     def handle(self, flow, args):
         if not flow.request.pretty_host(hostheader=True).endswith(self._host):
             return
+
+        r = str(flow.request.path).replace("/", "-")
+        rq_path = r[1:]
         if args.verbosity >= 1:
-            data_path = os.getcwd() + "/data_dump/data_dump" + time.strftime("%m%d%Y-%H%M%S") + ".json" 
-            test_file = open(data_path, 'w')
-            print >> test_file, "//" + str(flow.request.path)
-            # print >> test_file, json.dumps(data, indent=4, sort_keys=True)
-            test_file.close()
+            t = os.getcwd() + "/api_calls.txt"
+            # if not os.access(p, os.F_OK):
+            #     os.mkdir(p)
+            # data_path = p + str(flow.request.path) + "_" + time.strftime("%m%d%Y-%H%M%S") + ".json" 
+            t_file = open(t, 'a')
+            print >> t_file, flow.request.path
+            # # print >> test_file, json.dumps(data, indent=4, sort_keys=True)
+            t_file.close()
 
             # print flow.request.path
+            # print
         if self.should_ignore(flow.request.path):
             return
         with decoded(flow.response):
@@ -71,10 +78,18 @@ class Dispatcher(object):
             if handlers:
                 data = json_decode(flow.response.content)
                 if args.verbosity >= 2:
+                    p = os.getcwd() + "/data_dump/" + rq_path + "/"
+                    if not os.access(p, os.F_OK):
+                        os.mkdir(p)
+                    data_path = p + rq_path + "_" + time.strftime("%m%d%Y-%H%M%S") + ".json" 
                     test_file = open(data_path, 'w')
-                    print >> test_file, json.dumps(data, indent=4, sort_keys=True)
+                    print >> test_file, json.dumps(data, indent=4, sort_keys=False)
                     test_file.close()
-                    # print dump_json(data)
+
+                    # test_file = open(data_path, 'w')
+                    # print >> test_file, json.dumps(data, indent=4, sort_keys=False)
+                    # test_file.close()
+                    # # print dump_json(data)
                 for func in handlers:
                     if func in self._wants_flow:
                         func(data, flow)
@@ -83,8 +98,17 @@ class Dispatcher(object):
             else:
                 if args.verbosity >= 3:
                     data = json_decode(flow.response.content)
+                    p = os.getcwd() + "/data_dump/" + rq_path + "/"
+                    if not os.access(p, os.F_OK):
+                        os.mkdir(p)
+                    data_path = p + rq_path + "_" + time.strftime("%m%d%Y-%H%M%S") + ".json" 
                     test_file = open(data_path, 'w')
-                    print >> test_file, json.dumps(data, indent=4, sort_keys=True)
+                    # print >> test_file, "//" + str(flow.request.path)
+                    print >> test_file, json.dumps(data, indent=4, sort_keys=False)
                     test_file.close()
-                    # print dump_json(data)
+
+                    # test_file = open(data_path, 'w')
+                    # print >> test_file, json.dumps(data, indent=4, sort_keys=True)
+                    # test_file.close()
+                    # # print dump_json(data)
 

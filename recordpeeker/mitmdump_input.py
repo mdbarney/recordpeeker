@@ -10,6 +10,8 @@ import csv
 import time
 import datetime
 import pprint
+import re
+import sys
 # import wget
 from collections import OrderedDict, defaultdict
 
@@ -36,16 +38,67 @@ def save_battles(data):
             writer = csv.writer(f, delimiter='\t',quoting=csv.QUOTE_NONE)
             writer.writerows(data)
 
-      
-# # TODO
-# def save_dungeons(data):
-#     # temp.append([dungeon_id, series_id, id, name, difficulty, type, rounds, stamina, has_boss])
-#     with open('test.csv', 'wb') as f:
-#         writer = csv.writer(f)
-#         writer.writerows(data)
+# def save_equipment_id(data):
+def save_equipment_id(equipment_id, name):
+    # temp.append([dungeon_id, series_id, id, name, difficulty, type, rounds, stamina, has_boss])
+    # temp = ["dungeon_id", "series_id", "id", "name", "difficulty", "type", "rounds", "stamina", "has_boss"]
+    file_path = os.getcwd() + "/data/items.csv"
+    # unicode_str = name.decode('ascii')
+    utf8_str = name.encode('utf-8')
+    name1 = name
+    with open(file_path, 'a') as f:
+        # writer = csv.writer(f, delimiter=',',quoting=csv.QUOTE_NONE)
+        if '\xef' in utf8_str:
+            # print str(equipment_id) + " " + utf8_str
+            # name1 = utf8_str.replace("\xef","")
+            name2 = re.split('\)', name)
+            name1 = str(name2[0]) + ")"
+        print >> f, str(equipment_id) + "," + str(name1)
+        # writer.writerows([[equipment_id,name1]])
 
-# def save_character_sprite(path):
-#     filename = wget.download(path)
+def save_character_sprite(path):
+    print 1
+    ### handle_dungeon_list ###
+    ### "/Content/xx/xx/etc" might be run within the app itself
+    # assets["assetPath"]: "/Content/lang/bgm/bgm_m4a/bgm_06_006.json"
+    ### Serverside ###
+    # dungeons["background_image_path"]: "/dff/static/lang/image/dungeon/620075_bg.png"
+
+    # dungeons["background_image_path"]["prizes"]["1"][["image_path"]]: ## seems like only 1-3
+    # dungeons["epilogue_image_path"]: "/dff/static/lang/image/dungeon/620075_epilogue.png"
+    # dungeons["prologue_image_path"]: "/dff/static/lang/image/dungeon/620075_prologue.png"
+    # world["image_path"]: "/dff/static/lang/image/world/800002.png"
+    # world["door_image_path"]: "/dff/static/lang/image/world/800002_door.png"
+
+    ### handle_get_battle_init_data ###
+    # buddy["weapon"]["path"]: "100002/100002.json"
+    # buddy["weapon"]["assets"]:
+    # buddy["abilities"]["assets"]:
+    # rounds["enemy"]["animation_info"]["assets"]:
+    ## pretty much everything with "assets" or assetPath
+    # rounds["assets"] (maybe it's just "assets" without rounds)
+
+    ### handle_party_list ###
+    # abilities[]
+    #   "command_icon_path": "/dff/static/lang/image/ability/30111021/30111021_128.png"
+    #   "image_path": "/dff/static/lang/image/ability/30111021/30111021_112.png"
+    #   "thumbnail_path": "/dff/static/lang/image/ability/30111021/30111021_48.png"
+    # buddies[]
+    #   "image_path": "/dff/static/lang/image/buddy/10000200/10000200.png"
+    # equipments[]
+    #   "detail_image_path": "/dff/static/lang/image/equipment/21001010/21001010_05_220.png"
+    #   "image_path": "/dff/static/lang/image/equipment/21001010/21001010_05_112.png"
+    #   "thumbnail_path": "/dff/static/lang/image/equipment/21001010/21001010_05_48.png"
+    # grow_eggs[]
+    #   "image_path": "/dff/static/lang/image/growegg/70000001/70000001_112.png"
+    # materials[]
+    #   "image_path": "/dff/static/lang/image/ability_material/40000063/40000063_112.png"
+    # record_materias[]
+    #   "command_icon_path": "/dff/static/lang/image/record_materia/111000020/111000020_128.png", 
+    #   "image_path": "/dff/static/lang/image/record_materia/111000020/111000020_112.png", 
+
+
+    #     filename = wget.download(path)
 
 def get_buddy_info(data):
     # use with party_list
@@ -57,12 +110,17 @@ def get_buddy_info(data):
         # Tyro check
         if job_name == "Keeper":
             buddy["name"] = "Tyro"
-        if job_name == "Dark Knight" and buddy["name"] == "Cecil":
-            buddy["name"] = "CecilDK"
-        if job_name == "Paladin" and buddy["name"] == "Cecil":
-            buddy["name"] = "CecilP"
 
         temp_str = buddy.get("name", "Unknown")
+
+        if job_name == "Dark Knight" and buddy["name"] == "Cecil":
+            #buddy["name"] = "CecilDK"
+            temp_str = "CecilDK"
+
+        if job_name == "Paladin" and buddy["name"] == "Cecil":
+            #buddy["name"] = "CecilP"
+            temp_str = "CecilP"
+
         a = temp_str.replace(" ", "_").lower()
 
         
@@ -83,7 +141,6 @@ def get_buddy_info(data):
         #     print >> test_file, json.dumps(buddy, indent=4, sort_keys=True)
         #     test_file.close()
 
-
 def get_soul_strike_info(data):
     #use with get battle init 
     battle = data["battle"]
@@ -95,7 +152,6 @@ def get_soul_strike_info(data):
         test_file = open(os.getcwd() + "/data/soul_strikes/" + str(a) + "/" + str(a) + ".json",'w')
         print >> test_file, json.dumps(buddy.get("soul_strike","Error"), indent=4, sort_keys=True)
         test_file.close()
-
 
 def uniq(input):
     output = []
@@ -121,35 +177,6 @@ def get_abilities_stats_from_json():
         temp = json.loads(f.read())
 
     return temp
-
-# def save_enemy_abilities(data):
-
-#     temp = []
-#     temp2 = []
-#     enemy_file_path = os.getcwd() + "/data/enemy_abilities.json"
-
-#     if os.path.isfile(enemy_file_path):
-#         temp = get_abilities_stats_from_json()
-
-#     # combine the two lists
-#     for ability in temp:
-#         temp2.append(ability)
-
-#     for ability in data:
-#         temp2.append(ability)
-
-#     # print temp2
-
-#     # remove duplicates
-#     temp3 = uniq(temp2)
-
-#     save_single_ability(temp3, "/data/enemy_abilities/")
-
-#     enemy_output_file = open(os.getcwd() + "/data/enemy_abilities.json", 'w')
-#     enemy_output_file.seek(0)
-    
-#     print >> enemy_output_file, json.dumps(temp3, indent=4, separators=(',', ': '), sort_keys=False)
-#     enemy_output_file.close()
 
 def save_abilities(data, path):
 
@@ -213,6 +240,34 @@ def save_enemy_stats(data, dungeon_id):
     print >> enemy_output_file, json.dumps(temp2, indent=4, separators=(',', ': '), sort_keys=False)
     enemy_output_file.close()
 
+def save_equipment(data):
+    temp = []
+    for item in data["equipments"]:
+        equipment_id = item.get("equipment_id","Error")
+        level = item.get("level","0")
+        name = item.get("name","Error")
+        # name1 = name.replace("\uff0b","+")
+        # name1 = name.replace("\xef","")
+
+        if ITEMS.get(equipment_id,"Not found") == "Not found":
+            temp.append([equipment_id, name])
+            # save_equipment_id(temp)
+            # print name1
+            save_equipment_id(equipment_id, name)
+            # reload dict ITEMS dict?
+            # doesnt work
+            # ITEMS = __init__.load_dict("data/items.csv")
+
+        if not os.access(os.getcwd() + "/data/equipment/" + str(equipment_id) + "/", os.F_OK):
+            os.mkdir(os.getcwd() + "/data/equipment/" + str(equipment_id) + "/")
+        
+        file_path = "/data/equipment/" + str(equipment_id) + "/" + str(equipment_id) + "_level_" + str(level) + ".json"
+        
+        if not os.path.isfile(file_path):
+            test_file = open(os.getcwd() + file_path,'w')
+            print >> test_file, json.dumps(item, indent=4, sort_keys=True)
+            test_file.close()
+
 def save_equipment_list(data, user_id):
     equipment_list_file = open("current_equipment_" + str(user_id) + ".json", 'w')
     print >> equipment_list_file, "{\n\t\"equipments\": " + json.dumps(data["equipments"], indent=4, sort_keys=False)
@@ -239,17 +294,6 @@ def get_buddy_name(buddy):
     # for param in buddy["params"]:
     return child.get("max_hp", "Unknown HP")
         # return param.get("disp_name", "Unknown name")
-
-# def get_buddy_hp(buddy):
-#     for child in buddy["children"]:
-#         # return child.get("max_hp", "Unknown HP")
-#         for param in child["params"]:
-#             return param.get("max_hp", "Unknown HP")
-
-# def get_buddy_name(buddy):
-#     for param in buddy["params"]:
-#         # return child.get("max_hp", "Unknown HP")
-#         return param.get("disp_name", "Unknown name")
 
 # def get_buddy_param(buddy, param):
 #     for par in buddy["params"]:
@@ -333,55 +377,61 @@ def handle_get_battle_init_data(data):
 
     save_enemy_stats(enemy_list, battle_id)
 
+# fire/blizzard/thunder/dark/-ara/-aga/-aja
+# arg1 = power multiplier
+# arg2 = element 
+# arg3 = ?
+# arg4 = ?
+# arg5 = ?
+
+# elements
+# 100 = fire
+# 101 = ice
+# 102 = thunder
+# 103 = earth
+# 104 = wind
+# 105 = water
+# 106 = holy(cure/a/aga/aja)
+# 107 = dark
+# 108 = poison
+
+
+# "status_ailments_factor" = % chance to inflict status ailment
+# "status_ailments_id" = ID for status ailment
+# 200 = poison
+# 201 = silence
+# 202 = paralyze
+# 203 = confuse
+# 204 = haste
+# 205 = slow
+# 206 = stop
+# 207 = protect
+# 208 = shell
+# 209 = reflect
+# 210 = blind
+# 211 = sleep
+# 212 = stone/pretrify
+# 213 = ? Doom ?
+# 214 = instant KO (death)/gravity/cripple
+# 215 = ? Berserk ?
+# 216 = regen
+
+# ### For "attribute_id": "1XX" ####
+
+# "factor": "1" = this means that said enemy is weak to the element with that corresponding attribute_id
+# "factor": "6" = this means that said enemy resists the corresponding element
+# "factor": "11" = this means that said enemy nulls (takes zero damage from) the corresponding element
+# "factor": "21" = this means that said enemy absorbs the corresponding element
+
+
+# ### For "attribute_id": "2XX" ####
+# "factor": "1" = with a factor of one and the attribute_id preset to "2XX", it means said enemy is immune to that debuff
+
+
     # ability data
     buddy_data = battle_data["buddy"]
     for buddy in buddy_data:
-        # temp_stats = {}
-        # character_list.append(buddy)
-        # temp_str = get_buddy_name(buddy)
-        # level = get_buddy_param(buddy, "level")
-        # a = temp_str.replace(" ", "_").lower()
-
-        # temp_stats = {"acc": get_buddy_param(buddy,"acc"), 
-        #                 "atk": get_buddy_param(buddy,"atk"), "max_hp": buddy["max_hp"],
-        #                 "critical": get_buddy_param(buddy,"critical"), 
-        #                 "def": get_buddy_param(buddy,"def"), 
-        #                 "disp_name": get_buddy_param(buddy,"disp_name"), 
-        #                 "eva": get_buddy_param(buddy,"eva"), 
-        #                 "handedness": get_buddy_param(buddy,"handedness"), 
-        #                 "id": get_buddy_param(buddy,"id"), 
-        #                 "level": get_buddy_param(buddy,"level"), 
-        #                 "matk": get_buddy_param(buddy,"matk"), 
-        #                 "mdef": get_buddy_param(buddy,"mdef"), 
-        #                 "mnd": get_buddy_param(buddy,"mnd"), 
-        #                 "spd": get_buddy_param(buddy,"spd")
-        #                 }
-        # if not os.access(os.getcwd() + "/data/buddy/" + a + "/", os.F_OK):
-        #     os.mkdir(os.getcwd() + "/data/buddy/" + a + "/")
-
-        # if not os.access(os.getcwd() + "/data/buddy/" + a + "/" + level + "/", os.F_OK):
-        #     os.mkdir(os.getcwd() + "/data/buddy/" + a + "/" + level + "/")
-        # # os.mkdir(os.getcwd() + "/data/buddy/" + a + "/raw/")
-        # test_file_raw = open(os.getcwd() + "/data/buddy/raw/" + a + "_" + time.strftime("%m%d%Y-%H%M%S")+ ".json",'w')
-        # test_file = open(os.getcwd() + "/data/buddy/" + a + "/" + level + "/" + a + "_level_" + level+ "_stats.json",'w')
-        
-        # print >> test_file_raw, json.dumps(buddy, indent=4, sort_keys=True)
-        # print >> test_file, json.dumps(temp_stats, indent=4, sort_keys=True)
-        # test_file.close()
-        # test_file_raw.close()
-
-        # print get_buddy_name(buddy)
-        # for soul_strike in buddy["soul_strike"]:
-        #     # for option in soul_strike["options"]:
-        #     # print soul_strike["options"].get("name","Error")
-        #     # print soul_strike
-        #     soul_strike_list.append(soul_strike)
         for ability in buddy["abilities"]:
-            # ability_id = ability.get("ability_id")
-            # action_id = ability.get("action_id")
-            # category_id = ability.get("category_id")
-            # exercise_type = ability.get("exercise_type")
-            # for options in ability["options"]:
             ability_list.append(ability)
        
 
@@ -403,6 +453,7 @@ def handle_get_battle_init_data(data):
     # save_abilities(soul_strike_list, "/data/soul_strikes")
     save_abilities(enemy_ability_list, "/data/enemy_abilities")
     # save_enemy_abilities(enemy_ability_list)
+
     get_soul_strike_info(data)
 
 def handle_party_list(data):
@@ -420,14 +471,17 @@ def handle_party_list(data):
     topn["mnd"] = 3
     topn["def"] = 5
     topn["mdef"] = 3
-    find_series = [101001, 102001, 103001, 104001, 105001, 106001, 107001, 108001, 109001, 110001, 112001, 113001]
+    find_series = [200001, 101001, 102001, 103001, 104001, 105001, 106001, 107001, 108001, 109001, 110001, 112001, 113001]
     equips = defaultdict(list)
     for item in data["equipments"]:
         kind = item.get("equipment_type", 1)
         heapq.heappush(equips[kind], Equipment(slicedict(item, wanted)))
 
     for series in find_series:
-        print "Best equipment for FF{0}:".format((series - 100001) / 1000)
+        if series == 200001:
+            print "Best equipment for FF Core"
+        else:
+            print "Best equipment for FF{0}:".format((series - 100001) / 1000)
 
         # Need to use lists for column ordering
         tbl = ["stat n weapon stat n armor stat n accessory".split()]
@@ -446,23 +500,9 @@ def handle_party_list(data):
 
     # print equipment to json file
     save_equipment_list(data, get_user_id(data))
+    save_equipment(data)
 
     get_buddy_info(data)
-    # for buddy in data["buddies"]:
-    #     temp_str = buddy.get("name", "Unknown")
-    #     level = buddy.get("level","Unknown")
-    #     a = temp_str.replace(" ", "_").lower()
-
-    #     if not os.access(os.getcwd() + "/data/buddy/" + a + "/", os.F_OK):
-    #         os.mkdir(os.getcwd() + "/data/buddy/" + a + "/")
-
-    #     if not os.access(os.getcwd() + "/data/buddy/" + a + "/" + str(level) + "/", os.F_OK):
-    #         os.mkdir(os.getcwd() + "/data/buddy/" + a + "/" + str(level) + "/")
-
-    #     test_file = open(os.getcwd() + "/data/buddy/" + a + "/" + str(level) + "/" + a + "_level_" + str(level) + "_stats.json",'w')
-    #     print >> test_file, json.dumps(buddy, indent=4, sort_keys=True)
-    #     test_file.close()
-
 
 def handle_dungeon_list(data):
 
@@ -533,13 +573,133 @@ def handle_battle_list(data):
 #       "stamina": 15
 #     }
 
-
 def handle_survival_event(data):
     # XXX: This maybe works for all survival events...
     enemy = data.get("enemy", dict(name="???", memory_factor="0"))
     name = enemy.get("name", "???")
     factor = float(enemy.get("memory_factor", "0"))
     print "Your next opponent is {0} (x{1:.1f})".format(name, factor)
+
+def log_data(data, var):
+    path_dir = os.getcwd() + "/data/raw/" + str(var) + "/"
+    if not os.access(path_dir, os.F_OK):
+        os.mkdir(path_dir)
+
+    # print path_dir
+    if os.path.isdir(path_dir):
+        # print "var: " + var
+        path = path_dir + str(var) + "_" + time.strftime("%m%d%Y-%H%M%S") + ".json" 
+        test_file = open(path, 'w')
+        print >> test_file, json.dumps(data, indent=4, sort_keys=False)
+        test_file.close()
+
+def handle_home(data):
+    var = "dff"
+    log_data(data,var)
+
+def handle_splash(data):
+    var = "splash"
+    log_data(data,var)
+
+def handle_timestamp(data):
+    var = "timestamp"
+    log_data(data,var)
+
+def handle_battle_timestamp(data):
+    var = "battle_timestamp"
+    log_data(data,var)
+
+def handle_api_create_session(data):
+    var = "api_create_session"
+    log_data(data,var)
+
+def handle_notification_check(data):
+    var = "notification_check"
+    log_data(data,var)
+    
+def handle_get_google_achievements(data):
+    var = "get_google_play_achievements"
+    log_data(data,var)
+    
+def handle_update_user_session(data):
+    var = "update_user_session"
+    log_data(data,var)
+    
+def handle_menu_friend(data):
+    var = "menu_friend"
+    log_data(data,var)
+    
+def handle_gift_box_get_data(data):
+    var = "gift_box_get_data"
+    log_data(data,var)
+    
+def handle_gift_box_receive_all(data):
+    var = "gift_box_receive_all"
+    log_data(data,var)
+    
+def handle_gift_box(data):
+    var = "gift_box"
+    log_data(data,var)
+    
+def handle_gacha_show(data):
+    var = "gacha_show"
+    log_data(data,var)
+    
+def handle_notification_popup(data):
+    var = "notification_popup"
+    log_data(data,var)
+
+def handle_gacha_probability_series(data):
+    var = "gacha_probability_series"
+    log_data(data,var)
+    
+def handle_gacha_probability(data):
+    var = "gacha_probability"
+    log_data(data,var)
+
+def handle_get_root_data(data):
+    var = "get_root_data"
+    log_data(data,var)
+
+def handle_gacha(data):
+    var = "gacha"
+    log_data(data,var)
+
+def handle_buddy_save_equipment(data):
+    var = "buddy_save_equipment"
+    log_data(data,var)
+
+def handle_equipment_enhance(data):
+    var = "equipment_enhance"
+    log_data(data,var)
+
+def handle_buddy_save_ability(data):
+    var = "buddy_save_ability"
+    log_data(data,var)
+
+def handle_grow_egg_get_buddy_level_to_exp_map(data):
+    var = "grow_egg_get_buddy_level_to_exp_map"
+    log_data(data,var)
+
+def handle_grow_egg_use(data):
+    var = "grow_egg_use"
+    log_data(data,var)
+
+def handle_gacha_execute(data):
+    var = "gacha_execute"
+    log_data(data,var)
+
+def handle_js_log(data):
+    var = "js_log"
+    log_data(data,var)
+
+def handle_payment_create(data):
+    var = "payment_create"
+    log_data(data,var)
+
+def handle_payment_update(data):
+    var = "payment_update"
+    log_data(data,var)
 
 def start(context, argv):
     global args
@@ -564,8 +724,85 @@ handlers = [
     ('/dff/party/list', handle_party_list),
     ('/dff/world/dungeons', handle_dungeon_list),
     ('/dff/world/battles', handle_battle_list),
-    ('/dff/event/coliseum/6/get_data', handle_survival_event)
+    ('/dff/event/coliseum/6/get_data', handle_survival_event),
+    # ('/dff/', handle_home),
+    # ('/dff/splash', handle_splash),
+    # ('/dff/?timestamp', handle_timestamp),
+    # ('/dff/battle/?timestamp', handle_battle_timestamp),
+    # ('/dff/_api_create_session', handle_api_create_session),
+    ('/dff/notification/check', handle_notification_check),
+    ('/dff/google_play_achievement/get_achievements', handle_get_google_achievements),
+    # ('/dff/update_user_session', handle_update_user_session),
+    ('/dff/menu/friend', handle_menu_friend),
+    ('/dff/gift_box/get_data', handle_gift_box_get_data),
+    ('/dff/gift_box/receive_all',handle_gift_box_receive_all),
+    ('/dff/gift_box',handle_gift_box),
+    ('/dff/gacha/show',handle_gacha_show),
+    ('/dff/notification/mark_popuped',handle_notification_popup),
+    ('/dff/gacha/probability?series_id',handle_gacha_probability_series),
+    ('/dff/gacha/probability',handle_gacha_probability),
+    ('/dff/get_root_data',handle_get_root_data),
+    ('/dff/gacha',handle_gacha),
+    ('/dff/buddy/save_equipment',handle_buddy_save_equipment),
+    ('/dff/equipment/enhance',handle_equipment_enhance),
+    ('/dff/buddy/save_ability',handle_buddy_save_ability),
+    ('/dff/grow_egg/get_buddy_level_to_exp_map',handle_grow_egg_get_buddy_level_to_exp_map),
+    ('/dff/grow_egg/use', handle_grow_egg_use),
+    ('/dff/gacha/execute',handle_gacha_execute),
+    ('/dff/js/log',handle_js_log),
+    ('/dff/payment/create',handle_payment_create),
+    ('/dff/payment/update',handle_payment_update)
 ]
+# #added ones
+# /dff/party_memory/list
+# /dff/party_memory/save
+# /dff/event/challenge/503/win_battle
+# /dff/menu/friend
+# /dff/get_root_data
+# /dff/event/challenge/503/enter
+# /dff/event/challenge/503/get_data
+# /dff/world/dungeons?world_id=107006
+# /dff/event/challenge/503/get_data
+# /dff/relation/detailed_fellow_listing
+# /dff/event/challenge/503/enter_dungeon
+# /dff/world/battles
+# /dff/event/challenge/503/begin_battle_session
+# /dff/event/challenge/503/begin_battle
+# /dff/battle/?timestamp=1438746064&battle_id=707186
+# /dff/event/challenge/503/get_battle_init_data
+
+
+
+
+
+# /dff/buddy/save_equipment
+# /dff/equipment/enhance
+# /dff/_api_create_session
+# /dff/notification/check
+# /dff/google_play_achievement/get_achievements
+# /dff/update_user_session
+# /dff/menu/friend
+# /dff/gift_box/get_data
+# /dff/gift_box/receive_all
+# /dff/gacha/show
+# /dff/notification/mark_popuped
+# /dff/gacha/probability?series_id=29
+# /dff/get_root_data
+# /dff/world/dungeons?world_id=107001
+# /dff/party/list
+
+# /dff/splash
+# https://ffrk.static.denagames.com/dff/static/ww/compile/en/js/direct/sakura.js?_=1423216230
+# https://ffrk.static.denagames.com/dff/static/ww/compile/en/js/direct/anchors.js?_=1423216230
+# /dff/
+# /dff/world/enter_dungeon
+# /dff/world/battles
+# /dff/battle/begin_session
+# /dff/battle/begin_battle
+# /dff/battle/?timestamp=1438650977&battle_id=307004
+# /dff/battle/get_battle_init_data
+# /dff/battle/win
+# /dff/world/epilogue?dungeon_id=207002 
 
 ignored_requests = [
     ('/dff/', True),
