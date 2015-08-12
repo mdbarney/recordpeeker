@@ -38,6 +38,45 @@ def save_battles(data):
             writer = csv.writer(f, delimiter='\t',quoting=csv.QUOTE_NONE)
             writer.writerows(data)
 
+def save_single_equipment_by_id(item, path):
+    temp = []
+    equipment_id = item.get("equipment_id","Error")
+    level = item.get("level","0")
+    name = item.get("name","Error")
+    # name1 = name.replace("\uff0b","+")
+    # name1 = name.replace("\xef","")
+    utf8_str = name.encode('utf-8')
+    name1 = name
+    if '\xef' in utf8_str:
+        # print str(equipment_id) + " " + utf8_str
+        # name1 = utf8_str.replace("\xef","")
+        name2 = re.split('\)', name)
+        name1 = str(name2[0]) + ")"
+
+    if ITEMS.get(equipment_id,"Not found") == "Not found":
+        temp.append([equipment_id, name])
+        # save_equipment_id(temp)
+        # print name1
+        save_equipment_id(equipment_id, name)
+        # reload dict ITEMS dict?
+        # doesnt work
+        # ITEMS = __init__.load_dict("data/items.csv")
+
+    if not os.access(os.getcwd() + path + str(equipment_id) + "/", os.F_OK):
+        os.mkdir(os.getcwd() + path + str(equipment_id) + "/")
+    
+    file_path = os.getcwd() + path + str(equipment_id) + "/" + str(equipment_id) + "_level_" + str(level) + ".json"
+    
+    ###DEBUG###
+    # print os.listdir(os.getcwd() + path + str(equipment_id) + "/")
+    
+    # if not os.path.isfile(file_path):
+    if not os.access(file_path, os.F_OK):
+        print "Saved stats for: [" + str(name1) + " (id: " + str(equipment_id) + ") - level " + str(level) + "]"
+        test_file = open(file_path,'w')
+        print >> test_file, json.dumps(item, indent=4, sort_keys=False)
+        test_file.close()
+
 # def save_equipment_id(data):
 def save_equipment_id(equipment_id, name):
     # temp.append([dungeon_id, series_id, id, name, difficulty, type, rounds, stamina, has_boss])
@@ -102,29 +141,27 @@ def save_character_sprite(path):
 
 def get_buddy_info(data):
     # use with party_list
-    ### TODO ### make this use id rather than names
+    json_path = "/data/buddy_id/"
     for buddy in data["buddies"]:
         level = buddy.get("level","Unknown")
         job_name = buddy.get("job_name", "Unknown")
+        buddy_id = buddy.get("id","0")
 
-        # Tyro check
+        # Tyro name check
         if job_name == "Keeper":
             buddy["name"] = "Tyro"
 
         temp_str = buddy.get("name", "Unknown")
 
         if job_name == "Dark Knight" and buddy["name"] == "Cecil":
-            #buddy["name"] = "CecilDK"
             temp_str = "CecilDK"
 
         if job_name == "Paladin" and buddy["name"] == "Cecil":
-            #buddy["name"] = "CecilP"
             temp_str = "CecilP"
 
         a = temp_str.replace(" ", "_").lower()
 
-        
-
+        # check if file/folder exist, AKA enter new data
         if not os.access(os.getcwd() + "/data/buddy/" + a + "/", os.F_OK):
             os.mkdir(os.getcwd() + "/data/buddy/" + a + "/")
 
@@ -132,9 +169,28 @@ def get_buddy_info(data):
             os.mkdir(os.getcwd() + "/data/buddy/" + a + "/" + str(level) + "/")
 
         test_file_path = os.getcwd() + "/data/buddy/" + a + "/" + str(level) + "/" + a + "_level_" + str(level) + "_stats.json"  
-        with open(test_file_path, 'w') as f:
-            print >> f, json.dumps(buddy, indent=4, sort_keys=False)
-        
+        if not os.access(test_file_path, os.F_OK):
+            print "Saved stats for: [" + buddy["name"] + " (id: " + str(buddy_id) + ") - level " + str(level) + "]"
+            with open(test_file_path, 'w') as f:
+                print >> f, json.dumps(buddy, indent=4, sort_keys=False)
+
+        if not os.access(os.getcwd() + json_path + str(buddy_id) + "/", os.F_OK):
+            os.mkdir(os.getcwd() + json_path + str(buddy_id) + "/")
+
+        json_file_path = os.getcwd() + json_path + str(buddy_id) + "/" + a + "_level_" + str(level) + "_stats.json"  
+        if not os.access(json_file_path, os.F_OK):
+            # print "Saved stats for: [" + buddy["name"] + " (id: " + str(buddy_id) + ") - level " + str(level) + "]"
+            with open(json_file_path, 'w') as f:
+                print >> f, json.dumps(buddy, indent=4, sort_keys=False)
+
+        # ### THIS OVERWRITES ALL BUDDY DATA FOR UPDATED CHARACTERS ###
+        # if buddy["name"] == "Cyan" or buddy["name"] == "Celes" or buddy["name"] == "Snow" or buddy["name"] == "Squall" or buddy["name"] == "Vanille": 
+        #     print "Saved stats for: [" + buddy["name"] + " (id: " + str(buddy_id) + ") - level " + str(level) + "]"
+        #     with open(test_file_path, 'w') as f:
+        #         print >> f, json.dumps(buddy, indent=4, sort_keys=False)
+        #     with open(json_file_path, 'w') as f:
+        #         print >> f, json.dumps(buddy, indent=4, sort_keys=False)
+
         # not working correctly
         # if not (os.path.isfile(test_file_path)):
         #     test_file = open(test_file_path)
@@ -143,6 +199,7 @@ def get_buddy_info(data):
 
 def get_soul_strike_info(data):
     #use with get battle init 
+    ### TODO: UPDATE TO WORK WITH NEW CONTENT ###
     battle = data["battle"]
     for buddy in battle["buddy"]:
         a = buddy["soul_strike"]["ability_id"]
@@ -248,6 +305,13 @@ def save_equipment(data):
         name = item.get("name","Error")
         # name1 = name.replace("\uff0b","+")
         # name1 = name.replace("\xef","")
+        utf8_str = name.encode('utf-8')
+        name1 = name
+        if '\xef' in utf8_str:
+            # print str(equipment_id) + " " + utf8_str
+            # name1 = utf8_str.replace("\xef","")
+            name2 = re.split('\)', name)
+            name1 = str(name2[0]) + ")"
 
         if ITEMS.get(equipment_id,"Not found") == "Not found":
             temp.append([equipment_id, name])
@@ -261,10 +325,12 @@ def save_equipment(data):
         if not os.access(os.getcwd() + "/data/equipment/" + str(equipment_id) + "/", os.F_OK):
             os.mkdir(os.getcwd() + "/data/equipment/" + str(equipment_id) + "/")
         
-        file_path = "/data/equipment/" + str(equipment_id) + "/" + str(equipment_id) + "_level_" + str(level) + ".json"
+        file_path = os.getcwd() + "/data/equipment/" + str(equipment_id) + "/" + str(equipment_id) + "_level_" + str(level) + ".json"
         
-        if not os.path.isfile(file_path):
-            test_file = open(os.getcwd() + file_path,'w')
+        # if not os.path.isfile(file_path):
+        if not os.access(file_path, os.F_OK):
+            print "Saved stats for: [" + str(name1) + " (id: " + str(equipment_id) + ") - level " + str(level) + "]"
+            test_file = open(file_path,'w')
             print >> test_file, json.dumps(item, indent=4, sort_keys=True)
             test_file.close()
 
@@ -454,7 +520,8 @@ def handle_get_battle_init_data(data):
     save_abilities(enemy_ability_list, "/data/enemy_abilities")
     # save_enemy_abilities(enemy_ability_list)
 
-    get_soul_strike_info(data)
+    # TODO: Update to use new content/structure
+    # get_soul_strike_info(data)
 
 def handle_party_list(data):
 
@@ -672,6 +739,10 @@ def handle_buddy_save_equipment(data):
 def handle_equipment_enhance(data):
     var = "equipment_enhance"
     log_data(data,var)
+    base_dir_path = "/data/equipment/"
+
+    save_single_equipment_by_id(data["new_src_user_equipment"], base_dir_path)
+    save_single_equipment_by_id(data["old_src_user_equipment"], base_dir_path)
 
 def handle_buddy_save_ability(data):
     var = "buddy_save_ability"
