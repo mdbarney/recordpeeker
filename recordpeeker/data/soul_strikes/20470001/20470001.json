@@ -1,0 +1,62 @@
+{
+    "ability_id": "20470001", 
+    "action_id": "3", 
+    "animation_info": {
+        "atk_motion": "ready", 
+        "chara_in": "motion_in_walk", 
+        "chara_out": "stay_out", 
+        "damage_tag": "damage_red", 
+        "hit": "70491/70491_hit.json", 
+        "hit_arg": "0", 
+        "hit_next_tag": "", 
+        "hit_type": "1", 
+        "id": "70491", 
+        "launch": "common/launch_special_attack_bg_black.json", 
+        "launch_next_tag": "", 
+        "launch_type": "2", 
+        "miss_hit": "70491/hit_miss.json", 
+        "other_in": "", 
+        "other_out": "", 
+        "recover_tag": "", 
+        "return_hit": "", 
+        "return_shot": "", 
+        "return_type": "99", 
+        "reverse_hit": "1", 
+        "reverse_shot": "1", 
+        "shot": "70491/70491_shot.json", 
+        "shot_next_tag": "", 
+        "shot_type": "1"
+    }, 
+    "assets": {
+        "ability-70491_hit": "/Content/lang/ab/ability/70491/70491_hit.json", 
+        "ability-70491_launch": "/Content/lang/ab/ability/common/launch_special_attack_bg_black.json", 
+        "ability-70491_miss_hit": "/Content/lang/ab/ability/70491/hit_miss.json", 
+        "ability-70491_shot": "/Content/lang/ab/ability/70491/70491_shot.json"
+    }, 
+    "exercise_type": "1", 
+    "icon": {
+        "assets": {
+            "command_icon_20470001": "/Content/lang/ab_image/soulstrike//20470001/20470001_256.png"
+        }
+    }, 
+    "options": {
+        "ability_animation_id": "70491", 
+        "active_target_method": "3", 
+        "alias_name": "Sled Fang", 
+        "arg1": "150", 
+        "arg2": "1", 
+        "arg3": "1", 
+        "arg4": "0", 
+        "arg5": "0", 
+        "cast_time": "3000", 
+        "consume_soul_strike_point": "500", 
+        "counter_enable": "1", 
+        "name": "Sled Fang", 
+        "status_ailments_factor": "0", 
+        "status_ailments_id": "0", 
+        "target_death": "1", 
+        "target_method": "2", 
+        "target_range": "1", 
+        "target_segment": "1"
+    }
+}

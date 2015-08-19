@@ -1,0 +1,89 @@
+{
+    "SERVER_TIME": 1438135531, 
+    "can_review": false, 
+    "dungeon": {
+        "background_image_path": "/dff/static/lang/image/dungeon/204017_bg.png", 
+        "bgm": "bgm_04_038", 
+        "button_style": "NORMAL", 
+        "captures": [
+            {
+                "image_path": "/dff/static/lang/image/enemy/404034.png", 
+                "sp_scores": [
+                    {
+                        "battle_id": 304085, 
+                        "title": "Defeat Bahamut without being KO'd."
+                    }
+                ], 
+                "tip_battle": {
+                    "group_id": 410154, 
+                    "id": 410154, 
+                    "message": "Bahamut takes reduced damage from all elemental damage except poison, and if you use magic on him, he casts <span class=\"red\">Reflect!</span> When the countdown ends, he uses <span class=\"red\">Megaflare</span>, so use abilities like <span class=\"red\">Magic Break</span> and <span class=\"red\">Shell</span> first to reduce the damage, kupo!", 
+                    "title": "Bahamut"
+                }
+            }
+        ], 
+        "challenge_level": 65, 
+        "closed_at": 2056341599, 
+        "epilogue": "The party found Bahamut within the Lair of the Father on the Red Moon. Having proved their worth by defeating Leviathan, the party challenged Bahamut and prevailed, and Bahamut lent his strength to Cecil's party.", 
+        "epilogue_image_path": "/dff/static/lang/image/dungeon/204017_epilogue.png", 
+        "id": 204017, 
+        "is_clear": true, 
+        "is_master": true, 
+        "is_new": false, 
+        "is_unlocked": true, 
+        "name": "Lair of the Father", 
+        "opened_at": 1437958800, 
+        "order_no": 1, 
+        "prizes": {
+            "1": [
+                {
+                    "id": 92000000, 
+                    "image_path": "/dff/static/lang/image/common_item/92000000.png", 
+                    "name": "Gil", 
+                    "num": 5000, 
+                    "type_name": "COMMON"
+                }
+            ], 
+            "2": [
+                {
+                    "id": 40000003, 
+                    "image_path": "/dff/static/lang/image/ability_material/40000003/40000003_112.png", 
+                    "name": "Power Orb", 
+                    "num": 3, 
+                    "type_name": "ABILITY_MATERIAL"
+                }, 
+                {
+                    "id": 91000000, 
+                    "image_path": "/dff/static/lang/image/common_item/91000000.png", 
+                    "name": "Mythril", 
+                    "num": 1, 
+                    "type_name": "COMMON"
+                }
+            ], 
+            "3": [
+                {
+                    "id": 40000053, 
+                    "image_path": "/dff/static/lang/image/ability_material/40000053/40000053_112.png", 
+                    "name": "Wind Orb", 
+                    "num": 3, 
+                    "type_name": "ABILITY_MATERIAL"
+                }, 
+                {
+                    "id": 94000000, 
+                    "image_path": "/dff/static/lang/image/common_item/94000000.png", 
+                    "name": "Stamina Shard", 
+                    "num": 1, 
+                    "type_name": "COMMON"
+                }
+            ]
+        }, 
+        "prologue": "The mages of Mysidia have raised the Lunar Whale. Now it carries Cecil's party to the Red Moon, where they will face Bahamut.", 
+        "prologue_image_path": "/dff/static/lang/image/dungeon/204017_prologue.png", 
+        "rank": 3, 
+        "series_id": 104001, 
+        "total_stamina": 53, 
+        "type": 1, 
+        "world_id": 104001
+    }, 
+    "success": true
+}

@@ -1,0 +1,974 @@
+{
+    "user": {
+        "max_stamina": 119, 
+        "stamina_recovery_remaining_time": 0, 
+        "stamina_recovery_time": 180, 
+        "supporter_ss_gauge": 2, 
+        "id": 5570609408901120, 
+        "can_review": true, 
+        "func_tutorial_bits": 1310719, 
+        "max_follower_num": 100, 
+        "stamina": 119, 
+        "gil": 129685, 
+        "start_time_of_today": 1439902800, 
+        "release_id": 0, 
+        "residual_stamina_piece": 4, 
+        "is_in_dungeon": true, 
+        "last_logined_at": 1439902813, 
+        "soul_piece": 45, 
+        "followee_num": 46, 
+        "max_followee_num": 100, 
+        "dungeon_id": 613026, 
+        "name": "Tyro", 
+        "is_update_last_logined_at": false, 
+        "stamina_piece": 599, 
+        "tutorial_step": 255, 
+        "has_all_clear_ver_to_show": false
+    }, 
+    "SERVER_TIME": 1439903124, 
+    "assets": {
+        "dungeon_warp": {
+            "assetPath": "/Content/lang/ww/compile/en/ab/warp/warp.json", 
+            "bundle": {
+                "/Content/lang/ww/compile/en/ab/effect_image/img_light_01.json": {
+                    "hash": "V08fQyTG4T6GDMosX2YVxg"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/img_cross_01.png": {
+                    "hash": "j+HBYS1K5ZE+aiEuxnu4DQ"
+                }, 
+                "/Content/lang/ww/compile/en/ab/warp/pb_after_light.json": {
+                    "hash": "HX/UKPtzq1tj3a3QeYhH8Q"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/img_light_01.png": {
+                    "hash": "6bAULnwkhXKcYlElSbEtDA"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/img_normal_atks.png": {
+                    "hash": "h4TI9BU81ou9aynw7MDC7g"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/img_eff_circle01.png": {
+                    "hash": "kibSjuTQaXxjgB0ZzBHUfA"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/white.png": {
+                    "hash": "oYuoUdiFfAgAeZt5vHlJLA"
+                }, 
+                "/Content/lang/se/se_caf/se_common_100039.caf": {
+                    "hash": "dpPPXMOjH4nKhXgkBESBxQ"
+                }, 
+                "/Content/lang/ww/compile/en/ab/warp/pb_wave_reverse_01.json": {
+                    "hash": "8IXr1PMGHF7BGRpKL9Uzog"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/img_cross_01.json": {
+                    "hash": "ca2IYwaOt0fx1YN5Get1IQ"
+                }, 
+                "/Content/lang/ww/compile/en/ab/warp/pb_warp_hole.json": {
+                    "hash": "1G4bN04eSZqy6rcqCPi9TA"
+                }, 
+                "/Content/lang/ww/compile/en/ab/warp/pb_wave_reverse.json": {
+                    "hash": "5NiF2WqciXPgjSjMGatORg"
+                }, 
+                "/Content/lang/ww/compile/en/ab/warp/warp.json": {
+                    "hash": "D0FMHatH4VLyU4xNb8VULQ"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/img_normal_atks.json": {
+                    "hash": "JJirDrM1e/OlIjYhVRis9w"
+                }, 
+                "/Content/lang/se/se_caf/se_common_100037.caf": {
+                    "hash": "Dszt79BmFDzqkZlz59b6gA"
+                }
+            }
+        }
+    }, 
+    "success": true, 
+    "precache_list": [
+        {
+            "assetPath": "/Content/lang/ww/compile/en/ab/ability/50592/50592_hit_1.json", 
+            "bundle": {
+                "/Content/lang/ww/compile/en/ab/ability/50592/pb_hit_gunshot.json": {
+                    "hash": "T4r50RxOtBHjTtibhmPuEA"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/img_eff_light02.png": {
+                    "hash": "CZRdXKIPFJxOcwExhyWt+w"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/img_eff_fire.png": {
+                    "hash": "lKeVc4YW31UgmCScKaDGlQ"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/img_eff_fireball01.png": {
+                    "hash": "SivGtG19NoGTpUzQ/MdDSg"
+                }, 
+                "/Content/lang/se/se_caf/se_ability_00671.caf": {
+                    "hash": "iZ2SQ73+IIn7cfsEqzb7WA"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/img_eff_fire.json": {
+                    "hash": "7VzCDmEK9bZXfq+QvbOm9g"
+                }, 
+                "/Content/lang/ww/compile/en/ab/ability/50592/50592_hit_1.json": {
+                    "hash": "hPPBgBS+qKQW2wCdUmcY0g"
+                }
+            }
+        }, 
+        {
+            "assetPath": "/Content/lang/ww/compile/en/ab/ability/50418/hit_miss.json", 
+            "bundle": {
+                "/Content/lang/ww/compile/en/ab/ability/50418/img_50418_death.png": {
+                    "hash": "H0stXl6lK0OAL4Ej0Eim9w"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/img_eff_fire.png": {
+                    "hash": "lKeVc4YW31UgmCScKaDGlQ"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/img_eff_01.json": {
+                    "hash": "OJ5kfYeo5AyP3RbrqYGa3g"
+                }, 
+                "/Content/lang/se/se_caf/se_ability_00290.caf": {
+                    "hash": "45TDdbqtBBPc7dbojttelg"
+                }, 
+                "/Content/lang/ww/compile/en/ab/ability/50418/pb_50418_hit_1.json": {
+                    "hash": "ETFvFkGEawVlWTv+S9swVw"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/eff_light02.png": {
+                    "hash": "Sjv72DvWV55JpDKAYs1tmA"
+                }, 
+                "/Content/lang/se/se_caf/se_battle_101045.caf": {
+                    "hash": "NTavCbfPZyyMOgpauyjFgw"
+                }, 
+                "/Content/lang/se/se_caf/se_ability_00170.caf": {
+                    "hash": "UjcklO+c4jczffWmIizXAg"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/img_eff_01.png": {
+                    "hash": "lqlI1yYIl8hfQIawA1sRlg"
+                }, 
+                "/Content/lang/ww/compile/en/ab/ability/50418/pb_50418_hit.json": {
+                    "hash": "rtklEbLAoowbsv3Hyxq36A"
+                }, 
+                "/Content/lang/ww/compile/en/ab/ability/50418/hit_miss.json": {
+                    "hash": "eWHSDb+o8FLG6EbQHkVyvg"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/img_eff_fire.json": {
+                    "hash": "7VzCDmEK9bZXfq+QvbOm9g"
+                }
+            }
+        }, 
+        {
+            "assetPath": "/Content/lang/ww/compile/en/ab/ability/50592/50592_hit_6.json", 
+            "bundle": {
+                "/Content/lang/ww/compile/en/ab/ability/50592/pb_hit_gunshot.json": {
+                    "hash": "T4r50RxOtBHjTtibhmPuEA"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/img_eff_light02.png": {
+                    "hash": "CZRdXKIPFJxOcwExhyWt+w"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/img_eff_fire.png": {
+                    "hash": "lKeVc4YW31UgmCScKaDGlQ"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/img_eff_fireball01.png": {
+                    "hash": "SivGtG19NoGTpUzQ/MdDSg"
+                }, 
+                "/Content/lang/se/se_caf/se_ability_00671.caf": {
+                    "hash": "iZ2SQ73+IIn7cfsEqzb7WA"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/img_eff_fire.json": {
+                    "hash": "7VzCDmEK9bZXfq+QvbOm9g"
+                }, 
+                "/Content/lang/ww/compile/en/ab/ability/50592/50592_hit_6.json": {
+                    "hash": "uMsrPy7TWwSFnklNgrMX5A"
+                }
+            }
+        }, 
+        {
+            "assetPath": "/Content/lang/ww/compile/en/ab/ability/common/shot_empty.json", 
+            "bundle": {
+                "/Content/lang/ww/compile/en/ab/ability/common/shot_empty.json": {
+                    "hash": "0CdT8E4fBTH6u8628mSRjA"
+                }
+            }
+        }, 
+        {
+            "assetPath": "/Content/lang/ww/compile/en/ab/ability/50473/50473_shot.json", 
+            "bundle": {
+                "/Content/lang/ww/compile/en/ab/ability/50473/50473_shot.json": {
+                    "hash": "1uBTD5oNXSc3KmS4t/oJcA"
+                }, 
+                "/Content/lang/ww/compile/en/ab/ability/50473/pb_50473_shot.json": {
+                    "hash": "s1eT4zAHENC253SWTY3vcw"
+                }, 
+                "/Content/lang/se/se_caf/se_ability_00350.caf": {
+                    "hash": "IUGfTnCHJ44obt/whrro3A"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/img_eff_fireball01.png": {
+                    "hash": "SivGtG19NoGTpUzQ/MdDSg"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/img_tail_01.png": {
+                    "hash": "Y0zhcDhpWyfIgHzEFoX9mw"
+                }
+            }
+        }, 
+        {
+            "assetPath": "/Content/lang/ww/compile/en/ab/ability/50591/50591_launch.json", 
+            "bundle": {
+                "/Content/lang/ww/compile/en/ab/ability/50591/pb_launch_slash.json": {
+                    "hash": "U7qxhxdggKsFd/zrjY9tdg"
+                }, 
+                "/Content/lang/ww/compile/en/ab/ability/50591/pb_launch_gunshot.json": {
+                    "hash": "zRs5iI7cWhEFp8fbOcpyGQ"
+                }, 
+                "/Content/lang/ww/compile/en/ab/ability/50591/50591_launch.json": {
+                    "hash": "wq/iillD9fky4/d5zBRBWg"
+                }, 
+                "/Content/lang/ww/compile/en/ab/ability/50591/sa_valkyrie_size.sajson": {
+                    "hash": "cYAa0y+29ZRdmg/iGv1RlA"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/img_eff_fire.png": {
+                    "hash": "lKeVc4YW31UgmCScKaDGlQ"
+                }, 
+                "/Content/lang/ww/compile/en/ab/ability/50591/img_valkyrie_size.json": {
+                    "hash": "iTK5ySIXX/2wKUiqZOUmpw"
+                }, 
+                "/Content/lang/ww/compile/en/ab/ability/50591/img_valkyrie_size.png": {
+                    "hash": "PJOkRWmnh0zzz/DtTnEW2A"
+                }, 
+                "/Content/lang/se/se_caf/se_ability_00670.caf": {
+                    "hash": "bHGKTJhCHFrDwdYOLdK8Ew"
+                }, 
+                "/Content/lang/se/se_caf/se_ability_10010.caf": {
+                    "hash": "ktE1VBzd7Yhz1NhsqbDfeA"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/img_eff_fireball01.png": {
+                    "hash": "SivGtG19NoGTpUzQ/MdDSg"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/img_eff_fire.json": {
+                    "hash": "7VzCDmEK9bZXfq+QvbOm9g"
+                }
+            }
+        }, 
+        {
+            "assetPath": "/Content/lang/ww/compile/en/ab/ability/50418/50418_hit.json", 
+            "bundle": {
+                "/Content/lang/ww/compile/en/ab/ability/50418/pb_50418_hit_1.json": {
+                    "hash": "ETFvFkGEawVlWTv+S9swVw"
+                }, 
+                "/Content/lang/ww/compile/en/ab/ability/50418/img_50418_death.png": {
+                    "hash": "H0stXl6lK0OAL4Ej0Eim9w"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/img_eff_fire.png": {
+                    "hash": "lKeVc4YW31UgmCScKaDGlQ"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/img_eff_01.json": {
+                    "hash": "OJ5kfYeo5AyP3RbrqYGa3g"
+                }, 
+                "/Content/lang/se/se_caf/se_ability_00290.caf": {
+                    "hash": "45TDdbqtBBPc7dbojttelg"
+                }, 
+                "/Content/lang/ww/compile/en/ab/ability/50418/50418_hit.json": {
+                    "hash": "DGR+/9aGxIo4CaqNLY51vg"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/eff_light02.png": {
+                    "hash": "Sjv72DvWV55JpDKAYs1tmA"
+                }, 
+                "/Content/lang/se/se_caf/se_ability_00170.caf": {
+                    "hash": "UjcklO+c4jczffWmIizXAg"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/img_eff_01.png": {
+                    "hash": "lqlI1yYIl8hfQIawA1sRlg"
+                }, 
+                "/Content/lang/ww/compile/en/ab/ability/50418/pb_50418_hit.json": {
+                    "hash": "rtklEbLAoowbsv3Hyxq36A"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/img_eff_fire.json": {
+                    "hash": "7VzCDmEK9bZXfq+QvbOm9g"
+                }
+            }
+        }, 
+        {
+            "assetPath": "/Content/lang/ww/compile/en/ab/ability/common/hit_empty.json", 
+            "bundle": {
+                "/Content/lang/ww/compile/en/ab/ability/common/hit_empty.json": {
+                    "hash": "H9i1fO9IRZ24GhdjDz5iwg"
+                }
+            }
+        }, 
+        {
+            "assetPath": "/Content/lang/ww/compile/en/ab/ability/50590/50590_hit.json", 
+            "bundle": {
+                "/Content/lang/ww/compile/en/ab/effect_image/orso_effect_001.json": {
+                    "hash": "IEKqBwv5YovfRdCBg0bprA"
+                }, 
+                "/Content/lang/ww/compile/en/ab/ability/50590/50590_hit.json": {
+                    "hash": "KMLg2VbJc257T4Kv0tseIA"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/orso_effect_001.png": {
+                    "hash": "mGDUgoP9extVM4aSBy5K/w"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/img_kira.png": {
+                    "hash": "/gr3+rUayUcUbmk1P1UdLQ"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/img_kira.json": {
+                    "hash": "KYB/pwMi8zjGTcJgt2bBHg"
+                }, 
+                "/Content/lang/se/se_caf/se_ability_00470.caf": {
+                    "hash": "wVUgbTRC2tEq3YM4kdIzZw"
+                }, 
+                "/Content/lang/se/se_caf/se_ability_10020.caf": {
+                    "hash": "aoqgqnePQPzEJH2zjr58Jg"
+                }, 
+                "/Content/lang/ww/compile/en/ab/ability/50590/pb_hit_slash_2.json": {
+                    "hash": "i3vOCAKDt2qLzt86gkD8jg"
+                }
+            }
+        }, 
+        {
+            "assetPath": "/Content/lang/ww/compile/en/ab/ability/common/shot_empty.json", 
+            "bundle": {
+                "/Content/lang/ww/compile/en/ab/ability/common/shot_empty.json": {
+                    "hash": "0CdT8E4fBTH6u8628mSRjA"
+                }
+            }
+        }, 
+        {
+            "assetPath": "/Content/lang/ww/compile/en/ab/ability/common/shot_empty.json", 
+            "bundle": {
+                "/Content/lang/ww/compile/en/ab/ability/common/shot_empty.json": {
+                    "hash": "0CdT8E4fBTH6u8628mSRjA"
+                }
+            }
+        }, 
+        {
+            "assetPath": "/Content/lang/ww/compile/en/ab/ability/50592/50592_hit_5.json", 
+            "bundle": {
+                "/Content/lang/ww/compile/en/ab/ability/50592/pb_hit_gunshot.json": {
+                    "hash": "T4r50RxOtBHjTtibhmPuEA"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/img_eff_light02.png": {
+                    "hash": "CZRdXKIPFJxOcwExhyWt+w"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/img_eff_fire.png": {
+                    "hash": "lKeVc4YW31UgmCScKaDGlQ"
+                }, 
+                "/Content/lang/ww/compile/en/ab/ability/50592/50592_hit_5.json": {
+                    "hash": "FR8BwhZW6eyir+V//1vFyQ"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/img_eff_fireball01.png": {
+                    "hash": "SivGtG19NoGTpUzQ/MdDSg"
+                }, 
+                "/Content/lang/se/se_caf/se_ability_00671.caf": {
+                    "hash": "iZ2SQ73+IIn7cfsEqzb7WA"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/img_eff_fire.json": {
+                    "hash": "7VzCDmEK9bZXfq+QvbOm9g"
+                }
+            }
+        }, 
+        {
+            "assetPath": "/Content/lang/ww/compile/en/ab/ability/50473/50473_hit.json", 
+            "bundle": {
+                "/Content/lang/ww/compile/en/ab/ability/50473/pb_50473_hit.json": {
+                    "hash": "cM92v4tpKtvglNVaMkmrqA"
+                }, 
+                "/Content/lang/ww/compile/en/ab/ability/50473/50473_hit.json": {
+                    "hash": "cp+TQ3+A7y1zQq7cjV0uYA"
+                }, 
+                "/Content/lang/se/se_caf/se_ability_00170.caf": {
+                    "hash": "UjcklO+c4jczffWmIizXAg"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/img_eff_fire.png": {
+                    "hash": "lKeVc4YW31UgmCScKaDGlQ"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/img_eff_01.json": {
+                    "hash": "OJ5kfYeo5AyP3RbrqYGa3g"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/eff_light02.png": {
+                    "hash": "Sjv72DvWV55JpDKAYs1tmA"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/img_eff_01.png": {
+                    "hash": "lqlI1yYIl8hfQIawA1sRlg"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/img_eff_fire.json": {
+                    "hash": "7VzCDmEK9bZXfq+QvbOm9g"
+                }
+            }
+        }, 
+        {
+            "assetPath": "/Content/lang/ww/compile/en/ab/ability/50590/50590_launch.json", 
+            "bundle": {
+                "/Content/lang/ww/compile/en/ab/ability/50590/50590_launch.json": {
+                    "hash": "6v6RDkx07O5sq4F1C+otog"
+                }, 
+                "/Content/lang/ww/compile/en/ab/ability/50590/sa_slash.sajson": {
+                    "hash": "evnahDj9QpTTU7r6htocxw"
+                }, 
+                "/Content/lang/ww/compile/en/ab/ability/50590/img_slash.png": {
+                    "hash": "j59QXI9y67PgQWhn1n2mZw"
+                }, 
+                "/Content/lang/ww/compile/en/ab/ability/50590/img_slash.json": {
+                    "hash": "La9XzO/cyY/SFKxLrRJAUQ"
+                }, 
+                "/Content/lang/se/se_caf/se_ability_10010.caf": {
+                    "hash": "ktE1VBzd7Yhz1NhsqbDfeA"
+                }, 
+                "/Content/lang/ww/compile/en/ab/ability/50590/pb_launch_slash.json": {
+                    "hash": "7NwY/ry3vzW4d7g5roPkwA"
+                }
+            }
+        }, 
+        {
+            "assetPath": "/Content/lang/ww/compile/en/ab/ability/common/launch_blue.json", 
+            "bundle": {
+                "/Content/lang/ww/compile/en/ab/effect_image/eff_castingImage.sajson": {
+                    "hash": "DrdZ26KEmHE1mJvyJYgeQw"
+                }, 
+                "/Content/lang/ww/compile/en/ab/ability/common/pb_blueMagic_launch.json": {
+                    "hash": "NLgj/jVwjamtF3my2t2u0A"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/img_eff_casting.json": {
+                    "hash": "U4+qWFMzR5ySKGQiiWnClQ"
+                }, 
+                "/Content/lang/se/se_caf/se_ability_launch_100003.caf": {
+                    "hash": "PGBc9Oaht3PWMP8J+SGJSw"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/img_eff_casting.png": {
+                    "hash": "i3CuNagemFDydmytbKEtqw"
+                }, 
+                "/Content/lang/ww/compile/en/ab/ability/common/launch_blue.json": {
+                    "hash": "1oATWEJjQt2lgNBuXbK8ug"
+                }
+            }
+        }, 
+        {
+            "assetPath": "/Content/lang/ww/compile/en/ab/ability/50592/50592_launch.json", 
+            "bundle": {
+                "/Content/lang/ww/compile/en/ab/ability/50592/50592_launch.json": {
+                    "hash": "DmM2vF12HXqBL+xIAjOeQA"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/img_eff_fire.png": {
+                    "hash": "lKeVc4YW31UgmCScKaDGlQ"
+                }, 
+                "/Content/lang/se/se_caf/se_ability_00670.caf": {
+                    "hash": "bHGKTJhCHFrDwdYOLdK8Ew"
+                }, 
+                "/Content/lang/ww/compile/en/ab/ability/50592/img_muzzle_flash_01.png": {
+                    "hash": "/Ck0n+9chaYYayvP57au/A"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/img_eff_fireball01.png": {
+                    "hash": "SivGtG19NoGTpUzQ/MdDSg"
+                }, 
+                "/Content/lang/ww/compile/en/ab/ability/50592/pb_launch_gunshot.json": {
+                    "hash": "RPkAs9mXQ3+Jetoe2f2vdA"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/img_eff_fire.json": {
+                    "hash": "7VzCDmEK9bZXfq+QvbOm9g"
+                }
+            }
+        }, 
+        {
+            "assetPath": "/Content/lang/ww/compile/en/ab/ability/50590/50590_hit_2.json", 
+            "bundle": {
+                "/Content/lang/ww/compile/en/ab/effect_image/orso_effect_001.json": {
+                    "hash": "IEKqBwv5YovfRdCBg0bprA"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/orso_effect_001.png": {
+                    "hash": "mGDUgoP9extVM4aSBy5K/w"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/img_kira.png": {
+                    "hash": "/gr3+rUayUcUbmk1P1UdLQ"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/img_kira.json": {
+                    "hash": "KYB/pwMi8zjGTcJgt2bBHg"
+                }, 
+                "/Content/lang/se/se_caf/se_ability_00470.caf": {
+                    "hash": "wVUgbTRC2tEq3YM4kdIzZw"
+                }, 
+                "/Content/lang/se/se_caf/se_ability_10020.caf": {
+                    "hash": "aoqgqnePQPzEJH2zjr58Jg"
+                }, 
+                "/Content/lang/ww/compile/en/ab/ability/50590/50590_hit_2.json": {
+                    "hash": "wkSOWoPIey4MdDeEHR698g"
+                }, 
+                "/Content/lang/ww/compile/en/ab/ability/50590/pb_hit_slash_2.json": {
+                    "hash": "i3vOCAKDt2qLzt86gkD8jg"
+                }
+            }
+        }, 
+        {
+            "assetPath": "/Content/lang/ww/compile/en/ab/ability/50591/50591_hit.json", 
+            "bundle": {
+                "/Content/lang/ww/compile/en/ab/effect_image/orso_effect_001.json": {
+                    "hash": "IEKqBwv5YovfRdCBg0bprA"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/img_light_line.png": {
+                    "hash": "MsDaWdAq52FE3rZDizThoQ"
+                }, 
+                "/Content/lang/ww/compile/en/ab/ability/50591/pb_hit_1_slash.json": {
+                    "hash": "vt7JnpZ9rN/cv7FORglD9A"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/img_eff_fireball01.png": {
+                    "hash": "SivGtG19NoGTpUzQ/MdDSg"
+                }, 
+                "/Content/lang/ww/compile/en/ab/ability/50591/img_valkyrie_size.json": {
+                    "hash": "iTK5ySIXX/2wKUiqZOUmpw"
+                }, 
+                "/Content/lang/ww/compile/en/ab/ability/50591/50591_hit.json": {
+                    "hash": "Ve285zNCGJAMaAyNIykKMg"
+                }, 
+                "/Content/lang/ww/compile/en/ab/ability/50591/sa_valkyrie_size.sajson": {
+                    "hash": "cYAa0y+29ZRdmg/iGv1RlA"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/img_eff_fire.png": {
+                    "hash": "lKeVc4YW31UgmCScKaDGlQ"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/img_light_line.json": {
+                    "hash": "5W889sndvoo+0O/fwwRDBg"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/orso_effect_001.png": {
+                    "hash": "mGDUgoP9extVM4aSBy5K/w"
+                }, 
+                "/Content/lang/ww/compile/en/ab/ability/50591/img_valkyrie_size.png": {
+                    "hash": "PJOkRWmnh0zzz/DtTnEW2A"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/img_kira.png": {
+                    "hash": "/gr3+rUayUcUbmk1P1UdLQ"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/img_kira.json": {
+                    "hash": "KYB/pwMi8zjGTcJgt2bBHg"
+                }, 
+                "/Content/lang/se/se_caf/se_ability_00470.caf": {
+                    "hash": "wVUgbTRC2tEq3YM4kdIzZw"
+                }, 
+                "/Content/lang/se/se_caf/se_ability_10020.caf": {
+                    "hash": "aoqgqnePQPzEJH2zjr58Jg"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/img_eff_light02.png": {
+                    "hash": "CZRdXKIPFJxOcwExhyWt+w"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/img_eff_fire.json": {
+                    "hash": "7VzCDmEK9bZXfq+QvbOm9g"
+                }, 
+                "/Content/lang/ww/compile/en/ab/ability/50591/pb_hit_2_gunshot.json": {
+                    "hash": "nlCPQTxQax67qZGLM2fvYw"
+                }
+            }
+        }, 
+        {
+            "assetPath": "/Content/lang/ww/compile/en/ab/ability/50592/50592_hit.json", 
+            "bundle": {
+                "/Content/lang/ww/compile/en/ab/ability/50592/50592_hit.json": {
+                    "hash": "jlDgrQrqqjvDcgB/4395Mw"
+                }, 
+                "/Content/lang/ww/compile/en/ab/ability/50592/pb_hit_gunshot.json": {
+                    "hash": "T4r50RxOtBHjTtibhmPuEA"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/img_eff_light02.png": {
+                    "hash": "CZRdXKIPFJxOcwExhyWt+w"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/img_eff_fire.png": {
+                    "hash": "lKeVc4YW31UgmCScKaDGlQ"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/img_eff_fireball01.png": {
+                    "hash": "SivGtG19NoGTpUzQ/MdDSg"
+                }, 
+                "/Content/lang/se/se_caf/se_ability_00671.caf": {
+                    "hash": "iZ2SQ73+IIn7cfsEqzb7WA"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/img_eff_fire.json": {
+                    "hash": "7VzCDmEK9bZXfq+QvbOm9g"
+                }
+            }
+        }, 
+        {
+            "assetPath": "/Content/lang/ww/compile/en/ab/ability/50591/50591_hit_1.json", 
+            "bundle": {
+                "/Content/lang/ww/compile/en/ab/effect_image/orso_effect_001.json": {
+                    "hash": "IEKqBwv5YovfRdCBg0bprA"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/img_light_line.png": {
+                    "hash": "MsDaWdAq52FE3rZDizThoQ"
+                }, 
+                "/Content/lang/ww/compile/en/ab/ability/50591/pb_hit_1_slash.json": {
+                    "hash": "vt7JnpZ9rN/cv7FORglD9A"
+                }, 
+                "/Content/lang/ww/compile/en/ab/ability/50591/img_valkyrie_size.json": {
+                    "hash": "iTK5ySIXX/2wKUiqZOUmpw"
+                }, 
+                "/Content/lang/ww/compile/en/ab/ability/50591/sa_valkyrie_size.sajson": {
+                    "hash": "cYAa0y+29ZRdmg/iGv1RlA"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/img_light_line.json": {
+                    "hash": "5W889sndvoo+0O/fwwRDBg"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/orso_effect_001.png": {
+                    "hash": "mGDUgoP9extVM4aSBy5K/w"
+                }, 
+                "/Content/lang/ww/compile/en/ab/ability/50591/img_valkyrie_size.png": {
+                    "hash": "PJOkRWmnh0zzz/DtTnEW2A"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/img_kira.png": {
+                    "hash": "/gr3+rUayUcUbmk1P1UdLQ"
+                }, 
+                "/Content/lang/ww/compile/en/ab/ability/50591/50591_hit_1.json": {
+                    "hash": "tbrth3A1UYxC2bjWV+YJeQ"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/img_kira.json": {
+                    "hash": "KYB/pwMi8zjGTcJgt2bBHg"
+                }, 
+                "/Content/lang/se/se_caf/se_ability_00470.caf": {
+                    "hash": "wVUgbTRC2tEq3YM4kdIzZw"
+                }, 
+                "/Content/lang/se/se_caf/se_ability_10020.caf": {
+                    "hash": "aoqgqnePQPzEJH2zjr58Jg"
+                }
+            }
+        }, 
+        {
+            "assetPath": "/Content/lang/ww/compile/en/ab/character/boss/213054/213054_1.json", 
+            "bundle": {
+                "/Content/lang/ww/compile/en/ab/character/boss/213054/img_213054.png": {
+                    "hash": "Z/u1+LH8UmcqmIzUI0gNWA"
+                }, 
+                "/Content/lang/ww/compile/en/ab/character/boss/213054/213054_1.json": {
+                    "hash": "BVTE4nqyk+H3O90OzeD4sw"
+                }, 
+                "/Content/lang/ww/compile/en/ab/character/boss/213054/pb_fire.json": {
+                    "hash": "dJmpoGhOh5K8d2ZUAEhEBQ"
+                }, 
+                "/Content/lang/se/se_caf/se_battle_101019.caf": {
+                    "hash": "bucVYAjOqG/CF6XA3N8EiQ"
+                }, 
+                "/Content/lang/se/se_caf/se_battle_101010.caf": {
+                    "hash": "9AZDD0/74SAiaiGn2DutqQ"
+                }, 
+                "/Content/lang/ww/compile/en/ab/character/common/img_shadow.png": {
+                    "hash": "9VR2DDhy7NiAMx9m+wUZ6A"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/img_eff_01.json": {
+                    "hash": "OJ5kfYeo5AyP3RbrqYGa3g"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/white.png": {
+                    "hash": "oYuoUdiFfAgAeZt5vHlJLA"
+                }, 
+                "/Content/lang/se/se_caf/se_battle_101009.caf": {
+                    "hash": "Y3B39vTgLD40H1ElMrUszw"
+                }, 
+                "/Content/lang/ww/compile/en/ab/character/boss/213054/img_213054.json": {
+                    "hash": "cCAMhn3m1QKxun92mov5lw"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/img_eff_01.png": {
+                    "hash": "lqlI1yYIl8hfQIawA1sRlg"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/img_eff_fire.json": {
+                    "hash": "7VzCDmEK9bZXfq+QvbOm9g"
+                }, 
+                "/Content/lang/se/se_caf/se_battle_101008.caf": {
+                    "hash": "PY8I4Q7OJizGKPVAI0sIDQ"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/img_eff_fire.png": {
+                    "hash": "lKeVc4YW31UgmCScKaDGlQ"
+                }
+            }
+        }, 
+        {
+            "assetPath": "/Content/lang/ww/compile/en/ab/ability/50590/50590_hit_1.json", 
+            "bundle": {
+                "/Content/lang/ww/compile/en/ab/effect_image/orso_effect_001.json": {
+                    "hash": "IEKqBwv5YovfRdCBg0bprA"
+                }, 
+                "/Content/lang/ww/compile/en/ab/ability/50590/pb_hit_slash_1.json": {
+                    "hash": "TzR3gm+fsKdVVaTpgJ7TlQ"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/orso_effect_001.png": {
+                    "hash": "mGDUgoP9extVM4aSBy5K/w"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/img_kira.png": {
+                    "hash": "/gr3+rUayUcUbmk1P1UdLQ"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/img_kira.json": {
+                    "hash": "KYB/pwMi8zjGTcJgt2bBHg"
+                }, 
+                "/Content/lang/se/se_caf/se_ability_00470.caf": {
+                    "hash": "wVUgbTRC2tEq3YM4kdIzZw"
+                }, 
+                "/Content/lang/se/se_caf/se_ability_10020.caf": {
+                    "hash": "aoqgqnePQPzEJH2zjr58Jg"
+                }, 
+                "/Content/lang/ww/compile/en/ab/ability/50590/50590_hit_1.json": {
+                    "hash": "cSJ+l5BjIs9flQNzLWLbDA"
+                }
+            }
+        }, 
+        {
+            "assetPath": "/Content/lang/ww/compile/en/ab/ability/50589/50589_shot.json", 
+            "bundle": {
+                "/Content/lang/ww/compile/en/ab/effect_image/img_light_01.json": {
+                    "hash": "V08fQyTG4T6GDMosX2YVxg"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/img_eff_01.json": {
+                    "hash": "OJ5kfYeo5AyP3RbrqYGa3g"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/img_light_01.png": {
+                    "hash": "6bAULnwkhXKcYlElSbEtDA"
+                }, 
+                "/Content/lang/se/se_caf/se_ability_00331.caf": {
+                    "hash": "GuUXFBRyPg5mJLMAKHtiWA"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/img_flood_gray.png": {
+                    "hash": "9fQsldlTrdNQxl7YLkViXg"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/eff_water_01.png": {
+                    "hash": "Zobl46TqAb5Z+KJEbDbwAQ"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/img_eff_circle01.png": {
+                    "hash": "kibSjuTQaXxjgB0ZzBHUfA"
+                }, 
+                "/Content/lang/se/se_caf/se_ability_00740.caf": {
+                    "hash": "40NHCepR2gbYAgT8BIfVPQ"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/eff_smoke2.png": {
+                    "hash": "2rS8zueHc2Yz7qjFl2tg4Q"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/eff_fire_01.png": {
+                    "hash": "08/miY2rj6zb2Xt/64NwjA"
+                }, 
+                "/Content/lang/se/se_caf/se_ability_00172.caf": {
+                    "hash": "jpWGBdPmEnm6jAfrbWbScw"
+                }, 
+                "/Content/lang/ww/compile/en/ab/ability/50589/pb_shot.json": {
+                    "hash": "5WAQgU9KS9DBobxQ0dHkOw"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/img_eff_01.png": {
+                    "hash": "lqlI1yYIl8hfQIawA1sRlg"
+                }, 
+                "/Content/lang/ww/compile/en/ab/ability/50589/50589_shot.json": {
+                    "hash": "zCFZsGI7+s1ZAgcDrUp9Ow"
+                }, 
+                "/Content/lang/se/se_caf/se_ability_00451.caf": {
+                    "hash": "1uLPiL8tWdYAlmkH3IHK4w"
+                }
+            }
+        }, 
+        {
+            "assetPath": "/Content/lang/ww/compile/en/ab/ability/50592/50592_hit_4.json", 
+            "bundle": {
+                "/Content/lang/ww/compile/en/ab/ability/50592/pb_hit_gunshot.json": {
+                    "hash": "T4r50RxOtBHjTtibhmPuEA"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/img_eff_light02.png": {
+                    "hash": "CZRdXKIPFJxOcwExhyWt+w"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/img_eff_fire.png": {
+                    "hash": "lKeVc4YW31UgmCScKaDGlQ"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/img_eff_fireball01.png": {
+                    "hash": "SivGtG19NoGTpUzQ/MdDSg"
+                }, 
+                "/Content/lang/se/se_caf/se_ability_00671.caf": {
+                    "hash": "iZ2SQ73+IIn7cfsEqzb7WA"
+                }, 
+                "/Content/lang/ww/compile/en/ab/ability/50592/50592_hit_4.json": {
+                    "hash": "ktx7VivGeziXP7CTK/gRWA"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/img_eff_fire.json": {
+                    "hash": "7VzCDmEK9bZXfq+QvbOm9g"
+                }
+            }
+        }, 
+        {
+            "assetPath": "/Content/lang/ww/compile/en/ab/ability/50589/50589_launch.json", 
+            "bundle": {
+                "/Content/lang/ww/compile/en/ab/effect_image/img_light_01.json": {
+                    "hash": "V08fQyTG4T6GDMosX2YVxg"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/img_light_01.png": {
+                    "hash": "6bAULnwkhXKcYlElSbEtDA"
+                }, 
+                "/Content/lang/se/se_caf/se_ability_00351.caf": {
+                    "hash": "/UdNWnNVupjnl1aFF0SElw"
+                }, 
+                "/Content/lang/se/se_caf/se_ability_10030.caf": {
+                    "hash": "8znQoPBwXBlOSCMcvg/UTA"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/img_flood_gray.png": {
+                    "hash": "9fQsldlTrdNQxl7YLkViXg"
+                }, 
+                "/Content/lang/ww/compile/en/ab/ability/50589/pb_launch.json": {
+                    "hash": "HE22u1Tw4sIHMw3HnLH8lA"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/img_normal_atks_alpha.png": {
+                    "hash": "h4TI9BU81ou9aynw7MDC7g"
+                }, 
+                "/Content/lang/se/se_caf/se_ability_launch_100005.caf": {
+                    "hash": "y65v+FAQmFMwl6Fk4t1t7g"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/pb_lb_aura_big.json": {
+                    "hash": "Pg/70Ptjm4rC3DZXDQw9vw"
+                }, 
+                "/Content/lang/se/se_caf/se_ability_00490.caf": {
+                    "hash": "Fqne4mXy3bxjcJIJJIHosg"
+                }, 
+                "/Content/lang/ww/compile/en/ab/ability/50589/50589_launch.json": {
+                    "hash": "+CqcReI5palr2qRep5ehXg"
+                }, 
+                "/Content/lang/se/se_caf/se_ability_10120.caf": {
+                    "hash": "7vhO+OIrIlL/ctJ55PG51w"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/img_normal_atks_alpha.json": {
+                    "hash": "Zg1ityaMBYEaRrKDpMk4uA"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/img_lb_aura.json": {
+                    "hash": "lpgE6M8fHG1DjCbZ5BlqEg"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/img_lb_aura.png": {
+                    "hash": "+aj0oirsTr1naJ7Wm7pXLA"
+                }
+            }
+        }, 
+        {
+            "assetPath": "/Content/lang/ww/compile/en/ab/ability/common/shot_empty.json", 
+            "bundle": {
+                "/Content/lang/ww/compile/en/ab/ability/common/shot_empty.json": {
+                    "hash": "0CdT8E4fBTH6u8628mSRjA"
+                }
+            }
+        }, 
+        {
+            "assetPath": "/Content/lang/ww/compile/en/ab/ability/50592/50592_hit_3.json", 
+            "bundle": {
+                "/Content/lang/ww/compile/en/ab/ability/50592/pb_hit_gunshot.json": {
+                    "hash": "T4r50RxOtBHjTtibhmPuEA"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/img_eff_light02.png": {
+                    "hash": "CZRdXKIPFJxOcwExhyWt+w"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/img_eff_fire.png": {
+                    "hash": "lKeVc4YW31UgmCScKaDGlQ"
+                }, 
+                "/Content/lang/ww/compile/en/ab/ability/50592/50592_hit_3.json": {
+                    "hash": "SumGuf1r5eROxSblJxtNpg"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/img_eff_fireball01.png": {
+                    "hash": "SivGtG19NoGTpUzQ/MdDSg"
+                }, 
+                "/Content/lang/se/se_caf/se_ability_00671.caf": {
+                    "hash": "iZ2SQ73+IIn7cfsEqzb7WA"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/img_eff_fire.json": {
+                    "hash": "7VzCDmEK9bZXfq+QvbOm9g"
+                }
+            }
+        }, 
+        {
+            "assetPath": "/Content/lang/ww/compile/en/ab/ability/50591/50591_hit_2.json", 
+            "bundle": {
+                "/Content/lang/ww/compile/en/ab/effect_image/img_eff_light02.png": {
+                    "hash": "CZRdXKIPFJxOcwExhyWt+w"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/img_eff_fire.png": {
+                    "hash": "lKeVc4YW31UgmCScKaDGlQ"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/img_eff_fireball01.png": {
+                    "hash": "SivGtG19NoGTpUzQ/MdDSg"
+                }, 
+                "/Content/lang/se/se_caf/se_ability_00671.caf": {
+                    "hash": "iZ2SQ73+IIn7cfsEqzb7WA"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/img_eff_fire.json": {
+                    "hash": "7VzCDmEK9bZXfq+QvbOm9g"
+                }, 
+                "/Content/lang/ww/compile/en/ab/ability/50591/50591_hit_2.json": {
+                    "hash": "dOwX40j5L1avgAZmU2DXIw"
+                }, 
+                "/Content/lang/ww/compile/en/ab/ability/50591/pb_hit_2_gunshot.json": {
+                    "hash": "nlCPQTxQax67qZGLM2fvYw"
+                }
+            }
+        }, 
+        {
+            "assetPath": "/Content/lang/ww/compile/en/ab/ability/50592/50592_hit_2.json", 
+            "bundle": {
+                "/Content/lang/ww/compile/en/ab/ability/50592/pb_hit_gunshot.json": {
+                    "hash": "T4r50RxOtBHjTtibhmPuEA"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/img_eff_light02.png": {
+                    "hash": "CZRdXKIPFJxOcwExhyWt+w"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/img_eff_fire.png": {
+                    "hash": "lKeVc4YW31UgmCScKaDGlQ"
+                }, 
+                "/Content/lang/ww/compile/en/ab/ability/50592/50592_hit_2.json": {
+                    "hash": "PlA/RR0LQwCfZJT2XwbY4g"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/img_eff_fireball01.png": {
+                    "hash": "SivGtG19NoGTpUzQ/MdDSg"
+                }, 
+                "/Content/lang/se/se_caf/se_ability_00671.caf": {
+                    "hash": "iZ2SQ73+IIn7cfsEqzb7WA"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/img_eff_fire.json": {
+                    "hash": "7VzCDmEK9bZXfq+QvbOm9g"
+                }
+            }
+        }, 
+        {
+            "assetPath": "/Content/lang/ww/compile/en/ab/ability/common/launch_blue.json", 
+            "bundle": {
+                "/Content/lang/ww/compile/en/ab/effect_image/eff_castingImage.sajson": {
+                    "hash": "DrdZ26KEmHE1mJvyJYgeQw"
+                }, 
+                "/Content/lang/ww/compile/en/ab/ability/common/pb_blueMagic_launch.json": {
+                    "hash": "NLgj/jVwjamtF3my2t2u0A"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/img_eff_casting.json": {
+                    "hash": "U4+qWFMzR5ySKGQiiWnClQ"
+                }, 
+                "/Content/lang/se/se_caf/se_ability_launch_100003.caf": {
+                    "hash": "PGBc9Oaht3PWMP8J+SGJSw"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/img_eff_casting.png": {
+                    "hash": "i3CuNagemFDydmytbKEtqw"
+                }, 
+                "/Content/lang/ww/compile/en/ab/ability/common/launch_blue.json": {
+                    "hash": "1oATWEJjQt2lgNBuXbK8ug"
+                }
+            }
+        }, 
+        {
+            "assetPath": "/Content/lang/ww/compile/en/ab/ability/50591/50591_hit_3.json", 
+            "bundle": {
+                "/Content/lang/ww/compile/en/ab/effect_image/orso_effect_001.json": {
+                    "hash": "IEKqBwv5YovfRdCBg0bprA"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/img_light_line.png": {
+                    "hash": "MsDaWdAq52FE3rZDizThoQ"
+                }, 
+                "/Content/lang/ww/compile/en/ab/ability/50591/50591_hit_3.json": {
+                    "hash": "LNbM2gMC8+KCyiI6zjMX2Q"
+                }, 
+                "/Content/lang/ww/compile/en/ab/ability/50591/img_valkyrie_size.json": {
+                    "hash": "iTK5ySIXX/2wKUiqZOUmpw"
+                }, 
+                "/Content/lang/ww/compile/en/ab/ability/50591/sa_valkyrie_size.sajson": {
+                    "hash": "cYAa0y+29ZRdmg/iGv1RlA"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/img_light_line.json": {
+                    "hash": "5W889sndvoo+0O/fwwRDBg"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/orso_effect_001.png": {
+                    "hash": "mGDUgoP9extVM4aSBy5K/w"
+                }, 
+                "/Content/lang/ww/compile/en/ab/ability/50591/img_valkyrie_size.png": {
+                    "hash": "PJOkRWmnh0zzz/DtTnEW2A"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/img_kira.png": {
+                    "hash": "/gr3+rUayUcUbmk1P1UdLQ"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/img_kira.json": {
+                    "hash": "KYB/pwMi8zjGTcJgt2bBHg"
+                }, 
+                "/Content/lang/se/se_caf/se_ability_00470.caf": {
+                    "hash": "wVUgbTRC2tEq3YM4kdIzZw"
+                }, 
+                "/Content/lang/se/se_caf/se_ability_10020.caf": {
+                    "hash": "aoqgqnePQPzEJH2zjr58Jg"
+                }, 
+                "/Content/lang/ww/compile/en/ab/ability/50591/pb_hit_3_slash.json": {
+                    "hash": "3BFfP0TkiDqHOD93+6wX1A"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,104 @@
+{
+    "SERVER_TIME": 1438061527, 
+    "can_review": false, 
+    "dungeon": {
+        "background_image_path": "/dff/static/lang/image/dungeon/201010_bg.png", 
+        "bgm": "bgm_01_010", 
+        "button_style": "NORMAL", 
+        "captures": [
+            {
+                "image_path": "/dff/static/lang/image/enemy/401010.png", 
+                "sp_scores": [
+                    {
+                        "battle_id": 301040, 
+                        "title": "Exploit the Lich's weakness to holy attacks."
+                    }
+                ], 
+                "tip_battle": {
+                    "group_id": 410143, 
+                    "id": 410143, 
+                    "message": "The Lich uses <span class=\"red\">potent magic</span>, kupo! <span class=\"red\">Silence</span> it to shut down the spells, then attack with its weakness, <span class=\"red\">holy!</span>", 
+                    "title": "Lich"
+                }
+            }, 
+            {
+                "image_path": "/dff/static/lang/image/enemy/401011.png", 
+                "sp_scores": [
+                    {
+                        "battle_id": 301041, 
+                        "title": "Defeat Marilith without being KO'd."
+                    }
+                ], 
+                "tip_battle": {
+                    "group_id": 410144, 
+                    "id": 410144, 
+                    "message": "Marilith is <span class=\"red\">immune to fire, ice, and lightning</span> attacks, kupo! But debuffs work well, so try to <span class=\"red\">Blind</span> or <span class=\"red\"> or Silence</span> her to even the odds!", 
+                    "title": "Marilith"
+                }
+            }
+        ], 
+        "challenge_level": 62, 
+        "closed_at": 2056341599, 
+        "epilogue": "The Warriors of Light arrived at the Chaos Shrine 2000 years in the past, where they used the Lute from Princess Sarah to travel down into the shrine depths, fighting off the Lich and Marilith as they went.", 
+        "epilogue_image_path": "/dff/static/lang/image/dungeon/201010_epilogue.png", 
+        "id": 201010, 
+        "is_clear": true, 
+        "is_master": true, 
+        "is_new": false, 
+        "is_unlocked": true, 
+        "name": "Chaos Shrine of Yore, Part 1", 
+        "opened_at": 1437958800, 
+        "order_no": 1, 
+        "prizes": {
+            "1": [
+                {
+                    "id": 92000000, 
+                    "image_path": "/dff/static/lang/image/common_item/92000000.png", 
+                    "name": "Gil", 
+                    "num": 5000, 
+                    "type_name": "COMMON"
+                }
+            ], 
+            "2": [
+                {
+                    "id": 40000003, 
+                    "image_path": "/dff/static/lang/image/ability_material/40000003/40000003_112.png", 
+                    "name": "Power Orb", 
+                    "num": 3, 
+                    "type_name": "ABILITY_MATERIAL"
+                }, 
+                {
+                    "id": 91000000, 
+                    "image_path": "/dff/static/lang/image/common_item/91000000.png", 
+                    "name": "Mythril", 
+                    "num": 1, 
+                    "type_name": "COMMON"
+                }
+            ], 
+            "3": [
+                {
+                    "id": 40000063, 
+                    "image_path": "/dff/static/lang/image/ability_material/40000063/40000063_112.png", 
+                    "name": "Dark Orb", 
+                    "num": 3, 
+                    "type_name": "ABILITY_MATERIAL"
+                }, 
+                {
+                    "id": 24098003, 
+                    "image_path": "/dff/static/lang/image/equipment/24098003/24098003_03_112.png", 
+                    "name": "Scarletite", 
+                    "num": 2, 
+                    "type_name": "EQUIPMENT"
+                }
+            ]
+        }, 
+        "prologue": "With the support of the Circle of Sages, the Warriors of Light travel to the Chaos Shrine and are transported 2000 years into the past...", 
+        "prologue_image_path": "/dff/static/lang/image/dungeon/201010_prologue.png", 
+        "rank": 3, 
+        "series_id": 101001, 
+        "total_stamina": 54, 
+        "type": 1, 
+        "world_id": 101001
+    }, 
+    "success": true
+}

@@ -10,6 +10,12 @@ import csv
 import re
 from collections import OrderedDict, defaultdict
 
+def load_dict(path):
+    with open(path, mode='r') as infile:
+        reader = csv.reader(infile)
+        mydict = dict((rows[0],rows[1]) for rows in reader)
+    return mydict
+
 def get_buddy_info(data):
     # use with party_list
     ### TODO ### make this use id rather than names
@@ -62,15 +68,41 @@ def get_soul_strike_info(data):
     #use with get battle init 
     battle = data["battle"]
     for buddy in battle["buddy"]:
-        # print str(buddy["soul_strike"]["options"]["name"]) + ": " + str(buddy["soul_strike"]["ability_id"])
-        # ss = buddy.get("soul_strike","Error")
-        a = str(buddy["soul_strike"]["ability_id"])
-        if not os.access(os.getcwd() + "/data/soul_strike/" + str(a) + "/", os.F_OK):
-            os.mkdir(os.getcwd() + "/data/soul_strike/" + str(a) + "/")
+        for soul_strike in buddy["soul_strikes"]:
+            a = soul_strike["ability_id"]
+            if not os.access(os.getcwd() + "/data/soul_strikes/" + str(a) + "/", os.F_OK):
+                os.mkdir(os.getcwd() + "/data/soul_strikes/" + str(a) + "/")
 
-        test_file = open(os.getcwd() + "/data/soul_strike/" + str(a) + "/" + str(a) + ".json",'w')
-        print >> test_file, json.dumps(buddy.get("soul_strike","Error"), indent=4, sort_keys=True)
-        test_file.close()
+                test_file = open(os.getcwd() + "/data/soul_strikes/" + str(a) + "/" + str(a) + ".json",'w')
+                print >> test_file, json.dumps(soul_strike, indent=4, sort_keys=False)
+                test_file.close()
+
+def get_record_materia_info(data):
+    #use with get battle init 
+    battle = data["battle"]
+    for buddy in battle["buddy"]:
+        for materia in buddy["materias"]:
+            a = materia["arg1"]
+            print a
+            if not os.access(os.getcwd() + "/data/record_materia/" + str(a) + "/", os.F_OK):
+                os.mkdir(os.getcwd() + "/data/record_materia/" + str(a) + "/")
+
+                test_file = open(os.getcwd() + "/data/record_materia/" + str(a) + "/" + str(a) + ".json",'w')
+                print >> test_file, json.dumps(materia, indent=4, sort_keys=False)
+                test_file.close()
+
+def get_record_materia_from_party_list(data):
+    #use with handle party list
+    for materia in data["record_materias"]:
+        a = materia["record_materia_id"]
+        print a
+        if not os.access(os.getcwd() + "/data/record_materia/" + str(a) + "/", os.F_OK):
+            os.mkdir(os.getcwd() + "/data/record_materia/" + str(a) + "/")
+
+            test_file = open(os.getcwd() + "/data/record_materia/" + str(a) + "/" + str(a) + ".json",'w')
+            print >> test_file, json.dumps(materia, indent=4, sort_keys=False)
+            test_file.close()
+
 
 def build_equipment_stat_file():
 	name = ""
@@ -114,7 +146,6 @@ def build_equipment_stat_file():
 					# writer.writerow({'level': t["level"], 'hp': t["hp"], 'atk': t["atk"], 'matk': t["matk"], 'acc': t["acc"], 'def': t["def"], 'mdef': t["mdef"], 'eva': t["eva"], 'mnd': t["mnd"], 'spd': t["spd"]})
 					writer.writerow({name1:"",'level': t["level"], 'hp': t["hp"], 'atk': t["atk"], 'matk': t["matk"], 'acc': t["acc"], 'def': t["def"], 'mdef': t["mdef"], 'eva': t["eva"], 'mnd': t["mnd"], 'spd': t["spd"], 'series_hp': t["series_hp"], 'series_atk': t["series_atk"], 'series_matk': t["series_matk"], 'series_acc': t["series_acc"], 'series_def': t["series_def"], 'series_mdef': t["series_mdef"], 'series_eva': t["series_eva"], 'series_mnd': t["series_mnd"], 'series_spd': t["series_spd"]})
                     
-
 def build_buddy_stat_file():
     path = str(os.getcwd()) + "/data/buddy/"
     csv_path = str(os.getcwd()) + "/data/csv/buddy/"
@@ -203,7 +234,6 @@ def sort_buddy_csv_by_attribute(file_path, attribute):
                         # writer.writerow({'level': t["level"], 'hp': t["hp"], 'atk': t["atk"], 'matk': t["matk"], 'acc': t["acc"], 'def': t["def"], 'mdef': t["mdef"], 'eva': t["eva"], 'mnd': t["mnd"], 'spd': t["spd"]})
                         writer.writerow({'level': t["level"], 'hp': t["hp"], 'atk': t["atk"], 'matk': t["matk"], 'acc': t["acc"], 'def': t["def"], 'mdef': t["mdef"], 'eva': t["eva"], 'mnd': t["mnd"], 'spd': t["spd"],'series_level': t["series_level"], 'series_hp': t["series_hp"], 'series_atk': t["series_atk"], 'series_matk': t["series_matk"], 'series_acc': t["series_acc"], 'series_def': t["series_def"], 'series_mdef': t["series_mdef"], 'series_eva': t["series_eva"], 'series_mnd': t["series_mnd"], 'series_spd': t["series_spd"]})
             
-
 def sort_equip_csv_by_attribute(file_path, attribute):
     for dir_entry in os.listdir(file_path):
         temp = []
@@ -257,6 +287,104 @@ def sort_equip_csv_by_attribute(file_path, attribute):
                     for t in temp1:
                         # writer.writerow({'level': t["level"], 'hp': t["hp"], 'atk': t["atk"], 'matk': t["matk"], 'acc': t["acc"], 'def': t["def"], 'mdef': t["mdef"], 'eva': t["eva"], 'mnd': t["mnd"], 'spd': t["spd"]})
                         writer.writerow({name:'','level': t["level"], 'hp': t["hp"], 'atk': t["atk"], 'matk': t["matk"], 'acc': t["acc"], 'def': t["def"], 'mdef': t["mdef"], 'eva': t["eva"], 'mnd': t["mnd"], 'spd': t["spd"], 'series_hp': t["series_hp"], 'series_atk': t["series_atk"], 'series_matk': t["series_matk"], 'series_acc': t["series_acc"], 'series_def': t["series_def"], 'series_mdef': t["series_mdef"], 'series_eva': t["series_eva"], 'series_mnd': t["series_mnd"], 'series_spd': t["series_spd"]})
+
+def build_equipment_compare_file():
+    path = str(os.getcwd()) + "/data/equipment/"
+    csv_path = "/home/rockwell/Desktop/csv/equipment/"
+
+    one_star = []
+    two_star = []
+    three_star = []
+    four_star = []
+    five_star = []
+
+    for dir_entry in os.listdir(path):
+        temp = []
+        dir_entry_path = os.path.join(path, dir_entry)
+        if os.path.isdir(dir_entry_path):
+            # print dir_entry_path
+            for level_dir in os.listdir(dir_entry_path):
+                file_path = os.path.join(dir_entry_path, level_dir)
+                print file_path
+                if os.path.isfile(file_path):
+                    with open(file_path, 'rb') as my_file:
+                        a = json.loads(my_file.read())
+                        if a.get("spd","0") == "0":
+                            a["spd"] = 0
+                        if a.get("series_spd","0") == "0":
+                            a["series_spd"] = 0
+
+                        
+                        temp.append(a)
+
+                    # for f in os.listdir(file_path):
+                    #     #print str(file_path) + "/" + str(f)
+                    #     b = os.path.join(file_path, f)
+                    #     print b
+                    #     if os.path.isfile(b):
+                    #         with open(b, 'rb') as my_file:
+                    #             temp.append(json.loads(my_file.read()))
+            
+                # print temp
+                temp1 = sorted(temp, key=itemgetter('level')) 
+
+                name = a.get("name","Error")
+                utf8_str = name.encode('utf-8')
+                name1 = name
+                if '\xef' in utf8_str:
+                    name2 = re.split('\)', name)
+                    name1 = str(name2[0]) + ")"
+
+                name3 = name1.replace(" ", "_").replace("\'","").lower()
+
+
+            # if
+
+
+
+            with open(csv_path + dir_entry + '_' + name3 +'.csv', 'w') as csvfile:
+                fieldnames = ['level', 'hp', 'atk', 'matk', 'acc', 'def', 'mdef', 'eva', 'mnd', 'spd', 'series_hp', 'series_atk', 'series_matk', 'series_acc', 'series_def', 'series_mdef', 'series_eva', 'series_mnd', 'series_spd']
+                # fieldnames = ['level', 'hp', 'atk', 'matk', 'acc', 'def', 'mdef', 'eva', 'mnd', 'spd']
+                writer = csv.DictWriter(csvfile, fieldnames=fieldnames, delimiter=',')
+
+                writer.writeheader()
+                for t in temp1:
+                    # writer.writerow({'level': t["level"], 'hp': t["hp"], 'atk': t["atk"], 'matk': t["matk"], 'acc': t["acc"], 'def': t["def"], 'mdef': t["mdef"], 'eva': t["eva"], 'mnd': t["mnd"], 'spd': t["spd"]})
+                    writer.writerow({'level': t["level"], 'hp': t["hp"], 'atk': t["atk"], 'matk': t["matk"], 'acc': t["acc"], 'def': t["def"], 'mdef': t["mdef"], 'eva': t["eva"], 'mnd': t["mnd"], 'spd': t["spd"], 'series_hp': t["series_hp"], 'series_atk': t["series_atk"], 'series_matk': t["series_matk"], 'series_acc': t["series_acc"], 'series_def': t["series_def"], 'series_mdef': t["series_mdef"], 'series_eva': t["series_eva"], 'series_mnd': t["series_mnd"], 'series_spd': t["series_spd"]})
+                    # writer.writerow({'level': t["level"], 'hp': t["hp"], 'atk': t["atk"], 'matk': t["matk"], 'acc': t["acc"], 'def': t["def"], 'mdef': t["mdef"], 'eva': t["eva"], 'mnd': t["mnd"], 'spd': t.get("spd",0),'series_level': t["series_level"], 'series_hp': t["series_hp"], 'series_atk': t["series_atk"], 'series_matk': t["series_matk"], 'series_acc': t["series_acc"], 'series_def': t["series_def"], 'series_mdef': t["series_mdef"], 'series_eva': t["series_eva"], 'series_mnd': t["series_mnd"], 'series_spd': t.get("series_spd",0)})
+                        
+
+            # # try this
+            #  with open(dir_entry_path, 'w') as csvfile:
+            #     # fieldnames = ['level', 'hp', 'atk', 'matk', 'acc', 'def', 'mdef', 'eva', 'mnd', 'spd']
+            #     fieldnames = [name, 'level', 'hp', 'atk', 'matk', 'acc', 'def', 'mdef', 'eva', 'mnd', 'spd', 'series_hp', 'series_atk', 'series_matk', 'series_acc', 'series_def', 'series_mdef', 'series_eva', 'series_mnd', 'series_spd']
+            #     writer = csv.DictWriter(csvfile, fieldnames=fieldnames, delimiter=',')
+
+            #     writer.writeheader()
+            #     # writer.writerow(t_header)
+            #     for t in temp1:
+            #         # writer.writerow({'level': t["level"], 'hp': t["hp"], 'atk': t["atk"], 'matk': t["matk"], 'acc': t["acc"], 'def': t["def"], 'mdef': t["mdef"], 'eva': t["eva"], 'mnd': t["mnd"], 'spd': t["spd"]})
+            #         writer.writerow({name:'','level': t["level"], 'hp': t["hp"], 'atk': t["atk"], 'matk': t["matk"], 'acc': t["acc"], 'def': t["def"], 'mdef': t["mdef"], 'eva': t["eva"], 'mnd': t["mnd"], 'spd': t["spd"], 'series_hp': t["series_hp"], 'series_atk': t["series_atk"], 'series_matk': t["series_matk"], 'series_acc': t["series_acc"], 'series_def': t["series_def"], 'series_mdef': t["series_mdef"], 'series_eva': t["series_eva"], 'series_mnd': t["series_mnd"], 'series_spd': t["series_spd"]})
+                
+            # if num_rows > 2:
+            #     with open(file_path + "/../multi_equip/" + dir_entry, 'w') as csvfile:
+            #         # fieldnames = ['level', 'hp', 'atk', 'matk', 'acc', 'def', 'mdef', 'eva', 'mnd', 'spd']
+            #         fieldnames = [name, 'level', 'hp', 'atk', 'matk', 'acc', 'def', 'mdef', 'eva', 'mnd', 'spd', 'series_hp', 'series_atk', 'series_matk', 'series_acc', 'series_def', 'series_mdef', 'series_eva', 'series_mnd', 'series_spd']
+            #         writer = csv.DictWriter(csvfile, fieldnames=fieldnames, delimiter=',')
+
+            #         writer.writeheader()
+            #         # writer.writerow(t_header)
+            #         for t in temp1:
+            #             # writer.writerow({'level': t["level"], 'hp': t["hp"], 'atk': t["atk"], 'matk': t["matk"], 'acc': t["acc"], 'def': t["def"], 'mdef': t["mdef"], 'eva': t["eva"], 'mnd': t["mnd"], 'spd': t["spd"]})
+            #             writer.writerow({name:'','level': t["level"], 'hp': t["hp"], 'atk': t["atk"], 'matk': t["matk"], 'acc': t["acc"], 'def': t["def"], 'mdef': t["mdef"], 'eva': t["eva"], 'mnd': t["mnd"], 'spd': t["spd"], 'series_hp': t["series_hp"], 'series_atk': t["series_atk"], 'series_matk': t["series_matk"], 'series_acc': t["series_acc"], 'series_def': t["series_def"], 'series_mdef': t["series_mdef"], 'series_eva': t["series_eva"], 'series_mnd': t["series_mnd"], 'series_spd': t["series_spd"]})
+            
+
+
+def build_list_based_on_rarity(data):
+
+
+    return
+
 
 def get_drop_list(enemy):
     drop_list = []
@@ -427,6 +555,88 @@ def get_items_not_logged():
     		print t["name"] + str(t["levels"])
     		print >> f, str(t["name"]) + str(t["levels"])
 
+           
+def save_equipment(data):
+    for item in data["equipments"]:
+        equipment_id = item.get("equipment_id","Error")
+        level = item.get("level","0")
+        # a = temp_str.replace(" ", "_").lower()
+        if not os.access(os.getcwd() + "/data/equipment/" + str(equipment_id) + "/", os.F_OK):
+            os.mkdir(os.getcwd() + "/data/equipment/" + str(equipment_id) + "/")
+
+        file_path = "/data/equipment/" + str(equipment_id) + "/" + str(equipment_id) + "_level_" + str(level) + ".json"
+
+        if not os.path.isfile(file_path):
+            test_file = open(os.getcwd() + file_path,'w')
+            print >> test_file, json.dumps(item, indent=4, sort_keys=True)
+            test_file.close()
+
+def save_single_equipment_by_id(item, path):
+    temp = []
+    equipment_id = item.get("equipment_id","Error")
+    level = item.get("level","0")
+    name = item.get("name","Error")
+    # name1 = name.replace("\uff0b","+")
+    # name1 = name.replace("\xef","")
+    utf8_str = name.encode('utf-8')
+    name1 = name
+    if '\xef' in utf8_str:
+        # print str(equipment_id) + " " + utf8_str
+        # name1 = utf8_str.replace("\xef","")
+        name2 = re.split('\)', name)
+        name1 = str(name2[0]) + ")"
+
+    # only used in mitmdump
+    # if ITEMS.get(equipment_id,"Not found") == "Not found":
+    #     temp.append([equipment_id, name])
+    #     # save_equipment_id(temp)
+    #     # print name1
+    #     save_equipment_id(equipment_id, name)
+    #     # reload dict ITEMS dict?
+    #     # doesnt work
+    #     # ITEMS = __init__.load_dict("data/items.csv")
+
+    if not os.access(os.getcwd() + path + str(equipment_id) + "/", os.F_OK):
+        os.mkdir(os.getcwd() + path + str(equipment_id) + "/")
+    
+    file_path = os.getcwd() + path + str(equipment_id) + "/" + str(equipment_id) + "_level_" + str(level) + ".json"
+    
+    ###DEBUG###
+    # print os.listdir(os.getcwd() + path + str(equipment_id) + "/")
+    
+    # if not os.path.isfile(file_path):
+    if not os.access(file_path, os.F_OK):
+        print "Saved stats for: [" + str(name1) + " (id: " + str(equipment_id) + ") - level " + str(level) + "]"
+        test_file = open(file_path,'w')
+        print >> test_file, json.dumps(item, indent=4, sort_keys=False)
+        test_file.close()
+
+
+def sort_item_dict_csv(base_path):
+
+    # used to remove duplicate items and order items by ID/key
+    a = load_dict(base_path + "data/items.csv")
+    b = a.keys()
+    c = sorted(b)
+    with open(base_path + "data/new_items.csv", 'w') as f:
+        for d in c:
+            print >> f, str(d) + "," + str(a[d])
+            #print str(d) + str(a[d])
+
+def load_battle_init_file():
+    battle_init_file = os.getcwd() + "/json/handle_get_battle_init_data.json"
+    with open(battle_init_file, 'r') as f:
+        data = json.loads(f.read())
+    # get_soul_strike_info(data)
+    return data
+
+def load_party_list_file():
+    buddy_file = os.getcwd() + "/json/handle_party_list.json"
+    with open(buddy_file, 'r') as f:
+        data = json.loads(f.read())
+    # get_buddy_info(data)
+    return data
+
 
 def main():
     # enemy in data - first bracket (start of dict)
@@ -439,10 +649,11 @@ def main():
     # build_char_data("/data/raw/handle_party_list/")
     # build_char_data("/debug/handle_party_list/")
 
-    get_items_not_logged()
 
-    # build_equipment_stat_file()
-    # build_buddy_stat_file()
+    build_equipment_stat_file()
+    build_buddy_stat_file()
+
+    get_items_not_logged()
 
     # buddy_file = os.getcwd() + "/json/handle_party_list.json"
     # with open(buddy_file, 'r') as f:

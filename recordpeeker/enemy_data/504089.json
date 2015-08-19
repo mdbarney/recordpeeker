@@ -1,0 +1,336 @@
+[
+    {
+        "is_sp_enemy": "1",
+        "deform_animation_info": [
+            {
+                "deform_tag": "in",
+                "is_random": true,
+                "state": [
+                    "1"
+                ],
+                "path": "204034_1.json",
+                "enemy_id": "404039",
+                "id": "20403411"
+            },
+            {
+                "deform_tag": "deformation_01",
+                "is_random": true,
+                "state": [
+                    "1"
+                ],
+                "path": "204034_1.json",
+                "enemy_id": "404039",
+                "id": "20403412"
+            },
+            {
+                "deform_tag": "deformation_02",
+                "is_random": true,
+                "state": [
+                    "1"
+                ],
+                "path": "204034_1.json",
+                "enemy_id": "404039",
+                "id": "20403413"
+            }
+        ],
+        "ai_id": "0",
+        "id": "404039",
+        "children": [
+            {
+                "drop_item_list": [
+                    {
+                        "item_id": "40000054",
+                        "num": "1",
+                        "type": 51,
+                        "uid": 201,
+                        "rarity": "4"
+                    }
+                ],
+                "uid": "201",
+                "no": "1",
+                "init_hp": "67114",
+                "child_pos_id": "1",
+                "lv": "105",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "101001",
+                                "weight": "100"
+                            }
+                        ],
+                        "mnd": 297,
+                        "id": "4040391",
+                        "size": "3",
+                        "lv": "105",
+                        "no": "1",
+                        "spd": "100",
+                        "disp_name": "Barbariccia",
+                        "looking": "40403901",
+                        "critical": "3",
+                        "max_hp": "67114",
+                        "matk": "364",
+                        "counters": [
+                            {
+                                "ability_id": "201099",
+                                "condition_value": "3",
+                                "condition_type": "3",
+                                "rate": "10"
+                            },
+                            {
+                                "ability_id": "201099",
+                                "condition_value": "4",
+                                "condition_type": "3",
+                                "rate": "10"
+                            }
+                        ],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "104",
+                                "factor": "21"
+                            },
+                            {
+                                "attribute_id": "202",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "213",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "201",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "211",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "225",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "220",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "214",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "103",
+                                "factor": "6"
+                            },
+                            {
+                                "attribute_id": "218",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "204",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "215",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "219",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "224",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "223",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "212",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "203",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "206",
+                                "factor": "1"
+                            }
+                        ],
+                        "mdef": "306",
+                        "animation_info": {
+                            "scale": "1",
+                            "assets": {
+                                "boss-204034_1": "/Content/lang/ab/character/boss/204034/204034_1.json"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "3",
+                            "enemy_status_id": "4040391",
+                            "offset_y": "0",
+                            "path": "204034_1",
+                            "offset_x": "0"
+                        },
+                        "acc": "100",
+                        "eva": "70",
+                        "atk": "364",
+                        "breed_id": "0",
+                        "exp": 5297,
+                        "def": "306"
+                    },
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "201095",
+                                "weight": "10"
+                            },
+                            {
+                                "ability_id": "102051",
+                                "weight": "90"
+                            }
+                        ],
+                        "mnd": 297,
+                        "id": "4040392",
+                        "size": "3",
+                        "lv": "105",
+                        "no": "1",
+                        "spd": "100",
+                        "disp_name": "Barbariccia",
+                        "looking": "40403902",
+                        "critical": "3",
+                        "max_hp": "67114",
+                        "matk": "364",
+                        "counters": [
+                            {
+                                "ability_id": "401072",
+                                "condition_value": "1",
+                                "condition_type": "3",
+                                "rate": "30"
+                            }
+                        ],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "218",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "225",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "204",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "214",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "211",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "224",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "203",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "220",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "210",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "213",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "106",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "202",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "223",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "212",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "201",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "206",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "219",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "103",
+                                "factor": "6"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "215",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "200",
+                                "factor": "1"
+                            }
+                        ],
+                        "mdef": "306",
+                        "animation_info": {
+                            "scale": "1",
+                            "assets": {
+                                "boss-204034_1": "/Content/lang/ab/character/boss/204034/204034_1.json"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "3",
+                            "enemy_status_id": "4040392",
+                            "offset_y": "0",
+                            "path": "204034_1",
+                            "offset_x": "0"
+                        },
+                        "acc": "100",
+                        "eva": "70",
+                        "atk": "364",
+                        "breed_id": "0",
+                        "exp": 0,
+                        "def": "1224"
+                    }
+                ],
+                "max_hp": "67114",
+                "enemy_id": "404039",
+                "ai_id": "40403901"
+            }
+        ]
+    }
+]

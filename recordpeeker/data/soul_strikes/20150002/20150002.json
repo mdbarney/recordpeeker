@@ -1,0 +1,61 @@
+{
+    "ability_id": "20150002", 
+    "action_id": "28", 
+    "animation_info": {
+        "atk_motion": "ready", 
+        "chara_in": "", 
+        "chara_out": "", 
+        "damage_tag": "", 
+        "hit": "70347/70347_hit.json", 
+        "hit_arg": "0", 
+        "hit_next_tag": "", 
+        "hit_type": "1", 
+        "id": "70347", 
+        "launch": "common/launch_special_attack_bg_black.json", 
+        "launch_next_tag": "", 
+        "launch_type": "2", 
+        "miss_hit": "", 
+        "other_in": "", 
+        "other_out": "", 
+        "recover_tag": "", 
+        "return_hit": "", 
+        "return_shot": "", 
+        "return_type": "99", 
+        "reverse_hit": "1", 
+        "reverse_shot": "1", 
+        "shot": "70347/70347_shot.json", 
+        "shot_next_tag": "", 
+        "shot_type": "2"
+    }, 
+    "assets": {
+        "ability-70347_hit": "/Content/lang/ab/ability/70347/70347_hit.json", 
+        "ability-70347_launch": "/Content/lang/ab/ability/common/launch_special_attack_bg_black.json", 
+        "ability-70347_shot": "/Content/lang/ab/ability/70347/70347_shot.json"
+    }, 
+    "exercise_type": "1", 
+    "icon": {
+        "assets": {
+            "command_icon_20150002": "/Content/lang/ab_image/soulstrike//20150002/20150002_256.png"
+        }
+    }, 
+    "options": {
+        "ability_animation_id": "70347", 
+        "active_target_method": "3", 
+        "alias_name": "Status Reels", 
+        "arg1": "380", 
+        "arg2": "-50", 
+        "arg3": "10000", 
+        "arg4": "2", 
+        "arg5": "1", 
+        "cast_time": "3000", 
+        "consume_soul_strike_point": "500", 
+        "counter_enable": "1", 
+        "name": "Status Reels", 
+        "status_ailments_factor": "100", 
+        "status_ailments_id": "608", 
+        "target_death": "1", 
+        "target_method": "2", 
+        "target_range": "1", 
+        "target_segment": "1"
+    }
+}

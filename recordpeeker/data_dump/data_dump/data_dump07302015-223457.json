@@ -1,0 +1,97 @@
+{
+    "SERVER_TIME": 1438313697, 
+    "can_review": false, 
+    "dungeon": {
+        "background_image_path": "/dff/static/lang/image/dungeon/204002_bg.png", 
+        "bgm": "bgm_04_012", 
+        "button_style": "NORMAL", 
+        "captures": [
+            {
+                "image_path": "/dff/static/lang/image/enemy/404002.png", 
+                "sp_scores": [
+                    {
+                        "battle_id": 304006, 
+                        "title": "Exploit the Octomammoth's weakness to dark attacks."
+                    }, 
+                    {
+                        "battle_id": 304006, 
+                        "title": "Exploit the Octomammoth's weakness to lightning attacks."
+                    }, 
+                    {
+                        "battle_id": 304006, 
+                        "title": "Defeat the Octomammoth without having any water attacks absorbed."
+                    }
+                ], 
+                "tip_battle": {
+                    "group_id": 420002, 
+                    "id": 410002, 
+                    "message": "The Octomammoth is vulnerable to <span class=\"red\">lightning</span> and <span class=\"red\">darkness</span>. Try using the black mage's <span class=\"red\">Lightning</span> and <span class=\"red\">Darkbolt</span> abilities on it, kupo!", 
+                    "title": "Octomammoth"
+                }
+            }
+        ], 
+        "challenge_level": 4, 
+        "closed_at": 2145938400, 
+        "epilogue": "The party assists Tellah the sage in ridding the Underground Waterway of the ferocious Octomammoth, then make their way to Damcyan Castle, only to find it has been sacked by the Red Wings. Amidst the rubble, they find Prince Edward who is lost in grief for his beloved. Though Rydia, who herself lost family, is unimpressed with the prince's behavior, Cecil extends a hand and invites him to join them.", 
+        "epilogue_image_path": "/dff/static/lang/image/dungeon/204002_epilogue.png", 
+        "id": 204002, 
+        "is_clear": true, 
+        "is_master": true, 
+        "is_new": false, 
+        "is_unlocked": true, 
+        "name": "Underground Waterway", 
+        "opened_at": 1398924000, 
+        "order_no": 1, 
+        "prizes": {
+            "1": [
+                {
+                    "id": 92000000, 
+                    "image_path": "/dff/static/lang/image/common_item/92000000.png", 
+                    "name": "Gil", 
+                    "num": 700, 
+                    "type_name": "COMMON"
+                }
+            ], 
+            "2": [
+                {
+                    "id": 94000000, 
+                    "image_path": "/dff/static/lang/image/common_item/94000000.png", 
+                    "name": "Stamina Shard", 
+                    "num": 5, 
+                    "type_name": "COMMON"
+                }, 
+                {
+                    "id": 91000000, 
+                    "image_path": "/dff/static/lang/image/common_item/91000000.png", 
+                    "name": "Mythril", 
+                    "num": 1, 
+                    "type_name": "COMMON"
+                }
+            ], 
+            "3": [
+                {
+                    "id": 40000001, 
+                    "image_path": "/dff/static/lang/image/ability_material/40000001/40000001_112.png", 
+                    "name": "Minor Power Orb", 
+                    "num": 5, 
+                    "type_name": "ABILITY_MATERIAL"
+                }, 
+                {
+                    "id": 94000000, 
+                    "image_path": "/dff/static/lang/image/common_item/94000000.png", 
+                    "name": "Stamina Shard", 
+                    "num": 1, 
+                    "type_name": "COMMON"
+                }
+            ]
+        }, 
+        "prologue": "Cecil finds his beloved Rosa in Kaipo, only to learn she languishes with the deadly Desert Fever. He sets out for Damcyan to find a cure.", 
+        "prologue_image_path": "/dff/static/lang/image/dungeon/204002_prologue.png", 
+        "rank": 3, 
+        "series_id": 104001, 
+        "total_stamina": 7, 
+        "type": 1, 
+        "world_id": 104001
+    }, 
+    "success": true
+}

@@ -1,0 +1,100 @@
+{
+    "dungeon": {
+        "background_image_path": "/dff/static/lang/image/dungeon/204002_bg.png", 
+        "order_no": 1, 
+        "captures": [
+            {
+                "sp_scores": [
+                    {
+                        "title": "Exploit the Octomammoth's weakness to dark attacks.", 
+                        "battle_id": 304006
+                    }, 
+                    {
+                        "title": "Exploit the Octomammoth's weakness to lightning attacks.", 
+                        "battle_id": 304006
+                    }, 
+                    {
+                        "title": "Defeat the Octomammoth without having any water attacks absorbed.", 
+                        "battle_id": 304006
+                    }
+                ], 
+                "image_path": "/dff/static/lang/image/enemy/404002.png", 
+                "tip_battle": {
+                    "message": "The Octomammoth is vulnerable to <span class=\"red\">lightning</span> and <span class=\"red\">darkness</span>. Try using the black mage's <span class=\"red\">Lightning</span> and <span class=\"red\">Darkbolt</span> abilities on it, kupo!", 
+                    "group_id": 420002, 
+                    "id": 410002, 
+                    "title": "Octomammoth"
+                }
+            }
+        ], 
+        "is_new": false, 
+        "rank": 3, 
+        "closed_at": 2145938400, 
+        "id": 204002, 
+        "is_clear": true, 
+        "button_style": "NORMAL", 
+        "opened_at": 1398924000, 
+        "world_id": 104001, 
+        "type": 1, 
+        "challenge_level": 4, 
+        "is_unlocked": true, 
+        "series_id": 104001, 
+        "prizes": {
+            "1": [
+                {
+                    "id": 92000000, 
+                    "type_name": "COMMON", 
+                    "num": 700, 
+                    "image_path": "/dff/static/lang/image/common_item/92000000.png", 
+                    "name": "Gil"
+                }
+            ], 
+            "3": [
+                {
+                    "id": 40000001, 
+                    "type_name": "ABILITY_MATERIAL", 
+                    "num": 5, 
+                    "image_path": "/dff/static/lang/image/ability_material/40000001/40000001_112.png", 
+                    "name": "Minor Power Orb"
+                }, 
+                {
+                    "id": 94000000, 
+                    "type_name": "COMMON", 
+                    "num": 1, 
+                    "image_path": "/dff/static/lang/image/common_item/94000000.png", 
+                    "name": "Stamina Shard"
+                }
+            ], 
+            "2": [
+                {
+                    "id": 94000000, 
+                    "type_name": "COMMON", 
+                    "num": 5, 
+                    "image_path": "/dff/static/lang/image/common_item/94000000.png", 
+                    "name": "Stamina Shard"
+                }, 
+                {
+                    "id": 91000000, 
+                    "type_name": "COMMON", 
+                    "num": 1, 
+                    "image_path": "/dff/static/lang/image/common_item/91000000.png", 
+                    "name": "Mythril"
+                }
+            ]
+        }, 
+        "total_stamina": 7, 
+        "epilogue": "The party assists Tellah the sage in ridding the Underground Waterway of the ferocious Octomammoth, then make their way to Damcyan Castle, only to find it has been sacked by the Red Wings. Amidst the rubble, they find Prince Edward who is lost in grief for his beloved. Though Rydia, who herself lost family, is unimpressed with the prince's behavior, Cecil extends a hand and invites him to join them.", 
+        "epilogue_image_path": "/dff/static/lang/image/dungeon/204002_epilogue.png", 
+        "name": "Underground Waterway", 
+        "bgm": "bgm_04_012", 
+        "prologue": "Cecil finds his beloved Rosa in Kaipo, only to learn she languishes with the deadly Desert Fever. He sets out for Damcyan to find a cure.", 
+        "is_master": true, 
+        "prologue_image_path": "/dff/static/lang/image/dungeon/204002_prologue.png"
+    }, 
+    "tip": {
+        "message": "Something got you stumped? Check out \"Help\" in the menu, kupo!"
+    }, 
+    "SERVER_TIME": 1439016800, 
+    "success": true, 
+    "is_world_expired": false
+}

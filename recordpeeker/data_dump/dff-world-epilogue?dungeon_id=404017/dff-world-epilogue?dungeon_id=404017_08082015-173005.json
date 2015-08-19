@@ -1,0 +1,89 @@
+{
+    "dungeon": {
+        "background_image_path": "/dff/static/lang/image/dungeon/404017_bg.png", 
+        "order_no": 1, 
+        "captures": [
+            {
+                "sp_scores": [
+                    {
+                        "title": "Defeat Bahamut without being KO'd.", 
+                        "battle_id": 504085
+                    }
+                ], 
+                "image_path": "/dff/static/lang/image/enemy/404034.png", 
+                "tip_battle": {
+                    "message": "Bahamut takes reduced damage from all elemental damage except poison, and if you use magic on him, he casts <span class=\"red\">Reflect!</span> When the countdown ends, he uses <span class=\"red\">Megaflare</span>, so use abilities like <span class=\"red\">Magic Break</span> and <span class=\"red\">Shell</span> first to reduce the damage, kupo!", 
+                    "group_id": 410154, 
+                    "id": 410154, 
+                    "title": "Bahamut"
+                }
+            }
+        ], 
+        "is_new": false, 
+        "rank": 3, 
+        "closed_at": 2056341599, 
+        "id": 404017, 
+        "is_clear": true, 
+        "button_style": "NORMAL", 
+        "opened_at": 1437958800, 
+        "world_id": 104001, 
+        "type": 2, 
+        "challenge_level": 98, 
+        "is_unlocked": true, 
+        "series_id": 104001, 
+        "prizes": {
+            "1": [
+                {
+                    "id": 92000000, 
+                    "type_name": "COMMON", 
+                    "num": 16000, 
+                    "image_path": "/dff/static/lang/image/common_item/92000000.png", 
+                    "name": "Gil"
+                }
+            ], 
+            "3": [
+                {
+                    "id": 40000004, 
+                    "type_name": "ABILITY_MATERIAL", 
+                    "num": 3, 
+                    "image_path": "/dff/static/lang/image/ability_material/40000004/40000004_112.png", 
+                    "name": "Greater Power Orb"
+                }, 
+                {
+                    "id": 40000059, 
+                    "type_name": "ABILITY_MATERIAL", 
+                    "num": 1, 
+                    "image_path": "/dff/static/lang/image/ability_material/40000059/40000059_112.png", 
+                    "name": "Greater Holy Orb"
+                }
+            ], 
+            "2": [
+                {
+                    "id": 94000000, 
+                    "type_name": "COMMON", 
+                    "num": 1, 
+                    "image_path": "/dff/static/lang/image/common_item/94000000.png", 
+                    "name": "Stamina Shard"
+                }, 
+                {
+                    "id": 91000000, 
+                    "type_name": "COMMON", 
+                    "num": 1, 
+                    "image_path": "/dff/static/lang/image/common_item/91000000.png", 
+                    "name": "Mythril"
+                }
+            ]
+        }, 
+        "total_stamina": 73, 
+        "epilogue": "The party found Bahamut within the Lair of the Father on the Red Moon. Having proved their worth by defeating Leviathan, the party challenged Bahamut and prevailed, and Bahamut lent his strength to Cecil's party.", 
+        "epilogue_image_path": "/dff/static/lang/image/dungeon/404017_epilogue.png", 
+        "name": "Lair of the Father", 
+        "bgm": "bgm_04_038", 
+        "prologue": "The mages of Mysidia have raised the Lunar Whale. Now it carries Cecil's party to the Red Moon, where they will face Bahamut.", 
+        "is_master": true, 
+        "prologue_image_path": "/dff/static/lang/image/dungeon/404017_prologue.png"
+    }, 
+    "SERVER_TIME": 1439073005, 
+    "success": true, 
+    "can_review": false
+}

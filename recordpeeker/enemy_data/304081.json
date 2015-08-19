@@ -1,0 +1,408 @@
+[
+    {
+        "is_sp_enemy": "1",
+        "deform_animation_info": [
+            {
+                "deform_tag": "deformation_10",
+                "is_random": true,
+                "state": [
+                    "1"
+                ],
+                "path": "204037_1.json",
+                "enemy_id": "404032",
+                "id": "20403711"
+            },
+            {
+                "deform_tag": "deformation_08",
+                "is_random": true,
+                "state": [
+                    "1"
+                ],
+                "path": "204037_1.json",
+                "enemy_id": "404032",
+                "id": "20403709"
+            },
+            {
+                "deform_tag": "deformation_07",
+                "is_random": true,
+                "state": [
+                    "1"
+                ],
+                "path": "204037_1.json",
+                "enemy_id": "404032",
+                "id": "20403708"
+            },
+            {
+                "deform_tag": "deformation_06",
+                "is_random": true,
+                "state": [
+                    "1"
+                ],
+                "path": "204037_1.json",
+                "enemy_id": "404032",
+                "id": "20403707"
+            },
+            {
+                "deform_tag": "deformation_03",
+                "is_random": true,
+                "state": [
+                    "1"
+                ],
+                "path": "204037_1.json",
+                "enemy_id": "404032",
+                "id": "20403704"
+            },
+            {
+                "deform_tag": "deformation_05",
+                "is_random": true,
+                "state": [
+                    "1"
+                ],
+                "path": "204037_1.json",
+                "enemy_id": "404032",
+                "id": "20403706"
+            },
+            {
+                "deform_tag": "deformation_04",
+                "is_random": true,
+                "state": [
+                    "1"
+                ],
+                "path": "204037_1.json",
+                "enemy_id": "404032",
+                "id": "20403705"
+            },
+            {
+                "deform_tag": "deformation_11",
+                "is_random": true,
+                "state": [
+                    "1"
+                ],
+                "path": "204037_1.json",
+                "enemy_id": "404032",
+                "id": "20403712"
+            },
+            {
+                "deform_tag": "deformation_02",
+                "is_random": true,
+                "state": [
+                    "1"
+                ],
+                "path": "204037_1.json",
+                "enemy_id": "404032",
+                "id": "20403703"
+            },
+            {
+                "deform_tag": "deformation_09",
+                "is_random": true,
+                "state": [
+                    "1"
+                ],
+                "path": "204037_1.json",
+                "enemy_id": "404032",
+                "id": "20403710"
+            },
+            {
+                "deform_tag": "in",
+                "is_random": true,
+                "state": [
+                    "1"
+                ],
+                "path": "204037_1.json",
+                "enemy_id": "404032",
+                "id": "20403701"
+            },
+            {
+                "deform_tag": "deformation_01",
+                "is_random": true,
+                "state": [
+                    "1"
+                ],
+                "path": "204037_1.json",
+                "enemy_id": "404032",
+                "id": "20403702"
+            }
+        ],
+        "ai_id": "0",
+        "id": "404032",
+        "children": [
+            {
+                "drop_item_list": [],
+                "uid": "201",
+                "no": "1",
+                "init_hp": 123377,
+                "child_pos_id": "1",
+                "lv": "67",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "101001",
+                                "weight": "100"
+                            }
+                        ],
+                        "mnd": 172,
+                        "id": "4040321",
+                        "size": "3",
+                        "lv": "67",
+                        "no": "1",
+                        "spd": "100",
+                        "disp_name": "Demon Wall",
+                        "looking": "0",
+                        "critical": "3",
+                        "max_hp": 123377,
+                        "matk": 268,
+                        "counters": [
+                            {
+                                "ability_id": "201451",
+                                "condition_value": "3",
+                                "condition_type": "3",
+                                "rate": "20"
+                            },
+                            {
+                                "ability_id": "201451",
+                                "condition_value": "5",
+                                "condition_type": "3",
+                                "rate": "20"
+                            },
+                            {
+                                "ability_id": "201451",
+                                "condition_value": "4",
+                                "condition_type": "3",
+                                "rate": "20"
+                            }
+                        ],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "211",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "202",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "203",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "213",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "206",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "210",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "225",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "201",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "220",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "219",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "215",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "200",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "218",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "212",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "224",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "214",
+                                "factor": "1"
+                            }
+                        ],
+                        "mdef": 100,
+                        "animation_info": {
+                            "scale": "1",
+                            "assets": {
+                                "boss-204037_1": "/Content/lang/ab/character/boss/204037/204037_1.json"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "3",
+                            "enemy_status_id": "4040321",
+                            "offset_y": "0",
+                            "path": "204037_1",
+                            "offset_x": "0"
+                        },
+                        "acc": "100",
+                        "eva": "70",
+                        "atk": 243,
+                        "breed_id": "13",
+                        "exp": 3417,
+                        "def": 97
+                    },
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "201471",
+                                "weight": "100"
+                            }
+                        ],
+                        "mnd": 172,
+                        "id": "4040322",
+                        "size": "3",
+                        "lv": "67",
+                        "no": "1",
+                        "spd": "100",
+                        "disp_name": "Demon Wall",
+                        "looking": "0",
+                        "critical": "3",
+                        "max_hp": 123377,
+                        "matk": 268,
+                        "counters": [
+                            {
+                                "ability_id": "201451",
+                                "condition_value": "4",
+                                "condition_type": "3",
+                                "rate": "40"
+                            },
+                            {
+                                "ability_id": "201451",
+                                "condition_value": "5",
+                                "condition_type": "3",
+                                "rate": "40"
+                            },
+                            {
+                                "ability_id": "201451",
+                                "condition_value": "3",
+                                "condition_type": "3",
+                                "rate": "40"
+                            }
+                        ],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "214",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "225",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "220",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "218",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "200",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "213",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "201",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "206",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "202",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "212",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "224",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "219",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "211",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "203",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "210",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "215",
+                                "factor": "1"
+                            }
+                        ],
+                        "mdef": 100,
+                        "animation_info": {
+                            "scale": "1",
+                            "assets": {
+                                "boss-204037_1": "/Content/lang/ab/character/boss/204037/204037_1.json"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "3",
+                            "enemy_status_id": "4040322",
+                            "offset_y": "0",
+                            "path": "204037_1",
+                            "offset_x": "0"
+                        },
+                        "acc": "100",
+                        "eva": "70",
+                        "atk": 243,
+                        "breed_id": "13",
+                        "exp": 0,
+                        "def": 97
+                    }
+                ],
+                "max_hp": 123377,
+                "enemy_id": "404032",
+                "ai_id": "40403201"
+            }
+        ]
+    }
+]

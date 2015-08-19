@@ -1,0 +1,89 @@
+{
+    "dungeon": {
+        "background_image_path": "/dff/static/lang/image/dungeon/210005_bg.png", 
+        "order_no": 1, 
+        "captures": [
+            {
+                "sp_scores": [
+                    {
+                        "title": "Exploit Oblitzerator's weakness to lightning attacks.", 
+                        "battle_id": 310021
+                    }
+                ], 
+                "image_path": "/dff/static/lang/image/enemy/410008.png", 
+                "tip_battle": {
+                    "message": "Attack the Oblitzerator with <span class=\"red\">lightning</span> abilities, its weakness, kupo! Whenever it's hit, it has a chance to counter with a <span class=\"red\">debuffing attack</span>, so be prepared. The Oblitzerator can be <span class=\"red\">Paralyzed</span>, though, so maybe you can use that to your advantage!", 
+                    "group_id": 420090, 
+                    "id": 410090, 
+                    "title": "Oblitzerator"
+                }
+            }
+        ], 
+        "is_new": false, 
+        "rank": 3, 
+        "closed_at": 2145938400, 
+        "id": 210005, 
+        "is_clear": true, 
+        "button_style": "NORMAL", 
+        "opened_at": 1398924000, 
+        "world_id": 110001, 
+        "type": 1, 
+        "challenge_level": 38, 
+        "is_unlocked": true, 
+        "series_id": 110001, 
+        "prizes": {
+            "1": [
+                {
+                    "id": 92000000, 
+                    "type_name": "COMMON", 
+                    "num": 3000, 
+                    "image_path": "/dff/static/lang/image/common_item/92000000.png", 
+                    "name": "Gil"
+                }
+            ], 
+            "3": [
+                {
+                    "id": 94000000, 
+                    "type_name": "COMMON", 
+                    "num": 1, 
+                    "image_path": "/dff/static/lang/image/common_item/94000000.png", 
+                    "name": "Stamina Shard"
+                }, 
+                {
+                    "id": 40000028, 
+                    "type_name": "ABILITY_MATERIAL", 
+                    "num": 3, 
+                    "image_path": "/dff/static/lang/image/ability_material/40000028/40000028_112.png", 
+                    "name": "Non-Elemental Orb"
+                }
+            ], 
+            "2": [
+                {
+                    "id": 94000000, 
+                    "type_name": "COMMON", 
+                    "num": 1, 
+                    "image_path": "/dff/static/lang/image/common_item/94000000.png", 
+                    "name": "Stamina Shard"
+                }, 
+                {
+                    "id": 91000000, 
+                    "type_name": "COMMON", 
+                    "num": 1, 
+                    "image_path": "/dff/static/lang/image/common_item/91000000.png", 
+                    "name": "Mythril"
+                }
+            ]
+        }, 
+        "total_stamina": 41, 
+        "epilogue": "Yuna's kidnappers turned out to be members of an opposing blitzball team, the Al Bhed Psyches, who demanded the Besaid Aurochs throw their first match in exchange for her release. Fortunately, Tidus, Kimahri, and Lulu were able to board the Al Bhed ship where Yuna was being held and rescue her. Once Wakka and the other Aurochs learned she was safe, they rallied in the final minutes and defeated the Al Bhed Psyches.", 
+        "epilogue_image_path": "/dff/static/lang/image/dungeon/210005_epilogue.png", 
+        "name": "Luca", 
+        "bgm": "bgm_10_032", 
+        "prologue": "The Besaid Aurochs have arrived in Luca for a blitzball tournament. As they wait for their match to begin, Yuna is kidnapped by the Al Bhed.", 
+        "is_master": true, 
+        "prologue_image_path": "/dff/static/lang/image/dungeon/210005_prologue.png"
+    }, 
+    "SERVER_TIME": 1439566214, 
+    "success": true, 
+    "can_review": false
+}

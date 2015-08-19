@@ -1,0 +1,96 @@
+{
+    "SERVER_TIME": 1438654314, 
+    "dungeon": {
+        "background_image_path": "/dff/static/lang/image/dungeon/606063_bg.png", 
+        "bgm": "bgm_06_007", 
+        "button_style": "NORMAL", 
+        "captures": [
+            {
+                "image_path": "/dff/static/lang/image/enemy/406024.png", 
+                "sp_scores": [
+                    {
+                        "battle_id": 706211, 
+                        "title": "Defeat Ultima Weapon without being KO'd."
+                    }, 
+                    {
+                        "battle_id": 706211, 
+                        "title": "Win without Sabin being KO'd."
+                    }
+                ], 
+                "tip_battle": {
+                    "group_id": 420060, 
+                    "id": 410060, 
+                    "message": "Ultima Weapon packs powerful magic attacks, kupo, and it doesn't have any special vulnerabilities. Weaken it with abilities like <span class=\"red\">Armor Break, Power Break, and Magic Break!</span>", 
+                    "title": "Ultima Weapon"
+                }
+            }
+        ], 
+        "challenge_level": 95, 
+        "closed_at": 2056341599, 
+        "epilogue": "<<Not Necessary>>", 
+        "epilogue_image_path": "/dff/static/lang/image/dungeon/606063_epilogue.png", 
+        "id": 606063, 
+        "is_clear": false, 
+        "is_master": false, 
+        "is_new": false, 
+        "is_unlocked": true, 
+        "name": "Floating Continent East - Heroic", 
+        "opened_at": 1438218000, 
+        "order_no": 1, 
+        "prizes": {
+            "1": [
+                {
+                    "id": 92000000, 
+                    "image_path": "/dff/static/lang/image/common_item/92000000.png", 
+                    "name": "Gil", 
+                    "num": 20000, 
+                    "type_name": "COMMON"
+                }
+            ], 
+            "2": [
+                {
+                    "id": 40000039, 
+                    "image_path": "/dff/static/lang/image/ability_material/40000039/40000039_112.png", 
+                    "name": "Greater Ice Orb", 
+                    "num": 3, 
+                    "type_name": "ABILITY_MATERIAL"
+                }, 
+                {
+                    "id": 23080033, 
+                    "image_path": "/dff/static/lang/image/equipment/23080033/23080033_04_112.png", 
+                    "name": "Muscle Belt (VI)", 
+                    "num": 1, 
+                    "type_name": "EQUIPMENT"
+                }
+            ], 
+            "3": [
+                {
+                    "id": 40000055, 
+                    "image_path": "/dff/static/lang/image/ability_material/40000055/40000055_112.png", 
+                    "name": "Major Wind Orb", 
+                    "num": 1, 
+                    "type_name": "ABILITY_MATERIAL"
+                }, 
+                {
+                    "id": 70000004, 
+                    "image_path": "/dff/static/lang/image/growegg/70000004/70000004_112.png", 
+                    "name": "Greater Growth Egg", 
+                    "num": 4, 
+                    "type_name": "GROW_EGG"
+                }
+            ]
+        }, 
+        "prologue": "<<Not Necessary>>", 
+        "prologue_image_path": "/dff/static/lang/image/dungeon/606063_prologue.png", 
+        "rank": 0, 
+        "series_id": 106001, 
+        "total_stamina": 73, 
+        "type": 2, 
+        "world_id": 106005
+    }, 
+    "is_world_expired": false, 
+    "success": true, 
+    "tip": {
+        "message": "Swapping abilities to take advantage of enemies' weaknesses is key to victory. Better stock up, kupo!"
+    }
+}

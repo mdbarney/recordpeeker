@@ -1,0 +1,96 @@
+{
+    "dungeon": {
+        "background_image_path": "/dff/static/lang/image/dungeon/613023_bg.png", 
+        "order_no": 1, 
+        "captures": [
+            {
+                "sp_scores": [
+                    {
+                        "title": "Defeat the Dreadnought before it can use Steam Clean.", 
+                        "battle_id": 713083
+                    }, 
+                    {
+                        "title": "Defeat the Dreadnought without being KO'd.", 
+                        "battle_id": 713083
+                    }
+                ], 
+                "image_path": "/dff/static/lang/image/enemy/413029.png", 
+                "tip_battle": {
+                    "message": "The Dreadnought periodically checks itself for debuffs and uses <span class=\"red\">Steam Clean</span> to get rid of them. Use attacks that inflict <span class=\"red\">debuffs</span> to trigger its cleaning mode, then move in for the kill while it's busy steaming, kupo!", 
+                    "group_id": 420095, 
+                    "id": 410095, 
+                    "title": "Dreadnought"
+                }
+            }
+        ], 
+        "is_new": false, 
+        "rank": 0, 
+        "closed_at": 2056341599, 
+        "id": 613023, 
+        "is_clear": false, 
+        "button_style": "NORMAL", 
+        "opened_at": 1439254800, 
+        "world_id": 113003, 
+        "type": 2, 
+        "challenge_level": 95, 
+        "is_unlocked": true, 
+        "series_id": 113001, 
+        "prizes": {
+            "1": [
+                {
+                    "id": 92000000, 
+                    "type_name": "COMMON", 
+                    "num": 10000, 
+                    "image_path": "/dff/static/lang/image/common_item/92000000.png", 
+                    "name": "Gil"
+                }
+            ], 
+            "3": [
+                {
+                    "id": 40000045, 
+                    "type_name": "ABILITY_MATERIAL", 
+                    "num": 1, 
+                    "image_path": "/dff/static/lang/image/ability_material/40000045/40000045_112.png", 
+                    "name": "Major Lightning Orb"
+                }, 
+                {
+                    "id": 40000064, 
+                    "type_name": "ABILITY_MATERIAL", 
+                    "num": 4, 
+                    "image_path": "/dff/static/lang/image/ability_material/40000064/40000064_112.png", 
+                    "name": "Greater Dark Orb"
+                }
+            ], 
+            "2": [
+                {
+                    "id": 40000024, 
+                    "type_name": "ABILITY_MATERIAL", 
+                    "num": 2, 
+                    "image_path": "/dff/static/lang/image/ability_material/40000024/40000024_112.png", 
+                    "name": "Greater Summon Orb"
+                }, 
+                {
+                    "id": 40000004, 
+                    "type_name": "ABILITY_MATERIAL", 
+                    "num": 4, 
+                    "image_path": "/dff/static/lang/image/ability_material/40000004/40000004_112.png", 
+                    "name": "Greater Power Orb"
+                }
+            ]
+        }, 
+        "total_stamina": 70, 
+        "epilogue": "<<Not Necessary>>", 
+        "epilogue_image_path": "/dff/static/lang/image/dungeon/613023_epilogue.png", 
+        "name": "Vile Peaks Escape", 
+        "bgm": "bgm_13_028", 
+        "prologue": "<<Not Necessary>>", 
+        "is_master": false, 
+        "prologue_image_path": "/dff/static/lang/image/dungeon/613023_prologue.png"
+    }, 
+    "tip": {
+        "message": "Swapping abilities to take advantage of enemies' weaknesses is key to victory. Better stock up, kupo!"
+    }, 
+    "SERVER_TIME": 1439446932, 
+    "success": true, 
+    "is_world_expired": false
+}

@@ -1,0 +1,93 @@
+{
+    "dungeon": {
+        "background_image_path": "/dff/static/lang/image/dungeon/201003_bg.png", 
+        "order_no": 1, 
+        "captures": [
+            {
+                "sp_scores": [
+                    {
+                        "title": "Exploit the Vampire's weakness to fire attacks.", 
+                        "battle_id": 301011
+                    }, 
+                    {
+                        "title": "Exploit the Vampire's weakness to holy attacks.", 
+                        "battle_id": 301011
+                    }
+                ], 
+                "image_path": "/dff/static/lang/image/enemy/401003.png", 
+                "tip_battle": {
+                    "message": "Vampire's attacks and Gaze ability have the power to <span class=\"red\">Paralyze</span>, kupo, so have Esuna ready to remove it, or you'll have to wait it out! He's vulnerable to fire and holy, so fight back with spells like <span class=\"red\">Fire and Dia!</span>", 
+                    "group_id": 420075, 
+                    "id": 410075, 
+                    "title": "Vampire"
+                }
+            }
+        ], 
+        "is_new": false, 
+        "rank": 3, 
+        "closed_at": 2145938400, 
+        "id": 201003, 
+        "is_clear": true, 
+        "button_style": "NORMAL", 
+        "opened_at": 1424152800, 
+        "world_id": 101001, 
+        "type": 1, 
+        "challenge_level": 34, 
+        "is_unlocked": true, 
+        "series_id": 101001, 
+        "prizes": {
+            "1": [
+                {
+                    "id": 92000000, 
+                    "type_name": "COMMON", 
+                    "num": 2500, 
+                    "image_path": "/dff/static/lang/image/common_item/92000000.png", 
+                    "name": "Gil"
+                }
+            ], 
+            "3": [
+                {
+                    "id": 70000003, 
+                    "type_name": "GROW_EGG", 
+                    "num": 1, 
+                    "image_path": "/dff/static/lang/image/growegg/70000003/70000003_112.png", 
+                    "name": "Growth Egg"
+                }, 
+                {
+                    "id": 40000003, 
+                    "type_name": "ABILITY_MATERIAL", 
+                    "num": 3, 
+                    "image_path": "/dff/static/lang/image/ability_material/40000003/40000003_112.png", 
+                    "name": "Power Orb"
+                }
+            ], 
+            "2": [
+                {
+                    "id": 10100100, 
+                    "type_name": "BUDDY", 
+                    "num": 1, 
+                    "image_path": "/dff/static/lang/image/buddy/10100100/10100100.png", 
+                    "name": "Warrior of Light"
+                }, 
+                {
+                    "id": 94000000, 
+                    "type_name": "COMMON", 
+                    "num": 1, 
+                    "image_path": "/dff/static/lang/image/common_item/94000000.png", 
+                    "name": "Stamina Shard"
+                }
+            ]
+        }, 
+        "total_stamina": 37, 
+        "epilogue": "The Warriors of Light prevailed against the vampire that dwelled within the Cavern of Earth, but the rot upon the land remained. Hearing rumors of a sage named Sadda, the heroes sought an audience with the hermit who explained that the vampire was merely the servant of a being who dwelled further inside the Cavern of Earth and gave them the Earth Rod, opening their path to even greater danger...", 
+        "epilogue_image_path": "/dff/static/lang/image/dungeon/201003_epilogue.png", 
+        "name": "Cavern of Earth 1", 
+        "bgm": "bgm_01_014", 
+        "prologue": "Word reaches the warriors that a vampire residing within the Cavern of Earth is responsible for the rot that plagues the land around Melmond. The warriors go to the cavern to investigate.", 
+        "is_master": true, 
+        "prologue_image_path": "/dff/static/lang/image/dungeon/201003_prologue.png"
+    }, 
+    "SERVER_TIME": 1439098109, 
+    "success": true, 
+    "can_review": false
+}

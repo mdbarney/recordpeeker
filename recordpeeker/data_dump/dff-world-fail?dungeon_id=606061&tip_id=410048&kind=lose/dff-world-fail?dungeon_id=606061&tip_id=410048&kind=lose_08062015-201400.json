@@ -1,0 +1,100 @@
+{
+    "dungeon": {
+        "background_image_path": "/dff/static/lang/image/dungeon/606061_bg.png", 
+        "order_no": 1, 
+        "captures": [
+            {
+                "sp_scores": [
+                    {
+                        "title": "Defeat the Phantom Train without being KO'd.", 
+                        "battle_id": 706204
+                    }, 
+                    {
+                        "title": "Win without Sabin being KO'd.", 
+                        "battle_id": 706204
+                    }, 
+                    {
+                        "title": "Exploit the Phantom Train's weakness to lightning attacks.", 
+                        "battle_id": 706204
+                    }
+                ], 
+                "image_path": "/dff/static/lang/image/enemy/406012.png", 
+                "tip_battle": {
+                    "message": "The Phantom Train has a lot of abilities that <span class=\"red\">hit the whole party</span>, so keep an eye on everyone's health! And it may look like a machine, but it's actually <span class=\"red\">undead</span>, so use fire and healing abilities, kupo!", 
+                    "group_id": 420048, 
+                    "id": 410048, 
+                    "title": "Phantom Train"
+                }
+            }
+        ], 
+        "is_new": false, 
+        "rank": 0, 
+        "closed_at": 2056341599, 
+        "id": 606061, 
+        "is_clear": false, 
+        "button_style": "NORMAL", 
+        "opened_at": 1438218000, 
+        "world_id": 106005, 
+        "type": 2, 
+        "challenge_level": 65, 
+        "is_unlocked": true, 
+        "series_id": 106001, 
+        "prizes": {
+            "1": [
+                {
+                    "id": 92000000, 
+                    "type_name": "COMMON", 
+                    "num": 10000, 
+                    "image_path": "/dff/static/lang/image/common_item/92000000.png", 
+                    "name": "Gil"
+                }
+            ], 
+            "3": [
+                {
+                    "id": 23080019, 
+                    "type_name": "EQUIPMENT", 
+                    "num": 1, 
+                    "image_path": "/dff/static/lang/image/equipment/23080019/23080019_03_112.png", 
+                    "name": "Hyper Wrist (VI)"
+                }, 
+                {
+                    "id": 40000054, 
+                    "type_name": "ABILITY_MATERIAL", 
+                    "num": 2, 
+                    "image_path": "/dff/static/lang/image/ability_material/40000054/40000054_112.png", 
+                    "name": "Greater Wind Orb"
+                }
+            ], 
+            "2": [
+                {
+                    "id": 101060070, 
+                    "type_name": "MEMORY_CRYSTAL", 
+                    "num": 1, 
+                    "image_path": "/dff/static/lang/image/memory_crystal/101060070/101060070_112.png", 
+                    "name": "Sabin Memory Crystal"
+                }, 
+                {
+                    "id": 24099004, 
+                    "type_name": "EQUIPMENT", 
+                    "num": 1, 
+                    "image_path": "/dff/static/lang/image/equipment/24099004/24099004_04_112.png", 
+                    "name": "Large Adamantite"
+                }
+            ]
+        }, 
+        "total_stamina": 57, 
+        "epilogue": "<<Not Necessary>>", 
+        "epilogue_image_path": "/dff/static/lang/image/dungeon/606061_epilogue.png", 
+        "name": "Phantom Train Front Cars - Hard", 
+        "bgm": "bgm_06_007", 
+        "prologue": "<<Not Necessary>>", 
+        "is_master": false, 
+        "prologue_image_path": "/dff/static/lang/image/dungeon/606061_prologue.png"
+    }, 
+    "tip": {
+        "message": "The Phantom Train has a lot of abilities that <span class=\"red\">hit the whole party</span>, so keep an eye on everyone's health! And it may look like a machine, but it's actually <span class=\"red\">undead</span>, so use fire and healing abilities, kupo!"
+    }, 
+    "SERVER_TIME": 1438910039, 
+    "success": true, 
+    "is_world_expired": false
+}

@@ -1,0 +1,89 @@
+{
+    "SERVER_TIME": 1437976463, 
+    "can_review": false, 
+    "dungeon": {
+        "background_image_path": "/dff/static/lang/image/dungeon/202001_bg.png", 
+        "bgm": "bgm_02_014", 
+        "button_style": "NORMAL", 
+        "captures": [
+            {
+                "image_path": "/dff/static/lang/image/enemy/402001.png", 
+                "sp_scores": [
+                    {
+                        "battle_id": 302005, 
+                        "title": "Defeat the Sergeant without being KO'd."
+                    }
+                ], 
+                "tip_battle": {
+                    "group_id": 420033, 
+                    "id": 410033, 
+                    "message": "The Sergeant doesn't have any special attacks, but he doesn't have any particular vulnerabilities either. This battle will show what your party is really made of, kupo!", 
+                    "title": "Sergeant"
+                }
+            }
+        ], 
+        "challenge_level": 17, 
+        "closed_at": 2145938400, 
+        "epilogue": "Princess Hilda welcomed Firion, Maria, and Guy into the ranks of the Wild Rose Rebellion following their successful infiltration of occupied Fynn. She then tasked them with finding Josef, an agent investigating the enchanted ore known as Mythril. In Semitt Falls, Firion's party succeeded in freeing Josef's daughter and the enslaved citizens of Salamand, securing enough Mythril ore to provide weapons for the rebellion.", 
+        "epilogue_image_path": "/dff/static/lang/image/dungeon/202001_epilogue.png", 
+        "id": 202001, 
+        "is_clear": true, 
+        "is_master": true, 
+        "is_new": false, 
+        "is_unlocked": true, 
+        "name": "Semitt Falls Cavern", 
+        "opened_at": 1424152800, 
+        "order_no": 1, 
+        "prizes": {
+            "1": [
+                {
+                    "id": 92000000, 
+                    "image_path": "/dff/static/lang/image/common_item/92000000.png", 
+                    "name": "Gil", 
+                    "num": 1500, 
+                    "type_name": "COMMON"
+                }
+            ], 
+            "2": [
+                {
+                    "id": 94000000, 
+                    "image_path": "/dff/static/lang/image/common_item/94000000.png", 
+                    "name": "Stamina Shard", 
+                    "num": 1, 
+                    "type_name": "COMMON"
+                }, 
+                {
+                    "id": 91000000, 
+                    "image_path": "/dff/static/lang/image/common_item/91000000.png", 
+                    "name": "Mythril", 
+                    "num": 1, 
+                    "type_name": "COMMON"
+                }
+            ], 
+            "3": [
+                {
+                    "id": 40000012, 
+                    "image_path": "/dff/static/lang/image/ability_material/40000012/40000012_112.png", 
+                    "name": "Lesser Black Orb", 
+                    "num": 5, 
+                    "type_name": "ABILITY_MATERIAL"
+                }, 
+                {
+                    "id": 94000000, 
+                    "image_path": "/dff/static/lang/image/common_item/94000000.png", 
+                    "name": "Stamina Shard", 
+                    "num": 2, 
+                    "type_name": "COMMON"
+                }
+            ]
+        }, 
+        "prologue": "Firion loses his parents in a Palamecian attack on Fynn. Now Firion, his friend Guy, and his sister Maria seek to join the rebellion against the Empire.", 
+        "prologue_image_path": "/dff/static/lang/image/dungeon/202001_prologue.png", 
+        "rank": 3, 
+        "series_id": 102001, 
+        "total_stamina": 31, 
+        "type": 1, 
+        "world_id": 102001
+    }, 
+    "success": true
+}

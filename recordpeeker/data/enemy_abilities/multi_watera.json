@@ -1,19 +1,19 @@
 {
-    "ability_id": "401503", 
+    "ability_id": "201503", 
     "action_id": "16", 
     "animation_info": {
         "atk_motion": "chant_end", 
         "chara_in": "", 
         "chara_out": "", 
-        "damage_tag": "damage_cold", 
-        "hit": "14001/14001_hit.json", 
-        "hit_arg": "0", 
+        "damage_tag": "damage_aqua", 
+        "hit": "50466/50466_hit.json", 
+        "hit_arg": "2", 
         "hit_next_tag": "", 
-        "hit_type": "1", 
-        "id": "14001", 
-        "launch": "common/launch_black.json", 
+        "hit_type": "3", 
+        "id": "50466", 
+        "launch": "common/launch_empty.json", 
         "launch_next_tag": "", 
-        "launch_type": "2", 
+        "launch_type": "3", 
         "miss_hit": "", 
         "other_in": "", 
         "other_out": "", 
@@ -28,13 +28,15 @@
         "shot_type": "99"
     }, 
     "assets": {
-        "ability-14001_hit": "/Content/lang/ab/ability/14001/14001_hit.json", 
-        "ability-14001_launch": "/Content/lang/ab/ability/common/launch_black.json", 
-        "ability-14001_shot": "/Content/lang/ab/ability/common/shot_empty.json"
+        "ability-50466_hit": "/Content/lang/ab/ability/50466/50466_hit.json", 
+        "ability-50466_hit_1": "/Content/lang/ab/ability/50466/50466_hit_1.json", 
+        "ability-50466_hit_2": "/Content/lang/ab/ability/50466/50466_hit_2.json", 
+        "ability-50466_launch": "/Content/lang/ab/ability/common/launch_empty.json", 
+        "ability-50466_shot": "/Content/lang/ab/ability/common/shot_empty.json"
     }, 
     "exercise_type": "4", 
     "options": {
-        "ability_animation_id": "14001", 
+        "ability_animation_id": "50466", 
         "arg1": "350", 
         "arg2": "105", 
         "arg3": "0", 

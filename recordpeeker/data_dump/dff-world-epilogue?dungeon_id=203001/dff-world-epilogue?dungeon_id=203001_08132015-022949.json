@@ -1,0 +1,89 @@
+{
+    "dungeon": {
+        "background_image_path": "/dff/static/lang/image/dungeon/203001_bg.png", 
+        "order_no": 1, 
+        "captures": [
+            {
+                "sp_scores": [
+                    {
+                        "title": "Defeat the Great Tortoise without being KO'd.", 
+                        "battle_id": 303004
+                    }
+                ], 
+                "image_path": "/dff/static/lang/image/enemy/403001.png", 
+                "tip_battle": {
+                    "message": "The Great Tortoise has <span class=\"red\">lots of health</span> and no real vulnerabilities, so use abilities like <span class=\"red\">Armor Break and Mental Break</span> to wear down its defenses, kupo!", 
+                    "group_id": 420079, 
+                    "id": 410079, 
+                    "title": "Great Tortoise"
+                }
+            }
+        ], 
+        "is_new": false, 
+        "rank": 3, 
+        "closed_at": 2145938400, 
+        "id": 203001, 
+        "is_clear": true, 
+        "button_style": "NORMAL", 
+        "opened_at": 1424152800, 
+        "world_id": 103001, 
+        "type": 1, 
+        "challenge_level": 35, 
+        "is_unlocked": true, 
+        "series_id": 103001, 
+        "prizes": {
+            "1": [
+                {
+                    "id": 92000000, 
+                    "type_name": "COMMON", 
+                    "num": 3000, 
+                    "image_path": "/dff/static/lang/image/common_item/92000000.png", 
+                    "name": "Gil"
+                }
+            ], 
+            "3": [
+                {
+                    "id": 40000038, 
+                    "type_name": "ABILITY_MATERIAL", 
+                    "num": 3, 
+                    "image_path": "/dff/static/lang/image/ability_material/40000038/40000038_112.png", 
+                    "name": "Ice Orb"
+                }, 
+                {
+                    "id": 94000000, 
+                    "type_name": "COMMON", 
+                    "num": 1, 
+                    "image_path": "/dff/static/lang/image/common_item/94000000.png", 
+                    "name": "Stamina Shard"
+                }
+            ], 
+            "2": [
+                {
+                    "id": 10300100, 
+                    "type_name": "BUDDY", 
+                    "num": 1, 
+                    "image_path": "/dff/static/lang/image/buddy/10300100/10300100.png", 
+                    "name": "Luneth"
+                }, 
+                {
+                    "id": 94000000, 
+                    "type_name": "COMMON", 
+                    "num": 1, 
+                    "image_path": "/dff/static/lang/image/common_item/94000000.png", 
+                    "name": "Stamina Shard"
+                }
+            ]
+        }, 
+        "total_stamina": 37, 
+        "epilogue": "Having survived goblin attacks and battle with the Great Tortoise, Luneth finally made his way to the altar of the Wind Crystal. The crystal enveloped him in light, and in an instant, he understood what must be done. And so the newly anointed Warrior of Light set out to drive back the darkness and restore light to the world.", 
+        "epilogue_image_path": "/dff/static/lang/image/dungeon/203001_epilogue.png", 
+        "name": "Altar Cave", 
+        "bgm": "bgm_03_002", 
+        "prologue": "A young adventurer has wandered deep into the Altar Cave opened in the great earthquake. The epic journey of the Warriors of Light begins here...", 
+        "is_master": true, 
+        "prologue_image_path": "/dff/static/lang/image/dungeon/203001_prologue.png"
+    }, 
+    "SERVER_TIME": 1439450989, 
+    "success": true, 
+    "can_review": false
+}

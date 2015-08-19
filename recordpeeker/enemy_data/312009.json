@@ -1,16 +1,16 @@
 [
     {
-        "ai_id": 0,
+        "id": "312004",
+        "is_sp_enemy": 0,
+        "deform_animation_info": [],
         "children": [
             {
-                "ai_id": "1",
-                "child_pos_id": "1",
                 "drop_item_list": [],
-                "enemy_id": "312004",
-                "init_hp": 1092,
-                "lv": "45",
-                "max_hp": 1092,
+                "uid": "201",
                 "no": "1",
+                "init_hp": 1092,
+                "max_hp": 1092,
+                "lv": "45",
                 "params": [
                     {
                         "abilities": [
@@ -19,24 +19,18 @@
                                 "weight": "100"
                             }
                         ],
-                        "acc": "100",
-                        "animation_info": {
-                            "assets": {
-                                "enemy-112040": "/Content/lang/ab/character/enemy/112040.sajson"
-                            },
-                            "enemy_status_id": "3120041",
-                            "hp_gauge_size": "2",
-                            "offset_x": "-4",
-                            "offset_y": "-8",
-                            "path": "112040",
-                            "scale": "2",
-                            "uses_fix_pos": false
-                        },
-                        "atk": 128,
-                        "breed_id": "7",
-                        "counters": [],
+                        "mnd": 77,
+                        "id": "3120041",
+                        "size": "2",
+                        "looking": "0",
+                        "no": "1",
+                        "spd": "100",
+                        "disp_name": "Tiny Bug",
+                        "lv": "45",
                         "critical": "3",
-                        "def": 102,
+                        "max_hp": 1092,
+                        "matk": 142,
+                        "counters": [],
                         "def_attributes": [
                             {
                                 "attribute_id": "203",
@@ -115,40 +109,46 @@
                                 "factor": "1"
                             }
                         ],
-                        "disp_name": "Tiny Bug",
-                        "eva": "70",
-                        "exp": 466,
-                        "id": "3120041",
-                        "looking": "0",
-                        "lv": "45",
-                        "matk": 142,
-                        "max_hp": 1092,
                         "mdef": 77,
-                        "mnd": 77,
-                        "no": "1",
-                        "size": "2",
-                        "spd": "100"
+                        "animation_info": {
+                            "enemy_status_id": "3120041",
+                            "assets": {
+                                "enemy-112040": "/Content/lang/ab/character/enemy/112040.sajson"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "scale": "2",
+                            "offset_x": "-4",
+                            "offset_y": "-8",
+                            "path": "112040"
+                        },
+                        "acc": "100",
+                        "eva": "70",
+                        "atk": 128,
+                        "breed_id": "7",
+                        "exp": 466,
+                        "def": 102
                     }
                 ],
-                "uid": "201"
+                "child_pos_id": "1",
+                "enemy_id": "312004",
+                "ai_id": "1"
             }
         ],
-        "deform_animation_info": [],
-        "id": "312004",
-        "is_sp_enemy": 0
+        "ai_id": 0
     },
     {
-        "ai_id": 0,
+        "id": "312005",
+        "is_sp_enemy": 0,
+        "deform_animation_info": [],
         "children": [
             {
-                "ai_id": "1",
-                "child_pos_id": "1",
                 "drop_item_list": [],
-                "enemy_id": "312005",
-                "init_hp": 967,
-                "lv": "45",
-                "max_hp": 967,
+                "uid": "202",
                 "no": "1",
+                "init_hp": 967,
+                "max_hp": 967,
+                "lv": "45",
                 "params": [
                     {
                         "abilities": [
@@ -161,24 +161,18 @@
                                 "weight": "60"
                             }
                         ],
-                        "acc": "100",
-                        "animation_info": {
-                            "assets": {
-                                "enemy-112034": "/Content/lang/ab/character/enemy/112034.sajson"
-                            },
-                            "enemy_status_id": "3120051",
-                            "hp_gauge_size": "2",
-                            "offset_x": "-3",
-                            "offset_y": "-22",
-                            "path": "112034",
-                            "scale": "1.5",
-                            "uses_fix_pos": false
-                        },
-                        "atk": 170,
-                        "breed_id": "8",
-                        "counters": [],
+                        "mnd": 77,
+                        "id": "3120051",
+                        "size": "2",
+                        "looking": "0",
+                        "no": "1",
+                        "spd": "100",
+                        "disp_name": "Steeling",
+                        "lv": "45",
                         "critical": "3",
-                        "def": 56,
+                        "max_hp": 967,
+                        "matk": 142,
+                        "counters": [],
                         "def_attributes": [
                             {
                                 "attribute_id": "221",
@@ -221,40 +215,46 @@
                                 "factor": "1"
                             }
                         ],
-                        "disp_name": "Steeling",
-                        "eva": "86",
-                        "exp": 466,
-                        "id": "3120051",
-                        "looking": "0",
-                        "lv": "45",
-                        "matk": 142,
-                        "max_hp": 967,
                         "mdef": 77,
-                        "mnd": 77,
-                        "no": "1",
-                        "size": "2",
-                        "spd": "100"
+                        "animation_info": {
+                            "enemy_status_id": "3120051",
+                            "assets": {
+                                "enemy-112034": "/Content/lang/ab/character/enemy/112034.sajson"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "scale": "1.5",
+                            "offset_x": "-3",
+                            "offset_y": "-22",
+                            "path": "112034"
+                        },
+                        "acc": "100",
+                        "eva": "86",
+                        "atk": 170,
+                        "breed_id": "8",
+                        "exp": 466,
+                        "def": 56
                     }
                 ],
-                "uid": "202"
+                "child_pos_id": "1",
+                "enemy_id": "312005",
+                "ai_id": "1"
             }
         ],
-        "deform_animation_info": [],
-        "id": "312005",
-        "is_sp_enemy": 0
+        "ai_id": 0
     },
     {
-        "ai_id": 0,
+        "id": "312004",
+        "is_sp_enemy": 0,
+        "deform_animation_info": [],
         "children": [
             {
-                "ai_id": "1",
-                "child_pos_id": "1",
                 "drop_item_list": [],
-                "enemy_id": "312004",
-                "init_hp": 1092,
-                "lv": "45",
-                "max_hp": 1092,
+                "uid": "203",
                 "no": "1",
+                "init_hp": 1092,
+                "max_hp": 1092,
+                "lv": "45",
                 "params": [
                     {
                         "abilities": [
@@ -263,24 +263,18 @@
                                 "weight": "100"
                             }
                         ],
-                        "acc": "100",
-                        "animation_info": {
-                            "assets": {
-                                "enemy-112040": "/Content/lang/ab/character/enemy/112040.sajson"
-                            },
-                            "enemy_status_id": "3120041",
-                            "hp_gauge_size": "2",
-                            "offset_x": "-4",
-                            "offset_y": "-8",
-                            "path": "112040",
-                            "scale": "2",
-                            "uses_fix_pos": false
-                        },
-                        "atk": 128,
-                        "breed_id": "7",
-                        "counters": [],
+                        "mnd": 77,
+                        "id": "3120041",
+                        "size": "2",
+                        "looking": "0",
+                        "no": "1",
+                        "spd": "100",
+                        "disp_name": "Tiny Bug",
+                        "lv": "45",
                         "critical": "3",
-                        "def": 102,
+                        "max_hp": 1092,
+                        "matk": 142,
+                        "counters": [],
                         "def_attributes": [
                             {
                                 "attribute_id": "203",
@@ -359,48 +353,54 @@
                                 "factor": "1"
                             }
                         ],
-                        "disp_name": "Tiny Bug",
-                        "eva": "70",
-                        "exp": 466,
-                        "id": "3120041",
-                        "looking": "0",
-                        "lv": "45",
-                        "matk": 142,
-                        "max_hp": 1092,
                         "mdef": 77,
-                        "mnd": 77,
-                        "no": "1",
-                        "size": "2",
-                        "spd": "100"
+                        "animation_info": {
+                            "enemy_status_id": "3120041",
+                            "assets": {
+                                "enemy-112040": "/Content/lang/ab/character/enemy/112040.sajson"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "scale": "2",
+                            "offset_x": "-4",
+                            "offset_y": "-8",
+                            "path": "112040"
+                        },
+                        "acc": "100",
+                        "eva": "70",
+                        "atk": 128,
+                        "breed_id": "7",
+                        "exp": 466,
+                        "def": 102
                     }
                 ],
-                "uid": "203"
+                "child_pos_id": "1",
+                "enemy_id": "312004",
+                "ai_id": "1"
             }
         ],
-        "deform_animation_info": [],
-        "id": "312004",
-        "is_sp_enemy": 0
+        "ai_id": 0
     },
     {
-        "ai_id": 0,
+        "id": "312008",
+        "is_sp_enemy": 0,
+        "deform_animation_info": [],
         "children": [
             {
-                "ai_id": "1",
-                "child_pos_id": "1",
                 "drop_item_list": [
                     {
                         "item_id": "40000047",
                         "num": "1",
-                        "rarity": "2",
                         "type": 51,
-                        "uid": 204
+                        "uid": 204,
+                        "rarity": "2"
                     }
                 ],
-                "enemy_id": "312008",
-                "init_hp": 1218,
-                "lv": "45",
-                "max_hp": 1218,
+                "uid": "204",
                 "no": "1",
+                "init_hp": 1218,
+                "max_hp": 1218,
+                "lv": "45",
                 "params": [
                     {
                         "abilities": [
@@ -417,24 +417,18 @@
                                 "weight": "20"
                             }
                         ],
-                        "acc": "100",
-                        "animation_info": {
-                            "assets": {
-                                "enemy-112384": "/Content/lang/ab/character/enemy/112384.sajson"
-                            },
-                            "enemy_status_id": "3120081",
-                            "hp_gauge_size": "2",
-                            "offset_x": "4",
-                            "offset_y": "-20",
-                            "path": "112384",
-                            "scale": "1.8",
-                            "uses_fix_pos": false
-                        },
-                        "atk": 128,
-                        "breed_id": "12",
-                        "counters": [],
+                        "mnd": 77,
+                        "id": "3120081",
+                        "size": "2",
+                        "looking": "0",
+                        "no": "1",
+                        "spd": "100",
+                        "disp_name": "Imperial Marksman",
+                        "lv": "45",
                         "critical": "3",
-                        "def": 77,
+                        "max_hp": 1218,
+                        "matk": 142,
+                        "counters": [],
                         "def_attributes": [
                             {
                                 "attribute_id": "220",
@@ -461,40 +455,46 @@
                                 "factor": "1"
                             }
                         ],
-                        "disp_name": "Imperial Marksman",
-                        "eva": "70",
-                        "exp": 466,
-                        "id": "3120081",
-                        "looking": "0",
-                        "lv": "45",
-                        "matk": 142,
-                        "max_hp": 1218,
                         "mdef": 77,
-                        "mnd": 77,
-                        "no": "1",
-                        "size": "2",
-                        "spd": "100"
+                        "animation_info": {
+                            "enemy_status_id": "3120081",
+                            "assets": {
+                                "enemy-112384": "/Content/lang/ab/character/enemy/112384.sajson"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "scale": "1.8",
+                            "offset_x": "4",
+                            "offset_y": "-20",
+                            "path": "112384"
+                        },
+                        "acc": "100",
+                        "eva": "70",
+                        "atk": 128,
+                        "breed_id": "12",
+                        "exp": 466,
+                        "def": 77
                     }
                 ],
-                "uid": "204"
+                "child_pos_id": "1",
+                "enemy_id": "312008",
+                "ai_id": "1"
             }
         ],
-        "deform_animation_info": [],
-        "id": "312008",
-        "is_sp_enemy": 0
+        "ai_id": 0
     },
     {
-        "ai_id": 0,
+        "id": "312001",
+        "is_sp_enemy": 0,
+        "deform_animation_info": [],
         "children": [
             {
-                "ai_id": "1",
-                "child_pos_id": "1",
                 "drop_item_list": [],
-                "enemy_id": "312001",
-                "init_hp": 1218,
-                "lv": "45",
-                "max_hp": 1218,
+                "uid": "205",
                 "no": "1",
+                "init_hp": 1218,
+                "max_hp": 1218,
+                "lv": "45",
                 "params": [
                     {
                         "abilities": [
@@ -511,84 +511,84 @@
                                 "weight": "20"
                             }
                         ],
-                        "acc": "100",
+                        "mnd": 77,
+                        "id": "3120011",
+                        "size": "2",
+                        "looking": "0",
+                        "no": "1",
+                        "spd": "100",
+                        "disp_name": "Imperial Swordsman",
+                        "lv": "45",
+                        "critical": "3",
+                        "max_hp": 1218,
+                        "matk": 142,
+                        "counters": [],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "219",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "220",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "218",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "225",
+                                "factor": "1"
+                            }
+                        ],
+                        "mdef": 77,
                         "animation_info": {
+                            "enemy_status_id": "3120011",
                             "assets": {
                                 "enemy-112383": "/Content/lang/ab/character/enemy/112383.sajson"
                             },
-                            "enemy_status_id": "3120011",
+                            "uses_fix_pos": false,
                             "hp_gauge_size": "2",
+                            "scale": "1.8",
                             "offset_x": "2",
                             "offset_y": "-20",
-                            "path": "112383",
-                            "scale": "1.8",
-                            "uses_fix_pos": false
+                            "path": "112383"
                         },
+                        "acc": "100",
+                        "eva": "70",
                         "atk": 128,
                         "breed_id": "12",
-                        "counters": [],
-                        "critical": "3",
-                        "def": 77,
-                        "def_attributes": [
-                            {
-                                "attribute_id": "221",
-                                "factor": "1"
-                            },
-                            {
-                                "attribute_id": "219",
-                                "factor": "1"
-                            },
-                            {
-                                "attribute_id": "220",
-                                "factor": "1"
-                            },
-                            {
-                                "attribute_id": "218",
-                                "factor": "1"
-                            },
-                            {
-                                "attribute_id": "222",
-                                "factor": "1"
-                            },
-                            {
-                                "attribute_id": "225",
-                                "factor": "1"
-                            }
-                        ],
-                        "disp_name": "Imperial Swordsman",
-                        "eva": "70",
                         "exp": 466,
-                        "id": "3120011",
-                        "looking": "0",
-                        "lv": "45",
-                        "matk": 142,
-                        "max_hp": 1218,
-                        "mdef": 77,
-                        "mnd": 77,
-                        "no": "1",
-                        "size": "2",
-                        "spd": "100"
+                        "def": 77
                     }
                 ],
-                "uid": "205"
+                "child_pos_id": "1",
+                "enemy_id": "312001",
+                "ai_id": "1"
             }
         ],
-        "deform_animation_info": [],
-        "id": "312001",
-        "is_sp_enemy": 0
+        "ai_id": 0
     },
     {
-        "ai_id": 0,
+        "id": "312008",
+        "is_sp_enemy": 0,
+        "deform_animation_info": [],
         "children": [
             {
-                "ai_id": "1",
-                "child_pos_id": "1",
                 "drop_item_list": [],
-                "enemy_id": "312008",
-                "init_hp": 1218,
-                "lv": "45",
-                "max_hp": 1218,
+                "uid": "206",
                 "no": "1",
+                "init_hp": 1218,
+                "max_hp": 1218,
+                "lv": "45",
                 "params": [
                     {
                         "abilities": [
@@ -605,24 +605,18 @@
                                 "weight": "20"
                             }
                         ],
-                        "acc": "100",
-                        "animation_info": {
-                            "assets": {
-                                "enemy-112384": "/Content/lang/ab/character/enemy/112384.sajson"
-                            },
-                            "enemy_status_id": "3120081",
-                            "hp_gauge_size": "2",
-                            "offset_x": "4",
-                            "offset_y": "-20",
-                            "path": "112384",
-                            "scale": "1.8",
-                            "uses_fix_pos": false
-                        },
-                        "atk": 128,
-                        "breed_id": "12",
-                        "counters": [],
+                        "mnd": 77,
+                        "id": "3120081",
+                        "size": "2",
+                        "looking": "0",
+                        "no": "1",
+                        "spd": "100",
+                        "disp_name": "Imperial Marksman",
+                        "lv": "45",
                         "critical": "3",
-                        "def": 77,
+                        "max_hp": 1218,
+                        "matk": 142,
+                        "counters": [],
                         "def_attributes": [
                             {
                                 "attribute_id": "220",
@@ -649,26 +643,651 @@
                                 "factor": "1"
                             }
                         ],
-                        "disp_name": "Imperial Marksman",
-                        "eva": "70",
-                        "exp": 466,
-                        "id": "3120081",
-                        "looking": "0",
-                        "lv": "45",
-                        "matk": 142,
-                        "max_hp": 1218,
                         "mdef": 77,
-                        "mnd": 77,
-                        "no": "1",
-                        "size": "2",
-                        "spd": "100"
+                        "animation_info": {
+                            "enemy_status_id": "3120081",
+                            "assets": {
+                                "enemy-112384": "/Content/lang/ab/character/enemy/112384.sajson"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "scale": "1.8",
+                            "offset_x": "4",
+                            "offset_y": "-20",
+                            "path": "112384"
+                        },
+                        "acc": "100",
+                        "eva": "70",
+                        "atk": 128,
+                        "breed_id": "12",
+                        "exp": 466,
+                        "def": 77
                     }
                 ],
-                "uid": "206"
+                "child_pos_id": "1",
+                "enemy_id": "312008",
+                "ai_id": "1"
             }
         ],
+        "ai_id": 0
+    },
+    {
+        "is_sp_enemy": 0,
         "deform_animation_info": [],
+        "ai_id": 0,
+        "id": "312005",
+        "children": [
+            {
+                "drop_item_list": [
+                    {
+                        "amount": 950,
+                        "type": 11,
+                        "uid": 201,
+                        "rarity": 1
+                    }
+                ],
+                "uid": "201",
+                "no": "1",
+                "init_hp": 967,
+                "child_pos_id": "1",
+                "lv": "45",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "201083",
+                                "weight": "40"
+                            },
+                            {
+                                "ability_id": "101001",
+                                "weight": "60"
+                            }
+                        ],
+                        "mnd": 77,
+                        "id": "3120051",
+                        "size": "2",
+                        "lv": "45",
+                        "no": "1",
+                        "spd": "100",
+                        "disp_name": "Steeling",
+                        "looking": "0",
+                        "critical": "3",
+                        "max_hp": 967,
+                        "matk": 142,
+                        "counters": [],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "205",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "220",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "219",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "203",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "218",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "103",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "206",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "225",
+                                "factor": "1"
+                            }
+                        ],
+                        "mdef": 77,
+                        "animation_info": {
+                            "scale": "1.5",
+                            "assets": {
+                                "enemy-112034": "/Content/lang/ab/character/enemy/112034.sajson"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "enemy_status_id": "3120051",
+                            "offset_y": "-22",
+                            "path": "112034",
+                            "offset_x": "-3"
+                        },
+                        "acc": "100",
+                        "eva": "86",
+                        "atk": 170,
+                        "breed_id": "8",
+                        "exp": 466,
+                        "def": 56
+                    }
+                ],
+                "max_hp": 967,
+                "enemy_id": "312005",
+                "ai_id": "1"
+            }
+        ]
+    },
+    {
+        "is_sp_enemy": 0,
+        "deform_animation_info": [],
+        "ai_id": 0,
+        "id": "312005",
+        "children": [
+            {
+                "drop_item_list": [],
+                "uid": "202",
+                "no": "1",
+                "init_hp": 967,
+                "child_pos_id": "1",
+                "lv": "45",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "201083",
+                                "weight": "40"
+                            },
+                            {
+                                "ability_id": "101001",
+                                "weight": "60"
+                            }
+                        ],
+                        "mnd": 77,
+                        "id": "3120051",
+                        "size": "2",
+                        "lv": "45",
+                        "no": "1",
+                        "spd": "100",
+                        "disp_name": "Steeling",
+                        "looking": "0",
+                        "critical": "3",
+                        "max_hp": 967,
+                        "matk": 142,
+                        "counters": [],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "205",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "220",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "219",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "203",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "218",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "103",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "206",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "225",
+                                "factor": "1"
+                            }
+                        ],
+                        "mdef": 77,
+                        "animation_info": {
+                            "scale": "1.5",
+                            "assets": {
+                                "enemy-112034": "/Content/lang/ab/character/enemy/112034.sajson"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "enemy_status_id": "3120051",
+                            "offset_y": "-22",
+                            "path": "112034",
+                            "offset_x": "-3"
+                        },
+                        "acc": "100",
+                        "eva": "86",
+                        "atk": 170,
+                        "breed_id": "8",
+                        "exp": 466,
+                        "def": 56
+                    }
+                ],
+                "max_hp": 967,
+                "enemy_id": "312005",
+                "ai_id": "1"
+            }
+        ]
+    },
+    {
+        "is_sp_enemy": 0,
+        "deform_animation_info": [],
+        "ai_id": 0,
+        "id": "312001",
+        "children": [
+            {
+                "drop_item_list": [],
+                "uid": "203",
+                "no": "1",
+                "init_hp": 1218,
+                "child_pos_id": "1",
+                "lv": "45",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "103040",
+                                "weight": "40"
+                            },
+                            {
+                                "ability_id": "101001",
+                                "weight": "40"
+                            },
+                            {
+                                "ability_id": "201395",
+                                "weight": "20"
+                            }
+                        ],
+                        "mnd": 77,
+                        "id": "3120011",
+                        "size": "2",
+                        "lv": "45",
+                        "no": "1",
+                        "spd": "100",
+                        "disp_name": "Imperial Swordsman",
+                        "looking": "0",
+                        "critical": "3",
+                        "max_hp": 1218,
+                        "matk": 142,
+                        "counters": [],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "219",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "220",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "218",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "225",
+                                "factor": "1"
+                            }
+                        ],
+                        "mdef": 77,
+                        "animation_info": {
+                            "scale": "1.8",
+                            "assets": {
+                                "enemy-112383": "/Content/lang/ab/character/enemy/112383.sajson"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "enemy_status_id": "3120011",
+                            "offset_y": "-20",
+                            "path": "112383",
+                            "offset_x": "2"
+                        },
+                        "acc": "100",
+                        "eva": "70",
+                        "atk": 128,
+                        "breed_id": "12",
+                        "exp": 466,
+                        "def": 77
+                    }
+                ],
+                "max_hp": 1218,
+                "enemy_id": "312001",
+                "ai_id": "1"
+            }
+        ]
+    },
+    {
+        "is_sp_enemy": 0,
+        "deform_animation_info": [],
+        "ai_id": 0,
         "id": "312008",
-        "is_sp_enemy": 0
+        "children": [
+            {
+                "drop_item_list": [],
+                "uid": "204",
+                "no": "1",
+                "init_hp": 1218,
+                "child_pos_id": "1",
+                "lv": "45",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "103040",
+                                "weight": "40"
+                            },
+                            {
+                                "ability_id": "101001",
+                                "weight": "40"
+                            },
+                            {
+                                "ability_id": "201395",
+                                "weight": "20"
+                            }
+                        ],
+                        "mnd": 77,
+                        "id": "3120081",
+                        "size": "2",
+                        "lv": "45",
+                        "no": "1",
+                        "spd": "100",
+                        "disp_name": "Imperial Marksman",
+                        "looking": "0",
+                        "critical": "3",
+                        "max_hp": 1218,
+                        "matk": 142,
+                        "counters": [],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "220",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "225",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "218",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "219",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            }
+                        ],
+                        "mdef": 77,
+                        "animation_info": {
+                            "scale": "1.8",
+                            "assets": {
+                                "enemy-112384": "/Content/lang/ab/character/enemy/112384.sajson"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "enemy_status_id": "3120081",
+                            "offset_y": "-20",
+                            "path": "112384",
+                            "offset_x": "4"
+                        },
+                        "acc": "100",
+                        "eva": "70",
+                        "atk": 128,
+                        "breed_id": "12",
+                        "exp": 466,
+                        "def": 77
+                    }
+                ],
+                "max_hp": 1218,
+                "enemy_id": "312008",
+                "ai_id": "1"
+            }
+        ]
+    },
+    {
+        "is_sp_enemy": 0,
+        "deform_animation_info": [],
+        "ai_id": 0,
+        "id": "312005",
+        "children": [
+            {
+                "drop_item_list": [],
+                "uid": "205",
+                "no": "1",
+                "init_hp": 967,
+                "child_pos_id": "1",
+                "lv": "45",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "201083",
+                                "weight": "40"
+                            },
+                            {
+                                "ability_id": "101001",
+                                "weight": "60"
+                            }
+                        ],
+                        "mnd": 77,
+                        "id": "3120051",
+                        "size": "2",
+                        "lv": "45",
+                        "no": "1",
+                        "spd": "100",
+                        "disp_name": "Steeling",
+                        "looking": "0",
+                        "critical": "3",
+                        "max_hp": 967,
+                        "matk": 142,
+                        "counters": [],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "205",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "220",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "219",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "203",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "218",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "103",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "206",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "225",
+                                "factor": "1"
+                            }
+                        ],
+                        "mdef": 77,
+                        "animation_info": {
+                            "scale": "1.5",
+                            "assets": {
+                                "enemy-112034": "/Content/lang/ab/character/enemy/112034.sajson"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "enemy_status_id": "3120051",
+                            "offset_y": "-22",
+                            "path": "112034",
+                            "offset_x": "-3"
+                        },
+                        "acc": "100",
+                        "eva": "86",
+                        "atk": 170,
+                        "breed_id": "8",
+                        "exp": 466,
+                        "def": 56
+                    }
+                ],
+                "max_hp": 967,
+                "enemy_id": "312005",
+                "ai_id": "1"
+            }
+        ]
+    },
+    {
+        "is_sp_enemy": 0,
+        "deform_animation_info": [],
+        "ai_id": 0,
+        "id": "312005",
+        "children": [
+            {
+                "drop_item_list": [],
+                "uid": "206",
+                "no": "1",
+                "init_hp": 967,
+                "child_pos_id": "1",
+                "lv": "45",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "201083",
+                                "weight": "40"
+                            },
+                            {
+                                "ability_id": "101001",
+                                "weight": "60"
+                            }
+                        ],
+                        "mnd": 77,
+                        "id": "3120051",
+                        "size": "2",
+                        "lv": "45",
+                        "no": "1",
+                        "spd": "100",
+                        "disp_name": "Steeling",
+                        "looking": "0",
+                        "critical": "3",
+                        "max_hp": 967,
+                        "matk": 142,
+                        "counters": [],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "205",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "220",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "219",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "203",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "218",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "103",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "206",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "225",
+                                "factor": "1"
+                            }
+                        ],
+                        "mdef": 77,
+                        "animation_info": {
+                            "scale": "1.5",
+                            "assets": {
+                                "enemy-112034": "/Content/lang/ab/character/enemy/112034.sajson"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "enemy_status_id": "3120051",
+                            "offset_y": "-22",
+                            "path": "112034",
+                            "offset_x": "-3"
+                        },
+                        "acc": "100",
+                        "eva": "86",
+                        "atk": 170,
+                        "breed_id": "8",
+                        "exp": 466,
+                        "def": 56
+                    }
+                ],
+                "max_hp": 967,
+                "enemy_id": "312005",
+                "ai_id": "1"
+            }
+        ]
     }
 ]

@@ -1,16 +1,16 @@
 [
     {
+        "is_sp_enemy": 0,
+        "deform_animation_info": [],
         "ai_id": 0,
         "children": [
             {
-                "ai_id": "1",
-                "child_pos_id": "1",
                 "drop_item_list": [],
-                "enemy_id": "304010",
-                "init_hp": 80,
-                "lv": "4",
-                "max_hp": 80,
+                "uid": "201",
                 "no": "1",
+                "init_hp": 80,
+                "child_pos_id": "1",
+                "lv": "4",
                 "params": [
                     {
                         "abilities": [
@@ -19,24 +19,18 @@
                                 "weight": "100"
                             }
                         ],
-                        "acc": "100",
-                        "animation_info": {
-                            "assets": {
-                                "enemy-104010": "/Content/lang/ab/character/enemy/104010.sajson"
-                            },
-                            "enemy_status_id": "3040101",
-                            "hp_gauge_size": "2",
-                            "offset_x": "0",
-                            "offset_y": "-14",
-                            "path": "104010",
-                            "scale": "2",
-                            "uses_fix_pos": false
-                        },
-                        "atk": 16,
-                        "breed_id": "5",
-                        "counters": [],
+                        "spd": "56",
+                        "id": "3040101",
+                        "size": "1",
+                        "looking": "0",
+                        "no": "1",
+                        "mnd": 9,
+                        "disp_name": "Red Marshmallow",
+                        "lv": "4",
                         "critical": "3",
-                        "def": 89,
+                        "max_hp": 80,
+                        "matk": 17,
+                        "counters": [],
                         "def_attributes": [
                             {
                                 "attribute_id": "100",
@@ -51,48 +45,54 @@
                                 "factor": "6"
                             }
                         ],
-                        "disp_name": "Red Marshmallow",
-                        "eva": "100",
-                        "exp": 60,
-                        "id": "3040101",
-                        "looking": "0",
-                        "lv": "4",
-                        "matk": 17,
-                        "max_hp": 80,
                         "mdef": 8,
-                        "mnd": 9,
-                        "no": "1",
-                        "size": "1",
-                        "spd": "56"
+                        "animation_info": {
+                            "scale": "2",
+                            "assets": {
+                                "enemy-104010": "/Content/lang/ab/character/enemy/104010.sajson"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "offset_x": "0",
+                            "offset_y": "-14",
+                            "path": "104010",
+                            "enemy_status_id": "3040101"
+                        },
+                        "acc": "100",
+                        "eva": "100",
+                        "atk": 16,
+                        "breed_id": "5",
+                        "exp": 60,
+                        "def": 89
                     }
                 ],
-                "uid": "201"
+                "max_hp": 80,
+                "enemy_id": "304010",
+                "ai_id": "1"
             }
         ],
-        "deform_animation_info": [],
-        "id": "304010",
-        "is_sp_enemy": 0
+        "id": "304010"
     },
     {
+        "is_sp_enemy": 0,
+        "deform_animation_info": [],
         "ai_id": 0,
         "children": [
             {
-                "ai_id": "1",
-                "child_pos_id": "1",
                 "drop_item_list": [
                     {
                         "item_id": "40000056",
                         "num": "1",
-                        "rarity": "1",
                         "type": 51,
-                        "uid": 202
+                        "uid": 202,
+                        "rarity": "1"
                     }
                 ],
-                "enemy_id": "304012",
-                "init_hp": 114,
-                "lv": "4",
-                "max_hp": 114,
+                "uid": "202",
                 "no": "1",
+                "init_hp": 114,
+                "child_pos_id": "1",
+                "lv": "4",
                 "params": [
                     {
                         "abilities": [
@@ -101,64 +101,64 @@
                                 "weight": "100"
                             }
                         ],
-                        "acc": "100",
-                        "animation_info": {
-                            "assets": {
-                                "enemy-104022": "/Content/lang/ab/character/enemy/104022.sajson"
-                            },
-                            "enemy_status_id": "3040121",
-                            "hp_gauge_size": "2",
-                            "offset_x": "3",
-                            "offset_y": "-14",
-                            "path": "104022",
-                            "scale": "1.5",
-                            "uses_fix_pos": false
-                        },
-                        "atk": 16,
-                        "breed_id": "0",
-                        "counters": [],
+                        "spd": "70",
+                        "id": "3040121",
+                        "size": "1",
+                        "looking": "0",
+                        "no": "1",
+                        "mnd": 9,
+                        "disp_name": "Domovoi",
+                        "lv": "4",
                         "critical": "3",
-                        "def": 9,
+                        "max_hp": 114,
+                        "matk": 16,
+                        "counters": [],
                         "def_attributes": [
                             {
                                 "attribute_id": "222",
                                 "factor": "1"
                             }
                         ],
-                        "disp_name": "Domovoi",
-                        "eva": "100",
-                        "exp": 60,
-                        "id": "3040121",
-                        "looking": "0",
-                        "lv": "4",
-                        "matk": 16,
-                        "max_hp": 114,
                         "mdef": 9,
-                        "mnd": 9,
-                        "no": "1",
-                        "size": "1",
-                        "spd": "70"
+                        "animation_info": {
+                            "scale": "1.5",
+                            "assets": {
+                                "enemy-104022": "/Content/lang/ab/character/enemy/104022.sajson"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "offset_x": "3",
+                            "offset_y": "-14",
+                            "path": "104022",
+                            "enemy_status_id": "3040121"
+                        },
+                        "acc": "100",
+                        "eva": "100",
+                        "atk": 16,
+                        "breed_id": "0",
+                        "exp": 60,
+                        "def": 9
                     }
                 ],
-                "uid": "202"
+                "max_hp": 114,
+                "enemy_id": "304012",
+                "ai_id": "1"
             }
         ],
-        "deform_animation_info": [],
-        "id": "304012",
-        "is_sp_enemy": 0
+        "id": "304012"
     },
     {
+        "is_sp_enemy": 0,
+        "deform_animation_info": [],
         "ai_id": 0,
         "children": [
             {
-                "ai_id": "1",
-                "child_pos_id": "1",
                 "drop_item_list": [],
-                "enemy_id": "304012",
-                "init_hp": 114,
-                "lv": "4",
-                "max_hp": 114,
+                "uid": "203",
                 "no": "1",
+                "init_hp": 114,
+                "child_pos_id": "1",
+                "lv": "4",
                 "params": [
                     {
                         "abilities": [
@@ -167,64 +167,64 @@
                                 "weight": "100"
                             }
                         ],
-                        "acc": "100",
-                        "animation_info": {
-                            "assets": {
-                                "enemy-104022": "/Content/lang/ab/character/enemy/104022.sajson"
-                            },
-                            "enemy_status_id": "3040121",
-                            "hp_gauge_size": "2",
-                            "offset_x": "3",
-                            "offset_y": "-14",
-                            "path": "104022",
-                            "scale": "1.5",
-                            "uses_fix_pos": false
-                        },
-                        "atk": 16,
-                        "breed_id": "0",
-                        "counters": [],
+                        "spd": "70",
+                        "id": "3040121",
+                        "size": "1",
+                        "looking": "0",
+                        "no": "1",
+                        "mnd": 9,
+                        "disp_name": "Domovoi",
+                        "lv": "4",
                         "critical": "3",
-                        "def": 9,
+                        "max_hp": 114,
+                        "matk": 16,
+                        "counters": [],
                         "def_attributes": [
                             {
                                 "attribute_id": "222",
                                 "factor": "1"
                             }
                         ],
-                        "disp_name": "Domovoi",
-                        "eva": "100",
-                        "exp": 60,
-                        "id": "3040121",
-                        "looking": "0",
-                        "lv": "4",
-                        "matk": 16,
-                        "max_hp": 114,
                         "mdef": 9,
-                        "mnd": 9,
-                        "no": "1",
-                        "size": "1",
-                        "spd": "70"
+                        "animation_info": {
+                            "scale": "1.5",
+                            "assets": {
+                                "enemy-104022": "/Content/lang/ab/character/enemy/104022.sajson"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "offset_x": "3",
+                            "offset_y": "-14",
+                            "path": "104022",
+                            "enemy_status_id": "3040121"
+                        },
+                        "acc": "100",
+                        "eva": "100",
+                        "atk": 16,
+                        "breed_id": "0",
+                        "exp": 60,
+                        "def": 9
                     }
                 ],
-                "uid": "203"
+                "max_hp": 114,
+                "enemy_id": "304012",
+                "ai_id": "1"
             }
         ],
-        "deform_animation_info": [],
-        "id": "304012",
-        "is_sp_enemy": 0
+        "id": "304012"
     },
     {
+        "is_sp_enemy": 0,
+        "deform_animation_info": [],
         "ai_id": 0,
         "children": [
             {
-                "ai_id": "1",
-                "child_pos_id": "1",
                 "drop_item_list": [],
-                "enemy_id": "304009",
-                "init_hp": 114,
-                "lv": "4",
-                "max_hp": 114,
+                "uid": "204",
                 "no": "1",
+                "init_hp": 114,
+                "child_pos_id": "1",
+                "lv": "4",
                 "params": [
                     {
                         "abilities": [
@@ -233,24 +233,18 @@
                                 "weight": "100"
                             }
                         ],
-                        "acc": "100",
-                        "animation_info": {
-                            "assets": {
-                                "enemy-104012": "/Content/lang/ab/character/enemy/104012.sajson"
-                            },
-                            "enemy_status_id": "3040091",
-                            "hp_gauge_size": "2",
-                            "offset_x": "5",
-                            "offset_y": "-20",
-                            "path": "104012",
-                            "scale": "2",
-                            "uses_fix_pos": false
-                        },
-                        "atk": 17,
-                        "breed_id": "1",
-                        "counters": [],
+                        "spd": "49",
+                        "id": "3040091",
+                        "size": "2",
+                        "looking": "0",
+                        "no": "1",
+                        "mnd": 7,
+                        "disp_name": "Zombie",
+                        "lv": "4",
                         "critical": "3",
-                        "def": 13,
+                        "max_hp": 114,
+                        "matk": 16,
+                        "counters": [],
                         "def_attributes": [
                             {
                                 "attribute_id": "210",
@@ -309,40 +303,46 @@
                                 "factor": "1"
                             }
                         ],
-                        "disp_name": "Zombie",
-                        "eva": "100",
-                        "exp": 60,
-                        "id": "3040091",
-                        "looking": "0",
-                        "lv": "4",
-                        "matk": 16,
-                        "max_hp": 114,
                         "mdef": 7,
-                        "mnd": 7,
-                        "no": "1",
-                        "size": "2",
-                        "spd": "49"
+                        "animation_info": {
+                            "scale": "2",
+                            "assets": {
+                                "enemy-104012": "/Content/lang/ab/character/enemy/104012.sajson"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "offset_x": "5",
+                            "offset_y": "-20",
+                            "path": "104012",
+                            "enemy_status_id": "3040091"
+                        },
+                        "acc": "100",
+                        "eva": "100",
+                        "atk": 17,
+                        "breed_id": "1",
+                        "exp": 60,
+                        "def": 13
                     }
                 ],
-                "uid": "204"
+                "max_hp": 114,
+                "enemy_id": "304009",
+                "ai_id": "1"
             }
         ],
-        "deform_animation_info": [],
-        "id": "304009",
-        "is_sp_enemy": 0
+        "id": "304009"
     },
     {
+        "is_sp_enemy": 0,
+        "deform_animation_info": [],
         "ai_id": 0,
         "children": [
             {
-                "ai_id": "1",
-                "child_pos_id": "1",
                 "drop_item_list": [],
-                "enemy_id": "304010",
-                "init_hp": 80,
-                "lv": "4",
-                "max_hp": 80,
+                "uid": "205",
                 "no": "1",
+                "init_hp": 80,
+                "child_pos_id": "1",
+                "lv": "4",
                 "params": [
                     {
                         "abilities": [
@@ -351,24 +351,18 @@
                                 "weight": "100"
                             }
                         ],
-                        "acc": "100",
-                        "animation_info": {
-                            "assets": {
-                                "enemy-104010": "/Content/lang/ab/character/enemy/104010.sajson"
-                            },
-                            "enemy_status_id": "3040101",
-                            "hp_gauge_size": "2",
-                            "offset_x": "0",
-                            "offset_y": "-14",
-                            "path": "104010",
-                            "scale": "2",
-                            "uses_fix_pos": false
-                        },
-                        "atk": 16,
-                        "breed_id": "5",
-                        "counters": [],
+                        "spd": "56",
+                        "id": "3040101",
+                        "size": "1",
+                        "looking": "0",
+                        "no": "1",
+                        "mnd": 9,
+                        "disp_name": "Red Marshmallow",
+                        "lv": "4",
                         "critical": "3",
-                        "def": 89,
+                        "max_hp": 80,
+                        "matk": 17,
+                        "counters": [],
                         "def_attributes": [
                             {
                                 "attribute_id": "100",
@@ -383,40 +377,46 @@
                                 "factor": "6"
                             }
                         ],
-                        "disp_name": "Red Marshmallow",
-                        "eva": "100",
-                        "exp": 60,
-                        "id": "3040101",
-                        "looking": "0",
-                        "lv": "4",
-                        "matk": 17,
-                        "max_hp": 80,
                         "mdef": 8,
-                        "mnd": 9,
-                        "no": "1",
-                        "size": "1",
-                        "spd": "56"
+                        "animation_info": {
+                            "scale": "2",
+                            "assets": {
+                                "enemy-104010": "/Content/lang/ab/character/enemy/104010.sajson"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "offset_x": "0",
+                            "offset_y": "-14",
+                            "path": "104010",
+                            "enemy_status_id": "3040101"
+                        },
+                        "acc": "100",
+                        "eva": "100",
+                        "atk": 16,
+                        "breed_id": "5",
+                        "exp": 60,
+                        "def": 89
                     }
                 ],
-                "uid": "205"
+                "max_hp": 80,
+                "enemy_id": "304010",
+                "ai_id": "1"
             }
         ],
-        "deform_animation_info": [],
-        "id": "304010",
-        "is_sp_enemy": 0
+        "id": "304010"
     },
     {
+        "is_sp_enemy": 0,
+        "deform_animation_info": [],
         "ai_id": 0,
         "children": [
             {
-                "ai_id": "1",
-                "child_pos_id": "1",
                 "drop_item_list": [],
-                "enemy_id": "304012",
-                "init_hp": 114,
-                "lv": "4",
-                "max_hp": 114,
+                "uid": "206",
                 "no": "1",
+                "init_hp": 114,
+                "child_pos_id": "1",
+                "lv": "4",
                 "params": [
                     {
                         "abilities": [
@@ -425,72 +425,153 @@
                                 "weight": "100"
                             }
                         ],
-                        "acc": "100",
-                        "animation_info": {
-                            "assets": {
-                                "enemy-104022": "/Content/lang/ab/character/enemy/104022.sajson"
-                            },
-                            "enemy_status_id": "3040121",
-                            "hp_gauge_size": "2",
-                            "offset_x": "3",
-                            "offset_y": "-14",
-                            "path": "104022",
-                            "scale": "1.5",
-                            "uses_fix_pos": false
-                        },
-                        "atk": 16,
-                        "breed_id": "0",
-                        "counters": [],
+                        "spd": "70",
+                        "id": "3040121",
+                        "size": "1",
+                        "looking": "0",
+                        "no": "1",
+                        "mnd": 9,
+                        "disp_name": "Domovoi",
+                        "lv": "4",
                         "critical": "3",
-                        "def": 9,
+                        "max_hp": 114,
+                        "matk": 16,
+                        "counters": [],
                         "def_attributes": [
                             {
                                 "attribute_id": "222",
                                 "factor": "1"
                             }
                         ],
-                        "disp_name": "Domovoi",
-                        "eva": "100",
-                        "exp": 60,
-                        "id": "3040121",
-                        "looking": "0",
-                        "lv": "4",
-                        "matk": 16,
-                        "max_hp": 114,
                         "mdef": 9,
-                        "mnd": 9,
-                        "no": "1",
-                        "size": "1",
-                        "spd": "70"
+                        "animation_info": {
+                            "scale": "1.5",
+                            "assets": {
+                                "enemy-104022": "/Content/lang/ab/character/enemy/104022.sajson"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "offset_x": "3",
+                            "offset_y": "-14",
+                            "path": "104022",
+                            "enemy_status_id": "3040121"
+                        },
+                        "acc": "100",
+                        "eva": "100",
+                        "atk": 16,
+                        "breed_id": "0",
+                        "exp": 60,
+                        "def": 9
                     }
                 ],
-                "uid": "206"
+                "max_hp": 114,
+                "enemy_id": "304012",
+                "ai_id": "1"
             }
         ],
-        "deform_animation_info": [],
-        "id": "304012",
-        "is_sp_enemy": 0
+        "id": "304012"
     },
     {
+        "is_sp_enemy": "1",
+        "deform_animation_info": [
+            {
+                "deform_tag": "deformation_06",
+                "is_random": true,
+                "state": [
+                    "1"
+                ],
+                "path": "204002_1.json",
+                "enemy_id": "404002",
+                "id": "20400207"
+            },
+            {
+                "deform_tag": "deformation_05",
+                "is_random": true,
+                "state": [
+                    "1"
+                ],
+                "path": "204002_1.json",
+                "enemy_id": "404002",
+                "id": "20400206"
+            },
+            {
+                "deform_tag": "in",
+                "is_random": true,
+                "state": [
+                    "1"
+                ],
+                "path": "204002_1.json",
+                "enemy_id": "404002",
+                "id": "20400201"
+            },
+            {
+                "deform_tag": "deformation_03",
+                "is_random": true,
+                "state": [
+                    "1"
+                ],
+                "path": "204002_1.json",
+                "enemy_id": "404002",
+                "id": "20400204"
+            },
+            {
+                "deform_tag": "deformation_04",
+                "is_random": true,
+                "state": [
+                    "1"
+                ],
+                "path": "204002_1.json",
+                "enemy_id": "404002",
+                "id": "20400205"
+            },
+            {
+                "deform_tag": "deformation_02",
+                "is_random": true,
+                "state": [
+                    "1"
+                ],
+                "path": "204002_1.json",
+                "enemy_id": "404002",
+                "id": "20400203"
+            },
+            {
+                "deform_tag": "deformation_07",
+                "is_random": true,
+                "state": [
+                    "1"
+                ],
+                "path": "204002_1.json",
+                "enemy_id": "404002",
+                "id": "20400208"
+            },
+            {
+                "deform_tag": "deformation_01",
+                "is_random": true,
+                "state": [
+                    "1"
+                ],
+                "path": "204002_1.json",
+                "enemy_id": "404002",
+                "id": "20400202"
+            }
+        ],
         "ai_id": "0",
         "children": [
             {
-                "ai_id": "40400201",
-                "child_pos_id": "1",
                 "drop_item_list": [
                     {
                         "item_id": "22052007",
                         "num": "1",
-                        "rarity": "2",
                         "type": 41,
-                        "uid": 207
+                        "uid": 207,
+                        "rarity": "2"
                     }
                 ],
-                "enemy_id": "404002",
-                "init_hp": 1680,
-                "lv": "5",
-                "max_hp": 1680,
+                "uid": "207",
                 "no": "1",
+                "init_hp": 1680,
+                "child_pos_id": "1",
+                "lv": "5",
                 "params": [
                     {
                         "abilities": [
@@ -499,24 +580,18 @@
                                 "weight": "100"
                             }
                         ],
-                        "acc": "100",
-                        "animation_info": {
-                            "assets": {
-                                "boss-204002_1": "/Content/lang/ab/character/boss/204002/204002_1.json"
-                            },
-                            "enemy_status_id": "4040021",
-                            "hp_gauge_size": "3",
-                            "offset_x": "0",
-                            "offset_y": "0",
-                            "path": "204002_1",
-                            "scale": "1",
-                            "uses_fix_pos": false
-                        },
-                        "atk": 27,
-                        "breed_id": "4",
-                        "counters": [],
+                        "spd": "245",
+                        "id": "4040021",
+                        "size": "3",
+                        "looking": "0",
+                        "no": "1",
+                        "mnd": 23,
+                        "disp_name": "Octomammoth",
+                        "lv": "5",
                         "critical": "3",
-                        "def": 25,
+                        "max_hp": 1680,
+                        "matk": 29,
+                        "counters": [],
                         "def_attributes": [
                             {
                                 "attribute_id": "105",
@@ -575,107 +650,2659 @@
                                 "factor": "1"
                             }
                         ],
-                        "disp_name": "Octomammoth",
-                        "eva": "100",
-                        "exp": 152,
-                        "id": "4040021",
-                        "looking": "0",
-                        "lv": "5",
-                        "matk": 29,
-                        "max_hp": 1680,
                         "mdef": 25,
-                        "mnd": 23,
-                        "no": "1",
-                        "size": "3",
-                        "spd": "245"
+                        "animation_info": {
+                            "scale": "1",
+                            "assets": {
+                                "boss-204002_1": "/Content/lang/ab/character/boss/204002/204002_1.json"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "3",
+                            "offset_x": "0",
+                            "offset_y": "0",
+                            "path": "204002_1",
+                            "enemy_status_id": "4040021"
+                        },
+                        "acc": "100",
+                        "eva": "100",
+                        "atk": 27,
+                        "breed_id": "4",
+                        "exp": 152,
+                        "def": 25
                     }
                 ],
-                "uid": "207"
+                "max_hp": 1680,
+                "enemy_id": "404002",
+                "ai_id": "40400201"
             }
         ],
+        "id": "404002"
+    },
+    {
+        "is_sp_enemy": 0,
+        "deform_animation_info": [],
+        "id": "304009",
+        "children": [
+            {
+                "drop_item_list": [],
+                "uid": "201",
+                "no": "1",
+                "init_hp": 114,
+                "max_hp": 114,
+                "lv": "4",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "101021",
+                                "weight": "100"
+                            }
+                        ],
+                        "spd": "49",
+                        "id": "3040091",
+                        "size": "2",
+                        "lv": "4",
+                        "no": "1",
+                        "mnd": 7,
+                        "disp_name": "Zombie",
+                        "looking": "0",
+                        "critical": "3",
+                        "max_hp": 114,
+                        "matk": 16,
+                        "counters": [],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "210",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "101",
+                                "factor": "6"
+                            },
+                            {
+                                "attribute_id": "223",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "200",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "219",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "211",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "214",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "220",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "100",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "107",
+                                "factor": "6"
+                            },
+                            {
+                                "attribute_id": "106",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "102",
+                                "factor": "6"
+                            },
+                            {
+                                "attribute_id": "213",
+                                "factor": "1"
+                            }
+                        ],
+                        "mdef": 7,
+                        "animation_info": {
+                            "scale": "2",
+                            "assets": {
+                                "enemy-104012": "/Content/lang/ab/character/enemy/104012.sajson"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "enemy_status_id": "3040091",
+                            "offset_y": "-20",
+                            "path": "104012",
+                            "offset_x": "5"
+                        },
+                        "acc": "100",
+                        "eva": "100",
+                        "atk": 17,
+                        "breed_id": "1",
+                        "exp": 60,
+                        "def": 13
+                    }
+                ],
+                "child_pos_id": "1",
+                "enemy_id": "304009",
+                "ai_id": "1"
+            }
+        ],
+        "ai_id": 0
+    },
+    {
+        "is_sp_enemy": 0,
+        "deform_animation_info": [],
+        "id": "304012",
+        "children": [
+            {
+                "drop_item_list": [],
+                "uid": "202",
+                "no": "1",
+                "init_hp": 114,
+                "max_hp": 114,
+                "lv": "4",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "101001",
+                                "weight": "100"
+                            }
+                        ],
+                        "spd": "70",
+                        "id": "3040121",
+                        "size": "1",
+                        "lv": "4",
+                        "no": "1",
+                        "mnd": 9,
+                        "disp_name": "Domovoi",
+                        "looking": "0",
+                        "critical": "3",
+                        "max_hp": 114,
+                        "matk": 16,
+                        "counters": [],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            }
+                        ],
+                        "mdef": 9,
+                        "animation_info": {
+                            "scale": "1.5",
+                            "assets": {
+                                "enemy-104022": "/Content/lang/ab/character/enemy/104022.sajson"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "enemy_status_id": "3040121",
+                            "offset_y": "-14",
+                            "path": "104022",
+                            "offset_x": "3"
+                        },
+                        "acc": "100",
+                        "eva": "100",
+                        "atk": 16,
+                        "breed_id": "0",
+                        "exp": 60,
+                        "def": 9
+                    }
+                ],
+                "child_pos_id": "1",
+                "enemy_id": "304012",
+                "ai_id": "1"
+            }
+        ],
+        "ai_id": 0
+    },
+    {
+        "is_sp_enemy": 0,
+        "deform_animation_info": [],
+        "id": "304012",
+        "children": [
+            {
+                "drop_item_list": [],
+                "uid": "203",
+                "no": "1",
+                "init_hp": 114,
+                "max_hp": 114,
+                "lv": "4",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "101001",
+                                "weight": "100"
+                            }
+                        ],
+                        "spd": "70",
+                        "id": "3040121",
+                        "size": "1",
+                        "lv": "4",
+                        "no": "1",
+                        "mnd": 9,
+                        "disp_name": "Domovoi",
+                        "looking": "0",
+                        "critical": "3",
+                        "max_hp": 114,
+                        "matk": 16,
+                        "counters": [],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            }
+                        ],
+                        "mdef": 9,
+                        "animation_info": {
+                            "scale": "1.5",
+                            "assets": {
+                                "enemy-104022": "/Content/lang/ab/character/enemy/104022.sajson"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "enemy_status_id": "3040121",
+                            "offset_y": "-14",
+                            "path": "104022",
+                            "offset_x": "3"
+                        },
+                        "acc": "100",
+                        "eva": "100",
+                        "atk": 16,
+                        "breed_id": "0",
+                        "exp": 60,
+                        "def": 9
+                    }
+                ],
+                "child_pos_id": "1",
+                "enemy_id": "304012",
+                "ai_id": "1"
+            }
+        ],
+        "ai_id": 0
+    },
+    {
+        "is_sp_enemy": 0,
+        "deform_animation_info": [],
+        "id": "304012",
+        "children": [
+            {
+                "drop_item_list": [],
+                "uid": "204",
+                "no": "1",
+                "init_hp": 114,
+                "max_hp": 114,
+                "lv": "4",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "101001",
+                                "weight": "100"
+                            }
+                        ],
+                        "spd": "70",
+                        "id": "3040121",
+                        "size": "1",
+                        "lv": "4",
+                        "no": "1",
+                        "mnd": 9,
+                        "disp_name": "Domovoi",
+                        "looking": "0",
+                        "critical": "3",
+                        "max_hp": 114,
+                        "matk": 16,
+                        "counters": [],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            }
+                        ],
+                        "mdef": 9,
+                        "animation_info": {
+                            "scale": "1.5",
+                            "assets": {
+                                "enemy-104022": "/Content/lang/ab/character/enemy/104022.sajson"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "enemy_status_id": "3040121",
+                            "offset_y": "-14",
+                            "path": "104022",
+                            "offset_x": "3"
+                        },
+                        "acc": "100",
+                        "eva": "100",
+                        "atk": 16,
+                        "breed_id": "0",
+                        "exp": 60,
+                        "def": 9
+                    }
+                ],
+                "child_pos_id": "1",
+                "enemy_id": "304012",
+                "ai_id": "1"
+            }
+        ],
+        "ai_id": 0
+    },
+    {
+        "is_sp_enemy": 0,
+        "deform_animation_info": [],
+        "id": "304012",
+        "children": [
+            {
+                "drop_item_list": [],
+                "uid": "205",
+                "no": "1",
+                "init_hp": 114,
+                "max_hp": 114,
+                "lv": "4",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "101001",
+                                "weight": "100"
+                            }
+                        ],
+                        "spd": "70",
+                        "id": "3040121",
+                        "size": "1",
+                        "lv": "4",
+                        "no": "1",
+                        "mnd": 9,
+                        "disp_name": "Domovoi",
+                        "looking": "0",
+                        "critical": "3",
+                        "max_hp": 114,
+                        "matk": 16,
+                        "counters": [],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            }
+                        ],
+                        "mdef": 9,
+                        "animation_info": {
+                            "scale": "1.5",
+                            "assets": {
+                                "enemy-104022": "/Content/lang/ab/character/enemy/104022.sajson"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "enemy_status_id": "3040121",
+                            "offset_y": "-14",
+                            "path": "104022",
+                            "offset_x": "3"
+                        },
+                        "acc": "100",
+                        "eva": "100",
+                        "atk": 16,
+                        "breed_id": "0",
+                        "exp": 60,
+                        "def": 9
+                    }
+                ],
+                "child_pos_id": "1",
+                "enemy_id": "304012",
+                "ai_id": "1"
+            }
+        ],
+        "ai_id": 0
+    },
+    {
+        "is_sp_enemy": 0,
+        "deform_animation_info": [],
+        "id": "304012",
+        "children": [
+            {
+                "drop_item_list": [
+                    {
+                        "item_id": "22054002",
+                        "num": "1",
+                        "type": 41,
+                        "uid": 206,
+                        "rarity": "1"
+                    }
+                ],
+                "uid": "206",
+                "no": "1",
+                "init_hp": 114,
+                "max_hp": 114,
+                "lv": "4",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "101001",
+                                "weight": "100"
+                            }
+                        ],
+                        "spd": "70",
+                        "id": "3040121",
+                        "size": "1",
+                        "lv": "4",
+                        "no": "1",
+                        "mnd": 9,
+                        "disp_name": "Domovoi",
+                        "looking": "0",
+                        "critical": "3",
+                        "max_hp": 114,
+                        "matk": 16,
+                        "counters": [],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            }
+                        ],
+                        "mdef": 9,
+                        "animation_info": {
+                            "scale": "1.5",
+                            "assets": {
+                                "enemy-104022": "/Content/lang/ab/character/enemy/104022.sajson"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "enemy_status_id": "3040121",
+                            "offset_y": "-14",
+                            "path": "104022",
+                            "offset_x": "3"
+                        },
+                        "acc": "100",
+                        "eva": "100",
+                        "atk": 16,
+                        "breed_id": "0",
+                        "exp": 60,
+                        "def": 9
+                    }
+                ],
+                "child_pos_id": "1",
+                "enemy_id": "304012",
+                "ai_id": "1"
+            }
+        ],
+        "ai_id": 0
+    },
+    {
+        "is_sp_enemy": "1",
         "deform_animation_info": [
             {
                 "deform_tag": "deformation_06",
-                "enemy_id": "404002",
-                "id": "20400207",
                 "is_random": true,
-                "path": "204002_1.json",
                 "state": [
                     "1"
-                ]
+                ],
+                "path": "204002_1.json",
+                "enemy_id": "404002",
+                "id": "20400207"
             },
             {
                 "deform_tag": "deformation_05",
-                "enemy_id": "404002",
-                "id": "20400206",
                 "is_random": true,
-                "path": "204002_1.json",
                 "state": [
                     "1"
-                ]
+                ],
+                "path": "204002_1.json",
+                "enemy_id": "404002",
+                "id": "20400206"
             },
             {
                 "deform_tag": "in",
-                "enemy_id": "404002",
-                "id": "20400201",
                 "is_random": true,
-                "path": "204002_1.json",
                 "state": [
                     "1"
-                ]
+                ],
+                "path": "204002_1.json",
+                "enemy_id": "404002",
+                "id": "20400201"
             },
             {
                 "deform_tag": "deformation_03",
-                "enemy_id": "404002",
-                "id": "20400204",
                 "is_random": true,
-                "path": "204002_1.json",
                 "state": [
                     "1"
-                ]
+                ],
+                "path": "204002_1.json",
+                "enemy_id": "404002",
+                "id": "20400204"
             },
             {
                 "deform_tag": "deformation_04",
-                "enemy_id": "404002",
-                "id": "20400205",
                 "is_random": true,
-                "path": "204002_1.json",
                 "state": [
                     "1"
-                ]
+                ],
+                "path": "204002_1.json",
+                "enemy_id": "404002",
+                "id": "20400205"
             },
             {
                 "deform_tag": "deformation_02",
-                "enemy_id": "404002",
-                "id": "20400203",
                 "is_random": true,
-                "path": "204002_1.json",
                 "state": [
                     "1"
-                ]
+                ],
+                "path": "204002_1.json",
+                "enemy_id": "404002",
+                "id": "20400203"
             },
             {
                 "deform_tag": "deformation_07",
-                "enemy_id": "404002",
-                "id": "20400208",
                 "is_random": true,
-                "path": "204002_1.json",
                 "state": [
                     "1"
-                ]
+                ],
+                "path": "204002_1.json",
+                "enemy_id": "404002",
+                "id": "20400208"
             },
             {
                 "deform_tag": "deformation_01",
-                "enemy_id": "404002",
-                "id": "20400202",
                 "is_random": true,
-                "path": "204002_1.json",
                 "state": [
                     "1"
-                ]
+                ],
+                "path": "204002_1.json",
+                "enemy_id": "404002",
+                "id": "20400202"
             }
         ],
         "id": "404002",
-        "is_sp_enemy": "1"
+        "children": [
+            {
+                "drop_item_list": [
+                    {
+                        "item_id": "40000057",
+                        "num": "1",
+                        "type": 51,
+                        "uid": 207,
+                        "rarity": "2"
+                    }
+                ],
+                "uid": "207",
+                "no": "1",
+                "init_hp": 1680,
+                "max_hp": 1680,
+                "lv": "5",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "101001",
+                                "weight": "100"
+                            }
+                        ],
+                        "spd": "245",
+                        "id": "4040021",
+                        "size": "3",
+                        "lv": "5",
+                        "no": "1",
+                        "mnd": 23,
+                        "disp_name": "Octomammoth",
+                        "looking": "0",
+                        "critical": "3",
+                        "max_hp": 1680,
+                        "matk": 29,
+                        "counters": [],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "105",
+                                "factor": "21"
+                            },
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "214",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "215",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "211",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "107",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "203",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "202",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "106",
+                                "factor": "21"
+                            },
+                            {
+                                "attribute_id": "212",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "213",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "102",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "224",
+                                "factor": "1"
+                            }
+                        ],
+                        "mdef": 25,
+                        "animation_info": {
+                            "scale": "1",
+                            "assets": {
+                                "boss-204002_1": "/Content/lang/ab/character/boss/204002/204002_1.json"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "3",
+                            "enemy_status_id": "4040021",
+                            "offset_y": "0",
+                            "path": "204002_1",
+                            "offset_x": "0"
+                        },
+                        "acc": "100",
+                        "eva": "100",
+                        "atk": 27,
+                        "breed_id": "4",
+                        "exp": 152,
+                        "def": 25
+                    }
+                ],
+                "child_pos_id": "1",
+                "enemy_id": "404002",
+                "ai_id": "40400201"
+            }
+        ],
+        "ai_id": "0"
+    },
+    {
+        "is_sp_enemy": 0,
+        "deform_animation_info": [],
+        "ai_id": 0,
+        "children": [
+            {
+                "drop_item_list": [],
+                "uid": "201",
+                "no": "1",
+                "init_hp": 80,
+                "child_pos_id": "1",
+                "lv": "4",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "101001",
+                                "weight": "100"
+                            }
+                        ],
+                        "mnd": 9,
+                        "id": "3040101",
+                        "size": "1",
+                        "lv": "4",
+                        "no": "1",
+                        "spd": "56",
+                        "disp_name": "Red Marshmallow",
+                        "looking": "0",
+                        "critical": "3",
+                        "max_hp": 80,
+                        "matk": 17,
+                        "counters": [],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "100",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "102",
+                                "factor": "6"
+                            }
+                        ],
+                        "mdef": 8,
+                        "animation_info": {
+                            "scale": "2",
+                            "assets": {
+                                "enemy-104010": "/Content/lang/ab/character/enemy/104010.sajson"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "enemy_status_id": "3040101",
+                            "offset_y": "-14",
+                            "path": "104010",
+                            "offset_x": "0"
+                        },
+                        "acc": "100",
+                        "eva": "100",
+                        "atk": 16,
+                        "breed_id": "5",
+                        "exp": 60,
+                        "def": 89
+                    }
+                ],
+                "max_hp": 80,
+                "enemy_id": "304010",
+                "ai_id": "1"
+            }
+        ],
+        "id": "304010"
+    },
+    {
+        "is_sp_enemy": 0,
+        "deform_animation_info": [],
+        "ai_id": 0,
+        "children": [
+            {
+                "drop_item_list": [
+                    {
+                        "item_id": "22054002",
+                        "num": "1",
+                        "type": 41,
+                        "uid": 202,
+                        "rarity": "1"
+                    }
+                ],
+                "uid": "202",
+                "no": "1",
+                "init_hp": 114,
+                "child_pos_id": "1",
+                "lv": "4",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "101001",
+                                "weight": "100"
+                            }
+                        ],
+                        "mnd": 9,
+                        "id": "3040121",
+                        "size": "1",
+                        "lv": "4",
+                        "no": "1",
+                        "spd": "70",
+                        "disp_name": "Domovoi",
+                        "looking": "0",
+                        "critical": "3",
+                        "max_hp": 114,
+                        "matk": 16,
+                        "counters": [],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            }
+                        ],
+                        "mdef": 9,
+                        "animation_info": {
+                            "scale": "1.5",
+                            "assets": {
+                                "enemy-104022": "/Content/lang/ab/character/enemy/104022.sajson"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "enemy_status_id": "3040121",
+                            "offset_y": "-14",
+                            "path": "104022",
+                            "offset_x": "3"
+                        },
+                        "acc": "100",
+                        "eva": "100",
+                        "atk": 16,
+                        "breed_id": "0",
+                        "exp": 60,
+                        "def": 9
+                    }
+                ],
+                "max_hp": 114,
+                "enemy_id": "304012",
+                "ai_id": "1"
+            }
+        ],
+        "id": "304012"
+    },
+    {
+        "is_sp_enemy": 0,
+        "deform_animation_info": [],
+        "ai_id": 0,
+        "children": [
+            {
+                "drop_item_list": [],
+                "uid": "203",
+                "no": "1",
+                "init_hp": 114,
+                "child_pos_id": "1",
+                "lv": "4",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "101001",
+                                "weight": "100"
+                            }
+                        ],
+                        "mnd": 9,
+                        "id": "3040121",
+                        "size": "1",
+                        "lv": "4",
+                        "no": "1",
+                        "spd": "70",
+                        "disp_name": "Domovoi",
+                        "looking": "0",
+                        "critical": "3",
+                        "max_hp": 114,
+                        "matk": 16,
+                        "counters": [],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            }
+                        ],
+                        "mdef": 9,
+                        "animation_info": {
+                            "scale": "1.5",
+                            "assets": {
+                                "enemy-104022": "/Content/lang/ab/character/enemy/104022.sajson"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "enemy_status_id": "3040121",
+                            "offset_y": "-14",
+                            "path": "104022",
+                            "offset_x": "3"
+                        },
+                        "acc": "100",
+                        "eva": "100",
+                        "atk": 16,
+                        "breed_id": "0",
+                        "exp": 60,
+                        "def": 9
+                    }
+                ],
+                "max_hp": 114,
+                "enemy_id": "304012",
+                "ai_id": "1"
+            }
+        ],
+        "id": "304012"
+    },
+    {
+        "is_sp_enemy": 0,
+        "deform_animation_info": [],
+        "ai_id": 0,
+        "children": [
+            {
+                "drop_item_list": [
+                    {
+                        "item_id": "21006001",
+                        "num": "1",
+                        "type": 41,
+                        "uid": 204,
+                        "rarity": "1"
+                    }
+                ],
+                "uid": "204",
+                "no": "1",
+                "init_hp": 80,
+                "child_pos_id": "1",
+                "lv": "4",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "101001",
+                                "weight": "100"
+                            }
+                        ],
+                        "mnd": 9,
+                        "id": "3040101",
+                        "size": "1",
+                        "lv": "4",
+                        "no": "1",
+                        "spd": "56",
+                        "disp_name": "Red Marshmallow",
+                        "looking": "0",
+                        "critical": "3",
+                        "max_hp": 80,
+                        "matk": 17,
+                        "counters": [],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "100",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "102",
+                                "factor": "6"
+                            }
+                        ],
+                        "mdef": 8,
+                        "animation_info": {
+                            "scale": "2",
+                            "assets": {
+                                "enemy-104010": "/Content/lang/ab/character/enemy/104010.sajson"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "enemy_status_id": "3040101",
+                            "offset_y": "-14",
+                            "path": "104010",
+                            "offset_x": "0"
+                        },
+                        "acc": "100",
+                        "eva": "100",
+                        "atk": 16,
+                        "breed_id": "5",
+                        "exp": 60,
+                        "def": 89
+                    }
+                ],
+                "max_hp": 80,
+                "enemy_id": "304010",
+                "ai_id": "1"
+            }
+        ],
+        "id": "304010"
+    },
+    {
+        "is_sp_enemy": 0,
+        "deform_animation_info": [],
+        "ai_id": 0,
+        "children": [
+            {
+                "drop_item_list": [],
+                "uid": "205",
+                "no": "1",
+                "init_hp": 80,
+                "child_pos_id": "1",
+                "lv": "4",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "101001",
+                                "weight": "100"
+                            }
+                        ],
+                        "mnd": 9,
+                        "id": "3040101",
+                        "size": "1",
+                        "lv": "4",
+                        "no": "1",
+                        "spd": "56",
+                        "disp_name": "Red Marshmallow",
+                        "looking": "0",
+                        "critical": "3",
+                        "max_hp": 80,
+                        "matk": 17,
+                        "counters": [],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "100",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "102",
+                                "factor": "6"
+                            }
+                        ],
+                        "mdef": 8,
+                        "animation_info": {
+                            "scale": "2",
+                            "assets": {
+                                "enemy-104010": "/Content/lang/ab/character/enemy/104010.sajson"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "enemy_status_id": "3040101",
+                            "offset_y": "-14",
+                            "path": "104010",
+                            "offset_x": "0"
+                        },
+                        "acc": "100",
+                        "eva": "100",
+                        "atk": 16,
+                        "breed_id": "5",
+                        "exp": 60,
+                        "def": 89
+                    }
+                ],
+                "max_hp": 80,
+                "enemy_id": "304010",
+                "ai_id": "1"
+            }
+        ],
+        "id": "304010"
+    },
+    {
+        "is_sp_enemy": 0,
+        "deform_animation_info": [],
+        "ai_id": 0,
+        "children": [
+            {
+                "drop_item_list": [],
+                "uid": "206",
+                "no": "1",
+                "init_hp": 80,
+                "child_pos_id": "1",
+                "lv": "4",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "101001",
+                                "weight": "100"
+                            }
+                        ],
+                        "mnd": 9,
+                        "id": "3040101",
+                        "size": "1",
+                        "lv": "4",
+                        "no": "1",
+                        "spd": "56",
+                        "disp_name": "Red Marshmallow",
+                        "looking": "0",
+                        "critical": "3",
+                        "max_hp": 80,
+                        "matk": 17,
+                        "counters": [],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "100",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "102",
+                                "factor": "6"
+                            }
+                        ],
+                        "mdef": 8,
+                        "animation_info": {
+                            "scale": "2",
+                            "assets": {
+                                "enemy-104010": "/Content/lang/ab/character/enemy/104010.sajson"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "enemy_status_id": "3040101",
+                            "offset_y": "-14",
+                            "path": "104010",
+                            "offset_x": "0"
+                        },
+                        "acc": "100",
+                        "eva": "100",
+                        "atk": 16,
+                        "breed_id": "5",
+                        "exp": 60,
+                        "def": 89
+                    }
+                ],
+                "max_hp": 80,
+                "enemy_id": "304010",
+                "ai_id": "1"
+            }
+        ],
+        "id": "304010"
+    },
+    {
+        "is_sp_enemy": "1",
+        "deform_animation_info": [
+            {
+                "deform_tag": "deformation_06",
+                "is_random": true,
+                "state": [
+                    "1"
+                ],
+                "path": "204002_1.json",
+                "enemy_id": "404002",
+                "id": "20400207"
+            },
+            {
+                "deform_tag": "deformation_05",
+                "is_random": true,
+                "state": [
+                    "1"
+                ],
+                "path": "204002_1.json",
+                "enemy_id": "404002",
+                "id": "20400206"
+            },
+            {
+                "deform_tag": "in",
+                "is_random": true,
+                "state": [
+                    "1"
+                ],
+                "path": "204002_1.json",
+                "enemy_id": "404002",
+                "id": "20400201"
+            },
+            {
+                "deform_tag": "deformation_03",
+                "is_random": true,
+                "state": [
+                    "1"
+                ],
+                "path": "204002_1.json",
+                "enemy_id": "404002",
+                "id": "20400204"
+            },
+            {
+                "deform_tag": "deformation_04",
+                "is_random": true,
+                "state": [
+                    "1"
+                ],
+                "path": "204002_1.json",
+                "enemy_id": "404002",
+                "id": "20400205"
+            },
+            {
+                "deform_tag": "deformation_02",
+                "is_random": true,
+                "state": [
+                    "1"
+                ],
+                "path": "204002_1.json",
+                "enemy_id": "404002",
+                "id": "20400203"
+            },
+            {
+                "deform_tag": "deformation_07",
+                "is_random": true,
+                "state": [
+                    "1"
+                ],
+                "path": "204002_1.json",
+                "enemy_id": "404002",
+                "id": "20400208"
+            },
+            {
+                "deform_tag": "deformation_01",
+                "is_random": true,
+                "state": [
+                    "1"
+                ],
+                "path": "204002_1.json",
+                "enemy_id": "404002",
+                "id": "20400202"
+            }
+        ],
+        "ai_id": "0",
+        "children": [
+            {
+                "drop_item_list": [
+                    {
+                        "item_id": "40000057",
+                        "num": "1",
+                        "type": 51,
+                        "uid": 207,
+                        "rarity": "2"
+                    }
+                ],
+                "uid": "207",
+                "no": "1",
+                "init_hp": 1680,
+                "child_pos_id": "1",
+                "lv": "5",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "101001",
+                                "weight": "100"
+                            }
+                        ],
+                        "mnd": 23,
+                        "id": "4040021",
+                        "size": "3",
+                        "lv": "5",
+                        "no": "1",
+                        "spd": "245",
+                        "disp_name": "Octomammoth",
+                        "looking": "0",
+                        "critical": "3",
+                        "max_hp": 1680,
+                        "matk": 29,
+                        "counters": [],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "105",
+                                "factor": "21"
+                            },
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "214",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "215",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "211",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "107",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "203",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "202",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "106",
+                                "factor": "21"
+                            },
+                            {
+                                "attribute_id": "212",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "213",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "102",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "224",
+                                "factor": "1"
+                            }
+                        ],
+                        "mdef": 25,
+                        "animation_info": {
+                            "scale": "1",
+                            "assets": {
+                                "boss-204002_1": "/Content/lang/ab/character/boss/204002/204002_1.json"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "3",
+                            "enemy_status_id": "4040021",
+                            "offset_y": "0",
+                            "path": "204002_1",
+                            "offset_x": "0"
+                        },
+                        "acc": "100",
+                        "eva": "100",
+                        "atk": 27,
+                        "breed_id": "4",
+                        "exp": 152,
+                        "def": 25
+                    }
+                ],
+                "max_hp": 1680,
+                "enemy_id": "404002",
+                "ai_id": "40400201"
+            }
+        ],
+        "id": "404002"
+    },
+    {
+        "is_sp_enemy": 0,
+        "deform_animation_info": [],
+        "children": [
+            {
+                "drop_item_list": [],
+                "uid": "201",
+                "no": "1",
+                "init_hp": 80,
+                "max_hp": 80,
+                "lv": "4",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "101001",
+                                "weight": "100"
+                            }
+                        ],
+                        "spd": "56",
+                        "id": "3040101",
+                        "size": "1",
+                        "lv": "4",
+                        "no": "1",
+                        "mnd": 9,
+                        "disp_name": "Red Marshmallow",
+                        "looking": "0",
+                        "critical": "3",
+                        "max_hp": 80,
+                        "matk": 17,
+                        "counters": [],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "100",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "102",
+                                "factor": "6"
+                            }
+                        ],
+                        "mdef": 8,
+                        "animation_info": {
+                            "scale": "2",
+                            "assets": {
+                                "enemy-104010": "/Content/lang/ab/character/enemy/104010.sajson"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "enemy_status_id": "3040101",
+                            "offset_y": "-14",
+                            "path": "104010",
+                            "offset_x": "0"
+                        },
+                        "acc": "100",
+                        "eva": "100",
+                        "atk": 16,
+                        "breed_id": "5",
+                        "exp": 60,
+                        "def": 89
+                    }
+                ],
+                "child_pos_id": "1",
+                "enemy_id": "304010",
+                "ai_id": "1"
+            }
+        ],
+        "id": "304010",
+        "ai_id": 0
+    },
+    {
+        "is_sp_enemy": 0,
+        "deform_animation_info": [],
+        "children": [
+            {
+                "drop_item_list": [
+                    {
+                        "item_id": "40000041",
+                        "num": "1",
+                        "type": 51,
+                        "uid": 202,
+                        "rarity": "1"
+                    }
+                ],
+                "uid": "202",
+                "no": "1",
+                "init_hp": 80,
+                "max_hp": 80,
+                "lv": "4",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "101001",
+                                "weight": "100"
+                            }
+                        ],
+                        "spd": "56",
+                        "id": "3040101",
+                        "size": "1",
+                        "lv": "4",
+                        "no": "1",
+                        "mnd": 9,
+                        "disp_name": "Red Marshmallow",
+                        "looking": "0",
+                        "critical": "3",
+                        "max_hp": 80,
+                        "matk": 17,
+                        "counters": [],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "100",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "102",
+                                "factor": "6"
+                            }
+                        ],
+                        "mdef": 8,
+                        "animation_info": {
+                            "scale": "2",
+                            "assets": {
+                                "enemy-104010": "/Content/lang/ab/character/enemy/104010.sajson"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "enemy_status_id": "3040101",
+                            "offset_y": "-14",
+                            "path": "104010",
+                            "offset_x": "0"
+                        },
+                        "acc": "100",
+                        "eva": "100",
+                        "atk": 16,
+                        "breed_id": "5",
+                        "exp": 60,
+                        "def": 89
+                    }
+                ],
+                "child_pos_id": "1",
+                "enemy_id": "304010",
+                "ai_id": "1"
+            }
+        ],
+        "id": "304010",
+        "ai_id": 0
+    },
+    {
+        "is_sp_enemy": 0,
+        "deform_animation_info": [],
+        "children": [
+            {
+                "drop_item_list": [
+                    {
+                        "item_id": "21006001",
+                        "num": "1",
+                        "type": 41,
+                        "uid": 203,
+                        "rarity": "1"
+                    }
+                ],
+                "uid": "203",
+                "no": "1",
+                "init_hp": 80,
+                "max_hp": 80,
+                "lv": "4",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "101001",
+                                "weight": "100"
+                            }
+                        ],
+                        "spd": "56",
+                        "id": "3040101",
+                        "size": "1",
+                        "lv": "4",
+                        "no": "1",
+                        "mnd": 9,
+                        "disp_name": "Red Marshmallow",
+                        "looking": "0",
+                        "critical": "3",
+                        "max_hp": 80,
+                        "matk": 17,
+                        "counters": [],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "100",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "102",
+                                "factor": "6"
+                            }
+                        ],
+                        "mdef": 8,
+                        "animation_info": {
+                            "scale": "2",
+                            "assets": {
+                                "enemy-104010": "/Content/lang/ab/character/enemy/104010.sajson"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "enemy_status_id": "3040101",
+                            "offset_y": "-14",
+                            "path": "104010",
+                            "offset_x": "0"
+                        },
+                        "acc": "100",
+                        "eva": "100",
+                        "atk": 16,
+                        "breed_id": "5",
+                        "exp": 60,
+                        "def": 89
+                    }
+                ],
+                "child_pos_id": "1",
+                "enemy_id": "304010",
+                "ai_id": "1"
+            }
+        ],
+        "id": "304010",
+        "ai_id": 0
+    },
+    {
+        "is_sp_enemy": 0,
+        "deform_animation_info": [],
+        "children": [
+            {
+                "drop_item_list": [
+                    {
+                        "item_id": "22054002",
+                        "num": "1",
+                        "type": 41,
+                        "uid": 204,
+                        "rarity": "1"
+                    }
+                ],
+                "uid": "204",
+                "no": "1",
+                "init_hp": 114,
+                "max_hp": 114,
+                "lv": "4",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "101001",
+                                "weight": "100"
+                            }
+                        ],
+                        "spd": "70",
+                        "id": "3040121",
+                        "size": "1",
+                        "lv": "4",
+                        "no": "1",
+                        "mnd": 9,
+                        "disp_name": "Domovoi",
+                        "looking": "0",
+                        "critical": "3",
+                        "max_hp": 114,
+                        "matk": 16,
+                        "counters": [],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            }
+                        ],
+                        "mdef": 9,
+                        "animation_info": {
+                            "scale": "1.5",
+                            "assets": {
+                                "enemy-104022": "/Content/lang/ab/character/enemy/104022.sajson"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "enemy_status_id": "3040121",
+                            "offset_y": "-14",
+                            "path": "104022",
+                            "offset_x": "3"
+                        },
+                        "acc": "100",
+                        "eva": "100",
+                        "atk": 16,
+                        "breed_id": "0",
+                        "exp": 60,
+                        "def": 9
+                    }
+                ],
+                "child_pos_id": "1",
+                "enemy_id": "304012",
+                "ai_id": "1"
+            }
+        ],
+        "id": "304012",
+        "ai_id": 0
+    },
+    {
+        "is_sp_enemy": 0,
+        "deform_animation_info": [],
+        "children": [
+            {
+                "drop_item_list": [],
+                "uid": "205",
+                "no": "1",
+                "init_hp": 114,
+                "max_hp": 114,
+                "lv": "4",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "101001",
+                                "weight": "100"
+                            }
+                        ],
+                        "spd": "70",
+                        "id": "3040121",
+                        "size": "1",
+                        "lv": "4",
+                        "no": "1",
+                        "mnd": 9,
+                        "disp_name": "Domovoi",
+                        "looking": "0",
+                        "critical": "3",
+                        "max_hp": 114,
+                        "matk": 16,
+                        "counters": [],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            }
+                        ],
+                        "mdef": 9,
+                        "animation_info": {
+                            "scale": "1.5",
+                            "assets": {
+                                "enemy-104022": "/Content/lang/ab/character/enemy/104022.sajson"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "enemy_status_id": "3040121",
+                            "offset_y": "-14",
+                            "path": "104022",
+                            "offset_x": "3"
+                        },
+                        "acc": "100",
+                        "eva": "100",
+                        "atk": 16,
+                        "breed_id": "0",
+                        "exp": 60,
+                        "def": 9
+                    }
+                ],
+                "child_pos_id": "1",
+                "enemy_id": "304012",
+                "ai_id": "1"
+            }
+        ],
+        "id": "304012",
+        "ai_id": 0
+    },
+    {
+        "is_sp_enemy": 0,
+        "deform_animation_info": [],
+        "children": [
+            {
+                "drop_item_list": [
+                    {
+                        "amount": 138,
+                        "type": 11,
+                        "uid": 206,
+                        "rarity": 1
+                    }
+                ],
+                "uid": "206",
+                "no": "1",
+                "init_hp": 114,
+                "max_hp": 114,
+                "lv": "4",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "101001",
+                                "weight": "100"
+                            }
+                        ],
+                        "spd": "70",
+                        "id": "3040121",
+                        "size": "1",
+                        "lv": "4",
+                        "no": "1",
+                        "mnd": 9,
+                        "disp_name": "Domovoi",
+                        "looking": "0",
+                        "critical": "3",
+                        "max_hp": 114,
+                        "matk": 16,
+                        "counters": [],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            }
+                        ],
+                        "mdef": 9,
+                        "animation_info": {
+                            "scale": "1.5",
+                            "assets": {
+                                "enemy-104022": "/Content/lang/ab/character/enemy/104022.sajson"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "enemy_status_id": "3040121",
+                            "offset_y": "-14",
+                            "path": "104022",
+                            "offset_x": "3"
+                        },
+                        "acc": "100",
+                        "eva": "100",
+                        "atk": 16,
+                        "breed_id": "0",
+                        "exp": 60,
+                        "def": 9
+                    }
+                ],
+                "child_pos_id": "1",
+                "enemy_id": "304012",
+                "ai_id": "1"
+            }
+        ],
+        "id": "304012",
+        "ai_id": 0
+    },
+    {
+        "is_sp_enemy": "1",
+        "deform_animation_info": [
+            {
+                "deform_tag": "deformation_06",
+                "is_random": true,
+                "state": [
+                    "1"
+                ],
+                "path": "204002_1.json",
+                "enemy_id": "404002",
+                "id": "20400207"
+            },
+            {
+                "deform_tag": "deformation_05",
+                "is_random": true,
+                "state": [
+                    "1"
+                ],
+                "path": "204002_1.json",
+                "enemy_id": "404002",
+                "id": "20400206"
+            },
+            {
+                "deform_tag": "in",
+                "is_random": true,
+                "state": [
+                    "1"
+                ],
+                "path": "204002_1.json",
+                "enemy_id": "404002",
+                "id": "20400201"
+            },
+            {
+                "deform_tag": "deformation_03",
+                "is_random": true,
+                "state": [
+                    "1"
+                ],
+                "path": "204002_1.json",
+                "enemy_id": "404002",
+                "id": "20400204"
+            },
+            {
+                "deform_tag": "deformation_04",
+                "is_random": true,
+                "state": [
+                    "1"
+                ],
+                "path": "204002_1.json",
+                "enemy_id": "404002",
+                "id": "20400205"
+            },
+            {
+                "deform_tag": "deformation_02",
+                "is_random": true,
+                "state": [
+                    "1"
+                ],
+                "path": "204002_1.json",
+                "enemy_id": "404002",
+                "id": "20400203"
+            },
+            {
+                "deform_tag": "deformation_07",
+                "is_random": true,
+                "state": [
+                    "1"
+                ],
+                "path": "204002_1.json",
+                "enemy_id": "404002",
+                "id": "20400208"
+            },
+            {
+                "deform_tag": "deformation_01",
+                "is_random": true,
+                "state": [
+                    "1"
+                ],
+                "path": "204002_1.json",
+                "enemy_id": "404002",
+                "id": "20400202"
+            }
+        ],
+        "children": [
+            {
+                "drop_item_list": [],
+                "uid": "207",
+                "no": "1",
+                "init_hp": 1680,
+                "max_hp": 1680,
+                "lv": "5",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "101001",
+                                "weight": "100"
+                            }
+                        ],
+                        "spd": "245",
+                        "id": "4040021",
+                        "size": "3",
+                        "lv": "5",
+                        "no": "1",
+                        "mnd": 23,
+                        "disp_name": "Octomammoth",
+                        "looking": "0",
+                        "critical": "3",
+                        "max_hp": 1680,
+                        "matk": 29,
+                        "counters": [],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "105",
+                                "factor": "21"
+                            },
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "214",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "215",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "211",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "107",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "203",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "202",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "106",
+                                "factor": "21"
+                            },
+                            {
+                                "attribute_id": "212",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "213",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "102",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "224",
+                                "factor": "1"
+                            }
+                        ],
+                        "mdef": 25,
+                        "animation_info": {
+                            "scale": "1",
+                            "assets": {
+                                "boss-204002_1": "/Content/lang/ab/character/boss/204002/204002_1.json"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "3",
+                            "enemy_status_id": "4040021",
+                            "offset_y": "0",
+                            "path": "204002_1",
+                            "offset_x": "0"
+                        },
+                        "acc": "100",
+                        "eva": "100",
+                        "atk": 27,
+                        "breed_id": "4",
+                        "exp": 152,
+                        "def": 25
+                    }
+                ],
+                "child_pos_id": "1",
+                "enemy_id": "404002",
+                "ai_id": "40400201"
+            }
+        ],
+        "id": "404002",
+        "ai_id": "0"
+    },
+    {
+        "is_sp_enemy": 0,
+        "deform_animation_info": [],
+        "ai_id": 0,
+        "id": "304011",
+        "children": [
+            {
+                "drop_item_list": [
+                    {
+                        "item_id": "40000041",
+                        "num": "1",
+                        "type": 51,
+                        "uid": 201,
+                        "rarity": "1"
+                    }
+                ],
+                "uid": "201",
+                "no": "1",
+                "init_hp": 114,
+                "child_pos_id": "1",
+                "lv": "4",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "101001",
+                                "weight": "100"
+                            }
+                        ],
+                        "mnd": 9,
+                        "id": "3040111",
+                        "size": "2",
+                        "lv": "4",
+                        "no": "1",
+                        "spd": "77",
+                        "disp_name": "Alligator",
+                        "looking": "0",
+                        "critical": "3",
+                        "max_hp": 114,
+                        "matk": 14,
+                        "counters": [],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "100",
+                                "factor": "6"
+                            },
+                            {
+                                "attribute_id": "105",
+                                "factor": "21"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "101",
+                                "factor": "1"
+                            }
+                        ],
+                        "mdef": 9,
+                        "animation_info": {
+                            "scale": "3",
+                            "assets": {
+                                "enemy-104019": "/Content/lang/ab/character/enemy/104019.sajson"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "enemy_status_id": "3040111",
+                            "offset_y": "-15",
+                            "path": "104019",
+                            "offset_x": "4"
+                        },
+                        "acc": "100",
+                        "eva": "100",
+                        "atk": 14,
+                        "breed_id": "3",
+                        "exp": 60,
+                        "def": 11
+                    }
+                ],
+                "max_hp": 114,
+                "enemy_id": "304011",
+                "ai_id": "1"
+            }
+        ]
+    },
+    {
+        "is_sp_enemy": 0,
+        "deform_animation_info": [],
+        "ai_id": 0,
+        "id": "304010",
+        "children": [
+            {
+                "drop_item_list": [
+                    {
+                        "item_id": "40000041",
+                        "num": "1",
+                        "type": 51,
+                        "uid": 202,
+                        "rarity": "1"
+                    }
+                ],
+                "uid": "202",
+                "no": "1",
+                "init_hp": 80,
+                "child_pos_id": "1",
+                "lv": "4",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "101001",
+                                "weight": "100"
+                            }
+                        ],
+                        "mnd": 9,
+                        "id": "3040101",
+                        "size": "1",
+                        "lv": "4",
+                        "no": "1",
+                        "spd": "56",
+                        "disp_name": "Red Marshmallow",
+                        "looking": "0",
+                        "critical": "3",
+                        "max_hp": 80,
+                        "matk": 17,
+                        "counters": [],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "100",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "102",
+                                "factor": "6"
+                            }
+                        ],
+                        "mdef": 8,
+                        "animation_info": {
+                            "scale": "2",
+                            "assets": {
+                                "enemy-104010": "/Content/lang/ab/character/enemy/104010.sajson"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "enemy_status_id": "3040101",
+                            "offset_y": "-14",
+                            "path": "104010",
+                            "offset_x": "0"
+                        },
+                        "acc": "100",
+                        "eva": "100",
+                        "atk": 16,
+                        "breed_id": "5",
+                        "exp": 60,
+                        "def": 89
+                    }
+                ],
+                "max_hp": 80,
+                "enemy_id": "304010",
+                "ai_id": "1"
+            }
+        ]
+    },
+    {
+        "is_sp_enemy": 0,
+        "deform_animation_info": [],
+        "ai_id": 0,
+        "id": "304010",
+        "children": [
+            {
+                "drop_item_list": [
+                    {
+                        "item_id": "21006001",
+                        "num": "1",
+                        "type": 41,
+                        "uid": 203,
+                        "rarity": "1"
+                    }
+                ],
+                "uid": "203",
+                "no": "1",
+                "init_hp": 80,
+                "child_pos_id": "1",
+                "lv": "4",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "101001",
+                                "weight": "100"
+                            }
+                        ],
+                        "mnd": 9,
+                        "id": "3040101",
+                        "size": "1",
+                        "lv": "4",
+                        "no": "1",
+                        "spd": "56",
+                        "disp_name": "Red Marshmallow",
+                        "looking": "0",
+                        "critical": "3",
+                        "max_hp": 80,
+                        "matk": 17,
+                        "counters": [],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "100",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "102",
+                                "factor": "6"
+                            }
+                        ],
+                        "mdef": 8,
+                        "animation_info": {
+                            "scale": "2",
+                            "assets": {
+                                "enemy-104010": "/Content/lang/ab/character/enemy/104010.sajson"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "enemy_status_id": "3040101",
+                            "offset_y": "-14",
+                            "path": "104010",
+                            "offset_x": "0"
+                        },
+                        "acc": "100",
+                        "eva": "100",
+                        "atk": 16,
+                        "breed_id": "5",
+                        "exp": 60,
+                        "def": 89
+                    }
+                ],
+                "max_hp": 80,
+                "enemy_id": "304010",
+                "ai_id": "1"
+            }
+        ]
+    },
+    {
+        "is_sp_enemy": 0,
+        "deform_animation_info": [],
+        "ai_id": 0,
+        "id": "304012",
+        "children": [
+            {
+                "drop_item_list": [],
+                "uid": "204",
+                "no": "1",
+                "init_hp": 114,
+                "child_pos_id": "1",
+                "lv": "4",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "101001",
+                                "weight": "100"
+                            }
+                        ],
+                        "mnd": 9,
+                        "id": "3040121",
+                        "size": "1",
+                        "lv": "4",
+                        "no": "1",
+                        "spd": "70",
+                        "disp_name": "Domovoi",
+                        "looking": "0",
+                        "critical": "3",
+                        "max_hp": 114,
+                        "matk": 16,
+                        "counters": [],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            }
+                        ],
+                        "mdef": 9,
+                        "animation_info": {
+                            "scale": "1.5",
+                            "assets": {
+                                "enemy-104022": "/Content/lang/ab/character/enemy/104022.sajson"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "enemy_status_id": "3040121",
+                            "offset_y": "-14",
+                            "path": "104022",
+                            "offset_x": "3"
+                        },
+                        "acc": "100",
+                        "eva": "100",
+                        "atk": 16,
+                        "breed_id": "0",
+                        "exp": 60,
+                        "def": 9
+                    }
+                ],
+                "max_hp": 114,
+                "enemy_id": "304012",
+                "ai_id": "1"
+            }
+        ]
+    },
+    {
+        "is_sp_enemy": 0,
+        "deform_animation_info": [],
+        "ai_id": 0,
+        "id": "304012",
+        "children": [
+            {
+                "drop_item_list": [],
+                "uid": "205",
+                "no": "1",
+                "init_hp": 114,
+                "child_pos_id": "1",
+                "lv": "4",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "101001",
+                                "weight": "100"
+                            }
+                        ],
+                        "mnd": 9,
+                        "id": "3040121",
+                        "size": "1",
+                        "lv": "4",
+                        "no": "1",
+                        "spd": "70",
+                        "disp_name": "Domovoi",
+                        "looking": "0",
+                        "critical": "3",
+                        "max_hp": 114,
+                        "matk": 16,
+                        "counters": [],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            }
+                        ],
+                        "mdef": 9,
+                        "animation_info": {
+                            "scale": "1.5",
+                            "assets": {
+                                "enemy-104022": "/Content/lang/ab/character/enemy/104022.sajson"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "enemy_status_id": "3040121",
+                            "offset_y": "-14",
+                            "path": "104022",
+                            "offset_x": "3"
+                        },
+                        "acc": "100",
+                        "eva": "100",
+                        "atk": 16,
+                        "breed_id": "0",
+                        "exp": 60,
+                        "def": 9
+                    }
+                ],
+                "max_hp": 114,
+                "enemy_id": "304012",
+                "ai_id": "1"
+            }
+        ]
+    },
+    {
+        "is_sp_enemy": 0,
+        "deform_animation_info": [],
+        "ai_id": 0,
+        "id": "304012",
+        "children": [
+            {
+                "drop_item_list": [
+                    {
+                        "item_id": "40000056",
+                        "num": "1",
+                        "type": 51,
+                        "uid": 206,
+                        "rarity": "1"
+                    }
+                ],
+                "uid": "206",
+                "no": "1",
+                "init_hp": 114,
+                "child_pos_id": "1",
+                "lv": "4",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "101001",
+                                "weight": "100"
+                            }
+                        ],
+                        "mnd": 9,
+                        "id": "3040121",
+                        "size": "1",
+                        "lv": "4",
+                        "no": "1",
+                        "spd": "70",
+                        "disp_name": "Domovoi",
+                        "looking": "0",
+                        "critical": "3",
+                        "max_hp": 114,
+                        "matk": 16,
+                        "counters": [],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            }
+                        ],
+                        "mdef": 9,
+                        "animation_info": {
+                            "scale": "1.5",
+                            "assets": {
+                                "enemy-104022": "/Content/lang/ab/character/enemy/104022.sajson"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "enemy_status_id": "3040121",
+                            "offset_y": "-14",
+                            "path": "104022",
+                            "offset_x": "3"
+                        },
+                        "acc": "100",
+                        "eva": "100",
+                        "atk": 16,
+                        "breed_id": "0",
+                        "exp": 60,
+                        "def": 9
+                    }
+                ],
+                "max_hp": 114,
+                "enemy_id": "304012",
+                "ai_id": "1"
+            }
+        ]
+    },
+    {
+        "is_sp_enemy": "1",
+        "deform_animation_info": [
+            {
+                "deform_tag": "deformation_06",
+                "is_random": true,
+                "state": [
+                    "1"
+                ],
+                "path": "204002_1.json",
+                "enemy_id": "404002",
+                "id": "20400207"
+            },
+            {
+                "deform_tag": "deformation_05",
+                "is_random": true,
+                "state": [
+                    "1"
+                ],
+                "path": "204002_1.json",
+                "enemy_id": "404002",
+                "id": "20400206"
+            },
+            {
+                "deform_tag": "in",
+                "is_random": true,
+                "state": [
+                    "1"
+                ],
+                "path": "204002_1.json",
+                "enemy_id": "404002",
+                "id": "20400201"
+            },
+            {
+                "deform_tag": "deformation_03",
+                "is_random": true,
+                "state": [
+                    "1"
+                ],
+                "path": "204002_1.json",
+                "enemy_id": "404002",
+                "id": "20400204"
+            },
+            {
+                "deform_tag": "deformation_04",
+                "is_random": true,
+                "state": [
+                    "1"
+                ],
+                "path": "204002_1.json",
+                "enemy_id": "404002",
+                "id": "20400205"
+            },
+            {
+                "deform_tag": "deformation_02",
+                "is_random": true,
+                "state": [
+                    "1"
+                ],
+                "path": "204002_1.json",
+                "enemy_id": "404002",
+                "id": "20400203"
+            },
+            {
+                "deform_tag": "deformation_07",
+                "is_random": true,
+                "state": [
+                    "1"
+                ],
+                "path": "204002_1.json",
+                "enemy_id": "404002",
+                "id": "20400208"
+            },
+            {
+                "deform_tag": "deformation_01",
+                "is_random": true,
+                "state": [
+                    "1"
+                ],
+                "path": "204002_1.json",
+                "enemy_id": "404002",
+                "id": "20400202"
+            }
+        ],
+        "ai_id": "0",
+        "id": "404002",
+        "children": [
+            {
+                "drop_item_list": [
+                    {
+                        "item_id": "40000057",
+                        "num": "1",
+                        "type": 51,
+                        "uid": 207,
+                        "rarity": "2"
+                    }
+                ],
+                "uid": "207",
+                "no": "1",
+                "init_hp": 1680,
+                "child_pos_id": "1",
+                "lv": "5",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "101001",
+                                "weight": "100"
+                            }
+                        ],
+                        "mnd": 23,
+                        "id": "4040021",
+                        "size": "3",
+                        "lv": "5",
+                        "no": "1",
+                        "spd": "245",
+                        "disp_name": "Octomammoth",
+                        "looking": "0",
+                        "critical": "3",
+                        "max_hp": 1680,
+                        "matk": 29,
+                        "counters": [],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "105",
+                                "factor": "21"
+                            },
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "214",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "215",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "211",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "107",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "203",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "202",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "106",
+                                "factor": "21"
+                            },
+                            {
+                                "attribute_id": "212",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "213",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "102",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "224",
+                                "factor": "1"
+                            }
+                        ],
+                        "mdef": 25,
+                        "animation_info": {
+                            "scale": "1",
+                            "assets": {
+                                "boss-204002_1": "/Content/lang/ab/character/boss/204002/204002_1.json"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "3",
+                            "enemy_status_id": "4040021",
+                            "offset_y": "0",
+                            "path": "204002_1",
+                            "offset_x": "0"
+                        },
+                        "acc": "100",
+                        "eva": "100",
+                        "atk": 27,
+                        "breed_id": "4",
+                        "exp": 152,
+                        "def": 25
+                    }
+                ],
+                "max_hp": 1680,
+                "enemy_id": "404002",
+                "ai_id": "40400201"
+            }
+        ]
     }
 ]

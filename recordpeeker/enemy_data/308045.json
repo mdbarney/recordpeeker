@@ -1,16 +1,59 @@
 [
     {
-        "ai_id": "40801751",
+        "id": "408017",
+        "is_sp_enemy": "1",
+        "deform_animation_info": [
+            {
+                "deform_tag": "in",
+                "is_random": true,
+                "state": [
+                    "1"
+                ],
+                "path": "208018_1.json",
+                "enemy_id": "408017",
+                "id": "20801801"
+            },
+            {
+                "deform_tag": "deformation_01",
+                "is_random": true,
+                "state": [
+                    "1"
+                ],
+                "path": "208018_1.json",
+                "enemy_id": "408017",
+                "id": "20801802"
+            },
+            {
+                "deform_tag": "deformation_03",
+                "is_random": true,
+                "state": [
+                    "2",
+                    "3",
+                    "4"
+                ],
+                "path": "208018_1.json",
+                "enemy_id": "408017",
+                "id": "20801804"
+            },
+            {
+                "deform_tag": "deformation_02",
+                "is_random": true,
+                "state": [
+                    "1"
+                ],
+                "path": "208018_1.json",
+                "enemy_id": "408017",
+                "id": "20801803"
+            }
+        ],
         "children": [
             {
-                "ai_id": "1",
-                "child_pos_id": "4",
                 "drop_item_list": [],
-                "enemy_id": "408017",
-                "init_hp": 7639,
-                "lv": "46",
-                "max_hp": 7639,
+                "uid": "201",
                 "no": "4",
+                "init_hp": 7639,
+                "max_hp": 7639,
+                "lv": "46",
                 "params": [
                     {
                         "abilities": [
@@ -19,24 +62,18 @@
                                 "weight": "100"
                             }
                         ],
-                        "acc": "100",
-                        "animation_info": {
-                            "assets": {
-                                "boss-208018_3": "/Content/lang/ab/character/boss/208018/208018_3.json"
-                            },
-                            "enemy_status_id": "4080176",
-                            "hp_gauge_size": "2",
-                            "offset_x": "0",
-                            "offset_y": "0",
-                            "path": "208018_3",
-                            "scale": "1",
-                            "uses_fix_pos": false
-                        },
-                        "atk": 131,
-                        "breed_id": "12",
-                        "counters": [],
+                        "mnd": 78,
+                        "id": "4080176",
+                        "size": "2",
+                        "looking": "0",
+                        "no": "4",
+                        "spd": "100",
+                        "disp_name": "Galbadian Soldier",
+                        "lv": "46",
                         "critical": "3",
-                        "def": 78,
+                        "max_hp": 7639,
+                        "matk": 145,
+                        "counters": [],
                         "def_attributes": [
                             {
                                 "attribute_id": "220",
@@ -67,32 +104,38 @@
                                 "factor": "1"
                             }
                         ],
-                        "disp_name": "Galbadian Soldier",
-                        "eva": "70",
-                        "exp": 0,
-                        "id": "4080176",
-                        "looking": "0",
-                        "lv": "46",
-                        "matk": 145,
-                        "max_hp": 7639,
                         "mdef": 78,
-                        "mnd": 78,
-                        "no": "4",
-                        "size": "2",
-                        "spd": "100"
+                        "animation_info": {
+                            "enemy_status_id": "4080176",
+                            "assets": {
+                                "boss-208018_3": "/Content/lang/ab/character/boss/208018/208018_3.json"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "scale": "1",
+                            "offset_x": "0",
+                            "offset_y": "0",
+                            "path": "208018_3"
+                        },
+                        "acc": "100",
+                        "eva": "70",
+                        "atk": 131,
+                        "breed_id": "12",
+                        "exp": 0,
+                        "def": 78
                     }
                 ],
-                "uid": "201"
+                "child_pos_id": "4",
+                "enemy_id": "408017",
+                "ai_id": "1"
             },
             {
-                "ai_id": "1",
-                "child_pos_id": "2",
                 "drop_item_list": [],
-                "enemy_id": "408017",
-                "init_hp": 11459,
-                "lv": "46",
-                "max_hp": 11459,
+                "uid": "202",
                 "no": "2",
+                "init_hp": 11459,
+                "max_hp": 11459,
+                "lv": "46",
                 "params": [
                     {
                         "abilities": [
@@ -101,80 +144,80 @@
                                 "weight": "100"
                             }
                         ],
-                        "acc": "100",
+                        "mnd": 78,
+                        "id": "4080174",
+                        "size": "2",
+                        "looking": "0",
+                        "no": "2",
+                        "spd": "100",
+                        "disp_name": "Elite Soldier",
+                        "lv": "46",
+                        "critical": "3",
+                        "max_hp": 11459,
+                        "matk": 145,
+                        "counters": [],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "219",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "225",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "218",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "108",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "220",
+                                "factor": "1"
+                            }
+                        ],
+                        "mdef": 78,
                         "animation_info": {
+                            "enemy_status_id": "4080174",
                             "assets": {
                                 "boss-208018_2": "/Content/lang/ab/character/boss/208018/208018_2.json"
                             },
-                            "enemy_status_id": "4080174",
+                            "uses_fix_pos": false,
                             "hp_gauge_size": "2",
+                            "scale": "1",
                             "offset_x": "0",
                             "offset_y": "0",
-                            "path": "208018_2",
-                            "scale": "1",
-                            "uses_fix_pos": false
+                            "path": "208018_2"
                         },
+                        "acc": "100",
+                        "eva": "70",
                         "atk": 131,
                         "breed_id": "12",
-                        "counters": [],
-                        "critical": "3",
-                        "def": 78,
-                        "def_attributes": [
-                            {
-                                "attribute_id": "219",
-                                "factor": "1"
-                            },
-                            {
-                                "attribute_id": "221",
-                                "factor": "1"
-                            },
-                            {
-                                "attribute_id": "225",
-                                "factor": "1"
-                            },
-                            {
-                                "attribute_id": "218",
-                                "factor": "1"
-                            },
-                            {
-                                "attribute_id": "222",
-                                "factor": "1"
-                            },
-                            {
-                                "attribute_id": "108",
-                                "factor": "1"
-                            },
-                            {
-                                "attribute_id": "220",
-                                "factor": "1"
-                            }
-                        ],
-                        "disp_name": "Elite Soldier",
-                        "eva": "70",
                         "exp": 0,
-                        "id": "4080174",
-                        "looking": "0",
-                        "lv": "46",
-                        "matk": 145,
-                        "max_hp": 11459,
-                        "mdef": 78,
-                        "mnd": 78,
-                        "no": "2",
-                        "size": "2",
-                        "spd": "100"
+                        "def": 78
                     }
                 ],
-                "uid": "202"
+                "child_pos_id": "2",
+                "enemy_id": "408017",
+                "ai_id": "1"
             },
             {
-                "ai_id": "1",
-                "child_pos_id": "3",
                 "drop_item_list": [],
-                "enemy_id": "408017",
-                "init_hp": 7639,
-                "lv": "46",
-                "max_hp": 7639,
+                "uid": "203",
                 "no": "3",
+                "init_hp": 7639,
+                "max_hp": 7639,
+                "lv": "46",
                 "params": [
                     {
                         "abilities": [
@@ -183,24 +226,18 @@
                                 "weight": "100"
                             }
                         ],
-                        "acc": "100",
-                        "animation_info": {
-                            "assets": {
-                                "boss-208018_3": "/Content/lang/ab/character/boss/208018/208018_3.json"
-                            },
-                            "enemy_status_id": "4080175",
-                            "hp_gauge_size": "2",
-                            "offset_x": "0",
-                            "offset_y": "0",
-                            "path": "208018_3",
-                            "scale": "1",
-                            "uses_fix_pos": false
-                        },
-                        "atk": 131,
-                        "breed_id": "12",
-                        "counters": [],
+                        "mnd": 78,
+                        "id": "4080175",
+                        "size": "2",
+                        "looking": "0",
+                        "no": "3",
+                        "spd": "100",
+                        "disp_name": "Galbadian Soldier",
+                        "lv": "46",
                         "critical": "3",
-                        "def": 78,
+                        "max_hp": 7639,
+                        "matk": 145,
+                        "counters": [],
                         "def_attributes": [
                             {
                                 "attribute_id": "108",
@@ -231,32 +268,38 @@
                                 "factor": "1"
                             }
                         ],
-                        "disp_name": "Galbadian Soldier",
-                        "eva": "70",
-                        "exp": 0,
-                        "id": "4080175",
-                        "looking": "0",
-                        "lv": "46",
-                        "matk": 145,
-                        "max_hp": 7639,
                         "mdef": 78,
-                        "mnd": 78,
-                        "no": "3",
-                        "size": "2",
-                        "spd": "100"
+                        "animation_info": {
+                            "enemy_status_id": "4080175",
+                            "assets": {
+                                "boss-208018_3": "/Content/lang/ab/character/boss/208018/208018_3.json"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "scale": "1",
+                            "offset_x": "0",
+                            "offset_y": "0",
+                            "path": "208018_3"
+                        },
+                        "acc": "100",
+                        "eva": "70",
+                        "atk": 131,
+                        "breed_id": "12",
+                        "exp": 0,
+                        "def": 78
                     }
                 ],
-                "uid": "203"
+                "child_pos_id": "3",
+                "enemy_id": "408017",
+                "ai_id": "1"
             },
             {
-                "ai_id": "1",
-                "child_pos_id": "1",
                 "drop_item_list": [],
-                "enemy_id": "408017",
-                "init_hp": 64497,
-                "lv": "46",
-                "max_hp": 64497,
+                "uid": "204",
                 "no": "1",
+                "init_hp": 64497,
+                "max_hp": 64497,
+                "lv": "46",
                 "params": [
                     {
                         "abilities": [
@@ -265,24 +308,18 @@
                                 "weight": "100"
                             }
                         ],
-                        "acc": "100",
-                        "animation_info": {
-                            "assets": {
-                                "boss-208018_1": "/Content/lang/ab/character/boss/208018/208018_1.json"
-                            },
-                            "enemy_status_id": "4080171",
-                            "hp_gauge_size": "3",
-                            "offset_x": "0",
-                            "offset_y": "0",
-                            "path": "208018_1",
-                            "scale": "1",
-                            "uses_fix_pos": false
-                        },
-                        "atk": 145,
-                        "breed_id": "14",
-                        "counters": [],
+                        "mnd": 52,
+                        "id": "4080171",
+                        "size": "3",
+                        "looking": "0",
+                        "no": "1",
+                        "spd": "100",
+                        "disp_name": "BGH251F2",
+                        "lv": "46",
                         "critical": "3",
-                        "def": 116,
+                        "max_hp": 64497,
+                        "matk": 117,
+                        "counters": [],
                         "def_attributes": [
                             {
                                 "attribute_id": "200",
@@ -361,19 +398,25 @@
                                 "factor": "1"
                             }
                         ],
-                        "disp_name": "BGH251F2",
-                        "eva": "86",
-                        "exp": 1394,
-                        "id": "4080171",
-                        "looking": "0",
-                        "lv": "46",
-                        "matk": 117,
-                        "max_hp": 64497,
                         "mdef": 52,
-                        "mnd": 52,
-                        "no": "1",
-                        "size": "3",
-                        "spd": "100"
+                        "animation_info": {
+                            "enemy_status_id": "4080171",
+                            "assets": {
+                                "boss-208018_1": "/Content/lang/ab/character/boss/208018/208018_1.json"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "3",
+                            "scale": "1",
+                            "offset_x": "0",
+                            "offset_y": "0",
+                            "path": "208018_1"
+                        },
+                        "acc": "100",
+                        "eva": "86",
+                        "atk": 145,
+                        "breed_id": "14",
+                        "exp": 1394,
+                        "def": 116
                     },
                     {
                         "abilities": [
@@ -386,24 +429,18 @@
                                 "weight": "20"
                             }
                         ],
-                        "acc": "100",
-                        "animation_info": {
-                            "assets": {
-                                "boss-208018_1": "/Content/lang/ab/character/boss/208018/208018_1.json"
-                            },
-                            "enemy_status_id": "4080172",
-                            "hp_gauge_size": "3",
-                            "offset_x": "0",
-                            "offset_y": "0",
-                            "path": "208018_1",
-                            "scale": "1",
-                            "uses_fix_pos": false
-                        },
-                        "atk": 145,
-                        "breed_id": "14",
-                        "counters": [],
+                        "mnd": 52,
+                        "id": "4080172",
+                        "size": "3",
+                        "looking": "0",
+                        "no": "1",
+                        "spd": "100",
+                        "disp_name": "BGH251F2",
+                        "lv": "46",
                         "critical": "3",
-                        "def": 116,
+                        "max_hp": 64497,
+                        "matk": 117,
+                        "counters": [],
                         "def_attributes": [
                             {
                                 "attribute_id": "102",
@@ -482,19 +519,25 @@
                                 "factor": "1"
                             }
                         ],
-                        "disp_name": "BGH251F2",
-                        "eva": "86",
-                        "exp": 0,
-                        "id": "4080172",
-                        "looking": "0",
-                        "lv": "46",
-                        "matk": 117,
-                        "max_hp": 64497,
                         "mdef": 52,
-                        "mnd": 52,
-                        "no": "1",
-                        "size": "3",
-                        "spd": "100"
+                        "animation_info": {
+                            "enemy_status_id": "4080172",
+                            "assets": {
+                                "boss-208018_1": "/Content/lang/ab/character/boss/208018/208018_1.json"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "3",
+                            "scale": "1",
+                            "offset_x": "0",
+                            "offset_y": "0",
+                            "path": "208018_1"
+                        },
+                        "acc": "100",
+                        "eva": "86",
+                        "atk": 145,
+                        "breed_id": "14",
+                        "exp": 0,
+                        "def": 116
                     },
                     {
                         "abilities": [
@@ -503,24 +546,18 @@
                                 "weight": "100"
                             }
                         ],
-                        "acc": "100",
-                        "animation_info": {
-                            "assets": {
-                                "boss-208018_1": "/Content/lang/ab/character/boss/208018/208018_1.json"
-                            },
-                            "enemy_status_id": "4080173",
-                            "hp_gauge_size": "3",
-                            "offset_x": "0",
-                            "offset_y": "0",
-                            "path": "208018_1",
-                            "scale": "1",
-                            "uses_fix_pos": false
-                        },
-                        "atk": 145,
-                        "breed_id": "14",
-                        "counters": [],
+                        "mnd": 52,
+                        "id": "4080173",
+                        "size": "3",
+                        "looking": "0",
+                        "no": "1",
+                        "spd": "100",
+                        "disp_name": "BGH251F2",
+                        "lv": "46",
                         "critical": "3",
-                        "def": 116,
+                        "max_hp": 64497,
+                        "matk": 117,
+                        "counters": [],
                         "def_attributes": [
                             {
                                 "attribute_id": "201",
@@ -599,69 +636,697 @@
                                 "factor": "1"
                             }
                         ],
-                        "disp_name": "BGH251F2",
-                        "eva": "86",
-                        "exp": 0,
-                        "id": "4080173",
-                        "looking": "0",
-                        "lv": "46",
-                        "matk": 117,
-                        "max_hp": 64497,
                         "mdef": 52,
-                        "mnd": 52,
-                        "no": "1",
-                        "size": "3",
-                        "spd": "100"
+                        "animation_info": {
+                            "enemy_status_id": "4080173",
+                            "assets": {
+                                "boss-208018_1": "/Content/lang/ab/character/boss/208018/208018_1.json"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "3",
+                            "scale": "1",
+                            "offset_x": "0",
+                            "offset_y": "0",
+                            "path": "208018_1"
+                        },
+                        "acc": "100",
+                        "eva": "86",
+                        "atk": 145,
+                        "breed_id": "14",
+                        "exp": 0,
+                        "def": 116
                     }
                 ],
-                "uid": "204"
+                "child_pos_id": "1",
+                "enemy_id": "408017",
+                "ai_id": "1"
             }
         ],
+        "ai_id": "40801751"
+    },
+    {
+        "is_sp_enemy": "1",
         "deform_animation_info": [
             {
                 "deform_tag": "in",
-                "enemy_id": "408017",
-                "id": "20801801",
                 "is_random": true,
-                "path": "208018_1.json",
                 "state": [
                     "1"
-                ]
+                ],
+                "path": "208018_1.json",
+                "enemy_id": "408017",
+                "id": "20801801"
             },
             {
                 "deform_tag": "deformation_01",
-                "enemy_id": "408017",
-                "id": "20801802",
                 "is_random": true,
-                "path": "208018_1.json",
                 "state": [
                     "1"
-                ]
+                ],
+                "path": "208018_1.json",
+                "enemy_id": "408017",
+                "id": "20801802"
             },
             {
                 "deform_tag": "deformation_03",
-                "enemy_id": "408017",
-                "id": "20801804",
                 "is_random": true,
-                "path": "208018_1.json",
                 "state": [
                     "2",
                     "3",
                     "4"
-                ]
+                ],
+                "path": "208018_1.json",
+                "enemy_id": "408017",
+                "id": "20801804"
             },
             {
                 "deform_tag": "deformation_02",
-                "enemy_id": "408017",
-                "id": "20801803",
                 "is_random": true,
-                "path": "208018_1.json",
                 "state": [
                     "1"
-                ]
+                ],
+                "path": "208018_1.json",
+                "enemy_id": "408017",
+                "id": "20801803"
             }
         ],
+        "ai_id": "40801751",
         "id": "408017",
-        "is_sp_enemy": "1"
+        "children": [
+            {
+                "drop_item_list": [],
+                "uid": "201",
+                "no": "4",
+                "init_hp": 7639,
+                "child_pos_id": "4",
+                "lv": "46",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "101001",
+                                "weight": "100"
+                            }
+                        ],
+                        "mnd": 78,
+                        "id": "4080176",
+                        "size": "2",
+                        "lv": "46",
+                        "no": "4",
+                        "spd": "100",
+                        "disp_name": "Galbadian Soldier",
+                        "looking": "0",
+                        "critical": "3",
+                        "max_hp": 7639,
+                        "matk": 145,
+                        "counters": [],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "220",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "218",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "108",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "225",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "219",
+                                "factor": "1"
+                            }
+                        ],
+                        "mdef": 78,
+                        "animation_info": {
+                            "scale": "1",
+                            "assets": {
+                                "boss-208018_3": "/Content/lang/ab/character/boss/208018/208018_3.json"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "enemy_status_id": "4080176",
+                            "offset_y": "0",
+                            "path": "208018_3",
+                            "offset_x": "0"
+                        },
+                        "acc": "100",
+                        "eva": "70",
+                        "atk": 131,
+                        "breed_id": "12",
+                        "exp": 0,
+                        "def": 78
+                    }
+                ],
+                "max_hp": 7639,
+                "enemy_id": "408017",
+                "ai_id": "1"
+            },
+            {
+                "drop_item_list": [],
+                "uid": "202",
+                "no": "2",
+                "init_hp": 11459,
+                "child_pos_id": "2",
+                "lv": "46",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "101001",
+                                "weight": "100"
+                            }
+                        ],
+                        "mnd": 78,
+                        "id": "4080174",
+                        "size": "2",
+                        "lv": "46",
+                        "no": "2",
+                        "spd": "100",
+                        "disp_name": "Elite Soldier",
+                        "looking": "0",
+                        "critical": "3",
+                        "max_hp": 11459,
+                        "matk": 145,
+                        "counters": [],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "219",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "225",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "218",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "108",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "220",
+                                "factor": "1"
+                            }
+                        ],
+                        "mdef": 78,
+                        "animation_info": {
+                            "scale": "1",
+                            "assets": {
+                                "boss-208018_2": "/Content/lang/ab/character/boss/208018/208018_2.json"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "enemy_status_id": "4080174",
+                            "offset_y": "0",
+                            "path": "208018_2",
+                            "offset_x": "0"
+                        },
+                        "acc": "100",
+                        "eva": "70",
+                        "atk": 131,
+                        "breed_id": "12",
+                        "exp": 0,
+                        "def": 78
+                    }
+                ],
+                "max_hp": 11459,
+                "enemy_id": "408017",
+                "ai_id": "1"
+            },
+            {
+                "drop_item_list": [],
+                "uid": "203",
+                "no": "3",
+                "init_hp": 7639,
+                "child_pos_id": "3",
+                "lv": "46",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "101001",
+                                "weight": "100"
+                            }
+                        ],
+                        "mnd": 78,
+                        "id": "4080175",
+                        "size": "2",
+                        "lv": "46",
+                        "no": "3",
+                        "spd": "100",
+                        "disp_name": "Galbadian Soldier",
+                        "looking": "0",
+                        "critical": "3",
+                        "max_hp": 7639,
+                        "matk": 145,
+                        "counters": [],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "108",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "220",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "219",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "218",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "225",
+                                "factor": "1"
+                            }
+                        ],
+                        "mdef": 78,
+                        "animation_info": {
+                            "scale": "1",
+                            "assets": {
+                                "boss-208018_3": "/Content/lang/ab/character/boss/208018/208018_3.json"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "enemy_status_id": "4080175",
+                            "offset_y": "0",
+                            "path": "208018_3",
+                            "offset_x": "0"
+                        },
+                        "acc": "100",
+                        "eva": "70",
+                        "atk": 131,
+                        "breed_id": "12",
+                        "exp": 0,
+                        "def": 78
+                    }
+                ],
+                "max_hp": 7639,
+                "enemy_id": "408017",
+                "ai_id": "1"
+            },
+            {
+                "drop_item_list": [],
+                "uid": "204",
+                "no": "1",
+                "init_hp": 64497,
+                "child_pos_id": "1",
+                "lv": "46",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "201381",
+                                "weight": "100"
+                            }
+                        ],
+                        "mnd": 52,
+                        "id": "4080171",
+                        "size": "3",
+                        "lv": "46",
+                        "no": "1",
+                        "spd": "100",
+                        "disp_name": "BGH251F2",
+                        "looking": "0",
+                        "critical": "3",
+                        "max_hp": 64497,
+                        "matk": 117,
+                        "counters": [],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "229",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "200",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "203",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "211",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "212",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "213",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "220",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "225",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "205",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "224",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "218",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "201",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "102",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "206",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "219",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "202",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "214",
+                                "factor": "1"
+                            }
+                        ],
+                        "mdef": 52,
+                        "animation_info": {
+                            "scale": "1",
+                            "assets": {
+                                "boss-208018_1": "/Content/lang/ab/character/boss/208018/208018_1.json"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "3",
+                            "enemy_status_id": "4080171",
+                            "offset_y": "0",
+                            "path": "208018_1",
+                            "offset_x": "0"
+                        },
+                        "acc": "100",
+                        "eva": "86",
+                        "atk": 145,
+                        "breed_id": "14",
+                        "exp": 1394,
+                        "def": 116
+                    },
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "201382",
+                                "weight": "20"
+                            },
+                            {
+                                "ability_id": "201381",
+                                "weight": "80"
+                            }
+                        ],
+                        "mnd": 52,
+                        "id": "4080172",
+                        "size": "3",
+                        "lv": "46",
+                        "no": "1",
+                        "spd": "100",
+                        "disp_name": "BGH251F2",
+                        "looking": "0",
+                        "critical": "3",
+                        "max_hp": 64497,
+                        "matk": 117,
+                        "counters": [],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "102",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "200",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "212",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "224",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "220",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "203",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "206",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "213",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "218",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "202",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "211",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "205",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "225",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "214",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "229",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "201",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "219",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            }
+                        ],
+                        "mdef": 52,
+                        "animation_info": {
+                            "scale": "1",
+                            "assets": {
+                                "boss-208018_1": "/Content/lang/ab/character/boss/208018/208018_1.json"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "3",
+                            "enemy_status_id": "4080172",
+                            "offset_y": "0",
+                            "path": "208018_1",
+                            "offset_x": "0"
+                        },
+                        "acc": "100",
+                        "eva": "86",
+                        "atk": 145,
+                        "breed_id": "14",
+                        "exp": 0,
+                        "def": 116
+                    },
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "201382",
+                                "weight": "100"
+                            }
+                        ],
+                        "mnd": 52,
+                        "id": "4080173",
+                        "size": "3",
+                        "lv": "46",
+                        "no": "1",
+                        "spd": "100",
+                        "disp_name": "BGH251F2",
+                        "looking": "0",
+                        "critical": "3",
+                        "max_hp": 64497,
+                        "matk": 117,
+                        "counters": [],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "201",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "220",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "214",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "206",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "212",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "219",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "205",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "102",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "213",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "224",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "202",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "229",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "203",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "225",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "200",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "218",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "211",
+                                "factor": "1"
+                            }
+                        ],
+                        "mdef": 52,
+                        "animation_info": {
+                            "scale": "1",
+                            "assets": {
+                                "boss-208018_1": "/Content/lang/ab/character/boss/208018/208018_1.json"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "3",
+                            "enemy_status_id": "4080173",
+                            "offset_y": "0",
+                            "path": "208018_1",
+                            "offset_x": "0"
+                        },
+                        "acc": "100",
+                        "eva": "86",
+                        "atk": 145,
+                        "breed_id": "14",
+                        "exp": 0,
+                        "def": 116
+                    }
+                ],
+                "max_hp": 64497,
+                "enemy_id": "408017",
+                "ai_id": "1"
+            }
+        ]
     }
 ]

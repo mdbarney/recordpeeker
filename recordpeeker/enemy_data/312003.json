@@ -1,16 +1,16 @@
 [
     {
-        "ai_id": 0,
+        "id": "312002",
+        "is_sp_enemy": 0,
+        "deform_animation_info": [],
         "children": [
             {
-                "ai_id": "1",
-                "child_pos_id": "1",
                 "drop_item_list": [],
-                "enemy_id": "312002",
-                "init_hp": 810,
-                "lv": "44",
-                "max_hp": 810,
+                "uid": "201",
                 "no": "1",
+                "init_hp": 810,
+                "max_hp": 810,
+                "lv": "44",
                 "params": [
                     {
                         "abilities": [
@@ -23,24 +23,18 @@
                                 "weight": "40"
                             }
                         ],
-                        "acc": "100",
-                        "animation_info": {
-                            "assets": {
-                                "enemy-112001": "/Content/lang/ab/character/enemy/112001.sajson"
-                            },
-                            "enemy_status_id": "3120021",
-                            "hp_gauge_size": "2",
-                            "offset_x": "0",
-                            "offset_y": "-12",
-                            "path": "112001",
-                            "scale": "1.5",
-                            "uses_fix_pos": false
-                        },
-                        "atk": 100,
-                        "breed_id": "6",
-                        "counters": [],
+                        "mnd": 75,
+                        "id": "3120021",
+                        "size": "1",
+                        "looking": "0",
+                        "no": "1",
+                        "spd": "100",
+                        "disp_name": "Cactoid",
+                        "lv": "44",
                         "critical": "3",
-                        "def": 75,
+                        "max_hp": 810,
+                        "matk": 139,
+                        "counters": [],
                         "def_attributes": [
                             {
                                 "attribute_id": "104",
@@ -79,40 +73,46 @@
                                 "factor": "1"
                             }
                         ],
-                        "disp_name": "Cactoid",
-                        "eva": "62",
-                        "exp": 365,
-                        "id": "3120021",
-                        "looking": "0",
-                        "lv": "44",
-                        "matk": 139,
-                        "max_hp": 810,
                         "mdef": 60,
-                        "mnd": 75,
-                        "no": "1",
-                        "size": "1",
-                        "spd": "100"
+                        "animation_info": {
+                            "enemy_status_id": "3120021",
+                            "assets": {
+                                "enemy-112001": "/Content/lang/ab/character/enemy/112001.sajson"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "scale": "1.5",
+                            "offset_x": "0",
+                            "offset_y": "-12",
+                            "path": "112001"
+                        },
+                        "acc": "100",
+                        "eva": "62",
+                        "atk": 100,
+                        "breed_id": "6",
+                        "exp": 365,
+                        "def": 75
                     }
                 ],
-                "uid": "201"
+                "child_pos_id": "1",
+                "enemy_id": "312002",
+                "ai_id": "1"
             }
         ],
-        "deform_animation_info": [],
-        "id": "312002",
-        "is_sp_enemy": 0
+        "ai_id": 0
     },
     {
-        "ai_id": 0,
+        "id": "312002",
+        "is_sp_enemy": 0,
+        "deform_animation_info": [],
         "children": [
             {
-                "ai_id": "1",
-                "child_pos_id": "1",
                 "drop_item_list": [],
-                "enemy_id": "312002",
-                "init_hp": 810,
-                "lv": "44",
-                "max_hp": 810,
+                "uid": "202",
                 "no": "1",
+                "init_hp": 810,
+                "max_hp": 810,
+                "lv": "44",
                 "params": [
                     {
                         "abilities": [
@@ -125,24 +125,18 @@
                                 "weight": "40"
                             }
                         ],
-                        "acc": "100",
-                        "animation_info": {
-                            "assets": {
-                                "enemy-112001": "/Content/lang/ab/character/enemy/112001.sajson"
-                            },
-                            "enemy_status_id": "3120021",
-                            "hp_gauge_size": "2",
-                            "offset_x": "0",
-                            "offset_y": "-12",
-                            "path": "112001",
-                            "scale": "1.5",
-                            "uses_fix_pos": false
-                        },
-                        "atk": 100,
-                        "breed_id": "6",
-                        "counters": [],
+                        "mnd": 75,
+                        "id": "3120021",
+                        "size": "1",
+                        "looking": "0",
+                        "no": "1",
+                        "spd": "100",
+                        "disp_name": "Cactoid",
+                        "lv": "44",
                         "critical": "3",
-                        "def": 75,
+                        "max_hp": 810,
+                        "matk": 139,
+                        "counters": [],
                         "def_attributes": [
                             {
                                 "attribute_id": "104",
@@ -181,40 +175,46 @@
                                 "factor": "1"
                             }
                         ],
-                        "disp_name": "Cactoid",
-                        "eva": "62",
-                        "exp": 365,
-                        "id": "3120021",
-                        "looking": "0",
-                        "lv": "44",
-                        "matk": 139,
-                        "max_hp": 810,
                         "mdef": 60,
-                        "mnd": 75,
-                        "no": "1",
-                        "size": "1",
-                        "spd": "100"
+                        "animation_info": {
+                            "enemy_status_id": "3120021",
+                            "assets": {
+                                "enemy-112001": "/Content/lang/ab/character/enemy/112001.sajson"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "scale": "1.5",
+                            "offset_x": "0",
+                            "offset_y": "-12",
+                            "path": "112001"
+                        },
+                        "acc": "100",
+                        "eva": "62",
+                        "atk": 100,
+                        "breed_id": "6",
+                        "exp": 365,
+                        "def": 75
                     }
                 ],
-                "uid": "202"
+                "child_pos_id": "1",
+                "enemy_id": "312002",
+                "ai_id": "1"
             }
         ],
-        "deform_animation_info": [],
-        "id": "312002",
-        "is_sp_enemy": 0
+        "ai_id": 0
     },
     {
-        "ai_id": 0,
+        "id": "312002",
+        "is_sp_enemy": 0,
+        "deform_animation_info": [],
         "children": [
             {
-                "ai_id": "1",
-                "child_pos_id": "1",
                 "drop_item_list": [],
-                "enemy_id": "312002",
-                "init_hp": 810,
-                "lv": "44",
-                "max_hp": 810,
+                "uid": "203",
                 "no": "1",
+                "init_hp": 810,
+                "max_hp": 810,
+                "lv": "44",
                 "params": [
                     {
                         "abilities": [
@@ -227,24 +227,18 @@
                                 "weight": "40"
                             }
                         ],
-                        "acc": "100",
-                        "animation_info": {
-                            "assets": {
-                                "enemy-112001": "/Content/lang/ab/character/enemy/112001.sajson"
-                            },
-                            "enemy_status_id": "3120021",
-                            "hp_gauge_size": "2",
-                            "offset_x": "0",
-                            "offset_y": "-12",
-                            "path": "112001",
-                            "scale": "1.5",
-                            "uses_fix_pos": false
-                        },
-                        "atk": 100,
-                        "breed_id": "6",
-                        "counters": [],
+                        "mnd": 75,
+                        "id": "3120021",
+                        "size": "1",
+                        "looking": "0",
+                        "no": "1",
+                        "spd": "100",
+                        "disp_name": "Cactoid",
+                        "lv": "44",
                         "critical": "3",
-                        "def": 75,
+                        "max_hp": 810,
+                        "matk": 139,
+                        "counters": [],
                         "def_attributes": [
                             {
                                 "attribute_id": "104",
@@ -283,48 +277,54 @@
                                 "factor": "1"
                             }
                         ],
-                        "disp_name": "Cactoid",
-                        "eva": "62",
-                        "exp": 365,
-                        "id": "3120021",
-                        "looking": "0",
-                        "lv": "44",
-                        "matk": 139,
-                        "max_hp": 810,
                         "mdef": 60,
-                        "mnd": 75,
-                        "no": "1",
-                        "size": "1",
-                        "spd": "100"
+                        "animation_info": {
+                            "enemy_status_id": "3120021",
+                            "assets": {
+                                "enemy-112001": "/Content/lang/ab/character/enemy/112001.sajson"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "scale": "1.5",
+                            "offset_x": "0",
+                            "offset_y": "-12",
+                            "path": "112001"
+                        },
+                        "acc": "100",
+                        "eva": "62",
+                        "atk": 100,
+                        "breed_id": "6",
+                        "exp": 365,
+                        "def": 75
                     }
                 ],
-                "uid": "203"
+                "child_pos_id": "1",
+                "enemy_id": "312002",
+                "ai_id": "1"
             }
         ],
-        "deform_animation_info": [],
-        "id": "312002",
-        "is_sp_enemy": 0
+        "ai_id": 0
     },
     {
-        "ai_id": 0,
+        "id": "312003",
+        "is_sp_enemy": 0,
+        "deform_animation_info": [],
         "children": [
             {
-                "ai_id": "1",
-                "child_pos_id": "1",
                 "drop_item_list": [
                     {
                         "item_id": "40000012",
                         "num": "1",
-                        "rarity": "2",
                         "type": 51,
-                        "uid": 204
+                        "uid": 204,
+                        "rarity": "2"
                     }
                 ],
-                "enemy_id": "312003",
-                "init_hp": 810,
-                "lv": "44",
-                "max_hp": 810,
+                "uid": "204",
                 "no": "1",
+                "init_hp": 810,
+                "max_hp": 810,
+                "lv": "44",
                 "params": [
                     {
                         "abilities": [
@@ -337,24 +337,18 @@
                                 "weight": "40"
                             }
                         ],
-                        "acc": "100",
-                        "animation_info": {
-                            "assets": {
-                                "enemy-112002": "/Content/lang/ab/character/enemy/112002.sajson"
-                            },
-                            "enemy_status_id": "3120031",
-                            "hp_gauge_size": "2",
-                            "offset_x": "0",
-                            "offset_y": "-9",
-                            "path": "112002",
-                            "scale": "1",
-                            "uses_fix_pos": false
-                        },
-                        "atk": 100,
-                        "breed_id": "6",
-                        "counters": [],
+                        "mnd": 75,
+                        "id": "3120031",
+                        "size": "1",
+                        "looking": "0",
+                        "no": "1",
+                        "spd": "100",
+                        "disp_name": "Cactite",
+                        "lv": "44",
                         "critical": "3",
-                        "def": 75,
+                        "max_hp": 810,
+                        "matk": 139,
+                        "counters": [],
                         "def_attributes": [
                             {
                                 "attribute_id": "218",
@@ -393,47 +387,53 @@
                                 "factor": "1"
                             }
                         ],
-                        "disp_name": "Cactite",
-                        "eva": "62",
-                        "exp": 365,
-                        "id": "3120031",
-                        "looking": "0",
-                        "lv": "44",
-                        "matk": 139,
-                        "max_hp": 810,
                         "mdef": 60,
-                        "mnd": 75,
-                        "no": "1",
-                        "size": "1",
-                        "spd": "100"
+                        "animation_info": {
+                            "enemy_status_id": "3120031",
+                            "assets": {
+                                "enemy-112002": "/Content/lang/ab/character/enemy/112002.sajson"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "scale": "1",
+                            "offset_x": "0",
+                            "offset_y": "-9",
+                            "path": "112002"
+                        },
+                        "acc": "100",
+                        "eva": "62",
+                        "atk": 100,
+                        "breed_id": "6",
+                        "exp": 365,
+                        "def": 75
                     }
                 ],
-                "uid": "204"
+                "child_pos_id": "1",
+                "enemy_id": "312003",
+                "ai_id": "1"
             }
         ],
-        "deform_animation_info": [],
-        "id": "312003",
-        "is_sp_enemy": 0
+        "ai_id": 0
     },
     {
-        "ai_id": 0,
+        "id": "312003",
+        "is_sp_enemy": 0,
+        "deform_animation_info": [],
         "children": [
             {
-                "ai_id": "1",
-                "child_pos_id": "1",
                 "drop_item_list": [
                     {
                         "amount": 935,
-                        "rarity": 1,
                         "type": 11,
-                        "uid": 205
+                        "uid": 205,
+                        "rarity": 1
                     }
                 ],
-                "enemy_id": "312003",
-                "init_hp": 810,
-                "lv": "44",
-                "max_hp": 810,
+                "uid": "205",
                 "no": "1",
+                "init_hp": 810,
+                "max_hp": 810,
+                "lv": "44",
                 "params": [
                     {
                         "abilities": [
@@ -446,24 +446,18 @@
                                 "weight": "40"
                             }
                         ],
-                        "acc": "100",
-                        "animation_info": {
-                            "assets": {
-                                "enemy-112002": "/Content/lang/ab/character/enemy/112002.sajson"
-                            },
-                            "enemy_status_id": "3120031",
-                            "hp_gauge_size": "2",
-                            "offset_x": "0",
-                            "offset_y": "-9",
-                            "path": "112002",
-                            "scale": "1",
-                            "uses_fix_pos": false
-                        },
-                        "atk": 100,
-                        "breed_id": "6",
-                        "counters": [],
+                        "mnd": 75,
+                        "id": "3120031",
+                        "size": "1",
+                        "looking": "0",
+                        "no": "1",
+                        "spd": "100",
+                        "disp_name": "Cactite",
+                        "lv": "44",
                         "critical": "3",
-                        "def": 75,
+                        "max_hp": 810,
+                        "matk": 139,
+                        "counters": [],
                         "def_attributes": [
                             {
                                 "attribute_id": "218",
@@ -502,48 +496,54 @@
                                 "factor": "1"
                             }
                         ],
-                        "disp_name": "Cactite",
-                        "eva": "62",
-                        "exp": 365,
-                        "id": "3120031",
-                        "looking": "0",
-                        "lv": "44",
-                        "matk": 139,
-                        "max_hp": 810,
                         "mdef": 60,
-                        "mnd": 75,
-                        "no": "1",
-                        "size": "1",
-                        "spd": "100"
+                        "animation_info": {
+                            "enemy_status_id": "3120031",
+                            "assets": {
+                                "enemy-112002": "/Content/lang/ab/character/enemy/112002.sajson"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "scale": "1",
+                            "offset_x": "0",
+                            "offset_y": "-9",
+                            "path": "112002"
+                        },
+                        "acc": "100",
+                        "eva": "62",
+                        "atk": 100,
+                        "breed_id": "6",
+                        "exp": 365,
+                        "def": 75
                     }
                 ],
-                "uid": "205"
+                "child_pos_id": "1",
+                "enemy_id": "312003",
+                "ai_id": "1"
             }
         ],
-        "deform_animation_info": [],
-        "id": "312003",
-        "is_sp_enemy": 0
+        "ai_id": 0
     },
     {
-        "ai_id": 0,
+        "id": "312002",
+        "is_sp_enemy": 0,
+        "deform_animation_info": [],
         "children": [
             {
-                "ai_id": "1",
-                "child_pos_id": "1",
                 "drop_item_list": [
                     {
                         "item_id": "40000047",
                         "num": "1",
-                        "rarity": "2",
                         "type": 51,
-                        "uid": 206
+                        "uid": 206,
+                        "rarity": "2"
                     }
                 ],
-                "enemy_id": "312002",
-                "init_hp": 810,
-                "lv": "44",
-                "max_hp": 810,
+                "uid": "206",
                 "no": "1",
+                "init_hp": 810,
+                "max_hp": 810,
+                "lv": "44",
                 "params": [
                     {
                         "abilities": [
@@ -556,96 +556,96 @@
                                 "weight": "40"
                             }
                         ],
-                        "acc": "100",
+                        "mnd": 75,
+                        "id": "3120021",
+                        "size": "1",
+                        "looking": "0",
+                        "no": "1",
+                        "spd": "100",
+                        "disp_name": "Cactoid",
+                        "lv": "44",
+                        "critical": "3",
+                        "max_hp": 810,
+                        "matk": 139,
+                        "counters": [],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "104",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "213",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "218",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "219",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "220",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "225",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "203",
+                                "factor": "1"
+                            }
+                        ],
+                        "mdef": 60,
                         "animation_info": {
+                            "enemy_status_id": "3120021",
                             "assets": {
                                 "enemy-112001": "/Content/lang/ab/character/enemy/112001.sajson"
                             },
-                            "enemy_status_id": "3120021",
+                            "uses_fix_pos": false,
                             "hp_gauge_size": "2",
+                            "scale": "1.5",
                             "offset_x": "0",
                             "offset_y": "-12",
-                            "path": "112001",
-                            "scale": "1.5",
-                            "uses_fix_pos": false
+                            "path": "112001"
                         },
+                        "acc": "100",
+                        "eva": "62",
                         "atk": 100,
                         "breed_id": "6",
-                        "counters": [],
-                        "critical": "3",
-                        "def": 75,
-                        "def_attributes": [
-                            {
-                                "attribute_id": "104",
-                                "factor": "1"
-                            },
-                            {
-                                "attribute_id": "213",
-                                "factor": "1"
-                            },
-                            {
-                                "attribute_id": "221",
-                                "factor": "1"
-                            },
-                            {
-                                "attribute_id": "218",
-                                "factor": "1"
-                            },
-                            {
-                                "attribute_id": "222",
-                                "factor": "1"
-                            },
-                            {
-                                "attribute_id": "219",
-                                "factor": "1"
-                            },
-                            {
-                                "attribute_id": "220",
-                                "factor": "1"
-                            },
-                            {
-                                "attribute_id": "225",
-                                "factor": "1"
-                            },
-                            {
-                                "attribute_id": "203",
-                                "factor": "1"
-                            }
-                        ],
-                        "disp_name": "Cactoid",
-                        "eva": "62",
                         "exp": 365,
-                        "id": "3120021",
-                        "looking": "0",
-                        "lv": "44",
-                        "matk": 139,
-                        "max_hp": 810,
-                        "mdef": 60,
-                        "mnd": 75,
-                        "no": "1",
-                        "size": "1",
-                        "spd": "100"
+                        "def": 75
                     }
                 ],
-                "uid": "206"
+                "child_pos_id": "1",
+                "enemy_id": "312002",
+                "ai_id": "1"
             }
         ],
-        "deform_animation_info": [],
-        "id": "312002",
-        "is_sp_enemy": 0
+        "ai_id": 0
     },
     {
-        "ai_id": 0,
+        "id": "312003",
+        "is_sp_enemy": 0,
+        "deform_animation_info": [],
         "children": [
             {
-                "ai_id": "1",
-                "child_pos_id": "1",
                 "drop_item_list": [],
-                "enemy_id": "312003",
-                "init_hp": 810,
-                "lv": "44",
-                "max_hp": 810,
+                "uid": "207",
                 "no": "1",
+                "init_hp": 810,
+                "max_hp": 810,
+                "lv": "44",
                 "params": [
                     {
                         "abilities": [
@@ -658,24 +658,18 @@
                                 "weight": "40"
                             }
                         ],
-                        "acc": "100",
-                        "animation_info": {
-                            "assets": {
-                                "enemy-112002": "/Content/lang/ab/character/enemy/112002.sajson"
-                            },
-                            "enemy_status_id": "3120031",
-                            "hp_gauge_size": "2",
-                            "offset_x": "0",
-                            "offset_y": "-9",
-                            "path": "112002",
-                            "scale": "1",
-                            "uses_fix_pos": false
-                        },
-                        "atk": 100,
-                        "breed_id": "6",
-                        "counters": [],
+                        "mnd": 75,
+                        "id": "3120031",
+                        "size": "1",
+                        "looking": "0",
+                        "no": "1",
+                        "spd": "100",
+                        "disp_name": "Cactite",
+                        "lv": "44",
                         "critical": "3",
-                        "def": 75,
+                        "max_hp": 810,
+                        "matk": 139,
+                        "counters": [],
                         "def_attributes": [
                             {
                                 "attribute_id": "218",
@@ -714,47 +708,53 @@
                                 "factor": "1"
                             }
                         ],
-                        "disp_name": "Cactite",
-                        "eva": "62",
-                        "exp": 365,
-                        "id": "3120031",
-                        "looking": "0",
-                        "lv": "44",
-                        "matk": 139,
-                        "max_hp": 810,
                         "mdef": 60,
-                        "mnd": 75,
-                        "no": "1",
-                        "size": "1",
-                        "spd": "100"
+                        "animation_info": {
+                            "enemy_status_id": "3120031",
+                            "assets": {
+                                "enemy-112002": "/Content/lang/ab/character/enemy/112002.sajson"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "scale": "1",
+                            "offset_x": "0",
+                            "offset_y": "-9",
+                            "path": "112002"
+                        },
+                        "acc": "100",
+                        "eva": "62",
+                        "atk": 100,
+                        "breed_id": "6",
+                        "exp": 365,
+                        "def": 75
                     }
                 ],
-                "uid": "207"
+                "child_pos_id": "1",
+                "enemy_id": "312003",
+                "ai_id": "1"
             }
         ],
-        "deform_animation_info": [],
-        "id": "312003",
-        "is_sp_enemy": 0
+        "ai_id": 0
     },
     {
-        "ai_id": 0,
+        "id": "312003",
+        "is_sp_enemy": 0,
+        "deform_animation_info": [],
         "children": [
             {
-                "ai_id": "1",
-                "child_pos_id": "1",
                 "drop_item_list": [
                     {
                         "amount": 935,
-                        "rarity": 1,
                         "type": 11,
-                        "uid": 208
+                        "uid": 208,
+                        "rarity": 1
                     }
                 ],
-                "enemy_id": "312003",
-                "init_hp": 810,
-                "lv": "44",
-                "max_hp": 810,
+                "uid": "208",
                 "no": "1",
+                "init_hp": 810,
+                "max_hp": 810,
+                "lv": "44",
                 "params": [
                     {
                         "abilities": [
@@ -767,24 +767,18 @@
                                 "weight": "40"
                             }
                         ],
-                        "acc": "100",
-                        "animation_info": {
-                            "assets": {
-                                "enemy-112002": "/Content/lang/ab/character/enemy/112002.sajson"
-                            },
-                            "enemy_status_id": "3120031",
-                            "hp_gauge_size": "2",
-                            "offset_x": "0",
-                            "offset_y": "-9",
-                            "path": "112002",
-                            "scale": "1",
-                            "uses_fix_pos": false
-                        },
-                        "atk": 100,
-                        "breed_id": "6",
-                        "counters": [],
+                        "mnd": 75,
+                        "id": "3120031",
+                        "size": "1",
+                        "looking": "0",
+                        "no": "1",
+                        "spd": "100",
+                        "disp_name": "Cactite",
+                        "lv": "44",
                         "critical": "3",
-                        "def": 75,
+                        "max_hp": 810,
+                        "matk": 139,
+                        "counters": [],
                         "def_attributes": [
                             {
                                 "attribute_id": "218",
@@ -823,40 +817,46 @@
                                 "factor": "1"
                             }
                         ],
-                        "disp_name": "Cactite",
-                        "eva": "62",
-                        "exp": 365,
-                        "id": "3120031",
-                        "looking": "0",
-                        "lv": "44",
-                        "matk": 139,
-                        "max_hp": 810,
                         "mdef": 60,
-                        "mnd": 75,
-                        "no": "1",
-                        "size": "1",
-                        "spd": "100"
+                        "animation_info": {
+                            "enemy_status_id": "3120031",
+                            "assets": {
+                                "enemy-112002": "/Content/lang/ab/character/enemy/112002.sajson"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "scale": "1",
+                            "offset_x": "0",
+                            "offset_y": "-9",
+                            "path": "112002"
+                        },
+                        "acc": "100",
+                        "eva": "62",
+                        "atk": 100,
+                        "breed_id": "6",
+                        "exp": 365,
+                        "def": 75
                     }
                 ],
-                "uid": "208"
+                "child_pos_id": "1",
+                "enemy_id": "312003",
+                "ai_id": "1"
             }
         ],
-        "deform_animation_info": [],
-        "id": "312003",
-        "is_sp_enemy": 0
+        "ai_id": 0
     },
     {
-        "ai_id": 0,
+        "id": "312003",
+        "is_sp_enemy": 0,
+        "deform_animation_info": [],
         "children": [
             {
-                "ai_id": "1",
-                "child_pos_id": "1",
                 "drop_item_list": [],
-                "enemy_id": "312003",
-                "init_hp": 810,
-                "lv": "44",
-                "max_hp": 810,
+                "uid": "209",
                 "no": "1",
+                "init_hp": 810,
+                "max_hp": 810,
+                "lv": "44",
                 "params": [
                     {
                         "abilities": [
@@ -869,24 +869,18 @@
                                 "weight": "40"
                             }
                         ],
-                        "acc": "100",
-                        "animation_info": {
-                            "assets": {
-                                "enemy-112002": "/Content/lang/ab/character/enemy/112002.sajson"
-                            },
-                            "enemy_status_id": "3120031",
-                            "hp_gauge_size": "2",
-                            "offset_x": "0",
-                            "offset_y": "-9",
-                            "path": "112002",
-                            "scale": "1",
-                            "uses_fix_pos": false
-                        },
-                        "atk": 100,
-                        "breed_id": "6",
-                        "counters": [],
+                        "mnd": 75,
+                        "id": "3120031",
+                        "size": "1",
+                        "looking": "0",
+                        "no": "1",
+                        "spd": "100",
+                        "disp_name": "Cactite",
+                        "lv": "44",
                         "critical": "3",
-                        "def": 75,
+                        "max_hp": 810,
+                        "matk": 139,
+                        "counters": [],
                         "def_attributes": [
                             {
                                 "attribute_id": "218",
@@ -925,40 +919,46 @@
                                 "factor": "1"
                             }
                         ],
-                        "disp_name": "Cactite",
-                        "eva": "62",
-                        "exp": 365,
-                        "id": "3120031",
-                        "looking": "0",
-                        "lv": "44",
-                        "matk": 139,
-                        "max_hp": 810,
                         "mdef": 60,
-                        "mnd": 75,
-                        "no": "1",
-                        "size": "1",
-                        "spd": "100"
+                        "animation_info": {
+                            "enemy_status_id": "3120031",
+                            "assets": {
+                                "enemy-112002": "/Content/lang/ab/character/enemy/112002.sajson"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "scale": "1",
+                            "offset_x": "0",
+                            "offset_y": "-9",
+                            "path": "112002"
+                        },
+                        "acc": "100",
+                        "eva": "62",
+                        "atk": 100,
+                        "breed_id": "6",
+                        "exp": 365,
+                        "def": 75
                     }
                 ],
-                "uid": "209"
+                "child_pos_id": "1",
+                "enemy_id": "312003",
+                "ai_id": "1"
             }
         ],
-        "deform_animation_info": [],
-        "id": "312003",
-        "is_sp_enemy": 0
+        "ai_id": 0
     },
     {
-        "ai_id": 0,
+        "id": "312003",
+        "is_sp_enemy": 0,
+        "deform_animation_info": [],
         "children": [
             {
-                "ai_id": "1",
-                "child_pos_id": "1",
                 "drop_item_list": [],
-                "enemy_id": "312003",
-                "init_hp": 810,
-                "lv": "44",
-                "max_hp": 810,
+                "uid": "210",
                 "no": "1",
+                "init_hp": 810,
+                "max_hp": 810,
+                "lv": "44",
                 "params": [
                     {
                         "abilities": [
@@ -971,24 +971,18 @@
                                 "weight": "40"
                             }
                         ],
-                        "acc": "100",
-                        "animation_info": {
-                            "assets": {
-                                "enemy-112002": "/Content/lang/ab/character/enemy/112002.sajson"
-                            },
-                            "enemy_status_id": "3120031",
-                            "hp_gauge_size": "2",
-                            "offset_x": "0",
-                            "offset_y": "-9",
-                            "path": "112002",
-                            "scale": "1",
-                            "uses_fix_pos": false
-                        },
-                        "atk": 100,
-                        "breed_id": "6",
-                        "counters": [],
+                        "mnd": 75,
+                        "id": "3120031",
+                        "size": "1",
+                        "looking": "0",
+                        "no": "1",
+                        "spd": "100",
+                        "disp_name": "Cactite",
+                        "lv": "44",
                         "critical": "3",
-                        "def": 75,
+                        "max_hp": 810,
+                        "matk": 139,
+                        "counters": [],
                         "def_attributes": [
                             {
                                 "attribute_id": "218",
@@ -1027,48 +1021,65 @@
                                 "factor": "1"
                             }
                         ],
-                        "disp_name": "Cactite",
-                        "eva": "62",
-                        "exp": 365,
-                        "id": "3120031",
-                        "looking": "0",
-                        "lv": "44",
-                        "matk": 139,
-                        "max_hp": 810,
                         "mdef": 60,
-                        "mnd": 75,
-                        "no": "1",
-                        "size": "1",
-                        "spd": "100"
+                        "animation_info": {
+                            "enemy_status_id": "3120031",
+                            "assets": {
+                                "enemy-112002": "/Content/lang/ab/character/enemy/112002.sajson"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "scale": "1",
+                            "offset_x": "0",
+                            "offset_y": "-9",
+                            "path": "112002"
+                        },
+                        "acc": "100",
+                        "eva": "62",
+                        "atk": 100,
+                        "breed_id": "6",
+                        "exp": 365,
+                        "def": 75
                     }
                 ],
-                "uid": "210"
+                "child_pos_id": "1",
+                "enemy_id": "312003",
+                "ai_id": "1"
             }
         ],
-        "deform_animation_info": [],
-        "id": "312003",
-        "is_sp_enemy": 0
+        "ai_id": 0
     },
     {
-        "ai_id": "0",
+        "id": "412001",
+        "is_sp_enemy": "1",
+        "deform_animation_info": [
+            {
+                "deform_tag": "in",
+                "is_random": true,
+                "state": [
+                    "1"
+                ],
+                "path": "212041_1.json",
+                "enemy_id": "412001",
+                "id": "21204101"
+            }
+        ],
         "children": [
             {
-                "ai_id": "1",
-                "child_pos_id": "1",
                 "drop_item_list": [
                     {
                         "item_id": "40000043",
                         "num": "1",
-                        "rarity": "3",
                         "type": 51,
-                        "uid": 211
+                        "uid": 211,
+                        "rarity": "3"
                     }
                 ],
-                "enemy_id": "412001",
-                "init_hp": 64497,
-                "lv": "46",
-                "max_hp": 64497,
+                "uid": "211",
                 "no": "1",
+                "init_hp": 64497,
+                "max_hp": 64497,
+                "lv": "46",
                 "params": [
                     {
                         "abilities": [
@@ -1081,24 +1092,18 @@
                                 "weight": "50"
                             }
                         ],
-                        "acc": "100",
-                        "animation_info": {
-                            "assets": {
-                                "boss-212041_1": "/Content/lang/ab/character/boss/212041/212041_1.json"
-                            },
-                            "enemy_status_id": "4120011",
-                            "hp_gauge_size": "3",
-                            "offset_x": "0",
-                            "offset_y": "0",
-                            "path": "212041_1",
-                            "scale": "1",
-                            "uses_fix_pos": false
-                        },
-                        "atk": 145,
-                        "breed_id": "14",
-                        "counters": [],
+                        "mnd": 52,
+                        "id": "4120011",
+                        "size": "3",
+                        "looking": "0",
+                        "no": "1",
+                        "spd": "100",
+                        "disp_name": "Air Cutter Remora",
+                        "lv": "46",
                         "critical": "3",
-                        "def": 116,
+                        "max_hp": 64497,
+                        "matk": 117,
+                        "counters": [],
                         "def_attributes": [
                             {
                                 "attribute_id": "210",
@@ -1177,37 +1182,1228 @@
                                 "factor": "1"
                             }
                         ],
-                        "disp_name": "Air Cutter Remora",
-                        "eva": "86",
-                        "exp": 1394,
-                        "id": "4120011",
-                        "looking": "0",
-                        "lv": "46",
-                        "matk": 117,
-                        "max_hp": 64497,
                         "mdef": 52,
-                        "mnd": 52,
-                        "no": "1",
-                        "size": "3",
-                        "spd": "100"
+                        "animation_info": {
+                            "enemy_status_id": "4120011",
+                            "assets": {
+                                "boss-212041_1": "/Content/lang/ab/character/boss/212041/212041_1.json"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "3",
+                            "scale": "1",
+                            "offset_x": "0",
+                            "offset_y": "0",
+                            "path": "212041_1"
+                        },
+                        "acc": "100",
+                        "eva": "86",
+                        "atk": 145,
+                        "breed_id": "14",
+                        "exp": 1394,
+                        "def": 116
                     }
                 ],
-                "uid": "211"
+                "child_pos_id": "1",
+                "enemy_id": "412001",
+                "ai_id": "1"
             }
         ],
+        "ai_id": "0"
+    },
+    {
+        "is_sp_enemy": 0,
+        "deform_animation_info": [],
+        "ai_id": 0,
+        "id": "312002",
+        "children": [
+            {
+                "drop_item_list": [],
+                "uid": "201",
+                "no": "1",
+                "init_hp": 810,
+                "child_pos_id": "1",
+                "lv": "44",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "101001",
+                                "weight": "60"
+                            },
+                            {
+                                "ability_id": "201080",
+                                "weight": "40"
+                            }
+                        ],
+                        "mnd": 75,
+                        "id": "3120021",
+                        "size": "1",
+                        "lv": "44",
+                        "no": "1",
+                        "spd": "100",
+                        "disp_name": "Cactoid",
+                        "looking": "0",
+                        "critical": "3",
+                        "max_hp": 810,
+                        "matk": 139,
+                        "counters": [],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "104",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "213",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "218",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "219",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "220",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "225",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "203",
+                                "factor": "1"
+                            }
+                        ],
+                        "mdef": 60,
+                        "animation_info": {
+                            "scale": "1.5",
+                            "assets": {
+                                "enemy-112001": "/Content/lang/ab/character/enemy/112001.sajson"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "enemy_status_id": "3120021",
+                            "offset_y": "-12",
+                            "path": "112001",
+                            "offset_x": "0"
+                        },
+                        "acc": "100",
+                        "eva": "62",
+                        "atk": 100,
+                        "breed_id": "6",
+                        "exp": 365,
+                        "def": 75
+                    }
+                ],
+                "max_hp": 810,
+                "enemy_id": "312002",
+                "ai_id": "1"
+            }
+        ]
+    },
+    {
+        "is_sp_enemy": 0,
+        "deform_animation_info": [],
+        "ai_id": 0,
+        "id": "312002",
+        "children": [
+            {
+                "drop_item_list": [],
+                "uid": "202",
+                "no": "1",
+                "init_hp": 810,
+                "child_pos_id": "1",
+                "lv": "44",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "101001",
+                                "weight": "60"
+                            },
+                            {
+                                "ability_id": "201080",
+                                "weight": "40"
+                            }
+                        ],
+                        "mnd": 75,
+                        "id": "3120021",
+                        "size": "1",
+                        "lv": "44",
+                        "no": "1",
+                        "spd": "100",
+                        "disp_name": "Cactoid",
+                        "looking": "0",
+                        "critical": "3",
+                        "max_hp": 810,
+                        "matk": 139,
+                        "counters": [],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "104",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "213",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "218",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "219",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "220",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "225",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "203",
+                                "factor": "1"
+                            }
+                        ],
+                        "mdef": 60,
+                        "animation_info": {
+                            "scale": "1.5",
+                            "assets": {
+                                "enemy-112001": "/Content/lang/ab/character/enemy/112001.sajson"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "enemy_status_id": "3120021",
+                            "offset_y": "-12",
+                            "path": "112001",
+                            "offset_x": "0"
+                        },
+                        "acc": "100",
+                        "eva": "62",
+                        "atk": 100,
+                        "breed_id": "6",
+                        "exp": 365,
+                        "def": 75
+                    }
+                ],
+                "max_hp": 810,
+                "enemy_id": "312002",
+                "ai_id": "1"
+            }
+        ]
+    },
+    {
+        "is_sp_enemy": 0,
+        "deform_animation_info": [],
+        "ai_id": 0,
+        "id": "312003",
+        "children": [
+            {
+                "drop_item_list": [],
+                "uid": "203",
+                "no": "1",
+                "init_hp": 810,
+                "child_pos_id": "1",
+                "lv": "44",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "101001",
+                                "weight": "60"
+                            },
+                            {
+                                "ability_id": "201080",
+                                "weight": "40"
+                            }
+                        ],
+                        "mnd": 75,
+                        "id": "3120031",
+                        "size": "1",
+                        "lv": "44",
+                        "no": "1",
+                        "spd": "100",
+                        "disp_name": "Cactite",
+                        "looking": "0",
+                        "critical": "3",
+                        "max_hp": 810,
+                        "matk": 139,
+                        "counters": [],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "218",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "213",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "104",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "225",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "203",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "219",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "220",
+                                "factor": "1"
+                            }
+                        ],
+                        "mdef": 60,
+                        "animation_info": {
+                            "scale": "1",
+                            "assets": {
+                                "enemy-112002": "/Content/lang/ab/character/enemy/112002.sajson"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "enemy_status_id": "3120031",
+                            "offset_y": "-9",
+                            "path": "112002",
+                            "offset_x": "0"
+                        },
+                        "acc": "100",
+                        "eva": "62",
+                        "atk": 100,
+                        "breed_id": "6",
+                        "exp": 365,
+                        "def": 75
+                    }
+                ],
+                "max_hp": 810,
+                "enemy_id": "312003",
+                "ai_id": "1"
+            }
+        ]
+    },
+    {
+        "is_sp_enemy": 0,
+        "deform_animation_info": [],
+        "ai_id": 0,
+        "id": "312003",
+        "children": [
+            {
+                "drop_item_list": [],
+                "uid": "204",
+                "no": "1",
+                "init_hp": 810,
+                "child_pos_id": "1",
+                "lv": "44",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "101001",
+                                "weight": "60"
+                            },
+                            {
+                                "ability_id": "201080",
+                                "weight": "40"
+                            }
+                        ],
+                        "mnd": 75,
+                        "id": "3120031",
+                        "size": "1",
+                        "lv": "44",
+                        "no": "1",
+                        "spd": "100",
+                        "disp_name": "Cactite",
+                        "looking": "0",
+                        "critical": "3",
+                        "max_hp": 810,
+                        "matk": 139,
+                        "counters": [],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "218",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "213",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "104",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "225",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "203",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "219",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "220",
+                                "factor": "1"
+                            }
+                        ],
+                        "mdef": 60,
+                        "animation_info": {
+                            "scale": "1",
+                            "assets": {
+                                "enemy-112002": "/Content/lang/ab/character/enemy/112002.sajson"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "enemy_status_id": "3120031",
+                            "offset_y": "-9",
+                            "path": "112002",
+                            "offset_x": "0"
+                        },
+                        "acc": "100",
+                        "eva": "62",
+                        "atk": 100,
+                        "breed_id": "6",
+                        "exp": 365,
+                        "def": 75
+                    }
+                ],
+                "max_hp": 810,
+                "enemy_id": "312003",
+                "ai_id": "1"
+            }
+        ]
+    },
+    {
+        "is_sp_enemy": 0,
+        "deform_animation_info": [],
+        "ai_id": 0,
+        "id": "312003",
+        "children": [
+            {
+                "drop_item_list": [
+                    {
+                        "amount": 935,
+                        "type": 11,
+                        "uid": 205,
+                        "rarity": 1
+                    }
+                ],
+                "uid": "205",
+                "no": "1",
+                "init_hp": 810,
+                "child_pos_id": "1",
+                "lv": "44",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "101001",
+                                "weight": "60"
+                            },
+                            {
+                                "ability_id": "201080",
+                                "weight": "40"
+                            }
+                        ],
+                        "mnd": 75,
+                        "id": "3120031",
+                        "size": "1",
+                        "lv": "44",
+                        "no": "1",
+                        "spd": "100",
+                        "disp_name": "Cactite",
+                        "looking": "0",
+                        "critical": "3",
+                        "max_hp": 810,
+                        "matk": 139,
+                        "counters": [],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "218",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "213",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "104",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "225",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "203",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "219",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "220",
+                                "factor": "1"
+                            }
+                        ],
+                        "mdef": 60,
+                        "animation_info": {
+                            "scale": "1",
+                            "assets": {
+                                "enemy-112002": "/Content/lang/ab/character/enemy/112002.sajson"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "enemy_status_id": "3120031",
+                            "offset_y": "-9",
+                            "path": "112002",
+                            "offset_x": "0"
+                        },
+                        "acc": "100",
+                        "eva": "62",
+                        "atk": 100,
+                        "breed_id": "6",
+                        "exp": 365,
+                        "def": 75
+                    }
+                ],
+                "max_hp": 810,
+                "enemy_id": "312003",
+                "ai_id": "1"
+            }
+        ]
+    },
+    {
+        "is_sp_enemy": 0,
+        "deform_animation_info": [],
+        "ai_id": 0,
+        "id": "312002",
+        "children": [
+            {
+                "drop_item_list": [],
+                "uid": "206",
+                "no": "1",
+                "init_hp": 810,
+                "child_pos_id": "1",
+                "lv": "44",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "101001",
+                                "weight": "60"
+                            },
+                            {
+                                "ability_id": "201080",
+                                "weight": "40"
+                            }
+                        ],
+                        "mnd": 75,
+                        "id": "3120021",
+                        "size": "1",
+                        "lv": "44",
+                        "no": "1",
+                        "spd": "100",
+                        "disp_name": "Cactoid",
+                        "looking": "0",
+                        "critical": "3",
+                        "max_hp": 810,
+                        "matk": 139,
+                        "counters": [],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "104",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "213",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "218",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "219",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "220",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "225",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "203",
+                                "factor": "1"
+                            }
+                        ],
+                        "mdef": 60,
+                        "animation_info": {
+                            "scale": "1.5",
+                            "assets": {
+                                "enemy-112001": "/Content/lang/ab/character/enemy/112001.sajson"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "enemy_status_id": "3120021",
+                            "offset_y": "-12",
+                            "path": "112001",
+                            "offset_x": "0"
+                        },
+                        "acc": "100",
+                        "eva": "62",
+                        "atk": 100,
+                        "breed_id": "6",
+                        "exp": 365,
+                        "def": 75
+                    }
+                ],
+                "max_hp": 810,
+                "enemy_id": "312002",
+                "ai_id": "1"
+            }
+        ]
+    },
+    {
+        "is_sp_enemy": 0,
+        "deform_animation_info": [],
+        "ai_id": 0,
+        "id": "312002",
+        "children": [
+            {
+                "drop_item_list": [],
+                "uid": "207",
+                "no": "1",
+                "init_hp": 810,
+                "child_pos_id": "1",
+                "lv": "44",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "101001",
+                                "weight": "60"
+                            },
+                            {
+                                "ability_id": "201080",
+                                "weight": "40"
+                            }
+                        ],
+                        "mnd": 75,
+                        "id": "3120021",
+                        "size": "1",
+                        "lv": "44",
+                        "no": "1",
+                        "spd": "100",
+                        "disp_name": "Cactoid",
+                        "looking": "0",
+                        "critical": "3",
+                        "max_hp": 810,
+                        "matk": 139,
+                        "counters": [],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "104",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "213",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "218",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "219",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "220",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "225",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "203",
+                                "factor": "1"
+                            }
+                        ],
+                        "mdef": 60,
+                        "animation_info": {
+                            "scale": "1.5",
+                            "assets": {
+                                "enemy-112001": "/Content/lang/ab/character/enemy/112001.sajson"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "enemy_status_id": "3120021",
+                            "offset_y": "-12",
+                            "path": "112001",
+                            "offset_x": "0"
+                        },
+                        "acc": "100",
+                        "eva": "62",
+                        "atk": 100,
+                        "breed_id": "6",
+                        "exp": 365,
+                        "def": 75
+                    }
+                ],
+                "max_hp": 810,
+                "enemy_id": "312002",
+                "ai_id": "1"
+            }
+        ]
+    },
+    {
+        "is_sp_enemy": 0,
+        "deform_animation_info": [],
+        "ai_id": 0,
+        "id": "312002",
+        "children": [
+            {
+                "drop_item_list": [
+                    {
+                        "item_id": "40000047",
+                        "num": "1",
+                        "type": 51,
+                        "uid": 208,
+                        "rarity": "2"
+                    }
+                ],
+                "uid": "208",
+                "no": "1",
+                "init_hp": 810,
+                "child_pos_id": "1",
+                "lv": "44",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "101001",
+                                "weight": "60"
+                            },
+                            {
+                                "ability_id": "201080",
+                                "weight": "40"
+                            }
+                        ],
+                        "mnd": 75,
+                        "id": "3120021",
+                        "size": "1",
+                        "lv": "44",
+                        "no": "1",
+                        "spd": "100",
+                        "disp_name": "Cactoid",
+                        "looking": "0",
+                        "critical": "3",
+                        "max_hp": 810,
+                        "matk": 139,
+                        "counters": [],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "104",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "213",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "218",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "219",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "220",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "225",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "203",
+                                "factor": "1"
+                            }
+                        ],
+                        "mdef": 60,
+                        "animation_info": {
+                            "scale": "1.5",
+                            "assets": {
+                                "enemy-112001": "/Content/lang/ab/character/enemy/112001.sajson"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "enemy_status_id": "3120021",
+                            "offset_y": "-12",
+                            "path": "112001",
+                            "offset_x": "0"
+                        },
+                        "acc": "100",
+                        "eva": "62",
+                        "atk": 100,
+                        "breed_id": "6",
+                        "exp": 365,
+                        "def": 75
+                    }
+                ],
+                "max_hp": 810,
+                "enemy_id": "312002",
+                "ai_id": "1"
+            }
+        ]
+    },
+    {
+        "is_sp_enemy": 0,
+        "deform_animation_info": [],
+        "ai_id": 0,
+        "id": "312003",
+        "children": [
+            {
+                "drop_item_list": [],
+                "uid": "209",
+                "no": "1",
+                "init_hp": 810,
+                "child_pos_id": "1",
+                "lv": "44",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "101001",
+                                "weight": "60"
+                            },
+                            {
+                                "ability_id": "201080",
+                                "weight": "40"
+                            }
+                        ],
+                        "mnd": 75,
+                        "id": "3120031",
+                        "size": "1",
+                        "lv": "44",
+                        "no": "1",
+                        "spd": "100",
+                        "disp_name": "Cactite",
+                        "looking": "0",
+                        "critical": "3",
+                        "max_hp": 810,
+                        "matk": 139,
+                        "counters": [],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "218",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "213",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "104",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "225",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "203",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "219",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "220",
+                                "factor": "1"
+                            }
+                        ],
+                        "mdef": 60,
+                        "animation_info": {
+                            "scale": "1",
+                            "assets": {
+                                "enemy-112002": "/Content/lang/ab/character/enemy/112002.sajson"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "enemy_status_id": "3120031",
+                            "offset_y": "-9",
+                            "path": "112002",
+                            "offset_x": "0"
+                        },
+                        "acc": "100",
+                        "eva": "62",
+                        "atk": 100,
+                        "breed_id": "6",
+                        "exp": 365,
+                        "def": 75
+                    }
+                ],
+                "max_hp": 810,
+                "enemy_id": "312003",
+                "ai_id": "1"
+            }
+        ]
+    },
+    {
+        "is_sp_enemy": 0,
+        "deform_animation_info": [],
+        "ai_id": 0,
+        "id": "312003",
+        "children": [
+            {
+                "drop_item_list": [],
+                "uid": "210",
+                "no": "1",
+                "init_hp": 810,
+                "child_pos_id": "1",
+                "lv": "44",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "101001",
+                                "weight": "60"
+                            },
+                            {
+                                "ability_id": "201080",
+                                "weight": "40"
+                            }
+                        ],
+                        "mnd": 75,
+                        "id": "3120031",
+                        "size": "1",
+                        "lv": "44",
+                        "no": "1",
+                        "spd": "100",
+                        "disp_name": "Cactite",
+                        "looking": "0",
+                        "critical": "3",
+                        "max_hp": 810,
+                        "matk": 139,
+                        "counters": [],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "218",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "213",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "104",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "225",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "203",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "219",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "220",
+                                "factor": "1"
+                            }
+                        ],
+                        "mdef": 60,
+                        "animation_info": {
+                            "scale": "1",
+                            "assets": {
+                                "enemy-112002": "/Content/lang/ab/character/enemy/112002.sajson"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "enemy_status_id": "3120031",
+                            "offset_y": "-9",
+                            "path": "112002",
+                            "offset_x": "0"
+                        },
+                        "acc": "100",
+                        "eva": "62",
+                        "atk": 100,
+                        "breed_id": "6",
+                        "exp": 365,
+                        "def": 75
+                    }
+                ],
+                "max_hp": 810,
+                "enemy_id": "312003",
+                "ai_id": "1"
+            }
+        ]
+    },
+    {
+        "is_sp_enemy": "1",
         "deform_animation_info": [
             {
                 "deform_tag": "in",
-                "enemy_id": "412001",
-                "id": "21204101",
                 "is_random": true,
-                "path": "212041_1.json",
                 "state": [
                     "1"
-                ]
+                ],
+                "path": "212041_1.json",
+                "enemy_id": "412001",
+                "id": "21204101"
             }
         ],
+        "ai_id": "0",
         "id": "412001",
-        "is_sp_enemy": "1"
+        "children": [
+            {
+                "drop_item_list": [
+                    {
+                        "item_id": "22052003",
+                        "num": "1",
+                        "type": 41,
+                        "uid": 211,
+                        "rarity": "2"
+                    }
+                ],
+                "uid": "211",
+                "no": "1",
+                "init_hp": 64497,
+                "child_pos_id": "1",
+                "lv": "46",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "101001",
+                                "weight": "50"
+                            },
+                            {
+                                "ability_id": "201391",
+                                "weight": "50"
+                            }
+                        ],
+                        "mnd": 52,
+                        "id": "4120011",
+                        "size": "3",
+                        "lv": "46",
+                        "no": "1",
+                        "spd": "100",
+                        "disp_name": "Air Cutter Remora",
+                        "looking": "0",
+                        "critical": "3",
+                        "max_hp": 64497,
+                        "matk": 117,
+                        "counters": [],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "210",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "213",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "225",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "224",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "212",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "219",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "203",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "206",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "202",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "214",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "211",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "220",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "205",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "200",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "201",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "229",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "218",
+                                "factor": "1"
+                            }
+                        ],
+                        "mdef": 52,
+                        "animation_info": {
+                            "scale": "1",
+                            "assets": {
+                                "boss-212041_1": "/Content/lang/ab/character/boss/212041/212041_1.json"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "3",
+                            "enemy_status_id": "4120011",
+                            "offset_y": "0",
+                            "path": "212041_1",
+                            "offset_x": "0"
+                        },
+                        "acc": "100",
+                        "eva": "86",
+                        "atk": 145,
+                        "breed_id": "14",
+                        "exp": 1394,
+                        "def": 116
+                    }
+                ],
+                "max_hp": 64497,
+                "enemy_id": "412001",
+                "ai_id": "1"
+            }
+        ]
     }
 ]

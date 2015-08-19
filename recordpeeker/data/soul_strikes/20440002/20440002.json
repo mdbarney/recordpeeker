@@ -1,0 +1,61 @@
+{
+    "ability_id": "20440002", 
+    "action_id": "35", 
+    "animation_info": {
+        "atk_motion": "ready", 
+        "chara_in": "idle", 
+        "chara_out": "ready", 
+        "damage_tag": "damage_aqua", 
+        "hit": "70554/70554_hit.json", 
+        "hit_arg": "0", 
+        "hit_next_tag": "", 
+        "hit_type": "1", 
+        "id": "70554", 
+        "launch": "70554/70554_launch.json", 
+        "launch_next_tag": "", 
+        "launch_type": "2", 
+        "miss_hit": "", 
+        "other_in": "stay_white_in", 
+        "other_out": "stay_white_out", 
+        "recover_tag": "", 
+        "return_hit": "", 
+        "return_shot": "", 
+        "return_type": "99", 
+        "reverse_hit": "1", 
+        "reverse_shot": "1", 
+        "shot": "70554/70554_shot.json", 
+        "shot_next_tag": "", 
+        "shot_type": "4"
+    }, 
+    "assets": {
+        "ability-70554_hit": "/Content/lang/ab/ability/70554/70554_hit.json", 
+        "ability-70554_launch": "/Content/lang/ab/ability/70554/70554_launch.json", 
+        "ability-70554_shot": "/Content/lang/ab/ability/70554/70554_shot.json"
+    }, 
+    "exercise_type": "1", 
+    "icon": {
+        "assets": {
+            "command_icon_20440002": "/Content/lang/ab_image/soulstrike//20440002/20440002_256.png"
+        }
+    }, 
+    "options": {
+        "ability_animation_id": "70554", 
+        "active_target_method": "1", 
+        "alias_name": "Tides of Fate", 
+        "arg1": "310", 
+        "arg2": "105", 
+        "arg3": "2", 
+        "arg4": "1", 
+        "arg5": "0", 
+        "cast_time": "3000", 
+        "consume_soul_strike_point": "500", 
+        "counter_enable": "0", 
+        "name": "Tides of Fate", 
+        "status_ailments_factor": "0", 
+        "status_ailments_id": "0", 
+        "target_death": "1", 
+        "target_method": "2", 
+        "target_range": "2", 
+        "target_segment": "1"
+    }
+}

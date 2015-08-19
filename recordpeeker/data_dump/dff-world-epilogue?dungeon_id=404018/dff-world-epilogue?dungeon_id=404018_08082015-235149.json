@@ -1,0 +1,146 @@
+{
+    "dungeon": {
+        "background_image_path": "/dff/static/lang/image/dungeon/404018_bg.png", 
+        "order_no": 1, 
+        "captures": [
+            {
+                "sp_scores": [
+                    {
+                        "title": "Exploit Scarmiglione's weakness to holy attacks.", 
+                        "battle_id": 504086
+                    }, 
+                    {
+                        "title": "Defeat Scarmiglione without using fire attacks.", 
+                        "battle_id": 504086
+                    }
+                ], 
+                "image_path": "/dff/static/lang/image/enemy/404035.png", 
+                "tip_battle": {
+                    "message": "Hit Scarmiglione with <span class=\"red\">fire</span> and he'll <span class=\"red\">retaliate with Gas</span>, hitting the whole party with debuffs! Even melee attacks can inspire him to sing a Cursed Elegy and slow your whole party, so watch out, kupo!", 
+                    "group_id": 420007, 
+                    "id": 410007, 
+                    "title": "Scarmiglione"
+                }
+            }, 
+            {
+                "sp_scores": [
+                    {
+                        "title": "Exploit Rubicante's weakness to ice attacks.", 
+                        "battle_id": 504087
+                    }, 
+                    {
+                        "title": "Exploit Rubicante's weakness to water attacks.", 
+                        "battle_id": 504087
+                    }
+                ], 
+                "image_path": "/dff/static/lang/image/enemy/404037.png", 
+                "tip_battle": {
+                    "message": "Rubicante is usually vulnerable to ice and water, but <span class=\"red\">when he raises his cape to defend</span>, those elements actually <span class=\"red\">heal</span> him, kupo! Time your attacks just right or things will not go well for you!", 
+                    "group_id": 420043, 
+                    "id": 410043, 
+                    "title": "Rubicante"
+                }
+            }, 
+            {
+                "sp_scores": [
+                    {
+                        "title": "Exploit Cagnazzo's weakness to ice attacks.", 
+                        "battle_id": 504088
+                    }, 
+                    {
+                        "title": "Disrupt Cagnazzo's Tsunami with lightning attacks.", 
+                        "battle_id": 504088
+                    }
+                ], 
+                "image_path": "/dff/static/lang/image/enemy/404038.png", 
+                "tip_battle": {
+                    "message": "Cagnazzo's powerful <span class=\"red\">Tsunami</span> ability can be <span class=\"red\">stopped by hitting him with a lightning attack</span> while he's gathering water, kupo! If you're looking for lightning, Thunder is always a good place to start.", 
+                    "group_id": 420010, 
+                    "id": 410010, 
+                    "title": "Cagnazzo"
+                }
+            }, 
+            {
+                "sp_scores": [
+                    {
+                        "title": "Disrupt Barbariccia's tornado form with Jump.", 
+                        "battle_id": 504089
+                    }
+                ], 
+                "image_path": "/dff/static/lang/image/enemy/404039.png", 
+                "tip_battle": {
+                    "message": "If you use physical attacks on Barbariccia while she's in <span class=\"red\">tornado form</span>, she'll hit back with a powerful counterattack, kupo! But not to worry! Using <span class=\"red\">Jump will knock her right out</span> of her tornado form! Make sure to bring someone who can Jump, kupo!", 
+                    "group_id": 420038, 
+                    "id": 410038, 
+                    "title": "Barbariccia"
+                }
+            }
+        ], 
+        "is_new": false, 
+        "rank": 3, 
+        "closed_at": 2056341599, 
+        "id": 404018, 
+        "is_clear": true, 
+        "button_style": "NORMAL", 
+        "opened_at": 1437958800, 
+        "world_id": 104001, 
+        "type": 2, 
+        "challenge_level": 102, 
+        "is_unlocked": true, 
+        "series_id": 104001, 
+        "prizes": {
+            "1": [
+                {
+                    "id": 92000000, 
+                    "type_name": "COMMON", 
+                    "num": 16000, 
+                    "image_path": "/dff/static/lang/image/common_item/92000000.png", 
+                    "name": "Gil"
+                }
+            ], 
+            "3": [
+                {
+                    "id": 40000015, 
+                    "type_name": "ABILITY_MATERIAL", 
+                    "num": 1, 
+                    "image_path": "/dff/static/lang/image/ability_material/40000015/40000015_112.png", 
+                    "name": "Major Black Orb"
+                }, 
+                {
+                    "id": 94000000, 
+                    "type_name": "COMMON", 
+                    "num": 1, 
+                    "image_path": "/dff/static/lang/image/common_item/94000000.png", 
+                    "name": "Stamina Shard"
+                }
+            ], 
+            "2": [
+                {
+                    "id": 40000009, 
+                    "type_name": "ABILITY_MATERIAL", 
+                    "num": 1, 
+                    "image_path": "/dff/static/lang/image/ability_material/40000009/40000009_112.png", 
+                    "name": "Greater White Orb"
+                }, 
+                {
+                    "id": 91000000, 
+                    "type_name": "COMMON", 
+                    "num": 1, 
+                    "image_path": "/dff/static/lang/image/common_item/91000000.png", 
+                    "name": "Mythril"
+                }
+            ]
+        }, 
+        "total_stamina": 76, 
+        "epilogue": "Cecil's party advanced through the Giant of Babil toward the CPU in order to destroy it, fighting the four Archfiends once more on their way.", 
+        "epilogue_image_path": "/dff/static/lang/image/dungeon/404018_epilogue.png", 
+        "name": "Giant of Babil, Part 1", 
+        "bgm": "bgm_04_042", 
+        "prologue": "On the Red Moon, Fusoya tells Cecil of the Lunarian Zemus's maniacal plans to activate the Giant of Babil and use it to destroy the Earth. The party returns to Earth and enters the giant...", 
+        "is_master": true, 
+        "prologue_image_path": "/dff/static/lang/image/dungeon/404018_prologue.png"
+    }, 
+    "SERVER_TIME": 1439095909, 
+    "success": true, 
+    "can_review": false
+}

@@ -1,0 +1,62 @@
+{
+    "ability_id": "20240003", 
+    "action_id": "3", 
+    "animation_info": {
+        "atk_motion": "ready", 
+        "chara_in": "stay_in", 
+        "chara_out": "stay_out", 
+        "damage_tag": "damage", 
+        "hit": "70600/70600_hit.json", 
+        "hit_arg": "0", 
+        "hit_next_tag": "", 
+        "hit_type": "1", 
+        "id": "70600", 
+        "launch": "70600/70600_launch.json", 
+        "launch_next_tag": "", 
+        "launch_type": "2", 
+        "miss_hit": "70600/hit_miss.json", 
+        "other_in": "", 
+        "other_out": "", 
+        "recover_tag": "", 
+        "return_hit": "", 
+        "return_shot": "", 
+        "return_type": "99", 
+        "reverse_hit": "1", 
+        "reverse_shot": "1", 
+        "shot": "70600/70600_shot.json", 
+        "shot_next_tag": "", 
+        "shot_type": "4"
+    }, 
+    "assets": {
+        "ability-70600_hit": "/Content/lang/ab/ability/70600/70600_hit.json", 
+        "ability-70600_launch": "/Content/lang/ab/ability/70600/70600_launch.json", 
+        "ability-70600_miss_hit": "/Content/lang/ab/ability/70600/hit_miss.json", 
+        "ability-70600_shot": "/Content/lang/ab/ability/70600/70600_shot.json"
+    }, 
+    "exercise_type": "1", 
+    "icon": {
+        "assets": {
+            "command_icon_20240003": "/Content/lang/ab_image/soulstrike//20240003/20240003_256.png"
+        }
+    }, 
+    "options": {
+        "ability_animation_id": "70600", 
+        "active_target_method": "1", 
+        "alias_name": "Mirage Dive", 
+        "arg1": "320", 
+        "arg2": "1", 
+        "arg3": "1", 
+        "arg4": "0", 
+        "arg5": "0", 
+        "cast_time": "2500", 
+        "consume_soul_strike_point": "500", 
+        "counter_enable": "1", 
+        "name": "Mirage Dive", 
+        "status_ailments_factor": "100", 
+        "status_ailments_id": "205", 
+        "target_death": "1", 
+        "target_method": "6", 
+        "target_range": "2", 
+        "target_segment": "1"
+    }
+}

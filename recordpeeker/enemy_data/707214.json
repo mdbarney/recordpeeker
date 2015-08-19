@@ -1,0 +1,458 @@
+[
+    {
+        "is_sp_enemy": "1",
+        "deform_animation_info": [
+            {
+                "deform_tag": "in",
+                "is_random": true,
+                "state": [
+                    "1",
+                    "2"
+                ],
+                "path": "207060_1.json",
+                "enemy_id": "407033",
+                "id": "20706001"
+            }
+        ],
+        "children": [
+            {
+                "drop_item_list": [],
+                "uid": "201",
+                "no": "2",
+                "init_hp": "3679",
+                "max_hp": "3679",
+                "lv": "10",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "401103",
+                                "weight": "20"
+                            },
+                            {
+                                "ability_id": "401230",
+                                "weight": "30"
+                            },
+                            {
+                                "ability_id": "101001",
+                                "weight": "50"
+                            }
+                        ],
+                        "spd": "100",
+                        "id": "4070332",
+                        "size": "2",
+                        "lv": "10",
+                        "no": "2",
+                        "mnd": 23,
+                        "disp_name": "Ark Dragon ",
+                        "looking": "0",
+                        "critical": "3",
+                        "max_hp": "3679",
+                        "matk": "47",
+                        "counters": [],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "202",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "214",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "224",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "103",
+                                "factor": "11"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "213",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "104",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "212",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "100",
+                                "factor": "21"
+                            }
+                        ],
+                        "mdef": "23",
+                        "animation_info": {
+                            "scale": "1",
+                            "assets": {
+                                "boss-207060_1": "/Content/lang/ab/character/boss/207060/207060_1.json"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "enemy_status_id": "4070332",
+                            "offset_y": "0",
+                            "path": "207060_1",
+                            "offset_x": "0"
+                        },
+                        "acc": "100",
+                        "eva": "62",
+                        "atk": "50",
+                        "breed_id": "10",
+                        "exp": 0,
+                        "def": "303"
+                    }
+                ],
+                "child_pos_id": "2",
+                "enemy_id": "407033",
+                "ai_id": "1"
+            },
+            {
+                "drop_item_list": [
+                    {
+                        "item_id": "40000021",
+                        "num": "1",
+                        "type": 51,
+                        "uid": 202,
+                        "rarity": "1"
+                    }
+                ],
+                "uid": "202",
+                "no": "1",
+                "init_hp": "3679",
+                "max_hp": "3679",
+                "lv": "10",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "401103",
+                                "weight": "20"
+                            },
+                            {
+                                "ability_id": "401230",
+                                "weight": "30"
+                            },
+                            {
+                                "ability_id": "101001",
+                                "weight": "50"
+                            }
+                        ],
+                        "spd": "100",
+                        "id": "4070331",
+                        "size": "2",
+                        "lv": "10",
+                        "no": "1",
+                        "mnd": 23,
+                        "disp_name": "Ark Dragon ",
+                        "looking": "0",
+                        "critical": "3",
+                        "max_hp": "3679",
+                        "matk": "47",
+                        "counters": [],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "212",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "224",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "100",
+                                "factor": "21"
+                            },
+                            {
+                                "attribute_id": "213",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "202",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "103",
+                                "factor": "11"
+                            },
+                            {
+                                "attribute_id": "214",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "104",
+                                "factor": "1"
+                            }
+                        ],
+                        "mdef": "23",
+                        "animation_info": {
+                            "scale": "1",
+                            "assets": {
+                                "boss-207060_1": "/Content/lang/ab/character/boss/207060/207060_1.json"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "enemy_status_id": "4070331",
+                            "offset_y": "0",
+                            "path": "207060_1",
+                            "offset_x": "0"
+                        },
+                        "acc": "100",
+                        "eva": "62",
+                        "atk": "50",
+                        "breed_id": "10",
+                        "exp": 596,
+                        "def": "303"
+                    }
+                ],
+                "child_pos_id": "1",
+                "enemy_id": "407033",
+                "ai_id": "1"
+            }
+        ],
+        "id": "407033",
+        "ai_id": "0"
+    },
+    {
+        "is_sp_enemy": "1",
+        "deform_animation_info": [
+            {
+                "deform_tag": "in",
+                "is_random": true,
+                "state": [
+                    "1",
+                    "2"
+                ],
+                "path": "207060_1.json",
+                "enemy_id": "407033",
+                "id": "20706001"
+            }
+        ],
+        "ai_id": "0",
+        "id": "407033",
+        "children": [
+            {
+                "drop_item_list": [],
+                "uid": "201",
+                "no": "2",
+                "init_hp": "3679",
+                "child_pos_id": "2",
+                "lv": "10",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "401103",
+                                "weight": "20"
+                            },
+                            {
+                                "ability_id": "401230",
+                                "weight": "30"
+                            },
+                            {
+                                "ability_id": "101001",
+                                "weight": "50"
+                            }
+                        ],
+                        "mnd": 23,
+                        "id": "4070332",
+                        "size": "2",
+                        "lv": "10",
+                        "no": "2",
+                        "spd": "100",
+                        "disp_name": "Ark Dragon ",
+                        "looking": "0",
+                        "critical": "3",
+                        "max_hp": "3679",
+                        "matk": "47",
+                        "counters": [],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "202",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "214",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "224",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "103",
+                                "factor": "11"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "213",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "104",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "212",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "100",
+                                "factor": "21"
+                            }
+                        ],
+                        "mdef": "23",
+                        "animation_info": {
+                            "scale": "1",
+                            "assets": {
+                                "boss-207060_1": "/Content/lang/ab/character/boss/207060/207060_1.json"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "enemy_status_id": "4070332",
+                            "offset_y": "0",
+                            "path": "207060_1",
+                            "offset_x": "0"
+                        },
+                        "acc": "100",
+                        "eva": "62",
+                        "atk": "50",
+                        "breed_id": "10",
+                        "exp": 0,
+                        "def": "303"
+                    }
+                ],
+                "max_hp": "3679",
+                "enemy_id": "407033",
+                "ai_id": "1"
+            },
+            {
+                "drop_item_list": [],
+                "uid": "202",
+                "no": "1",
+                "init_hp": "3679",
+                "child_pos_id": "1",
+                "lv": "10",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "401103",
+                                "weight": "20"
+                            },
+                            {
+                                "ability_id": "401230",
+                                "weight": "30"
+                            },
+                            {
+                                "ability_id": "101001",
+                                "weight": "50"
+                            }
+                        ],
+                        "mnd": 23,
+                        "id": "4070331",
+                        "size": "2",
+                        "lv": "10",
+                        "no": "1",
+                        "spd": "100",
+                        "disp_name": "Ark Dragon ",
+                        "looking": "0",
+                        "critical": "3",
+                        "max_hp": "3679",
+                        "matk": "47",
+                        "counters": [],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "212",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "224",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "100",
+                                "factor": "21"
+                            },
+                            {
+                                "attribute_id": "213",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "202",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "103",
+                                "factor": "11"
+                            },
+                            {
+                                "attribute_id": "214",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "104",
+                                "factor": "1"
+                            }
+                        ],
+                        "mdef": "23",
+                        "animation_info": {
+                            "scale": "1",
+                            "assets": {
+                                "boss-207060_1": "/Content/lang/ab/character/boss/207060/207060_1.json"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "enemy_status_id": "4070331",
+                            "offset_y": "0",
+                            "path": "207060_1",
+                            "offset_x": "0"
+                        },
+                        "acc": "100",
+                        "eva": "62",
+                        "atk": "50",
+                        "breed_id": "10",
+                        "exp": 596,
+                        "def": "303"
+                    }
+                ],
+                "max_hp": "3679",
+                "enemy_id": "407033",
+                "ai_id": "1"
+            }
+        ]
+    }
+]

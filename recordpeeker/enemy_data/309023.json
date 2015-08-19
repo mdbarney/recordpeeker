@@ -1,0 +1,159 @@
+[
+    {
+        "is_sp_enemy": "1",
+        "deform_animation_info": [
+            {
+                "deform_tag": "in",
+                "is_random": true,
+                "state": [
+                    "1"
+                ],
+                "path": "209005_1.json",
+                "enemy_id": "409012",
+                "id": "20900501"
+            }
+        ],
+        "ai_id": "0",
+        "id": "409012",
+        "children": [
+            {
+                "drop_item_list": [],
+                "uid": "201",
+                "no": "1",
+                "init_hp": 116927,
+                "child_pos_id": "1",
+                "lv": "69",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "401435",
+                                "weight": "10"
+                            },
+                            {
+                                "ability_id": "302011",
+                                "weight": "25"
+                            },
+                            {
+                                "ability_id": "302021",
+                                "weight": "25"
+                            },
+                            {
+                                "ability_id": "302031",
+                                "weight": "25"
+                            },
+                            {
+                                "ability_id": "401925",
+                                "weight": "15"
+                            }
+                        ],
+                        "mnd": 177,
+                        "id": "4090121",
+                        "size": "2",
+                        "lv": "69",
+                        "no": "1",
+                        "spd": "140",
+                        "disp_name": "Black Waltz 3",
+                        "looking": "0",
+                        "critical": "3",
+                        "max_hp": 116927,
+                        "matk": 289,
+                        "counters": [],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "201",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "219",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "214",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "215",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "206",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "220",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "200",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "224",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "218",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "212",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "225",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "229",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "202",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "213",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "203",
+                                "factor": "1"
+                            }
+                        ],
+                        "mdef": 103,
+                        "animation_info": {
+                            "scale": "1",
+                            "assets": {
+                                "boss-209005_1": "/Content/lang/ab/character/boss/209005/209005_1.json"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "3",
+                            "enemy_status_id": "4090121",
+                            "offset_y": "0",
+                            "path": "209005_1",
+                            "offset_x": "0"
+                        },
+                        "acc": "100",
+                        "eva": "70",
+                        "atk": 238,
+                        "breed_id": "13",
+                        "exp": 3516,
+                        "def": 100
+                    }
+                ],
+                "max_hp": 116927,
+                "enemy_id": "409012",
+                "ai_id": "1"
+            }
+        ]
+    }
+]

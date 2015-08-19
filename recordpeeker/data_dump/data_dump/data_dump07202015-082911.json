@@ -1,0 +1,93 @@
+{
+    "SERVER_TIME": 1437398951, 
+    "can_review": false, 
+    "dungeon": {
+        "background_image_path": "/dff/static/lang/image/dungeon/206008_bg.png", 
+        "bgm": "bgm_06_016", 
+        "button_style": "NORMAL", 
+        "captures": [
+            {
+                "image_path": "/dff/static/lang/image/enemy/406012.png", 
+                "sp_scores": [
+                    {
+                        "battle_id": 306041, 
+                        "title": "Exploit the Phantom Train's weakness to fire attacks."
+                    }, 
+                    {
+                        "battle_id": 306041, 
+                        "title": "Exploit the Phantom Train's weakness to lightning attacks."
+                    }
+                ], 
+                "tip_battle": {
+                    "group_id": 420048, 
+                    "id": 410048, 
+                    "message": "The Phantom Train has a lot of abilities that <span class=\"red\">hit the whole party</span>, so keep an eye on everyone's health! And it may look like a machine, but it's actually <span class=\"red\">undead</span>, so use fire and healing abilities, kupo!", 
+                    "title": "Phantom Train"
+                }
+            }
+        ], 
+        "challenge_level": 16, 
+        "closed_at": 2145938400, 
+        "epilogue": "The heroes have discovered that the train they boarded is none other than the Phantom Train, a ghostly locomotive that carries the souls of the departed to the other side. The only way to get off the train was to stop the engine, so they fought their way through to the engine room--only to be attacked by the train itself! Prevailing, the heroes gladly disembarked and continued on their way to Narshe.", 
+        "epilogue_image_path": "/dff/static/lang/image/dungeon/206008_epilogue.png", 
+        "id": 206008, 
+        "is_clear": true, 
+        "is_master": true, 
+        "is_new": false, 
+        "is_unlocked": true, 
+        "name": "Phantom Train", 
+        "opened_at": 1398924000, 
+        "order_no": 1, 
+        "prizes": {
+            "1": [
+                {
+                    "id": 92000000, 
+                    "image_path": "/dff/static/lang/image/common_item/92000000.png", 
+                    "name": "Gil", 
+                    "num": 1500, 
+                    "type_name": "COMMON"
+                }
+            ], 
+            "2": [
+                {
+                    "id": 10600900, 
+                    "image_path": "/dff/static/lang/image/buddy/10600900/10600900.png", 
+                    "name": "Cyan", 
+                    "num": 1, 
+                    "type_name": "BUDDY"
+                }, 
+                {
+                    "id": 91000000, 
+                    "image_path": "/dff/static/lang/image/common_item/91000000.png", 
+                    "name": "Mythril", 
+                    "num": 1, 
+                    "type_name": "COMMON"
+                }
+            ], 
+            "3": [
+                {
+                    "id": 94000000, 
+                    "image_path": "/dff/static/lang/image/common_item/94000000.png", 
+                    "name": "Stamina Shard", 
+                    "num": 2, 
+                    "type_name": "COMMON"
+                }, 
+                {
+                    "id": 40000002, 
+                    "image_path": "/dff/static/lang/image/ability_material/40000002/40000002_112.png", 
+                    "name": "Lesser Power Orb", 
+                    "num": 5, 
+                    "type_name": "ABILITY_MATERIAL"
+                }
+            ]
+        }, 
+        "prologue": "Sabin, Shadow, and Cyan have escaped the Imperial Camp and wandered into a forest, where they discover a mysterious train. No sooner do they board to investigate than the whistle blows and the train lurches into motion!", 
+        "prologue_image_path": "/dff/static/lang/image/dungeon/206008_prologue.png", 
+        "rank": 3, 
+        "series_id": 106001, 
+        "total_stamina": 22, 
+        "type": 1, 
+        "world_id": 106001
+    }, 
+    "success": true
+}

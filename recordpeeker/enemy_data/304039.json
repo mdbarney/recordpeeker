@@ -1,0 +1,294 @@
+[
+    {
+        "is_sp_enemy": "1",
+        "deform_animation_info": [
+            {
+                "deform_tag": "in",
+                "is_random": true,
+                "state": [
+                    "1"
+                ],
+                "path": "204012_1.json",
+                "enemy_id": "404018",
+                "id": "20401201"
+            },
+            {
+                "deform_tag": "deformation_01",
+                "is_random": true,
+                "state": [
+                    "1"
+                ],
+                "path": "204012_1.json",
+                "enemy_id": "404018",
+                "id": "20401202"
+            }
+        ],
+        "ai_id": "0",
+        "id": "404018",
+        "children": [
+            {
+                "drop_item_list": [],
+                "uid": "201",
+                "no": "1",
+                "init_hp": 14891,
+                "child_pos_id": "1",
+                "lv": "32",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "101001",
+                                "weight": "22"
+                            },
+                            {
+                                "ability_id": "102071",
+                                "weight": "13"
+                            },
+                            {
+                                "ability_id": "112032",
+                                "weight": "13"
+                            },
+                            {
+                                "ability_id": "201113",
+                                "weight": "13"
+                            },
+                            {
+                                "ability_id": "102074",
+                                "weight": "13"
+                            },
+                            {
+                                "ability_id": "102051",
+                                "weight": "13"
+                            },
+                            {
+                                "ability_id": "112012",
+                                "weight": "13"
+                            }
+                        ],
+                        "mnd": 55,
+                        "id": "4040181",
+                        "size": "2",
+                        "lv": "32",
+                        "no": "1",
+                        "spd": "100",
+                        "disp_name": "Dark Elf",
+                        "looking": "0",
+                        "critical": "3",
+                        "max_hp": 12311,
+                        "matk": 109,
+                        "counters": [],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "224",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "106",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "212",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "225",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "220",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "213",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "202",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "203",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "206",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "219",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "215",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "214",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "223",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "100",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "211",
+                                "factor": "1"
+                            }
+                        ],
+                        "mdef": 55,
+                        "animation_info": {
+                            "scale": "1",
+                            "assets": {
+                                "boss-204012_1": "/Content/lang/ab/character/boss/204012/204012_1.json"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "3",
+                            "enemy_status_id": "4040181",
+                            "offset_y": "0",
+                            "path": "204012_1",
+                            "offset_x": "0"
+                        },
+                        "acc": "100",
+                        "eva": "70",
+                        "atk": 109,
+                        "breed_id": "0",
+                        "exp": 970,
+                        "def": 44
+                    },
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "201098",
+                                "weight": "50"
+                            },
+                            {
+                                "ability_id": "101001",
+                                "weight": "50"
+                            }
+                        ],
+                        "mnd": 37,
+                        "id": "4040182",
+                        "size": "3",
+                        "lv": "32",
+                        "no": "1",
+                        "spd": "100",
+                        "disp_name": "Dark Elf",
+                        "looking": "0",
+                        "critical": "3",
+                        "max_hp": 14891,
+                        "matk": 109,
+                        "counters": [],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "106",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "219",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "202",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "220",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "223",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "212",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "206",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "103",
+                                "factor": "6"
+                            },
+                            {
+                                "attribute_id": "213",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "203",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "100",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "214",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "225",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "215",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "224",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "211",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            }
+                        ],
+                        "mdef": 42,
+                        "animation_info": {
+                            "scale": "1",
+                            "assets": {
+                                "boss-204012_1": "/Content/lang/ab/character/boss/204012/204012_1.json"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "3",
+                            "enemy_status_id": "4040182",
+                            "offset_y": "0",
+                            "path": "204012_1",
+                            "offset_x": "0"
+                        },
+                        "acc": "100",
+                        "eva": "62",
+                        "atk": 119,
+                        "breed_id": "10",
+                        "exp": 0,
+                        "def": 41
+                    }
+                ],
+                "max_hp": 14891,
+                "enemy_id": "404018",
+                "ai_id": "40401801"
+            }
+        ]
+    }
+]

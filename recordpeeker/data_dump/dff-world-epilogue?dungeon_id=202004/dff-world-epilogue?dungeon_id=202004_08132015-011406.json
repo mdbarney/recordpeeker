@@ -1,0 +1,89 @@
+{
+    "dungeon": {
+        "background_image_path": "/dff/static/lang/image/dungeon/202004_bg.png", 
+        "order_no": 1, 
+        "captures": [
+            {
+                "sp_scores": [
+                    {
+                        "title": "Defeat the Captain without being KO'd.", 
+                        "battle_id": 302021
+                    }
+                ], 
+                "image_path": "/dff/static/lang/image/enemy/402005.png", 
+                "tip_battle": {
+                    "message": "The Captain doesn't use any special attacks, kupo, but he doesn't have any particular weaknesses, either. Soften him up with <span class=\"red\">Power Break</span> and <span class=\"red\">Armor Break</span>, then lay on the <span class=\"red\">debuffs</span> and fight your way to victory!", 
+                    "group_id": 420078, 
+                    "id": 410078, 
+                    "title": "Captain"
+                }
+            }
+        ], 
+        "is_new": false, 
+        "rank": 3, 
+        "closed_at": 2145938400, 
+        "id": 202004, 
+        "is_clear": true, 
+        "button_style": "NORMAL", 
+        "opened_at": 1424152800, 
+        "world_id": 102001, 
+        "type": 1, 
+        "challenge_level": 35, 
+        "is_unlocked": true, 
+        "series_id": 102001, 
+        "prizes": {
+            "1": [
+                {
+                    "id": 92000000, 
+                    "type_name": "COMMON", 
+                    "num": 2500, 
+                    "image_path": "/dff/static/lang/image/common_item/92000000.png", 
+                    "name": "Gil"
+                }
+            ], 
+            "3": [
+                {
+                    "id": 40000008, 
+                    "type_name": "ABILITY_MATERIAL", 
+                    "num": 3, 
+                    "image_path": "/dff/static/lang/image/ability_material/40000008/40000008_112.png", 
+                    "name": "White Orb"
+                }, 
+                {
+                    "id": 70000003, 
+                    "type_name": "GROW_EGG", 
+                    "num": 1, 
+                    "image_path": "/dff/static/lang/image/growegg/70000003/70000003_112.png", 
+                    "name": "Growth Egg"
+                }
+            ], 
+            "2": [
+                {
+                    "id": 10200600, 
+                    "type_name": "BUDDY", 
+                    "num": 1, 
+                    "image_path": "/dff/static/lang/image/buddy/10200600/10200600.png", 
+                    "name": "Gordon"
+                }, 
+                {
+                    "id": 94000000, 
+                    "type_name": "COMMON", 
+                    "num": 1, 
+                    "image_path": "/dff/static/lang/image/common_item/94000000.png", 
+                    "name": "Stamina Shard"
+                }
+            ]
+        }, 
+        "total_stamina": 46, 
+        "epilogue": "Firion's party crossed a desert and infiltrated the Dreadnought, freeing Hilda and Cid from their cell to escape on Cid's airship. Continuing further into the Dreadnought, the party cast the Sunfire into the engine when the Dark Knight appeared. Though the knight's voice was oddly familiar to Maria, there was little time to dwell on this mystery as explosions enveloped the Dreadnought.", 
+        "epilogue_image_path": "/dff/static/lang/image/dungeon/202004_epilogue.png", 
+        "name": "Dreadnought", 
+        "bgm": "bgm_02_009", 
+        "prologue": "Firion has returned to Altair together with Gordon, when he learns that Hilda has been captured by the Dreadnought. It falls to Firion to pursue the ship and rescue the princess!", 
+        "is_master": true, 
+        "prologue_image_path": "/dff/static/lang/image/dungeon/202004_prologue.png"
+    }, 
+    "SERVER_TIME": 1439446446, 
+    "success": true, 
+    "can_review": false
+}

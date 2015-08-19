@@ -1,0 +1,89 @@
+{
+    "SERVER_TIME": 1438134492, 
+    "can_review": false, 
+    "dungeon": {
+        "background_image_path": "/dff/static/lang/image/dungeon/204016_bg.png", 
+        "bgm": "bgm_04_012", 
+        "button_style": "NORMAL", 
+        "captures": [
+            {
+                "image_path": "/dff/static/lang/image/enemy/404032.png", 
+                "sp_scores": [
+                    {
+                        "battle_id": 304081, 
+                        "title": "Defeat Demon Wall without being KO'd."
+                    }
+                ], 
+                "tip_battle": {
+                    "group_id": 410152, 
+                    "id": 410152, 
+                    "message": "Demon Wall moves steadily toward the party, kupo! If it gets too close, it will use <span class=\"red\">Crush</span> to instantly KO everyone! Use <span class=\"red\">Slow</span> to buy some time, then beat it down with physical attacks. Attacking with magic will trigger its <span class=\"red\">Stone Gaze</span> counterattack, so watch out!", 
+                    "title": "Demon Wall"
+                }
+            }
+        ], 
+        "challenge_level": 64, 
+        "closed_at": 2145938400, 
+        "epilogue": "Inside the Sealed Cave, the party had defeated Demon Wall and claimed the final crystal when they heard Golbez's voice, and Kain was once again possessed. Under Golbez's influence, Kain wrested the crystal from Cecil and took it away to his master.", 
+        "epilogue_image_path": "/dff/static/lang/image/dungeon/204016_epilogue.png", 
+        "id": 204016, 
+        "is_clear": true, 
+        "is_master": true, 
+        "is_new": false, 
+        "is_unlocked": true, 
+        "name": "Sealed Cave", 
+        "opened_at": 1437958800, 
+        "order_no": 1, 
+        "prizes": {
+            "1": [
+                {
+                    "id": 92000000, 
+                    "image_path": "/dff/static/lang/image/common_item/92000000.png", 
+                    "name": "Gil", 
+                    "num": 5000, 
+                    "type_name": "COMMON"
+                }
+            ], 
+            "2": [
+                {
+                    "id": 94000000, 
+                    "image_path": "/dff/static/lang/image/common_item/94000000.png", 
+                    "name": "Stamina Shard", 
+                    "num": 1, 
+                    "type_name": "COMMON"
+                }, 
+                {
+                    "id": 91000000, 
+                    "image_path": "/dff/static/lang/image/common_item/91000000.png", 
+                    "name": "Mythril", 
+                    "num": 1, 
+                    "type_name": "COMMON"
+                }
+            ], 
+            "3": [
+                {
+                    "id": 40000058, 
+                    "image_path": "/dff/static/lang/image/ability_material/40000058/40000058_112.png", 
+                    "name": "Holy Orb", 
+                    "num": 3, 
+                    "type_name": "ABILITY_MATERIAL"
+                }, 
+                {
+                    "id": 70000003, 
+                    "image_path": "/dff/static/lang/image/growegg/70000003/70000003_112.png", 
+                    "name": "Growth Egg", 
+                    "num": 2, 
+                    "type_name": "GROW_EGG"
+                }
+            ]
+        }, 
+        "prologue": "Cecil and his allies board Cid's newly repaired airship, the Falcon, to enter the Sealed Cave and claim the final crystal.", 
+        "prologue_image_path": "/dff/static/lang/image/dungeon/204016_prologue.png", 
+        "rank": 3, 
+        "series_id": 104001, 
+        "total_stamina": 66, 
+        "type": 1, 
+        "world_id": 104001
+    }, 
+    "success": true
+}

@@ -1,0 +1,108 @@
+{
+    "dungeon": {
+        "background_image_path": "/dff/static/lang/image/dungeon/206022_bg.png", 
+        "order_no": 1, 
+        "captures": [
+            {
+                "sp_scores": [
+                    {
+                        "title": "Exploit the Angler Whelk's weakness to fire attacks.", 
+                        "battle_id": 306092
+                    }, 
+                    {
+                        "title": "Defeat the Angler Whelk before it can use Gigavolt.", 
+                        "battle_id": 306092
+                    }
+                ], 
+                "image_path": "/dff/static/lang/image/enemy/406029.png", 
+                "tip_battle": {
+                    "message": "If you attack the Angler Whelk while it's in its <span class=\"red\">shell</span>, it will counter with its Megavolt ability! Not good, kupo! Better aim for the head!", 
+                    "group_id": 420065, 
+                    "id": 410065, 
+                    "title": "Angler Whelk"
+                }
+            }, 
+            {
+                "sp_scores": [
+                    {
+                        "title": "Exploit Dullahan's weakness to fire attacks.", 
+                        "battle_id": 306093
+                    }
+                ], 
+                "image_path": "/dff/static/lang/image/enemy/406030.png", 
+                "tip_battle": {
+                    "message": "Dullahan is vulnerable to <span class=\"red\">fire</span>, kupo, so bring characters with fire abilities to the fight!", 
+                    "group_id": 420066, 
+                    "id": 410066, 
+                    "title": "Dullahan"
+                }
+            }
+        ], 
+        "is_new": false, 
+        "rank": 3, 
+        "closed_at": 2145938400, 
+        "id": 206022, 
+        "is_clear": true, 
+        "button_style": "NORMAL", 
+        "opened_at": 1398924000, 
+        "world_id": 106001, 
+        "type": 1, 
+        "challenge_level": 32, 
+        "is_unlocked": true, 
+        "series_id": 106001, 
+        "prizes": {
+            "1": [
+                {
+                    "id": 92000000, 
+                    "type_name": "COMMON", 
+                    "num": 2000, 
+                    "image_path": "/dff/static/lang/image/common_item/92000000.png", 
+                    "name": "Gil"
+                }
+            ], 
+            "3": [
+                {
+                    "id": 40000037, 
+                    "type_name": "ABILITY_MATERIAL", 
+                    "num": 5, 
+                    "image_path": "/dff/static/lang/image/ability_material/40000037/40000037_112.png", 
+                    "name": "Lesser Ice Orb"
+                }, 
+                {
+                    "id": 94000000, 
+                    "type_name": "COMMON", 
+                    "num": 2, 
+                    "image_path": "/dff/static/lang/image/common_item/94000000.png", 
+                    "name": "Stamina Shard"
+                }
+            ], 
+            "2": [
+                {
+                    "id": 91000000, 
+                    "type_name": "COMMON", 
+                    "num": 1, 
+                    "image_path": "/dff/static/lang/image/common_item/91000000.png", 
+                    "name": "Mythril"
+                }, 
+                {
+                    "id": 10000900, 
+                    "type_name": "BUDDY", 
+                    "num": 1, 
+                    "image_path": "/dff/static/lang/image/buddy/10000900/10000900.png", 
+                    "name": "Red Mage"
+                }
+            ]
+        }, 
+        "total_stamina": 37, 
+        "epilogue": "Setzer once dreamed of owning the fastest airship in the world, an ambition he shared with his close friend and rival, Darill. After Darill was lost on a test flight of her ship, the Falcon, Setzer restored the wreckage of the Falcon and buried it beneath Darill's tomb. Now the Falcon flies again, carrying the hopes of the Returners with it.", 
+        "epilogue_image_path": "/dff/static/lang/image/dungeon/206022_epilogue.png", 
+        "name": "Darill's Tomb", 
+        "bgm": "bgm_06_052", 
+        "prologue": "The airship lost, Setzer despairs. It is Celes who rouses him again, and takes the party to Darill's tomb to find new hope, and new transportation.", 
+        "is_master": true, 
+        "prologue_image_path": "/dff/static/lang/image/dungeon/206022_prologue.png"
+    }, 
+    "SERVER_TIME": 1438914154, 
+    "success": true, 
+    "can_review": false
+}

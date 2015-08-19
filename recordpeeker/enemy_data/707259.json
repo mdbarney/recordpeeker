@@ -1,0 +1,143 @@
+[
+    {
+        "is_sp_enemy": "1",
+        "deform_animation_info": [
+            {
+                "deform_tag": "in",
+                "is_random": true,
+                "state": [
+                    "1"
+                ],
+                "path": "207021_1.json",
+                "enemy_id": "407025",
+                "id": "20702101"
+            }
+        ],
+        "ai_id": "0",
+        "id": "407025",
+        "children": [
+            {
+                "drop_item_list": [],
+                "uid": "201",
+                "no": "1",
+                "init_hp": "18493",
+                "child_pos_id": "1",
+                "lv": "23",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "101001",
+                                "weight": "60"
+                            },
+                            {
+                                "ability_id": "401489",
+                                "weight": "40"
+                            }
+                        ],
+                        "mnd": 48,
+                        "id": "4070251",
+                        "size": "3",
+                        "lv": "23",
+                        "no": "1",
+                        "spd": "150",
+                        "disp_name": "Red Dragon",
+                        "looking": "0",
+                        "critical": "3",
+                        "max_hp": "18493",
+                        "matk": "99",
+                        "counters": [],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "206",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "224",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "225",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "220",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "214",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "218",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "213",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "212",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "203",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "100",
+                                "factor": "21"
+                            },
+                            {
+                                "attribute_id": "211",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "201",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "219",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "215",
+                                "factor": "1"
+                            }
+                        ],
+                        "mdef": "33",
+                        "animation_info": {
+                            "scale": "1",
+                            "assets": {
+                                "boss-207021_1": "/Content/lang/ab/character/boss/207021/207021_1.json"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "3",
+                            "enemy_status_id": "4070251",
+                            "offset_y": "0",
+                            "path": "207021_1",
+                            "offset_x": "0"
+                        },
+                        "acc": "100",
+                        "eva": "62",
+                        "atk": "115",
+                        "breed_id": "10",
+                        "exp": 1239,
+                        "def": "68"
+                    }
+                ],
+                "max_hp": "18493",
+                "enemy_id": "407025",
+                "ai_id": "1"
+            }
+        ]
+    }
+]

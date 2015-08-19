@@ -1,0 +1,89 @@
+{
+    "dungeon": {
+        "background_image_path": "/dff/static/lang/image/dungeon/208010_bg.png", 
+        "order_no": 1, 
+        "captures": [
+            {
+                "sp_scores": [
+                    {
+                        "title": "Exploit BGH251F2's weakness to lightning attacks.", 
+                        "battle_id": 308045
+                    }
+                ], 
+                "image_path": "/dff/static/lang/image/enemy/408017.png", 
+                "tip_battle": {
+                    "message": "When BGH251F2 gets low on HP it uses <span class=\"red\">Beam Cannon</span>, a powerful single-target attack! <span class=\"red\">Blinding</span> it will make the fight much easier, kupo! Then just bring it down fast with <span class=\"red\">lightning</span>, its weakness!", 
+                    "group_id": 410113, 
+                    "id": 410113, 
+                    "title": "BGH251F2"
+                }
+            }
+        ], 
+        "is_new": false, 
+        "rank": 3, 
+        "closed_at": 2145938400, 
+        "id": 208010, 
+        "is_clear": true, 
+        "button_style": "NORMAL", 
+        "opened_at": 1434675600, 
+        "world_id": 108001, 
+        "type": 1, 
+        "challenge_level": 43, 
+        "is_unlocked": true, 
+        "series_id": 108001, 
+        "prizes": {
+            "1": [
+                {
+                    "id": 92000000, 
+                    "type_name": "COMMON", 
+                    "num": 3000, 
+                    "image_path": "/dff/static/lang/image/common_item/92000000.png", 
+                    "name": "Gil"
+                }
+            ], 
+            "3": [
+                {
+                    "id": 94000000, 
+                    "type_name": "COMMON", 
+                    "num": 1, 
+                    "image_path": "/dff/static/lang/image/common_item/94000000.png", 
+                    "name": "Stamina Shard"
+                }, 
+                {
+                    "id": 40000013, 
+                    "type_name": "ABILITY_MATERIAL", 
+                    "num": 3, 
+                    "image_path": "/dff/static/lang/image/ability_material/40000013/40000013_112.png", 
+                    "name": "Black Orb"
+                }
+            ], 
+            "2": [
+                {
+                    "id": 70000003, 
+                    "type_name": "GROW_EGG", 
+                    "num": 1, 
+                    "image_path": "/dff/static/lang/image/growegg/70000003/70000003_112.png", 
+                    "name": "Growth Egg"
+                }, 
+                {
+                    "id": 91000000, 
+                    "type_name": "COMMON", 
+                    "num": 1, 
+                    "image_path": "/dff/static/lang/image/common_item/91000000.png", 
+                    "name": "Mythril"
+                }
+            ]
+        }, 
+        "total_stamina": 51, 
+        "epilogue": "Selphie's team managed to stop the missiles from launching and fled after activating the base's self-destruct sequence, but the enemy moved swiftly and restarted the missile launch. The party's escape was blocked by the giant war machine BGH251F2, trapping them inside as flames engulfed the base.", 
+        "epilogue_image_path": "/dff/static/lang/image/dungeon/208010_epilogue.png", 
+        "name": "Missile Base", 
+        "bgm": "bgm_08_043", 
+        "prologue": "Selphie's team infiltrates the Galbadia Missile Base in an attempt to stop the attack on Balamb Garden.", 
+        "is_master": true, 
+        "prologue_image_path": "/dff/static/lang/image/dungeon/208010_prologue.png"
+    }, 
+    "SERVER_TIME": 1439815447, 
+    "success": true, 
+    "can_review": false
+}

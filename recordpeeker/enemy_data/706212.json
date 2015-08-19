@@ -1,0 +1,250 @@
+[
+    {
+        "is_sp_enemy": "1",
+        "deform_animation_info": [
+            {
+                "deform_tag": "in",
+                "is_random": true,
+                "state": [
+                    "1",
+                    "2"
+                ],
+                "path": "206098_1.json",
+                "enemy_id": "406010",
+                "id": "20609801"
+            }
+        ],
+        "ai_id": "0",
+        "id": "406010",
+        "children": [
+            {
+                "drop_item_list": [
+                    {
+                        "item_id": "40000008",
+                        "num": "1",
+                        "type": 51,
+                        "uid": 201,
+                        "rarity": "3"
+                    }
+                ],
+                "uid": "201",
+                "no": "1",
+                "init_hp": "39000",
+                "child_pos_id": "1",
+                "lv": "99",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "401016",
+                                "weight": "50"
+                            },
+                            {
+                                "ability_id": "401015",
+                                "weight": "50"
+                            },
+                            {
+                                "ability_id": "101001",
+                                "weight": "0"
+                            }
+                        ],
+                        "mnd": 192,
+                        "id": "4060101",
+                        "size": "2",
+                        "lv": "99",
+                        "no": "1",
+                        "spd": "150",
+                        "disp_name": "Magitek Armor",
+                        "looking": "0",
+                        "critical": "3",
+                        "max_hp": "39000",
+                        "matk": "194",
+                        "counters": [],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "219",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "214",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "213",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "223",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "200",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "224",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "220",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "102",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "202",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "212",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            }
+                        ],
+                        "mdef": "246",
+                        "animation_info": {
+                            "scale": "1",
+                            "assets": {
+                                "boss-206098_1": "/Content/lang/ab/character/boss/206098/206098_1.json"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "3",
+                            "enemy_status_id": "4060101",
+                            "offset_y": "0",
+                            "path": "206098_1",
+                            "offset_x": "0"
+                        },
+                        "acc": "100",
+                        "eva": "100",
+                        "atk": "237",
+                        "breed_id": "14",
+                        "exp": "1500",
+                        "def": "266"
+                    }
+                ],
+                "max_hp": "39000",
+                "enemy_id": "406010",
+                "ai_id": "1"
+            },
+            {
+                "drop_item_list": [],
+                "uid": "202",
+                "no": "2",
+                "init_hp": "39000",
+                "child_pos_id": "2",
+                "lv": "99",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "401016",
+                                "weight": "50"
+                            },
+                            {
+                                "ability_id": "401015",
+                                "weight": "50"
+                            },
+                            {
+                                "ability_id": "101001",
+                                "weight": "0"
+                            }
+                        ],
+                        "mnd": 192,
+                        "id": "4060102",
+                        "size": "2",
+                        "lv": "99",
+                        "no": "2",
+                        "spd": "150",
+                        "disp_name": "Magitek Armor",
+                        "looking": "0",
+                        "critical": "3",
+                        "max_hp": "39000",
+                        "matk": "194",
+                        "counters": [],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "102",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "213",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "219",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "212",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "200",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "202",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "220",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "223",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "214",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "224",
+                                "factor": "1"
+                            }
+                        ],
+                        "mdef": "246",
+                        "animation_info": {
+                            "scale": "1",
+                            "assets": {
+                                "boss-206098_1": "/Content/lang/ab/character/boss/206098/206098_1.json"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "3",
+                            "enemy_status_id": "4060102",
+                            "offset_y": "0",
+                            "path": "206098_1",
+                            "offset_x": "0"
+                        },
+                        "acc": "100",
+                        "eva": "100",
+                        "atk": "237",
+                        "breed_id": "14",
+                        "exp": "1500",
+                        "def": "266"
+                    }
+                ],
+                "max_hp": "39000",
+                "enemy_id": "406010",
+                "ai_id": "1"
+            }
+        ]
+    }
+]

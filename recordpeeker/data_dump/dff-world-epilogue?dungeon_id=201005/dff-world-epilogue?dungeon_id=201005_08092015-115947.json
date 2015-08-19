@@ -1,0 +1,93 @@
+{
+    "dungeon": {
+        "background_image_path": "/dff/static/lang/image/dungeon/201005_bg.png", 
+        "order_no": 1, 
+        "captures": [
+            {
+                "sp_scores": [
+                    {
+                        "title": "Afflict Marilith with Blind.", 
+                        "battle_id": 301021
+                    }, 
+                    {
+                        "title": "Afflict Marilith with Sleep.", 
+                        "battle_id": 301021
+                    }
+                ], 
+                "image_path": "/dff/static/lang/image/enemy/401005.png", 
+                "tip_battle": {
+                    "message": "Marilith is <span class=\"red\">immune to fire, ice, and lightning</span>--she's one tough naga, kupo! Try to debuff her with <span class=\"red\">Blind, Sleep, or Silence</span>, and attack her with anything that isn't fire, ice, or lightning!", 
+                    "group_id": 420077, 
+                    "id": 410077, 
+                    "title": "Marilith"
+                }
+            }
+        ], 
+        "is_new": false, 
+        "rank": 3, 
+        "closed_at": 2145938400, 
+        "id": 201005, 
+        "is_clear": true, 
+        "button_style": "NORMAL", 
+        "opened_at": 1424152800, 
+        "world_id": 101001, 
+        "type": 1, 
+        "challenge_level": 36, 
+        "is_unlocked": true, 
+        "series_id": 101001, 
+        "prizes": {
+            "1": [
+                {
+                    "id": 92000000, 
+                    "type_name": "COMMON", 
+                    "num": 2500, 
+                    "image_path": "/dff/static/lang/image/common_item/92000000.png", 
+                    "name": "Gil"
+                }
+            ], 
+            "3": [
+                {
+                    "id": 40000033, 
+                    "type_name": "ABILITY_MATERIAL", 
+                    "num": 3, 
+                    "image_path": "/dff/static/lang/image/ability_material/40000033/40000033_112.png", 
+                    "name": "Fire Orb"
+                }, 
+                {
+                    "id": 94000000, 
+                    "type_name": "COMMON", 
+                    "num": 1, 
+                    "image_path": "/dff/static/lang/image/common_item/94000000.png", 
+                    "name": "Stamina Shard"
+                }
+            ], 
+            "2": [
+                {
+                    "id": 94000000, 
+                    "type_name": "COMMON", 
+                    "num": 1, 
+                    "image_path": "/dff/static/lang/image/common_item/94000000.png", 
+                    "name": "Stamina Shard"
+                }, 
+                {
+                    "id": 91000000, 
+                    "type_name": "COMMON", 
+                    "num": 1, 
+                    "image_path": "/dff/static/lang/image/common_item/91000000.png", 
+                    "name": "Mythril"
+                }
+            ]
+        }, 
+        "total_stamina": 46, 
+        "epilogue": "The Warriors of Light traveled to the foot of Mount Gulg by canoe. Entering the mountain, they passed through caverns flowing with magma, until they reached the final chamber. There they faced Marilith, Fiend of Fire, awoken two hundred years before her time by the destruction of the Fiend of Earth. Surviving Marilith's scorching sheets of flame, the warriors triumphed and restored the light of the Fire Crystal.", 
+        "epilogue_image_path": "/dff/static/lang/image/dungeon/201005_epilogue.png", 
+        "name": "Mount Gulg", 
+        "bgm": "bgm_01_014", 
+        "prologue": "The Circle of Sages at Crescent Lake tell the warriors of the crystals and of Chaos. The Warriors of Light make their way to Mount Gulg to face the fire within.", 
+        "is_master": true, 
+        "prologue_image_path": "/dff/static/lang/image/dungeon/201005_prologue.png"
+    }, 
+    "SERVER_TIME": 1439139587, 
+    "success": true, 
+    "can_review": false
+}

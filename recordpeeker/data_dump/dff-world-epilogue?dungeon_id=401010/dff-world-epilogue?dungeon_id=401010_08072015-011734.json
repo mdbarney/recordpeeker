@@ -1,0 +1,104 @@
+{
+    "dungeon": {
+        "background_image_path": "/dff/static/lang/image/dungeon/401010_bg.png", 
+        "order_no": 1, 
+        "captures": [
+            {
+                "sp_scores": [
+                    {
+                        "title": "Exploit the Lich's weakness to holy attacks.", 
+                        "battle_id": 501040
+                    }
+                ], 
+                "image_path": "/dff/static/lang/image/enemy/401010.png", 
+                "tip_battle": {
+                    "message": "The Lich uses <span class=\"red\">potent magic</span>, kupo! <span class=\"red\">Silence</span> it to shut down the spells, then attack with its weakness, <span class=\"red\">holy!</span>", 
+                    "group_id": 410143, 
+                    "id": 410143, 
+                    "title": "Lich"
+                }
+            }, 
+            {
+                "sp_scores": [
+                    {
+                        "title": "Defeat Marilith without being KO'd.", 
+                        "battle_id": 501041
+                    }
+                ], 
+                "image_path": "/dff/static/lang/image/enemy/401011.png", 
+                "tip_battle": {
+                    "message": "Marilith is <span class=\"red\">immune to fire, ice, and lightning</span> attacks, kupo! But debuffs work well, so try to <span class=\"red\">Blind</span> or <span class=\"red\"> or Silence</span> her to even the odds!", 
+                    "group_id": 410144, 
+                    "id": 410144, 
+                    "title": "Marilith"
+                }
+            }
+        ], 
+        "is_new": false, 
+        "rank": 3, 
+        "closed_at": 2056341599, 
+        "id": 401010, 
+        "is_clear": true, 
+        "button_style": "NORMAL", 
+        "opened_at": 1437958800, 
+        "world_id": 101001, 
+        "type": 2, 
+        "challenge_level": 86, 
+        "is_unlocked": true, 
+        "series_id": 101001, 
+        "prizes": {
+            "1": [
+                {
+                    "id": 92000000, 
+                    "type_name": "COMMON", 
+                    "num": 16000, 
+                    "image_path": "/dff/static/lang/image/common_item/92000000.png", 
+                    "name": "Gil"
+                }
+            ], 
+            "3": [
+                {
+                    "id": 40000010, 
+                    "type_name": "ABILITY_MATERIAL", 
+                    "num": 1, 
+                    "image_path": "/dff/static/lang/image/ability_material/40000010/40000010_112.png", 
+                    "name": "Major White Orb"
+                }, 
+                {
+                    "id": 40000029, 
+                    "type_name": "ABILITY_MATERIAL", 
+                    "num": 1, 
+                    "image_path": "/dff/static/lang/image/ability_material/40000029/40000029_112.png", 
+                    "name": "Greater Non-Elemental Orb"
+                }
+            ], 
+            "2": [
+                {
+                    "id": 94000000, 
+                    "type_name": "COMMON", 
+                    "num": 1, 
+                    "image_path": "/dff/static/lang/image/common_item/94000000.png", 
+                    "name": "Stamina Shard"
+                }, 
+                {
+                    "id": 91000000, 
+                    "type_name": "COMMON", 
+                    "num": 1, 
+                    "image_path": "/dff/static/lang/image/common_item/91000000.png", 
+                    "name": "Mythril"
+                }
+            ]
+        }, 
+        "total_stamina": 74, 
+        "epilogue": "The Warriors of Light arrived at the Chaos Shrine 2000 years in the past, where they used the Lute from Princess Sarah to travel down into the shrine depths, fighting off the Lich and Marilith as they went.", 
+        "epilogue_image_path": "/dff/static/lang/image/dungeon/401010_epilogue.png", 
+        "name": "Chaos Shrine of Yore, Part 1", 
+        "bgm": "bgm_01_010", 
+        "prologue": "With the support of the Circle of Sages, the Warriors of Light travel to the Chaos Shrine and are transported 2000 years into the past...", 
+        "is_master": true, 
+        "prologue_image_path": "/dff/static/lang/image/dungeon/401010_prologue.png"
+    }, 
+    "SERVER_TIME": 1438928254, 
+    "success": true, 
+    "can_review": false
+}

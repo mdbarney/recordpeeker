@@ -1,0 +1,49 @@
+{
+    "SERVER_TIME": 1439063151, 
+    "special_quest_prizes": {}, 
+    "success": true, 
+    "quests": [
+        {
+            "achieve_type_name": "ABILITY_UPGRADE", 
+            "description": "Hone the monk ability Pressure Point!<br>\nHoning an ability increases the number of times you can use it.", 
+            "can_challenge": false, 
+            "title": "Hone Pressure Point (Monk Ability)", 
+            "is_completed": true, 
+            "is_achieved": false, 
+            "is_new": false, 
+            "is_tutorial": false, 
+            "is_challenging": false, 
+            "achieve_type": 7, 
+            "prizes": [
+                {
+                    "id": 40000004, 
+                    "type_name": "ABILITY_MATERIAL", 
+                    "num": 6, 
+                    "image_path": "/dff/static/lang/image/ability_material/40000004/40000004_112.png", 
+                    "name": "Greater Power Orb"
+                }
+            ], 
+            "hint_title": "", 
+            "disp_number": 25, 
+            "id": 10700027, 
+            "ability_recipes": [
+                {
+                    "id": 40000004, 
+                    "num": 10, 
+                    "image_path": "/dff/static/lang/image/ability_material/40000004/40000004_112.png", 
+                    "name": "Greater Power Orb"
+                }, 
+                {
+                    "id": 40000064, 
+                    "num": 15, 
+                    "image_path": "/dff/static/lang/image/ability_material/40000064/40000064_112.png", 
+                    "name": "Greater Dark Orb"
+                }
+            ], 
+            "achieve_cond_description": "Hone the monk ability Pressure Point after accepting the quest.", 
+            "order_cond_description": "", 
+            "is_special": false, 
+            "hint_msg": ""
+        }
+    ]
+}

@@ -1,0 +1,89 @@
+{
+    "SERVER_TIME": 1437353837, 
+    "can_review": false, 
+    "dungeon": {
+        "background_image_path": "/dff/static/lang/image/dungeon/206002_bg.png", 
+        "bgm": "bgm_06_002", 
+        "button_style": "NORMAL", 
+        "captures": [
+            {
+                "image_path": "/dff/static/lang/image/enemy/406003.png", 
+                "sp_scores": [
+                    {
+                        "battle_id": 306008, 
+                        "title": "Defeat the Guard Leader before he uses Charge."
+                    }
+                ], 
+                "tip_battle": {
+                    "group_id": 420016, 
+                    "id": 410016, 
+                    "message": "The Guard Leader appears with 2 Silver Lobos at his side. Focus your attacks on one target to <span class=\"red\">thin their numbers</span>. Use <span class=\"red\">target</span> to your advantage!", 
+                    "title": "Guard Leader"
+                }
+            }
+        ], 
+        "challenge_level": 10, 
+        "closed_at": 2145938400, 
+        "epilogue": "The treasure hunter Locke rushes into the mines to save Terra, whom he finds unconscious. Imperial guards attack, and Locke is only able to escape with Terra thanks to the aid of a band of moogles. Safe for the time being, Locke takes Terra to Figaro Castle to meet with Edgar, a fellow Returner.", 
+        "epilogue_image_path": "/dff/static/lang/image/dungeon/206002_epilogue.png", 
+        "id": 206002, 
+        "is_clear": true, 
+        "is_master": true, 
+        "is_new": false, 
+        "is_unlocked": true, 
+        "name": "Abandoned Mineshaft", 
+        "opened_at": 1398924000, 
+        "order_no": 1, 
+        "prizes": {
+            "1": [
+                {
+                    "id": 92000000, 
+                    "image_path": "/dff/static/lang/image/common_item/92000000.png", 
+                    "name": "Gil", 
+                    "num": 700, 
+                    "type_name": "COMMON"
+                }
+            ], 
+            "2": [
+                {
+                    "id": 94000000, 
+                    "image_path": "/dff/static/lang/image/common_item/94000000.png", 
+                    "name": "Stamina Shard", 
+                    "num": 1, 
+                    "type_name": "COMMON"
+                }, 
+                {
+                    "id": 91000000, 
+                    "image_path": "/dff/static/lang/image/common_item/91000000.png", 
+                    "name": "Mythril", 
+                    "num": 1, 
+                    "type_name": "COMMON"
+                }
+            ], 
+            "3": [
+                {
+                    "id": 94000000, 
+                    "image_path": "/dff/static/lang/image/common_item/94000000.png", 
+                    "name": "Stamina Shard", 
+                    "num": 1, 
+                    "type_name": "COMMON"
+                }, 
+                {
+                    "id": 21001006, 
+                    "image_path": "/dff/static/lang/image/equipment/21001006/21001006_02_112.png", 
+                    "name": "Chopper (XII)", 
+                    "num": 1, 
+                    "type_name": "EQUIPMENT"
+                }
+            ]
+        }, 
+        "prologue": "Freed from the Empire's hold on her mind, Terra flees Imperial guards and seeks refuge in the mines.", 
+        "prologue_image_path": "/dff/static/lang/image/dungeon/206002_prologue.png", 
+        "rank": 3, 
+        "series_id": 106001, 
+        "total_stamina": 21, 
+        "type": 1, 
+        "world_id": 106001
+    }, 
+    "success": true
+}

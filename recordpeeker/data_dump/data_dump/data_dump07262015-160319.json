@@ -1,0 +1,89 @@
+{
+    "SERVER_TIME": 1437944599, 
+    "can_review": false, 
+    "dungeon": {
+        "background_image_path": "/dff/static/lang/image/dungeon/201002_bg.png", 
+        "bgm": "bgm_01_006", 
+        "button_style": "NORMAL", 
+        "captures": [
+            {
+                "image_path": "/dff/static/lang/image/enemy/401002.png", 
+                "sp_scores": [
+                    {
+                        "battle_id": 301007, 
+                        "title": "Afflict Astos with Silence."
+                    }
+                ], 
+                "tip_battle": {
+                    "group_id": 420032, 
+                    "id": 410032, 
+                    "message": "The dark elf Astos uses all sorts of magical attacks. Fight back with abilities like <span class=\"red\">Silence</span> and <span class=\"red\">Silence Buster</span> to put a lid on his spells!", 
+                    "title": "Astos"
+                }
+            }
+        ], 
+        "challenge_level": 16, 
+        "closed_at": 2145938400, 
+        "epilogue": "The search for the dark elf king Astos brought the warriors to a derelict castle, the sole resident of which was a king who claimed to have been deceived by the dark elf, leading to the fall of his kingdom. The warriors agreed to retrieve his lost crown from the Marsh Cave, but upon their return, the king revealed himself to be Astos and attacked! Defeating him, the warriors obtained the crystal eye that had been stolen from the witch Matoya. In exchange, she gave the party the Jolt Tonic which awakened the elven prince, thus breaking the curse.", 
+        "epilogue_image_path": "/dff/static/lang/image/dungeon/201002_epilogue.png", 
+        "id": 201002, 
+        "is_clear": true, 
+        "is_master": true, 
+        "is_new": false, 
+        "is_unlocked": true, 
+        "name": "Western Keep", 
+        "opened_at": 1424152800, 
+        "order_no": 1, 
+        "prizes": {
+            "1": [
+                {
+                    "id": 92000000, 
+                    "image_path": "/dff/static/lang/image/common_item/92000000.png", 
+                    "name": "Gil", 
+                    "num": 1500, 
+                    "type_name": "COMMON"
+                }
+            ], 
+            "2": [
+                {
+                    "id": 94000000, 
+                    "image_path": "/dff/static/lang/image/common_item/94000000.png", 
+                    "name": "Stamina Shard", 
+                    "num": 2, 
+                    "type_name": "COMMON"
+                }, 
+                {
+                    "id": 91000000, 
+                    "image_path": "/dff/static/lang/image/common_item/91000000.png", 
+                    "name": "Mythril", 
+                    "num": 1, 
+                    "type_name": "COMMON"
+                }
+            ], 
+            "3": [
+                {
+                    "id": 40000007, 
+                    "image_path": "/dff/static/lang/image/ability_material/40000007/40000007_112.png", 
+                    "name": "Lesser White Orb", 
+                    "num": 5, 
+                    "type_name": "ABILITY_MATERIAL"
+                }, 
+                {
+                    "id": 94000000, 
+                    "image_path": "/dff/static/lang/image/common_item/94000000.png", 
+                    "name": "Stamina Shard", 
+                    "num": 2, 
+                    "type_name": "COMMON"
+                }
+            ]
+        }, 
+        "prologue": "Entering Elfheim, the Warriors of Light learn that the dark elf king Astos has ensorcelled the prince of the elves in a magical slumber. The search for Astos begins.", 
+        "prologue_image_path": "/dff/static/lang/image/dungeon/201002_prologue.png", 
+        "rank": 3, 
+        "series_id": 101001, 
+        "total_stamina": 25, 
+        "type": 1, 
+        "world_id": 101001
+    }, 
+    "success": true
+}

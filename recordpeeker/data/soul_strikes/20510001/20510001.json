@@ -1,0 +1,61 @@
+{
+    "ability_id": "20510001", 
+    "action_id": "14", 
+    "animation_info": {
+        "atk_motion": "chant_end", 
+        "chara_in": "", 
+        "chara_out": "", 
+        "damage_tag": "", 
+        "hit": "70584/70584_hit.json", 
+        "hit_arg": "0", 
+        "hit_next_tag": "", 
+        "hit_type": "1", 
+        "id": "70584", 
+        "launch": "common/launch_special_attack_bg_black.json", 
+        "launch_next_tag": "", 
+        "launch_type": "2", 
+        "miss_hit": "", 
+        "other_in": "", 
+        "other_out": "", 
+        "recover_tag": "eff_recover", 
+        "return_hit": "", 
+        "return_shot": "", 
+        "return_type": "99", 
+        "reverse_hit": "1", 
+        "reverse_shot": "1", 
+        "shot": "70584/70584_shot.json", 
+        "shot_next_tag": "", 
+        "shot_type": "4"
+    }, 
+    "assets": {
+        "ability-70584_hit": "/Content/lang/ab/ability/70584/70584_hit.json", 
+        "ability-70584_launch": "/Content/lang/ab/ability/common/launch_special_attack_bg_black.json", 
+        "ability-70584_shot": "/Content/lang/ab/ability/70584/70584_shot.json"
+    }, 
+    "exercise_type": "7", 
+    "icon": {
+        "assets": {
+            "command_icon_20510001": "/Content/lang/ab_image/soulstrike//20510001/20510001_256.png"
+        }
+    }, 
+    "options": {
+        "ability_animation_id": "70584", 
+        "active_target_method": "2", 
+        "alias_name": "Wall", 
+        "arg1": "207", 
+        "arg2": "208", 
+        "arg3": "0", 
+        "arg4": "0", 
+        "arg5": "0", 
+        "cast_time": "3000", 
+        "consume_soul_strike_point": "500", 
+        "counter_enable": "0", 
+        "name": "Wall", 
+        "status_ailments_factor": "608", 
+        "status_ailments_id": "608", 
+        "target_death": "1", 
+        "target_method": "5", 
+        "target_range": "1", 
+        "target_segment": "2"
+    }
+}

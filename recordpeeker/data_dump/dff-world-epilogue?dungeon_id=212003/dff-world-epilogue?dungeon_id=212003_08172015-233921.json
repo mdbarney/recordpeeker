@@ -1,0 +1,97 @@
+{
+    "dungeon": {
+        "background_image_path": "/dff/static/lang/image/dungeon/212003_bg.png", 
+        "order_no": 1, 
+        "captures": [
+            {
+                "sp_scores": [
+                    {
+                        "title": "Exploit Gwitch's weakness to fire attacks.", 
+                        "battle_id": 312008
+                    }, 
+                    {
+                        "title": "Exploit Galeedo's weakness to fire attacks.", 
+                        "battle_id": 312008
+                    }, 
+                    {
+                        "title": "Exploit Daguza's weakness to fire attacks.", 
+                        "battle_id": 312008
+                    }
+                ], 
+                "image_path": "/dff/static/lang/image/enemy/412004.png", 
+                "tip_battle": {
+                    "message": "Daguza, Gwitch, and Galeedo don't use anything besides physical attacks, so use <span class=\"red\">Protect</span> to take the wind out of their sails! Gwitch uses <span class=\"red\">Cure</span>, so attack him with his weakness, <span class=\"red\">fire</span>, to bring him down first, kupo!", 
+                    "group_id": 410131, 
+                    "id": 410131, 
+                    "title": "Daguza, Gwitch, & Galeedo"
+                }
+            }
+        ], 
+        "is_new": false, 
+        "rank": 3, 
+        "closed_at": 2145938400, 
+        "id": 212003, 
+        "is_clear": true, 
+        "button_style": "NORMAL", 
+        "opened_at": 1434675600, 
+        "world_id": 112001, 
+        "type": 1, 
+        "challenge_level": 44, 
+        "is_unlocked": true, 
+        "series_id": 112001, 
+        "prizes": {
+            "1": [
+                {
+                    "id": 92000000, 
+                    "type_name": "COMMON", 
+                    "num": 3500, 
+                    "image_path": "/dff/static/lang/image/common_item/92000000.png", 
+                    "name": "Gil"
+                }
+            ], 
+            "3": [
+                {
+                    "id": 70000003, 
+                    "type_name": "GROW_EGG", 
+                    "num": 1, 
+                    "image_path": "/dff/static/lang/image/growegg/70000003/70000003_112.png", 
+                    "name": "Growth Egg"
+                }, 
+                {
+                    "id": 40000048, 
+                    "type_name": "ABILITY_MATERIAL", 
+                    "num": 3, 
+                    "image_path": "/dff/static/lang/image/ability_material/40000048/40000048_112.png", 
+                    "name": "Earth Orb"
+                }
+            ], 
+            "2": [
+                {
+                    "id": 70000003, 
+                    "type_name": "GROW_EGG", 
+                    "num": 1, 
+                    "image_path": "/dff/static/lang/image/growegg/70000003/70000003_112.png", 
+                    "name": "Growth Egg"
+                }, 
+                {
+                    "id": 11200300, 
+                    "type_name": "BUDDY", 
+                    "num": 1, 
+                    "image_path": "/dff/static/lang/image/buddy/11200300/11200300.png", 
+                    "name": "Fran"
+                }
+            ]
+        }, 
+        "total_stamina": 56, 
+        "epilogue": "Vaan quickly found himself outnumbered, but with Balthier's help, managed to defeat Daguza. Together, they looked for a way out, wandering into an oubliette where they found Basch suspended in a cage. With Imperials approaching, they jumped onto the cage and lowered it, escaping into the dungeon depths.", 
+        "epilogue_image_path": "/dff/static/lang/image/dungeon/212003_epilogue.png", 
+        "name": "Nalbina Dungeons", 
+        "bgm": "bgm_12_030", 
+        "prologue": "Vaan awakens in the Nalbina Dungeons, where he intervenes to stop the jailor Daguza and his lackeys from abusing a bangaa prisoner.", 
+        "is_master": true, 
+        "prologue_image_path": "/dff/static/lang/image/dungeon/212003_prologue.png"
+    }, 
+    "SERVER_TIME": 1439872761, 
+    "success": true, 
+    "can_review": false
+}

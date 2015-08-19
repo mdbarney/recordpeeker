@@ -1,0 +1,879 @@
+[
+    {
+        "is_sp_enemy": 0,
+        "deform_animation_info": [],
+        "ai_id": 0,
+        "id": "306082",
+        "children": [
+            {
+                "drop_item_list": [],
+                "uid": "201",
+                "no": "1",
+                "init_hp": 1921,
+                "child_pos_id": "1",
+                "lv": "30",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "201127",
+                                "weight": "30"
+                            },
+                            {
+                                "ability_id": "101001",
+                                "weight": "70"
+                            }
+                        ],
+                        "mnd": 52,
+                        "id": "3060821",
+                        "size": "3",
+                        "lv": "30",
+                        "no": "1",
+                        "spd": "100",
+                        "disp_name": "Behemoth",
+                        "looking": "0",
+                        "critical": "3",
+                        "max_hp": 1921,
+                        "matk": 102,
+                        "counters": [],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "213",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "101",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "201",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "211",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "219",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "220",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "203",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "200",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "214",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "206",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "205",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "210",
+                                "factor": "1"
+                            }
+                        ],
+                        "mdef": 52,
+                        "animation_info": {
+                            "scale": "3",
+                            "assets": {
+                                "enemy-106120": "/Content/lang/ab/character/enemy/106120.sajson"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "enemy_status_id": "3060821",
+                            "offset_y": "-38",
+                            "path": "106120",
+                            "offset_x": "0"
+                        },
+                        "acc": "100",
+                        "eva": "70",
+                        "atk": 102,
+                        "breed_id": "0",
+                        "exp": 635,
+                        "def": 52
+                    }
+                ],
+                "max_hp": 1921,
+                "enemy_id": "306082",
+                "ai_id": "1"
+            }
+        ]
+    },
+    {
+        "is_sp_enemy": 0,
+        "deform_animation_info": [],
+        "ai_id": 0,
+        "id": "306085",
+        "children": [
+            {
+                "drop_item_list": [
+                    {
+                        "amount": 396,
+                        "type": 11,
+                        "uid": 202,
+                        "rarity": 1
+                    }
+                ],
+                "uid": "202",
+                "no": "1",
+                "init_hp": 662,
+                "child_pos_id": "1",
+                "lv": "30",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "101001",
+                                "weight": "50"
+                            },
+                            {
+                                "ability_id": "201133",
+                                "weight": "50"
+                            }
+                        ],
+                        "mnd": 34,
+                        "id": "3060851",
+                        "size": "1",
+                        "lv": "30",
+                        "no": "1",
+                        "spd": "100",
+                        "disp_name": "Humpty",
+                        "looking": "0",
+                        "critical": "3",
+                        "max_hp": 662,
+                        "matk": 102,
+                        "counters": [],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "201",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "211",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "106",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "210",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "108",
+                                "factor": "21"
+                            },
+                            {
+                                "attribute_id": "200",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "219",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "100",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "212",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "215",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "220",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "224",
+                                "factor": "1"
+                            }
+                        ],
+                        "mdef": 28,
+                        "animation_info": {
+                            "scale": "1.5",
+                            "assets": {
+                                "enemy-106143": "/Content/lang/ab/character/enemy/106143.sajson"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "enemy_status_id": "3060851",
+                            "offset_y": "-14",
+                            "path": "106143",
+                            "offset_x": "2"
+                        },
+                        "acc": "100",
+                        "eva": "46",
+                        "atk": 90,
+                        "breed_id": "1",
+                        "exp": 254,
+                        "def": 51
+                    }
+                ],
+                "max_hp": 662,
+                "enemy_id": "306085",
+                "ai_id": "1"
+            }
+        ]
+    },
+    {
+        "is_sp_enemy": 0,
+        "deform_animation_info": [],
+        "ai_id": 0,
+        "id": "306085",
+        "children": [
+            {
+                "drop_item_list": [],
+                "uid": "203",
+                "no": "1",
+                "init_hp": 662,
+                "child_pos_id": "1",
+                "lv": "30",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "101001",
+                                "weight": "50"
+                            },
+                            {
+                                "ability_id": "201133",
+                                "weight": "50"
+                            }
+                        ],
+                        "mnd": 34,
+                        "id": "3060851",
+                        "size": "1",
+                        "lv": "30",
+                        "no": "1",
+                        "spd": "100",
+                        "disp_name": "Humpty",
+                        "looking": "0",
+                        "critical": "3",
+                        "max_hp": 662,
+                        "matk": 102,
+                        "counters": [],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "201",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "211",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "106",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "210",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "108",
+                                "factor": "21"
+                            },
+                            {
+                                "attribute_id": "200",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "219",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "100",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "212",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "215",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "220",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "224",
+                                "factor": "1"
+                            }
+                        ],
+                        "mdef": 28,
+                        "animation_info": {
+                            "scale": "1.5",
+                            "assets": {
+                                "enemy-106143": "/Content/lang/ab/character/enemy/106143.sajson"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "enemy_status_id": "3060851",
+                            "offset_y": "-14",
+                            "path": "106143",
+                            "offset_x": "2"
+                        },
+                        "acc": "100",
+                        "eva": "46",
+                        "atk": 90,
+                        "breed_id": "1",
+                        "exp": 254,
+                        "def": 51
+                    }
+                ],
+                "max_hp": 662,
+                "enemy_id": "306085",
+                "ai_id": "1"
+            }
+        ]
+    },
+    {
+        "is_sp_enemy": 0,
+        "deform_animation_info": [],
+        "ai_id": 0,
+        "id": "306086",
+        "children": [
+            {
+                "drop_item_list": [],
+                "uid": "204",
+                "no": "1",
+                "init_hp": 827,
+                "child_pos_id": "1",
+                "lv": "30",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "201134",
+                                "weight": "25"
+                            },
+                            {
+                                "ability_id": "201135",
+                                "weight": "25"
+                            },
+                            {
+                                "ability_id": "101001",
+                                "weight": "25"
+                            },
+                            {
+                                "ability_id": "102012",
+                                "weight": "25"
+                            }
+                        ],
+                        "mnd": 34,
+                        "id": "3060861",
+                        "size": "2",
+                        "lv": "30",
+                        "no": "1",
+                        "spd": "100",
+                        "disp_name": "Cruller",
+                        "looking": "0",
+                        "critical": "3",
+                        "max_hp": 827,
+                        "matk": 102,
+                        "counters": [],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "205",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "108",
+                                "factor": "21"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "201",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "219",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "220",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "100",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "106",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "215",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "224",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "211",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "212",
+                                "factor": "1"
+                            }
+                        ],
+                        "mdef": 34,
+                        "animation_info": {
+                            "scale": "2.5",
+                            "assets": {
+                                "enemy-106144": "/Content/lang/ab/character/enemy/106144.sajson"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "enemy_status_id": "3060861",
+                            "offset_y": "-23",
+                            "path": "106144",
+                            "offset_x": "6"
+                        },
+                        "acc": "100",
+                        "eva": "46",
+                        "atk": 112,
+                        "breed_id": "1",
+                        "exp": 318,
+                        "def": 51
+                    }
+                ],
+                "max_hp": 827,
+                "enemy_id": "306086",
+                "ai_id": "1"
+            }
+        ]
+    },
+    {
+        "is_sp_enemy": 0,
+        "deform_animation_info": [],
+        "ai_id": 0,
+        "id": "306085",
+        "children": [
+            {
+                "drop_item_list": [],
+                "uid": "205",
+                "no": "1",
+                "init_hp": 662,
+                "child_pos_id": "1",
+                "lv": "30",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "101001",
+                                "weight": "50"
+                            },
+                            {
+                                "ability_id": "201133",
+                                "weight": "50"
+                            }
+                        ],
+                        "mnd": 34,
+                        "id": "3060851",
+                        "size": "1",
+                        "lv": "30",
+                        "no": "1",
+                        "spd": "100",
+                        "disp_name": "Humpty",
+                        "looking": "0",
+                        "critical": "3",
+                        "max_hp": 662,
+                        "matk": 102,
+                        "counters": [],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "201",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "211",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "106",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "210",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "108",
+                                "factor": "21"
+                            },
+                            {
+                                "attribute_id": "200",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "219",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "100",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "212",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "215",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "220",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "224",
+                                "factor": "1"
+                            }
+                        ],
+                        "mdef": 28,
+                        "animation_info": {
+                            "scale": "1.5",
+                            "assets": {
+                                "enemy-106143": "/Content/lang/ab/character/enemy/106143.sajson"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "enemy_status_id": "3060851",
+                            "offset_y": "-14",
+                            "path": "106143",
+                            "offset_x": "2"
+                        },
+                        "acc": "100",
+                        "eva": "46",
+                        "atk": 90,
+                        "breed_id": "1",
+                        "exp": 254,
+                        "def": 51
+                    }
+                ],
+                "max_hp": 662,
+                "enemy_id": "306085",
+                "ai_id": "1"
+            }
+        ]
+    },
+    {
+        "is_sp_enemy": 0,
+        "deform_animation_info": [],
+        "ai_id": 0,
+        "id": "306085",
+        "children": [
+            {
+                "drop_item_list": [],
+                "uid": "206",
+                "no": "1",
+                "init_hp": 662,
+                "child_pos_id": "1",
+                "lv": "30",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "101001",
+                                "weight": "50"
+                            },
+                            {
+                                "ability_id": "201133",
+                                "weight": "50"
+                            }
+                        ],
+                        "mnd": 34,
+                        "id": "3060851",
+                        "size": "1",
+                        "lv": "30",
+                        "no": "1",
+                        "spd": "100",
+                        "disp_name": "Humpty",
+                        "looking": "0",
+                        "critical": "3",
+                        "max_hp": 662,
+                        "matk": 102,
+                        "counters": [],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "201",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "211",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "106",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "210",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "108",
+                                "factor": "21"
+                            },
+                            {
+                                "attribute_id": "200",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "219",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "100",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "212",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "215",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "220",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "224",
+                                "factor": "1"
+                            }
+                        ],
+                        "mdef": 28,
+                        "animation_info": {
+                            "scale": "1.5",
+                            "assets": {
+                                "enemy-106143": "/Content/lang/ab/character/enemy/106143.sajson"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "enemy_status_id": "3060851",
+                            "offset_y": "-14",
+                            "path": "106143",
+                            "offset_x": "2"
+                        },
+                        "acc": "100",
+                        "eva": "46",
+                        "atk": 90,
+                        "breed_id": "1",
+                        "exp": 254,
+                        "def": 51
+                    }
+                ],
+                "max_hp": 662,
+                "enemy_id": "306085",
+                "ai_id": "1"
+            }
+        ]
+    },
+    {
+        "is_sp_enemy": 0,
+        "deform_animation_info": [],
+        "ai_id": 0,
+        "id": "306086",
+        "children": [
+            {
+                "drop_item_list": [
+                    {
+                        "item_id": "21007001",
+                        "num": "1",
+                        "type": 41,
+                        "uid": 207,
+                        "rarity": "1"
+                    }
+                ],
+                "uid": "207",
+                "no": "1",
+                "init_hp": 827,
+                "child_pos_id": "1",
+                "lv": "30",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "201134",
+                                "weight": "25"
+                            },
+                            {
+                                "ability_id": "201135",
+                                "weight": "25"
+                            },
+                            {
+                                "ability_id": "101001",
+                                "weight": "25"
+                            },
+                            {
+                                "ability_id": "102012",
+                                "weight": "25"
+                            }
+                        ],
+                        "mnd": 34,
+                        "id": "3060861",
+                        "size": "2",
+                        "lv": "30",
+                        "no": "1",
+                        "spd": "100",
+                        "disp_name": "Cruller",
+                        "looking": "0",
+                        "critical": "3",
+                        "max_hp": 827,
+                        "matk": 102,
+                        "counters": [],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "205",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "108",
+                                "factor": "21"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "201",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "219",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "220",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "100",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "106",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "215",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "224",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "211",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "212",
+                                "factor": "1"
+                            }
+                        ],
+                        "mdef": 34,
+                        "animation_info": {
+                            "scale": "2.5",
+                            "assets": {
+                                "enemy-106144": "/Content/lang/ab/character/enemy/106144.sajson"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "enemy_status_id": "3060861",
+                            "offset_y": "-23",
+                            "path": "106144",
+                            "offset_x": "6"
+                        },
+                        "acc": "100",
+                        "eva": "46",
+                        "atk": 112,
+                        "breed_id": "1",
+                        "exp": 318,
+                        "def": 51
+                    }
+                ],
+                "max_hp": 827,
+                "enemy_id": "306086",
+                "ai_id": "1"
+            }
+        ]
+    }
+]

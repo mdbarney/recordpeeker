@@ -1,0 +1,826 @@
+[
+    {
+        "is_sp_enemy": 0,
+        "deform_animation_info": [],
+        "ai_id": 0,
+        "id": "306319",
+        "children": [
+            {
+                "drop_item_list": [
+                    {
+                        "item_id": "40000053",
+                        "num": "1",
+                        "type": 51,
+                        "uid": 201,
+                        "rarity": "3"
+                    }
+                ],
+                "uid": "201",
+                "no": "1",
+                "init_hp": 2274,
+                "child_pos_id": "1",
+                "lv": "86",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "401123",
+                                "weight": "40"
+                            },
+                            {
+                                "ability_id": "303021",
+                                "weight": "30"
+                            },
+                            {
+                                "ability_id": "401124",
+                                "weight": "30"
+                            }
+                        ],
+                        "mnd": 144,
+                        "id": "3063191",
+                        "size": "1",
+                        "lv": "86",
+                        "no": "1",
+                        "spd": "100",
+                        "disp_name": "Grenade",
+                        "looking": "0",
+                        "critical": "3",
+                        "max_hp": 2274,
+                        "matk": 235,
+                        "counters": [
+                            {
+                                "ability_id": "303003",
+                                "condition_value": "1",
+                                "condition_type": "3",
+                                "rate": "20"
+                            }
+                        ],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "212",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "101",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "100",
+                                "factor": "21"
+                            },
+                            {
+                                "attribute_id": "220",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "219",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "224",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "105",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            }
+                        ],
+                        "mdef": 115,
+                        "animation_info": {
+                            "scale": "1.7",
+                            "assets": {
+                                "enemy-106082": "/Content/lang/ab/character/enemy/106082.sajson"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "enemy_status_id": "3063191",
+                            "offset_y": "-12",
+                            "path": "106082",
+                            "offset_x": "0"
+                        },
+                        "acc": "100",
+                        "eva": "70",
+                        "atk": 231,
+                        "breed_id": "0",
+                        "exp": 698,
+                        "def": 144
+                    }
+                ],
+                "max_hp": 2274,
+                "enemy_id": "306319",
+                "ai_id": "1"
+            }
+        ]
+    },
+    {
+        "is_sp_enemy": 0,
+        "deform_animation_info": [],
+        "ai_id": 0,
+        "id": "306319",
+        "children": [
+            {
+                "drop_item_list": [],
+                "uid": "202",
+                "no": "1",
+                "init_hp": 2274,
+                "child_pos_id": "1",
+                "lv": "86",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "401123",
+                                "weight": "40"
+                            },
+                            {
+                                "ability_id": "303021",
+                                "weight": "30"
+                            },
+                            {
+                                "ability_id": "401124",
+                                "weight": "30"
+                            }
+                        ],
+                        "mnd": 144,
+                        "id": "3063191",
+                        "size": "1",
+                        "lv": "86",
+                        "no": "1",
+                        "spd": "100",
+                        "disp_name": "Grenade",
+                        "looking": "0",
+                        "critical": "3",
+                        "max_hp": 2274,
+                        "matk": 235,
+                        "counters": [
+                            {
+                                "ability_id": "303003",
+                                "condition_value": "1",
+                                "condition_type": "3",
+                                "rate": "20"
+                            }
+                        ],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "212",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "101",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "100",
+                                "factor": "21"
+                            },
+                            {
+                                "attribute_id": "220",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "219",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "224",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "105",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            }
+                        ],
+                        "mdef": 115,
+                        "animation_info": {
+                            "scale": "1.7",
+                            "assets": {
+                                "enemy-106082": "/Content/lang/ab/character/enemy/106082.sajson"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "enemy_status_id": "3063191",
+                            "offset_y": "-12",
+                            "path": "106082",
+                            "offset_x": "0"
+                        },
+                        "acc": "100",
+                        "eva": "70",
+                        "atk": 231,
+                        "breed_id": "0",
+                        "exp": 698,
+                        "def": 144
+                    }
+                ],
+                "max_hp": 2274,
+                "enemy_id": "306319",
+                "ai_id": "1"
+            }
+        ]
+    },
+    {
+        "is_sp_enemy": 0,
+        "deform_animation_info": [],
+        "ai_id": 0,
+        "id": "306318",
+        "children": [
+            {
+                "drop_item_list": [
+                    {
+                        "item_id": "40000027",
+                        "num": "1",
+                        "type": 51,
+                        "uid": 203,
+                        "rarity": "2"
+                    }
+                ],
+                "uid": "203",
+                "no": "1",
+                "init_hp": 5707,
+                "child_pos_id": "1",
+                "lv": "86",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "303017",
+                                "weight": "30"
+                            },
+                            {
+                                "ability_id": "101001",
+                                "weight": "40"
+                            },
+                            {
+                                "ability_id": "401131",
+                                "weight": "30"
+                            },
+                            {
+                                "ability_id": "401128",
+                                "weight": "0"
+                            },
+                            {
+                                "ability_id": "401129",
+                                "weight": "0"
+                            }
+                        ],
+                        "mnd": 337,
+                        "id": "3063181",
+                        "size": "3",
+                        "lv": "86",
+                        "no": "1",
+                        "spd": "100",
+                        "disp_name": "Dragon",
+                        "looking": "0",
+                        "critical": "3",
+                        "max_hp": 5707,
+                        "matk": 249,
+                        "counters": [],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "213",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "223",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "201",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "219",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "102",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "214",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "220",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "203",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "215",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            }
+                        ],
+                        "mdef": 113,
+                        "animation_info": {
+                            "scale": "2.5",
+                            "assets": {
+                                "enemy-106118": "/Content/lang/ab/character/enemy/106118.sajson"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "enemy_status_id": "3063181",
+                            "offset_y": "-28",
+                            "path": "106118",
+                            "offset_x": "-6"
+                        },
+                        "acc": "100",
+                        "eva": "62",
+                        "atk": 250,
+                        "breed_id": "10",
+                        "exp": 1743,
+                        "def": 183
+                    }
+                ],
+                "max_hp": 5707,
+                "enemy_id": "306318",
+                "ai_id": "1"
+            }
+        ]
+    },
+    {
+        "is_sp_enemy": 0,
+        "deform_animation_info": [],
+        "ai_id": 0,
+        "id": "306319",
+        "children": [
+            {
+                "drop_item_list": [],
+                "uid": "204",
+                "no": "1",
+                "init_hp": 2274,
+                "child_pos_id": "1",
+                "lv": "86",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "401123",
+                                "weight": "40"
+                            },
+                            {
+                                "ability_id": "303021",
+                                "weight": "30"
+                            },
+                            {
+                                "ability_id": "401124",
+                                "weight": "30"
+                            }
+                        ],
+                        "mnd": 144,
+                        "id": "3063191",
+                        "size": "1",
+                        "lv": "86",
+                        "no": "1",
+                        "spd": "100",
+                        "disp_name": "Grenade",
+                        "looking": "0",
+                        "critical": "3",
+                        "max_hp": 2274,
+                        "matk": 235,
+                        "counters": [
+                            {
+                                "ability_id": "303003",
+                                "condition_value": "1",
+                                "condition_type": "3",
+                                "rate": "20"
+                            }
+                        ],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "212",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "101",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "100",
+                                "factor": "21"
+                            },
+                            {
+                                "attribute_id": "220",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "219",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "224",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "105",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            }
+                        ],
+                        "mdef": 115,
+                        "animation_info": {
+                            "scale": "1.7",
+                            "assets": {
+                                "enemy-106082": "/Content/lang/ab/character/enemy/106082.sajson"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "enemy_status_id": "3063191",
+                            "offset_y": "-12",
+                            "path": "106082",
+                            "offset_x": "0"
+                        },
+                        "acc": "100",
+                        "eva": "70",
+                        "atk": 231,
+                        "breed_id": "0",
+                        "exp": 698,
+                        "def": 144
+                    }
+                ],
+                "max_hp": 2274,
+                "enemy_id": "306319",
+                "ai_id": "1"
+            }
+        ]
+    },
+    {
+        "is_sp_enemy": 0,
+        "deform_animation_info": [],
+        "ai_id": 0,
+        "id": "306319",
+        "children": [
+            {
+                "drop_item_list": [],
+                "uid": "205",
+                "no": "1",
+                "init_hp": 2274,
+                "child_pos_id": "1",
+                "lv": "86",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "401123",
+                                "weight": "40"
+                            },
+                            {
+                                "ability_id": "303021",
+                                "weight": "30"
+                            },
+                            {
+                                "ability_id": "401124",
+                                "weight": "30"
+                            }
+                        ],
+                        "mnd": 144,
+                        "id": "3063191",
+                        "size": "1",
+                        "lv": "86",
+                        "no": "1",
+                        "spd": "100",
+                        "disp_name": "Grenade",
+                        "looking": "0",
+                        "critical": "3",
+                        "max_hp": 2274,
+                        "matk": 235,
+                        "counters": [
+                            {
+                                "ability_id": "303003",
+                                "condition_value": "1",
+                                "condition_type": "3",
+                                "rate": "20"
+                            }
+                        ],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "212",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "101",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "100",
+                                "factor": "21"
+                            },
+                            {
+                                "attribute_id": "220",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "219",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "224",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "105",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            }
+                        ],
+                        "mdef": 115,
+                        "animation_info": {
+                            "scale": "1.7",
+                            "assets": {
+                                "enemy-106082": "/Content/lang/ab/character/enemy/106082.sajson"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "enemy_status_id": "3063191",
+                            "offset_y": "-12",
+                            "path": "106082",
+                            "offset_x": "0"
+                        },
+                        "acc": "100",
+                        "eva": "70",
+                        "atk": 231,
+                        "breed_id": "0",
+                        "exp": 698,
+                        "def": 144
+                    }
+                ],
+                "max_hp": 2274,
+                "enemy_id": "306319",
+                "ai_id": "1"
+            }
+        ]
+    },
+    {
+        "is_sp_enemy": 0,
+        "deform_animation_info": [],
+        "ai_id": 0,
+        "id": "306319",
+        "children": [
+            {
+                "drop_item_list": [],
+                "uid": "206",
+                "no": "1",
+                "init_hp": 2274,
+                "child_pos_id": "1",
+                "lv": "86",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "401123",
+                                "weight": "40"
+                            },
+                            {
+                                "ability_id": "303021",
+                                "weight": "30"
+                            },
+                            {
+                                "ability_id": "401124",
+                                "weight": "30"
+                            }
+                        ],
+                        "mnd": 144,
+                        "id": "3063191",
+                        "size": "1",
+                        "lv": "86",
+                        "no": "1",
+                        "spd": "100",
+                        "disp_name": "Grenade",
+                        "looking": "0",
+                        "critical": "3",
+                        "max_hp": 2274,
+                        "matk": 235,
+                        "counters": [
+                            {
+                                "ability_id": "303003",
+                                "condition_value": "1",
+                                "condition_type": "3",
+                                "rate": "20"
+                            }
+                        ],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "212",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "101",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "100",
+                                "factor": "21"
+                            },
+                            {
+                                "attribute_id": "220",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "219",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "224",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "105",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            }
+                        ],
+                        "mdef": 115,
+                        "animation_info": {
+                            "scale": "1.7",
+                            "assets": {
+                                "enemy-106082": "/Content/lang/ab/character/enemy/106082.sajson"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "enemy_status_id": "3063191",
+                            "offset_y": "-12",
+                            "path": "106082",
+                            "offset_x": "0"
+                        },
+                        "acc": "100",
+                        "eva": "70",
+                        "atk": 231,
+                        "breed_id": "0",
+                        "exp": 698,
+                        "def": 144
+                    }
+                ],
+                "max_hp": 2274,
+                "enemy_id": "306319",
+                "ai_id": "1"
+            }
+        ]
+    },
+    {
+        "is_sp_enemy": 0,
+        "deform_animation_info": [],
+        "ai_id": 0,
+        "id": "306319",
+        "children": [
+            {
+                "drop_item_list": [
+                    {
+                        "item_id": "40000053",
+                        "num": "1",
+                        "type": 51,
+                        "uid": 207,
+                        "rarity": "3"
+                    }
+                ],
+                "uid": "207",
+                "no": "1",
+                "init_hp": 2274,
+                "child_pos_id": "1",
+                "lv": "86",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "401123",
+                                "weight": "40"
+                            },
+                            {
+                                "ability_id": "303021",
+                                "weight": "30"
+                            },
+                            {
+                                "ability_id": "401124",
+                                "weight": "30"
+                            }
+                        ],
+                        "mnd": 144,
+                        "id": "3063191",
+                        "size": "1",
+                        "lv": "86",
+                        "no": "1",
+                        "spd": "100",
+                        "disp_name": "Grenade",
+                        "looking": "0",
+                        "critical": "3",
+                        "max_hp": 2274,
+                        "matk": 235,
+                        "counters": [
+                            {
+                                "ability_id": "303003",
+                                "condition_value": "1",
+                                "condition_type": "3",
+                                "rate": "20"
+                            }
+                        ],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "212",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "101",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "100",
+                                "factor": "21"
+                            },
+                            {
+                                "attribute_id": "220",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "219",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "224",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "105",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            }
+                        ],
+                        "mdef": 115,
+                        "animation_info": {
+                            "scale": "1.7",
+                            "assets": {
+                                "enemy-106082": "/Content/lang/ab/character/enemy/106082.sajson"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "enemy_status_id": "3063191",
+                            "offset_y": "-12",
+                            "path": "106082",
+                            "offset_x": "0"
+                        },
+                        "acc": "100",
+                        "eva": "70",
+                        "atk": 231,
+                        "breed_id": "0",
+                        "exp": 698,
+                        "def": 144
+                    }
+                ],
+                "max_hp": 2274,
+                "enemy_id": "306319",
+                "ai_id": "1"
+            }
+        ]
+    }
+]

@@ -1,0 +1,93 @@
+{
+    "dungeon": {
+        "background_image_path": "/dff/static/lang/image/dungeon/213001_bg.png", 
+        "order_no": 1, 
+        "captures": [
+            {
+                "sp_scores": [
+                    {
+                        "title": "Exploit the Manasvin Warmech's weakness to lightning attacks.", 
+                        "battle_id": 313004
+                    }, 
+                    {
+                        "title": "Exploit the Manasvin Warmech's weakness to water attacks.", 
+                        "battle_id": 313004
+                    }
+                ], 
+                "image_path": "/dff/static/lang/image/enemy/413007.png", 
+                "tip_battle": {
+                    "message": "The Manasvin Warmech is vulnerable to <span class=\"red\">lightning and water</span>, kupo! It has a <span class=\"red\">powerful group attack</span>, though, so bring along someone with a Soul Break that can heal the entire party!", 
+                    "group_id": 420092, 
+                    "id": 410092, 
+                    "title": "Manasvin Warmech"
+                }
+            }
+        ], 
+        "is_new": false, 
+        "rank": 3, 
+        "closed_at": 2145938400, 
+        "id": 213001, 
+        "is_clear": true, 
+        "button_style": "NORMAL", 
+        "opened_at": 1431626400, 
+        "world_id": 113001, 
+        "type": 1, 
+        "challenge_level": 32, 
+        "is_unlocked": true, 
+        "series_id": 113001, 
+        "prizes": {
+            "1": [
+                {
+                    "id": 92000000, 
+                    "type_name": "COMMON", 
+                    "num": 2500, 
+                    "image_path": "/dff/static/lang/image/common_item/92000000.png", 
+                    "name": "Gil"
+                }
+            ], 
+            "3": [
+                {
+                    "id": 70000003, 
+                    "type_name": "GROW_EGG", 
+                    "num": 1, 
+                    "image_path": "/dff/static/lang/image/growegg/70000003/70000003_112.png", 
+                    "name": "Growth Egg"
+                }, 
+                {
+                    "id": 40000043, 
+                    "type_name": "ABILITY_MATERIAL", 
+                    "num": 3, 
+                    "image_path": "/dff/static/lang/image/ability_material/40000043/40000043_112.png", 
+                    "name": "Lightning Orb"
+                }
+            ], 
+            "2": [
+                {
+                    "id": 11300200, 
+                    "type_name": "BUDDY", 
+                    "num": 1, 
+                    "image_path": "/dff/static/lang/image/buddy/11300200/11300200.png", 
+                    "name": "Snow"
+                }, 
+                {
+                    "id": 94000000, 
+                    "type_name": "COMMON", 
+                    "num": 1, 
+                    "image_path": "/dff/static/lang/image/common_item/94000000.png", 
+                    "name": "Stamina Shard"
+                }
+            ]
+        }, 
+        "total_stamina": 33, 
+        "epilogue": "Lightning's assault derailed the train, plunging everything around her into chaos. She and Sazh battled their way through Sanctum forces towards the center of the battlefield, defeating the unrelenting Manasvin Warmech along the way. Sazh had thought Lightning was one of the Sanctum soldiers, leaving him puzzled why she would oppose the Purge. She quipped that she wasn't a soldier anymore, and pressed onward...", 
+        "epilogue_image_path": "/dff/static/lang/image/dungeon/213001_epilogue.png", 
+        "name": "The Hanging Edge", 
+        "bgm": "bgm_13_006", 
+        "prologue": "Under rule of the Sanctum, the people of Cocoon knew peace and prosperity. The story of this realm begins as a train carrying Lightning speeds towards the Hanging Edge...", 
+        "is_master": true, 
+        "prologue_image_path": "/dff/static/lang/image/dungeon/213001_prologue.png"
+    }, 
+    "SERVER_TIME": 1439014821, 
+    "success": true, 
+    "can_review": false
+}

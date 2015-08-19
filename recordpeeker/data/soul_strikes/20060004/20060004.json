@@ -1,0 +1,61 @@
+{
+    "ability_id": "20060004", 
+    "action_id": "1", 
+    "animation_info": {
+        "atk_motion": "ready", 
+        "chara_in": "stay_in", 
+        "chara_out": "stay_out", 
+        "damage_tag": "damage_dark", 
+        "hit": "70566/70566_hit.json", 
+        "hit_arg": "0", 
+        "hit_next_tag": "", 
+        "hit_type": "1", 
+        "id": "70566", 
+        "launch": "70566/70566_launch.json", 
+        "launch_next_tag": "", 
+        "launch_type": "2", 
+        "miss_hit": "", 
+        "other_in": "", 
+        "other_out": "", 
+        "recover_tag": "", 
+        "return_hit": "", 
+        "return_shot": "", 
+        "return_type": "99", 
+        "reverse_hit": "1", 
+        "reverse_shot": "1", 
+        "shot": "70566/70566_shot.json", 
+        "shot_next_tag": "", 
+        "shot_type": "2"
+    }, 
+    "assets": {
+        "ability-70566_hit": "/Content/lang/ab/ability/70566/70566_hit.json", 
+        "ability-70566_launch": "/Content/lang/ab/ability/70566/70566_launch.json", 
+        "ability-70566_shot": "/Content/lang/ab/ability/70566/70566_shot.json"
+    }, 
+    "exercise_type": "1", 
+    "icon": {
+        "assets": {
+            "command_icon_20060004": "/Content/lang/ab_image/soulstrike//20060004/20060004_256.png"
+        }
+    }, 
+    "options": {
+        "ability_animation_id": "70566", 
+        "active_target_method": "3", 
+        "alias_name": "Dark Cannon", 
+        "arg1": "520", 
+        "arg2": "125", 
+        "arg3": "107", 
+        "arg4": "2", 
+        "arg5": "1", 
+        "cast_time": "2750", 
+        "consume_soul_strike_point": "500", 
+        "counter_enable": "1", 
+        "name": "Dark Cannon", 
+        "status_ailments_factor": "0", 
+        "status_ailments_id": "0", 
+        "target_death": "1", 
+        "target_method": "2", 
+        "target_range": "1", 
+        "target_segment": "1"
+    }
+}

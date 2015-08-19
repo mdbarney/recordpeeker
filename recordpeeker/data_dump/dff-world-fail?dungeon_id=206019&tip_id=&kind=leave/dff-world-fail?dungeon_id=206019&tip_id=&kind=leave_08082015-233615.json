@@ -1,0 +1,92 @@
+{
+    "dungeon": {
+        "background_image_path": "/dff/static/lang/image/dungeon/206019_bg.png", 
+        "order_no": 1, 
+        "captures": [
+            {
+                "sp_scores": [
+                    {
+                        "title": "Exploit the Black Dragon's weakness to fire attacks.", 
+                        "battle_id": 306082
+                    }
+                ], 
+                "image_path": "/dff/static/lang/image/enemy/406026.png", 
+                "tip_battle": {
+                    "message": "The Black Dragon is <span class=\"red\">undead</span>, kupo! Use fire and healing spells to make it just ordinary dead!", 
+                    "group_id": 420062, 
+                    "id": 410062, 
+                    "title": "Black Dragon"
+                }
+            }
+        ], 
+        "is_new": false, 
+        "rank": 3, 
+        "closed_at": 2145938400, 
+        "id": 206019, 
+        "is_clear": true, 
+        "button_style": "NORMAL", 
+        "opened_at": 1398924000, 
+        "world_id": 106001, 
+        "type": 1, 
+        "challenge_level": 28, 
+        "is_unlocked": true, 
+        "series_id": 106001, 
+        "prizes": {
+            "1": [
+                {
+                    "id": 92000000, 
+                    "type_name": "COMMON", 
+                    "num": 2000, 
+                    "image_path": "/dff/static/lang/image/common_item/92000000.png", 
+                    "name": "Gil"
+                }
+            ], 
+            "3": [
+                {
+                    "id": 40000012, 
+                    "type_name": "ABILITY_MATERIAL", 
+                    "num": 5, 
+                    "image_path": "/dff/static/lang/image/ability_material/40000012/40000012_112.png", 
+                    "name": "Lesser Black Orb"
+                }, 
+                {
+                    "id": 94000000, 
+                    "type_name": "COMMON", 
+                    "num": 2, 
+                    "image_path": "/dff/static/lang/image/common_item/94000000.png", 
+                    "name": "Stamina Shard"
+                }
+            ], 
+            "2": [
+                {
+                    "id": 94000000, 
+                    "type_name": "COMMON", 
+                    "num": 1, 
+                    "image_path": "/dff/static/lang/image/common_item/94000000.png", 
+                    "name": "Stamina Shard"
+                }, 
+                {
+                    "id": 91000000, 
+                    "type_name": "COMMON", 
+                    "num": 1, 
+                    "image_path": "/dff/static/lang/image/common_item/91000000.png", 
+                    "name": "Mythril"
+                }
+            ]
+        }, 
+        "total_stamina": 22, 
+        "epilogue": "On the island, Celes did all she could to tend to Cid's illness. She saw him as her grandfather, for it was Cid who raised her as a Magitek knight. Restored to health, Cid gave her a raft, and Celes voyaged off into the ocean alone, hoping beyond hope that her friends were still alive.", 
+        "epilogue_image_path": "/dff/static/lang/image/dungeon/206019_epilogue.png", 
+        "name": "Solitary Island", 
+        "bgm": "bgm_06_051", 
+        "prologue": "Celes wakes in a small hut on an unknown island to find that Cid has been taking care of her for an entire year. Now Cid has fallen sick and she must return the favor.", 
+        "is_master": true, 
+        "prologue_image_path": "/dff/static/lang/image/dungeon/206019_prologue.png"
+    }, 
+    "tip": {
+        "message": "If you take characters to battle in their native realm, they get a Record Synergy bonus, kupo! That means they're stronger, and they even get more EXP!"
+    }, 
+    "SERVER_TIME": 1439094975, 
+    "success": true, 
+    "is_world_expired": false
+}

@@ -1,0 +1,316 @@
+{
+    "SERVER_TIME": 1437201872, 
+    "battles": [
+        {
+            "dungeon_id": 210001, 
+            "has_boss": 0, 
+            "id": 310001, 
+            "is_unlocked": true, 
+            "name": "Stadium", 
+            "order_no": 1, 
+            "rank": 3, 
+            "round_num": 3, 
+            "stamina": 2
+        }, 
+        {
+            "dungeon_id": 210001, 
+            "has_boss": 0, 
+            "id": 310002, 
+            "is_unlocked": true, 
+            "name": "Overpass", 
+            "order_no": 1, 
+            "rank": 3, 
+            "round_num": 3, 
+            "stamina": 2
+        }, 
+        {
+            "dungeon_id": 210001, 
+            "has_boss": 1, 
+            "id": 310003, 
+            "is_unlocked": false, 
+            "name": "Ruined Overpass", 
+            "order_no": 1, 
+            "rank": 0, 
+            "round_num": 3, 
+            "stamina": 3
+        }
+    ], 
+    "dungeon_session": {
+        "background_image_path": "/dff/static/lang/image/dungeon/210001_bg.png", 
+        "battle_id": 310003, 
+        "bgm": "bgm_10_006", 
+        "challenge_level": 2, 
+        "closed_at": 2145938400, 
+        "dungeon_id": 210001, 
+        "kept_out_at": 2145938400, 
+        "max_supporter_ss_gauge": 2, 
+        "name": "Zanarkand", 
+        "opened_at": 1398924000, 
+        "order_no": 1, 
+        "party_status": {
+            "1": {
+                "ability_1_num": 2, 
+                "ability_2_num": 0, 
+                "hp": 1599, 
+                "no": 1, 
+                "soul_strike_gauge": 250, 
+                "status_ailments": [], 
+                "user_buddy_id": 8358725
+            }, 
+            "2": {
+                "ability_1_num": 0, 
+                "ability_2_num": 0, 
+                "hp": 1406, 
+                "no": 2, 
+                "soul_strike_gauge": 300, 
+                "status_ailments": [], 
+                "user_buddy_id": 15942939
+            }, 
+            "3": {
+                "ability_1_num": 0, 
+                "ability_2_num": 0, 
+                "hp": 1919, 
+                "no": 3, 
+                "soul_strike_gauge": 50, 
+                "status_ailments": [], 
+                "user_buddy_id": 15956267
+            }, 
+            "4": {
+                "ability_1_num": 4, 
+                "ability_2_num": 4, 
+                "hp": 1200, 
+                "no": 4, 
+                "soul_strike_gauge": 150, 
+                "status_ailments": [], 
+                "user_buddy_id": 8297732
+            }, 
+            "5": {
+                "ability_1_num": 2, 
+                "ability_2_num": 2, 
+                "hp": 857, 
+                "no": 5, 
+                "soul_strike_gauge": 150, 
+                "status_ailments": [], 
+                "user_buddy_id": 15970781
+            }
+        }, 
+        "series_id": 110001, 
+        "supporter_ss_gauge": 2, 
+        "type": 1, 
+        "world_id": 110001
+    }, 
+    "fellow_session": {
+        "can_follow": false, 
+        "can_remake_fellow_list": true, 
+        "fellow_profile": {
+            "last_logged_in_at": 0, 
+            "lead_buddy_acc": 110, 
+            "lead_buddy_accessory_id": 323940291, 
+            "lead_buddy_accessory_image_path": "/dff/static/lang/image/equipment/23080001/23080001_01_112.png", 
+            "lead_buddy_accessory_level": 1, 
+            "lead_buddy_accessory_max_level": 1, 
+            "lead_buddy_accessory_name": "Power Wrist (VII)", 
+            "lead_buddy_accessory_series_id": 107001, 
+            "lead_buddy_armor_id": 326273399, 
+            "lead_buddy_armor_image_path": "/dff/static/lang/image/equipment/22052016/22052016_05_112.png", 
+            "lead_buddy_armor_level": 8, 
+            "lead_buddy_armor_max_level": 20, 
+            "lead_buddy_armor_name": "Dark Helm (IV)", 
+            "lead_buddy_armor_series_id": 104001, 
+            "lead_buddy_atk": 191, 
+            "lead_buddy_def": 136, 
+            "lead_buddy_eva": 126, 
+            "lead_buddy_hp": 3057, 
+            "lead_buddy_id": 10400100, 
+            "lead_buddy_image_path": "/dff/static/lang/image/buddy/10400100/10400100.png", 
+            "lead_buddy_job_name": "Dark Knight", 
+            "lead_buddy_level": 32, 
+            "lead_buddy_matk": 71, 
+            "lead_buddy_mdef": 111, 
+            "lead_buddy_mnd": 46, 
+            "lead_buddy_series_acc": 110, 
+            "lead_buddy_series_atk": 191, 
+            "lead_buddy_series_def": 136, 
+            "lead_buddy_series_eva": 126, 
+            "lead_buddy_series_hp": 3057, 
+            "lead_buddy_series_id": 104001, 
+            "lead_buddy_series_matk": 71, 
+            "lead_buddy_series_mdef": 111, 
+            "lead_buddy_series_mnd": 46, 
+            "lead_buddy_series_spd": 91, 
+            "lead_buddy_soul_strike_consume_ss_gauge": 1, 
+            "lead_buddy_soul_strike_description": "Deal physical fire damage to all targets.", 
+            "lead_buddy_soul_strike_equipment_image_path": "/dff/static/lang/image/equipment/21002049/21002049_05_112.png", 
+            "lead_buddy_soul_strike_equipment_series_id": 104001, 
+            "lead_buddy_soul_strike_id": 21000007, 
+            "lead_buddy_soul_strike_image_path": "/dff/static/lang/image/soulstrike/21000007/21000007_256.png", 
+            "lead_buddy_soul_strike_name": "Bladestorm Flames", 
+            "lead_buddy_spd": 91, 
+            "lead_buddy_weapon_id": 326273392, 
+            "lead_buddy_weapon_image_path": "/dff/static/lang/image/equipment/21002049/21002049_05_112.png", 
+            "lead_buddy_weapon_level": 20, 
+            "lead_buddy_weapon_max_level": 20, 
+            "lead_buddy_weapon_name": "Flame Sword (IV)", 
+            "lead_buddy_weapon_series_id": 104001, 
+            "nickname": "#Waluigi", 
+            "profile_message": "WALUIGI TIME", 
+            "user_id": 6700256301416448, 
+            "via_battle": true
+        }, 
+        "has_fellow": true, 
+        "status": 2
+    }, 
+    "multi_party": {
+        "current_deck_no": 1, 
+        "parties": [
+            {
+                "deck_no": 1, 
+                "slot_to_row": {
+                    "1": 1, 
+                    "2": 1, 
+                    "3": 1, 
+                    "4": 2, 
+                    "5": 2
+                }, 
+                "slot_to_user_buddy_id": {
+                    "1": 8358725, 
+                    "2": 15942939, 
+                    "3": 15956267, 
+                    "4": 8297732, 
+                    "5": 15970781
+                }
+            }, 
+            {
+                "deck_no": 2, 
+                "slot_to_row": {}, 
+                "slot_to_user_buddy_id": {}
+            }, 
+            {
+                "deck_no": 3, 
+                "slot_to_row": {}, 
+                "slot_to_user_buddy_id": {}
+            }, 
+            {
+                "deck_no": 4, 
+                "slot_to_row": {}, 
+                "slot_to_user_buddy_id": {}
+            }, 
+            {
+                "deck_no": 5, 
+                "slot_to_row": {}, 
+                "slot_to_user_buddy_id": {}
+            }
+        ]
+    }, 
+    "success": true, 
+    "user": {
+        "can_review": true, 
+        "dungeon_id": 210001, 
+        "followee_num": 9, 
+        "func_tutorial_bits": 91965, 
+        "gil": 31434, 
+        "has_all_clear_ver_to_show": false, 
+        "id": 5143210343006208, 
+        "is_in_dungeon": true, 
+        "is_update_last_logined_at": false, 
+        "last_logined_at": 1437138016, 
+        "max_followee_num": 100, 
+        "max_follower_num": 100, 
+        "max_stamina": 35, 
+        "name": "Tyro", 
+        "release_id": 0, 
+        "residual_stamina_piece": 1, 
+        "soul_piece": 4, 
+        "stamina": 31, 
+        "stamina_piece": 176, 
+        "stamina_recovery_remaining_time": 549, 
+        "stamina_recovery_time": 180, 
+        "start_time_of_today": 1437138000, 
+        "supporter_ss_gauge": 2, 
+        "tutorial_step": 255
+    }, 
+    "user_dungeon": {
+        "background_image_path": "/dff/static/lang/image/dungeon/210001_bg.png", 
+        "bgm": "bgm_10_006", 
+        "button_style": "NORMAL", 
+        "captures": [
+            {
+                "image_path": "/dff/static/lang/image/enemy/410001.png", 
+                "sp_scores": [
+                    {
+                        "battle_id": 310003, 
+                        "title": "Defeat Sinspawn Ammes without being KO'd."
+                    }
+                ], 
+                "tip_battle": {
+                    "group_id": 420024, 
+                    "id": 410024, 
+                    "message": "Sinspawn Ammes's <span class=\"red\">Gravity</span> will take away a quarter of your current HP, kupo! Watch out for the <span class=\"red\">Spines</span> attack that usually follows after Gravity!", 
+                    "title": "Sinspawn Ammes"
+                }
+            }
+        ], 
+        "challenge_level": 2, 
+        "closed_at": 2145938400, 
+        "epilogue": "Led by his childhood guardian Auron, Tidus approaches the gigantic sphere of water that Auron calls \"Sin.\" Together they fight the Sinspawn that emerges and when Tidus reaches the sphere, he is drawn inside.", 
+        "epilogue_image_path": "/dff/static/lang/image/dungeon/210001_epilogue.png", 
+        "id": 210001, 
+        "is_clear": false, 
+        "is_master": false, 
+        "is_new": false, 
+        "is_unlocked": true, 
+        "name": "Zanarkand", 
+        "opened_at": 1398924000, 
+        "order_no": 1, 
+        "prizes": {
+            "1": [
+                {
+                    "id": 92000000, 
+                    "image_path": "/dff/static/lang/image/common_item/92000000.png", 
+                    "name": "Gil", 
+                    "num": 700, 
+                    "type_name": "COMMON"
+                }
+            ], 
+            "2": [
+                {
+                    "id": 40000036, 
+                    "image_path": "/dff/static/lang/image/ability_material/40000036/40000036_112.png", 
+                    "name": "Minor Ice Orb", 
+                    "num": 5, 
+                    "type_name": "ABILITY_MATERIAL"
+                }, 
+                {
+                    "id": 91000000, 
+                    "image_path": "/dff/static/lang/image/common_item/91000000.png", 
+                    "name": "Mythril", 
+                    "num": 1, 
+                    "type_name": "COMMON"
+                }
+            ], 
+            "3": [
+                {
+                    "id": 40000006, 
+                    "image_path": "/dff/static/lang/image/ability_material/40000006/40000006_112.png", 
+                    "name": "Minor White Orb", 
+                    "num": 5, 
+                    "type_name": "ABILITY_MATERIAL"
+                }, 
+                {
+                    "id": 22056003, 
+                    "image_path": "/dff/static/lang/image/equipment/22056003/22056003_02_112.png", 
+                    "name": "Mythril Armlet (VII)", 
+                    "num": 1, 
+                    "type_name": "EQUIPMENT"
+                }
+            ]
+        }, 
+        "prologue": "Tidus is at the top of his game as star of the blitzball team the Zanarkand Abes. He is playing in the Jecht Memorial Cup tournament, when an immense creature attacks the city.", 
+        "prologue_image_path": "/dff/static/lang/image/dungeon/210001_prologue.png", 
+        "rank": 0, 
+        "series_id": 110001, 
+        "total_stamina": 7, 
+        "type": 1, 
+        "world_id": 110001
+    }
+}

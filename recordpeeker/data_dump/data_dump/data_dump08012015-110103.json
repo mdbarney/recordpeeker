@@ -1,0 +1,108 @@
+{
+    "SERVER_TIME": 1438444863, 
+    "can_review": false, 
+    "dungeon": {
+        "background_image_path": "/dff/static/lang/image/dungeon/204012_bg.png", 
+        "bgm": "bgm_04_032", 
+        "button_style": "NORMAL", 
+        "captures": [
+            {
+                "image_path": "/dff/static/lang/image/enemy/404023.png", 
+                "sp_scores": [
+                    {
+                        "battle_id": 304058, 
+                        "title": "Exploit Barnabas's weakness to lightning attacks."
+                    }, 
+                    {
+                        "battle_id": 304058, 
+                        "title": "Defeat Barnabas before he self-destructs."
+                    }
+                ], 
+                "tip_battle": {
+                    "group_id": 420041, 
+                    "id": 410041, 
+                    "message": "Lugae and Barnabas don't have any special attacks to speak of, kupo. Lugae will heal Barnabas, so <span class=\"red\">take out Lugae first</span> to keep the battle from dragging on!", 
+                    "title": "Lugae"
+                }
+            }, 
+            {
+                "image_path": "/dff/static/lang/image/enemy/404024.png", 
+                "sp_scores": [
+                    {
+                        "battle_id": 304059, 
+                        "title": "Exploit Lugaeborg's weakness to lightning attacks."
+                    }
+                ], 
+                "tip_battle": {
+                    "group_id": 420042, 
+                    "id": 410042, 
+                    "message": "Lugaeborg has powerful group and single target attacks, kupo! But like all machines, it's <span class=\"red\">vulnerable to lightning!</span> Focused lightning attacks should zap it down fast!", 
+                    "title": "Lugaeborg"
+                }
+            }
+        ], 
+        "challenge_level": 25, 
+        "closed_at": 2145938400, 
+        "epilogue": "The party's plan to retrieve the seven Crystals from the Tower of Babil was foiled by Rubicante. Meanwhile, the tower's cannons turned on the dwarven tanks outside, and although the party was able to defeat Dr. Lugae, Golbez's soldiers continued the barrage. It was Yang who managed to disable the cannons, though it nearly cost him his life.", 
+        "epilogue_image_path": "/dff/static/lang/image/dungeon/204012_epilogue.png", 
+        "id": 204012, 
+        "is_clear": true, 
+        "is_master": true, 
+        "is_new": false, 
+        "is_unlocked": true, 
+        "name": "Tower of Babil - Depths", 
+        "opened_at": 1398924000, 
+        "order_no": 1, 
+        "prizes": {
+            "1": [
+                {
+                    "id": 92000000, 
+                    "image_path": "/dff/static/lang/image/common_item/92000000.png", 
+                    "name": "Gil", 
+                    "num": 2000, 
+                    "type_name": "COMMON"
+                }
+            ], 
+            "2": [
+                {
+                    "id": 94000000, 
+                    "image_path": "/dff/static/lang/image/common_item/94000000.png", 
+                    "name": "Stamina Shard", 
+                    "num": 1, 
+                    "type_name": "COMMON"
+                }, 
+                {
+                    "id": 91000000, 
+                    "image_path": "/dff/static/lang/image/common_item/91000000.png", 
+                    "name": "Mythril", 
+                    "num": 1, 
+                    "type_name": "COMMON"
+                }
+            ], 
+            "3": [
+                {
+                    "id": 40000057, 
+                    "image_path": "/dff/static/lang/image/ability_material/40000057/40000057_112.png", 
+                    "name": "Lesser Holy Orb", 
+                    "num": 5, 
+                    "type_name": "ABILITY_MATERIAL"
+                }, 
+                {
+                    "id": 94000000, 
+                    "image_path": "/dff/static/lang/image/common_item/94000000.png", 
+                    "name": "Stamina Shard", 
+                    "num": 2, 
+                    "type_name": "COMMON"
+                }
+            ]
+        }, 
+        "prologue": "With three Dark Crystals already in his possession, Golbez now aims to take the fourth and final Crystal. The party seizes this opportunity to make an assault on the Tower of Babil and retrieve the stolen Crystals.", 
+        "prologue_image_path": "/dff/static/lang/image/dungeon/204012_prologue.png", 
+        "rank": 3, 
+        "series_id": 104001, 
+        "total_stamina": 42, 
+        "type": 1, 
+        "world_id": 104001
+    }, 
+    "success": true
+}

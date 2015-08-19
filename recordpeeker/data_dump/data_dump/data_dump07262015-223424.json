@@ -1,0 +1,89 @@
+{
+    "SERVER_TIME": 1437968064, 
+    "can_review": false, 
+    "dungeon": {
+        "background_image_path": "/dff/static/lang/image/dungeon/210007_bg.png", 
+        "bgm": "bgm_10_034", 
+        "button_style": "NORMAL", 
+        "captures": [
+            {
+                "image_path": "/dff/static/lang/image/enemy/410010.png", 
+                "sp_scores": [
+                    {
+                        "battle_id": 310030, 
+                        "title": "Defeat Sinspawn Gui without being KO'd."
+                    }
+                ], 
+                "tip_battle": {
+                    "group_id": 410127, 
+                    "id": 410127, 
+                    "message": "Until you take down the arms, it's hard to get much damage through Sinspawn Gui's body. So <span class=\"red\">go for the arms first</span>, kupo! If its head starts moving suspiciously, it's getting ready to use its <span class=\"red\">Venom</span> ability. Use ranged attacks or magic to interrupt it!", 
+                    "title": "Sinspawn Gui"
+                }
+            }
+        ], 
+        "challenge_level": 60, 
+        "closed_at": 2056341599, 
+        "epilogue": "Operation Mi'ihen had only just begun when Sin appeared near the shore. The Crusaders blasted it with cannon fire, while the Al Bhed fired off their machina gun, but neither seemed to have any effect, and Sin's backlash destroyed the gun. Auron then revealed to Tidus that Sin is none other than his father, Jecht, who wants Tidus to stop him.", 
+        "epilogue_image_path": "/dff/static/lang/image/dungeon/210007_epilogue.png", 
+        "id": 210007, 
+        "is_clear": true, 
+        "is_master": true, 
+        "is_new": false, 
+        "is_unlocked": true, 
+        "name": "Mushroom Rock Road", 
+        "opened_at": 1437958800, 
+        "order_no": 1, 
+        "prizes": {
+            "1": [
+                {
+                    "id": 92000000, 
+                    "image_path": "/dff/static/lang/image/common_item/92000000.png", 
+                    "name": "Gil", 
+                    "num": 5000, 
+                    "type_name": "COMMON"
+                }
+            ], 
+            "2": [
+                {
+                    "id": 11000500, 
+                    "image_path": "/dff/static/lang/image/buddy/11000500/11000500.png", 
+                    "name": "Kimahri", 
+                    "num": 1, 
+                    "type_name": "BUDDY"
+                }, 
+                {
+                    "id": 91000000, 
+                    "image_path": "/dff/static/lang/image/common_item/91000000.png", 
+                    "name": "Mythril", 
+                    "num": 1, 
+                    "type_name": "COMMON"
+                }
+            ], 
+            "3": [
+                {
+                    "id": 40000008, 
+                    "image_path": "/dff/static/lang/image/ability_material/40000008/40000008_112.png", 
+                    "name": "White Orb", 
+                    "num": 3, 
+                    "type_name": "ABILITY_MATERIAL"
+                }, 
+                {
+                    "id": 24099003, 
+                    "image_path": "/dff/static/lang/image/equipment/24099003/24099003_03_112.png", 
+                    "name": "Adamantite", 
+                    "num": 2, 
+                    "type_name": "EQUIPMENT"
+                }
+            ]
+        }, 
+        "prologue": "On the Mushroom Rock Road, the Crusaders have completed preparations, and are now ready to launch Operation Mi'ihen.", 
+        "prologue_image_path": "/dff/static/lang/image/dungeon/210007_prologue.png", 
+        "rank": 3, 
+        "series_id": 110001, 
+        "total_stamina": 67, 
+        "type": 1, 
+        "world_id": 110001
+    }, 
+    "success": true
+}

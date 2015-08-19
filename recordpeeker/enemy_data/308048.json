@@ -1,16 +1,16 @@
 [
     {
-        "ai_id": 0,
+        "id": "308017",
+        "is_sp_enemy": 0,
+        "deform_animation_info": [],
         "children": [
             {
-                "ai_id": "1",
-                "child_pos_id": "1",
                 "drop_item_list": [],
-                "enemy_id": "308017",
-                "init_hp": 1192,
-                "lv": "44",
-                "max_hp": 1192,
+                "uid": "201",
                 "no": "1",
+                "init_hp": 1192,
+                "max_hp": 1192,
+                "lv": "44",
                 "params": [
                     {
                         "abilities": [
@@ -27,24 +27,18 @@
                                 "weight": "40"
                             }
                         ],
-                        "acc": "100",
-                        "animation_info": {
-                            "assets": {
-                                "enemy-108009": "/Content/lang/ab/character/enemy/108009.sajson"
-                            },
-                            "enemy_status_id": "3080171",
-                            "hp_gauge_size": "2",
-                            "offset_x": "0",
-                            "offset_y": "-27",
-                            "path": "108009",
-                            "scale": "1.2",
-                            "uses_fix_pos": false
-                        },
-                        "atk": 126,
-                        "breed_id": "12",
-                        "counters": [],
+                        "mnd": 75,
+                        "id": "3080171",
+                        "size": "2",
+                        "looking": "0",
+                        "no": "1",
+                        "spd": "100",
+                        "disp_name": "Galbadian Soldier",
+                        "lv": "44",
                         "critical": "3",
-                        "def": 75,
+                        "max_hp": 1192,
+                        "matk": 139,
+                        "counters": [],
                         "def_attributes": [
                             {
                                 "attribute_id": "220",
@@ -71,40 +65,46 @@
                                 "factor": "1"
                             }
                         ],
-                        "disp_name": "Galbadian Soldier",
-                        "eva": "70",
-                        "exp": 456,
-                        "id": "3080171",
-                        "looking": "0",
-                        "lv": "44",
-                        "matk": 139,
-                        "max_hp": 1192,
                         "mdef": 75,
-                        "mnd": 75,
-                        "no": "1",
-                        "size": "2",
-                        "spd": "100"
+                        "animation_info": {
+                            "enemy_status_id": "3080171",
+                            "assets": {
+                                "enemy-108009": "/Content/lang/ab/character/enemy/108009.sajson"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "scale": "1.2",
+                            "offset_x": "0",
+                            "offset_y": "-27",
+                            "path": "108009"
+                        },
+                        "acc": "100",
+                        "eva": "70",
+                        "atk": 126,
+                        "breed_id": "12",
+                        "exp": 456,
+                        "def": 75
                     }
                 ],
-                "uid": "201"
+                "child_pos_id": "1",
+                "enemy_id": "308017",
+                "ai_id": "1"
             }
         ],
-        "deform_animation_info": [],
-        "id": "308017",
-        "is_sp_enemy": 0
+        "ai_id": 0
     },
     {
-        "ai_id": 0,
+        "id": "308018",
+        "is_sp_enemy": 0,
+        "deform_animation_info": [],
         "children": [
             {
-                "ai_id": "1",
-                "child_pos_id": "1",
                 "drop_item_list": [],
-                "enemy_id": "308018",
-                "init_hp": 946,
-                "lv": "44",
-                "max_hp": 946,
+                "uid": "202",
                 "no": "1",
+                "init_hp": 946,
+                "max_hp": 946,
+                "lv": "44",
                 "params": [
                     {
                         "abilities": [
@@ -137,24 +137,18 @@
                                 "weight": "15"
                             }
                         ],
-                        "acc": "100",
-                        "animation_info": {
-                            "assets": {
-                                "enemy-108002": "/Content/lang/ab/character/enemy/108002.sajson"
-                            },
-                            "enemy_status_id": "3080181",
-                            "hp_gauge_size": "2",
-                            "offset_x": "0",
-                            "offset_y": "-20",
-                            "path": "108002",
-                            "scale": "1.5",
-                            "uses_fix_pos": false
-                        },
-                        "atk": 98,
-                        "breed_id": "9",
-                        "counters": [],
+                        "mnd": 92,
+                        "id": "3080181",
+                        "size": "2",
+                        "looking": "0",
+                        "no": "1",
+                        "spd": "100",
+                        "disp_name": "Glacial Eye",
+                        "lv": "44",
                         "critical": "3",
-                        "def": 45,
+                        "max_hp": 946,
+                        "matk": 179,
+                        "counters": [],
                         "def_attributes": [
                             {
                                 "attribute_id": "213",
@@ -193,228 +187,234 @@
                                 "factor": "1"
                             }
                         ],
-                        "disp_name": "Glacial Eye",
-                        "eva": "70",
-                        "exp": 456,
-                        "id": "3080181",
-                        "looking": "0",
-                        "lv": "44",
-                        "matk": 179,
-                        "max_hp": 946,
                         "mdef": 100,
-                        "mnd": 92,
-                        "no": "1",
-                        "size": "2",
-                        "spd": "100"
-                    }
-                ],
-                "uid": "202"
-            }
-        ],
-        "deform_animation_info": [],
-        "id": "308018",
-        "is_sp_enemy": 0
-    },
-    {
-        "ai_id": 0,
-        "children": [
-            {
-                "ai_id": "1",
-                "child_pos_id": "1",
-                "drop_item_list": [],
-                "enemy_id": "308017",
-                "init_hp": 1192,
-                "lv": "44",
-                "max_hp": 1192,
-                "no": "1",
-                "params": [
-                    {
-                        "abilities": [
-                            {
-                                "ability_id": "102012",
-                                "weight": "20"
-                            },
-                            {
-                                "ability_id": "102011",
-                                "weight": "40"
-                            },
-                            {
-                                "ability_id": "101001",
-                                "weight": "40"
-                            }
-                        ],
-                        "acc": "100",
                         "animation_info": {
+                            "enemy_status_id": "3080181",
                             "assets": {
-                                "enemy-108009": "/Content/lang/ab/character/enemy/108009.sajson"
+                                "enemy-108002": "/Content/lang/ab/character/enemy/108002.sajson"
                             },
-                            "enemy_status_id": "3080171",
+                            "uses_fix_pos": false,
                             "hp_gauge_size": "2",
+                            "scale": "1.5",
                             "offset_x": "0",
-                            "offset_y": "-27",
-                            "path": "108009",
-                            "scale": "1.2",
-                            "uses_fix_pos": false
+                            "offset_y": "-20",
+                            "path": "108002"
                         },
-                        "atk": 126,
-                        "breed_id": "12",
-                        "counters": [],
-                        "critical": "3",
-                        "def": 75,
-                        "def_attributes": [
-                            {
-                                "attribute_id": "220",
-                                "factor": "1"
-                            },
-                            {
-                                "attribute_id": "218",
-                                "factor": "1"
-                            },
-                            {
-                                "attribute_id": "225",
-                                "factor": "1"
-                            },
-                            {
-                                "attribute_id": "221",
-                                "factor": "1"
-                            },
-                            {
-                                "attribute_id": "219",
-                                "factor": "1"
-                            },
-                            {
-                                "attribute_id": "222",
-                                "factor": "1"
-                            }
-                        ],
-                        "disp_name": "Galbadian Soldier",
-                        "eva": "70",
-                        "exp": 456,
-                        "id": "3080171",
-                        "looking": "0",
-                        "lv": "44",
-                        "matk": 139,
-                        "max_hp": 1192,
-                        "mdef": 75,
-                        "mnd": 75,
-                        "no": "1",
-                        "size": "2",
-                        "spd": "100"
-                    }
-                ],
-                "uid": "203"
-            }
-        ],
-        "deform_animation_info": [],
-        "id": "308017",
-        "is_sp_enemy": 0
-    },
-    {
-        "ai_id": 0,
-        "children": [
-            {
-                "ai_id": "1",
-                "child_pos_id": "1",
-                "drop_item_list": [],
-                "enemy_id": "308017",
-                "init_hp": 1192,
-                "lv": "44",
-                "max_hp": 1192,
-                "no": "1",
-                "params": [
-                    {
-                        "abilities": [
-                            {
-                                "ability_id": "102012",
-                                "weight": "20"
-                            },
-                            {
-                                "ability_id": "102011",
-                                "weight": "40"
-                            },
-                            {
-                                "ability_id": "101001",
-                                "weight": "40"
-                            }
-                        ],
                         "acc": "100",
-                        "animation_info": {
-                            "assets": {
-                                "enemy-108009": "/Content/lang/ab/character/enemy/108009.sajson"
-                            },
-                            "enemy_status_id": "3080171",
-                            "hp_gauge_size": "2",
-                            "offset_x": "0",
-                            "offset_y": "-27",
-                            "path": "108009",
-                            "scale": "1.2",
-                            "uses_fix_pos": false
-                        },
-                        "atk": 126,
-                        "breed_id": "12",
-                        "counters": [],
-                        "critical": "3",
-                        "def": 75,
-                        "def_attributes": [
-                            {
-                                "attribute_id": "220",
-                                "factor": "1"
-                            },
-                            {
-                                "attribute_id": "218",
-                                "factor": "1"
-                            },
-                            {
-                                "attribute_id": "225",
-                                "factor": "1"
-                            },
-                            {
-                                "attribute_id": "221",
-                                "factor": "1"
-                            },
-                            {
-                                "attribute_id": "219",
-                                "factor": "1"
-                            },
-                            {
-                                "attribute_id": "222",
-                                "factor": "1"
-                            }
-                        ],
-                        "disp_name": "Galbadian Soldier",
                         "eva": "70",
+                        "atk": 98,
+                        "breed_id": "9",
                         "exp": 456,
-                        "id": "3080171",
-                        "looking": "0",
-                        "lv": "44",
-                        "matk": 139,
-                        "max_hp": 1192,
-                        "mdef": 75,
-                        "mnd": 75,
-                        "no": "1",
-                        "size": "2",
-                        "spd": "100"
+                        "def": 45
                     }
                 ],
-                "uid": "204"
-            }
-        ],
-        "deform_animation_info": [],
-        "id": "308017",
-        "is_sp_enemy": 0
-    },
-    {
-        "ai_id": 0,
-        "children": [
-            {
-                "ai_id": "1",
                 "child_pos_id": "1",
-                "drop_item_list": [],
                 "enemy_id": "308018",
-                "init_hp": 946,
-                "lv": "44",
-                "max_hp": 946,
+                "ai_id": "1"
+            }
+        ],
+        "ai_id": 0
+    },
+    {
+        "id": "308017",
+        "is_sp_enemy": 0,
+        "deform_animation_info": [],
+        "children": [
+            {
+                "drop_item_list": [],
+                "uid": "203",
                 "no": "1",
+                "init_hp": 1192,
+                "max_hp": 1192,
+                "lv": "44",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "102012",
+                                "weight": "20"
+                            },
+                            {
+                                "ability_id": "102011",
+                                "weight": "40"
+                            },
+                            {
+                                "ability_id": "101001",
+                                "weight": "40"
+                            }
+                        ],
+                        "mnd": 75,
+                        "id": "3080171",
+                        "size": "2",
+                        "looking": "0",
+                        "no": "1",
+                        "spd": "100",
+                        "disp_name": "Galbadian Soldier",
+                        "lv": "44",
+                        "critical": "3",
+                        "max_hp": 1192,
+                        "matk": 139,
+                        "counters": [],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "220",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "218",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "225",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "219",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            }
+                        ],
+                        "mdef": 75,
+                        "animation_info": {
+                            "enemy_status_id": "3080171",
+                            "assets": {
+                                "enemy-108009": "/Content/lang/ab/character/enemy/108009.sajson"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "scale": "1.2",
+                            "offset_x": "0",
+                            "offset_y": "-27",
+                            "path": "108009"
+                        },
+                        "acc": "100",
+                        "eva": "70",
+                        "atk": 126,
+                        "breed_id": "12",
+                        "exp": 456,
+                        "def": 75
+                    }
+                ],
+                "child_pos_id": "1",
+                "enemy_id": "308017",
+                "ai_id": "1"
+            }
+        ],
+        "ai_id": 0
+    },
+    {
+        "id": "308017",
+        "is_sp_enemy": 0,
+        "deform_animation_info": [],
+        "children": [
+            {
+                "drop_item_list": [],
+                "uid": "204",
+                "no": "1",
+                "init_hp": 1192,
+                "max_hp": 1192,
+                "lv": "44",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "102012",
+                                "weight": "20"
+                            },
+                            {
+                                "ability_id": "102011",
+                                "weight": "40"
+                            },
+                            {
+                                "ability_id": "101001",
+                                "weight": "40"
+                            }
+                        ],
+                        "mnd": 75,
+                        "id": "3080171",
+                        "size": "2",
+                        "looking": "0",
+                        "no": "1",
+                        "spd": "100",
+                        "disp_name": "Galbadian Soldier",
+                        "lv": "44",
+                        "critical": "3",
+                        "max_hp": 1192,
+                        "matk": 139,
+                        "counters": [],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "220",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "218",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "225",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "219",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            }
+                        ],
+                        "mdef": 75,
+                        "animation_info": {
+                            "enemy_status_id": "3080171",
+                            "assets": {
+                                "enemy-108009": "/Content/lang/ab/character/enemy/108009.sajson"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "scale": "1.2",
+                            "offset_x": "0",
+                            "offset_y": "-27",
+                            "path": "108009"
+                        },
+                        "acc": "100",
+                        "eva": "70",
+                        "atk": 126,
+                        "breed_id": "12",
+                        "exp": 456,
+                        "def": 75
+                    }
+                ],
+                "child_pos_id": "1",
+                "enemy_id": "308017",
+                "ai_id": "1"
+            }
+        ],
+        "ai_id": 0
+    },
+    {
+        "id": "308018",
+        "is_sp_enemy": 0,
+        "deform_animation_info": [],
+        "children": [
+            {
+                "drop_item_list": [],
+                "uid": "205",
+                "no": "1",
+                "init_hp": 946,
+                "max_hp": 946,
+                "lv": "44",
                 "params": [
                     {
                         "abilities": [
@@ -447,24 +447,18 @@
                                 "weight": "15"
                             }
                         ],
-                        "acc": "100",
-                        "animation_info": {
-                            "assets": {
-                                "enemy-108002": "/Content/lang/ab/character/enemy/108002.sajson"
-                            },
-                            "enemy_status_id": "3080181",
-                            "hp_gauge_size": "2",
-                            "offset_x": "0",
-                            "offset_y": "-20",
-                            "path": "108002",
-                            "scale": "1.5",
-                            "uses_fix_pos": false
-                        },
-                        "atk": 98,
-                        "breed_id": "9",
-                        "counters": [],
+                        "mnd": 92,
+                        "id": "3080181",
+                        "size": "2",
+                        "looking": "0",
+                        "no": "1",
+                        "spd": "100",
+                        "disp_name": "Glacial Eye",
+                        "lv": "44",
                         "critical": "3",
-                        "def": 45,
+                        "max_hp": 946,
+                        "matk": 179,
+                        "counters": [],
                         "def_attributes": [
                             {
                                 "attribute_id": "213",
@@ -503,48 +497,54 @@
                                 "factor": "1"
                             }
                         ],
-                        "disp_name": "Glacial Eye",
-                        "eva": "70",
-                        "exp": 456,
-                        "id": "3080181",
-                        "looking": "0",
-                        "lv": "44",
-                        "matk": 179,
-                        "max_hp": 946,
                         "mdef": 100,
-                        "mnd": 92,
-                        "no": "1",
-                        "size": "2",
-                        "spd": "100"
+                        "animation_info": {
+                            "enemy_status_id": "3080181",
+                            "assets": {
+                                "enemy-108002": "/Content/lang/ab/character/enemy/108002.sajson"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "scale": "1.5",
+                            "offset_x": "0",
+                            "offset_y": "-20",
+                            "path": "108002"
+                        },
+                        "acc": "100",
+                        "eva": "70",
+                        "atk": 98,
+                        "breed_id": "9",
+                        "exp": 456,
+                        "def": 45
                     }
                 ],
-                "uid": "205"
+                "child_pos_id": "1",
+                "enemy_id": "308018",
+                "ai_id": "1"
             }
         ],
-        "deform_animation_info": [],
-        "id": "308018",
-        "is_sp_enemy": 0
+        "ai_id": 0
     },
     {
-        "ai_id": 0,
+        "id": "308018",
+        "is_sp_enemy": 0,
+        "deform_animation_info": [],
         "children": [
             {
-                "ai_id": "1",
-                "child_pos_id": "1",
                 "drop_item_list": [
                     {
                         "item_id": "40000003",
                         "num": "1",
-                        "rarity": "3",
                         "type": 51,
-                        "uid": 206
+                        "uid": 206,
+                        "rarity": "3"
                     }
                 ],
-                "enemy_id": "308018",
-                "init_hp": 946,
-                "lv": "44",
-                "max_hp": 946,
+                "uid": "206",
                 "no": "1",
+                "init_hp": 946,
+                "max_hp": 946,
+                "lv": "44",
                 "params": [
                     {
                         "abilities": [
@@ -577,24 +577,18 @@
                                 "weight": "15"
                             }
                         ],
-                        "acc": "100",
-                        "animation_info": {
-                            "assets": {
-                                "enemy-108002": "/Content/lang/ab/character/enemy/108002.sajson"
-                            },
-                            "enemy_status_id": "3080181",
-                            "hp_gauge_size": "2",
-                            "offset_x": "0",
-                            "offset_y": "-20",
-                            "path": "108002",
-                            "scale": "1.5",
-                            "uses_fix_pos": false
-                        },
-                        "atk": 98,
-                        "breed_id": "9",
-                        "counters": [],
+                        "mnd": 92,
+                        "id": "3080181",
+                        "size": "2",
+                        "looking": "0",
+                        "no": "1",
+                        "spd": "100",
+                        "disp_name": "Glacial Eye",
+                        "lv": "44",
                         "critical": "3",
-                        "def": 45,
+                        "max_hp": 946,
+                        "matk": 179,
+                        "counters": [],
                         "def_attributes": [
                             {
                                 "attribute_id": "213",
@@ -633,26 +627,692 @@
                                 "factor": "1"
                             }
                         ],
-                        "disp_name": "Glacial Eye",
-                        "eva": "70",
-                        "exp": 456,
-                        "id": "3080181",
-                        "looking": "0",
-                        "lv": "44",
-                        "matk": 179,
-                        "max_hp": 946,
                         "mdef": 100,
-                        "mnd": 92,
-                        "no": "1",
-                        "size": "2",
-                        "spd": "100"
+                        "animation_info": {
+                            "enemy_status_id": "3080181",
+                            "assets": {
+                                "enemy-108002": "/Content/lang/ab/character/enemy/108002.sajson"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "scale": "1.5",
+                            "offset_x": "0",
+                            "offset_y": "-20",
+                            "path": "108002"
+                        },
+                        "acc": "100",
+                        "eva": "70",
+                        "atk": 98,
+                        "breed_id": "9",
+                        "exp": 456,
+                        "def": 45
                     }
                 ],
-                "uid": "206"
+                "child_pos_id": "1",
+                "enemy_id": "308018",
+                "ai_id": "1"
             }
         ],
+        "ai_id": 0
+    },
+    {
+        "is_sp_enemy": 0,
         "deform_animation_info": [],
+        "ai_id": 0,
+        "id": "308017",
+        "children": [
+            {
+                "drop_item_list": [],
+                "uid": "201",
+                "no": "1",
+                "init_hp": 1192,
+                "child_pos_id": "1",
+                "lv": "44",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "102012",
+                                "weight": "20"
+                            },
+                            {
+                                "ability_id": "102011",
+                                "weight": "40"
+                            },
+                            {
+                                "ability_id": "101001",
+                                "weight": "40"
+                            }
+                        ],
+                        "mnd": 75,
+                        "id": "3080171",
+                        "size": "2",
+                        "lv": "44",
+                        "no": "1",
+                        "spd": "100",
+                        "disp_name": "Galbadian Soldier",
+                        "looking": "0",
+                        "critical": "3",
+                        "max_hp": 1192,
+                        "matk": 139,
+                        "counters": [],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "220",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "218",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "225",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "219",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            }
+                        ],
+                        "mdef": 75,
+                        "animation_info": {
+                            "scale": "1.2",
+                            "assets": {
+                                "enemy-108009": "/Content/lang/ab/character/enemy/108009.sajson"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "enemy_status_id": "3080171",
+                            "offset_y": "-27",
+                            "path": "108009",
+                            "offset_x": "0"
+                        },
+                        "acc": "100",
+                        "eva": "70",
+                        "atk": 126,
+                        "breed_id": "12",
+                        "exp": 456,
+                        "def": 75
+                    }
+                ],
+                "max_hp": 1192,
+                "enemy_id": "308017",
+                "ai_id": "1"
+            }
+        ]
+    },
+    {
+        "is_sp_enemy": 0,
+        "deform_animation_info": [],
+        "ai_id": 0,
+        "id": "308017",
+        "children": [
+            {
+                "drop_item_list": [],
+                "uid": "202",
+                "no": "1",
+                "init_hp": 1192,
+                "child_pos_id": "1",
+                "lv": "44",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "102012",
+                                "weight": "20"
+                            },
+                            {
+                                "ability_id": "102011",
+                                "weight": "40"
+                            },
+                            {
+                                "ability_id": "101001",
+                                "weight": "40"
+                            }
+                        ],
+                        "mnd": 75,
+                        "id": "3080171",
+                        "size": "2",
+                        "lv": "44",
+                        "no": "1",
+                        "spd": "100",
+                        "disp_name": "Galbadian Soldier",
+                        "looking": "0",
+                        "critical": "3",
+                        "max_hp": 1192,
+                        "matk": 139,
+                        "counters": [],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "220",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "218",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "225",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "219",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            }
+                        ],
+                        "mdef": 75,
+                        "animation_info": {
+                            "scale": "1.2",
+                            "assets": {
+                                "enemy-108009": "/Content/lang/ab/character/enemy/108009.sajson"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "enemy_status_id": "3080171",
+                            "offset_y": "-27",
+                            "path": "108009",
+                            "offset_x": "0"
+                        },
+                        "acc": "100",
+                        "eva": "70",
+                        "atk": 126,
+                        "breed_id": "12",
+                        "exp": 456,
+                        "def": 75
+                    }
+                ],
+                "max_hp": 1192,
+                "enemy_id": "308017",
+                "ai_id": "1"
+            }
+        ]
+    },
+    {
+        "is_sp_enemy": 0,
+        "deform_animation_info": [],
+        "ai_id": 0,
         "id": "308018",
-        "is_sp_enemy": 0
+        "children": [
+            {
+                "drop_item_list": [
+                    {
+                        "item_id": "21006001",
+                        "num": "1",
+                        "type": 41,
+                        "uid": 203,
+                        "rarity": "1"
+                    }
+                ],
+                "uid": "203",
+                "no": "1",
+                "init_hp": 946,
+                "child_pos_id": "1",
+                "lv": "44",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "102022",
+                                "weight": "20"
+                            },
+                            {
+                                "ability_id": "102023",
+                                "weight": "10"
+                            },
+                            {
+                                "ability_id": "101001",
+                                "weight": "20"
+                            },
+                            {
+                                "ability_id": "103002",
+                                "weight": "10"
+                            },
+                            {
+                                "ability_id": "201451",
+                                "weight": "10"
+                            },
+                            {
+                                "ability_id": "102054",
+                                "weight": "15"
+                            },
+                            {
+                                "ability_id": "102056",
+                                "weight": "15"
+                            }
+                        ],
+                        "mnd": 92,
+                        "id": "3080181",
+                        "size": "2",
+                        "lv": "44",
+                        "no": "1",
+                        "spd": "100",
+                        "disp_name": "Glacial Eye",
+                        "looking": "0",
+                        "critical": "3",
+                        "max_hp": 946,
+                        "matk": 179,
+                        "counters": [],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "213",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "225",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "100",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "214",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "220",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "219",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "218",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            }
+                        ],
+                        "mdef": 100,
+                        "animation_info": {
+                            "scale": "1.5",
+                            "assets": {
+                                "enemy-108002": "/Content/lang/ab/character/enemy/108002.sajson"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "enemy_status_id": "3080181",
+                            "offset_y": "-20",
+                            "path": "108002",
+                            "offset_x": "0"
+                        },
+                        "acc": "100",
+                        "eva": "70",
+                        "atk": 98,
+                        "breed_id": "9",
+                        "exp": 456,
+                        "def": 45
+                    }
+                ],
+                "max_hp": 946,
+                "enemy_id": "308018",
+                "ai_id": "1"
+            }
+        ]
+    },
+    {
+        "is_sp_enemy": 0,
+        "deform_animation_info": [],
+        "ai_id": 0,
+        "id": "308018",
+        "children": [
+            {
+                "drop_item_list": [],
+                "uid": "204",
+                "no": "1",
+                "init_hp": 946,
+                "child_pos_id": "1",
+                "lv": "44",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "102022",
+                                "weight": "20"
+                            },
+                            {
+                                "ability_id": "102023",
+                                "weight": "10"
+                            },
+                            {
+                                "ability_id": "101001",
+                                "weight": "20"
+                            },
+                            {
+                                "ability_id": "103002",
+                                "weight": "10"
+                            },
+                            {
+                                "ability_id": "201451",
+                                "weight": "10"
+                            },
+                            {
+                                "ability_id": "102054",
+                                "weight": "15"
+                            },
+                            {
+                                "ability_id": "102056",
+                                "weight": "15"
+                            }
+                        ],
+                        "mnd": 92,
+                        "id": "3080181",
+                        "size": "2",
+                        "lv": "44",
+                        "no": "1",
+                        "spd": "100",
+                        "disp_name": "Glacial Eye",
+                        "looking": "0",
+                        "critical": "3",
+                        "max_hp": 946,
+                        "matk": 179,
+                        "counters": [],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "213",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "225",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "100",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "214",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "220",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "219",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "218",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            }
+                        ],
+                        "mdef": 100,
+                        "animation_info": {
+                            "scale": "1.5",
+                            "assets": {
+                                "enemy-108002": "/Content/lang/ab/character/enemy/108002.sajson"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "enemy_status_id": "3080181",
+                            "offset_y": "-20",
+                            "path": "108002",
+                            "offset_x": "0"
+                        },
+                        "acc": "100",
+                        "eva": "70",
+                        "atk": 98,
+                        "breed_id": "9",
+                        "exp": 456,
+                        "def": 45
+                    }
+                ],
+                "max_hp": 946,
+                "enemy_id": "308018",
+                "ai_id": "1"
+            }
+        ]
+    },
+    {
+        "is_sp_enemy": 0,
+        "deform_animation_info": [],
+        "ai_id": 0,
+        "id": "308016",
+        "children": [
+            {
+                "drop_item_list": [
+                    {
+                        "item_id": "40000058",
+                        "num": "1",
+                        "type": 51,
+                        "uid": 205,
+                        "rarity": "3"
+                    }
+                ],
+                "uid": "205",
+                "no": "1",
+                "init_hp": 1192,
+                "child_pos_id": "1",
+                "lv": "44",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "201255",
+                                "weight": "10"
+                            },
+                            {
+                                "ability_id": "102054",
+                                "weight": "5"
+                            },
+                            {
+                                "ability_id": "102101",
+                                "weight": "15"
+                            },
+                            {
+                                "ability_id": "102059",
+                                "weight": "15"
+                            },
+                            {
+                                "ability_id": "102102",
+                                "weight": "15"
+                            },
+                            {
+                                "ability_id": "102108",
+                                "weight": "15"
+                            },
+                            {
+                                "ability_id": "101001",
+                                "weight": "20"
+                            },
+                            {
+                                "ability_id": "102104",
+                                "weight": "5"
+                            }
+                        ],
+                        "mnd": 75,
+                        "id": "3080161",
+                        "size": "2",
+                        "lv": "44",
+                        "no": "1",
+                        "spd": "100",
+                        "disp_name": "Elite Soldier",
+                        "looking": "0",
+                        "critical": "3",
+                        "max_hp": 1192,
+                        "matk": 139,
+                        "counters": [],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "219",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "220",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "225",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "218",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "108",
+                                "factor": "1"
+                            }
+                        ],
+                        "mdef": 75,
+                        "animation_info": {
+                            "scale": "1.8",
+                            "assets": {
+                                "enemy-108010": "/Content/lang/ab/character/enemy/108010.sajson"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "enemy_status_id": "3080161",
+                            "offset_y": "-20",
+                            "path": "108010",
+                            "offset_x": "2"
+                        },
+                        "acc": "100",
+                        "eva": "70",
+                        "atk": 126,
+                        "breed_id": "12",
+                        "exp": 456,
+                        "def": 75
+                    }
+                ],
+                "max_hp": 1192,
+                "enemy_id": "308016",
+                "ai_id": "1"
+            }
+        ]
+    },
+    {
+        "is_sp_enemy": 0,
+        "deform_animation_info": [],
+        "ai_id": 0,
+        "id": "308017",
+        "children": [
+            {
+                "drop_item_list": [],
+                "uid": "206",
+                "no": "1",
+                "init_hp": 1192,
+                "child_pos_id": "1",
+                "lv": "44",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "102012",
+                                "weight": "20"
+                            },
+                            {
+                                "ability_id": "102011",
+                                "weight": "40"
+                            },
+                            {
+                                "ability_id": "101001",
+                                "weight": "40"
+                            }
+                        ],
+                        "mnd": 75,
+                        "id": "3080171",
+                        "size": "2",
+                        "lv": "44",
+                        "no": "1",
+                        "spd": "100",
+                        "disp_name": "Galbadian Soldier",
+                        "looking": "0",
+                        "critical": "3",
+                        "max_hp": 1192,
+                        "matk": 139,
+                        "counters": [],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "220",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "218",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "225",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "219",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            }
+                        ],
+                        "mdef": 75,
+                        "animation_info": {
+                            "scale": "1.2",
+                            "assets": {
+                                "enemy-108009": "/Content/lang/ab/character/enemy/108009.sajson"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "enemy_status_id": "3080171",
+                            "offset_y": "-27",
+                            "path": "108009",
+                            "offset_x": "0"
+                        },
+                        "acc": "100",
+                        "eva": "70",
+                        "atk": 126,
+                        "breed_id": "12",
+                        "exp": 456,
+                        "def": 75
+                    }
+                ],
+                "max_hp": 1192,
+                "enemy_id": "308017",
+                "ai_id": "1"
+            }
+        ]
     }
 ]

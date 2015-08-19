@@ -1,0 +1,89 @@
+{
+    "dungeon": {
+        "background_image_path": "/dff/static/lang/image/dungeon/209003_bg.png", 
+        "order_no": 1, 
+        "captures": [
+            {
+                "sp_scores": [
+                    {
+                        "title": "Defeat the Black Waltz 2 without being KO'd.", 
+                        "battle_id": 309012
+                    }
+                ], 
+                "image_path": "/dff/static/lang/image/enemy/409008.png", 
+                "tip_battle": {
+                    "message": "When Black Waltz 2's HP gets low, it will counter certain elemental magic attacks by casting a <span class=\"red\">spell of the same element that hits the entire party</span>, kupo! Switch to physical attacks once you get its HP low enough!", 
+                    "group_id": 410124, 
+                    "id": 410124, 
+                    "title": "Black Waltz 2"
+                }
+            }
+        ], 
+        "is_new": false, 
+        "rank": 3, 
+        "closed_at": 2145938400, 
+        "id": 209003, 
+        "is_clear": true, 
+        "button_style": "NORMAL", 
+        "opened_at": 1434675600, 
+        "world_id": 109001, 
+        "type": 1, 
+        "challenge_level": 43, 
+        "is_unlocked": true, 
+        "series_id": 109001, 
+        "prizes": {
+            "1": [
+                {
+                    "id": 92000000, 
+                    "type_name": "COMMON", 
+                    "num": 3500, 
+                    "image_path": "/dff/static/lang/image/common_item/92000000.png", 
+                    "name": "Gil"
+                }
+            ], 
+            "3": [
+                {
+                    "id": 40000058, 
+                    "type_name": "ABILITY_MATERIAL", 
+                    "num": 3, 
+                    "image_path": "/dff/static/lang/image/ability_material/40000058/40000058_112.png", 
+                    "name": "Holy Orb"
+                }, 
+                {
+                    "id": 24098003, 
+                    "type_name": "EQUIPMENT", 
+                    "num": 1, 
+                    "image_path": "/dff/static/lang/image/equipment/24098003/24098003_03_112.png", 
+                    "name": "Scarletite"
+                }
+            ], 
+            "2": [
+                {
+                    "id": 94000000, 
+                    "type_name": "COMMON", 
+                    "num": 1, 
+                    "image_path": "/dff/static/lang/image/common_item/94000000.png", 
+                    "name": "Stamina Shard"
+                }, 
+                {
+                    "id": 91000000, 
+                    "type_name": "COMMON", 
+                    "num": 1, 
+                    "image_path": "/dff/static/lang/image/common_item/91000000.png", 
+                    "name": "Mythril"
+                }
+            ]
+        }, 
+        "total_stamina": 45, 
+        "epilogue": "Vivi was taken away by a villager in Dali, but when Zidane and Dagger went looking for him, they discovered many other black mages, all identical to their friend. The villagers of Dali were manufacturing black mages for Alexandria. Reunited, the party fought off the assassin Black Waltz 2 and boarded a cargo ship.", 
+        "epilogue_image_path": "/dff/static/lang/image/dungeon/209003_epilogue.png", 
+        "name": "Village of Dali", 
+        "bgm": "bgm_09_016", 
+        "prologue": "After escaping pursuit and passing along the slippery paths of the Ice Cavern, Garnet takes the name Dagger to conceal her identity. The party arrives in the small village of Dali.", 
+        "is_master": true, 
+        "prologue_image_path": "/dff/static/lang/image/dungeon/209003_prologue.png"
+    }, 
+    "SERVER_TIME": 1439903785, 
+    "success": true, 
+    "can_review": false
+}

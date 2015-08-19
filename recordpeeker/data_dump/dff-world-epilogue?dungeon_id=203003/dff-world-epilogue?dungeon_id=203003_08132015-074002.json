@@ -1,0 +1,93 @@
+{
+    "dungeon": {
+        "background_image_path": "/dff/static/lang/image/dungeon/203003_bg.png", 
+        "order_no": 1, 
+        "captures": [
+            {
+                "sp_scores": [
+                    {
+                        "title": "Exploit Djinn's weakness to water attacks.", 
+                        "battle_id": 303013
+                    }, 
+                    {
+                        "title": "Exploit Djinn's weakness to ice attacks.", 
+                        "battle_id": 303013
+                    }
+                ], 
+                "image_path": "/dff/static/lang/image/enemy/403003.png", 
+                "tip_battle": {
+                    "message": "The Djinn is vulnerable to <span class=\"red\">ice and water</span> attacks, kupo! Attack him with magic like <span class=\"red\">Blizzard and Water!</span>", 
+                    "group_id": 420081, 
+                    "id": 410081, 
+                    "title": "Djinn"
+                }
+            }
+        ], 
+        "is_new": false, 
+        "rank": 3, 
+        "closed_at": 2145938400, 
+        "id": 203003, 
+        "is_clear": true, 
+        "button_style": "NORMAL", 
+        "opened_at": 1424152800, 
+        "world_id": 103001, 
+        "type": 1, 
+        "challenge_level": 36, 
+        "is_unlocked": true, 
+        "series_id": 103001, 
+        "prizes": {
+            "1": [
+                {
+                    "id": 92000000, 
+                    "type_name": "COMMON", 
+                    "num": 3000, 
+                    "image_path": "/dff/static/lang/image/common_item/92000000.png", 
+                    "name": "Gil"
+                }
+            ], 
+            "3": [
+                {
+                    "id": 40000048, 
+                    "type_name": "ABILITY_MATERIAL", 
+                    "num": 3, 
+                    "image_path": "/dff/static/lang/image/ability_material/40000048/40000048_112.png", 
+                    "name": "Earth Orb"
+                }, 
+                {
+                    "id": 94000000, 
+                    "type_name": "COMMON", 
+                    "num": 1, 
+                    "image_path": "/dff/static/lang/image/common_item/94000000.png", 
+                    "name": "Stamina Shard"
+                }
+            ], 
+            "2": [
+                {
+                    "id": 94000000, 
+                    "type_name": "COMMON", 
+                    "num": 1, 
+                    "image_path": "/dff/static/lang/image/common_item/94000000.png", 
+                    "name": "Stamina Shard"
+                }, 
+                {
+                    "id": 91000000, 
+                    "type_name": "COMMON", 
+                    "num": 1, 
+                    "image_path": "/dff/static/lang/image/common_item/91000000.png", 
+                    "name": "Mythril"
+                }
+            ]
+        }, 
+        "total_stamina": 46, 
+        "epilogue": "At the height of the pitched battle with the Djinn, Sara held the mythril ring aloft and he vanished in a whirl of mist--the power of the ring had sealed him away in the cave once more. After their return to Castle Sasune, the Warriors of Light placed the ring in the waters of a sacred spring, and the Djinn's curse on the people was broken. In thanks, King Sasune gave the Warriors a magic canoe, and they set out once more.", 
+        "epilogue_image_path": "/dff/static/lang/image/dungeon/203003_epilogue.png", 
+        "name": "Sealed Cave", 
+        "bgm": "bgm_03_009", 
+        "prologue": "Princess Sara had not been kidnapped: she set out for the Sealed Cave on her own to banish the Djinn with the mythril ring. The Warriors of Light join her as she attempts to put an end to the Djinn's curse.", 
+        "is_master": true, 
+        "prologue_image_path": "/dff/static/lang/image/dungeon/203003_prologue.png"
+    }, 
+    "SERVER_TIME": 1439469602, 
+    "success": true, 
+    "can_review": false
+}

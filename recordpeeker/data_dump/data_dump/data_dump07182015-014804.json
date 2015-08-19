@@ -1,0 +1,89 @@
+{
+    "SERVER_TIME": 1437202084, 
+    "can_review": false, 
+    "dungeon": {
+        "background_image_path": "/dff/static/lang/image/dungeon/210001_bg.png", 
+        "bgm": "bgm_10_006", 
+        "button_style": "NORMAL", 
+        "captures": [
+            {
+                "image_path": "/dff/static/lang/image/enemy/410001.png", 
+                "sp_scores": [
+                    {
+                        "battle_id": 310003, 
+                        "title": "Defeat Sinspawn Ammes without being KO'd."
+                    }
+                ], 
+                "tip_battle": {
+                    "group_id": 420024, 
+                    "id": 410024, 
+                    "message": "Sinspawn Ammes's <span class=\"red\">Gravity</span> will take away a quarter of your current HP, kupo! Watch out for the <span class=\"red\">Spines</span> attack that usually follows after Gravity!", 
+                    "title": "Sinspawn Ammes"
+                }
+            }
+        ], 
+        "challenge_level": 2, 
+        "closed_at": 2145938400, 
+        "epilogue": "Led by his childhood guardian Auron, Tidus approaches the gigantic sphere of water that Auron calls \"Sin.\" Together they fight the Sinspawn that emerges and when Tidus reaches the sphere, he is drawn inside.", 
+        "epilogue_image_path": "/dff/static/lang/image/dungeon/210001_epilogue.png", 
+        "id": 210001, 
+        "is_clear": true, 
+        "is_master": true, 
+        "is_new": false, 
+        "is_unlocked": true, 
+        "name": "Zanarkand", 
+        "opened_at": 1398924000, 
+        "order_no": 1, 
+        "prizes": {
+            "1": [
+                {
+                    "id": 92000000, 
+                    "image_path": "/dff/static/lang/image/common_item/92000000.png", 
+                    "name": "Gil", 
+                    "num": 700, 
+                    "type_name": "COMMON"
+                }
+            ], 
+            "2": [
+                {
+                    "id": 40000036, 
+                    "image_path": "/dff/static/lang/image/ability_material/40000036/40000036_112.png", 
+                    "name": "Minor Ice Orb", 
+                    "num": 5, 
+                    "type_name": "ABILITY_MATERIAL"
+                }, 
+                {
+                    "id": 91000000, 
+                    "image_path": "/dff/static/lang/image/common_item/91000000.png", 
+                    "name": "Mythril", 
+                    "num": 1, 
+                    "type_name": "COMMON"
+                }
+            ], 
+            "3": [
+                {
+                    "id": 40000006, 
+                    "image_path": "/dff/static/lang/image/ability_material/40000006/40000006_112.png", 
+                    "name": "Minor White Orb", 
+                    "num": 5, 
+                    "type_name": "ABILITY_MATERIAL"
+                }, 
+                {
+                    "id": 22056003, 
+                    "image_path": "/dff/static/lang/image/equipment/22056003/22056003_02_112.png", 
+                    "name": "Mythril Armlet (VII)", 
+                    "num": 1, 
+                    "type_name": "EQUIPMENT"
+                }
+            ]
+        }, 
+        "prologue": "Tidus is at the top of his game as star of the blitzball team the Zanarkand Abes. He is playing in the Jecht Memorial Cup tournament, when an immense creature attacks the city.", 
+        "prologue_image_path": "/dff/static/lang/image/dungeon/210001_prologue.png", 
+        "rank": 3, 
+        "series_id": 110001, 
+        "total_stamina": 7, 
+        "type": 1, 
+        "world_id": 110001
+    }, 
+    "success": true
+}

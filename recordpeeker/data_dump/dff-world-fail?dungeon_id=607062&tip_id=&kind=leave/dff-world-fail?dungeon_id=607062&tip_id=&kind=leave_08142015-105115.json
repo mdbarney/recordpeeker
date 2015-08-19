@@ -1,0 +1,141 @@
+{
+    "dungeon": {
+        "background_image_path": "/dff/static/lang/image/dungeon/607062_bg.png", 
+        "order_no": 1, 
+        "captures": [
+            {
+                "sp_scores": [
+                    {
+                        "title": "Defeat Blood Taste without being KO'd.", 
+                        "battle_id": 707206
+                    }
+                ], 
+                "image_path": "/dff/static/lang/image/enemy/407028.png", 
+                "tip_battle": {
+                    "message": "Blood Taste may not have elemental weaknesses, but <span class=\"red\">debuffs will work</span>, kupo! Use <span class=\"red\">Sleep, Paralyze, Blind</span>, and other debuffs to give this beast a taste of its own blood!", 
+                    "group_id": 410208, 
+                    "id": 410208, 
+                    "title": "Blood Taste "
+                }
+            }, 
+            {
+                "sp_scores": [
+                    {
+                        "title": "Defeat the Dragon without being KO'd.", 
+                        "battle_id": 707207
+                    }
+                ], 
+                "image_path": "/dff/static/lang/image/enemy/407029.png", 
+                "tip_battle": {
+                    "message": "The Dragon has group attacks and powerful single-target attacks, kupo. If you can inflict it with <span class=\"red\">Paralyze</span> or <span class=\"red\">Blind</span>, the battle will be much easier! It absorbs fire damage, so stay away from that!", 
+                    "group_id": 410209, 
+                    "id": 410209, 
+                    "title": "Dragon"
+                }
+            }, 
+            {
+                "sp_scores": [
+                    {
+                        "title": "Defeat Rapps without being KO'd.", 
+                        "battle_id": 707208
+                    }
+                ], 
+                "image_path": "/dff/static/lang/image/enemy/407035.png", 
+                "tip_battle": {
+                    "message": "Rapps mostly uses physical attacks like <span class=\"red\">Scorpion's Tail</span>, kupo! If you can <span class=\"red\">Blind</span> it, the fight will be much easier!", 
+                    "group_id": 410164, 
+                    "id": 410164, 
+                    "title": "Rapps "
+                }
+            }, 
+            {
+                "sp_scores": [
+                    {
+                        "title": "Defeat Gi Nattak without being KO'd.", 
+                        "battle_id": 707209
+                    }, 
+                    {
+                        "title": "Exploit Gi Nattak's weakness to holy attacks.", 
+                        "battle_id": 707209
+                    }
+                ], 
+                "image_path": "/dff/static/lang/image/enemy/407036.png", 
+                "tip_battle": {
+                    "message": "Gi Nattak is vulnerable to <span class=\"red\">holy</span> attacks, and Soul Fire is vulnerable to <span class=\"red\">holy and wind</span> attacks, kupo! Soul Fire can possess your characters, and if it does, it will use <span class=\"red\">Fira</span> to chip away at their HP. <span class=\"red\">You can't avoid being possessed</span>, but you can be ready for the fire damage!", 
+                    "group_id": 410160, 
+                    "id": 410160, 
+                    "title": "Gi Nattak & Soul Fire"
+                }
+            }
+        ], 
+        "is_new": false, 
+        "rank": 0, 
+        "closed_at": 2056341599, 
+        "id": 607062, 
+        "is_clear": false, 
+        "button_style": "NORMAL", 
+        "opened_at": 1438736400, 
+        "world_id": 107006, 
+        "type": 1, 
+        "challenge_level": 99, 
+        "is_unlocked": true, 
+        "series_id": 107001, 
+        "prizes": {
+            "1": [
+                {
+                    "id": 92000000, 
+                    "type_name": "COMMON", 
+                    "num": 20000, 
+                    "image_path": "/dff/static/lang/image/common_item/92000000.png", 
+                    "name": "Gil"
+                }
+            ], 
+            "3": [
+                {
+                    "id": 40000030, 
+                    "type_name": "ABILITY_MATERIAL", 
+                    "num": 1, 
+                    "image_path": "/dff/static/lang/image/ability_material/40000030/40000030_112.png", 
+                    "name": "Major Non-Elemental Orb"
+                }, 
+                {
+                    "id": 40000004, 
+                    "type_name": "ABILITY_MATERIAL", 
+                    "num": 6, 
+                    "image_path": "/dff/static/lang/image/ability_material/40000004/40000004_112.png", 
+                    "name": "Greater Power Orb"
+                }
+            ], 
+            "2": [
+                {
+                    "id": 40000064, 
+                    "type_name": "ABILITY_MATERIAL", 
+                    "num": 5, 
+                    "image_path": "/dff/static/lang/image/ability_material/40000064/40000064_112.png", 
+                    "name": "Greater Dark Orb"
+                }, 
+                {
+                    "id": 30191031, 
+                    "type_name": "ABILITY", 
+                    "num": 1, 
+                    "image_path": "/dff/static/lang/image/ability/30191031/30191031_112.png", 
+                    "name": "Pressure Point"
+                }
+            ]
+        }, 
+        "total_stamina": 80, 
+        "epilogue": "<<Not Necessary>>", 
+        "epilogue_image_path": "/dff/static/lang/image/dungeon/607062_epilogue.png", 
+        "name": "Arena - Champion", 
+        "bgm": "bgm_07_042", 
+        "prologue": "<<Not Necessary>>", 
+        "is_master": false, 
+        "prologue_image_path": "/dff/static/lang/image/dungeon/607062_prologue.png"
+    }, 
+    "tip": {
+        "message": "Swapping abilities to take advantage of enemies' weaknesses is key to victory. Better stock up, kupo!"
+    }, 
+    "SERVER_TIME": 1439567475, 
+    "success": true, 
+    "is_world_expired": false
+}

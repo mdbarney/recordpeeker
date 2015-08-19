@@ -1,0 +1,450 @@
+[
+    {
+        "is_sp_enemy": "1",
+        "deform_animation_info": [
+            {
+                "deform_tag": "in",
+                "is_random": true,
+                "state": [
+                    "1",
+                    "2"
+                ],
+                "path": "207058_1.json",
+                "enemy_id": "407027",
+                "id": "20705801"
+            }
+        ],
+        "children": [
+            {
+                "drop_item_list": [
+                    {
+                        "item_id": "40000021",
+                        "num": "1",
+                        "type": 51,
+                        "uid": 201,
+                        "rarity": "1"
+                    }
+                ],
+                "uid": "201",
+                "no": "1",
+                "init_hp": "3328",
+                "max_hp": "3328",
+                "lv": "10",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "401238",
+                                "weight": "20"
+                            },
+                            {
+                                "ability_id": "401239",
+                                "weight": "30"
+                            },
+                            {
+                                "ability_id": "301001",
+                                "weight": "30"
+                            },
+                            {
+                                "ability_id": "401240",
+                                "weight": "20"
+                            }
+                        ],
+                        "spd": "100",
+                        "id": "4070271",
+                        "size": "2",
+                        "lv": "10",
+                        "no": "1",
+                        "mnd": 27,
+                        "disp_name": "Valron ",
+                        "looking": "0",
+                        "critical": "3",
+                        "max_hp": "3328",
+                        "matk": "55",
+                        "counters": [],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "214",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "224",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "215",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "213",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "212",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "203",
+                                "factor": "1"
+                            }
+                        ],
+                        "mdef": "253",
+                        "animation_info": {
+                            "scale": "1",
+                            "assets": {
+                                "boss-207058_1": "/Content/lang/ab/character/boss/207058/207058_1.json"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "enemy_status_id": "4070271",
+                            "offset_y": "0",
+                            "path": "207058_1",
+                            "offset_x": "0"
+                        },
+                        "acc": "100",
+                        "eva": "70",
+                        "atk": "50",
+                        "breed_id": "11",
+                        "exp": 596,
+                        "def": "18"
+                    }
+                ],
+                "child_pos_id": "1",
+                "enemy_id": "407027",
+                "ai_id": "1"
+            },
+            {
+                "drop_item_list": [],
+                "uid": "202",
+                "no": "2",
+                "init_hp": "3328",
+                "max_hp": "3328",
+                "lv": "10",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "401238",
+                                "weight": "20"
+                            },
+                            {
+                                "ability_id": "401239",
+                                "weight": "30"
+                            },
+                            {
+                                "ability_id": "301001",
+                                "weight": "30"
+                            },
+                            {
+                                "ability_id": "401240",
+                                "weight": "20"
+                            }
+                        ],
+                        "spd": "100",
+                        "id": "4070272",
+                        "size": "2",
+                        "lv": "10",
+                        "no": "2",
+                        "mnd": 27,
+                        "disp_name": "Valron ",
+                        "looking": "0",
+                        "critical": "3",
+                        "max_hp": "3328",
+                        "matk": "55",
+                        "counters": [],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "215",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "212",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "213",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "224",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "214",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "203",
+                                "factor": "1"
+                            }
+                        ],
+                        "mdef": "253",
+                        "animation_info": {
+                            "scale": "1",
+                            "assets": {
+                                "boss-207058_1": "/Content/lang/ab/character/boss/207058/207058_1.json"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "enemy_status_id": "4070272",
+                            "offset_y": "0",
+                            "path": "207058_1",
+                            "offset_x": "0"
+                        },
+                        "acc": "100",
+                        "eva": "70",
+                        "atk": "50",
+                        "breed_id": "11",
+                        "exp": 0,
+                        "def": "18"
+                    }
+                ],
+                "child_pos_id": "2",
+                "enemy_id": "407027",
+                "ai_id": "1"
+            }
+        ],
+        "id": "407027",
+        "ai_id": "0"
+    },
+    {
+        "is_sp_enemy": "1",
+        "deform_animation_info": [
+            {
+                "deform_tag": "in",
+                "is_random": true,
+                "state": [
+                    "1",
+                    "2"
+                ],
+                "path": "207058_1.json",
+                "enemy_id": "407027",
+                "id": "20705801"
+            }
+        ],
+        "ai_id": "0",
+        "id": "407027",
+        "children": [
+            {
+                "drop_item_list": [
+                    {
+                        "item_id": "40000021",
+                        "num": "1",
+                        "type": 51,
+                        "uid": 201,
+                        "rarity": "1"
+                    }
+                ],
+                "uid": "201",
+                "no": "1",
+                "init_hp": "3328",
+                "child_pos_id": "1",
+                "lv": "10",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "401238",
+                                "weight": "20"
+                            },
+                            {
+                                "ability_id": "401239",
+                                "weight": "30"
+                            },
+                            {
+                                "ability_id": "301001",
+                                "weight": "30"
+                            },
+                            {
+                                "ability_id": "401240",
+                                "weight": "20"
+                            }
+                        ],
+                        "mnd": 27,
+                        "id": "4070271",
+                        "size": "2",
+                        "lv": "10",
+                        "no": "1",
+                        "spd": "100",
+                        "disp_name": "Valron ",
+                        "looking": "0",
+                        "critical": "3",
+                        "max_hp": "3328",
+                        "matk": "55",
+                        "counters": [],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "214",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "224",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "215",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "213",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "212",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "203",
+                                "factor": "1"
+                            }
+                        ],
+                        "mdef": "253",
+                        "animation_info": {
+                            "scale": "1",
+                            "assets": {
+                                "boss-207058_1": "/Content/lang/ab/character/boss/207058/207058_1.json"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "enemy_status_id": "4070271",
+                            "offset_y": "0",
+                            "path": "207058_1",
+                            "offset_x": "0"
+                        },
+                        "acc": "100",
+                        "eva": "70",
+                        "atk": "50",
+                        "breed_id": "11",
+                        "exp": 596,
+                        "def": "18"
+                    }
+                ],
+                "max_hp": "3328",
+                "enemy_id": "407027",
+                "ai_id": "1"
+            },
+            {
+                "drop_item_list": [],
+                "uid": "202",
+                "no": "2",
+                "init_hp": "3328",
+                "child_pos_id": "2",
+                "lv": "10",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "401238",
+                                "weight": "20"
+                            },
+                            {
+                                "ability_id": "401239",
+                                "weight": "30"
+                            },
+                            {
+                                "ability_id": "301001",
+                                "weight": "30"
+                            },
+                            {
+                                "ability_id": "401240",
+                                "weight": "20"
+                            }
+                        ],
+                        "mnd": 27,
+                        "id": "4070272",
+                        "size": "2",
+                        "lv": "10",
+                        "no": "2",
+                        "spd": "100",
+                        "disp_name": "Valron ",
+                        "looking": "0",
+                        "critical": "3",
+                        "max_hp": "3328",
+                        "matk": "55",
+                        "counters": [],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "215",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "212",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "213",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "224",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "214",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "203",
+                                "factor": "1"
+                            }
+                        ],
+                        "mdef": "253",
+                        "animation_info": {
+                            "scale": "1",
+                            "assets": {
+                                "boss-207058_1": "/Content/lang/ab/character/boss/207058/207058_1.json"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "enemy_status_id": "4070272",
+                            "offset_y": "0",
+                            "path": "207058_1",
+                            "offset_x": "0"
+                        },
+                        "acc": "100",
+                        "eva": "70",
+                        "atk": "50",
+                        "breed_id": "11",
+                        "exp": 0,
+                        "def": "18"
+                    }
+                ],
+                "max_hp": "3328",
+                "enemy_id": "407027",
+                "ai_id": "1"
+            }
+        ]
+    }
+]

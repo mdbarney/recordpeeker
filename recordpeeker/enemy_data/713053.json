@@ -1,0 +1,280 @@
+[
+    {
+        "is_sp_enemy": "1",
+        "deform_animation_info": [
+            {
+                "deform_tag": "in",
+                "is_random": true,
+                "state": [
+                    "1"
+                ],
+                "path": "213058_1.json",
+                "enemy_id": "413030",
+                "id": "21305821"
+            },
+            {
+                "deform_tag": "deformation_02",
+                "is_random": true,
+                "state": [
+                    "1"
+                ],
+                "path": "213058_1.json",
+                "enemy_id": "413030",
+                "id": "21305823"
+            },
+            {
+                "deform_tag": "deformation_01",
+                "is_random": true,
+                "state": [
+                    "1"
+                ],
+                "path": "213058_1.json",
+                "enemy_id": "413030",
+                "id": "21305822"
+            }
+        ],
+        "ai_id": "0",
+        "id": "413030",
+        "children": [
+            {
+                "drop_item_list": [],
+                "uid": "201",
+                "no": "1",
+                "init_hp": 21914,
+                "child_pos_id": "1",
+                "lv": "29",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "401299",
+                                "weight": "65"
+                            },
+                            {
+                                "ability_id": "201300",
+                                "weight": "0"
+                            },
+                            {
+                                "ability_id": "401301",
+                                "weight": "35"
+                            }
+                        ],
+                        "mnd": 59,
+                        "id": "4130301",
+                        "size": "3",
+                        "lv": "29",
+                        "no": "1",
+                        "spd": "100",
+                        "disp_name": "Dreadnought",
+                        "looking": "0",
+                        "critical": "3",
+                        "max_hp": 21914,
+                        "matk": 94,
+                        "counters": [],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "224",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "215",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "225",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "212",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "219",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "206",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "211",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "203",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "214",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "229",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "200",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "220",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "213",
+                                "factor": "1"
+                            }
+                        ],
+                        "mdef": 33,
+                        "animation_info": {
+                            "scale": "1",
+                            "assets": {
+                                "boss-213058_1": "/Content/lang/ab/character/boss/213058/213058_1.json"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "3",
+                            "enemy_status_id": "4130301",
+                            "offset_y": "0",
+                            "path": "213058_1",
+                            "offset_x": "0"
+                        },
+                        "acc": "100",
+                        "eva": "86",
+                        "atk": 113,
+                        "breed_id": "14",
+                        "exp": 1536,
+                        "def": 70
+                    },
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "201300",
+                                "weight": "100"
+                            }
+                        ],
+                        "mnd": 59,
+                        "id": "4130302",
+                        "size": "3",
+                        "lv": "29",
+                        "no": "1",
+                        "spd": "100",
+                        "disp_name": "Dreadnought",
+                        "looking": "0",
+                        "critical": "3",
+                        "max_hp": 21914,
+                        "matk": 94,
+                        "counters": [],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "210",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "202",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "211",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "203",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "213",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "206",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "201",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "214",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "212",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "219",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "205",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "200",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "215",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "220",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "225",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "229",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "224",
+                                "factor": "1"
+                            }
+                        ],
+                        "mdef": 33,
+                        "animation_info": {
+                            "scale": "1",
+                            "assets": {
+                                "boss-213058_1": "/Content/lang/ab/character/boss/213058/213058_1.json"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "3",
+                            "enemy_status_id": "4130302",
+                            "offset_y": "0",
+                            "path": "213058_1",
+                            "offset_x": "0"
+                        },
+                        "acc": "100",
+                        "eva": "86",
+                        "atk": 113,
+                        "breed_id": "14",
+                        "exp": 0,
+                        "def": 70
+                    }
+                ],
+                "max_hp": 21914,
+                "enemy_id": "413030",
+                "ai_id": "41303001"
+            }
+        ]
+    }
+]

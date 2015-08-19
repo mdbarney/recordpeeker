@@ -1,0 +1,45 @@
+{
+    "SERVER_TIME": 1437945994, 
+    "quests": [
+        {
+            "achieve_cond_description": "Complete the S.S. Liki Elite dungeon in the FINAL FANTASY X realm after accepting the quest.", 
+            "achieve_type": 4, 
+            "achieve_type_name": "CLEAR_DUNGEON", 
+            "can_challenge": false, 
+            "description": "Restore Tidus's Hero Record and recruit him to your party!<br>\nFulfill the Bonus Quest by completing the S.S. Liki Elite dungeon (X) to add Tidus to your roster.<br>\nIf you already have Tidus's Hero Record, you'll get a Growth Egg instead.", 
+            "disp_number": 1, 
+            "hint_msg": "Sinspawn Echuilles is the boss of the S.S. Liki dungeon (X).<br>\nSinspawn Echuilles is vulnerable to the Blind  debuff.<br>\nBlinding Sinspawn Echuilles makes it much easier to avoid its powerful Drain Touch attack!", 
+            "hint_title": "Defeating Sinspawn Echuilles", 
+            "id": 20300001, 
+            "is_achieved": false, 
+            "is_challenging": false, 
+            "is_completed": true, 
+            "is_new": false, 
+            "is_special": true, 
+            "is_tutorial": true, 
+            "order_cond_description": "", 
+            "prizes": [
+                {
+                    "id": 11000100, 
+                    "image_path": "/dff/static/lang/image/buddy/11000100/11000100.png", 
+                    "name": "Tidus", 
+                    "num": 1, 
+                    "type_name": "BUDDY"
+                }
+            ], 
+            "title": "Complete S.S. Liki Elite (X)"
+        }
+    ], 
+    "special_quest_prizes": {
+        "20300001": [
+            {
+                "id": 11000100, 
+                "image_path": "/dff/static/lang/image/buddy/11000100/11000100.png", 
+                "name": "Tidus", 
+                "num": 1, 
+                "type_name": "BUDDY"
+            }
+        ]
+    }, 
+    "success": true
+}

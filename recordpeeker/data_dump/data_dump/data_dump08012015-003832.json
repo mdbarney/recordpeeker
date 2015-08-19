@@ -1,0 +1,112 @@
+{
+    "SERVER_TIME": 1438407512, 
+    "can_review": false, 
+    "dungeon": {
+        "background_image_path": "/dff/static/lang/image/dungeon/204011_bg.png", 
+        "bgm": "bgm_04_035", 
+        "button_style": "NORMAL", 
+        "captures": [
+            {
+                "image_path": "/dff/static/lang/image/enemy/404021.png", 
+                "sp_scores": [
+                    {
+                        "battle_id": 304050, 
+                        "title": "Defeat Calca and Brina before they combine."
+                    }
+                ], 
+                "tip_battle": {
+                    "group_id": 420039, 
+                    "id": 410039, 
+                    "message": "Once you take out all of the Calcas or the Brinas, whoever's left will <span class=\"red\">fuse into Calcabrina!</span> Use <span class=\"red\">multi-target attacks</span> to take them all out at once and keep them from fusing, kupo!", 
+                    "title": "Calcabrina"
+                }
+            }, 
+            {
+                "image_path": "/dff/static/lang/image/enemy/404022.png", 
+                "sp_scores": [
+                    {
+                        "battle_id": 304051, 
+                        "title": "Exploit Golbez's window of weakness to fire attacks."
+                    }, 
+                    {
+                        "battle_id": 304051, 
+                        "title": "Exploit Golbez's window of weakness to ice attacks."
+                    }, 
+                    {
+                        "battle_id": 304051, 
+                        "title": "Exploit Golbez's window of weakness to lightning attacks."
+                    }
+                ], 
+                "tip_battle": {
+                    "group_id": 420040, 
+                    "id": 410040, 
+                    "message": "When you fight Golbez, be sure to take down the <span class=\"red\">Shadow Dragon</span> first, kupo! If you don't, its <span class=\"red\">Shadow Fang</span> attack will knock you out fast! Bring along someone who can cast <span class=\"red\">Raise</span> or <span class=\"red\">Revive</span> just to be on the safe side!", 
+                    "title": "Golbez"
+                }
+            }
+        ], 
+        "challenge_level": 26, 
+        "closed_at": 2145938400, 
+        "epilogue": "Cecil's party visited the Dwarven Castle in the Underworld, where they explained their circumstances to King Giott. Once in the Crystal Chamber, the party fought Golbez and his minions, prevailing against Golbez's magic thanks to the arrival of Rydia and her summoned dragon. Still, Golbez survived and managed to steal away with the Crystal.", 
+        "epilogue_image_path": "/dff/static/lang/image/dungeon/204011_epilogue.png", 
+        "id": 204011, 
+        "is_clear": true, 
+        "is_master": false, 
+        "is_new": false, 
+        "is_unlocked": true, 
+        "name": "Dwarven Castle", 
+        "opened_at": 1398924000, 
+        "order_no": 1, 
+        "prizes": {
+            "1": [
+                {
+                    "id": 92000000, 
+                    "image_path": "/dff/static/lang/image/common_item/92000000.png", 
+                    "name": "Gil", 
+                    "num": 2000, 
+                    "type_name": "COMMON"
+                }
+            ], 
+            "2": [
+                {
+                    "id": 94000000, 
+                    "image_path": "/dff/static/lang/image/common_item/94000000.png", 
+                    "name": "Stamina Shard", 
+                    "num": 2, 
+                    "type_name": "COMMON"
+                }, 
+                {
+                    "id": 91000000, 
+                    "image_path": "/dff/static/lang/image/common_item/91000000.png", 
+                    "name": "Mythril", 
+                    "num": 1, 
+                    "type_name": "COMMON"
+                }
+            ], 
+            "3": [
+                {
+                    "id": 94000000, 
+                    "image_path": "/dff/static/lang/image/common_item/94000000.png", 
+                    "name": "Stamina Shard", 
+                    "num": 2, 
+                    "type_name": "COMMON"
+                }, 
+                {
+                    "id": 40000052, 
+                    "image_path": "/dff/static/lang/image/ability_material/40000052/40000052_112.png", 
+                    "name": "Lesser Wind Orb", 
+                    "num": 5, 
+                    "type_name": "ABILITY_MATERIAL"
+                }
+            ]
+        }, 
+        "prologue": "Though Golbez has stolen all four Crystals, the party learns that four more Dark Crystals exist in the Underworld. Now they make for the Dwarven Castle to defend its Crystal from Golbez.", 
+        "prologue_image_path": "/dff/static/lang/image/dungeon/204011_prologue.png", 
+        "rank": 2, 
+        "series_id": 104001, 
+        "total_stamina": 37, 
+        "type": 1, 
+        "world_id": 104001
+    }, 
+    "success": true
+}

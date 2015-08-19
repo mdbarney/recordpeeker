@@ -1,0 +1,93 @@
+{
+    "SERVER_TIME": 1437243287, 
+    "can_review": false, 
+    "dungeon": {
+        "background_image_path": "/dff/static/lang/image/dungeon/205001_bg.png", 
+        "bgm": "bgm_05_013", 
+        "button_style": "NORMAL", 
+        "captures": [
+            {
+                "image_path": "/dff/static/lang/image/enemy/405001.png", 
+                "sp_scores": [
+                    {
+                        "battle_id": 305005, 
+                        "title": "Defeat the Wing Raptor without having any attacks countered."
+                    }, 
+                    {
+                        "battle_id": 305005, 
+                        "title": "Defeat the Wing Raptor before it closes its wings."
+                    }
+                ], 
+                "tip_battle": {
+                    "group_id": 420011, 
+                    "id": 410011, 
+                    "message": "Wing Raptor <span class=\"red\">folds its wings every few turns</span>, kupo. Attack while its wings are folded and it will counterattack with its powerful Claw ability! <span class=\"red\">Be patient</span> and wait until it unfurls its wings before attacking!", 
+                    "title": "Wing Raptor"
+                }
+            }
+        ], 
+        "challenge_level": 6, 
+        "closed_at": 2145938400, 
+        "epilogue": "Upon reaching the Crystal Room, they find the Wind Crystal shattered. A vision of Lenna's father appears, who calls them \"The Warriors of Light\" and charges them with the preservation of the remaining crystals. From the crystal's fragments, the four assume the power of legendary heroes and make for Walse Tower and the Water Crystal.", 
+        "epilogue_image_path": "/dff/static/lang/image/dungeon/205001_epilogue.png", 
+        "id": 205001, 
+        "is_clear": true, 
+        "is_master": true, 
+        "is_new": false, 
+        "is_unlocked": true, 
+        "name": "Wind Shrine", 
+        "opened_at": 1398924000, 
+        "order_no": 1, 
+        "prizes": {
+            "1": [
+                {
+                    "id": 92000000, 
+                    "image_path": "/dff/static/lang/image/common_item/92000000.png", 
+                    "name": "Gil", 
+                    "num": 700, 
+                    "type_name": "COMMON"
+                }
+            ], 
+            "2": [
+                {
+                    "id": 94000000, 
+                    "image_path": "/dff/static/lang/image/common_item/94000000.png", 
+                    "name": "Stamina Shard", 
+                    "num": 5, 
+                    "type_name": "COMMON"
+                }, 
+                {
+                    "id": 91000000, 
+                    "image_path": "/dff/static/lang/image/common_item/91000000.png", 
+                    "name": "Mythril", 
+                    "num": 1, 
+                    "type_name": "COMMON"
+                }
+            ], 
+            "3": [
+                {
+                    "id": 40000051, 
+                    "image_path": "/dff/static/lang/image/ability_material/40000051/40000051_112.png", 
+                    "name": "Minor Wind Orb", 
+                    "num": 5, 
+                    "type_name": "ABILITY_MATERIAL"
+                }, 
+                {
+                    "id": 94000000, 
+                    "image_path": "/dff/static/lang/image/common_item/94000000.png", 
+                    "name": "Stamina Shard", 
+                    "num": 1, 
+                    "type_name": "COMMON"
+                }
+            ]
+        }, 
+        "prologue": "Princess Lenna Tycoon goes in search of her father, meeting Bartz, Galuf, and the pirate Faris along the way. Together, they enter the Wind Shrine to obtain the crystal within.", 
+        "prologue_image_path": "/dff/static/lang/image/dungeon/205001_prologue.png", 
+        "rank": 3, 
+        "series_id": 105001, 
+        "total_stamina": 21, 
+        "type": 1, 
+        "world_id": 105001
+    }, 
+    "success": true
+}

@@ -1,0 +1,104 @@
+{
+    "dungeon": {
+        "background_image_path": "/dff/static/lang/image/dungeon/208002_bg.png", 
+        "order_no": 1, 
+        "captures": [
+            {
+                "sp_scores": [
+                    {
+                        "title": "Defeat Biggs and Wedge without being KO'd.", 
+                        "battle_id": 308008
+                    }
+                ], 
+                "image_path": "/dff/static/lang/image/enemy/408002.png", 
+                "tip_battle": {
+                    "message": "Biggs counter attacks with <span class=\"red\">Lariat</span> when you attack him, so be ready! Once Biggs falls, Wedge joins the battle, so send him packing too, kupo!", 
+                    "group_id": 420068, 
+                    "id": 410068, 
+                    "title": "Biggs & Wedge"
+                }
+            }, 
+            {
+                "sp_scores": [
+                    {
+                        "title": "Defeat Elvoret without being KO'd.", 
+                        "battle_id": 308009
+                    }
+                ], 
+                "image_path": "/dff/static/lang/image/enemy/408003.png", 
+                "tip_battle": {
+                    "message": "Elvoret casts powerful magic, kupo, and its <span class=\"red\">Storm Breath</span> attack hits the whole party, so watch out! Use abilities like <span class=\"red\">Magic Break</span> and <span class=\"red\">Shell</span> to weather the withering magic!", 
+                    "group_id": 420069, 
+                    "id": 410069, 
+                    "title": "Elvoret"
+                }
+            }
+        ], 
+        "is_new": false, 
+        "rank": 3, 
+        "closed_at": 2145938400, 
+        "id": 208002, 
+        "is_clear": true, 
+        "button_style": "NORMAL", 
+        "opened_at": 1398924000, 
+        "world_id": 108001, 
+        "type": 1, 
+        "challenge_level": 33, 
+        "is_unlocked": true, 
+        "series_id": 108001, 
+        "prizes": {
+            "1": [
+                {
+                    "id": 92000000, 
+                    "type_name": "COMMON", 
+                    "num": 2500, 
+                    "image_path": "/dff/static/lang/image/common_item/92000000.png", 
+                    "name": "Gil"
+                }
+            ], 
+            "3": [
+                {
+                    "id": 40000008, 
+                    "type_name": "ABILITY_MATERIAL", 
+                    "num": 3, 
+                    "image_path": "/dff/static/lang/image/ability_material/40000008/40000008_112.png", 
+                    "name": "White Orb"
+                }, 
+                {
+                    "id": 94000000, 
+                    "type_name": "COMMON", 
+                    "num": 1, 
+                    "image_path": "/dff/static/lang/image/common_item/94000000.png", 
+                    "name": "Stamina Shard"
+                }
+            ], 
+            "2": [
+                {
+                    "id": 94000000, 
+                    "type_name": "COMMON", 
+                    "num": 1, 
+                    "image_path": "/dff/static/lang/image/common_item/94000000.png", 
+                    "name": "Stamina Shard"
+                }, 
+                {
+                    "id": 91000000, 
+                    "type_name": "COMMON", 
+                    "num": 1, 
+                    "image_path": "/dff/static/lang/image/common_item/91000000.png", 
+                    "name": "Mythril"
+                }
+            ]
+        }, 
+        "total_stamina": 42, 
+        "epilogue": "Seifer broke orders and headed for the radio tower. Amid the battle they encountered Selphie, who had been sent to deliver Seifer new orders to withdraw--but he had already run on ahead. With Selphie at their side, Squall and Zell chased after Seifer and finally reached the radio tower. After fighting Biggs and Wedge, they managed to secure the radio tower, but found they had only minutes left to reach the shore and withdraw with the rest of SeeD.", 
+        "epilogue_image_path": "/dff/static/lang/image/dungeon/208002_epilogue.png", 
+        "name": "SeeD Field Exam", 
+        "bgm": "bgm_08_008", 
+        "prologue": "Squall and Zell are assigned to a three-man squad led by Seifer for their SeeD field exam. As they approach the exam site in the Duchy of Dollet, the shells whizzing overhead make it clear that they are entering a true war zone.", 
+        "is_master": true, 
+        "prologue_image_path": "/dff/static/lang/image/dungeon/208002_prologue.png"
+    }, 
+    "SERVER_TIME": 1438954103, 
+    "success": true, 
+    "can_review": false
+}

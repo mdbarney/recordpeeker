@@ -1,0 +1,358 @@
+[
+    {
+        "is_sp_enemy": 0,
+        "deform_animation_info": [],
+        "ai_id": 0,
+        "id": "305033",
+        "children": [
+            {
+                "drop_item_list": [
+                    {
+                        "item_id": "21008002",
+                        "num": "1",
+                        "type": 41,
+                        "uid": 201,
+                        "rarity": "1"
+                    }
+                ],
+                "uid": "201",
+                "no": "1",
+                "init_hp": 2475,
+                "child_pos_id": "1",
+                "lv": "41",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "101001",
+                                "weight": "70"
+                            },
+                            {
+                                "ability_id": "201071",
+                                "weight": "30"
+                            }
+                        ],
+                        "mnd": 56,
+                        "id": "3050331",
+                        "size": "3",
+                        "lv": "41",
+                        "no": "1",
+                        "spd": "100",
+                        "disp_name": "Motor Trap",
+                        "looking": "0",
+                        "critical": "3",
+                        "max_hp": 2475,
+                        "matk": 134,
+                        "counters": [
+                            {
+                                "ability_id": "103003",
+                                "condition_value": "102",
+                                "condition_type": "2",
+                                "rate": "100"
+                            }
+                        ],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "214",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "201",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "220",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "213",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "209",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "205",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "219",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "102",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "215",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "206",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "103",
+                                "factor": "11"
+                            },
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            }
+                        ],
+                        "mdef": 56,
+                        "animation_info": {
+                            "scale": "2",
+                            "assets": {
+                                "enemy-105045": "/Content/lang/ab/character/enemy/105045.sajson"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "enemy_status_id": "3050331",
+                            "offset_y": "-50",
+                            "path": "105045",
+                            "offset_x": "0"
+                        },
+                        "acc": "100",
+                        "eva": "86",
+                        "atk": 166,
+                        "breed_id": "14",
+                        "exp": 852,
+                        "def": 69
+                    }
+                ],
+                "max_hp": 2475,
+                "enemy_id": "305033",
+                "ai_id": "1"
+            }
+        ]
+    },
+    {
+        "is_sp_enemy": 0,
+        "deform_animation_info": [],
+        "ai_id": 0,
+        "id": "305036",
+        "children": [
+            {
+                "drop_item_list": [],
+                "uid": "202",
+                "no": "1",
+                "init_hp": 2949,
+                "child_pos_id": "1",
+                "lv": "41",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "101001",
+                                "weight": "30"
+                            },
+                            {
+                                "ability_id": "102078",
+                                "weight": "40"
+                            },
+                            {
+                                "ability_id": "102061",
+                                "weight": "30"
+                            }
+                        ],
+                        "mnd": 36,
+                        "id": "3050361",
+                        "size": "3",
+                        "lv": "41",
+                        "no": "1",
+                        "spd": "100",
+                        "disp_name": "Gigas",
+                        "looking": "0",
+                        "critical": "3",
+                        "max_hp": 2949,
+                        "matk": 73,
+                        "counters": [],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "211",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "104",
+                                "factor": "21"
+                            },
+                            {
+                                "attribute_id": "220",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "219",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "225",
+                                "factor": "1"
+                            }
+                        ],
+                        "mdef": 47,
+                        "animation_info": {
+                            "scale": "2.5",
+                            "assets": {
+                                "enemy-105049": "/Content/lang/ab/character/enemy/105049.sajson"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "enemy_status_id": "3050361",
+                            "offset_y": "-28",
+                            "path": "105049",
+                            "offset_x": "0"
+                        },
+                        "acc": "100",
+                        "eva": "70",
+                        "atk": 193,
+                        "breed_id": "18",
+                        "exp": 852,
+                        "def": 61
+                    }
+                ],
+                "max_hp": 2949,
+                "enemy_id": "305036",
+                "ai_id": "1"
+            }
+        ]
+    },
+    {
+        "is_sp_enemy": 0,
+        "deform_animation_info": [],
+        "ai_id": 0,
+        "id": "305033",
+        "children": [
+            {
+                "drop_item_list": [],
+                "uid": "203",
+                "no": "1",
+                "init_hp": 2475,
+                "child_pos_id": "1",
+                "lv": "41",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "101001",
+                                "weight": "70"
+                            },
+                            {
+                                "ability_id": "201071",
+                                "weight": "30"
+                            }
+                        ],
+                        "mnd": 56,
+                        "id": "3050331",
+                        "size": "3",
+                        "lv": "41",
+                        "no": "1",
+                        "spd": "100",
+                        "disp_name": "Motor Trap",
+                        "looking": "0",
+                        "critical": "3",
+                        "max_hp": 2475,
+                        "matk": 134,
+                        "counters": [
+                            {
+                                "ability_id": "103003",
+                                "condition_value": "102",
+                                "condition_type": "2",
+                                "rate": "100"
+                            }
+                        ],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "214",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "201",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "220",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "213",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "209",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "205",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "219",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "102",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "215",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "206",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "103",
+                                "factor": "11"
+                            },
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            }
+                        ],
+                        "mdef": 56,
+                        "animation_info": {
+                            "scale": "2",
+                            "assets": {
+                                "enemy-105045": "/Content/lang/ab/character/enemy/105045.sajson"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "enemy_status_id": "3050331",
+                            "offset_y": "-50",
+                            "path": "105045",
+                            "offset_x": "0"
+                        },
+                        "acc": "100",
+                        "eva": "86",
+                        "atk": 166,
+                        "breed_id": "14",
+                        "exp": 852,
+                        "def": 69
+                    }
+                ],
+                "max_hp": 2475,
+                "enemy_id": "305033",
+                "ai_id": "1"
+            }
+        ]
+    }
+]

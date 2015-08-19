@@ -1,18 +1,22 @@
 {
-    "ability_id": "201170", 
-    "action_id": "15", 
+    "ability_id": "401523", 
+    "action_id": "14", 
     "animation_info": {
         "atk_motion": "", 
         "chara_in": "", 
         "chara_out": "", 
         "damage_tag": "damage_none", 
+        "has_hit_timing": "0", 
         "hit": "50418/50418_hit.json", 
         "hit_arg": "0", 
         "hit_next_tag": "", 
+        "hit_sprite_num": "0", 
         "hit_type": "1", 
         "id": "50418", 
         "launch": "common/launch_blue.json", 
+        "launch_back": "", 
         "launch_next_tag": "", 
+        "launch_sprite_num": "0", 
         "launch_type": "2", 
         "miss_hit": "50418/hit_miss.json", 
         "other_in": "", 
@@ -25,6 +29,7 @@
         "reverse_shot": "1", 
         "shot": "common/shot_empty.json", 
         "shot_next_tag": "", 
+        "shot_sprite_num": "0", 
         "shot_type": "99"
     }, 
     "assets": {
@@ -37,18 +42,23 @@
     "options": {
         "ability_animation_id": "50418", 
         "arg1": "213", 
+        "arg10": "0", 
         "arg2": "0", 
         "arg3": "0", 
         "arg4": "0", 
         "arg5": "0", 
+        "arg6": "0", 
+        "arg7": "0", 
+        "arg8": "0", 
+        "arg9": "0", 
         "cast_time": "2340", 
-        "counter_enable": "15", 
+        "counter_enable": "1", 
         "name": "Doom", 
         "status_ailments_factor": "46", 
         "status_ailments_id": "213", 
         "target_death": "1", 
         "target_method": "6", 
-        "target_range": "2", 
+        "target_range": "1", 
         "target_segment": "1"
     }
 }

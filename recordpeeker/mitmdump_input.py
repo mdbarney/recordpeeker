@@ -22,6 +22,7 @@ from recordpeeker import Equipment, ITEMS, BATTLES, DUNGEONS, slicedict, best_eq
 from recordpeeker.dispatcher import Dispatcher
 
 current_dungeon_id = 0
+temp_party_list = []
 
 # TODO
 def save_battles(data):
@@ -335,7 +336,7 @@ def save_equipment(data):
             test_file.close()
 
 def save_equipment_list(data, user_id):
-    equipment_list_file = open("current_equipment_" + str(user_id) + ".json", 'w')
+    equipment_list_file = open("current_equipment/current_equipment_" + str(user_id) + time.strftime("%m%d%Y-%H%M%S")+".json", 'w')
     print >> equipment_list_file, "{\n\t\"equipments\": " + json.dumps(data["equipments"], indent=4, sort_keys=False)
     print >> equipment_list_file, "}"
     equipment_list_file.close()
@@ -360,11 +361,6 @@ def get_buddy_name(buddy):
     # for param in buddy["params"]:
     return child.get("max_hp", "Unknown HP")
         # return param.get("disp_name", "Unknown name")
-
-# def get_buddy_param(buddy, param):
-#     for par in buddy["params"]:
-#         # return child.get("max_hp", "Unknown HP")
-#         return par.get(param, "Unknown")
 
 def get_user_id(data):
     # for param in data["party"]:
@@ -520,15 +516,26 @@ def handle_get_battle_init_data(data):
     save_abilities(enemy_ability_list, "/data/enemy_abilities")
     # save_enemy_abilities(enemy_ability_list)
 
-    # TODO: Update to use new content/structure
+    # TODO: Update to use new content/structure, DONE just at work computer
     # get_soul_strike_info(data)
+
+    #TODO
+    # w = []
+
+    # if temp_party_list:
+    #     for buddy in temp_party_list["buddies"]:
+    #         w.append({'buddy_id': str(buddy.get(buddy_id)), 'record_materia_1_id': str(buddy.get(record_materia_1_id))})
+
+    # buddy_data = battle_data["buddy"]
+    #     for buddy in buddy_data:
+    #         if buddy["buddy_id"]
 
 def handle_party_list(data):
 
     # log data
     debug_path = os.getcwd() + "/data/raw/handle_party_list/handle_party_list_" + time.strftime("%m%d%Y-%H%M%S") + ".json" 
     test_file = open(debug_path, 'w')
-    print >> test_file, json.dumps(data, indent=4, sort_keys=True)
+    print >> test_file, json.dumps(data, indent=4, sort_keys=False)
     test_file.close()
 
     wanted = "name series_id acc atk def eva matk mdef mnd series_acc series_atk series_def series_eva series_matk series_mdef series_mnd"
@@ -570,6 +577,7 @@ def handle_party_list(data):
     save_equipment(data)
 
     get_buddy_info(data)
+    temp_party_list = data
 
 def handle_dungeon_list(data):
 

@@ -1,0 +1,62 @@
+{
+    "ability_id": "20040001", 
+    "action_id": "6", 
+    "animation_info": {
+        "atk_motion": "", 
+        "chara_in": "", 
+        "chara_out": "", 
+        "damage_tag": "damage", 
+        "hit": "70041/70041_hit.json", 
+        "hit_arg": "0", 
+        "hit_next_tag": "", 
+        "hit_type": "1", 
+        "id": "70041", 
+        "launch": "common/launch_special_attack_bg_black.json", 
+        "launch_next_tag": "", 
+        "launch_type": "2", 
+        "miss_hit": "70041/hit_miss.json", 
+        "other_in": "", 
+        "other_out": "", 
+        "recover_tag": "", 
+        "return_hit": "", 
+        "return_shot": "", 
+        "return_type": "99", 
+        "reverse_hit": "1", 
+        "reverse_shot": "1", 
+        "shot": "70041/70041_shot.json", 
+        "shot_next_tag": "", 
+        "shot_type": "2"
+    }, 
+    "assets": {
+        "ability-70041_hit": "/Content/lang/ab/ability/70041/70041_hit.json", 
+        "ability-70041_launch": "/Content/lang/ab/ability/common/launch_special_attack_bg_black.json", 
+        "ability-70041_miss_hit": "/Content/lang/ab/ability/70041/hit_miss.json", 
+        "ability-70041_shot": "/Content/lang/ab/ability/70041/70041_shot.json"
+    }, 
+    "exercise_type": "1", 
+    "icon": {
+        "assets": {
+            "command_icon_20040001": "/Content/lang/ab_image/soulstrike//20040001/20040001_256.png"
+        }
+    }, 
+    "options": {
+        "ability_animation_id": "70041", 
+        "active_target_method": "3", 
+        "alias_name": "Steady Shot I", 
+        "arg1": "140", 
+        "arg2": "2", 
+        "arg3": "0", 
+        "arg4": "0", 
+        "arg5": "0", 
+        "cast_time": "2750", 
+        "consume_soul_strike_point": "500", 
+        "counter_enable": "1", 
+        "name": "Steady Shot I", 
+        "status_ailments_factor": "0", 
+        "status_ailments_id": "0", 
+        "target_death": "1", 
+        "target_method": "2", 
+        "target_range": "1", 
+        "target_segment": "1"
+    }
+}

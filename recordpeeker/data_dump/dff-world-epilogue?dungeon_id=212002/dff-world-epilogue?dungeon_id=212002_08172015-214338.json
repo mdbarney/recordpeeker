@@ -1,0 +1,104 @@
+{
+    "dungeon": {
+        "background_image_path": "/dff/static/lang/image/dungeon/212002_bg.png", 
+        "order_no": 1, 
+        "captures": [
+            {
+                "sp_scores": [
+                    {
+                        "title": "Exploit the Flans' weakness to fire attacks.", 
+                        "battle_id": 312006
+                    }
+                ], 
+                "image_path": "/dff/static/lang/image/enemy/412002.png", 
+                "tip_battle": {
+                    "message": "Physical attacks don't do much to Flans, but magic sure does, kupo! Especially <span class=\"red\">fire</span> magic! Since you face <span class=\"red\">4</span> of them at once, and they heal each other, <span class=\"red\">Ifrit</span> or other fire damage that hits them all at once is your best bet!", 
+                    "group_id": 410129, 
+                    "id": 410129, 
+                    "title": "Flan"
+                }
+            }, 
+            {
+                "sp_scores": [
+                    {
+                        "title": "Exploit Firemane's weakness to water attacks.", 
+                        "battle_id": 312007
+                    }
+                ], 
+                "image_path": "/dff/static/lang/image/enemy/412003.png", 
+                "tip_battle": {
+                    "message": "Firemane uses a <span class=\"red\">group fire attack</span> that Poisons, kupo! Take it out fast with <span class=\"red\">water</span>, its greatest weakness!", 
+                    "group_id": 410130, 
+                    "id": 410130, 
+                    "title": "Firemane"
+                }
+            }
+        ], 
+        "is_new": false, 
+        "rank": 3, 
+        "closed_at": 2145938400, 
+        "id": 212002, 
+        "is_clear": true, 
+        "button_style": "NORMAL", 
+        "opened_at": 1434675600, 
+        "world_id": 112001, 
+        "type": 1, 
+        "challenge_level": 44, 
+        "is_unlocked": true, 
+        "series_id": 112001, 
+        "prizes": {
+            "1": [
+                {
+                    "id": 92000000, 
+                    "type_name": "COMMON", 
+                    "num": 3500, 
+                    "image_path": "/dff/static/lang/image/common_item/92000000.png", 
+                    "name": "Gil"
+                }
+            ], 
+            "3": [
+                {
+                    "id": 40000038, 
+                    "type_name": "ABILITY_MATERIAL", 
+                    "num": 3, 
+                    "image_path": "/dff/static/lang/image/ability_material/40000038/40000038_112.png", 
+                    "name": "Ice Orb"
+                }, 
+                {
+                    "id": 24099003, 
+                    "type_name": "EQUIPMENT", 
+                    "num": 1, 
+                    "image_path": "/dff/static/lang/image/equipment/24099003/24099003_03_112.png", 
+                    "name": "Adamantite"
+                }
+            ], 
+            "2": [
+                {
+                    "id": 94000000, 
+                    "type_name": "COMMON", 
+                    "num": 1, 
+                    "image_path": "/dff/static/lang/image/common_item/94000000.png", 
+                    "name": "Stamina Shard"
+                }, 
+                {
+                    "id": 91000000, 
+                    "type_name": "COMMON", 
+                    "num": 1, 
+                    "image_path": "/dff/static/lang/image/common_item/91000000.png", 
+                    "name": "Mythril"
+                }
+            ]
+        }, 
+        "total_stamina": 46, 
+        "epilogue": "The two whom Vaan met in the palace treasury were none other than the sky pirate Balthier and his partner, Fran. Vaan accompanied them through the waterway where they encountered Amalia, a member of the resistance, fighting against Imperial troops. Amalia joined the party, and helped them fight their way out past Firemane, only to be surrounded by Imperials and taken captive.", 
+        "epilogue_image_path": "/dff/static/lang/image/dungeon/212002_epilogue.png", 
+        "name": "Garamsythe Waterway", 
+        "bgm": "bgm_12_027", 
+        "prologue": "Vaan has snuck into Rabanastre Palace, where he meets a dashing man and his viera partner. The two help Vaan escape on their airbike before careening down to a crash landing in the Garamsythe Waterway.", 
+        "is_master": true, 
+        "prologue_image_path": "/dff/static/lang/image/dungeon/212002_prologue.png"
+    }, 
+    "SERVER_TIME": 1439865818, 
+    "success": true, 
+    "can_review": false
+}

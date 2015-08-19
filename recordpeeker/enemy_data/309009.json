@@ -1,16 +1,16 @@
 [
     {
-        "ai_id": 0,
+        "id": "309005",
+        "is_sp_enemy": 0,
+        "deform_animation_info": [],
         "children": [
             {
-                "ai_id": "1",
-                "child_pos_id": "1",
                 "drop_item_list": [],
-                "enemy_id": "309005",
-                "init_hp": 946,
-                "lv": "44",
-                "max_hp": 946,
+                "uid": "201",
                 "no": "1",
+                "init_hp": 946,
+                "max_hp": 946,
+                "lv": "44",
                 "params": [
                     {
                         "abilities": [
@@ -27,24 +27,18 @@
                                 "weight": "40"
                             }
                         ],
-                        "acc": "100",
-                        "animation_info": {
-                            "assets": {
-                                "enemy-109049": "/Content/lang/ab/character/enemy/109049.sajson"
-                            },
-                            "enemy_status_id": "3090051",
-                            "hp_gauge_size": "2",
-                            "offset_x": "2",
-                            "offset_y": "-22",
-                            "path": "109049",
-                            "scale": "1.7",
-                            "uses_fix_pos": false
-                        },
-                        "atk": 98,
-                        "breed_id": "9",
-                        "counters": [],
+                        "mnd": 92,
+                        "id": "3090051",
+                        "size": "2",
+                        "looking": "0",
+                        "no": "1",
+                        "spd": "100",
+                        "disp_name": "Nymph",
+                        "lv": "44",
                         "critical": "3",
-                        "def": 45,
+                        "max_hp": 946,
+                        "matk": 179,
+                        "counters": [],
                         "def_attributes": [
                             {
                                 "attribute_id": "220",
@@ -83,40 +77,46 @@
                                 "factor": "1"
                             }
                         ],
-                        "disp_name": "Nymph",
-                        "eva": "70",
-                        "exp": 456,
-                        "id": "3090051",
-                        "looking": "0",
-                        "lv": "44",
-                        "matk": 179,
-                        "max_hp": 946,
                         "mdef": 100,
-                        "mnd": 92,
-                        "no": "1",
-                        "size": "2",
-                        "spd": "100"
+                        "animation_info": {
+                            "enemy_status_id": "3090051",
+                            "assets": {
+                                "enemy-109049": "/Content/lang/ab/character/enemy/109049.sajson"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "scale": "1.7",
+                            "offset_x": "2",
+                            "offset_y": "-22",
+                            "path": "109049"
+                        },
+                        "acc": "100",
+                        "eva": "70",
+                        "atk": 98,
+                        "breed_id": "9",
+                        "exp": 456,
+                        "def": 45
                     }
                 ],
-                "uid": "201"
+                "child_pos_id": "1",
+                "enemy_id": "309005",
+                "ai_id": "1"
             }
         ],
-        "deform_animation_info": [],
-        "id": "309005",
-        "is_sp_enemy": 0
+        "ai_id": 0
     },
     {
-        "ai_id": 0,
+        "id": "309005",
+        "is_sp_enemy": 0,
+        "deform_animation_info": [],
         "children": [
             {
-                "ai_id": "1",
-                "child_pos_id": "1",
                 "drop_item_list": [],
-                "enemy_id": "309005",
-                "init_hp": 946,
-                "lv": "44",
-                "max_hp": 946,
+                "uid": "202",
                 "no": "1",
+                "init_hp": 946,
+                "max_hp": 946,
+                "lv": "44",
                 "params": [
                     {
                         "abilities": [
@@ -133,24 +133,18 @@
                                 "weight": "40"
                             }
                         ],
-                        "acc": "100",
-                        "animation_info": {
-                            "assets": {
-                                "enemy-109049": "/Content/lang/ab/character/enemy/109049.sajson"
-                            },
-                            "enemy_status_id": "3090051",
-                            "hp_gauge_size": "2",
-                            "offset_x": "2",
-                            "offset_y": "-22",
-                            "path": "109049",
-                            "scale": "1.7",
-                            "uses_fix_pos": false
-                        },
-                        "atk": 98,
-                        "breed_id": "9",
-                        "counters": [],
+                        "mnd": 92,
+                        "id": "3090051",
+                        "size": "2",
+                        "looking": "0",
+                        "no": "1",
+                        "spd": "100",
+                        "disp_name": "Nymph",
+                        "lv": "44",
                         "critical": "3",
-                        "def": 45,
+                        "max_hp": 946,
+                        "matk": 179,
+                        "counters": [],
                         "def_attributes": [
                             {
                                 "attribute_id": "220",
@@ -189,48 +183,54 @@
                                 "factor": "1"
                             }
                         ],
-                        "disp_name": "Nymph",
-                        "eva": "70",
-                        "exp": 456,
-                        "id": "3090051",
-                        "looking": "0",
-                        "lv": "44",
-                        "matk": 179,
-                        "max_hp": 946,
                         "mdef": 100,
-                        "mnd": 92,
-                        "no": "1",
-                        "size": "2",
-                        "spd": "100"
+                        "animation_info": {
+                            "enemy_status_id": "3090051",
+                            "assets": {
+                                "enemy-109049": "/Content/lang/ab/character/enemy/109049.sajson"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "scale": "1.7",
+                            "offset_x": "2",
+                            "offset_y": "-22",
+                            "path": "109049"
+                        },
+                        "acc": "100",
+                        "eva": "70",
+                        "atk": 98,
+                        "breed_id": "9",
+                        "exp": 456,
+                        "def": 45
                     }
                 ],
-                "uid": "202"
+                "child_pos_id": "1",
+                "enemy_id": "309005",
+                "ai_id": "1"
             }
         ],
-        "deform_animation_info": [],
-        "id": "309005",
-        "is_sp_enemy": 0
+        "ai_id": 0
     },
     {
-        "ai_id": 0,
+        "id": "309004",
+        "is_sp_enemy": 0,
+        "deform_animation_info": [],
         "children": [
             {
-                "ai_id": "1",
-                "child_pos_id": "1",
                 "drop_item_list": [
                     {
                         "item_id": "40000062",
                         "num": "1",
-                        "rarity": "2",
                         "type": 51,
-                        "uid": 203
+                        "uid": 203,
+                        "rarity": "2"
                     }
                 ],
-                "enemy_id": "309004",
-                "init_hp": 1192,
-                "lv": "44",
-                "max_hp": 1192,
+                "uid": "203",
                 "no": "1",
+                "init_hp": 1192,
+                "max_hp": 1192,
+                "lv": "44",
                 "params": [
                     {
                         "abilities": [
@@ -247,24 +247,18 @@
                                 "weight": "40"
                             }
                         ],
-                        "acc": "100",
-                        "animation_info": {
-                            "assets": {
-                                "enemy-109024": "/Content/lang/ab/character/enemy/109024.sajson"
-                            },
-                            "enemy_status_id": "3090041",
-                            "hp_gauge_size": "2",
-                            "offset_x": "4",
-                            "offset_y": "-19",
-                            "path": "109024",
-                            "scale": "2",
-                            "uses_fix_pos": false
-                        },
-                        "atk": 152,
-                        "breed_id": "2",
-                        "counters": [],
+                        "mnd": 58,
+                        "id": "3090041",
+                        "size": "2",
+                        "looking": "0",
+                        "no": "1",
+                        "spd": "100",
+                        "disp_name": "Wyerd",
+                        "lv": "44",
                         "critical": "3",
-                        "def": 75,
+                        "max_hp": 1192,
+                        "matk": 112,
+                        "counters": [],
                         "def_attributes": [
                             {
                                 "attribute_id": "101",
@@ -307,40 +301,46 @@
                                 "factor": "1"
                             }
                         ],
-                        "disp_name": "Wyerd",
-                        "eva": "110",
-                        "exp": 456,
-                        "id": "3090041",
-                        "looking": "0",
-                        "lv": "44",
-                        "matk": 112,
-                        "max_hp": 1192,
                         "mdef": 58,
-                        "mnd": 58,
-                        "no": "1",
-                        "size": "2",
-                        "spd": "100"
+                        "animation_info": {
+                            "enemy_status_id": "3090041",
+                            "assets": {
+                                "enemy-109024": "/Content/lang/ab/character/enemy/109024.sajson"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "scale": "2",
+                            "offset_x": "4",
+                            "offset_y": "-19",
+                            "path": "109024"
+                        },
+                        "acc": "100",
+                        "eva": "110",
+                        "atk": 152,
+                        "breed_id": "2",
+                        "exp": 456,
+                        "def": 75
                     }
                 ],
-                "uid": "203"
+                "child_pos_id": "1",
+                "enemy_id": "309004",
+                "ai_id": "1"
             }
         ],
-        "deform_animation_info": [],
-        "id": "309004",
-        "is_sp_enemy": 0
+        "ai_id": 0
     },
     {
-        "ai_id": 0,
+        "id": "309004",
+        "is_sp_enemy": 0,
+        "deform_animation_info": [],
         "children": [
             {
-                "ai_id": "1",
-                "child_pos_id": "1",
                 "drop_item_list": [],
-                "enemy_id": "309004",
-                "init_hp": 1192,
-                "lv": "44",
-                "max_hp": 1192,
+                "uid": "204",
                 "no": "1",
+                "init_hp": 1192,
+                "max_hp": 1192,
+                "lv": "44",
                 "params": [
                     {
                         "abilities": [
@@ -357,24 +357,18 @@
                                 "weight": "40"
                             }
                         ],
-                        "acc": "100",
-                        "animation_info": {
-                            "assets": {
-                                "enemy-109024": "/Content/lang/ab/character/enemy/109024.sajson"
-                            },
-                            "enemy_status_id": "3090041",
-                            "hp_gauge_size": "2",
-                            "offset_x": "4",
-                            "offset_y": "-19",
-                            "path": "109024",
-                            "scale": "2",
-                            "uses_fix_pos": false
-                        },
-                        "atk": 152,
-                        "breed_id": "2",
-                        "counters": [],
+                        "mnd": 58,
+                        "id": "3090041",
+                        "size": "2",
+                        "looking": "0",
+                        "no": "1",
+                        "spd": "100",
+                        "disp_name": "Wyerd",
+                        "lv": "44",
                         "critical": "3",
-                        "def": 75,
+                        "max_hp": 1192,
+                        "matk": 112,
+                        "counters": [],
                         "def_attributes": [
                             {
                                 "attribute_id": "101",
@@ -417,40 +411,46 @@
                                 "factor": "1"
                             }
                         ],
-                        "disp_name": "Wyerd",
-                        "eva": "110",
-                        "exp": 456,
-                        "id": "3090041",
-                        "looking": "0",
-                        "lv": "44",
-                        "matk": 112,
-                        "max_hp": 1192,
                         "mdef": 58,
-                        "mnd": 58,
-                        "no": "1",
-                        "size": "2",
-                        "spd": "100"
+                        "animation_info": {
+                            "enemy_status_id": "3090041",
+                            "assets": {
+                                "enemy-109024": "/Content/lang/ab/character/enemy/109024.sajson"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "scale": "2",
+                            "offset_x": "4",
+                            "offset_y": "-19",
+                            "path": "109024"
+                        },
+                        "acc": "100",
+                        "eva": "110",
+                        "atk": 152,
+                        "breed_id": "2",
+                        "exp": 456,
+                        "def": 75
                     }
                 ],
-                "uid": "204"
+                "child_pos_id": "1",
+                "enemy_id": "309004",
+                "ai_id": "1"
             }
         ],
-        "deform_animation_info": [],
-        "id": "309004",
-        "is_sp_enemy": 0
+        "ai_id": 0
     },
     {
-        "ai_id": 0,
+        "id": "309004",
+        "is_sp_enemy": 0,
+        "deform_animation_info": [],
         "children": [
             {
-                "ai_id": "1",
-                "child_pos_id": "1",
                 "drop_item_list": [],
-                "enemy_id": "309004",
-                "init_hp": 1192,
-                "lv": "44",
-                "max_hp": 1192,
+                "uid": "205",
                 "no": "1",
+                "init_hp": 1192,
+                "max_hp": 1192,
+                "lv": "44",
                 "params": [
                     {
                         "abilities": [
@@ -467,24 +467,18 @@
                                 "weight": "40"
                             }
                         ],
-                        "acc": "100",
-                        "animation_info": {
-                            "assets": {
-                                "enemy-109024": "/Content/lang/ab/character/enemy/109024.sajson"
-                            },
-                            "enemy_status_id": "3090041",
-                            "hp_gauge_size": "2",
-                            "offset_x": "4",
-                            "offset_y": "-19",
-                            "path": "109024",
-                            "scale": "2",
-                            "uses_fix_pos": false
-                        },
-                        "atk": 152,
-                        "breed_id": "2",
-                        "counters": [],
+                        "mnd": 58,
+                        "id": "3090041",
+                        "size": "2",
+                        "looking": "0",
+                        "no": "1",
+                        "spd": "100",
+                        "disp_name": "Wyerd",
+                        "lv": "44",
                         "critical": "3",
-                        "def": 75,
+                        "max_hp": 1192,
+                        "matk": 112,
+                        "counters": [],
                         "def_attributes": [
                             {
                                 "attribute_id": "101",
@@ -527,48 +521,54 @@
                                 "factor": "1"
                             }
                         ],
-                        "disp_name": "Wyerd",
-                        "eva": "110",
-                        "exp": 456,
-                        "id": "3090041",
-                        "looking": "0",
-                        "lv": "44",
-                        "matk": 112,
-                        "max_hp": 1192,
                         "mdef": 58,
-                        "mnd": 58,
-                        "no": "1",
-                        "size": "2",
-                        "spd": "100"
+                        "animation_info": {
+                            "enemy_status_id": "3090041",
+                            "assets": {
+                                "enemy-109024": "/Content/lang/ab/character/enemy/109024.sajson"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "scale": "2",
+                            "offset_x": "4",
+                            "offset_y": "-19",
+                            "path": "109024"
+                        },
+                        "acc": "100",
+                        "eva": "110",
+                        "atk": 152,
+                        "breed_id": "2",
+                        "exp": 456,
+                        "def": 75
                     }
                 ],
-                "uid": "205"
+                "child_pos_id": "1",
+                "enemy_id": "309004",
+                "ai_id": "1"
             }
         ],
-        "deform_animation_info": [],
-        "id": "309004",
-        "is_sp_enemy": 0
+        "ai_id": 0
     },
     {
-        "ai_id": 0,
+        "id": "309006",
+        "is_sp_enemy": 0,
+        "deform_animation_info": [],
         "children": [
             {
-                "ai_id": "1",
-                "child_pos_id": "1",
                 "drop_item_list": [
                     {
                         "item_id": "40000048",
                         "num": "1",
-                        "rarity": "3",
                         "type": 51,
-                        "uid": 206
+                        "uid": 206,
+                        "rarity": "3"
                     }
                 ],
-                "enemy_id": "309006",
-                "init_hp": 946,
-                "lv": "44",
-                "max_hp": 946,
+                "uid": "206",
                 "no": "1",
+                "init_hp": 946,
+                "max_hp": 946,
+                "lv": "44",
                 "params": [
                     {
                         "abilities": [
@@ -585,24 +585,18 @@
                                 "weight": "30"
                             }
                         ],
-                        "acc": "100",
-                        "animation_info": {
-                            "assets": {
-                                "enemy-109026": "/Content/lang/ab/character/enemy/109026.sajson"
-                            },
-                            "enemy_status_id": "3090061",
-                            "hp_gauge_size": "2",
-                            "offset_x": "-3",
-                            "offset_y": "-16",
-                            "path": "109026",
-                            "scale": "1",
-                            "uses_fix_pos": false
-                        },
-                        "atk": 112,
-                        "breed_id": "19",
-                        "counters": [],
+                        "mnd": 58,
+                        "id": "3090061",
+                        "size": "2",
+                        "looking": "0",
+                        "no": "1",
+                        "spd": "100",
+                        "disp_name": "Ghost",
+                        "lv": "44",
                         "critical": "3",
-                        "def": 100,
+                        "max_hp": 946,
+                        "matk": 179,
+                        "counters": [],
                         "def_attributes": [
                             {
                                 "attribute_id": "104",
@@ -649,26 +643,696 @@
                                 "factor": "1"
                             }
                         ],
-                        "disp_name": "Ghost",
-                        "eva": "62",
-                        "exp": 456,
-                        "id": "3090061",
-                        "looking": "0",
-                        "lv": "44",
-                        "matk": 179,
-                        "max_hp": 946,
                         "mdef": 92,
-                        "mnd": 58,
-                        "no": "1",
-                        "size": "2",
-                        "spd": "100"
+                        "animation_info": {
+                            "enemy_status_id": "3090061",
+                            "assets": {
+                                "enemy-109026": "/Content/lang/ab/character/enemy/109026.sajson"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "scale": "1",
+                            "offset_x": "-3",
+                            "offset_y": "-16",
+                            "path": "109026"
+                        },
+                        "acc": "100",
+                        "eva": "62",
+                        "atk": 112,
+                        "breed_id": "19",
+                        "exp": 456,
+                        "def": 100
                     }
                 ],
-                "uid": "206"
+                "child_pos_id": "1",
+                "enemy_id": "309006",
+                "ai_id": "1"
             }
         ],
+        "ai_id": 0
+    },
+    {
+        "is_sp_enemy": 0,
         "deform_animation_info": [],
-        "id": "309006",
-        "is_sp_enemy": 0
+        "ai_id": 0,
+        "id": "309005",
+        "children": [
+            {
+                "drop_item_list": [
+                    {
+                        "item_id": "40000052",
+                        "num": "1",
+                        "type": 51,
+                        "uid": 201,
+                        "rarity": "2"
+                    }
+                ],
+                "uid": "201",
+                "no": "1",
+                "init_hp": 946,
+                "child_pos_id": "1",
+                "lv": "44",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "101001",
+                                "weight": "40"
+                            },
+                            {
+                                "ability_id": "201455",
+                                "weight": "20"
+                            },
+                            {
+                                "ability_id": "102012",
+                                "weight": "40"
+                            }
+                        ],
+                        "mnd": 92,
+                        "id": "3090051",
+                        "size": "2",
+                        "lv": "44",
+                        "no": "1",
+                        "spd": "100",
+                        "disp_name": "Nymph",
+                        "looking": "0",
+                        "critical": "3",
+                        "max_hp": 946,
+                        "matk": 179,
+                        "counters": [],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "220",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "106",
+                                "factor": "11"
+                            },
+                            {
+                                "attribute_id": "218",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "107",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "225",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "100",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "219",
+                                "factor": "1"
+                            }
+                        ],
+                        "mdef": 100,
+                        "animation_info": {
+                            "scale": "1.7",
+                            "assets": {
+                                "enemy-109049": "/Content/lang/ab/character/enemy/109049.sajson"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "enemy_status_id": "3090051",
+                            "offset_y": "-22",
+                            "path": "109049",
+                            "offset_x": "2"
+                        },
+                        "acc": "100",
+                        "eva": "70",
+                        "atk": 98,
+                        "breed_id": "9",
+                        "exp": 456,
+                        "def": 45
+                    }
+                ],
+                "max_hp": 946,
+                "enemy_id": "309005",
+                "ai_id": "1"
+            }
+        ]
+    },
+    {
+        "is_sp_enemy": 0,
+        "deform_animation_info": [],
+        "ai_id": 0,
+        "id": "309005",
+        "children": [
+            {
+                "drop_item_list": [
+                    {
+                        "item_id": "40000052",
+                        "num": "1",
+                        "type": 51,
+                        "uid": 202,
+                        "rarity": "2"
+                    }
+                ],
+                "uid": "202",
+                "no": "1",
+                "init_hp": 946,
+                "child_pos_id": "1",
+                "lv": "44",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "101001",
+                                "weight": "40"
+                            },
+                            {
+                                "ability_id": "201455",
+                                "weight": "20"
+                            },
+                            {
+                                "ability_id": "102012",
+                                "weight": "40"
+                            }
+                        ],
+                        "mnd": 92,
+                        "id": "3090051",
+                        "size": "2",
+                        "lv": "44",
+                        "no": "1",
+                        "spd": "100",
+                        "disp_name": "Nymph",
+                        "looking": "0",
+                        "critical": "3",
+                        "max_hp": 946,
+                        "matk": 179,
+                        "counters": [],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "220",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "106",
+                                "factor": "11"
+                            },
+                            {
+                                "attribute_id": "218",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "107",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "225",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "100",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "219",
+                                "factor": "1"
+                            }
+                        ],
+                        "mdef": 100,
+                        "animation_info": {
+                            "scale": "1.7",
+                            "assets": {
+                                "enemy-109049": "/Content/lang/ab/character/enemy/109049.sajson"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "enemy_status_id": "3090051",
+                            "offset_y": "-22",
+                            "path": "109049",
+                            "offset_x": "2"
+                        },
+                        "acc": "100",
+                        "eva": "70",
+                        "atk": 98,
+                        "breed_id": "9",
+                        "exp": 456,
+                        "def": 45
+                    }
+                ],
+                "max_hp": 946,
+                "enemy_id": "309005",
+                "ai_id": "1"
+            }
+        ]
+    },
+    {
+        "is_sp_enemy": 0,
+        "deform_animation_info": [],
+        "ai_id": 0,
+        "id": "309005",
+        "children": [
+            {
+                "drop_item_list": [
+                    {
+                        "item_id": "40000052",
+                        "num": "1",
+                        "type": 51,
+                        "uid": 203,
+                        "rarity": "2"
+                    }
+                ],
+                "uid": "203",
+                "no": "1",
+                "init_hp": 946,
+                "child_pos_id": "1",
+                "lv": "44",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "101001",
+                                "weight": "40"
+                            },
+                            {
+                                "ability_id": "201455",
+                                "weight": "20"
+                            },
+                            {
+                                "ability_id": "102012",
+                                "weight": "40"
+                            }
+                        ],
+                        "mnd": 92,
+                        "id": "3090051",
+                        "size": "2",
+                        "lv": "44",
+                        "no": "1",
+                        "spd": "100",
+                        "disp_name": "Nymph",
+                        "looking": "0",
+                        "critical": "3",
+                        "max_hp": 946,
+                        "matk": 179,
+                        "counters": [],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "220",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "106",
+                                "factor": "11"
+                            },
+                            {
+                                "attribute_id": "218",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "107",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "225",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "100",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "219",
+                                "factor": "1"
+                            }
+                        ],
+                        "mdef": 100,
+                        "animation_info": {
+                            "scale": "1.7",
+                            "assets": {
+                                "enemy-109049": "/Content/lang/ab/character/enemy/109049.sajson"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "enemy_status_id": "3090051",
+                            "offset_y": "-22",
+                            "path": "109049",
+                            "offset_x": "2"
+                        },
+                        "acc": "100",
+                        "eva": "70",
+                        "atk": 98,
+                        "breed_id": "9",
+                        "exp": 456,
+                        "def": 45
+                    }
+                ],
+                "max_hp": 946,
+                "enemy_id": "309005",
+                "ai_id": "1"
+            }
+        ]
+    },
+    {
+        "is_sp_enemy": 0,
+        "deform_animation_info": [],
+        "ai_id": 0,
+        "id": "309005",
+        "children": [
+            {
+                "drop_item_list": [],
+                "uid": "204",
+                "no": "1",
+                "init_hp": 946,
+                "child_pos_id": "1",
+                "lv": "44",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "101001",
+                                "weight": "40"
+                            },
+                            {
+                                "ability_id": "201455",
+                                "weight": "20"
+                            },
+                            {
+                                "ability_id": "102012",
+                                "weight": "40"
+                            }
+                        ],
+                        "mnd": 92,
+                        "id": "3090051",
+                        "size": "2",
+                        "lv": "44",
+                        "no": "1",
+                        "spd": "100",
+                        "disp_name": "Nymph",
+                        "looking": "0",
+                        "critical": "3",
+                        "max_hp": 946,
+                        "matk": 179,
+                        "counters": [],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "220",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "106",
+                                "factor": "11"
+                            },
+                            {
+                                "attribute_id": "218",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "107",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "225",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "100",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "219",
+                                "factor": "1"
+                            }
+                        ],
+                        "mdef": 100,
+                        "animation_info": {
+                            "scale": "1.7",
+                            "assets": {
+                                "enemy-109049": "/Content/lang/ab/character/enemy/109049.sajson"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "enemy_status_id": "3090051",
+                            "offset_y": "-22",
+                            "path": "109049",
+                            "offset_x": "2"
+                        },
+                        "acc": "100",
+                        "eva": "70",
+                        "atk": 98,
+                        "breed_id": "9",
+                        "exp": 456,
+                        "def": 45
+                    }
+                ],
+                "max_hp": 946,
+                "enemy_id": "309005",
+                "ai_id": "1"
+            }
+        ]
+    },
+    {
+        "is_sp_enemy": 0,
+        "deform_animation_info": [],
+        "ai_id": 0,
+        "id": "309004",
+        "children": [
+            {
+                "drop_item_list": [],
+                "uid": "205",
+                "no": "1",
+                "init_hp": 1192,
+                "child_pos_id": "1",
+                "lv": "44",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "201454",
+                                "weight": "20"
+                            },
+                            {
+                                "ability_id": "101001",
+                                "weight": "40"
+                            },
+                            {
+                                "ability_id": "102021",
+                                "weight": "40"
+                            }
+                        ],
+                        "mnd": 58,
+                        "id": "3090041",
+                        "size": "2",
+                        "lv": "44",
+                        "no": "1",
+                        "spd": "100",
+                        "disp_name": "Wyerd",
+                        "looking": "0",
+                        "critical": "3",
+                        "max_hp": 1192,
+                        "matk": 112,
+                        "counters": [],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "101",
+                                "factor": "11"
+                            },
+                            {
+                                "attribute_id": "225",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "220",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "219",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "203",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "218",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "215",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "100",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            }
+                        ],
+                        "mdef": 58,
+                        "animation_info": {
+                            "scale": "2",
+                            "assets": {
+                                "enemy-109024": "/Content/lang/ab/character/enemy/109024.sajson"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "enemy_status_id": "3090041",
+                            "offset_y": "-19",
+                            "path": "109024",
+                            "offset_x": "4"
+                        },
+                        "acc": "100",
+                        "eva": "110",
+                        "atk": 152,
+                        "breed_id": "2",
+                        "exp": 456,
+                        "def": 75
+                    }
+                ],
+                "max_hp": 1192,
+                "enemy_id": "309004",
+                "ai_id": "1"
+            }
+        ]
+    },
+    {
+        "is_sp_enemy": 0,
+        "deform_animation_info": [],
+        "ai_id": 0,
+        "id": "309005",
+        "children": [
+            {
+                "drop_item_list": [],
+                "uid": "206",
+                "no": "1",
+                "init_hp": 946,
+                "child_pos_id": "1",
+                "lv": "44",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "101001",
+                                "weight": "40"
+                            },
+                            {
+                                "ability_id": "201455",
+                                "weight": "20"
+                            },
+                            {
+                                "ability_id": "102012",
+                                "weight": "40"
+                            }
+                        ],
+                        "mnd": 92,
+                        "id": "3090051",
+                        "size": "2",
+                        "lv": "44",
+                        "no": "1",
+                        "spd": "100",
+                        "disp_name": "Nymph",
+                        "looking": "0",
+                        "critical": "3",
+                        "max_hp": 946,
+                        "matk": 179,
+                        "counters": [],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "220",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "106",
+                                "factor": "11"
+                            },
+                            {
+                                "attribute_id": "218",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "107",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "225",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "100",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "219",
+                                "factor": "1"
+                            }
+                        ],
+                        "mdef": 100,
+                        "animation_info": {
+                            "scale": "1.7",
+                            "assets": {
+                                "enemy-109049": "/Content/lang/ab/character/enemy/109049.sajson"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "enemy_status_id": "3090051",
+                            "offset_y": "-22",
+                            "path": "109049",
+                            "offset_x": "2"
+                        },
+                        "acc": "100",
+                        "eva": "70",
+                        "atk": 98,
+                        "breed_id": "9",
+                        "exp": 456,
+                        "def": 45
+                    }
+                ],
+                "max_hp": 946,
+                "enemy_id": "309005",
+                "ai_id": "1"
+            }
+        ]
     }
 ]

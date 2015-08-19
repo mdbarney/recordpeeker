@@ -1,0 +1,217 @@
+{
+    "SERVER_TIME": 1439862501, 
+    "success": true, 
+    "fellow_session": {
+        "status": 2, 
+        "can_follow": false, 
+        "has_fellow": false, 
+        "can_remake_fellow_list": true
+    }, 
+    "user": {
+        "max_stamina": 119, 
+        "stamina_recovery_remaining_time": 5504, 
+        "stamina_recovery_time": 180, 
+        "supporter_ss_gauge": 2, 
+        "id": 5570609408901120, 
+        "can_review": true, 
+        "func_tutorial_bits": 1310719, 
+        "max_follower_num": 100, 
+        "stamina": 88, 
+        "gil": 484077, 
+        "start_time_of_today": 1439816400, 
+        "release_id": 0, 
+        "residual_stamina_piece": 4, 
+        "is_in_dungeon": true, 
+        "last_logined_at": 1439816412, 
+        "soul_piece": 44, 
+        "followee_num": 46, 
+        "max_followee_num": 100, 
+        "dungeon_id": 607074, 
+        "name": "Tyro", 
+        "is_update_last_logined_at": false, 
+        "stamina_piece": 599, 
+        "tutorial_step": 255, 
+        "has_all_clear_ver_to_show": false
+    }, 
+    "battles": [
+        {
+            "dungeon_id": 607074, 
+            "name": "Temple of the Ancients - Chamber III, Part 1", 
+            "order_no": 1, 
+            "has_boss": 0, 
+            "rank": 3, 
+            "is_unlocked": true, 
+            "stamina": 4, 
+            "round_num": 3, 
+            "id": 707245
+        }, 
+        {
+            "dungeon_id": 607074, 
+            "name": "Temple of the Ancients - Chamber III, Part 2", 
+            "order_no": 1, 
+            "has_boss": 0, 
+            "rank": 3, 
+            "is_unlocked": true, 
+            "stamina": 4, 
+            "round_num": 3, 
+            "id": 707246
+        }, 
+        {
+            "dungeon_id": 607074, 
+            "name": "Temple of the Ancients - Chamber III, Part 3", 
+            "order_no": 1, 
+            "has_boss": 1, 
+            "rank": 0, 
+            "is_unlocked": false, 
+            "stamina": 5, 
+            "round_num": 3, 
+            "id": 707247
+        }
+    ], 
+    "dungeon_session": {
+        "kept_out_at": 1440723599, 
+        "supporter_ss_gauge": 0, 
+        "dungeon_id": 607074, 
+        "name": "Temple of the Ancients - Chamber III", 
+        "order_no": 1, 
+        "background_image_path": "/dff/static/lang/image/dungeon/607074_bg.png", 
+        "opened_at": 1439859600, 
+        "bgm": "bgm_07_061", 
+        "series_id": 107001, 
+        "world_id": 107007, 
+        "closed_at": 1440982799, 
+        "challenge_level": 11, 
+        "type": 1, 
+        "party_status": {
+            "1": {
+                "ability_1_num": 10, 
+                "no": 1, 
+                "ability_2_num": 10, 
+                "hp": 4936, 
+                "user_buddy_id": 7283073, 
+                "status_ailments": [], 
+                "soul_strike_gauge": 550
+            }
+        }, 
+        "max_supporter_ss_gauge": 0, 
+        "battle_id": 707247
+    }, 
+    "user_dungeon": {
+        "background_image_path": "/dff/static/lang/image/dungeon/607074_bg.png", 
+        "order_no": 1, 
+        "captures": [
+            {
+                "sp_scores": [
+                    {
+                        "title": "Defeat the Materia Keeper without being KO'd.", 
+                        "battle_id": 707247
+                    }
+                ], 
+                "image_path": "/dff/static/lang/image/enemy/407021.png", 
+                "tip_battle": {
+                    "message": "When the Materia Keeper's <span class=\"red\">HP drops</span> low enough, it uses <span class=\"red\">Cura</span> and a powerful spell called <span class=\"red\">Trine</span>, kupo! Use your abilities sparingly and save them for when it starts using Cura, then finish it off fast!", 
+                    "group_id": 410162, 
+                    "id": 410162, 
+                    "title": "Materia Keeper "
+                }
+            }
+        ], 
+        "is_new": false, 
+        "rank": 0, 
+        "closed_at": 2056341599, 
+        "id": 607074, 
+        "is_clear": false, 
+        "button_style": "NORMAL", 
+        "opened_at": 1439859600, 
+        "world_id": 107007, 
+        "type": 1, 
+        "challenge_level": 11, 
+        "is_unlocked": true, 
+        "series_id": 107001, 
+        "prizes": {
+            "1": [
+                {
+                    "id": 92000000, 
+                    "type_name": "COMMON", 
+                    "num": 2000, 
+                    "image_path": "/dff/static/lang/image/common_item/92000000.png", 
+                    "name": "Gil"
+                }
+            ], 
+            "3": [
+                {
+                    "id": 70000002, 
+                    "type_name": "GROW_EGG", 
+                    "num": 10, 
+                    "image_path": "/dff/static/lang/image/growegg/70000002/70000002_112.png", 
+                    "name": "Lesser Growth Egg"
+                }, 
+                {
+                    "id": 24099003, 
+                    "type_name": "EQUIPMENT", 
+                    "num": 1, 
+                    "image_path": "/dff/static/lang/image/equipment/24099003/24099003_03_112.png", 
+                    "name": "Adamantite"
+                }
+            ], 
+            "2": [
+                {
+                    "id": 22056003, 
+                    "type_name": "EQUIPMENT", 
+                    "num": 1, 
+                    "image_path": "/dff/static/lang/image/equipment/22056003/22056003_02_112.png", 
+                    "name": "Mythril Armlet (VII)"
+                }, 
+                {
+                    "id": 91000000, 
+                    "type_name": "COMMON", 
+                    "num": 1, 
+                    "image_path": "/dff/static/lang/image/common_item/91000000.png", 
+                    "name": "Mythril"
+                }
+            ]
+        }, 
+        "total_stamina": 13, 
+        "epilogue": "<<Not Necessary>>", 
+        "epilogue_image_path": "/dff/static/lang/image/dungeon/607074_epilogue.png", 
+        "name": "Temple of the Ancients - Chamber III", 
+        "bgm": "bgm_07_061", 
+        "prologue": "<<Not Necessary>>", 
+        "is_master": false, 
+        "prologue_image_path": "/dff/static/lang/image/dungeon/607074_prologue.png"
+    }, 
+    "multi_party": {
+        "current_deck_no": 1, 
+        "parties": [
+            {
+                "slot_to_user_buddy_id": {
+                    "1": 7283073
+                }, 
+                "slot_to_row": {
+                    "1": 1
+                }, 
+                "deck_no": 1
+            }, 
+            {
+                "slot_to_user_buddy_id": {}, 
+                "slot_to_row": {}, 
+                "deck_no": 2
+            }, 
+            {
+                "slot_to_user_buddy_id": {}, 
+                "slot_to_row": {}, 
+                "deck_no": 3
+            }, 
+            {
+                "slot_to_user_buddy_id": {}, 
+                "slot_to_row": {}, 
+                "deck_no": 4
+            }, 
+            {
+                "slot_to_user_buddy_id": {}, 
+                "slot_to_row": {}, 
+                "deck_no": 5
+            }
+        ]
+    }
+}

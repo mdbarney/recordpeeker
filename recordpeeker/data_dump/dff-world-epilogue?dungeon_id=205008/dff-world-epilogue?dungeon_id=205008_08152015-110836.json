@@ -1,0 +1,108 @@
+{
+    "dungeon": {
+        "background_image_path": "/dff/static/lang/image/dungeon/205008_bg.png", 
+        "order_no": 1, 
+        "captures": [
+            {
+                "sp_scores": [
+                    {
+                        "title": "Exploit Ifrit's weakness to ice attacks.", 
+                        "battle_id": 305035
+                    }, 
+                    {
+                        "title": "Exploit Ifrit's weakness to water attacks.", 
+                        "battle_id": 305035
+                    }
+                ], 
+                "image_path": "/dff/static/lang/image/enemy/405009.png", 
+                "tip_battle": {
+                    "message": "Ifrit is vulnerable to <span class=\"red\">ice and water</span> attacks, but fire will heal him, kupo! His <span class=\"red\">High Kick</span> ability can paralyze, and his fire attacks are singe-worthy, so be careful!", 
+                    "group_id": 420086, 
+                    "id": 410086, 
+                    "title": "Ifrit"
+                }
+            }, 
+            {
+                "sp_scores": [
+                    {
+                        "title": "Exploit Byblos's weakness to fire attacks.", 
+                        "battle_id": 305036
+                    }
+                ], 
+                "image_path": "/dff/static/lang/image/enemy/405010.png", 
+                "tip_battle": {
+                    "message": "Byblos <span class=\"red\">absorbs all elements but fire</span>, kupo, so stick with <span class=\"red\">fire</span> and victory will be yours! Legend holds that Byblos and <span class=\"red\">Ifrit</span> share a long history\u2026", 
+                    "group_id": 420087, 
+                    "id": 410087, 
+                    "title": "Byblos"
+                }
+            }
+        ], 
+        "is_new": false, 
+        "rank": 3, 
+        "closed_at": 2145938400, 
+        "id": 205008, 
+        "is_clear": true, 
+        "button_style": "NORMAL", 
+        "opened_at": 1398924000, 
+        "world_id": 105001, 
+        "type": 1, 
+        "challenge_level": 41, 
+        "is_unlocked": true, 
+        "series_id": 105001, 
+        "prizes": {
+            "1": [
+                {
+                    "id": 92000000, 
+                    "type_name": "COMMON", 
+                    "num": 3000, 
+                    "image_path": "/dff/static/lang/image/common_item/92000000.png", 
+                    "name": "Gil"
+                }
+            ], 
+            "3": [
+                {
+                    "id": 40000053, 
+                    "type_name": "ABILITY_MATERIAL", 
+                    "num": 3, 
+                    "image_path": "/dff/static/lang/image/ability_material/40000053/40000053_112.png", 
+                    "name": "Wind Orb"
+                }, 
+                {
+                    "id": 94000000, 
+                    "type_name": "COMMON", 
+                    "num": 1, 
+                    "image_path": "/dff/static/lang/image/common_item/94000000.png", 
+                    "name": "Stamina Shard"
+                }
+            ], 
+            "2": [
+                {
+                    "id": 94000000, 
+                    "type_name": "COMMON", 
+                    "num": 1, 
+                    "image_path": "/dff/static/lang/image/common_item/94000000.png", 
+                    "name": "Stamina Shard"
+                }, 
+                {
+                    "id": 91000000, 
+                    "type_name": "COMMON", 
+                    "num": 1, 
+                    "image_path": "/dff/static/lang/image/common_item/91000000.png", 
+                    "name": "Mythril"
+                }
+            ]
+        }, 
+        "total_stamina": 52, 
+        "epilogue": "Oblivious to the chaos, Mid had been researching ways to get the fire-powered ship moving again. Mid talked sense into Cid, who felt responsible for the destruction of the Fire Crystal. Encouraged by his grandson's words, Cid began work to refit the fire-powered ship. As he watched Cid and Mid working together, Galuf remembered why he had come to this world: to prevent the banished warlock Exdeath from rising once again.", 
+        "epilogue_image_path": "/dff/static/lang/image/dungeon/205008_epilogue.png", 
+        "name": "Library of the Ancients", 
+        "bgm": "bgm_05_025", 
+        "prologue": "Bartz and the party arrive at the Library of the Ancients in search of clues about the last Crystal, but they soon learn that Cid's grandson, Mid, has gone missing. They head down into the depths of the library to find him.", 
+        "is_master": true, 
+        "prologue_image_path": "/dff/static/lang/image/dungeon/205008_prologue.png"
+    }, 
+    "SERVER_TIME": 1439654916, 
+    "success": true, 
+    "can_review": false
+}

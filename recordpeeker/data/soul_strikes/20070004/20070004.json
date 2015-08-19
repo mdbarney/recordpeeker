@@ -1,0 +1,68 @@
+{
+    "ability_id": "20070004", 
+    "action_id": "7", 
+    "animation_info": {
+        "atk_motion": "ready", 
+        "chara_in": "motion_in", 
+        "chara_out": "motion_out_step", 
+        "damage_tag": "damage", 
+        "hit": "70567/70567_hit.json", 
+        "hit_arg": "3", 
+        "hit_next_tag": "", 
+        "hit_type": "3", 
+        "id": "70567", 
+        "launch": "common/launch_special_attack_bg_black.json", 
+        "launch_next_tag": "", 
+        "launch_type": "3", 
+        "miss_hit": "70567/hit_miss.json", 
+        "other_in": "", 
+        "other_out": "", 
+        "recover_tag": "", 
+        "return_hit": "", 
+        "return_shot": "", 
+        "return_type": "99", 
+        "reverse_hit": "1", 
+        "reverse_shot": "1", 
+        "shot": "common/shot_empty.json", 
+        "shot_next_tag": "", 
+        "shot_type": "99"
+    }, 
+    "assets": {
+        "ability-70567_hit": "/Content/lang/ab/ability/70567/70567_hit.json", 
+        "ability-70567_hit_1": "/Content/lang/ab/ability/70567/70567_hit_1.json", 
+        "ability-70567_hit_2": "/Content/lang/ab/ability/70567/70567_hit_2.json", 
+        "ability-70567_hit_3": "/Content/lang/ab/ability/70567/70567_hit_3.json", 
+        "ability-70567_launch": "/Content/lang/ab/ability/common/launch_special_attack_bg_black.json", 
+        "ability-70567_miss_hit": "/Content/lang/ab/ability/70567/hit_miss.json", 
+        "ability-70567_miss_hit_1": "/Content/lang/ab/ability/70567/hit_miss_1.json", 
+        "ability-70567_miss_hit_2": "/Content/lang/ab/ability/70567/hit_miss_2.json", 
+        "ability-70567_miss_hit_3": "/Content/lang/ab/ability/70567/hit_miss_3.json", 
+        "ability-70567_shot": "/Content/lang/ab/ability/common/shot_empty.json"
+    }, 
+    "exercise_type": "1", 
+    "icon": {
+        "assets": {
+            "command_icon_20070004": "/Content/lang/ab_image/soulstrike//20070004/20070004_256.png"
+        }
+    }, 
+    "options": {
+        "ability_animation_id": "70567", 
+        "active_target_method": "1", 
+        "alias_name": "Radiant Wings", 
+        "arg1": "160", 
+        "arg2": "3", 
+        "arg3": "1", 
+        "arg4": "1", 
+        "arg5": "106", 
+        "cast_time": "2750", 
+        "consume_soul_strike_point": "500", 
+        "counter_enable": "1", 
+        "name": "Radiant Wings", 
+        "status_ailments_factor": "0", 
+        "status_ailments_id": "0", 
+        "target_death": "1", 
+        "target_method": "5", 
+        "target_range": "1", 
+        "target_segment": "1"
+    }
+}

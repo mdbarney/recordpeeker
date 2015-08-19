@@ -1,0 +1,64 @@
+{
+    "ability_id": "21000008", 
+    "action_id": "7", 
+    "animation_info": {
+        "atk_motion": "", 
+        "chara_in": "", 
+        "chara_out": "", 
+        "damage_tag": "damage", 
+        "hit": "70213/70213_hit.json", 
+        "hit_arg": "3", 
+        "hit_next_tag": "", 
+        "hit_type": "3", 
+        "id": "70213", 
+        "launch": "common/launch_special_attack_bg_black.json", 
+        "launch_next_tag": "", 
+        "launch_type": "3", 
+        "miss_hit": "", 
+        "other_in": "", 
+        "other_out": "", 
+        "recover_tag": "", 
+        "return_hit": "", 
+        "return_shot": "", 
+        "return_type": "99", 
+        "reverse_hit": "1", 
+        "reverse_shot": "1", 
+        "shot": "common/shot_empty.json", 
+        "shot_next_tag": "", 
+        "shot_type": "99"
+    }, 
+    "assets": {
+        "ability-70213_hit": "/Content/lang/ab/ability/70213/70213_hit.json", 
+        "ability-70213_hit_1": "/Content/lang/ab/ability/70213/70213_hit_1.json", 
+        "ability-70213_hit_2": "/Content/lang/ab/ability/70213/70213_hit_2.json", 
+        "ability-70213_hit_3": "/Content/lang/ab/ability/70213/70213_hit_3.json", 
+        "ability-70213_launch": "/Content/lang/ab/ability/common/launch_special_attack_bg_black.json", 
+        "ability-70213_shot": "/Content/lang/ab/ability/common/shot_empty.json"
+    }, 
+    "exercise_type": "1", 
+    "icon": {
+        "assets": {
+            "command_icon_21000008": "/Content/lang/ab_image/soulstrike//21000008/21000008_256.png"
+        }
+    }, 
+    "options": {
+        "ability_animation_id": "70213", 
+        "active_target_method": "1", 
+        "alias_name": "Sonic Buster", 
+        "arg1": "70", 
+        "arg2": "3", 
+        "arg3": "1", 
+        "arg4": "1", 
+        "arg5": "0", 
+        "cast_time": "2750", 
+        "consume_soul_strike_point": "500", 
+        "counter_enable": "1", 
+        "name": "Sonic Buster", 
+        "status_ailments_factor": "0", 
+        "status_ailments_id": "0", 
+        "target_death": "1", 
+        "target_method": "5", 
+        "target_range": "1", 
+        "target_segment": "1"
+    }
+}

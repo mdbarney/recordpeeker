@@ -1,0 +1,104 @@
+{
+    "SERVER_TIME": 1438087467, 
+    "can_review": false, 
+    "dungeon": {
+        "background_image_path": "/dff/static/lang/image/dungeon/201011_bg.png", 
+        "bgm": "bgm_01_010", 
+        "button_style": "NORMAL", 
+        "captures": [
+            {
+                "image_path": "/dff/static/lang/image/enemy/401012.png", 
+                "sp_scores": [
+                    {
+                        "battle_id": 301043, 
+                        "title": "Defeat the Kraken without being KO'd."
+                    }
+                ], 
+                "tip_battle": {
+                    "group_id": 410145, 
+                    "id": 410145, 
+                    "message": "The Kraken has grown even more powerful, kupo, and now it doesn't have any vulnerabilities! But it still uses <span class=\"red\">Ink</span> to Blind, so have someone ready with <span class=\"red\">Blindna</span> or <span class=\"red\">Esuna!</span>", 
+                    "title": "Kraken"
+                }
+            }, 
+            {
+                "image_path": "/dff/static/lang/image/enemy/401013.png", 
+                "sp_scores": [
+                    {
+                        "battle_id": 301045, 
+                        "title": "Defeat Tiamat without being KO'd."
+                    }
+                ], 
+                "tip_battle": {
+                    "group_id": 410146, 
+                    "id": 410146, 
+                    "message": "Tiamat is one mean dragon, kupo, and it's immune to fire, ice, lightning, and earth attacks! Tiamat has an arsenal of <span class=\"red\">potent spells</span>, so use <span class=\"red\">Magic Break</span> and <span class=\"red\">Shell</span> to lessen the incoming damage!", 
+                    "title": "Tiamat"
+                }
+            }
+        ], 
+        "challenge_level": 64, 
+        "closed_at": 2056341599, 
+        "epilogue": "The Warriors of Light made their way through the Chaos Shrine, there to end the evil at its source and put the world to rights. They went downward, defeating the Kraken and Tiamat before reaching the lowest level of the shrine.", 
+        "epilogue_image_path": "/dff/static/lang/image/dungeon/201011_epilogue.png", 
+        "id": 201011, 
+        "is_clear": true, 
+        "is_master": true, 
+        "is_new": false, 
+        "is_unlocked": true, 
+        "name": "Chaos Shrine of Yore, Part 2", 
+        "opened_at": 1437958800, 
+        "order_no": 1, 
+        "prizes": {
+            "1": [
+                {
+                    "id": 92000000, 
+                    "image_path": "/dff/static/lang/image/common_item/92000000.png", 
+                    "name": "Gil", 
+                    "num": 5000, 
+                    "type_name": "COMMON"
+                }
+            ], 
+            "2": [
+                {
+                    "id": 10003000, 
+                    "image_path": "/dff/static/lang/image/buddy/10003000/10003000.png", 
+                    "name": "Ninja", 
+                    "num": 1, 
+                    "type_name": "BUDDY"
+                }, 
+                {
+                    "id": 91000000, 
+                    "image_path": "/dff/static/lang/image/common_item/91000000.png", 
+                    "name": "Mythril", 
+                    "num": 1, 
+                    "type_name": "COMMON"
+                }
+            ], 
+            "3": [
+                {
+                    "id": 94000000, 
+                    "image_path": "/dff/static/lang/image/common_item/94000000.png", 
+                    "name": "Stamina Shard", 
+                    "num": 1, 
+                    "type_name": "COMMON"
+                }, 
+                {
+                    "id": 40000043, 
+                    "image_path": "/dff/static/lang/image/ability_material/40000043/40000043_112.png", 
+                    "name": "Lightning Orb", 
+                    "num": 3, 
+                    "type_name": "ABILITY_MATERIAL"
+                }
+            ]
+        }, 
+        "prologue": "The battle with the two elemental fiends behind them, the Warriors of Light continue their journey downward through the Chaos Shrine, but more foes lie in wait.", 
+        "prologue_image_path": "/dff/static/lang/image/dungeon/201011_prologue.png", 
+        "rank": 3, 
+        "series_id": 101001, 
+        "total_stamina": 54, 
+        "type": 1, 
+        "world_id": 101001
+    }, 
+    "success": true
+}

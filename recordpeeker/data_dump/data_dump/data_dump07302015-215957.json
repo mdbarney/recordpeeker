@@ -1,0 +1,93 @@
+{
+    "SERVER_TIME": 1438311597, 
+    "can_review": false, 
+    "dungeon": {
+        "background_image_path": "/dff/static/lang/image/dungeon/204001_bg.png", 
+        "bgm": "bgm_04_012", 
+        "button_style": "NORMAL", 
+        "captures": [
+            {
+                "image_path": "/dff/static/lang/image/enemy/404001.png", 
+                "sp_scores": [
+                    {
+                        "battle_id": 304003, 
+                        "title": "Exploit the Mist Dragon's weakness to dark attacks."
+                    }, 
+                    {
+                        "battle_id": 304003, 
+                        "title": "Defeat the Mist Dragon without having any attacks countered."
+                    }
+                ], 
+                "tip_battle": {
+                    "group_id": 420001, 
+                    "id": 410001, 
+                    "message": "The Mist Dragon turns into its <span class=\"red\">mist form every few turns</span>. If you hit it while it's in mist form, it will strike back with a powerful counterattack, kupo! So <span class=\"red\">wait till it changes back</span> before attacking!", 
+                    "title": "Mist Dragon"
+                }
+            }
+        ], 
+        "challenge_level": 3, 
+        "closed_at": 2145938400, 
+        "epilogue": "Cecil and Kain arrive in Mist after slaying the Mist Dragon, only to face a throng of bombs that springs from the Carnelian Signet and engulfs the village in flames. Though furious at being used by the king to destroy the village, there is little they can do, and the two are separated in the chaos. Cecil escapes with a young girl who survived the violence and the two wander the desert before eventually arriving at the oasis of Kaipo.", 
+        "epilogue_image_path": "/dff/static/lang/image/dungeon/204001_epilogue.png", 
+        "id": 204001, 
+        "is_clear": true, 
+        "is_master": true, 
+        "is_new": false, 
+        "is_unlocked": true, 
+        "name": "Mist Cave", 
+        "opened_at": 1398924000, 
+        "order_no": 1, 
+        "prizes": {
+            "1": [
+                {
+                    "id": 92000000, 
+                    "image_path": "/dff/static/lang/image/common_item/92000000.png", 
+                    "name": "Gil", 
+                    "num": 700, 
+                    "type_name": "COMMON"
+                }
+            ], 
+            "2": [
+                {
+                    "id": 10400300, 
+                    "image_path": "/dff/static/lang/image/buddy/10400300/10400300.png", 
+                    "name": "Kain", 
+                    "num": 1, 
+                    "type_name": "BUDDY"
+                }, 
+                {
+                    "id": 91000000, 
+                    "image_path": "/dff/static/lang/image/common_item/91000000.png", 
+                    "name": "Mythril", 
+                    "num": 1, 
+                    "type_name": "COMMON"
+                }
+            ], 
+            "3": [
+                {
+                    "id": 94000000, 
+                    "image_path": "/dff/static/lang/image/common_item/94000000.png", 
+                    "name": "Stamina Shard", 
+                    "num": 1, 
+                    "type_name": "COMMON"
+                }, 
+                {
+                    "id": 40000056, 
+                    "image_path": "/dff/static/lang/image/ability_material/40000056/40000056_112.png", 
+                    "name": "Minor Holy Orb", 
+                    "num": 5, 
+                    "type_name": "ABILITY_MATERIAL"
+                }
+            ]
+        }, 
+        "prologue": "The King of Baron has ordered Cecil of the Red Wings to deliver the Carnelian Signet to the village of Mist.", 
+        "prologue_image_path": "/dff/static/lang/image/dungeon/204001_prologue.png", 
+        "rank": 3, 
+        "series_id": 104001, 
+        "total_stamina": 7, 
+        "type": 1, 
+        "world_id": 104001
+    }, 
+    "success": true
+}

@@ -1,0 +1,1510 @@
+[
+    {
+        "is_sp_enemy": "1",
+        "deform_animation_info": [
+            {
+                "deform_tag": "deformation_02",
+                "is_random": false,
+                "state": [
+                    "2",
+                    "3"
+                ],
+                "path": "207024_1.json",
+                "enemy_id": "407038",
+                "id": "20702403"
+            },
+            {
+                "deform_tag": "deformation_01",
+                "is_random": false,
+                "state": [
+                    "2",
+                    "3"
+                ],
+                "path": "207024_1.json",
+                "enemy_id": "407038",
+                "id": "20702402"
+            },
+            {
+                "deform_tag": "in",
+                "is_random": false,
+                "state": [
+                    "2",
+                    "3"
+                ],
+                "path": "207024_1.json",
+                "enemy_id": "407038",
+                "id": "20702401"
+            }
+        ],
+        "children": [
+            {
+                "drop_item_list": [],
+                "uid": "201",
+                "no": "2",
+                "init_hp": "144180",
+                "max_hp": "144180",
+                "lv": "99",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "402012",
+                                "weight": "0"
+                            },
+                            {
+                                "ability_id": "402011",
+                                "weight": "15"
+                            },
+                            {
+                                "ability_id": "402010",
+                                "weight": "35"
+                            },
+                            {
+                                "ability_id": "402009",
+                                "weight": "50"
+                            }
+                        ],
+                        "spd": "100",
+                        "id": "4070383",
+                        "size": "3",
+                        "lv": "99",
+                        "no": "2",
+                        "mnd": 192,
+                        "disp_name": "Schizo (Left)",
+                        "looking": "0",
+                        "critical": "3",
+                        "max_hp": "144180",
+                        "matk": "308",
+                        "counters": [],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "225",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "206",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "203",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "213",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "229",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "220",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "202",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "224",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "214",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "205",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "200",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "201",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "215",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "218",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "211",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "101",
+                                "factor": "21"
+                            },
+                            {
+                                "attribute_id": "219",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "212",
+                                "factor": "1"
+                            }
+                        ],
+                        "mdef": "1404",
+                        "animation_info": {
+                            "scale": "1",
+                            "assets": {
+                                "boss-207024_3": "/Content/lang/ab/character/boss/207024/207024_3.json"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "enemy_status_id": "4070383",
+                            "offset_y": "0",
+                            "path": "207024_3",
+                            "offset_x": "0"
+                        },
+                        "acc": "100",
+                        "eva": "62",
+                        "atk": "297",
+                        "breed_id": "10",
+                        "exp": 0,
+                        "def": "201"
+                    },
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "402011",
+                                "weight": "20"
+                            },
+                            {
+                                "ability_id": "402009",
+                                "weight": "80"
+                            },
+                            {
+                                "ability_id": "402012",
+                                "weight": "0"
+                            }
+                        ],
+                        "spd": "100",
+                        "id": "4070384",
+                        "size": "3",
+                        "lv": "99",
+                        "no": "2",
+                        "mnd": 192,
+                        "disp_name": "Schizo (Left)",
+                        "looking": "0",
+                        "critical": "3",
+                        "max_hp": "144180",
+                        "matk": "308",
+                        "counters": [],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "211",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "201",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "220",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "205",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "101",
+                                "factor": "21"
+                            },
+                            {
+                                "attribute_id": "219",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "215",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "206",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "202",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "225",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "218",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "213",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "229",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "214",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "203",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "224",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "200",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "212",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            }
+                        ],
+                        "mdef": "1404",
+                        "animation_info": {
+                            "scale": "1",
+                            "assets": {
+                                "boss-207024_3": "/Content/lang/ab/character/boss/207024/207024_3.json"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "enemy_status_id": "4070384",
+                            "offset_y": "0",
+                            "path": "207024_3",
+                            "offset_x": "0"
+                        },
+                        "acc": "100",
+                        "eva": "62",
+                        "atk": "297",
+                        "breed_id": "10",
+                        "exp": 0,
+                        "def": "201"
+                    }
+                ],
+                "child_pos_id": "3",
+                "enemy_id": "407038",
+                "ai_id": "40703802"
+            },
+            {
+                "drop_item_list": [],
+                "uid": "202",
+                "no": "1",
+                "init_hp": "144180",
+                "max_hp": "144180",
+                "lv": "99",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "402007",
+                                "weight": "50"
+                            },
+                            {
+                                "ability_id": "402012",
+                                "weight": "0"
+                            },
+                            {
+                                "ability_id": "402011",
+                                "weight": "15"
+                            },
+                            {
+                                "ability_id": "402008",
+                                "weight": "35"
+                            }
+                        ],
+                        "spd": "100",
+                        "id": "4070381",
+                        "size": "3",
+                        "lv": "99",
+                        "no": "1",
+                        "mnd": 192,
+                        "disp_name": "Schizo (Right)",
+                        "looking": "0",
+                        "critical": "3",
+                        "max_hp": "144180",
+                        "matk": "308",
+                        "counters": [],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "206",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "220",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "100",
+                                "factor": "21"
+                            },
+                            {
+                                "attribute_id": "212",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "203",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "200",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "213",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "201",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "218",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "211",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "229",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "205",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "225",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "214",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "215",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "224",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "219",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "202",
+                                "factor": "1"
+                            }
+                        ],
+                        "mdef": "1404",
+                        "animation_info": {
+                            "scale": "1",
+                            "assets": {
+                                "boss-207024_2": "/Content/lang/ab/character/boss/207024/207024_2.json"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "enemy_status_id": "4070381",
+                            "offset_y": "0",
+                            "path": "207024_2",
+                            "offset_x": "0"
+                        },
+                        "acc": "100",
+                        "eva": "62",
+                        "atk": "297",
+                        "breed_id": "10",
+                        "exp": 0,
+                        "def": "201"
+                    },
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "402011",
+                                "weight": "20"
+                            },
+                            {
+                                "ability_id": "402012",
+                                "weight": "0"
+                            },
+                            {
+                                "ability_id": "402007",
+                                "weight": "80"
+                            }
+                        ],
+                        "spd": "100",
+                        "id": "4070382",
+                        "size": "3",
+                        "lv": "99",
+                        "no": "1",
+                        "mnd": 192,
+                        "disp_name": "Schizo (Right)",
+                        "looking": "0",
+                        "critical": "3",
+                        "max_hp": "144180",
+                        "matk": "308",
+                        "counters": [],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "229",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "203",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "213",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "224",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "100",
+                                "factor": "21"
+                            },
+                            {
+                                "attribute_id": "212",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "225",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "220",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "202",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "211",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "201",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "206",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "215",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "205",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "219",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "200",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "218",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "214",
+                                "factor": "1"
+                            }
+                        ],
+                        "mdef": "1404",
+                        "animation_info": {
+                            "scale": "1",
+                            "assets": {
+                                "boss-207024_2": "/Content/lang/ab/character/boss/207024/207024_2.json"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "enemy_status_id": "4070382",
+                            "offset_y": "0",
+                            "path": "207024_2",
+                            "offset_x": "0"
+                        },
+                        "acc": "100",
+                        "eva": "62",
+                        "atk": "297",
+                        "breed_id": "10",
+                        "exp": 0,
+                        "def": "201"
+                    }
+                ],
+                "child_pos_id": "2",
+                "enemy_id": "407038",
+                "ai_id": "40703801"
+            },
+            {
+                "drop_item_list": [],
+                "uid": "203",
+                "no": "3",
+                "init_hp": "144180",
+                "max_hp": "144180",
+                "lv": "99",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "101001",
+                                "weight": "0"
+                            }
+                        ],
+                        "spd": "100",
+                        "id": "4070385",
+                        "size": "3",
+                        "lv": "99",
+                        "no": "3",
+                        "mnd": 192,
+                        "disp_name": "Schizo",
+                        "looking": "0",
+                        "critical": "3",
+                        "max_hp": "144180",
+                        "matk": "308",
+                        "counters": [],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "211",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "218",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "225",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "212",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "202",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "209",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "220",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "207",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "219",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "205",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "224",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "208",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "201",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "206",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "216",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "204",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "213",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "214",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "200",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "229",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "210",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "215",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "203",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "217",
+                                "factor": "1"
+                            }
+                        ],
+                        "mdef": "1404",
+                        "animation_info": {
+                            "scale": "1",
+                            "assets": {
+                                "boss-207024_1": "/Content/lang/ab/character/boss/207024/207024_1.json"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "0",
+                            "enemy_status_id": "4070385",
+                            "offset_y": "0",
+                            "path": "207024_1",
+                            "offset_x": "0"
+                        },
+                        "acc": "100",
+                        "eva": "62",
+                        "atk": "297",
+                        "breed_id": "10",
+                        "exp": 4971,
+                        "def": "201"
+                    }
+                ],
+                "child_pos_id": "1",
+                "enemy_id": "407038",
+                "ai_id": "2"
+            }
+        ],
+        "id": "407038",
+        "ai_id": "40703851"
+    },
+    {
+        "is_sp_enemy": "1",
+        "deform_animation_info": [
+            {
+                "deform_tag": "deformation_02",
+                "is_random": false,
+                "state": [
+                    "2",
+                    "3"
+                ],
+                "path": "207024_1.json",
+                "enemy_id": "407038",
+                "id": "20702403"
+            },
+            {
+                "deform_tag": "deformation_01",
+                "is_random": false,
+                "state": [
+                    "2",
+                    "3"
+                ],
+                "path": "207024_1.json",
+                "enemy_id": "407038",
+                "id": "20702402"
+            },
+            {
+                "deform_tag": "in",
+                "is_random": false,
+                "state": [
+                    "2",
+                    "3"
+                ],
+                "path": "207024_1.json",
+                "enemy_id": "407038",
+                "id": "20702401"
+            }
+        ],
+        "ai_id": "40703851",
+        "id": "407038",
+        "children": [
+            {
+                "drop_item_list": [],
+                "uid": "201",
+                "no": "2",
+                "init_hp": "144180",
+                "child_pos_id": "3",
+                "lv": "99",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "402012",
+                                "weight": "0"
+                            },
+                            {
+                                "ability_id": "402011",
+                                "weight": "15"
+                            },
+                            {
+                                "ability_id": "402010",
+                                "weight": "35"
+                            },
+                            {
+                                "ability_id": "402009",
+                                "weight": "50"
+                            }
+                        ],
+                        "mnd": 192,
+                        "id": "4070383",
+                        "size": "3",
+                        "lv": "99",
+                        "no": "2",
+                        "spd": "100",
+                        "disp_name": "Schizo (Left)",
+                        "looking": "0",
+                        "critical": "3",
+                        "max_hp": "144180",
+                        "matk": "308",
+                        "counters": [],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "225",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "206",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "203",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "213",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "229",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "220",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "202",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "224",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "214",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "205",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "200",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "201",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "215",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "218",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "211",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "101",
+                                "factor": "21"
+                            },
+                            {
+                                "attribute_id": "219",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "212",
+                                "factor": "1"
+                            }
+                        ],
+                        "mdef": "1404",
+                        "animation_info": {
+                            "scale": "1",
+                            "assets": {
+                                "boss-207024_3": "/Content/lang/ab/character/boss/207024/207024_3.json"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "enemy_status_id": "4070383",
+                            "offset_y": "0",
+                            "path": "207024_3",
+                            "offset_x": "0"
+                        },
+                        "acc": "100",
+                        "eva": "62",
+                        "atk": "297",
+                        "breed_id": "10",
+                        "exp": 0,
+                        "def": "201"
+                    },
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "402011",
+                                "weight": "20"
+                            },
+                            {
+                                "ability_id": "402009",
+                                "weight": "80"
+                            },
+                            {
+                                "ability_id": "402012",
+                                "weight": "0"
+                            }
+                        ],
+                        "mnd": 192,
+                        "id": "4070384",
+                        "size": "3",
+                        "lv": "99",
+                        "no": "2",
+                        "spd": "100",
+                        "disp_name": "Schizo (Left)",
+                        "looking": "0",
+                        "critical": "3",
+                        "max_hp": "144180",
+                        "matk": "308",
+                        "counters": [],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "211",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "201",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "220",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "205",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "101",
+                                "factor": "21"
+                            },
+                            {
+                                "attribute_id": "219",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "215",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "206",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "202",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "225",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "218",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "213",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "229",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "214",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "203",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "224",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "200",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "212",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            }
+                        ],
+                        "mdef": "1404",
+                        "animation_info": {
+                            "scale": "1",
+                            "assets": {
+                                "boss-207024_3": "/Content/lang/ab/character/boss/207024/207024_3.json"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "enemy_status_id": "4070384",
+                            "offset_y": "0",
+                            "path": "207024_3",
+                            "offset_x": "0"
+                        },
+                        "acc": "100",
+                        "eva": "62",
+                        "atk": "297",
+                        "breed_id": "10",
+                        "exp": 0,
+                        "def": "201"
+                    }
+                ],
+                "max_hp": "144180",
+                "enemy_id": "407038",
+                "ai_id": "40703802"
+            },
+            {
+                "drop_item_list": [
+                    {
+                        "item_id": "40000023",
+                        "num": "1",
+                        "type": 51,
+                        "uid": 202,
+                        "rarity": "3"
+                    }
+                ],
+                "uid": "202",
+                "no": "1",
+                "init_hp": "144180",
+                "child_pos_id": "2",
+                "lv": "99",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "402007",
+                                "weight": "50"
+                            },
+                            {
+                                "ability_id": "402012",
+                                "weight": "0"
+                            },
+                            {
+                                "ability_id": "402011",
+                                "weight": "15"
+                            },
+                            {
+                                "ability_id": "402008",
+                                "weight": "35"
+                            }
+                        ],
+                        "mnd": 192,
+                        "id": "4070381",
+                        "size": "3",
+                        "lv": "99",
+                        "no": "1",
+                        "spd": "100",
+                        "disp_name": "Schizo (Right)",
+                        "looking": "0",
+                        "critical": "3",
+                        "max_hp": "144180",
+                        "matk": "308",
+                        "counters": [],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "206",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "220",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "100",
+                                "factor": "21"
+                            },
+                            {
+                                "attribute_id": "212",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "203",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "200",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "213",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "201",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "218",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "211",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "229",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "205",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "225",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "214",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "215",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "224",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "219",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "202",
+                                "factor": "1"
+                            }
+                        ],
+                        "mdef": "1404",
+                        "animation_info": {
+                            "scale": "1",
+                            "assets": {
+                                "boss-207024_2": "/Content/lang/ab/character/boss/207024/207024_2.json"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "enemy_status_id": "4070381",
+                            "offset_y": "0",
+                            "path": "207024_2",
+                            "offset_x": "0"
+                        },
+                        "acc": "100",
+                        "eva": "62",
+                        "atk": "297",
+                        "breed_id": "10",
+                        "exp": 0,
+                        "def": "201"
+                    },
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "402011",
+                                "weight": "20"
+                            },
+                            {
+                                "ability_id": "402012",
+                                "weight": "0"
+                            },
+                            {
+                                "ability_id": "402007",
+                                "weight": "80"
+                            }
+                        ],
+                        "mnd": 192,
+                        "id": "4070382",
+                        "size": "3",
+                        "lv": "99",
+                        "no": "1",
+                        "spd": "100",
+                        "disp_name": "Schizo (Right)",
+                        "looking": "0",
+                        "critical": "3",
+                        "max_hp": "144180",
+                        "matk": "308",
+                        "counters": [],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "229",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "203",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "213",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "224",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "100",
+                                "factor": "21"
+                            },
+                            {
+                                "attribute_id": "212",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "225",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "220",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "202",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "211",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "201",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "206",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "215",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "205",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "219",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "200",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "218",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "214",
+                                "factor": "1"
+                            }
+                        ],
+                        "mdef": "1404",
+                        "animation_info": {
+                            "scale": "1",
+                            "assets": {
+                                "boss-207024_2": "/Content/lang/ab/character/boss/207024/207024_2.json"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "enemy_status_id": "4070382",
+                            "offset_y": "0",
+                            "path": "207024_2",
+                            "offset_x": "0"
+                        },
+                        "acc": "100",
+                        "eva": "62",
+                        "atk": "297",
+                        "breed_id": "10",
+                        "exp": 0,
+                        "def": "201"
+                    }
+                ],
+                "max_hp": "144180",
+                "enemy_id": "407038",
+                "ai_id": "40703801"
+            },
+            {
+                "drop_item_list": [],
+                "uid": "203",
+                "no": "3",
+                "init_hp": "144180",
+                "child_pos_id": "1",
+                "lv": "99",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "101001",
+                                "weight": "0"
+                            }
+                        ],
+                        "mnd": 192,
+                        "id": "4070385",
+                        "size": "3",
+                        "lv": "99",
+                        "no": "3",
+                        "spd": "100",
+                        "disp_name": "Schizo",
+                        "looking": "0",
+                        "critical": "3",
+                        "max_hp": "144180",
+                        "matk": "308",
+                        "counters": [],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "211",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "218",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "225",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "212",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "202",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "209",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "220",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "207",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "219",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "205",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "224",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "208",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "201",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "206",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "216",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "204",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "213",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "214",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "200",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "229",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "210",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "215",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "203",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "217",
+                                "factor": "1"
+                            }
+                        ],
+                        "mdef": "1404",
+                        "animation_info": {
+                            "scale": "1",
+                            "assets": {
+                                "boss-207024_1": "/Content/lang/ab/character/boss/207024/207024_1.json"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "0",
+                            "enemy_status_id": "4070385",
+                            "offset_y": "0",
+                            "path": "207024_1",
+                            "offset_x": "0"
+                        },
+                        "acc": "100",
+                        "eva": "62",
+                        "atk": "297",
+                        "breed_id": "10",
+                        "exp": 4971,
+                        "def": "201"
+                    }
+                ],
+                "max_hp": "144180",
+                "enemy_id": "407038",
+                "ai_id": "2"
+            }
+        ]
+    }
+]

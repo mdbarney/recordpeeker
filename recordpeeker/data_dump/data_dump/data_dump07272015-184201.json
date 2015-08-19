@@ -1,0 +1,89 @@
+{
+    "SERVER_TIME": 1438040521, 
+    "can_review": false, 
+    "dungeon": {
+        "background_image_path": "/dff/static/lang/image/dungeon/202003_bg.png", 
+        "bgm": "bgm_02_014", 
+        "button_style": "NORMAL", 
+        "captures": [
+            {
+                "image_path": "/dff/static/lang/image/enemy/402003.png", 
+                "sp_scores": [
+                    {
+                        "battle_id": 302016, 
+                        "title": "Defeat Borghen without being KO'd."
+                    }
+                ], 
+                "tip_battle": {
+                    "group_id": 420035, 
+                    "id": 410035, 
+                    "message": "Borghen <span class=\"red\">heals himself</span>, which makes him one tough nut to crack, kupo! Use your party's muscle to <span class=\"red\">hit him faster than he can keep up!</span>", 
+                    "title": "Borghen"
+                }
+            }
+        ], 
+        "challenge_level": 18, 
+        "closed_at": 2145938400, 
+        "epilogue": "Former count Borghen turned traitor prior to the Empire's invasion, going on to exploit his own people, forcing laborers to mine Mythril and construct the airship Dreadnought. Yet Firion and his comrades foiled Borghen at every turn, and he fell in an ambush set for the heroes at the Snow Cavern. His final act was to trigger a boulder trap, claiming the life of Josef.", 
+        "epilogue_image_path": "/dff/static/lang/image/dungeon/202003_epilogue.png", 
+        "id": 202003, 
+        "is_clear": true, 
+        "is_master": true, 
+        "is_new": false, 
+        "is_unlocked": true, 
+        "name": "Snow Cavern (Return)", 
+        "opened_at": 1424152800, 
+        "order_no": 1, 
+        "prizes": {
+            "1": [
+                {
+                    "id": 92000000, 
+                    "image_path": "/dff/static/lang/image/common_item/92000000.png", 
+                    "name": "Gil", 
+                    "num": 1500, 
+                    "type_name": "COMMON"
+                }
+            ], 
+            "2": [
+                {
+                    "id": 94000000, 
+                    "image_path": "/dff/static/lang/image/common_item/94000000.png", 
+                    "name": "Stamina Shard", 
+                    "num": 2, 
+                    "type_name": "COMMON"
+                }, 
+                {
+                    "id": 91000000, 
+                    "image_path": "/dff/static/lang/image/common_item/91000000.png", 
+                    "name": "Mythril", 
+                    "num": 1, 
+                    "type_name": "COMMON"
+                }
+            ], 
+            "3": [
+                {
+                    "id": 40000032, 
+                    "image_path": "/dff/static/lang/image/ability_material/40000032/40000032_112.png", 
+                    "name": "Lesser Fire Orb", 
+                    "num": 5, 
+                    "type_name": "ABILITY_MATERIAL"
+                }, 
+                {
+                    "id": 94000000, 
+                    "image_path": "/dff/static/lang/image/common_item/94000000.png", 
+                    "name": "Stamina Shard", 
+                    "num": 2, 
+                    "type_name": "COMMON"
+                }
+            ]
+        }, 
+        "prologue": "Josef and Firion's team succeed in obtaining the Goddess's Bell within the Snow Cavern, but someone waits for them on their way out...", 
+        "prologue_image_path": "/dff/static/lang/image/dungeon/202003_prologue.png", 
+        "rank": 3, 
+        "series_id": 102001, 
+        "total_stamina": 31, 
+        "type": 1, 
+        "world_id": 102001
+    }, 
+    "success": true
+}

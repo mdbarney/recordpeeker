@@ -1,0 +1,2242 @@
+{
+    "user": {
+        "max_stamina": 70, 
+        "stamina_recovery_remaining_time": 474, 
+        "stamina_recovery_time": 180, 
+        "supporter_ss_gauge": 2, 
+        "id": 5143210343006208, 
+        "can_review": true, 
+        "func_tutorial_bits": 491517, 
+        "max_follower_num": 100, 
+        "stamina": 67, 
+        "gil": 219237, 
+        "start_time_of_today": 1439816400, 
+        "release_id": 0, 
+        "residual_stamina_piece": 4, 
+        "is_in_dungeon": false, 
+        "last_logined_at": 1439817409, 
+        "soul_piece": 64, 
+        "followee_num": 28, 
+        "max_followee_num": 100, 
+        "dungeon_id": 0, 
+        "name": "Tyro", 
+        "is_update_last_logined_at": false, 
+        "stamina_piece": 354, 
+        "tutorial_step": 255, 
+        "has_all_clear_ver_to_show": false
+    }, 
+    "SERVER_TIME": 1439861104, 
+    "total_quest_master_num": 139, 
+    "success": true, 
+    "quests": [
+        {
+            "can_challenge": false, 
+            "is_completed": true, 
+            "is_challenging": false, 
+            "is_tutorial": true, 
+            "achieve_type_name": "ENHANCE", 
+            "closed_at": 2145938400, 
+            "id": 10101001, 
+            "title": "Weapon Upgrade", 
+            "order_cond_description": "", 
+            "is_achieved": false, 
+            "opened_at": 1433678400, 
+            "hint_msg": "", 
+            "hint_title": "", 
+            "is_real_type_group": false, 
+            "description": "Upgrade a weapon!<br>\nUpgrading a weapon improves its stats and makes it more powerful.", 
+            "is_new": false, 
+            "prizes": [
+                {
+                    "id": 24098001, 
+                    "type_name": "EQUIPMENT", 
+                    "num": 5, 
+                    "image_path": "/dff/static/lang/image/equipment/24098001/24098001_01_112.png", 
+                    "name": "Tiny Scarletite"
+                }
+            ], 
+            "achieve_cond_description": "Upgrade any weapon after accepting the quest.", 
+            "is_steady_type_group": true, 
+            "is_event_type_group": false, 
+            "is_special": false, 
+            "achieve_type": 1, 
+            "disp_number": 1, 
+            "is_event": false, 
+            "is_normal": true
+        }, 
+        {
+            "can_challenge": false, 
+            "is_completed": true, 
+            "is_challenging": false, 
+            "is_tutorial": false, 
+            "achieve_type_name": "ENHANCE", 
+            "closed_at": 2145938400, 
+            "id": 10101002, 
+            "title": "Max Weapon Upgrade", 
+            "order_cond_description": "", 
+            "is_achieved": false, 
+            "opened_at": 1433678400, 
+            "hint_msg": "", 
+            "hint_title": "", 
+            "is_real_type_group": false, 
+            "description": "Upgrade a weapon to max!<br>\nUpgrading a weapon to max allows you to combine it.<br>\nYou'll need an identical weapon to combine it with, though.", 
+            "is_new": false, 
+            "prizes": [
+                {
+                    "id": 24098002, 
+                    "type_name": "EQUIPMENT", 
+                    "num": 5, 
+                    "image_path": "/dff/static/lang/image/equipment/24098002/24098002_02_112.png", 
+                    "name": "Small Scarletite"
+                }
+            ], 
+            "achieve_cond_description": "Upgrade any weapon to max level after accepting the quest.", 
+            "is_steady_type_group": true, 
+            "is_event_type_group": false, 
+            "is_special": false, 
+            "achieve_type": 1, 
+            "disp_number": 3, 
+            "is_event": false, 
+            "is_normal": true
+        }, 
+        {
+            "can_challenge": false, 
+            "is_completed": true, 
+            "is_challenging": false, 
+            "is_tutorial": true, 
+            "achieve_type_name": "ENHANCE", 
+            "closed_at": 2145938400, 
+            "id": 10102001, 
+            "title": "Armor Upgrade", 
+            "order_cond_description": "", 
+            "is_achieved": false, 
+            "opened_at": 1433678400, 
+            "hint_msg": "", 
+            "hint_title": "", 
+            "is_real_type_group": false, 
+            "description": "Upgrade a piece of armor!<br>\nUpgrading armor improves its stats and makes it more powerful.", 
+            "is_new": false, 
+            "prizes": [
+                {
+                    "id": 24099001, 
+                    "type_name": "EQUIPMENT", 
+                    "num": 5, 
+                    "image_path": "/dff/static/lang/image/equipment/24099001/24099001_01_112.png", 
+                    "name": "Tiny Adamantite"
+                }
+            ], 
+            "achieve_cond_description": "Upgrade any armor after accepting the quest.", 
+            "is_steady_type_group": true, 
+            "is_event_type_group": false, 
+            "is_special": false, 
+            "achieve_type": 1, 
+            "disp_number": 2, 
+            "is_event": false, 
+            "is_normal": true
+        }, 
+        {
+            "can_challenge": false, 
+            "is_completed": true, 
+            "is_challenging": false, 
+            "is_tutorial": false, 
+            "achieve_type_name": "ENHANCE", 
+            "closed_at": 2145938400, 
+            "id": 10102002, 
+            "title": "Max Armor Upgrade", 
+            "order_cond_description": "", 
+            "is_achieved": false, 
+            "opened_at": 1433678400, 
+            "hint_msg": "", 
+            "hint_title": "", 
+            "is_real_type_group": false, 
+            "description": "Upgrade a piece of armor to max!<br>\nUpgrading armor to max allows you to combine it.<br>\nYou'll need an identical piece of armor to combine it with, though.", 
+            "is_new": false, 
+            "prizes": [
+                {
+                    "id": 24099002, 
+                    "type_name": "EQUIPMENT", 
+                    "num": 5, 
+                    "image_path": "/dff/static/lang/image/equipment/24099002/24099002_02_112.png", 
+                    "name": "Small Adamantite"
+                }
+            ], 
+            "achieve_cond_description": "Upgrade any armor to max level after accepting the quest.", 
+            "is_steady_type_group": true, 
+            "is_event_type_group": false, 
+            "is_special": false, 
+            "achieve_type": 1, 
+            "disp_number": 4, 
+            "is_event": false, 
+            "is_normal": true
+        }, 
+        {
+            "can_challenge": true, 
+            "is_completed": false, 
+            "is_challenging": false, 
+            "is_tutorial": false, 
+            "achieve_type_name": "EVOLVE", 
+            "closed_at": 2145938400, 
+            "id": 10201001, 
+            "title": "Combine Weapon", 
+            "order_cond_description": "", 
+            "is_achieved": false, 
+            "opened_at": 1433678400, 
+            "hint_msg": "", 
+            "hint_title": "", 
+            "is_real_type_group": false, 
+            "description": "Combine a weapon!<br>\nCombining a weapon raises its max upgrade level, allowing you to upgrade it further.", 
+            "is_new": true, 
+            "prizes": [
+                {
+                    "id": 24098003, 
+                    "type_name": "EQUIPMENT", 
+                    "num": 5, 
+                    "image_path": "/dff/static/lang/image/equipment/24098003/24098003_03_112.png", 
+                    "name": "Scarletite"
+                }
+            ], 
+            "achieve_cond_description": "Combine any weapon after accepting the quest.", 
+            "is_steady_type_group": true, 
+            "is_event_type_group": false, 
+            "is_special": false, 
+            "achieve_type": 2, 
+            "disp_number": 5, 
+            "is_event": false, 
+            "is_normal": true
+        }, 
+        {
+            "can_challenge": true, 
+            "is_completed": false, 
+            "is_challenging": false, 
+            "is_tutorial": false, 
+            "achieve_type_name": "EVOLVE", 
+            "closed_at": 2145938400, 
+            "id": 10202001, 
+            "title": "Combine Armor", 
+            "order_cond_description": "", 
+            "is_achieved": false, 
+            "opened_at": 1433678400, 
+            "hint_msg": "", 
+            "hint_title": "", 
+            "is_real_type_group": false, 
+            "description": "Combine a piece of armor!<br>\nCombining armor raises its max upgrade level, allowing you to upgrade it further.", 
+            "is_new": true, 
+            "prizes": [
+                {
+                    "id": 24099003, 
+                    "type_name": "EQUIPMENT", 
+                    "num": 5, 
+                    "image_path": "/dff/static/lang/image/equipment/24099003/24099003_03_112.png", 
+                    "name": "Adamantite"
+                }
+            ], 
+            "achieve_cond_description": "Combine any armor after accepting the quest.", 
+            "is_steady_type_group": true, 
+            "is_event_type_group": false, 
+            "is_special": false, 
+            "achieve_type": 2, 
+            "disp_number": 6, 
+            "is_event": false, 
+            "is_normal": true
+        }, 
+        {
+            "can_challenge": false, 
+            "is_completed": true, 
+            "is_challenging": false, 
+            "is_tutorial": true, 
+            "achieve_type_name": "GET_ITEM", 
+            "closed_at": 2145938400, 
+            "id": 10300001, 
+            "title": "Accessorize", 
+            "order_cond_description": "", 
+            "is_achieved": false, 
+            "opened_at": 1433678400, 
+            "hint_msg": "Check the rewards pages of the available events, find one with an accessory you want, and complete the event!", 
+            "hint_title": "Choosing an Event", 
+            "is_real_type_group": false, 
+            "description": "Get an accessory!<br>\nAccessories can confer all sorts of bonuses to characters, like raising stats or giving resistance to debuffs.<br>\nAccessories are usually obtained as rewards during events.", 
+            "is_new": false, 
+            "prizes": [
+                {
+                    "id": 92000000, 
+                    "type_name": "COMMON", 
+                    "num": 30000, 
+                    "image_path": "/dff/static/lang/image/common_item/92000000.png", 
+                    "name": "Gil"
+                }
+            ], 
+            "achieve_cond_description": "Acquire 1 or more accessories after accepting the quest.", 
+            "is_steady_type_group": true, 
+            "is_event_type_group": false, 
+            "is_special": false, 
+            "achieve_type": 3, 
+            "disp_number": 1, 
+            "is_event": false, 
+            "is_normal": true
+        }, 
+        {
+            "can_challenge": false, 
+            "is_completed": false, 
+            "is_challenging": true, 
+            "is_tutorial": true, 
+            "achieve_type_name": "CLEAR_DUNGEON", 
+            "closed_at": 2145938400, 
+            "id": 10401001, 
+            "title": "Complete Mako Reactor No. 5 (VII)", 
+            "order_cond_description": "", 
+            "is_achieved": false, 
+            "opened_at": 1433678400, 
+            "hint_msg": "Air Buster is the boss of the Mako Reactor No. 5 dungeon (VII).<br>Exploit Air Buster's weakness to lightning to deal extra damage!", 
+            "hint_title": "Defeating Air Buster", 
+            "is_real_type_group": false, 
+            "description": "Complete Mako Reactor No. 5 in the FINAL FANTASY VII realm!<br>\nCompleting Classic dungeons earns you Mythril and Stamina Shards.<br>\nUse 5 Mythril to get rare equipment from a Relic Draw.<br>\nCollect 5 Stamina Shards to raise your maximum Stamina by 1.", 
+            "is_new": false, 
+            "prizes": [
+                {
+                    "id": 91000000, 
+                    "type_name": "COMMON", 
+                    "num": 1, 
+                    "image_path": "/dff/static/lang/image/common_item/91000000.png", 
+                    "name": "Mythril"
+                }
+            ], 
+            "achieve_cond_description": "Complete the Mako Reactor No. 5 dungeon in the FINAL FANTASY VII realm after accepting the quest.", 
+            "is_steady_type_group": true, 
+            "is_event_type_group": false, 
+            "is_special": false, 
+            "achieve_type": 4, 
+            "disp_number": 1, 
+            "is_event": false, 
+            "is_normal": true
+        }, 
+        {
+            "can_challenge": true, 
+            "is_completed": false, 
+            "is_challenging": false, 
+            "is_tutorial": false, 
+            "achieve_type_name": "BUDDY_LEVEL", 
+            "closed_at": 2145938400, 
+            "id": 10500001, 
+            "title": "Level 10 Character (FINAL FANTASY I)", 
+            "order_cond_description": "", 
+            "is_achieved": false, 
+            "opened_at": 1433678400, 
+            "hint_msg": "", 
+            "hint_title": "", 
+            "is_real_type_group": false, 
+            "description": "Raise a character from FINAL FANTASY I to level 10!<br>\nThe Warrior of Light is a character from FINAL FANTASY I.<br>\nRecruit the Warrior of Light by completing the Cavern of Earth 1 dungeon (I).<br>\nWhen fighting in dungeons from their native realm, characters get a Record Synergy bonus.<br>\nThe Record Synergy bonus boosts characters' stats and the EXP they earn.<br>\nRecruit characters from each realm to have the perfect party ready at a moment's notice!", 
+            "is_new": true, 
+            "prizes": [
+                {
+                    "id": 70000002, 
+                    "type_name": "GROW_EGG", 
+                    "num": 5, 
+                    "image_path": "/dff/static/lang/image/growegg/70000002/70000002_112.png", 
+                    "name": "Lesser Growth Egg"
+                }
+            ], 
+            "achieve_cond_description": "Raise any character from the FINAL FANTASY I realm to level 10 or higher.", 
+            "is_steady_type_group": true, 
+            "is_event_type_group": false, 
+            "is_special": false, 
+            "achieve_type": 5, 
+            "disp_number": 1, 
+            "is_event": false, 
+            "is_normal": true
+        }, 
+        {
+            "can_challenge": false, 
+            "is_completed": true, 
+            "is_challenging": false, 
+            "is_tutorial": false, 
+            "achieve_type_name": "BUDDY_LEVEL", 
+            "closed_at": 2145938400, 
+            "id": 10500004, 
+            "title": "Level 10 Character (FINAL FANTASY II)", 
+            "order_cond_description": "", 
+            "is_achieved": false, 
+            "opened_at": 1433678400, 
+            "hint_msg": "", 
+            "hint_title": "", 
+            "is_real_type_group": false, 
+            "description": "Raise a character from FINAL FANTASY II to level 10!<br>\nJosef and Gordon are characters from FINAL FANTASY II.<br>\nRecruit Josef by completing the Snow Cavern dungeon (II), and recruit Gordon by completing the Dreadnought dungeon (II).<br>\nOther characters can be recruited in different ways, such as completing events.<br>\nWhen fighting in dungeons from their native realm, characters get a Record Synergy bonus.<br>\nThe Record Synergy bonus boosts characters' stats and the EXP they earn.<br>\nRecruit characters from each realm to have the perfect party ready at a moment's notice!", 
+            "is_new": false, 
+            "prizes": [
+                {
+                    "id": 70000002, 
+                    "type_name": "GROW_EGG", 
+                    "num": 5, 
+                    "image_path": "/dff/static/lang/image/growegg/70000002/70000002_112.png", 
+                    "name": "Lesser Growth Egg"
+                }
+            ], 
+            "achieve_cond_description": "Raise any character from the FINAL FANTASY II realm to level 10 or higher.", 
+            "is_steady_type_group": true, 
+            "is_event_type_group": false, 
+            "is_special": false, 
+            "achieve_type": 5, 
+            "disp_number": 4, 
+            "is_event": false, 
+            "is_normal": true
+        }, 
+        {
+            "can_challenge": true, 
+            "is_completed": false, 
+            "is_challenging": false, 
+            "is_tutorial": false, 
+            "achieve_type_name": "BUDDY_LEVEL", 
+            "closed_at": 2145938400, 
+            "id": 10500005, 
+            "title": "Level 30 Character (FINAL FANTASY II)", 
+            "order_cond_description": "", 
+            "is_achieved": false, 
+            "opened_at": 1433678400, 
+            "hint_msg": "", 
+            "hint_title": "", 
+            "is_real_type_group": false, 
+            "description": "Raise a character from FINAL FANTASY II to level 30!<br>\nWhen fighting in dungeons from their native realm, characters get a Record Synergy bonus.<br>\nThe Record Synergy bonus boosts characters' stats and the EXP they earn.<br>\nRecruit characters from each realm to have the perfect party ready at a moment's notice!", 
+            "is_new": true, 
+            "prizes": [
+                {
+                    "id": 70000003, 
+                    "type_name": "GROW_EGG", 
+                    "num": 3, 
+                    "image_path": "/dff/static/lang/image/growegg/70000003/70000003_112.png", 
+                    "name": "Growth Egg"
+                }
+            ], 
+            "achieve_cond_description": "Raise any character from the FINAL FANTASY II realm to level 30 or higher.", 
+            "is_steady_type_group": true, 
+            "is_event_type_group": false, 
+            "is_special": false, 
+            "achieve_type": 5, 
+            "disp_number": 5, 
+            "is_event": false, 
+            "is_normal": true
+        }, 
+        {
+            "can_challenge": true, 
+            "is_completed": false, 
+            "is_challenging": false, 
+            "is_tutorial": false, 
+            "achieve_type_name": "BUDDY_LEVEL", 
+            "closed_at": 2145938400, 
+            "id": 10500007, 
+            "title": "Level 10 Character (FINAL FANTASY III)", 
+            "order_cond_description": "", 
+            "is_achieved": false, 
+            "opened_at": 1434675600, 
+            "hint_msg": "", 
+            "hint_title": "", 
+            "is_real_type_group": false, 
+            "description": "Raise a character from FINAL FANTASY III to level 10!<br>\nLuneth and Refia are characters from FINAL FANTASY III.<br>\nRecruit Luneth by completing the Altar Cave dungeon (III), and recruit Refia by completing the Molten Cave dungeon (III).<br>\nOther characters can be recruited in different ways, such as completing events.<br>\nWhen fighting in dungeons from their native realm, characters get a Record Synergy bonus.<br>\nThe Record Synergy bonus boosts characters' stats and the EXP they earn.<br>\nRecruit characters from each realm to have the perfect party ready at a moment's notice!", 
+            "is_new": true, 
+            "prizes": [
+                {
+                    "id": 70000002, 
+                    "type_name": "GROW_EGG", 
+                    "num": 5, 
+                    "image_path": "/dff/static/lang/image/growegg/70000002/70000002_112.png", 
+                    "name": "Lesser Growth Egg"
+                }
+            ], 
+            "achieve_cond_description": "Raise any character from the FINAL FANTASY III realm to level 10 or higher.", 
+            "is_steady_type_group": true, 
+            "is_event_type_group": false, 
+            "is_special": false, 
+            "achieve_type": 5, 
+            "disp_number": 7, 
+            "is_event": false, 
+            "is_normal": true
+        }, 
+        {
+            "can_challenge": false, 
+            "is_completed": true, 
+            "is_challenging": false, 
+            "is_tutorial": false, 
+            "achieve_type_name": "BUDDY_LEVEL", 
+            "closed_at": 2145938400, 
+            "id": 10500010, 
+            "title": "Level  Character 10 (FINAL FANTASY IV)", 
+            "order_cond_description": "", 
+            "is_achieved": false, 
+            "opened_at": 1433678400, 
+            "hint_msg": "", 
+            "hint_title": "", 
+            "is_real_type_group": false, 
+            "description": "Raise a character from FINAL FANTASY IV to level 10!<br>\nKain and Rydia are characters from FINAL FANTASY IV.<br>\nRecruit Kain by completing the Mist Cave dungeon (IV), and recruit Rydia by completing the Fabul Castle dungeon (IV).<br>\nOther characters can be recruited in different ways, such as completing events.<br>\nWhen fighting in dungeons from their native realm, characters get a Record Synergy bonus.<br>\nThe Record Synergy bonus boosts characters' stats and the EXP they earn.<br>\nRecruit characters from each realm to have the perfect party ready at a moment's notice!", 
+            "is_new": false, 
+            "prizes": [
+                {
+                    "id": 70000002, 
+                    "type_name": "GROW_EGG", 
+                    "num": 5, 
+                    "image_path": "/dff/static/lang/image/growegg/70000002/70000002_112.png", 
+                    "name": "Lesser Growth Egg"
+                }
+            ], 
+            "achieve_cond_description": "Raise any character from the FINAL FANTASY IV realm to level 10 or higher.", 
+            "is_steady_type_group": true, 
+            "is_event_type_group": false, 
+            "is_special": false, 
+            "achieve_type": 5, 
+            "disp_number": 10, 
+            "is_event": false, 
+            "is_normal": true
+        }, 
+        {
+            "can_challenge": false, 
+            "is_completed": true, 
+            "is_challenging": false, 
+            "is_tutorial": false, 
+            "achieve_type_name": "BUDDY_LEVEL", 
+            "closed_at": 2145938400, 
+            "id": 10500011, 
+            "title": "Level 30 Character (FINAL FANTASY IV)", 
+            "order_cond_description": "", 
+            "is_achieved": false, 
+            "opened_at": 1433678400, 
+            "hint_msg": "", 
+            "hint_title": "", 
+            "is_real_type_group": false, 
+            "description": "Raise a character from FINAL FANTASY IV to level 30!<br>\nWhen fighting in dungeons from their native realm, characters get a Record Synergy bonus.<br>\nThe Record Synergy bonus boosts characters' stats and the EXP they earn.<br>\nRecruit characters from each realm to have the perfect party ready at a moment's notice!", 
+            "is_new": false, 
+            "prizes": [
+                {
+                    "id": 70000003, 
+                    "type_name": "GROW_EGG", 
+                    "num": 3, 
+                    "image_path": "/dff/static/lang/image/growegg/70000003/70000003_112.png", 
+                    "name": "Growth Egg"
+                }
+            ], 
+            "achieve_cond_description": "Raise any character from the FINAL FANTASY IV realm to level 30 or higher.", 
+            "is_steady_type_group": true, 
+            "is_event_type_group": false, 
+            "is_special": false, 
+            "achieve_type": 5, 
+            "disp_number": 11, 
+            "is_event": false, 
+            "is_normal": true
+        }, 
+        {
+            "can_challenge": true, 
+            "is_completed": false, 
+            "is_challenging": false, 
+            "is_tutorial": false, 
+            "achieve_type_name": "BUDDY_LEVEL", 
+            "closed_at": 2145938400, 
+            "id": 10500012, 
+            "title": "Level 50 Character (FINAL FANTASY IV)", 
+            "order_cond_description": "", 
+            "is_achieved": false, 
+            "opened_at": 1433678400, 
+            "hint_msg": "", 
+            "hint_title": "", 
+            "is_real_type_group": false, 
+            "description": "Raise a character from FINAL FANTASY IV to level 50!<br>\nWhen fighting in dungeons from their native realm, characters get a Record Synergy bonus.<br>\nThe Record Synergy bonus boosts characters' stats and the EXP they earn.<br>\nRecruit characters from each realm to have the perfect party ready at a moment's notice!", 
+            "is_new": true, 
+            "prizes": [
+                {
+                    "id": 91000000, 
+                    "type_name": "COMMON", 
+                    "num": 1, 
+                    "image_path": "/dff/static/lang/image/common_item/91000000.png", 
+                    "name": "Mythril"
+                }
+            ], 
+            "achieve_cond_description": "Raise any character from the FINAL FANTASY IV realm to level 50 or higher.", 
+            "is_steady_type_group": true, 
+            "is_event_type_group": false, 
+            "is_special": false, 
+            "achieve_type": 5, 
+            "disp_number": 12, 
+            "is_event": false, 
+            "is_normal": true
+        }, 
+        {
+            "can_challenge": true, 
+            "is_completed": false, 
+            "is_challenging": false, 
+            "is_tutorial": false, 
+            "achieve_type_name": "BUDDY_LEVEL", 
+            "closed_at": 2145938400, 
+            "id": 10500013, 
+            "title": "Level 10 Character (FINAL FANTASY V)", 
+            "order_cond_description": "", 
+            "is_achieved": false, 
+            "opened_at": 1433678400, 
+            "hint_msg": "", 
+            "hint_title": "", 
+            "is_real_type_group": false, 
+            "description": "Raise a character from FINAL FANTASY V to level 10!<br>\nLenna is a character from the FINAL FANTASY V realm who can be recruited by completing a bonus quest.<br>\nWhen fighting in dungeons from their native realm, characters get a Record Synergy bonus.<br>\nThe Record Synergy bonus boosts characters' stats and the EXP they earn.<br>\nRecruit characters from each realm to have the perfect party ready at a moment's notice!", 
+            "is_new": true, 
+            "prizes": [
+                {
+                    "id": 70000002, 
+                    "type_name": "GROW_EGG", 
+                    "num": 5, 
+                    "image_path": "/dff/static/lang/image/growegg/70000002/70000002_112.png", 
+                    "name": "Lesser Growth Egg"
+                }
+            ], 
+            "achieve_cond_description": "Raise any character from the FINAL FANTASY V realm to level 10 or higher.", 
+            "is_steady_type_group": true, 
+            "is_event_type_group": false, 
+            "is_special": false, 
+            "achieve_type": 5, 
+            "disp_number": 13, 
+            "is_event": false, 
+            "is_normal": true
+        }, 
+        {
+            "can_challenge": false, 
+            "is_completed": true, 
+            "is_challenging": false, 
+            "is_tutorial": false, 
+            "achieve_type_name": "BUDDY_LEVEL", 
+            "closed_at": 2145938400, 
+            "id": 10500016, 
+            "title": "Level 10 Character (FINAL FANTASY VI)", 
+            "order_cond_description": "", 
+            "is_achieved": false, 
+            "opened_at": 1433678400, 
+            "hint_msg": "", 
+            "hint_title": "", 
+            "is_real_type_group": false, 
+            "description": "Raise a character from FINAL FANTASY VI to level 10!<br>\nCyan is a character from the FINAL FANTASY VI realm who can be recruited by completing the Phantom Train (VI) dungeon .<br>\nWhen fighting in dungeons from their native realm, characters get a Record Synergy bonus.<br>\nThe Record Synergy bonus boosts characters' stats and the EXP they earn.<br>\nRecruit characters from each realm to have the perfect party ready at a moment's notice!", 
+            "is_new": false, 
+            "prizes": [
+                {
+                    "id": 70000002, 
+                    "type_name": "GROW_EGG", 
+                    "num": 5, 
+                    "image_path": "/dff/static/lang/image/growegg/70000002/70000002_112.png", 
+                    "name": "Lesser Growth Egg"
+                }
+            ], 
+            "achieve_cond_description": "Raise any character from the FINAL FANTASY VI realm to level 10 or higher.", 
+            "is_steady_type_group": true, 
+            "is_event_type_group": false, 
+            "is_special": false, 
+            "achieve_type": 5, 
+            "disp_number": 16, 
+            "is_event": false, 
+            "is_normal": true
+        }, 
+        {
+            "can_challenge": true, 
+            "is_completed": false, 
+            "is_challenging": false, 
+            "is_tutorial": false, 
+            "achieve_type_name": "BUDDY_LEVEL", 
+            "closed_at": 2145938400, 
+            "id": 10500017, 
+            "title": "Level 30 Character (FINAL FANTASY VI)", 
+            "order_cond_description": "", 
+            "is_achieved": false, 
+            "opened_at": 1433678400, 
+            "hint_msg": "", 
+            "hint_title": "", 
+            "is_real_type_group": false, 
+            "description": "Raise a character from FINAL FANTASY VI to level 30!<br>\nWhen fighting in dungeons from their native realm, characters get a Record Synergy bonus.<br>\nThe Record Synergy bonus boosts characters' stats and the EXP they earn.<br>\nRecruit characters from each realm to have the perfect party ready at a moment's notice!", 
+            "is_new": true, 
+            "prizes": [
+                {
+                    "id": 70000003, 
+                    "type_name": "GROW_EGG", 
+                    "num": 3, 
+                    "image_path": "/dff/static/lang/image/growegg/70000003/70000003_112.png", 
+                    "name": "Growth Egg"
+                }
+            ], 
+            "achieve_cond_description": "Raise any character from the FINAL FANTASY VI realm to level 30 or higher.", 
+            "is_steady_type_group": true, 
+            "is_event_type_group": false, 
+            "is_special": false, 
+            "achieve_type": 5, 
+            "disp_number": 17, 
+            "is_event": false, 
+            "is_normal": true
+        }, 
+        {
+            "can_challenge": false, 
+            "is_completed": true, 
+            "is_challenging": false, 
+            "is_tutorial": true, 
+            "achieve_type_name": "BUDDY_LEVEL", 
+            "closed_at": 2145938400, 
+            "id": 10500019, 
+            "title": "Level 10 Character (FINAL FANTASY VII)", 
+            "order_cond_description": "", 
+            "is_achieved": false, 
+            "opened_at": 1433678400, 
+            "hint_msg": "", 
+            "hint_title": "", 
+            "is_real_type_group": false, 
+            "description": "Raise a character from FINAL FANTASY VII to level 10!<br>\nCloud is a character from the FINAL FANTASY VII realm who can be recruited by completing the Mako Reactor No. 5 (VII) dungeon .<br>\nWhen fighting in dungeons from their native realm, characters get a Record Synergy bonus.<br>\nThe Record Synergy bonus boosts characters' stats and the EXP they earn.<br>\nRecruit characters from each realm to have the perfect party ready at a moment's notice!", 
+            "is_new": false, 
+            "prizes": [
+                {
+                    "id": 70000002, 
+                    "type_name": "GROW_EGG", 
+                    "num": 5, 
+                    "image_path": "/dff/static/lang/image/growegg/70000002/70000002_112.png", 
+                    "name": "Lesser Growth Egg"
+                }
+            ], 
+            "achieve_cond_description": "Raise any character from the FINAL FANTASY VII realm to level 10 or higher.", 
+            "is_steady_type_group": true, 
+            "is_event_type_group": false, 
+            "is_special": false, 
+            "achieve_type": 5, 
+            "disp_number": 19, 
+            "is_event": false, 
+            "is_normal": true
+        }, 
+        {
+            "can_challenge": false, 
+            "is_completed": true, 
+            "is_challenging": false, 
+            "is_tutorial": false, 
+            "achieve_type_name": "BUDDY_LEVEL", 
+            "closed_at": 2145938400, 
+            "id": 10500020, 
+            "title": "Level 30 Character (FINAL FANTASY VII)", 
+            "order_cond_description": "", 
+            "is_achieved": false, 
+            "opened_at": 1433678400, 
+            "hint_msg": "", 
+            "hint_title": "", 
+            "is_real_type_group": false, 
+            "description": "Raise a character from FINAL FANTASY VII to level 30!<br>\nWhen fighting in dungeons from their native realm, characters get a Record Synergy bonus.<br>\nThe Record Synergy bonus boosts characters' stats and the EXP they earn.<br>\nRecruit characters from each realm to have the perfect party ready at a moment's notice!", 
+            "is_new": false, 
+            "prizes": [
+                {
+                    "id": 70000003, 
+                    "type_name": "GROW_EGG", 
+                    "num": 3, 
+                    "image_path": "/dff/static/lang/image/growegg/70000003/70000003_112.png", 
+                    "name": "Growth Egg"
+                }
+            ], 
+            "achieve_cond_description": "Raise any character from the FINAL FANTASY VII realm to level 30 or higher.", 
+            "is_steady_type_group": true, 
+            "is_event_type_group": false, 
+            "is_special": false, 
+            "achieve_type": 5, 
+            "disp_number": 20, 
+            "is_event": false, 
+            "is_normal": true
+        }, 
+        {
+            "can_challenge": true, 
+            "is_completed": false, 
+            "is_challenging": false, 
+            "is_tutorial": false, 
+            "achieve_type_name": "BUDDY_LEVEL", 
+            "closed_at": 2145938400, 
+            "id": 10500021, 
+            "title": "Level 50 Character (FINAL FANTASY VII)", 
+            "order_cond_description": "", 
+            "is_achieved": false, 
+            "opened_at": 1433678400, 
+            "hint_msg": "", 
+            "hint_title": "", 
+            "is_real_type_group": false, 
+            "description": "Raise a character from FINAL FANTASY VII to level 50!<br>\nWhen fighting in dungeons from their native realm, characters get a Record Synergy bonus.<br>\nThe Record Synergy bonus boosts characters' stats and the EXP they earn.<br>\nRecruit characters from each realm to have the perfect party ready at a moment's notice!", 
+            "is_new": true, 
+            "prizes": [
+                {
+                    "id": 91000000, 
+                    "type_name": "COMMON", 
+                    "num": 1, 
+                    "image_path": "/dff/static/lang/image/common_item/91000000.png", 
+                    "name": "Mythril"
+                }
+            ], 
+            "achieve_cond_description": "Raise any character from the FINAL FANTASY VII realm to level 50 or higher.", 
+            "is_steady_type_group": true, 
+            "is_event_type_group": false, 
+            "is_special": false, 
+            "achieve_type": 5, 
+            "disp_number": 21, 
+            "is_event": false, 
+            "is_normal": true
+        }, 
+        {
+            "can_challenge": false, 
+            "is_completed": true, 
+            "is_challenging": false, 
+            "is_tutorial": false, 
+            "achieve_type_name": "BUDDY_LEVEL", 
+            "closed_at": 2145938400, 
+            "id": 10500022, 
+            "title": "Level 10 Character (FINAL FANTASY VIII)", 
+            "order_cond_description": "", 
+            "is_achieved": false, 
+            "opened_at": 1434675600, 
+            "hint_msg": "", 
+            "hint_title": "", 
+            "is_real_type_group": false, 
+            "description": "Raise a character from FINAL FANTASY VIII to level 10!<br>\nIrvine is a character from the FINAL FANTASY VIII realm who can be recruited by completing the Fisherman's Horizon (VIII) dungeon .<br>\nWhen fighting in dungeons from their native realm, characters get a Record Synergy bonus.<br>\nThe Record Synergy bonus boosts characters' stats and the EXP they earn.<br>\nRecruit characters from each realm to have the perfect party ready at a moment's notice!", 
+            "is_new": false, 
+            "prizes": [
+                {
+                    "id": 70000002, 
+                    "type_name": "GROW_EGG", 
+                    "num": 5, 
+                    "image_path": "/dff/static/lang/image/growegg/70000002/70000002_112.png", 
+                    "name": "Lesser Growth Egg"
+                }
+            ], 
+            "achieve_cond_description": "Raise any character from the FINAL FANTASY VIII realm to level 10 or higher.", 
+            "is_steady_type_group": true, 
+            "is_event_type_group": false, 
+            "is_special": false, 
+            "achieve_type": 5, 
+            "disp_number": 22, 
+            "is_event": false, 
+            "is_normal": true
+        }, 
+        {
+            "can_challenge": true, 
+            "is_completed": false, 
+            "is_challenging": false, 
+            "is_tutorial": false, 
+            "achieve_type_name": "BUDDY_LEVEL", 
+            "closed_at": 2145938400, 
+            "id": 10500023, 
+            "title": "Level 30 Character (FINAL FANTASY VIII)", 
+            "order_cond_description": "", 
+            "is_achieved": false, 
+            "opened_at": 1434675600, 
+            "hint_msg": "", 
+            "hint_title": "", 
+            "is_real_type_group": false, 
+            "description": "Raise a character from FINAL FANTASY VIII to level 30!<br>\nWhen fighting in dungeons from their native realm, characters get a Record Synergy bonus.<br>\nThe Record Synergy bonus boosts characters' stats and the EXP they earn.<br>\nRecruit characters from each realm to have the perfect party ready at a moment's notice!", 
+            "is_new": true, 
+            "prizes": [
+                {
+                    "id": 70000003, 
+                    "type_name": "GROW_EGG", 
+                    "num": 3, 
+                    "image_path": "/dff/static/lang/image/growegg/70000003/70000003_112.png", 
+                    "name": "Growth Egg"
+                }
+            ], 
+            "achieve_cond_description": "Raise any character from the FINAL FANTASY VIII realm to level 30 or higher.", 
+            "is_steady_type_group": true, 
+            "is_event_type_group": false, 
+            "is_special": false, 
+            "achieve_type": 5, 
+            "disp_number": 23, 
+            "is_event": false, 
+            "is_normal": true
+        }, 
+        {
+            "can_challenge": true, 
+            "is_completed": false, 
+            "is_challenging": false, 
+            "is_tutorial": false, 
+            "achieve_type_name": "BUDDY_LEVEL", 
+            "closed_at": 2145938400, 
+            "id": 10500025, 
+            "title": "Level 10 Character (FINAL FANTASY IX)", 
+            "order_cond_description": "", 
+            "is_achieved": false, 
+            "opened_at": 1434675600, 
+            "hint_msg": "", 
+            "hint_title": "", 
+            "is_real_type_group": false, 
+            "description": "Raise a character from FINAL FANTASY IX to level 10!<br>\nVivi is a character from the FINAL FANTASY IX realm who can be recruited by completing the Evil Forest (IX) dungeon .<br>\nWhen fighting in dungeons from their native realm, characters get a Record Synergy bonus.<br>\nThe Record Synergy bonus boosts characters' stats and the EXP they earn.<br>\nRecruit characters from each realm to have the perfect party ready at a moment's notice!", 
+            "is_new": true, 
+            "prizes": [
+                {
+                    "id": 70000002, 
+                    "type_name": "GROW_EGG", 
+                    "num": 5, 
+                    "image_path": "/dff/static/lang/image/growegg/70000002/70000002_112.png", 
+                    "name": "Lesser Growth Egg"
+                }
+            ], 
+            "achieve_cond_description": "Raise any character from the FINAL FANTASY IX realm to level 10 or higher.", 
+            "is_steady_type_group": true, 
+            "is_event_type_group": false, 
+            "is_special": false, 
+            "achieve_type": 5, 
+            "disp_number": 25, 
+            "is_event": false, 
+            "is_normal": true
+        }, 
+        {
+            "can_challenge": false, 
+            "is_completed": true, 
+            "is_challenging": false, 
+            "is_tutorial": false, 
+            "achieve_type_name": "BUDDY_LEVEL", 
+            "closed_at": 2145938400, 
+            "id": 10500028, 
+            "title": "Level 10 Character (FINAL FANTASY X)", 
+            "order_cond_description": "", 
+            "is_achieved": false, 
+            "opened_at": 1433678400, 
+            "hint_msg": "", 
+            "hint_title": "", 
+            "is_real_type_group": false, 
+            "description": "Raise a character from FINAL FANTASY X to level 10!<br>\nWakka is a character from the FINAL FANTASY X realm who can be recruited by completing the Besaid (X) dungeon .<br>\nWhen fighting in dungeons from their native realm, characters get a Record Synergy bonus.<br>\nThe Record Synergy bonus boosts characters' stats and the EXP they earn.<br>\nRecruit characters from each realm to have the perfect party ready at a moment's notice!", 
+            "is_new": false, 
+            "prizes": [
+                {
+                    "id": 70000002, 
+                    "type_name": "GROW_EGG", 
+                    "num": 5, 
+                    "image_path": "/dff/static/lang/image/growegg/70000002/70000002_112.png", 
+                    "name": "Lesser Growth Egg"
+                }
+            ], 
+            "achieve_cond_description": "Raise any character from the FINAL FANTASY X realm to level 10 or higher.", 
+            "is_steady_type_group": true, 
+            "is_event_type_group": false, 
+            "is_special": false, 
+            "achieve_type": 5, 
+            "disp_number": 28, 
+            "is_event": false, 
+            "is_normal": true
+        }, 
+        {
+            "can_challenge": true, 
+            "is_completed": false, 
+            "is_challenging": false, 
+            "is_tutorial": false, 
+            "achieve_type_name": "BUDDY_LEVEL", 
+            "closed_at": 2145938400, 
+            "id": 10500029, 
+            "title": "Level 30 Character (FINAL FANTASY X)", 
+            "order_cond_description": "", 
+            "is_achieved": false, 
+            "opened_at": 1433678400, 
+            "hint_msg": "", 
+            "hint_title": "", 
+            "is_real_type_group": false, 
+            "description": "Raise a character from FINAL FANTASY X to level 30!<br>\nWhen fighting in dungeons from their native realm, characters get a Record Synergy bonus.<br>\nThe Record Synergy bonus boosts characters' stats and the EXP they earn.<br>\nRecruit characters from each realm to have the perfect party ready at a moment's notice!", 
+            "is_new": true, 
+            "prizes": [
+                {
+                    "id": 70000003, 
+                    "type_name": "GROW_EGG", 
+                    "num": 3, 
+                    "image_path": "/dff/static/lang/image/growegg/70000003/70000003_112.png", 
+                    "name": "Growth Egg"
+                }
+            ], 
+            "achieve_cond_description": "Raise any character from the FINAL FANTASY X realm to level 30 or higher.", 
+            "is_steady_type_group": true, 
+            "is_event_type_group": false, 
+            "is_special": false, 
+            "achieve_type": 5, 
+            "disp_number": 29, 
+            "is_event": false, 
+            "is_normal": true
+        }, 
+        {
+            "can_challenge": true, 
+            "is_completed": false, 
+            "is_challenging": false, 
+            "is_tutorial": false, 
+            "achieve_type_name": "BUDDY_LEVEL", 
+            "closed_at": 2145938400, 
+            "id": 10500031, 
+            "title": "Level 10 Character (FINAL FANTASY XII)", 
+            "order_cond_description": "", 
+            "is_achieved": false, 
+            "opened_at": 1434675600, 
+            "hint_msg": "", 
+            "hint_title": "", 
+            "is_real_type_group": false, 
+            "description": "Raise a character from FINAL FANTASY XII to level 10!<br>\nFran is a character from the FINAL FANTASY XII realm who can be recruited by completing the Nalbina Dungeons (XII).<br>\nWhen fighting in dungeons from their native realm, characters get a Record Synergy bonus.<br>\nThe Record Synergy bonus boosts characters' stats and the EXP they earn.<br>\nRecruit characters from each realm to have the perfect party ready at a moment's notice!", 
+            "is_new": true, 
+            "prizes": [
+                {
+                    "id": 70000002, 
+                    "type_name": "GROW_EGG", 
+                    "num": 5, 
+                    "image_path": "/dff/static/lang/image/growegg/70000002/70000002_112.png", 
+                    "name": "Lesser Growth Egg"
+                }
+            ], 
+            "achieve_cond_description": "Raise any character from the FINAL FANTASY XII realm to level 10 or higher.", 
+            "is_steady_type_group": true, 
+            "is_event_type_group": false, 
+            "is_special": false, 
+            "achieve_type": 5, 
+            "disp_number": 31, 
+            "is_event": false, 
+            "is_normal": true
+        }, 
+        {
+            "can_challenge": false, 
+            "is_completed": true, 
+            "is_challenging": false, 
+            "is_tutorial": false, 
+            "achieve_type_name": "BUDDY_LEVEL", 
+            "closed_at": 2145938400, 
+            "id": 10500034, 
+            "title": "Level 10 Character (FINAL FANTASY XIII)", 
+            "order_cond_description": "", 
+            "is_achieved": false, 
+            "opened_at": 1433678400, 
+            "hint_msg": "", 
+            "hint_title": "", 
+            "is_real_type_group": false, 
+            "description": "Raise a character from FINAL FANTASY XIII to level 10!<br>\nSnow is a character from the FINAL FANTASY XIII realm who can be recruited by completing The Hanging Edge (XIII) dungeon .<br>\nWhen fighting in dungeons from their native realm, characters get a Record Synergy bonus.<br>\nThe Record Synergy bonus boosts characters' stats and the EXP they earn.<br>\nRecruit characters from each realm to have the perfect party ready at a moment's notice!", 
+            "is_new": false, 
+            "prizes": [
+                {
+                    "id": 70000002, 
+                    "type_name": "GROW_EGG", 
+                    "num": 5, 
+                    "image_path": "/dff/static/lang/image/growegg/70000002/70000002_112.png", 
+                    "name": "Lesser Growth Egg"
+                }
+            ], 
+            "achieve_cond_description": "Raise any character from the FINAL FANTASY XIII realm to level 10 or higher.", 
+            "is_steady_type_group": true, 
+            "is_event_type_group": false, 
+            "is_special": false, 
+            "achieve_type": 5, 
+            "disp_number": 34, 
+            "is_event": false, 
+            "is_normal": true
+        }, 
+        {
+            "can_challenge": true, 
+            "is_completed": false, 
+            "is_challenging": false, 
+            "is_tutorial": false, 
+            "achieve_type_name": "BUDDY_LEVEL", 
+            "closed_at": 2145938400, 
+            "id": 10500035, 
+            "title": "Level 30 Character (FINAL FANTASY XIII)", 
+            "order_cond_description": "", 
+            "is_achieved": false, 
+            "opened_at": 1433678400, 
+            "hint_msg": "", 
+            "hint_title": "", 
+            "is_real_type_group": false, 
+            "description": "Raise a character from FINAL FANTASY XIII to level 30!<br>\nWhen fighting in dungeons from their native realm, characters get a Record Synergy bonus.<br>\nThe Record Synergy bonus boosts characters' stats and the EXP they earn.<br>\nRecruit characters from each realm to have the perfect party ready at a moment's notice!", 
+            "is_new": true, 
+            "prizes": [
+                {
+                    "id": 70000003, 
+                    "type_name": "GROW_EGG", 
+                    "num": 3, 
+                    "image_path": "/dff/static/lang/image/growegg/70000003/70000003_112.png", 
+                    "name": "Growth Egg"
+                }
+            ], 
+            "achieve_cond_description": "Raise any character from the FINAL FANTASY XIII realm to level 30 or higher.", 
+            "is_steady_type_group": true, 
+            "is_event_type_group": false, 
+            "is_special": false, 
+            "achieve_type": 5, 
+            "disp_number": 35, 
+            "is_event": false, 
+            "is_normal": true
+        }, 
+        {
+            "can_challenge": false, 
+            "is_completed": true, 
+            "is_challenging": false, 
+            "is_tutorial": true, 
+            "achieve_type_name": "ABILITY_GENERATE", 
+            "closed_at": 2145938400, 
+            "id": 10600001, 
+            "title": "Create Blizzard (Black Magic Ability)", 
+            "order_cond_description": "", 
+            "is_achieved": false, 
+            "opened_at": 1433678400, 
+            "hint_msg": "", 
+            "hint_title": "", 
+            "ability_recipes": [
+                {
+                    "id": 40000036, 
+                    "num": 3, 
+                    "image_path": "/dff/static/lang/image/ability_material/40000036/40000036_112.png", 
+                    "name": "Minor Ice Orb"
+                }, 
+                {
+                    "id": 40000011, 
+                    "num": 3, 
+                    "image_path": "/dff/static/lang/image/ability_material/40000011/40000011_112.png", 
+                    "name": "Minor Black Orb"
+                }
+            ], 
+            "is_real_type_group": false, 
+            "description": "Create the black magic ability Blizzard!<br>\nBlizzard is an ice spell, so use it against enemies vulnerable to ice.", 
+            "is_new": false, 
+            "prizes": [
+                {
+                    "id": 91000000, 
+                    "type_name": "COMMON", 
+                    "num": 1, 
+                    "image_path": "/dff/static/lang/image/common_item/91000000.png", 
+                    "name": "Mythril"
+                }
+            ], 
+            "achieve_cond_description": "Create the black magic ability Blizzard after accepting the quest.", 
+            "is_steady_type_group": true, 
+            "is_event_type_group": false, 
+            "is_special": false, 
+            "achieve_type": 6, 
+            "disp_number": 1, 
+            "is_event": false, 
+            "is_normal": true
+        }, 
+        {
+            "can_challenge": true, 
+            "is_completed": false, 
+            "is_challenging": false, 
+            "is_tutorial": false, 
+            "achieve_type_name": "ABILITY_GENERATE", 
+            "closed_at": 2145938400, 
+            "id": 10600002, 
+            "title": "Create Fira (Black Magic Ability)", 
+            "order_cond_description": "", 
+            "is_achieved": false, 
+            "opened_at": 1433678400, 
+            "hint_msg": "", 
+            "hint_title": "", 
+            "ability_recipes": [
+                {
+                    "id": 40000032, 
+                    "num": 8, 
+                    "image_path": "/dff/static/lang/image/ability_material/40000032/40000032_112.png", 
+                    "name": "Lesser Fire Orb"
+                }, 
+                {
+                    "id": 40000012, 
+                    "num": 5, 
+                    "image_path": "/dff/static/lang/image/ability_material/40000012/40000012_112.png", 
+                    "name": "Lesser Black Orb"
+                }
+            ], 
+            "is_real_type_group": false, 
+            "description": "Create the black magic ability Fira!<br>\nFira is a more powerful version of Fire, so use it against enemies vulnerable to fire.", 
+            "is_new": true, 
+            "prizes": [
+                {
+                    "id": 40000033, 
+                    "type_name": "ABILITY_MATERIAL", 
+                    "num": 8, 
+                    "image_path": "/dff/static/lang/image/ability_material/40000033/40000033_112.png", 
+                    "name": "Fire Orb"
+                }
+            ], 
+            "achieve_cond_description": "Create the black magic ability Fira after accepting the quest.", 
+            "is_steady_type_group": true, 
+            "is_event_type_group": false, 
+            "is_special": false, 
+            "achieve_type": 6, 
+            "disp_number": 8, 
+            "is_event": false, 
+            "is_normal": true
+        }, 
+        {
+            "can_challenge": true, 
+            "is_completed": false, 
+            "is_challenging": false, 
+            "is_tutorial": false, 
+            "achieve_type_name": "ABILITY_GENERATE", 
+            "closed_at": 2145938400, 
+            "id": 10600003, 
+            "title": "Create Blizzara (Black Magic Ability)", 
+            "order_cond_description": "", 
+            "is_achieved": false, 
+            "opened_at": 1433678400, 
+            "hint_msg": "", 
+            "hint_title": "", 
+            "ability_recipes": [
+                {
+                    "id": 40000012, 
+                    "num": 5, 
+                    "image_path": "/dff/static/lang/image/ability_material/40000012/40000012_112.png", 
+                    "name": "Lesser Black Orb"
+                }, 
+                {
+                    "id": 40000037, 
+                    "num": 8, 
+                    "image_path": "/dff/static/lang/image/ability_material/40000037/40000037_112.png", 
+                    "name": "Lesser Ice Orb"
+                }
+            ], 
+            "is_real_type_group": false, 
+            "description": "Create the black magic ability Blizzara!<br>\nBlizzara is a more powerful version of Blizzard, so use it against enemies vulnerable to ice.", 
+            "is_new": true, 
+            "prizes": [
+                {
+                    "id": 40000038, 
+                    "type_name": "ABILITY_MATERIAL", 
+                    "num": 8, 
+                    "image_path": "/dff/static/lang/image/ability_material/40000038/40000038_112.png", 
+                    "name": "Ice Orb"
+                }
+            ], 
+            "achieve_cond_description": "Create the black magic ability Blizzara after accepting the quest.", 
+            "is_steady_type_group": true, 
+            "is_event_type_group": false, 
+            "is_special": false, 
+            "achieve_type": 6, 
+            "disp_number": 9, 
+            "is_event": false, 
+            "is_normal": true
+        }, 
+        {
+            "can_challenge": true, 
+            "is_completed": false, 
+            "is_challenging": false, 
+            "is_tutorial": false, 
+            "achieve_type_name": "ABILITY_GENERATE", 
+            "closed_at": 2145938400, 
+            "id": 10600004, 
+            "title": "Create Thundara (Black Magic Ability)", 
+            "order_cond_description": "", 
+            "is_achieved": false, 
+            "opened_at": 1433678400, 
+            "hint_msg": "", 
+            "hint_title": "", 
+            "ability_recipes": [
+                {
+                    "id": 40000012, 
+                    "num": 5, 
+                    "image_path": "/dff/static/lang/image/ability_material/40000012/40000012_112.png", 
+                    "name": "Lesser Black Orb"
+                }, 
+                {
+                    "id": 40000042, 
+                    "num": 8, 
+                    "image_path": "/dff/static/lang/image/ability_material/40000042/40000042_112.png", 
+                    "name": "Lesser Lightning Orb"
+                }
+            ], 
+            "is_real_type_group": false, 
+            "description": "Create the black magic ability Thundara!<br>\nThundara is a more powerful version of Thunder, so use it against enemies vulnerable to lightning.", 
+            "is_new": true, 
+            "prizes": [
+                {
+                    "id": 40000043, 
+                    "type_name": "ABILITY_MATERIAL", 
+                    "num": 8, 
+                    "image_path": "/dff/static/lang/image/ability_material/40000043/40000043_112.png", 
+                    "name": "Lightning Orb"
+                }
+            ], 
+            "achieve_cond_description": "Create the black magic ability Thundara after accepting the quest.", 
+            "is_steady_type_group": true, 
+            "is_event_type_group": false, 
+            "is_special": false, 
+            "achieve_type": 6, 
+            "disp_number": 10, 
+            "is_event": false, 
+            "is_normal": true
+        }, 
+        {
+            "can_challenge": true, 
+            "is_completed": false, 
+            "is_challenging": false, 
+            "is_tutorial": false, 
+            "achieve_type_name": "ABILITY_GENERATE", 
+            "closed_at": 2145938400, 
+            "id": 10600011, 
+            "title": "Create Vox (White Magic Ability)", 
+            "order_cond_description": "", 
+            "is_achieved": false, 
+            "opened_at": 1433678400, 
+            "hint_msg": "", 
+            "hint_title": "", 
+            "ability_recipes": [
+                {
+                    "id": 40000006, 
+                    "num": 3, 
+                    "image_path": "/dff/static/lang/image/ability_material/40000006/40000006_112.png", 
+                    "name": "Minor White Orb"
+                }, 
+                {
+                    "id": 40000036, 
+                    "num": 3, 
+                    "image_path": "/dff/static/lang/image/ability_material/40000036/40000036_112.png", 
+                    "name": "Minor Ice Orb"
+                }
+            ], 
+            "is_real_type_group": false, 
+            "description": "Create the white magic ability Vox!<br>\nVox removes Silence from an ally.<br>\nSilenced allies can't use any magic, so use Vox to restore their spellcasting ability.", 
+            "is_new": true, 
+            "prizes": [
+                {
+                    "id": 91000000, 
+                    "type_name": "COMMON", 
+                    "num": 1, 
+                    "image_path": "/dff/static/lang/image/common_item/91000000.png", 
+                    "name": "Mythril"
+                }
+            ], 
+            "achieve_cond_description": "Create the white magic ability Vox after accepting the quest.", 
+            "is_steady_type_group": true, 
+            "is_event_type_group": false, 
+            "is_special": false, 
+            "achieve_type": 6, 
+            "disp_number": 3, 
+            "is_event": false, 
+            "is_normal": true
+        }, 
+        {
+            "can_challenge": false, 
+            "is_completed": false, 
+            "is_challenging": true, 
+            "is_tutorial": false, 
+            "achieve_type_name": "ABILITY_GENERATE", 
+            "closed_at": 2145938400, 
+            "id": 10600012, 
+            "title": "Create Blindna (White Magic Ability)", 
+            "order_cond_description": "", 
+            "is_achieved": false, 
+            "opened_at": 1433678400, 
+            "hint_msg": "", 
+            "hint_title": "", 
+            "ability_recipes": [
+                {
+                    "id": 40000006, 
+                    "num": 3, 
+                    "image_path": "/dff/static/lang/image/ability_material/40000006/40000006_112.png", 
+                    "name": "Minor White Orb"
+                }, 
+                {
+                    "id": 40000061, 
+                    "num": 3, 
+                    "image_path": "/dff/static/lang/image/ability_material/40000061/40000061_112.png", 
+                    "name": "Minor Dark Orb"
+                }
+            ], 
+            "is_real_type_group": false, 
+            "description": "Create the white magic ability Blindna!<br>\nBlindna removes Blind from an ally.<br>\nBlinded allies have a reduced chance to hit with their attacks, so use Blindna to restore their battle effectiveness.", 
+            "is_new": false, 
+            "prizes": [
+                {
+                    "id": 91000000, 
+                    "type_name": "COMMON", 
+                    "num": 1, 
+                    "image_path": "/dff/static/lang/image/common_item/91000000.png", 
+                    "name": "Mythril"
+                }
+            ], 
+            "achieve_cond_description": "Create the white magic ability Blindna after accepting the quest.", 
+            "is_steady_type_group": true, 
+            "is_event_type_group": false, 
+            "is_special": false, 
+            "achieve_type": 6, 
+            "disp_number": 4, 
+            "is_event": false, 
+            "is_normal": true
+        }, 
+        {
+            "can_challenge": false, 
+            "is_completed": true, 
+            "is_challenging": false, 
+            "is_tutorial": true, 
+            "achieve_type_name": "ABILITY_GENERATE", 
+            "closed_at": 2145938400, 
+            "id": 10600021, 
+            "title": "Create Boost (Physical Ability)", 
+            "order_cond_description": "", 
+            "is_achieved": false, 
+            "opened_at": 1433678400, 
+            "hint_msg": "", 
+            "hint_title": "", 
+            "ability_recipes": [
+                {
+                    "id": 40000001, 
+                    "num": 3, 
+                    "image_path": "/dff/static/lang/image/ability_material/40000001/40000001_112.png", 
+                    "name": "Minor Power Orb"
+                }, 
+                {
+                    "id": 40000056, 
+                    "num": 3, 
+                    "image_path": "/dff/static/lang/image/ability_material/40000056/40000056_112.png", 
+                    "name": "Minor Holy Orb"
+                }
+            ], 
+            "is_real_type_group": false, 
+            "description": "Create the physical ability Boost!<br>\nBoost temporarily raises the Attack of an ally.", 
+            "is_new": false, 
+            "prizes": [
+                {
+                    "id": 91000000, 
+                    "type_name": "COMMON", 
+                    "num": 1, 
+                    "image_path": "/dff/static/lang/image/common_item/91000000.png", 
+                    "name": "Mythril"
+                }
+            ], 
+            "achieve_cond_description": "Create the physical ability Boost after accepting the quest.", 
+            "is_steady_type_group": true, 
+            "is_event_type_group": false, 
+            "is_special": false, 
+            "achieve_type": 6, 
+            "disp_number": 5, 
+            "is_event": false, 
+            "is_normal": true
+        }, 
+        {
+            "can_challenge": true, 
+            "is_completed": false, 
+            "is_challenging": false, 
+            "is_tutorial": false, 
+            "achieve_type_name": "ABILITY_GENERATE", 
+            "closed_at": 2145938400, 
+            "id": 10600022, 
+            "title": "Create Double Cut (Physical Ability)", 
+            "order_cond_description": "", 
+            "is_achieved": false, 
+            "opened_at": 1433678400, 
+            "hint_msg": "", 
+            "hint_title": "", 
+            "ability_recipes": [
+                {
+                    "id": 40000052, 
+                    "num": 8, 
+                    "image_path": "/dff/static/lang/image/ability_material/40000052/40000052_112.png", 
+                    "name": "Lesser Wind Orb"
+                }, 
+                {
+                    "id": 40000002, 
+                    "num": 5, 
+                    "image_path": "/dff/static/lang/image/ability_material/40000002/40000002_112.png", 
+                    "name": "Lesser Power Orb"
+                }
+            ], 
+            "is_real_type_group": false, 
+            "description": "Create the physical ability Double Cut!<br>\nDouble Cut is a powerful ability that deals 2 successive attacks on an enemy.", 
+            "is_new": true, 
+            "prizes": [
+                {
+                    "id": 40000003, 
+                    "type_name": "ABILITY_MATERIAL", 
+                    "num": 5, 
+                    "image_path": "/dff/static/lang/image/ability_material/40000003/40000003_112.png", 
+                    "name": "Power Orb"
+                }
+            ], 
+            "achieve_cond_description": "Create the physical ability Double Cut after accepting the quest.", 
+            "is_steady_type_group": true, 
+            "is_event_type_group": false, 
+            "is_special": false, 
+            "achieve_type": 6, 
+            "disp_number": 19, 
+            "is_event": false, 
+            "is_normal": true
+        }, 
+        {
+            "can_challenge": true, 
+            "is_completed": false, 
+            "is_challenging": false, 
+            "is_tutorial": false, 
+            "achieve_type_name": "ABILITY_GENERATE", 
+            "closed_at": 2145938400, 
+            "id": 10600023, 
+            "title": "Create Salve (Physical Ability)", 
+            "order_cond_description": "", 
+            "is_achieved": false, 
+            "opened_at": 1433678400, 
+            "hint_msg": "", 
+            "hint_title": "", 
+            "ability_recipes": [
+                {
+                    "id": 40000001, 
+                    "num": 3, 
+                    "image_path": "/dff/static/lang/image/ability_material/40000001/40000001_112.png", 
+                    "name": "Minor Power Orb"
+                }, 
+                {
+                    "id": 40000056, 
+                    "num": 3, 
+                    "image_path": "/dff/static/lang/image/ability_material/40000056/40000056_112.png", 
+                    "name": "Minor Holy Orb"
+                }
+            ], 
+            "is_real_type_group": false, 
+            "description": "Create the physical ability Salve!<br>\nSalve restores HP to the user.<br>\nSalve is a convenient ability that your front-line characters can use to heal themselves in a pinch.", 
+            "is_new": true, 
+            "prizes": [
+                {
+                    "id": 40000028, 
+                    "type_name": "ABILITY_MATERIAL", 
+                    "num": 3, 
+                    "image_path": "/dff/static/lang/image/ability_material/40000028/40000028_112.png", 
+                    "name": "Non-Elemental Orb"
+                }
+            ], 
+            "achieve_cond_description": "Create the physical ability Salve after accepting the quest.", 
+            "is_steady_type_group": true, 
+            "is_event_type_group": false, 
+            "is_special": false, 
+            "achieve_type": 6, 
+            "disp_number": 20, 
+            "is_event": false, 
+            "is_normal": true
+        }, 
+        {
+            "can_challenge": true, 
+            "is_completed": false, 
+            "is_challenging": false, 
+            "is_tutorial": true, 
+            "achieve_type_name": "ABILITY_GENERATE", 
+            "closed_at": 2145938400, 
+            "id": 10600028, 
+            "title": "Create Dragon (Summon Ability)", 
+            "order_cond_description": "", 
+            "is_achieved": false, 
+            "opened_at": 1433678400, 
+            "hint_msg": "", 
+            "hint_title": "", 
+            "ability_recipes": [
+                {
+                    "id": 40000027, 
+                    "num": 5, 
+                    "image_path": "/dff/static/lang/image/ability_material/40000027/40000027_112.png", 
+                    "name": "Lesser Non-Elemental Orb"
+                }, 
+                {
+                    "id": 40000022, 
+                    "num": 10, 
+                    "image_path": "/dff/static/lang/image/ability_material/40000022/40000022_112.png", 
+                    "name": "Lesser Summon Orb"
+                }
+            ], 
+            "is_real_type_group": false, 
+            "description": "Create the summon ability Dragon!<br>\nSummon a Dragon that deals non-elemental damage to all enemies.", 
+            "is_new": true, 
+            "prizes": [
+                {
+                    "id": 91000000, 
+                    "type_name": "COMMON", 
+                    "num": 1, 
+                    "image_path": "/dff/static/lang/image/common_item/91000000.png", 
+                    "name": "Mythril"
+                }
+            ], 
+            "achieve_cond_description": "Create the summon ability Dragon after accepting the quest.", 
+            "is_steady_type_group": true, 
+            "is_event_type_group": false, 
+            "is_special": false, 
+            "achieve_type": 6, 
+            "disp_number": 6, 
+            "is_event": false, 
+            "is_normal": true
+        }, 
+        {
+            "can_challenge": true, 
+            "is_completed": false, 
+            "is_challenging": false, 
+            "is_tutorial": true, 
+            "achieve_type_name": "ABILITY_GENERATE", 
+            "closed_at": 2145938400, 
+            "id": 10600033, 
+            "title": "Create Jump (Dragoon Ability)", 
+            "order_cond_description": "", 
+            "is_achieved": false, 
+            "opened_at": 1433678400, 
+            "hint_msg": "", 
+            "hint_title": "", 
+            "ability_recipes": [
+                {
+                    "id": 40000052, 
+                    "num": 3, 
+                    "image_path": "/dff/static/lang/image/ability_material/40000052/40000052_112.png", 
+                    "name": "Lesser Wind Orb"
+                }, 
+                {
+                    "id": 40000002, 
+                    "num": 5, 
+                    "image_path": "/dff/static/lang/image/ability_material/40000002/40000002_112.png", 
+                    "name": "Lesser Power Orb"
+                }, 
+                {
+                    "id": 40000042, 
+                    "num": 3, 
+                    "image_path": "/dff/static/lang/image/ability_material/40000042/40000042_112.png", 
+                    "name": "Lesser Lightning Orb"
+                }
+            ], 
+            "is_real_type_group": false, 
+            "description": "Create the dragoon ability Jump!<br>\nJump sends the user into the air for a short time before landing and dealing damage to an enemy.", 
+            "is_new": true, 
+            "prizes": [
+                {
+                    "id": 91000000, 
+                    "type_name": "COMMON", 
+                    "num": 1, 
+                    "image_path": "/dff/static/lang/image/common_item/91000000.png", 
+                    "name": "Mythril"
+                }
+            ], 
+            "achieve_cond_description": "Create the dragoon ability Jump after accepting the quest.", 
+            "is_steady_type_group": true, 
+            "is_event_type_group": false, 
+            "is_special": false, 
+            "achieve_type": 6, 
+            "disp_number": 7, 
+            "is_event": false, 
+            "is_normal": true
+        }, 
+        {
+            "can_challenge": true, 
+            "is_completed": false, 
+            "is_challenging": false, 
+            "is_tutorial": true, 
+            "achieve_type_name": "ABILITY_UPGRADE", 
+            "closed_at": 2145938400, 
+            "id": 10700001, 
+            "title": "Hone Blizzard (Black Magic Ability)", 
+            "order_cond_description": "", 
+            "is_achieved": false, 
+            "opened_at": 1433678400, 
+            "hint_msg": "", 
+            "hint_title": "", 
+            "ability_recipes": [
+                {
+                    "id": 40000011, 
+                    "num": 5, 
+                    "image_path": "/dff/static/lang/image/ability_material/40000011/40000011_112.png", 
+                    "name": "Minor Black Orb"
+                }, 
+                {
+                    "id": 40000036, 
+                    "num": 8, 
+                    "image_path": "/dff/static/lang/image/ability_material/40000036/40000036_112.png", 
+                    "name": "Minor Ice Orb"
+                }
+            ], 
+            "is_real_type_group": false, 
+            "description": "Hone the black magic ability Blizzard!<br>\nHoning an ability increases the number of times you can use it.", 
+            "is_new": true, 
+            "prizes": [
+                {
+                    "id": 91000000, 
+                    "type_name": "COMMON", 
+                    "num": 1, 
+                    "image_path": "/dff/static/lang/image/common_item/91000000.png", 
+                    "name": "Mythril"
+                }
+            ], 
+            "achieve_cond_description": "Hone the black magic ability Blizzard after accepting the quest.", 
+            "is_steady_type_group": true, 
+            "is_event_type_group": false, 
+            "is_special": false, 
+            "achieve_type": 7, 
+            "disp_number": 1, 
+            "is_event": false, 
+            "is_normal": true
+        }, 
+        {
+            "can_challenge": true, 
+            "is_completed": false, 
+            "is_challenging": false, 
+            "is_tutorial": false, 
+            "achieve_type_name": "ABILITY_UPGRADE", 
+            "closed_at": 2145938400, 
+            "id": 10700019, 
+            "title": "Hone Thundara Strike (Spellblade Ability)", 
+            "order_cond_description": "", 
+            "is_achieved": false, 
+            "opened_at": 1434200400, 
+            "hint_msg": "", 
+            "hint_title": "", 
+            "ability_recipes": [
+                {
+                    "id": 40000013, 
+                    "num": 6, 
+                    "image_path": "/dff/static/lang/image/ability_material/40000013/40000013_112.png", 
+                    "name": "Black Orb"
+                }, 
+                {
+                    "id": 40000003, 
+                    "num": 10, 
+                    "image_path": "/dff/static/lang/image/ability_material/40000003/40000003_112.png", 
+                    "name": "Power Orb"
+                }, 
+                {
+                    "id": 40000043, 
+                    "num": 6, 
+                    "image_path": "/dff/static/lang/image/ability_material/40000043/40000043_112.png", 
+                    "name": "Lightning Orb"
+                }
+            ], 
+            "is_real_type_group": false, 
+            "description": "Hone the spellblade ability Thundara Strike!<br>\nHoning an ability increases the number of times you can use it.", 
+            "is_new": true, 
+            "prizes": [
+                {
+                    "id": 40000043, 
+                    "type_name": "ABILITY_MATERIAL", 
+                    "num": 6, 
+                    "image_path": "/dff/static/lang/image/ability_material/40000043/40000043_112.png", 
+                    "name": "Lightning Orb"
+                }
+            ], 
+            "achieve_cond_description": "Hone the spellblade ability Thundara Strike after accepting the quest.", 
+            "is_steady_type_group": true, 
+            "is_event_type_group": false, 
+            "is_special": false, 
+            "achieve_type": 7, 
+            "disp_number": 22, 
+            "is_event": false, 
+            "is_normal": true
+        }, 
+        {
+            "can_challenge": true, 
+            "is_completed": false, 
+            "is_challenging": false, 
+            "is_tutorial": false, 
+            "achieve_type_name": "ABILITY_UPGRADE", 
+            "closed_at": 2145938400, 
+            "id": 10700024, 
+            "title": "Hone Revive (Physical Ability)", 
+            "order_cond_description": "", 
+            "is_achieved": false, 
+            "opened_at": 1437526800, 
+            "hint_msg": "", 
+            "hint_title": "", 
+            "ability_recipes": [
+                {
+                    "id": 40000002, 
+                    "num": 10, 
+                    "image_path": "/dff/static/lang/image/ability_material/40000002/40000002_112.png", 
+                    "name": "Lesser Power Orb"
+                }, 
+                {
+                    "id": 40000057, 
+                    "num": 15, 
+                    "image_path": "/dff/static/lang/image/ability_material/40000057/40000057_112.png", 
+                    "name": "Lesser Holy Orb"
+                }
+            ], 
+            "is_real_type_group": false, 
+            "description": "Hone the physical ability Revive!<br>\nHoning an ability increases the number of times you can use it.", 
+            "is_new": true, 
+            "prizes": [
+                {
+                    "id": 40000002, 
+                    "type_name": "ABILITY_MATERIAL", 
+                    "num": 10, 
+                    "image_path": "/dff/static/lang/image/ability_material/40000002/40000002_112.png", 
+                    "name": "Lesser Power Orb"
+                }
+            ], 
+            "achieve_cond_description": "Hone the physical ability Revive after accepting the quest.", 
+            "is_steady_type_group": true, 
+            "is_event_type_group": false, 
+            "is_special": false, 
+            "achieve_type": 7, 
+            "disp_number": 16, 
+            "is_event": false, 
+            "is_normal": true
+        }, 
+        {
+            "can_challenge": true, 
+            "is_completed": false, 
+            "is_challenging": false, 
+            "is_tutorial": false, 
+            "achieve_type_name": "ABILITY_UPGRADE", 
+            "closed_at": 2145938400, 
+            "id": 10700025, 
+            "title": "Hone Chi Blast (Monk Ability)", 
+            "order_cond_description": "", 
+            "is_achieved": false, 
+            "opened_at": 1438736400, 
+            "hint_msg": "", 
+            "hint_title": "", 
+            "ability_recipes": [
+                {
+                    "id": 40000002, 
+                    "num": 10, 
+                    "image_path": "/dff/static/lang/image/ability_material/40000002/40000002_112.png", 
+                    "name": "Lesser Power Orb"
+                }, 
+                {
+                    "id": 40000027, 
+                    "num": 15, 
+                    "image_path": "/dff/static/lang/image/ability_material/40000027/40000027_112.png", 
+                    "name": "Lesser Non-Elemental Orb"
+                }
+            ], 
+            "is_real_type_group": false, 
+            "description": "Hone the monk ability Chi Blast!<br>\nHoning an ability increases the number of times you can use it.", 
+            "is_new": true, 
+            "prizes": [
+                {
+                    "id": 40000002, 
+                    "type_name": "ABILITY_MATERIAL", 
+                    "num": 6, 
+                    "image_path": "/dff/static/lang/image/ability_material/40000002/40000002_112.png", 
+                    "name": "Lesser Power Orb"
+                }
+            ], 
+            "achieve_cond_description": "Hone the monk ability Chi Blast after accepting the quest.", 
+            "is_steady_type_group": true, 
+            "is_event_type_group": false, 
+            "is_special": false, 
+            "achieve_type": 7, 
+            "disp_number": 23, 
+            "is_event": false, 
+            "is_normal": true
+        }, 
+        {
+            "can_challenge": true, 
+            "is_completed": false, 
+            "is_challenging": false, 
+            "is_tutorial": false, 
+            "achieve_type_name": "ABILITY_UPGRADE", 
+            "closed_at": 2145938400, 
+            "id": 10700026, 
+            "title": "Hone Chakra (Monk Ability)", 
+            "order_cond_description": "", 
+            "is_achieved": false, 
+            "opened_at": 1438736400, 
+            "hint_msg": "", 
+            "hint_title": "", 
+            "ability_recipes": [
+                {
+                    "id": 40000003, 
+                    "num": 10, 
+                    "image_path": "/dff/static/lang/image/ability_material/40000003/40000003_112.png", 
+                    "name": "Power Orb"
+                }, 
+                {
+                    "id": 40000058, 
+                    "num": 15, 
+                    "image_path": "/dff/static/lang/image/ability_material/40000058/40000058_112.png", 
+                    "name": "Holy Orb"
+                }
+            ], 
+            "is_real_type_group": false, 
+            "description": "Hone the monk ability Chakra!<br>\nHoning an ability increases the number of times you can use it.", 
+            "is_new": true, 
+            "prizes": [
+                {
+                    "id": 40000003, 
+                    "type_name": "ABILITY_MATERIAL", 
+                    "num": 6, 
+                    "image_path": "/dff/static/lang/image/ability_material/40000003/40000003_112.png", 
+                    "name": "Power Orb"
+                }
+            ], 
+            "achieve_cond_description": "Hone the monk ability Chakra after accepting the quest.", 
+            "is_steady_type_group": true, 
+            "is_event_type_group": false, 
+            "is_special": false, 
+            "achieve_type": 7, 
+            "disp_number": 24, 
+            "is_event": false, 
+            "is_normal": true
+        }, 
+        {
+            "can_challenge": true, 
+            "is_completed": false, 
+            "is_challenging": false, 
+            "is_tutorial": false, 
+            "achieve_type_name": "ABILITY_UPGRADE", 
+            "closed_at": 2145938400, 
+            "id": 10700027, 
+            "title": "Hone Pressure Point (Monk Ability)", 
+            "order_cond_description": "", 
+            "is_achieved": false, 
+            "opened_at": 1438736400, 
+            "hint_msg": "", 
+            "hint_title": "", 
+            "ability_recipes": [
+                {
+                    "id": 40000004, 
+                    "num": 10, 
+                    "image_path": "/dff/static/lang/image/ability_material/40000004/40000004_112.png", 
+                    "name": "Greater Power Orb"
+                }, 
+                {
+                    "id": 40000064, 
+                    "num": 15, 
+                    "image_path": "/dff/static/lang/image/ability_material/40000064/40000064_112.png", 
+                    "name": "Greater Dark Orb"
+                }
+            ], 
+            "is_real_type_group": false, 
+            "description": "Hone the monk ability Pressure Point!<br>\nHoning an ability increases the number of times you can use it.", 
+            "is_new": true, 
+            "prizes": [
+                {
+                    "id": 40000004, 
+                    "type_name": "ABILITY_MATERIAL", 
+                    "num": 6, 
+                    "image_path": "/dff/static/lang/image/ability_material/40000004/40000004_112.png", 
+                    "name": "Greater Power Orb"
+                }
+            ], 
+            "achieve_cond_description": "Hone the monk ability Pressure Point after accepting the quest.", 
+            "is_steady_type_group": true, 
+            "is_event_type_group": false, 
+            "is_special": false, 
+            "achieve_type": 7, 
+            "disp_number": 25, 
+            "is_event": false, 
+            "is_normal": true
+        }, 
+        {
+            "can_challenge": true, 
+            "is_completed": false, 
+            "is_challenging": false, 
+            "is_tutorial": false, 
+            "achieve_type_name": "ABILITY_UPGRADE", 
+            "closed_at": 2145938400, 
+            "id": 10700028, 
+            "title": "Hone Faith (White Magic Ability)", 
+            "order_cond_description": "", 
+            "is_achieved": false, 
+            "opened_at": 1439859600, 
+            "hint_msg": "", 
+            "hint_title": "", 
+            "ability_recipes": [
+                {
+                    "id": 40000008, 
+                    "num": 10, 
+                    "image_path": "/dff/static/lang/image/ability_material/40000008/40000008_112.png", 
+                    "name": "White Orb"
+                }, 
+                {
+                    "id": 40000063, 
+                    "num": 15, 
+                    "image_path": "/dff/static/lang/image/ability_material/40000063/40000063_112.png", 
+                    "name": "Dark Orb"
+                }
+            ], 
+            "is_real_type_group": false, 
+            "description": "Hone the white magic ability Faith!<br>\nHoning an ability increases the number of times you can use it.", 
+            "is_new": true, 
+            "prizes": [
+                {
+                    "id": 40000008, 
+                    "type_name": "ABILITY_MATERIAL", 
+                    "num": 10, 
+                    "image_path": "/dff/static/lang/image/ability_material/40000008/40000008_112.png", 
+                    "name": "White Orb"
+                }
+            ], 
+            "achieve_cond_description": "Hone the white magic ability Faith after accepting the quest.", 
+            "is_steady_type_group": true, 
+            "is_event_type_group": false, 
+            "is_special": false, 
+            "achieve_type": 7, 
+            "disp_number": 27, 
+            "is_event": false, 
+            "is_normal": true
+        }, 
+        {
+            "can_challenge": true, 
+            "is_completed": false, 
+            "is_challenging": false, 
+            "is_tutorial": false, 
+            "achieve_type_name": "ABILITY_UPGRADE", 
+            "closed_at": 2145938400, 
+            "id": 10700029, 
+            "title": "Hone Launch (Physical Ability)", 
+            "order_cond_description": "", 
+            "is_achieved": false, 
+            "opened_at": 1439254800, 
+            "hint_msg": "", 
+            "hint_title": "", 
+            "ability_recipes": [
+                {
+                    "id": 40000053, 
+                    "num": 6, 
+                    "image_path": "/dff/static/lang/image/ability_material/40000053/40000053_112.png", 
+                    "name": "Wind Orb"
+                }, 
+                {
+                    "id": 40000028, 
+                    "num": 6, 
+                    "image_path": "/dff/static/lang/image/ability_material/40000028/40000028_112.png", 
+                    "name": "Non-Elemental Orb"
+                }, 
+                {
+                    "id": 40000003, 
+                    "num": 10, 
+                    "image_path": "/dff/static/lang/image/ability_material/40000003/40000003_112.png", 
+                    "name": "Power Orb"
+                }
+            ], 
+            "is_real_type_group": false, 
+            "description": "Hone the physical ability Launch!<br>\nHoning an ability increases the number of times you can use it.", 
+            "is_new": true, 
+            "prizes": [
+                {
+                    "id": 40000003, 
+                    "type_name": "ABILITY_MATERIAL", 
+                    "num": 15, 
+                    "image_path": "/dff/static/lang/image/ability_material/40000003/40000003_112.png", 
+                    "name": "Power Orb"
+                }
+            ], 
+            "achieve_cond_description": "Hone the physical ability Launch after accepting the quest.", 
+            "is_steady_type_group": true, 
+            "is_event_type_group": false, 
+            "is_special": false, 
+            "achieve_type": 7, 
+            "disp_number": 26, 
+            "is_event": false, 
+            "is_normal": true
+        }, 
+        {
+            "can_challenge": false, 
+            "is_completed": true, 
+            "is_challenging": false, 
+            "is_tutorial": true, 
+            "achieve_type_name": "GACHA", 
+            "closed_at": 2145938400, 
+            "id": 10800001, 
+            "title": "Use a Common Relic Draw", 
+            "order_cond_description": "", 
+            "is_achieved": false, 
+            "opened_at": 1433725200, 
+            "hint_msg": "", 
+            "hint_title": "", 
+            "is_real_type_group": false, 
+            "description": "Use a Common Relic Draw!<br>\nYou get 1 free Common Relic Draw per day.<br>\nIt's possible for rare equipment to drop, so don't miss your chance!", 
+            "is_new": false, 
+            "prizes": [
+                {
+                    "id": 91000000, 
+                    "type_name": "COMMON", 
+                    "num": 1, 
+                    "image_path": "/dff/static/lang/image/common_item/91000000.png", 
+                    "name": "Mythril"
+                }
+            ], 
+            "achieve_cond_description": "Use a Common Relic Draw after accepting the quest.", 
+            "is_steady_type_group": true, 
+            "is_event_type_group": false, 
+            "is_special": false, 
+            "achieve_type": 8, 
+            "disp_number": 1, 
+            "is_event": false, 
+            "is_normal": true
+        }, 
+        {
+            "can_challenge": false, 
+            "is_completed": true, 
+            "is_challenging": false, 
+            "is_tutorial": false, 
+            "achieve_type_name": "GACHA", 
+            "closed_at": 2145938400, 
+            "id": 10800002, 
+            "title": "Use a Rare Relic Draw", 
+            "order_cond_description": "", 
+            "is_achieved": false, 
+            "opened_at": 1433725200, 
+            "hint_msg": "", 
+            "hint_title": "", 
+            "is_real_type_group": false, 
+            "description": "Use a Rare Relic Draw!<br>\nRare Relic Draws cost 5 Mythril or Gems.<br>\nRare Relic Draws always drop 3\u2605 or higher equipment, so give it a try!", 
+            "is_new": false, 
+            "prizes": [
+                {
+                    "id": 91000000, 
+                    "type_name": "COMMON", 
+                    "num": 5, 
+                    "image_path": "/dff/static/lang/image/common_item/91000000.png", 
+                    "name": "Mythril"
+                }
+            ], 
+            "achieve_cond_description": "Use a Rare Relic Draw after accepting the quest.", 
+            "is_steady_type_group": true, 
+            "is_event_type_group": false, 
+            "is_special": false, 
+            "achieve_type": 8, 
+            "disp_number": 2, 
+            "is_event": false, 
+            "is_normal": true
+        }, 
+        {
+            "can_challenge": false, 
+            "is_completed": true, 
+            "is_challenging": false, 
+            "is_tutorial": true, 
+            "achieve_type_name": "CLEAR_DUNGEON", 
+            "closed_at": 2145938400, 
+            "id": 20300001, 
+            "title": "Complete S.S. Liki Elite (X)", 
+            "order_cond_description": "", 
+            "is_achieved": false, 
+            "opened_at": 1436230800, 
+            "hint_msg": "Sinspawn Echuilles is the boss of the S.S. Liki dungeon (X).<br>\nSinspawn Echuilles is vulnerable to the Blind  debuff.<br>\nBlinding Sinspawn Echuilles makes it much easier to avoid its powerful Drain Touch attack!", 
+            "hint_title": "Defeating Sinspawn Echuilles", 
+            "is_real_type_group": false, 
+            "description": "Restore Tidus's Hero Record and recruit him to your party!<br>\nFulfill the Bonus Quest by completing the S.S. Liki Elite dungeon (X) to add Tidus to your roster.<br>\nIf you already have Tidus's Hero Record, you'll get a Growth Egg instead.", 
+            "is_new": false, 
+            "prizes": [
+                {
+                    "id": 11000100, 
+                    "type_name": "BUDDY", 
+                    "num": 1, 
+                    "image_path": "/dff/static/lang/image/buddy/11000100/11000100.png", 
+                    "name": "Tidus"
+                }
+            ], 
+            "achieve_cond_description": "Complete the S.S. Liki Elite dungeon in the FINAL FANTASY X realm after accepting the quest.", 
+            "is_steady_type_group": true, 
+            "is_event_type_group": false, 
+            "is_special": true, 
+            "achieve_type": 4, 
+            "disp_number": 1, 
+            "is_event": false, 
+            "is_normal": false
+        }, 
+        {
+            "can_challenge": false, 
+            "is_completed": false, 
+            "is_challenging": true, 
+            "is_tutorial": true, 
+            "achieve_type_name": "CLEAR_DUNGEON", 
+            "closed_at": 2145938400, 
+            "id": 20300002, 
+            "title": "Complete North Mountain Elite (V)", 
+            "order_cond_description": "", 
+            "is_achieved": false, 
+            "opened_at": 1436230800, 
+            "hint_msg": "Magissa and Forza are the bosses of the North Mountain dungeon (V).<br>\nMagissa is vulnerable to Silence, and Forza is vulnerable to Sleep.<br>\nUse Silence and Sleep to shut down their magic and physical attacks!", 
+            "hint_title": "Defeating Magissa & Forza", 
+            "is_real_type_group": false, 
+            "description": "Restore Lenna's Hero Record and recruit her to your party!<br>\nFulfill the Bonus Quest by completing the North Mountain Elite dungeon (V) to add Lenna to your roster.<br>\nIf you already have Lenna's Hero Record, you'll get a Growth Egg instead.", 
+            "is_new": false, 
+            "prizes": [
+                {
+                    "id": 10500200, 
+                    "type_name": "BUDDY", 
+                    "num": 1, 
+                    "image_path": "/dff/static/lang/image/buddy/10500200/10500200.png", 
+                    "name": "Lenna"
+                }
+            ], 
+            "achieve_cond_description": "Complete the North Mountain Elite dungeon in the FINAL FANTASY V realm after accepting the quest.", 
+            "is_steady_type_group": true, 
+            "is_event_type_group": false, 
+            "is_special": true, 
+            "achieve_type": 4, 
+            "disp_number": 2, 
+            "is_event": false, 
+            "is_normal": false
+        }, 
+        {
+            "can_challenge": true, 
+            "is_completed": false, 
+            "is_challenging": false, 
+            "is_tutorial": true, 
+            "achieve_type_name": "CLEAR_DUNGEON", 
+            "closed_at": 2145938400, 
+            "id": 20300003, 
+            "title": "Complete Fabul Castle Elite (IV)", 
+            "order_cond_description": "", 
+            "is_achieved": false, 
+            "opened_at": 1439514000, 
+            "hint_msg": "Dragoon is the boss of the Fabul Castle dungeon (IV).<br>\nDragoon uses Jump, a powerful ability that rarely misses.<br>\nUse Slow and Stop to minimize the number of attacks he gets!", 
+            "hint_title": "Defeating Dragoon", 
+            "is_real_type_group": false, 
+            "description": "Restore Dark Knight Cecil's Hero Record and recruit him to your party!<br>\nFulfill the Bonus Quest by completing the Fabul Castle Elite dungeon (IV) to add Dark Knight Cecil to your roster.<br>\nIf you already have Dark Knight Cecil's Hero Record, you'll get a Growth Egg instead.", 
+            "is_new": true, 
+            "prizes": [
+                {
+                    "id": 10400100, 
+                    "type_name": "BUDDY", 
+                    "num": 1, 
+                    "image_path": "/dff/static/lang/image/buddy/10400100/10400100.png", 
+                    "name": "Cecil"
+                }
+            ], 
+            "achieve_cond_description": "Complete the Fabul Castle Elite dungeon in the FINAL FANTASY IV realm after accepting the quest.", 
+            "is_steady_type_group": true, 
+            "is_event_type_group": false, 
+            "is_special": true, 
+            "achieve_type": 4, 
+            "disp_number": 3, 
+            "is_event": false, 
+            "is_normal": false
+        }, 
+        {
+            "can_challenge": true, 
+            "is_completed": false, 
+            "is_challenging": false, 
+            "is_tutorial": true, 
+            "achieve_type_name": "CLEAR_DUNGEON", 
+            "closed_at": 2145938400, 
+            "id": 20300004, 
+            "title": "Complete Baron Castle Elite (IV)", 
+            "order_cond_description": "", 
+            "is_achieved": false, 
+            "opened_at": 1439514000, 
+            "hint_msg": "Cagnazzo is the boss of the Baron Castle dungeon (IV).<br>\nHit Cagnazzo with lightning damage when he gathers water for his Tsunami ability to interrupt the attack!<br>\nUse abilities like Thunder and Thunder Strike to secure the win!", 
+            "hint_title": "Defeating Cagnazzo", 
+            "is_real_type_group": false, 
+            "description": "Restore Paladin Cecil's Hero Record and recruit him to your party!<br>\nFulfill the Bonus Quest by completing the Baron Castle Elite dungeon (IV) to add Paladin Cecil to your roster.<br>\nIf you already have Paladin Cecil's Hero Record, you'll get a Growth Egg instead.", 
+            "is_new": true, 
+            "prizes": [
+                {
+                    "id": 10400200, 
+                    "type_name": "BUDDY", 
+                    "num": 1, 
+                    "image_path": "/dff/static/lang/image/buddy/10400200/10400200.png", 
+                    "name": "Cecil"
+                }
+            ], 
+            "achieve_cond_description": "Complete the Baron Castle Elite dungeon in the FINAL FANTASY IV realm after accepting the quest.", 
+            "is_steady_type_group": true, 
+            "is_event_type_group": false, 
+            "is_special": true, 
+            "achieve_type": 4, 
+            "disp_number": 4, 
+            "is_event": false, 
+            "is_normal": false
+        }, 
+        {
+            "can_challenge": false, 
+            "is_completed": false, 
+            "is_challenging": true, 
+            "is_tutorial": true, 
+            "achieve_type_name": "CLEAR_DUNGEON", 
+            "closed_at": 2145938400, 
+            "id": 20300005, 
+            "title": "Complete Midgar Highway Elite (VII)", 
+            "order_cond_description": "", 
+            "is_achieved": false, 
+            "opened_at": 1437958800, 
+            "hint_msg": "Motor Ball is the boss of the Midgar Highway dungeon (VII).<br>\nMotor Ball uses multi-target attacks one after another. Exploit its weakness to lightning to bring it down fast!", 
+            "hint_title": "Defeating Motor Ball", 
+            "is_real_type_group": false, 
+            "description": "Restore Sephiroth's Hero Record and recruit him to your party!<br>\nFulfill the Bonus Quest by completing the Midgar Highway Elite dungeon (VII) to add Sephiroth to your roster.<br>\nIf you already have Sephiroth's Hero Record, you'll get a Growth Egg instead.", 
+            "is_new": false, 
+            "prizes": [
+                {
+                    "id": 10701000, 
+                    "type_name": "BUDDY", 
+                    "num": 1, 
+                    "image_path": "/dff/static/lang/image/buddy/10701000/10701000.png", 
+                    "name": "Sephiroth"
+                }
+            ], 
+            "achieve_cond_description": "Complete the Midgar Highway Elite dungeon in the FINAL FANTASY VII realm after accepting the quest.", 
+            "is_steady_type_group": true, 
+            "is_event_type_group": false, 
+            "is_special": true, 
+            "achieve_type": 4, 
+            "disp_number": 5, 
+            "is_event": false, 
+            "is_normal": false
+        }
+    ]
+}

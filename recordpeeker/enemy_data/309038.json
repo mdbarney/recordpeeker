@@ -1,0 +1,500 @@
+[
+    {
+        "is_sp_enemy": "1",
+        "deform_animation_info": [
+            {
+                "deform_tag": "in",
+                "is_random": true,
+                "state": [
+                    "1",
+                    "2"
+                ],
+                "path": "209012_1.json",
+                "enemy_id": "409016",
+                "id": "20901201"
+            }
+        ],
+        "ai_id": "0",
+        "id": "409016",
+        "children": [
+            {
+                "drop_item_list": [],
+                "uid": "201",
+                "no": "2",
+                "init_hp": 71893,
+                "child_pos_id": "2",
+                "lv": "74",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "401932",
+                                "weight": "100"
+                            }
+                        ],
+                        "mnd": 212,
+                        "id": "4090163",
+                        "size": "2",
+                        "lv": "74",
+                        "no": "2",
+                        "spd": "150",
+                        "disp_name": "Thorn",
+                        "looking": "0",
+                        "critical": "3",
+                        "max_hp": 71893,
+                        "matk": 348,
+                        "counters": [],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "218",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "201",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "206",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "220",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "219",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "202",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "224",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "212",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "229",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "215",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "211",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "225",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "213",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "214",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "203",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "200",
+                                "factor": "1"
+                            }
+                        ],
+                        "mdef": 124,
+                        "animation_info": {
+                            "scale": "1",
+                            "assets": {
+                                "boss-209012_2": "/Content/lang/ab/character/boss/209012/209012_2.json"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "3",
+                            "enemy_status_id": "4090163",
+                            "offset_y": "0",
+                            "path": "209012_2",
+                            "offset_x": "0"
+                        },
+                        "acc": "100",
+                        "eva": "70",
+                        "atk": 254,
+                        "breed_id": "12",
+                        "exp": 0,
+                        "def": 113
+                    },
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "401935",
+                                "weight": "100"
+                            }
+                        ],
+                        "mnd": 212,
+                        "id": "4090164",
+                        "size": "2",
+                        "lv": "74",
+                        "no": "2",
+                        "spd": "170",
+                        "disp_name": "Thorn",
+                        "looking": "0",
+                        "critical": "3",
+                        "max_hp": 71893,
+                        "matk": 348,
+                        "counters": [],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "202",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "200",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "229",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "215",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "203",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "219",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "225",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "201",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "214",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "211",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "218",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "224",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "213",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "220",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "206",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "212",
+                                "factor": "1"
+                            }
+                        ],
+                        "mdef": 124,
+                        "animation_info": {
+                            "scale": "1",
+                            "assets": {
+                                "boss-209012_2": "/Content/lang/ab/character/boss/209012/209012_2.json"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "3",
+                            "enemy_status_id": "4090164",
+                            "offset_y": "0",
+                            "path": "209012_2",
+                            "offset_x": "0"
+                        },
+                        "acc": "100",
+                        "eva": "70",
+                        "atk": 254,
+                        "breed_id": "12",
+                        "exp": 0,
+                        "def": 113
+                    }
+                ],
+                "max_hp": 71893,
+                "enemy_id": "409016",
+                "ai_id": "40901602"
+            },
+            {
+                "drop_item_list": [],
+                "uid": "202",
+                "no": "1",
+                "init_hp": 101849,
+                "child_pos_id": "1",
+                "lv": "74",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "401934",
+                                "weight": "100"
+                            }
+                        ],
+                        "mnd": 212,
+                        "id": "4090161",
+                        "size": "2",
+                        "lv": "74",
+                        "no": "1",
+                        "spd": "150",
+                        "disp_name": "Zorn",
+                        "looking": "0",
+                        "critical": "3",
+                        "max_hp": 101849,
+                        "matk": 348,
+                        "counters": [],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "225",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "211",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "200",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "201",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "220",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "206",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "212",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "218",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "213",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "202",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "203",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "215",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "224",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "229",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "219",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "214",
+                                "factor": "1"
+                            }
+                        ],
+                        "mdef": 124,
+                        "animation_info": {
+                            "scale": "1",
+                            "assets": {
+                                "boss-209012_1": "/Content/lang/ab/character/boss/209012/209012_1.json"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "3",
+                            "enemy_status_id": "4090161",
+                            "offset_y": "0",
+                            "path": "209012_1",
+                            "offset_x": "0"
+                        },
+                        "acc": "100",
+                        "eva": "70",
+                        "atk": 254,
+                        "breed_id": "12",
+                        "exp": 3763,
+                        "def": 113
+                    },
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "401933",
+                                "weight": "100"
+                            }
+                        ],
+                        "mnd": 212,
+                        "id": "4090162",
+                        "size": "2",
+                        "lv": "74",
+                        "no": "1",
+                        "spd": "170",
+                        "disp_name": "Zorn",
+                        "looking": "0",
+                        "critical": "3",
+                        "max_hp": 101849,
+                        "matk": 348,
+                        "counters": [],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "203",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "214",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "200",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "225",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "213",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "224",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "201",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "212",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "206",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "219",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "202",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "215",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "220",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "229",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "211",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "218",
+                                "factor": "1"
+                            }
+                        ],
+                        "mdef": 124,
+                        "animation_info": {
+                            "scale": "1",
+                            "assets": {
+                                "boss-209012_1": "/Content/lang/ab/character/boss/209012/209012_1.json"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "3",
+                            "enemy_status_id": "4090162",
+                            "offset_y": "0",
+                            "path": "209012_1",
+                            "offset_x": "0"
+                        },
+                        "acc": "100",
+                        "eva": "70",
+                        "atk": 254,
+                        "breed_id": "12",
+                        "exp": 0,
+                        "def": 113
+                    }
+                ],
+                "max_hp": 101849,
+                "enemy_id": "409016",
+                "ai_id": "40901601"
+            }
+        ]
+    }
+]

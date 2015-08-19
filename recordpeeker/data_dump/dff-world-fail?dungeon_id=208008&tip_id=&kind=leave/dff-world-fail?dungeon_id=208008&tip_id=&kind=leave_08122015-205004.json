@@ -1,0 +1,96 @@
+{
+    "dungeon": {
+        "background_image_path": "/dff/static/lang/image/dungeon/208008_bg.png", 
+        "order_no": 1, 
+        "captures": [
+            {
+                "sp_scores": [
+                    {
+                        "title": "Exploit Sekhret's weakness to poison attacks.", 
+                        "battle_id": 308036
+                    }, 
+                    {
+                        "title": "Exploit the Minotaur's weakness to wind attacks.", 
+                        "battle_id": 308036
+                    }
+                ], 
+                "image_path": "/dff/static/lang/image/enemy/408008.png", 
+                "tip_battle": {
+                    "message": "Minotaur and Sekhret are both vulnerable to <span class=\"red\">wind and poison</span>, kupo, so arm yourself with abilities like <span class=\"red\">Aero Strike and Bio!</span> They use a powerful group attack when they're together, so focus your attacks on one of them to put the kibosh on the pain!", 
+                    "group_id": 420074, 
+                    "id": 410074, 
+                    "title": "Minotaur & Sekhret"
+                }
+            }
+        ], 
+        "is_new": false, 
+        "rank": 0, 
+        "closed_at": 2145938400, 
+        "id": 208008, 
+        "is_clear": false, 
+        "button_style": "NORMAL", 
+        "opened_at": 1398924000, 
+        "world_id": 108001, 
+        "type": 1, 
+        "challenge_level": 35, 
+        "is_unlocked": true, 
+        "series_id": 108001, 
+        "prizes": {
+            "1": [
+                {
+                    "id": 92000000, 
+                    "type_name": "COMMON", 
+                    "num": 2500, 
+                    "image_path": "/dff/static/lang/image/common_item/92000000.png", 
+                    "name": "Gil"
+                }
+            ], 
+            "3": [
+                {
+                    "id": 94000000, 
+                    "type_name": "COMMON", 
+                    "num": 1, 
+                    "image_path": "/dff/static/lang/image/common_item/94000000.png", 
+                    "name": "Stamina Shard"
+                }, 
+                {
+                    "id": 40000028, 
+                    "type_name": "ABILITY_MATERIAL", 
+                    "num": 3, 
+                    "image_path": "/dff/static/lang/image/ability_material/40000028/40000028_112.png", 
+                    "name": "Non-Elemental Orb"
+                }
+            ], 
+            "2": [
+                {
+                    "id": 94000000, 
+                    "type_name": "COMMON", 
+                    "num": 1, 
+                    "image_path": "/dff/static/lang/image/common_item/94000000.png", 
+                    "name": "Stamina Shard"
+                }, 
+                {
+                    "id": 91000000, 
+                    "type_name": "COMMON", 
+                    "num": 1, 
+                    "image_path": "/dff/static/lang/image/common_item/91000000.png", 
+                    "name": "Mythril"
+                }
+            ]
+        }, 
+        "total_stamina": 33, 
+        "epilogue": "Passing the soldier's test to enter Caraway's mansion proved easy enough, but deep within the labyrinthine Tomb of the Unknown King awaited a greater challenge: the brothers Minotaur and Sekhret, watchers of the tomb. Defeating them earned Squall and the others the Brothers Guardian Force. They then returned to Deling City, where a fateful mission awaited them.", 
+        "epilogue_image_path": "/dff/static/lang/image/dungeon/208008_epilogue.png", 
+        "name": "Unknown King's Tomb", 
+        "bgm": "bgm_08_006", 
+        "prologue": "New orders from Headmaster Cid await Squall when the party reaches Galbadia Garden. Now they must find a way into General Caraway's mansion, which leads them to the Tomb of the Unknown King. ", 
+        "is_master": false, 
+        "prologue_image_path": "/dff/static/lang/image/dungeon/208008_prologue.png"
+    }, 
+    "tip": {
+        "message": "Characters' stats increase when they gain levels. And what's the tried-and-true way to do that? Clearing out dungeons, kupo!"
+    }, 
+    "SERVER_TIME": 1439430604, 
+    "success": true, 
+    "is_world_expired": false
+}

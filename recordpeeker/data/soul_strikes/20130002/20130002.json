@@ -1,0 +1,61 @@
+{
+    "ability_id": "20130002", 
+    "action_id": "3", 
+    "animation_info": {
+        "atk_motion": "ready", 
+        "chara_in": "motion_in", 
+        "chara_out": "stay_out", 
+        "damage_tag": "damage", 
+        "hit": "70233/70233_hit.json", 
+        "hit_arg": "0", 
+        "hit_next_tag": "", 
+        "hit_type": "1", 
+        "id": "70233", 
+        "launch": "70233/70233_launch.json", 
+        "launch_next_tag": "", 
+        "launch_type": "2", 
+        "miss_hit": "", 
+        "other_in": "", 
+        "other_out": "", 
+        "recover_tag": "", 
+        "return_hit": "", 
+        "return_shot": "", 
+        "return_type": "99", 
+        "reverse_hit": "1", 
+        "reverse_shot": "1", 
+        "shot": "70233/70233_shot.json", 
+        "shot_next_tag": "", 
+        "shot_type": "4"
+    }, 
+    "assets": {
+        "ability-70233_hit": "/Content/lang/ab/ability/70233/70233_hit.json", 
+        "ability-70233_launch": "/Content/lang/ab/ability/70233/70233_launch.json", 
+        "ability-70233_shot": "/Content/lang/ab/ability/70233/70233_shot.json"
+    }, 
+    "exercise_type": "1", 
+    "icon": {
+        "assets": {
+            "command_icon_20130002": "/Content/lang/ab_image/soulstrike//20130002/20130002_256.png"
+        }
+    }, 
+    "options": {
+        "ability_animation_id": "70233", 
+        "active_target_method": "1", 
+        "alias_name": "Spiral Cut", 
+        "arg1": "480", 
+        "arg2": "1", 
+        "arg3": "1", 
+        "arg4": "0", 
+        "arg5": "0", 
+        "cast_time": "2750", 
+        "consume_soul_strike_point": "500", 
+        "counter_enable": "1", 
+        "name": "Spiral Cut", 
+        "status_ailments_factor": "0", 
+        "status_ailments_id": "0", 
+        "target_death": "1", 
+        "target_method": "2", 
+        "target_range": "2", 
+        "target_segment": "1"
+    }
+}

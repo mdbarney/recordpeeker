@@ -1,0 +1,49 @@
+{
+    "SERVER_TIME": 1438445127, 
+    "quests": [
+        {
+            "ability_recipes": [
+                {
+                    "id": 40000011, 
+                    "image_path": "/dff/static/lang/image/ability_material/40000011/40000011_112.png", 
+                    "name": "Minor Black Orb", 
+                    "num": 3
+                }, 
+                {
+                    "id": 40000036, 
+                    "image_path": "/dff/static/lang/image/ability_material/40000036/40000036_112.png", 
+                    "name": "Minor Ice Orb", 
+                    "num": 3
+                }
+            ], 
+            "achieve_cond_description": "Create the black magic ability Blizzard after accepting the quest.", 
+            "achieve_type": 6, 
+            "achieve_type_name": "ABILITY_GENERATE", 
+            "can_challenge": false, 
+            "description": "Create the black magic ability Blizzard!<br>\nBlizzard is an ice spell, so use it against enemies vulnerable to ice.", 
+            "disp_number": 1, 
+            "hint_msg": "", 
+            "hint_title": "", 
+            "id": 10600001, 
+            "is_achieved": false, 
+            "is_challenging": false, 
+            "is_completed": true, 
+            "is_new": false, 
+            "is_special": false, 
+            "is_tutorial": true, 
+            "order_cond_description": "", 
+            "prizes": [
+                {
+                    "id": 91000000, 
+                    "image_path": "/dff/static/lang/image/common_item/91000000.png", 
+                    "name": "Mythril", 
+                    "num": 1, 
+                    "type_name": "COMMON"
+                }
+            ], 
+            "title": "Create Blizzard (Black Magic Ability)"
+        }
+    ], 
+    "special_quest_prizes": {}, 
+    "success": true
+}

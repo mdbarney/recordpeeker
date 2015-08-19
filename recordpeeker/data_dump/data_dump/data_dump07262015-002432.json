@@ -1,0 +1,89 @@
+{
+    "SERVER_TIME": 1437888272, 
+    "can_review": false, 
+    "dungeon": {
+        "background_image_path": "/dff/static/lang/image/dungeon/201001_bg.png", 
+        "bgm": "bgm_01_005", 
+        "button_style": "NORMAL", 
+        "captures": [
+            {
+                "image_path": "/dff/static/lang/image/enemy/401001.png", 
+                "sp_scores": [
+                    {
+                        "battle_id": 301003, 
+                        "title": "Defeat Garland without being KO'd."
+                    }
+                ], 
+                "tip_battle": {
+                    "group_id": 420031, 
+                    "id": 410031, 
+                    "message": "Garland doesn't have any special attacks, kupo. He's <span class=\"red\">vulnerable to debuffs</span>, though, so throw stuff at him and see what sticks!", 
+                    "title": "Garland"
+                }
+            }
+        ], 
+        "challenge_level": 15, 
+        "closed_at": 2145938400, 
+        "epilogue": "The four Warriors of Light have no memory of their past, yet their arrival proved to be timely indeed. The king of Cornelia beseeched them to free his daughter Sarah from her abductor, a former royal knight named Garland who betrayed the realm he swore to protect. In the Chaos Shrine, the warriors defeated him and rescued the princess. Little did they know, this was only the first of many perilous trials they would face.", 
+        "epilogue_image_path": "/dff/static/lang/image/dungeon/201001_epilogue.png", 
+        "id": 201001, 
+        "is_clear": true, 
+        "is_master": true, 
+        "is_new": false, 
+        "is_unlocked": true, 
+        "name": "Chaos Shrine", 
+        "opened_at": 1424152800, 
+        "order_no": 1, 
+        "prizes": {
+            "1": [
+                {
+                    "id": 92000000, 
+                    "image_path": "/dff/static/lang/image/common_item/92000000.png", 
+                    "name": "Gil", 
+                    "num": 1500, 
+                    "type_name": "COMMON"
+                }
+            ], 
+            "2": [
+                {
+                    "id": 10000400, 
+                    "image_path": "/dff/static/lang/image/buddy/10000400/10000400.png", 
+                    "name": "Knight", 
+                    "num": 1, 
+                    "type_name": "BUDDY"
+                }, 
+                {
+                    "id": 91000000, 
+                    "image_path": "/dff/static/lang/image/common_item/91000000.png", 
+                    "name": "Mythril", 
+                    "num": 1, 
+                    "type_name": "COMMON"
+                }
+            ], 
+            "3": [
+                {
+                    "id": 94000000, 
+                    "image_path": "/dff/static/lang/image/common_item/94000000.png", 
+                    "name": "Stamina Shard", 
+                    "num": 2, 
+                    "type_name": "COMMON"
+                }, 
+                {
+                    "id": 40000002, 
+                    "image_path": "/dff/static/lang/image/ability_material/40000002/40000002_112.png", 
+                    "name": "Lesser Power Orb", 
+                    "num": 5, 
+                    "type_name": "ABILITY_MATERIAL"
+                }
+            ]
+        }, 
+        "prologue": "\"When darkness veils the world, four Warriors of Light shall come,\" spoke the prophecy. Their arrival in Cornelia began the story to begin all stories.", 
+        "prologue_image_path": "/dff/static/lang/image/dungeon/201001_prologue.png", 
+        "rank": 3, 
+        "series_id": 101001, 
+        "total_stamina": 19, 
+        "type": 1, 
+        "world_id": 101001
+    }, 
+    "success": true
+}

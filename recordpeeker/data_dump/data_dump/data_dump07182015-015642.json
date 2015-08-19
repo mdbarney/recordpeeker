@@ -1,0 +1,89 @@
+{
+    "SERVER_TIME": 1437202602, 
+    "can_review": false, 
+    "dungeon": {
+        "background_image_path": "/dff/static/lang/image/dungeon/210002_bg.png", 
+        "bgm": "bgm_10_018", 
+        "button_style": "NORMAL", 
+        "captures": [
+            {
+                "image_path": "/dff/static/lang/image/enemy/410002.png", 
+                "sp_scores": [
+                    {
+                        "battle_id": 310006, 
+                        "title": "Defeat ??? before he uses Jump."
+                    }
+                ], 
+                "tip_battle": {
+                    "group_id": 420025, 
+                    "id": 410025, 
+                    "message": "???'s true identity is <span class=\"red\">Kimahri</span>, kupo!\nHuh? You knew that already?", 
+                    "title": "???"
+                }
+            }
+        ], 
+        "challenge_level": 3, 
+        "closed_at": 2145938400, 
+        "epilogue": "In Besaid, Tidus learns that his home of Zanarkand was destroyed one thousand years ago. He meets the summoner Yuna and accompanies her on her quest to defeat Sin. On their way to board a ship, they encounter the blue beastman, Kimahri Ronso, who joins them as another of Yuna's guardians.", 
+        "epilogue_image_path": "/dff/static/lang/image/dungeon/210002_epilogue.png", 
+        "id": 210002, 
+        "is_clear": true, 
+        "is_master": true, 
+        "is_new": false, 
+        "is_unlocked": true, 
+        "name": "Besaid", 
+        "opened_at": 1398924000, 
+        "order_no": 1, 
+        "prizes": {
+            "1": [
+                {
+                    "id": 92000000, 
+                    "image_path": "/dff/static/lang/image/common_item/92000000.png", 
+                    "name": "Gil", 
+                    "num": 700, 
+                    "type_name": "COMMON"
+                }
+            ], 
+            "2": [
+                {
+                    "id": 11000300, 
+                    "image_path": "/dff/static/lang/image/buddy/11000300/11000300.png", 
+                    "name": "Wakka", 
+                    "num": 1, 
+                    "type_name": "BUDDY"
+                }, 
+                {
+                    "id": 91000000, 
+                    "image_path": "/dff/static/lang/image/common_item/91000000.png", 
+                    "name": "Mythril", 
+                    "num": 1, 
+                    "type_name": "COMMON"
+                }
+            ], 
+            "3": [
+                {
+                    "id": 21013003, 
+                    "image_path": "/dff/static/lang/image/equipment/21013003/21013003_02_112.png", 
+                    "name": "Chakram (III)", 
+                    "num": 1, 
+                    "type_name": "EQUIPMENT"
+                }, 
+                {
+                    "id": 94000000, 
+                    "image_path": "/dff/static/lang/image/common_item/94000000.png", 
+                    "name": "Stamina Shard", 
+                    "num": 1, 
+                    "type_name": "COMMON"
+                }
+            ]
+        }, 
+        "prologue": "Tidus washes into the shallows off a beach where a practice game of blitzball is in session. He meets the team's captain, Wakka, who brings him to Besaid Village.", 
+        "prologue_image_path": "/dff/static/lang/image/dungeon/210002_prologue.png", 
+        "rank": 3, 
+        "series_id": 110001, 
+        "total_stamina": 7, 
+        "type": 1, 
+        "world_id": 110001
+    }, 
+    "success": true
+}

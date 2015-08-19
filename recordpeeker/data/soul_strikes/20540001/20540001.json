@@ -1,0 +1,62 @@
+{
+    "ability_id": "20540001", 
+    "action_id": "3", 
+    "animation_info": {
+        "atk_motion": "ready", 
+        "chara_in": "motion_in", 
+        "chara_out": "stay_out", 
+        "damage_tag": "damage", 
+        "hit": "70634/70634_hit.json", 
+        "hit_arg": "0", 
+        "hit_next_tag": "", 
+        "hit_type": "1", 
+        "id": "70634", 
+        "launch": "70634/70634_launch.json", 
+        "launch_next_tag": "", 
+        "launch_type": "2", 
+        "miss_hit": "70634/hit_miss.json", 
+        "other_in": "", 
+        "other_out": "", 
+        "recover_tag": "", 
+        "return_hit": "", 
+        "return_shot": "", 
+        "return_type": "99", 
+        "reverse_hit": "1", 
+        "reverse_shot": "1", 
+        "shot": "common/shot_empty.json", 
+        "shot_next_tag": "", 
+        "shot_type": "99"
+    }, 
+    "assets": {
+        "ability-70634_hit": "/Content/lang/ab/ability/70634/70634_hit.json", 
+        "ability-70634_launch": "/Content/lang/ab/ability/70634/70634_launch.json", 
+        "ability-70634_miss_hit": "/Content/lang/ab/ability/70634/hit_miss.json", 
+        "ability-70634_shot": "/Content/lang/ab/ability/common/shot_empty.json"
+    }, 
+    "exercise_type": "1", 
+    "icon": {
+        "assets": {
+            "command_icon_20540001": "/Content/lang/ab_image/soulstrike//20540001/20540001_256.png"
+        }
+    }, 
+    "options": {
+        "ability_animation_id": "70634", 
+        "active_target_method": "3", 
+        "alias_name": "Raging Fist", 
+        "arg1": "150", 
+        "arg2": "1", 
+        "arg3": "1", 
+        "arg4": "0", 
+        "arg5": "0", 
+        "cast_time": "3000", 
+        "consume_soul_strike_point": "500", 
+        "counter_enable": "1", 
+        "name": "Raging Fist", 
+        "status_ailments_factor": "0", 
+        "status_ailments_id": "0", 
+        "target_death": "1", 
+        "target_method": "2", 
+        "target_range": "1", 
+        "target_segment": "1"
+    }
+}

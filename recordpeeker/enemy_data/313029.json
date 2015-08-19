@@ -1,16 +1,16 @@
 [
     {
-        "ai_id": 0,
+        "id": "313021",
+        "is_sp_enemy": 0,
+        "deform_animation_info": [],
         "children": [
             {
-                "ai_id": "1",
-                "child_pos_id": "1",
                 "drop_item_list": [],
-                "enemy_id": "313021",
-                "init_hp": 926,
-                "lv": "43",
-                "max_hp": 926,
+                "uid": "201",
                 "no": "1",
+                "init_hp": 926,
+                "max_hp": 926,
+                "lv": "43",
                 "params": [
                     {
                         "abilities": [
@@ -23,24 +23,18 @@
                                 "weight": "50"
                             }
                         ],
-                        "acc": "100",
-                        "animation_info": {
-                            "assets": {
-                                "enemy-113143": "/Content/lang/ab/character/enemy/113143.sajson"
-                            },
-                            "enemy_status_id": "3130211",
-                            "hp_gauge_size": "2",
-                            "offset_x": "0",
-                            "offset_y": "-32",
-                            "path": "113143",
-                            "scale": "2.3",
-                            "uses_fix_pos": false
-                        },
-                        "atk": 96,
-                        "breed_id": "9",
-                        "counters": [],
+                        "mnd": 90,
+                        "id": "3130211",
+                        "size": "2",
+                        "looking": "0",
+                        "no": "1",
+                        "spd": "100",
+                        "disp_name": "Wight",
+                        "lv": "43",
                         "critical": "3",
-                        "def": 44,
+                        "max_hp": 926,
+                        "matk": 175,
+                        "counters": [],
                         "def_attributes": [
                             {
                                 "attribute_id": "214",
@@ -67,40 +61,46 @@
                                 "factor": "1"
                             }
                         ],
-                        "disp_name": "Wight",
-                        "eva": "70",
-                        "exp": 446,
-                        "id": "3130211",
-                        "looking": "0",
-                        "lv": "43",
-                        "matk": 175,
-                        "max_hp": 926,
                         "mdef": 98,
-                        "mnd": 90,
-                        "no": "1",
-                        "size": "2",
-                        "spd": "100"
+                        "animation_info": {
+                            "enemy_status_id": "3130211",
+                            "assets": {
+                                "enemy-113143": "/Content/lang/ab/character/enemy/113143.sajson"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "scale": "2.3",
+                            "offset_x": "0",
+                            "offset_y": "-32",
+                            "path": "113143"
+                        },
+                        "acc": "100",
+                        "eva": "70",
+                        "atk": 96,
+                        "breed_id": "9",
+                        "exp": 446,
+                        "def": 44
                     }
                 ],
-                "uid": "201"
+                "child_pos_id": "1",
+                "enemy_id": "313021",
+                "ai_id": "1"
             }
         ],
-        "deform_animation_info": [],
-        "id": "313021",
-        "is_sp_enemy": 0
+        "ai_id": 0
     },
     {
-        "ai_id": 0,
+        "id": "313024",
+        "is_sp_enemy": 0,
+        "deform_animation_info": [],
         "children": [
             {
-                "ai_id": "1",
-                "child_pos_id": "1",
                 "drop_item_list": [],
-                "enemy_id": "313024",
-                "init_hp": 805,
-                "lv": "43",
-                "max_hp": 805,
+                "uid": "202",
                 "no": "1",
+                "init_hp": 805,
+                "max_hp": 805,
+                "lv": "43",
                 "params": [
                     {
                         "abilities": [
@@ -109,24 +109,18 @@
                                 "weight": "100"
                             }
                         ],
-                        "acc": "100",
-                        "animation_info": {
-                            "assets": {
-                                "enemy-113068": "/Content/lang/ab/character/enemy/113068.sajson"
-                            },
-                            "enemy_status_id": "3130241",
-                            "hp_gauge_size": "2",
-                            "offset_x": "-2",
-                            "offset_y": "-10",
-                            "path": "113068",
-                            "scale": "1.8",
-                            "uses_fix_pos": false
-                        },
-                        "atk": 136,
-                        "breed_id": "5",
-                        "counters": [],
+                        "mnd": 73,
+                        "id": "3130241",
+                        "size": "2",
+                        "looking": "0",
+                        "no": "1",
+                        "spd": "100",
+                        "disp_name": "Crawler",
+                        "lv": "43",
                         "critical": "3",
-                        "def": 565,
+                        "max_hp": 805,
+                        "matk": 149,
+                        "counters": [],
                         "def_attributes": [
                             {
                                 "attribute_id": "219",
@@ -157,40 +151,46 @@
                                 "factor": "1"
                             }
                         ],
-                        "disp_name": "Crawler",
-                        "eva": "54",
-                        "exp": 446,
-                        "id": "3130241",
-                        "looking": "0",
-                        "lv": "43",
-                        "matk": 149,
-                        "max_hp": 805,
                         "mdef": 57,
-                        "mnd": 73,
-                        "no": "1",
-                        "size": "2",
-                        "spd": "100"
+                        "animation_info": {
+                            "enemy_status_id": "3130241",
+                            "assets": {
+                                "enemy-113068": "/Content/lang/ab/character/enemy/113068.sajson"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "scale": "1.8",
+                            "offset_x": "-2",
+                            "offset_y": "-10",
+                            "path": "113068"
+                        },
+                        "acc": "100",
+                        "eva": "54",
+                        "atk": 136,
+                        "breed_id": "5",
+                        "exp": 446,
+                        "def": 565
                     }
                 ],
-                "uid": "202"
+                "child_pos_id": "1",
+                "enemy_id": "313024",
+                "ai_id": "1"
             }
         ],
-        "deform_animation_info": [],
-        "id": "313024",
-        "is_sp_enemy": 0
+        "ai_id": 0
     },
     {
-        "ai_id": 0,
+        "id": "313021",
+        "is_sp_enemy": 0,
+        "deform_animation_info": [],
         "children": [
             {
-                "ai_id": "1",
-                "child_pos_id": "1",
                 "drop_item_list": [],
-                "enemy_id": "313021",
-                "init_hp": 926,
-                "lv": "43",
-                "max_hp": 926,
+                "uid": "203",
                 "no": "1",
+                "init_hp": 926,
+                "max_hp": 926,
+                "lv": "43",
                 "params": [
                     {
                         "abilities": [
@@ -203,24 +203,18 @@
                                 "weight": "50"
                             }
                         ],
-                        "acc": "100",
-                        "animation_info": {
-                            "assets": {
-                                "enemy-113143": "/Content/lang/ab/character/enemy/113143.sajson"
-                            },
-                            "enemy_status_id": "3130211",
-                            "hp_gauge_size": "2",
-                            "offset_x": "0",
-                            "offset_y": "-32",
-                            "path": "113143",
-                            "scale": "2.3",
-                            "uses_fix_pos": false
-                        },
-                        "atk": 96,
-                        "breed_id": "9",
-                        "counters": [],
+                        "mnd": 90,
+                        "id": "3130211",
+                        "size": "2",
+                        "looking": "0",
+                        "no": "1",
+                        "spd": "100",
+                        "disp_name": "Wight",
+                        "lv": "43",
                         "critical": "3",
-                        "def": 44,
+                        "max_hp": 926,
+                        "matk": 175,
+                        "counters": [],
                         "def_attributes": [
                             {
                                 "attribute_id": "214",
@@ -247,40 +241,46 @@
                                 "factor": "1"
                             }
                         ],
-                        "disp_name": "Wight",
-                        "eva": "70",
-                        "exp": 446,
-                        "id": "3130211",
-                        "looking": "0",
-                        "lv": "43",
-                        "matk": 175,
-                        "max_hp": 926,
                         "mdef": 98,
-                        "mnd": 90,
-                        "no": "1",
-                        "size": "2",
-                        "spd": "100"
+                        "animation_info": {
+                            "enemy_status_id": "3130211",
+                            "assets": {
+                                "enemy-113143": "/Content/lang/ab/character/enemy/113143.sajson"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "scale": "2.3",
+                            "offset_x": "0",
+                            "offset_y": "-32",
+                            "path": "113143"
+                        },
+                        "acc": "100",
+                        "eva": "70",
+                        "atk": 96,
+                        "breed_id": "9",
+                        "exp": 446,
+                        "def": 44
                     }
                 ],
-                "uid": "203"
+                "child_pos_id": "1",
+                "enemy_id": "313021",
+                "ai_id": "1"
             }
         ],
-        "deform_animation_info": [],
-        "id": "313021",
-        "is_sp_enemy": 0
+        "ai_id": 0
     },
     {
-        "ai_id": 0,
+        "id": "313022",
+        "is_sp_enemy": 0,
+        "deform_animation_info": [],
         "children": [
             {
-                "ai_id": "1",
-                "child_pos_id": "1",
                 "drop_item_list": [],
-                "enemy_id": "313022",
-                "init_hp": 926,
-                "lv": "43",
-                "max_hp": 926,
+                "uid": "204",
                 "no": "1",
+                "init_hp": 926,
+                "max_hp": 926,
+                "lv": "43",
                 "params": [
                     {
                         "abilities": [
@@ -293,24 +293,18 @@
                                 "weight": "50"
                             }
                         ],
-                        "acc": "100",
-                        "animation_info": {
-                            "assets": {
-                                "enemy-113138": "/Content/lang/ab/character/enemy/113138.sajson"
-                            },
-                            "enemy_status_id": "3130221",
-                            "hp_gauge_size": "2",
-                            "offset_x": "0",
-                            "offset_y": "-28",
-                            "path": "113138",
-                            "scale": "2.5",
-                            "uses_fix_pos": false
-                        },
-                        "atk": 96,
-                        "breed_id": "9",
-                        "counters": [],
+                        "mnd": 90,
+                        "id": "3130221",
+                        "size": "2",
+                        "looking": "0",
+                        "no": "1",
+                        "spd": "100",
+                        "disp_name": "Ghast",
+                        "lv": "43",
                         "critical": "3",
-                        "def": 44,
+                        "max_hp": 926,
+                        "matk": 175,
+                        "counters": [],
                         "def_attributes": [
                             {
                                 "attribute_id": "105",
@@ -385,40 +379,58 @@
                                 "factor": "1"
                             }
                         ],
-                        "disp_name": "Ghast",
-                        "eva": "70",
-                        "exp": 446,
-                        "id": "3130221",
-                        "looking": "0",
-                        "lv": "43",
-                        "matk": 175,
-                        "max_hp": 926,
                         "mdef": 98,
-                        "mnd": 90,
-                        "no": "1",
-                        "size": "2",
-                        "spd": "100"
+                        "animation_info": {
+                            "enemy_status_id": "3130221",
+                            "assets": {
+                                "enemy-113138": "/Content/lang/ab/character/enemy/113138.sajson"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "scale": "2.5",
+                            "offset_x": "0",
+                            "offset_y": "-28",
+                            "path": "113138"
+                        },
+                        "acc": "100",
+                        "eva": "70",
+                        "atk": 96,
+                        "breed_id": "9",
+                        "exp": 446,
+                        "def": 44
                     }
                 ],
-                "uid": "204"
+                "child_pos_id": "1",
+                "enemy_id": "313022",
+                "ai_id": "1"
             }
         ],
-        "deform_animation_info": [],
-        "id": "313022",
-        "is_sp_enemy": 0
+        "ai_id": 0
     },
     {
-        "ai_id": "0",
+        "id": "413011",
+        "is_sp_enemy": "1",
+        "deform_animation_info": [
+            {
+                "deform_tag": "in",
+                "is_random": true,
+                "state": [
+                    "1",
+                    "2"
+                ],
+                "path": "213060_1.json",
+                "enemy_id": "413011",
+                "id": "21306001"
+            }
+        ],
         "children": [
             {
-                "ai_id": "41301101",
-                "child_pos_id": "1",
                 "drop_item_list": [],
-                "enemy_id": "413011",
-                "init_hp": 26185,
-                "lv": "45",
-                "max_hp": 26185,
+                "uid": "205",
                 "no": "1",
+                "init_hp": 26185,
+                "max_hp": 26185,
+                "lv": "45",
                 "params": [
                     {
                         "abilities": [
@@ -435,24 +447,18 @@
                                 "weight": "40"
                             }
                         ],
-                        "acc": "100",
-                        "animation_info": {
-                            "assets": {
-                                "boss-213060_1": "/Content/lang/ab/character/boss/213060/213060_1.json"
-                            },
-                            "enemy_status_id": "4130111",
-                            "hp_gauge_size": "3",
-                            "offset_x": "0",
-                            "offset_y": "0",
-                            "path": "213060_1",
-                            "scale": "1",
-                            "uses_fix_pos": false
-                        },
-                        "atk": 140,
-                        "breed_id": "2",
-                        "counters": [],
+                        "mnd": 59,
+                        "id": "4130111",
+                        "size": "3",
+                        "looking": "41301101",
+                        "no": "1",
+                        "spd": "100",
+                        "disp_name": "Enki",
+                        "lv": "45",
                         "critical": "3",
-                        "def": 77,
+                        "max_hp": 26185,
+                        "matk": 92,
+                        "counters": [],
                         "def_attributes": [
                             {
                                 "attribute_id": "225",
@@ -515,19 +521,25 @@
                                 "factor": "1"
                             }
                         ],
-                        "disp_name": "Enki",
-                        "eva": "110",
-                        "exp": 1364,
-                        "id": "4130111",
-                        "looking": "41301101",
-                        "lv": "45",
-                        "matk": 92,
-                        "max_hp": 26185,
                         "mdef": 59,
-                        "mnd": 59,
-                        "no": "1",
-                        "size": "3",
-                        "spd": "100"
+                        "animation_info": {
+                            "enemy_status_id": "4130111",
+                            "assets": {
+                                "boss-213060_1": "/Content/lang/ab/character/boss/213060/213060_1.json"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "3",
+                            "scale": "1",
+                            "offset_x": "0",
+                            "offset_y": "0",
+                            "path": "213060_1"
+                        },
+                        "acc": "100",
+                        "eva": "110",
+                        "atk": 140,
+                        "breed_id": "2",
+                        "exp": 1364,
+                        "def": 77
                     },
                     {
                         "abilities": [
@@ -548,24 +560,18 @@
                                 "weight": "20"
                             }
                         ],
-                        "acc": "100",
-                        "animation_info": {
-                            "assets": {
-                                "boss-213060_1": "/Content/lang/ab/character/boss/213060/213060_1.json"
-                            },
-                            "enemy_status_id": "4130112",
-                            "hp_gauge_size": "3",
-                            "offset_x": "0",
-                            "offset_y": "0",
-                            "path": "213060_1",
-                            "scale": "1",
-                            "uses_fix_pos": false
-                        },
-                        "atk": 171,
-                        "breed_id": "2",
-                        "counters": [],
+                        "mnd": 59,
+                        "id": "4130112",
+                        "size": "3",
+                        "looking": "41301101",
+                        "no": "1",
+                        "spd": "100",
+                        "disp_name": "Enki",
+                        "lv": "45",
                         "critical": "3",
-                        "def": 77,
+                        "max_hp": 26185,
+                        "matk": 126,
+                        "counters": [],
                         "def_attributes": [
                             {
                                 "attribute_id": "224",
@@ -624,19 +630,25 @@
                                 "factor": "1"
                             }
                         ],
-                        "disp_name": "Enki",
-                        "eva": "110",
-                        "exp": 0,
-                        "id": "4130112",
-                        "looking": "41301101",
-                        "lv": "45",
-                        "matk": 126,
-                        "max_hp": 26185,
                         "mdef": 59,
-                        "mnd": 59,
-                        "no": "1",
-                        "size": "3",
-                        "spd": "100"
+                        "animation_info": {
+                            "enemy_status_id": "4130112",
+                            "assets": {
+                                "boss-213060_1": "/Content/lang/ab/character/boss/213060/213060_1.json"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "3",
+                            "scale": "1",
+                            "offset_x": "0",
+                            "offset_y": "0",
+                            "path": "213060_1"
+                        },
+                        "acc": "100",
+                        "eva": "110",
+                        "atk": 171,
+                        "breed_id": "2",
+                        "exp": 0,
+                        "def": 77
                     },
                     {
                         "abilities": [
@@ -657,24 +669,18 @@
                                 "weight": "0"
                             }
                         ],
-                        "acc": "100",
-                        "animation_info": {
-                            "assets": {
-                                "boss-213060_1": "/Content/lang/ab/character/boss/213060/213060_1.json"
-                            },
-                            "enemy_status_id": "4130115",
-                            "hp_gauge_size": "3",
-                            "offset_x": "0",
-                            "offset_y": "0",
-                            "path": "213060_1",
-                            "scale": "1",
-                            "uses_fix_pos": false
-                        },
-                        "atk": 171,
-                        "breed_id": "2",
-                        "counters": [],
+                        "mnd": 59,
+                        "id": "4130115",
+                        "size": "3",
+                        "looking": "41301101",
+                        "no": "1",
+                        "spd": "100",
+                        "disp_name": "Enki",
+                        "lv": "45",
                         "critical": "3",
-                        "def": 77,
+                        "max_hp": 26185,
+                        "matk": 126,
+                        "counters": [],
                         "def_attributes": [
                             {
                                 "attribute_id": "223",
@@ -733,32 +739,38 @@
                                 "factor": "1"
                             }
                         ],
-                        "disp_name": "Enki",
-                        "eva": "110",
-                        "exp": 0,
-                        "id": "4130115",
-                        "looking": "41301101",
-                        "lv": "45",
-                        "matk": 126,
-                        "max_hp": 26185,
                         "mdef": 59,
-                        "mnd": 59,
-                        "no": "1",
-                        "size": "3",
-                        "spd": "100"
+                        "animation_info": {
+                            "enemy_status_id": "4130115",
+                            "assets": {
+                                "boss-213060_1": "/Content/lang/ab/character/boss/213060/213060_1.json"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "3",
+                            "scale": "1",
+                            "offset_x": "0",
+                            "offset_y": "0",
+                            "path": "213060_1"
+                        },
+                        "acc": "100",
+                        "eva": "110",
+                        "atk": 171,
+                        "breed_id": "2",
+                        "exp": 0,
+                        "def": 77
                     }
                 ],
-                "uid": "205"
+                "child_pos_id": "1",
+                "enemy_id": "413011",
+                "ai_id": "41301101"
             },
             {
-                "ai_id": "41301102",
-                "child_pos_id": "2",
                 "drop_item_list": [],
-                "enemy_id": "413011",
-                "init_hp": 26185,
-                "lv": "45",
-                "max_hp": 26185,
+                "uid": "206",
                 "no": "2",
+                "init_hp": 26185,
+                "max_hp": 26185,
+                "lv": "45",
                 "params": [
                     {
                         "abilities": [
@@ -775,24 +787,18 @@
                                 "weight": "35"
                             }
                         ],
-                        "acc": "100",
-                        "animation_info": {
-                            "assets": {
-                                "boss-213060_2": "/Content/lang/ab/character/boss/213060/213060_2.json"
-                            },
-                            "enemy_status_id": "4130113",
-                            "hp_gauge_size": "3",
-                            "offset_x": "0",
-                            "offset_y": "0",
-                            "path": "213060_2",
-                            "scale": "1",
-                            "uses_fix_pos": false
-                        },
-                        "atk": 140,
-                        "breed_id": "2",
-                        "counters": [],
+                        "mnd": 59,
+                        "id": "4130113",
+                        "size": "3",
+                        "looking": "41301102",
+                        "no": "2",
+                        "spd": "100",
+                        "disp_name": "Enlil",
+                        "lv": "45",
                         "critical": "3",
-                        "def": 77,
+                        "max_hp": 26185,
+                        "matk": 92,
+                        "counters": [],
                         "def_attributes": [
                             {
                                 "attribute_id": "203",
@@ -855,19 +861,25 @@
                                 "factor": "1"
                             }
                         ],
-                        "disp_name": "Enlil",
-                        "eva": "110",
-                        "exp": 0,
-                        "id": "4130113",
-                        "looking": "41301102",
-                        "lv": "45",
-                        "matk": 92,
-                        "max_hp": 26185,
                         "mdef": 59,
-                        "mnd": 59,
-                        "no": "2",
-                        "size": "3",
-                        "spd": "100"
+                        "animation_info": {
+                            "enemy_status_id": "4130113",
+                            "assets": {
+                                "boss-213060_2": "/Content/lang/ab/character/boss/213060/213060_2.json"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "3",
+                            "scale": "1",
+                            "offset_x": "0",
+                            "offset_y": "0",
+                            "path": "213060_2"
+                        },
+                        "acc": "100",
+                        "eva": "110",
+                        "atk": 140,
+                        "breed_id": "2",
+                        "exp": 0,
+                        "def": 77
                     },
                     {
                         "abilities": [
@@ -888,24 +900,18 @@
                                 "weight": "15"
                             }
                         ],
-                        "acc": "100",
-                        "animation_info": {
-                            "assets": {
-                                "boss-213060_2": "/Content/lang/ab/character/boss/213060/213060_2.json"
-                            },
-                            "enemy_status_id": "4130114",
-                            "hp_gauge_size": "3",
-                            "offset_x": "0",
-                            "offset_y": "0",
-                            "path": "213060_2",
-                            "scale": "1",
-                            "uses_fix_pos": false
-                        },
-                        "atk": 171,
-                        "breed_id": "2",
-                        "counters": [],
+                        "mnd": 59,
+                        "id": "4130114",
+                        "size": "3",
+                        "looking": "41301102",
+                        "no": "2",
+                        "spd": "100",
+                        "disp_name": "Enlil",
+                        "lv": "45",
                         "critical": "3",
-                        "def": 77,
+                        "max_hp": 26185,
+                        "matk": 126,
+                        "counters": [],
                         "def_attributes": [
                             {
                                 "attribute_id": "219",
@@ -964,19 +970,25 @@
                                 "factor": "1"
                             }
                         ],
-                        "disp_name": "Enlil",
-                        "eva": "110",
-                        "exp": 0,
-                        "id": "4130114",
-                        "looking": "41301102",
-                        "lv": "45",
-                        "matk": 126,
-                        "max_hp": 26185,
                         "mdef": 59,
-                        "mnd": 59,
-                        "no": "2",
-                        "size": "3",
-                        "spd": "100"
+                        "animation_info": {
+                            "enemy_status_id": "4130114",
+                            "assets": {
+                                "boss-213060_2": "/Content/lang/ab/character/boss/213060/213060_2.json"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "3",
+                            "scale": "1",
+                            "offset_x": "0",
+                            "offset_y": "0",
+                            "path": "213060_2"
+                        },
+                        "acc": "100",
+                        "eva": "110",
+                        "atk": 171,
+                        "breed_id": "2",
+                        "exp": 0,
+                        "def": 77
                     },
                     {
                         "abilities": [
@@ -997,24 +1009,18 @@
                                 "weight": "20"
                             }
                         ],
-                        "acc": "100",
-                        "animation_info": {
-                            "assets": {
-                                "boss-213060_2": "/Content/lang/ab/character/boss/213060/213060_2.json"
-                            },
-                            "enemy_status_id": "4130116",
-                            "hp_gauge_size": "3",
-                            "offset_x": "0",
-                            "offset_y": "0",
-                            "path": "213060_2",
-                            "scale": "1",
-                            "uses_fix_pos": false
-                        },
-                        "atk": 171,
-                        "breed_id": "2",
-                        "counters": [],
+                        "mnd": 59,
+                        "id": "4130116",
+                        "size": "3",
+                        "looking": "41301102",
+                        "no": "2",
+                        "spd": "100",
+                        "disp_name": "Enlil",
+                        "lv": "45",
                         "critical": "3",
-                        "def": 77,
+                        "max_hp": 26185,
+                        "matk": 126,
+                        "counters": [],
                         "def_attributes": [
                             {
                                 "attribute_id": "224",
@@ -1073,38 +1079,1160 @@
                                 "factor": "1"
                             }
                         ],
-                        "disp_name": "Enlil",
-                        "eva": "110",
-                        "exp": 0,
-                        "id": "4130116",
-                        "looking": "41301102",
-                        "lv": "45",
-                        "matk": 126,
-                        "max_hp": 26185,
                         "mdef": 59,
-                        "mnd": 59,
-                        "no": "2",
-                        "size": "3",
-                        "spd": "100"
+                        "animation_info": {
+                            "enemy_status_id": "4130116",
+                            "assets": {
+                                "boss-213060_2": "/Content/lang/ab/character/boss/213060/213060_2.json"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "3",
+                            "scale": "1",
+                            "offset_x": "0",
+                            "offset_y": "0",
+                            "path": "213060_2"
+                        },
+                        "acc": "100",
+                        "eva": "110",
+                        "atk": 171,
+                        "breed_id": "2",
+                        "exp": 0,
+                        "def": 77
                     }
                 ],
-                "uid": "206"
+                "child_pos_id": "2",
+                "enemy_id": "413011",
+                "ai_id": "41301102"
             }
         ],
+        "ai_id": "0"
+    },
+    {
+        "is_sp_enemy": 0,
+        "deform_animation_info": [],
+        "ai_id": 0,
+        "id": "313021",
+        "children": [
+            {
+                "drop_item_list": [],
+                "uid": "201",
+                "no": "1",
+                "init_hp": 926,
+                "child_pos_id": "1",
+                "lv": "43",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "101001",
+                                "weight": "50"
+                            },
+                            {
+                                "ability_id": "201067",
+                                "weight": "50"
+                            }
+                        ],
+                        "mnd": 90,
+                        "id": "3130211",
+                        "size": "2",
+                        "lv": "43",
+                        "no": "1",
+                        "spd": "100",
+                        "disp_name": "Wight",
+                        "looking": "0",
+                        "critical": "3",
+                        "max_hp": 926,
+                        "matk": 175,
+                        "counters": [],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "214",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "213",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "220",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "219",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "225",
+                                "factor": "1"
+                            }
+                        ],
+                        "mdef": 98,
+                        "animation_info": {
+                            "scale": "2.3",
+                            "assets": {
+                                "enemy-113143": "/Content/lang/ab/character/enemy/113143.sajson"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "enemy_status_id": "3130211",
+                            "offset_y": "-32",
+                            "path": "113143",
+                            "offset_x": "0"
+                        },
+                        "acc": "100",
+                        "eva": "70",
+                        "atk": 96,
+                        "breed_id": "9",
+                        "exp": 446,
+                        "def": 44
+                    }
+                ],
+                "max_hp": 926,
+                "enemy_id": "313021",
+                "ai_id": "1"
+            }
+        ]
+    },
+    {
+        "is_sp_enemy": 0,
+        "deform_animation_info": [],
+        "ai_id": 0,
+        "id": "313021",
+        "children": [
+            {
+                "drop_item_list": [],
+                "uid": "202",
+                "no": "1",
+                "init_hp": 926,
+                "child_pos_id": "1",
+                "lv": "43",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "101001",
+                                "weight": "50"
+                            },
+                            {
+                                "ability_id": "201067",
+                                "weight": "50"
+                            }
+                        ],
+                        "mnd": 90,
+                        "id": "3130211",
+                        "size": "2",
+                        "lv": "43",
+                        "no": "1",
+                        "spd": "100",
+                        "disp_name": "Wight",
+                        "looking": "0",
+                        "critical": "3",
+                        "max_hp": 926,
+                        "matk": 175,
+                        "counters": [],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "214",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "213",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "220",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "219",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "225",
+                                "factor": "1"
+                            }
+                        ],
+                        "mdef": 98,
+                        "animation_info": {
+                            "scale": "2.3",
+                            "assets": {
+                                "enemy-113143": "/Content/lang/ab/character/enemy/113143.sajson"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "enemy_status_id": "3130211",
+                            "offset_y": "-32",
+                            "path": "113143",
+                            "offset_x": "0"
+                        },
+                        "acc": "100",
+                        "eva": "70",
+                        "atk": 96,
+                        "breed_id": "9",
+                        "exp": 446,
+                        "def": 44
+                    }
+                ],
+                "max_hp": 926,
+                "enemy_id": "313021",
+                "ai_id": "1"
+            }
+        ]
+    },
+    {
+        "is_sp_enemy": 0,
+        "deform_animation_info": [],
+        "ai_id": 0,
+        "id": "313021",
+        "children": [
+            {
+                "drop_item_list": [],
+                "uid": "203",
+                "no": "1",
+                "init_hp": 926,
+                "child_pos_id": "1",
+                "lv": "43",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "101001",
+                                "weight": "50"
+                            },
+                            {
+                                "ability_id": "201067",
+                                "weight": "50"
+                            }
+                        ],
+                        "mnd": 90,
+                        "id": "3130211",
+                        "size": "2",
+                        "lv": "43",
+                        "no": "1",
+                        "spd": "100",
+                        "disp_name": "Wight",
+                        "looking": "0",
+                        "critical": "3",
+                        "max_hp": 926,
+                        "matk": 175,
+                        "counters": [],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "214",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "213",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "220",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "219",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "225",
+                                "factor": "1"
+                            }
+                        ],
+                        "mdef": 98,
+                        "animation_info": {
+                            "scale": "2.3",
+                            "assets": {
+                                "enemy-113143": "/Content/lang/ab/character/enemy/113143.sajson"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "enemy_status_id": "3130211",
+                            "offset_y": "-32",
+                            "path": "113143",
+                            "offset_x": "0"
+                        },
+                        "acc": "100",
+                        "eva": "70",
+                        "atk": 96,
+                        "breed_id": "9",
+                        "exp": 446,
+                        "def": 44
+                    }
+                ],
+                "max_hp": 926,
+                "enemy_id": "313021",
+                "ai_id": "1"
+            }
+        ]
+    },
+    {
+        "is_sp_enemy": 0,
+        "deform_animation_info": [],
+        "ai_id": 0,
+        "id": "313022",
+        "children": [
+            {
+                "drop_item_list": [],
+                "uid": "204",
+                "no": "1",
+                "init_hp": 926,
+                "child_pos_id": "1",
+                "lv": "43",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "101001",
+                                "weight": "50"
+                            },
+                            {
+                                "ability_id": "102011",
+                                "weight": "50"
+                            }
+                        ],
+                        "mnd": 90,
+                        "id": "3130221",
+                        "size": "2",
+                        "lv": "43",
+                        "no": "1",
+                        "spd": "100",
+                        "disp_name": "Ghast",
+                        "looking": "0",
+                        "critical": "3",
+                        "max_hp": 926,
+                        "matk": 175,
+                        "counters": [],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "105",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "211",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "101",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "225",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "210",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "104",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "214",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "201",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "100",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "203",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "220",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "213",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "212",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "102",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "224",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "219",
+                                "factor": "1"
+                            }
+                        ],
+                        "mdef": 98,
+                        "animation_info": {
+                            "scale": "2.5",
+                            "assets": {
+                                "enemy-113138": "/Content/lang/ab/character/enemy/113138.sajson"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "2",
+                            "enemy_status_id": "3130221",
+                            "offset_y": "-28",
+                            "path": "113138",
+                            "offset_x": "0"
+                        },
+                        "acc": "100",
+                        "eva": "70",
+                        "atk": 96,
+                        "breed_id": "9",
+                        "exp": 446,
+                        "def": 44
+                    }
+                ],
+                "max_hp": 926,
+                "enemy_id": "313022",
+                "ai_id": "1"
+            }
+        ]
+    },
+    {
+        "is_sp_enemy": "1",
         "deform_animation_info": [
             {
                 "deform_tag": "in",
-                "enemy_id": "413011",
-                "id": "21306001",
                 "is_random": true,
-                "path": "213060_1.json",
                 "state": [
                     "1",
                     "2"
-                ]
+                ],
+                "path": "213060_1.json",
+                "enemy_id": "413011",
+                "id": "21306001"
             }
         ],
+        "ai_id": "0",
         "id": "413011",
-        "is_sp_enemy": "1"
+        "children": [
+            {
+                "drop_item_list": [],
+                "uid": "205",
+                "no": "2",
+                "init_hp": 26185,
+                "child_pos_id": "2",
+                "lv": "45",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "101001",
+                                "weight": "40"
+                            },
+                            {
+                                "ability_id": "201409",
+                                "weight": "35"
+                            },
+                            {
+                                "ability_id": "201405",
+                                "weight": "35"
+                            }
+                        ],
+                        "mnd": 59,
+                        "id": "4130113",
+                        "size": "3",
+                        "lv": "45",
+                        "no": "2",
+                        "spd": "100",
+                        "disp_name": "Enlil",
+                        "looking": "41301102",
+                        "critical": "3",
+                        "max_hp": 26185,
+                        "matk": 92,
+                        "counters": [],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "203",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "225",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "102",
+                                "factor": "11"
+                            },
+                            {
+                                "attribute_id": "219",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "201",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "105",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "229",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "218",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "213",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "214",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "220",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "212",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "224",
+                                "factor": "1"
+                            }
+                        ],
+                        "mdef": 59,
+                        "animation_info": {
+                            "scale": "1",
+                            "assets": {
+                                "boss-213060_2": "/Content/lang/ab/character/boss/213060/213060_2.json"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "3",
+                            "enemy_status_id": "4130113",
+                            "offset_y": "0",
+                            "path": "213060_2",
+                            "offset_x": "0"
+                        },
+                        "acc": "100",
+                        "eva": "110",
+                        "atk": 140,
+                        "breed_id": "2",
+                        "exp": 0,
+                        "def": 77
+                    },
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "201405",
+                                "weight": "30"
+                            },
+                            {
+                                "ability_id": "201412",
+                                "weight": "20"
+                            },
+                            {
+                                "ability_id": "201410",
+                                "weight": "15"
+                            },
+                            {
+                                "ability_id": "101001",
+                                "weight": "35"
+                            }
+                        ],
+                        "mnd": 59,
+                        "id": "4130114",
+                        "size": "3",
+                        "lv": "45",
+                        "no": "2",
+                        "spd": "100",
+                        "disp_name": "Enlil",
+                        "looking": "41301102",
+                        "critical": "3",
+                        "max_hp": 26185,
+                        "matk": 126,
+                        "counters": [],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "219",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "229",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "105",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "102",
+                                "factor": "11"
+                            },
+                            {
+                                "attribute_id": "201",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "218",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "225",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "214",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "220",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "212",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "224",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "213",
+                                "factor": "1"
+                            }
+                        ],
+                        "mdef": 59,
+                        "animation_info": {
+                            "scale": "1",
+                            "assets": {
+                                "boss-213060_2": "/Content/lang/ab/character/boss/213060/213060_2.json"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "3",
+                            "enemy_status_id": "4130114",
+                            "offset_y": "0",
+                            "path": "213060_2",
+                            "offset_x": "0"
+                        },
+                        "acc": "100",
+                        "eva": "110",
+                        "atk": 171,
+                        "breed_id": "2",
+                        "exp": 0,
+                        "def": 77
+                    },
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "201411",
+                                "weight": "0"
+                            },
+                            {
+                                "ability_id": "201412",
+                                "weight": "20"
+                            },
+                            {
+                                "ability_id": "201405",
+                                "weight": "30"
+                            },
+                            {
+                                "ability_id": "101001",
+                                "weight": "50"
+                            }
+                        ],
+                        "mnd": 59,
+                        "id": "4130116",
+                        "size": "3",
+                        "lv": "45",
+                        "no": "2",
+                        "spd": "100",
+                        "disp_name": "Enlil",
+                        "looking": "41301102",
+                        "critical": "3",
+                        "max_hp": 26185,
+                        "matk": 126,
+                        "counters": [],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "224",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "214",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "220",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "225",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "218",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "105",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "212",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "229",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "219",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "102",
+                                "factor": "11"
+                            },
+                            {
+                                "attribute_id": "201",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "213",
+                                "factor": "1"
+                            }
+                        ],
+                        "mdef": 59,
+                        "animation_info": {
+                            "scale": "1",
+                            "assets": {
+                                "boss-213060_2": "/Content/lang/ab/character/boss/213060/213060_2.json"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "3",
+                            "enemy_status_id": "4130116",
+                            "offset_y": "0",
+                            "path": "213060_2",
+                            "offset_x": "0"
+                        },
+                        "acc": "100",
+                        "eva": "110",
+                        "atk": 171,
+                        "breed_id": "2",
+                        "exp": 0,
+                        "def": 77
+                    }
+                ],
+                "max_hp": 26185,
+                "enemy_id": "413011",
+                "ai_id": "41301102"
+            },
+            {
+                "drop_item_list": [
+                    {
+                        "item_id": "40000038",
+                        "num": "1",
+                        "type": 51,
+                        "uid": 206,
+                        "rarity": "3"
+                    }
+                ],
+                "uid": "206",
+                "no": "1",
+                "init_hp": 26185,
+                "child_pos_id": "1",
+                "lv": "45",
+                "params": [
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "201405",
+                                "weight": "35"
+                            },
+                            {
+                                "ability_id": "201406",
+                                "weight": "35"
+                            },
+                            {
+                                "ability_id": "101001",
+                                "weight": "40"
+                            }
+                        ],
+                        "mnd": 59,
+                        "id": "4130111",
+                        "size": "3",
+                        "lv": "45",
+                        "no": "1",
+                        "spd": "100",
+                        "disp_name": "Enki",
+                        "looking": "41301101",
+                        "critical": "3",
+                        "max_hp": 26185,
+                        "matk": 92,
+                        "counters": [],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "229",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "225",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "212",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "102",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "214",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "224",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "219",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "218",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "105",
+                                "factor": "11"
+                            },
+                            {
+                                "attribute_id": "220",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "213",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "201",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "203",
+                                "factor": "1"
+                            }
+                        ],
+                        "mdef": 59,
+                        "animation_info": {
+                            "scale": "1",
+                            "assets": {
+                                "boss-213060_1": "/Content/lang/ab/character/boss/213060/213060_1.json"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "3",
+                            "enemy_status_id": "4130111",
+                            "offset_y": "0",
+                            "path": "213060_1",
+                            "offset_x": "0"
+                        },
+                        "acc": "100",
+                        "eva": "110",
+                        "atk": 140,
+                        "breed_id": "2",
+                        "exp": 1364,
+                        "def": 77
+                    },
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "101001",
+                                "weight": "35"
+                            },
+                            {
+                                "ability_id": "201407",
+                                "weight": "15"
+                            },
+                            {
+                                "ability_id": "201405",
+                                "weight": "30"
+                            },
+                            {
+                                "ability_id": "201412",
+                                "weight": "20"
+                            }
+                        ],
+                        "mnd": 59,
+                        "id": "4130112",
+                        "size": "3",
+                        "lv": "45",
+                        "no": "1",
+                        "spd": "100",
+                        "disp_name": "Enki",
+                        "looking": "41301101",
+                        "critical": "3",
+                        "max_hp": 26185,
+                        "matk": 126,
+                        "counters": [],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "224",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "214",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "229",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "219",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "213",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "225",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "201",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "105",
+                                "factor": "11"
+                            },
+                            {
+                                "attribute_id": "218",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "102",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "212",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "220",
+                                "factor": "1"
+                            }
+                        ],
+                        "mdef": 59,
+                        "animation_info": {
+                            "scale": "1",
+                            "assets": {
+                                "boss-213060_1": "/Content/lang/ab/character/boss/213060/213060_1.json"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "3",
+                            "enemy_status_id": "4130112",
+                            "offset_y": "0",
+                            "path": "213060_1",
+                            "offset_x": "0"
+                        },
+                        "acc": "100",
+                        "eva": "110",
+                        "atk": 171,
+                        "breed_id": "2",
+                        "exp": 0,
+                        "def": 77
+                    },
+                    {
+                        "abilities": [
+                            {
+                                "ability_id": "201412",
+                                "weight": "20"
+                            },
+                            {
+                                "ability_id": "101001",
+                                "weight": "50"
+                            },
+                            {
+                                "ability_id": "201405",
+                                "weight": "30"
+                            },
+                            {
+                                "ability_id": "201408",
+                                "weight": "0"
+                            }
+                        ],
+                        "mnd": 59,
+                        "id": "4130115",
+                        "size": "3",
+                        "lv": "45",
+                        "no": "1",
+                        "spd": "100",
+                        "disp_name": "Enki",
+                        "looking": "41301101",
+                        "critical": "3",
+                        "max_hp": 26185,
+                        "matk": 126,
+                        "counters": [],
+                        "def_attributes": [
+                            {
+                                "attribute_id": "105",
+                                "factor": "11"
+                            },
+                            {
+                                "attribute_id": "222",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "212",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "225",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "213",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "221",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "102",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "220",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "214",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "201",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "229",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "218",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "224",
+                                "factor": "1"
+                            },
+                            {
+                                "attribute_id": "219",
+                                "factor": "1"
+                            }
+                        ],
+                        "mdef": 59,
+                        "animation_info": {
+                            "scale": "1",
+                            "assets": {
+                                "boss-213060_1": "/Content/lang/ab/character/boss/213060/213060_1.json"
+                            },
+                            "uses_fix_pos": false,
+                            "hp_gauge_size": "3",
+                            "enemy_status_id": "4130115",
+                            "offset_y": "0",
+                            "path": "213060_1",
+                            "offset_x": "0"
+                        },
+                        "acc": "100",
+                        "eva": "110",
+                        "atk": 171,
+                        "breed_id": "2",
+                        "exp": 0,
+                        "def": 77
+                    }
+                ],
+                "max_hp": 26185,
+                "enemy_id": "413011",
+                "ai_id": "41301101"
+            }
+        ]
     }
 ]

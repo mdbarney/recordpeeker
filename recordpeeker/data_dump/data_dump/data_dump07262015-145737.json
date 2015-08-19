@@ -1,0 +1,537 @@
+{
+    "SERVER_TIME": 1437940656, 
+    "achievement_quests": [
+        {
+            "achieve_cond_description": "Use a Common Relic Draw after accepting the quest.", 
+            "achieve_type": 8, 
+            "achieve_type_name": "GACHA", 
+            "can_challenge": false, 
+            "description": "Use a Common Relic Draw!<br>\nYou get 1 free Common Relic Draw per day.<br>\nIt's possible for rare equipment to drop, so don't miss your chance!", 
+            "disp_number": 1, 
+            "hint_msg": "", 
+            "hint_title": "", 
+            "id": 10800001, 
+            "is_achieved": true, 
+            "is_challenging": false, 
+            "is_completed": false, 
+            "is_new": false, 
+            "is_special": false, 
+            "is_tutorial": true, 
+            "order_cond_description": "", 
+            "prizes": [
+                {
+                    "id": 91000000, 
+                    "image_path": "/dff/static/lang/image/common_item/91000000.png", 
+                    "name": "Mythril", 
+                    "num": 1, 
+                    "type_name": "COMMON"
+                }
+            ], 
+            "title": "Use a Common Relic Draw"
+        }
+    ], 
+    "assets": {
+        "gacha_fee": {
+            "assetPath": "/Content/lang/ww/compile/en/ab/gacha/gacha_fee.json", 
+            "bundle": {
+                "/Content/lang/se/se_caf/se_gacha_common_100040.caf": {
+                    "hash": "HMiu1gFjtNn3xcmxN6GW6Q"
+                }, 
+                "/Content/lang/se/se_caf/se_gacha_common_100041.caf": {
+                    "hash": "7e2fmPlHatVKYs7n8R77jg"
+                }, 
+                "/Content/lang/se/se_caf/se_gacha_common_100042.caf": {
+                    "hash": "w3Jt0L6w7UXI2RIc9+/PsQ"
+                }, 
+                "/Content/lang/se/se_caf/se_gacha_common_100043.caf": {
+                    "hash": "Hk7603uAkEz6ngzUOFH5aw"
+                }, 
+                "/Content/lang/se/se_caf/se_gacha_common_100044.caf": {
+                    "hash": "Dw7cgpLzQtfH3poNvWkCxg"
+                }, 
+                "/Content/lang/se/se_caf/se_gacha_common_100045.caf": {
+                    "hash": "YFZmlm7Yv/w9zesh21xijQ"
+                }, 
+                "/Content/lang/se/se_caf/se_gacha_common_100046.caf": {
+                    "hash": "NqgGQt0iZaSfO3039qiojw"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/eff_light02.png": {
+                    "hash": "Sjv72DvWV55JpDKAYs1tmA"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/img_eff_01.json": {
+                    "hash": "OJ5kfYeo5AyP3RbrqYGa3g"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/img_eff_01.png": {
+                    "hash": "lqlI1yYIl8hfQIawA1sRlg"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/img_eff_circle01.png": {
+                    "hash": "kibSjuTQaXxjgB0ZzBHUfA"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/img_eff_fire.json": {
+                    "hash": "7VzCDmEK9bZXfq+QvbOm9g"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/img_eff_fire.png": {
+                    "hash": "lKeVc4YW31UgmCScKaDGlQ"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/img_normal_atks.json": {
+                    "hash": "JJirDrM1e/OlIjYhVRis9w"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/img_normal_atks.png": {
+                    "hash": "h4TI9BU81ou9aynw7MDC7g"
+                }, 
+                "/Content/lang/ww/compile/en/ab/gacha/gacha_fee.json": {
+                    "hash": "Xx0pBP/mg8dxZcMZyS8aHQ"
+                }, 
+                "/Content/lang/ww/compile/en/ab/gacha/img_BG_Fee_03.png": {
+                    "hash": "GoxrJkQN0yg6sLJyel2WOQ"
+                }, 
+                "/Content/lang/ww/compile/en/ab/gacha/img_BG_Fee_Lev01.png": {
+                    "hash": "Xj17gpEkEyPyB9YlfN8YRw"
+                }, 
+                "/Content/lang/ww/compile/en/ab/gacha/img_BG_Fee_Lev02.png": {
+                    "hash": "5eqPrlXxPqlcozIBBcjRlA"
+                }, 
+                "/Content/lang/ww/compile/en/ab/gacha/img_BG_Fee_Lev03.png": {
+                    "hash": "+PsEtes62EmpoYuNgXG8Zg"
+                }, 
+                "/Content/lang/ww/compile/en/ab/gacha/img_BG_Fee_Lev04.png": {
+                    "hash": "S8s7BKG0Jkv13nta5A7XMw"
+                }, 
+                "/Content/lang/ww/compile/en/ab/gacha/img_TapIcon.png": {
+                    "hash": "GKfMiXsMhghZ+kxBhazLzA"
+                }, 
+                "/Content/lang/ww/compile/en/ab/gacha/img_black.png": {
+                    "hash": "v2/rBYA1HW5jB9z93nUWNw"
+                }, 
+                "/Content/lang/ww/compile/en/ab/gacha/img_cong.png": {
+                    "hash": "yQBLjBwVNUu4HAXGmP8lug"
+                }, 
+                "/Content/lang/ww/compile/en/ab/gacha/img_dou.png": {
+                    "hash": "+huDVfgtagBeiCrrJ5gt5Q"
+                }, 
+                "/Content/lang/ww/compile/en/ab/gacha/img_eff_01_gacha.png": {
+                    "hash": "BBAeJ1/4enP0VsZkfbZdUA"
+                }, 
+                "/Content/lang/ww/compile/en/ab/gacha/img_gol.png": {
+                    "hash": "U1Njw2zOMBZxZvlGYUUFiw"
+                }, 
+                "/Content/lang/ww/compile/en/ab/gacha/img_mogu.json": {
+                    "hash": "FfQpJ61Tabwp16vi6vaTpA"
+                }, 
+                "/Content/lang/ww/compile/en/ab/gacha/img_mogu.png": {
+                    "hash": "v7MIdZMnw/nCf6vkeL6Pnw"
+                }, 
+                "/Content/lang/ww/compile/en/ab/gacha/img_niji.png": {
+                    "hash": "hOLTCtnftQ19bSzmnqmr0w"
+                }, 
+                "/Content/lang/ww/compile/en/ab/gacha/img_sil.png": {
+                    "hash": "qUVcxKvr0iNtXqK9dpLGqQ"
+                }, 
+                "/Content/lang/ww/compile/en/ab/gacha/img_star.png": {
+                    "hash": "3DAk7IqHSiOvPfiJo5J6sw"
+                }, 
+                "/Content/lang/ww/compile/en/ab/gacha/light_Lev02.png": {
+                    "hash": "S+ftv5iXq+Lgj4t7l/D72w"
+                }, 
+                "/Content/lang/ww/compile/en/ab/gacha/light_Lev03.png": {
+                    "hash": "Wbos+EUNXOjFwG++JKQTlA"
+                }, 
+                "/Content/lang/ww/compile/en/ab/gacha/pb_TapIcon.json": {
+                    "hash": "QSJXlM88Z61SIwy/oJEHrQ"
+                }, 
+                "/Content/lang/ww/compile/en/ab/gacha/pb_cong.json": {
+                    "hash": "G96OWU8Emjy4qqlcktk9dA"
+                }, 
+                "/Content/lang/ww/compile/en/ab/gacha/pb_hanabi_A.json": {
+                    "hash": "z8iplYB8skiqWbslNUOsGA"
+                }, 
+                "/Content/lang/ww/compile/en/ab/gacha/pb_hanabi_B.json": {
+                    "hash": "0QThH62qqmz+s0TpKOHOTA"
+                }, 
+                "/Content/lang/ww/compile/en/ab/gacha/pb_hanabi_C.json": {
+                    "hash": "iWo8K+8a/M2ATQ0FwTw6Sg"
+                }, 
+                "/Content/lang/ww/compile/en/ab/gacha/pb_item_Lev01.json": {
+                    "hash": "KhdDFPBlmKN3DlQam4Bq3Q"
+                }, 
+                "/Content/lang/ww/compile/en/ab/gacha/pb_item_Lev02.json": {
+                    "hash": "aBuxemq428X52jVOCZkGbw"
+                }, 
+                "/Content/lang/ww/compile/en/ab/gacha/pb_item_Lev03.json": {
+                    "hash": "yXp34gOaYMDl4a2kB7wAUQ"
+                }, 
+                "/Content/lang/ww/compile/en/ab/gacha/pb_item_Lev04.json": {
+                    "hash": "gOGUhrsv0+ol3qaneR26dQ"
+                }, 
+                "/Content/lang/ww/compile/en/ab/gacha/pb_item_Lev05.json": {
+                    "hash": "Fl7NRxY0Iwt3GD0dIglodQ"
+                }, 
+                "/Content/lang/ww/compile/en/ab/gacha/pb_lightLev01.json": {
+                    "hash": "UBWxqiLQ6OPkLdQqgNZ+xQ"
+                }, 
+                "/Content/lang/ww/compile/en/ab/gacha/pb_lightLev03.json": {
+                    "hash": "WD46LcvyHtQ5UB3l7zL2RQ"
+                }, 
+                "/Content/lang/ww/compile/en/ab/gacha/pb_lightLev04.json": {
+                    "hash": "y5yiT402YFqejvq+UP7mMw"
+                }, 
+                "/Content/lang/ww/compile/en/ab/gacha/pb_lightLev05.json": {
+                    "hash": "Gm82FPSLXKnMQQAc5WkgdQ"
+                }, 
+                "/Content/lang/ww/compile/en/ab/gacha/pb_light_tailA.json": {
+                    "hash": "tCYIhH/QicuNXlXAk9SObw"
+                }, 
+                "/Content/lang/ww/compile/en/ab/gacha/pb_magic.json": {
+                    "hash": "Em2eLOdCH6spvYhT7lDgjw"
+                }, 
+                "/Content/lang/ww/compile/en/ab/gacha/pb_magic_eff.json": {
+                    "hash": "rr83x+kSSczscK+PiVJr/w"
+                }, 
+                "/Content/lang/ww/compile/en/ab/gacha/pb_magic_eff2.json": {
+                    "hash": "3u8OtfaByyFn/LGuoUbhWA"
+                }, 
+                "/Content/lang/ww/compile/en/ab/gacha/pb_magic_effC.json": {
+                    "hash": "khK+7ev/NWmXmKnF9gv9Rw"
+                }, 
+                "/Content/lang/ww/compile/en/ab/gacha/pb_mogu.json": {
+                    "hash": "w64clitcLngNnPGJ4sx+DQ"
+                }, 
+                "/Content/lang/ww/compile/en/ab/gacha/pb_picLev02.json": {
+                    "hash": "rbsJH7lIcmYmLjk2B8wS1A"
+                }, 
+                "/Content/lang/ww/compile/en/ab/gacha/pb_picLev03.json": {
+                    "hash": "3b3J5LpqIlujU49Lep8bnA"
+                }, 
+                "/Content/lang/ww/compile/en/ab/gacha/pb_picLev04.json": {
+                    "hash": "t9dWO3/T8M5gGgvkZogAwA"
+                }, 
+                "/Content/lang/ww/compile/en/ab/gacha/pb_room_star.json": {
+                    "hash": "xOpcrlkMa87CFZoirGjaaw"
+                }, 
+                "/Content/lang/ww/compile/en/ab/gacha/pb_star.json": {
+                    "hash": "W3IhjpN+JSbmZWAZT6tL1w"
+                }
+            }
+        }, 
+        "gacha_noc": {
+            "assetPath": "/Content/lang/ww/compile/en/ab/gacha/gacha_noc.json", 
+            "bundle": {
+                "/Content/lang/se/se_caf/se_gacha_common_100040.caf": {
+                    "hash": "HMiu1gFjtNn3xcmxN6GW6Q"
+                }, 
+                "/Content/lang/se/se_caf/se_gacha_common_100041.caf": {
+                    "hash": "7e2fmPlHatVKYs7n8R77jg"
+                }, 
+                "/Content/lang/se/se_caf/se_gacha_common_100042.caf": {
+                    "hash": "w3Jt0L6w7UXI2RIc9+/PsQ"
+                }, 
+                "/Content/lang/se/se_caf/se_gacha_common_100043.caf": {
+                    "hash": "Hk7603uAkEz6ngzUOFH5aw"
+                }, 
+                "/Content/lang/se/se_caf/se_gacha_common_100044.caf": {
+                    "hash": "Dw7cgpLzQtfH3poNvWkCxg"
+                }, 
+                "/Content/lang/se/se_caf/se_gacha_common_100045.caf": {
+                    "hash": "YFZmlm7Yv/w9zesh21xijQ"
+                }, 
+                "/Content/lang/se/se_caf/se_gacha_common_100046.caf": {
+                    "hash": "NqgGQt0iZaSfO3039qiojw"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/eff_light02.png": {
+                    "hash": "Sjv72DvWV55JpDKAYs1tmA"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/img_eff_01.json": {
+                    "hash": "OJ5kfYeo5AyP3RbrqYGa3g"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/img_eff_01.png": {
+                    "hash": "lqlI1yYIl8hfQIawA1sRlg"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/img_eff_circle01.png": {
+                    "hash": "kibSjuTQaXxjgB0ZzBHUfA"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/img_eff_fire.json": {
+                    "hash": "7VzCDmEK9bZXfq+QvbOm9g"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/img_eff_fire.png": {
+                    "hash": "lKeVc4YW31UgmCScKaDGlQ"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/img_normal_atks.json": {
+                    "hash": "JJirDrM1e/OlIjYhVRis9w"
+                }, 
+                "/Content/lang/ww/compile/en/ab/effect_image/img_normal_atks.png": {
+                    "hash": "h4TI9BU81ou9aynw7MDC7g"
+                }, 
+                "/Content/lang/ww/compile/en/ab/gacha/gacha_noc.json": {
+                    "hash": "naX/kO3EaPc10xUcExNcng"
+                }, 
+                "/Content/lang/ww/compile/en/ab/gacha/img_BG_Noc_03.png": {
+                    "hash": "ZuNFDGt0nfSoGVl/YxdA6w"
+                }, 
+                "/Content/lang/ww/compile/en/ab/gacha/img_BG_Noc_Lev01.png": {
+                    "hash": "ov67vat5cRIFJa6UcBWuiQ"
+                }, 
+                "/Content/lang/ww/compile/en/ab/gacha/img_BG_Noc_Lev02.png": {
+                    "hash": "ddeWohgXwqEA+aanbFAXFA"
+                }, 
+                "/Content/lang/ww/compile/en/ab/gacha/img_BG_Noc_Lev03.png": {
+                    "hash": "GYJg6bq2hQicfiNDLE4Aqg"
+                }, 
+                "/Content/lang/ww/compile/en/ab/gacha/img_BG_Noc_Lev04.png": {
+                    "hash": "vAnmkNTmShTGypFB9A0qpQ"
+                }, 
+                "/Content/lang/ww/compile/en/ab/gacha/img_TapIcon.png": {
+                    "hash": "GKfMiXsMhghZ+kxBhazLzA"
+                }, 
+                "/Content/lang/ww/compile/en/ab/gacha/img_black.png": {
+                    "hash": "v2/rBYA1HW5jB9z93nUWNw"
+                }, 
+                "/Content/lang/ww/compile/en/ab/gacha/img_cong.png": {
+                    "hash": "yQBLjBwVNUu4HAXGmP8lug"
+                }, 
+                "/Content/lang/ww/compile/en/ab/gacha/img_dou.png": {
+                    "hash": "+huDVfgtagBeiCrrJ5gt5Q"
+                }, 
+                "/Content/lang/ww/compile/en/ab/gacha/img_eff_01_gacha.png": {
+                    "hash": "BBAeJ1/4enP0VsZkfbZdUA"
+                }, 
+                "/Content/lang/ww/compile/en/ab/gacha/img_gol.png": {
+                    "hash": "U1Njw2zOMBZxZvlGYUUFiw"
+                }, 
+                "/Content/lang/ww/compile/en/ab/gacha/img_mogu.json": {
+                    "hash": "FfQpJ61Tabwp16vi6vaTpA"
+                }, 
+                "/Content/lang/ww/compile/en/ab/gacha/img_mogu.png": {
+                    "hash": "v7MIdZMnw/nCf6vkeL6Pnw"
+                }, 
+                "/Content/lang/ww/compile/en/ab/gacha/img_niji.png": {
+                    "hash": "hOLTCtnftQ19bSzmnqmr0w"
+                }, 
+                "/Content/lang/ww/compile/en/ab/gacha/img_sil.png": {
+                    "hash": "qUVcxKvr0iNtXqK9dpLGqQ"
+                }, 
+                "/Content/lang/ww/compile/en/ab/gacha/img_star.png": {
+                    "hash": "3DAk7IqHSiOvPfiJo5J6sw"
+                }, 
+                "/Content/lang/ww/compile/en/ab/gacha/light_Lev02.png": {
+                    "hash": "S+ftv5iXq+Lgj4t7l/D72w"
+                }, 
+                "/Content/lang/ww/compile/en/ab/gacha/light_Lev03.png": {
+                    "hash": "Wbos+EUNXOjFwG++JKQTlA"
+                }, 
+                "/Content/lang/ww/compile/en/ab/gacha/pb_TapIcon.json": {
+                    "hash": "QSJXlM88Z61SIwy/oJEHrQ"
+                }, 
+                "/Content/lang/ww/compile/en/ab/gacha/pb_cong.json": {
+                    "hash": "G96OWU8Emjy4qqlcktk9dA"
+                }, 
+                "/Content/lang/ww/compile/en/ab/gacha/pb_hanabi_A.json": {
+                    "hash": "z8iplYB8skiqWbslNUOsGA"
+                }, 
+                "/Content/lang/ww/compile/en/ab/gacha/pb_hanabi_B.json": {
+                    "hash": "0QThH62qqmz+s0TpKOHOTA"
+                }, 
+                "/Content/lang/ww/compile/en/ab/gacha/pb_hanabi_C.json": {
+                    "hash": "iWo8K+8a/M2ATQ0FwTw6Sg"
+                }, 
+                "/Content/lang/ww/compile/en/ab/gacha/pb_item_Lev01.json": {
+                    "hash": "KhdDFPBlmKN3DlQam4Bq3Q"
+                }, 
+                "/Content/lang/ww/compile/en/ab/gacha/pb_item_Lev02.json": {
+                    "hash": "aBuxemq428X52jVOCZkGbw"
+                }, 
+                "/Content/lang/ww/compile/en/ab/gacha/pb_item_Lev03.json": {
+                    "hash": "yXp34gOaYMDl4a2kB7wAUQ"
+                }, 
+                "/Content/lang/ww/compile/en/ab/gacha/pb_item_Lev04.json": {
+                    "hash": "gOGUhrsv0+ol3qaneR26dQ"
+                }, 
+                "/Content/lang/ww/compile/en/ab/gacha/pb_item_Lev05.json": {
+                    "hash": "Fl7NRxY0Iwt3GD0dIglodQ"
+                }, 
+                "/Content/lang/ww/compile/en/ab/gacha/pb_lightLev01.json": {
+                    "hash": "UBWxqiLQ6OPkLdQqgNZ+xQ"
+                }, 
+                "/Content/lang/ww/compile/en/ab/gacha/pb_lightLev03.json": {
+                    "hash": "WD46LcvyHtQ5UB3l7zL2RQ"
+                }, 
+                "/Content/lang/ww/compile/en/ab/gacha/pb_lightLev04.json": {
+                    "hash": "y5yiT402YFqejvq+UP7mMw"
+                }, 
+                "/Content/lang/ww/compile/en/ab/gacha/pb_lightLev05.json": {
+                    "hash": "Gm82FPSLXKnMQQAc5WkgdQ"
+                }, 
+                "/Content/lang/ww/compile/en/ab/gacha/pb_light_tailA.json": {
+                    "hash": "tCYIhH/QicuNXlXAk9SObw"
+                }, 
+                "/Content/lang/ww/compile/en/ab/gacha/pb_magic.json": {
+                    "hash": "Em2eLOdCH6spvYhT7lDgjw"
+                }, 
+                "/Content/lang/ww/compile/en/ab/gacha/pb_magic_eff.json": {
+                    "hash": "rr83x+kSSczscK+PiVJr/w"
+                }, 
+                "/Content/lang/ww/compile/en/ab/gacha/pb_magic_eff2.json": {
+                    "hash": "3u8OtfaByyFn/LGuoUbhWA"
+                }, 
+                "/Content/lang/ww/compile/en/ab/gacha/pb_magic_effC.json": {
+                    "hash": "khK+7ev/NWmXmKnF9gv9Rw"
+                }, 
+                "/Content/lang/ww/compile/en/ab/gacha/pb_mogu.json": {
+                    "hash": "w64clitcLngNnPGJ4sx+DQ"
+                }, 
+                "/Content/lang/ww/compile/en/ab/gacha/pb_picLev02.json": {
+                    "hash": "rbsJH7lIcmYmLjk2B8wS1A"
+                }, 
+                "/Content/lang/ww/compile/en/ab/gacha/pb_picLev03.json": {
+                    "hash": "3b3J5LpqIlujU49Lep8bnA"
+                }, 
+                "/Content/lang/ww/compile/en/ab/gacha/pb_picLev04.json": {
+                    "hash": "t9dWO3/T8M5gGgvkZogAwA"
+                }, 
+                "/Content/lang/ww/compile/en/ab/gacha/pb_room_star.json": {
+                    "hash": "xOpcrlkMa87CFZoirGjaaw"
+                }, 
+                "/Content/lang/ww/compile/en/ab/gacha/pb_star.json": {
+                    "hash": "W3IhjpN+JSbmZWAZT6tL1w"
+                }
+            }
+        }, 
+        "item-22051004": {
+            "assetPath": "/Content/lang/ab_image/equipment/22051004/22051004_01_256.png", 
+            "bundle": {
+                "/Content/lang/ab_image/equipment/22051004/22051004_01_256.png": {
+                    "hash": "/TK55csOO7mOmhMDjp4zLQ"
+                }
+            }
+        }
+    }, 
+    "gacha_entry_point_id": "2299001", 
+    "gacha_series_id": "1200", 
+    "items": [
+        {
+            "acc": 0, 
+            "allowed_buddy_id": 0, 
+            "atk": 0, 
+            "atk_ss_point_factor": 0, 
+            "attributes": [], 
+            "base_rarity": 1, 
+            "can_evolve_now": false, 
+            "can_evolve_potentially": true, 
+            "category_id": 51, 
+            "category_name": "Hat", 
+            "created_at": 1437940656, 
+            "critical": 0, 
+            "def": 2, 
+            "def_ss_point_factor": 0, 
+            "description": "None", 
+            "detail_image_path": "/dff/static/lang/image/equipment/22051004/22051004_01_220.png", 
+            "equipment_id": 22051004, 
+            "equipment_type": 2, 
+            "eva": 93, 
+            "evol_max_level_of_base_rarity": {
+                "1": {
+                    "0": 3, 
+                    "1": 5, 
+                    "2": 10
+                }, 
+                "2": {
+                    "0": 5, 
+                    "1": 10, 
+                    "2": 15
+                }, 
+                "3": {
+                    "0": 10, 
+                    "1": 15, 
+                    "2": 20
+                }, 
+                "4": {
+                    "0": 15, 
+                    "1": 20, 
+                    "2": 25
+                }, 
+                "5": {
+                    "0": 20, 
+                    "1": 25, 
+                    "2": 30
+                }
+            }, 
+            "evolution_num": 0, 
+            "exp": 0, 
+            "has_someones_soul_strike": false, 
+            "has_soul_strike": false, 
+            "hp": 0, 
+            "id": 344069859, 
+            "image_path": "/dff/static/lang/image/equipment/22051004/22051004_01_112.png", 
+            "is_accessory": false, 
+            "is_armor": true, 
+            "is_max_evolution_num": false, 
+            "is_sp_enhancement_material": false, 
+            "is_usable_as_enhancement_material": true, 
+            "is_usable_as_enhancement_src": true, 
+            "is_weapon": false, 
+            "level": 1, 
+            "level_max": 3, 
+            "matk": 1, 
+            "max_evolution_num": 2, 
+            "mdef": 5, 
+            "mnd": 1, 
+            "name": "Hairband (VI)", 
+            "rarity": 1, 
+            "required_enhancement_base_gil": 130, 
+            "required_evolution_gil": 2500, 
+            "sale_gil": 250, 
+            "series_acc": 0, 
+            "series_atk": 0, 
+            "series_def": 17, 
+            "series_eva": 93, 
+            "series_hp": 0, 
+            "series_id": 106001, 
+            "series_matk": 8, 
+            "series_mdef": 34, 
+            "series_mnd": 8, 
+            "soul_strike_id": 0, 
+            "thumbnail_path": "/dff/static/lang/image/equipment/22051004/22051004_01_48.png"
+        }
+    ], 
+    "soul_strikes": [], 
+    "success": true, 
+    "user": {
+        "can_review": true, 
+        "dungeon_id": 201002, 
+        "followee_num": 17, 
+        "func_tutorial_bits": 98301, 
+        "gil": 61316, 
+        "has_all_clear_ver_to_show": false, 
+        "id": 5143210343006208, 
+        "is_in_dungeon": true, 
+        "is_update_last_logined_at": false, 
+        "last_logined_at": 1437930697, 
+        "max_followee_num": 100, 
+        "max_follower_num": 100, 
+        "max_stamina": 48, 
+        "name": "Tyro", 
+        "release_id": 0, 
+        "residual_stamina_piece": 1, 
+        "soul_piece": 8, 
+        "stamina": 23, 
+        "stamina_piece": 241, 
+        "stamina_recovery_remaining_time": 4378, 
+        "stamina_recovery_time": 180, 
+        "start_time_of_today": 1437915600, 
+        "supporter_ss_gauge": 2, 
+        "tutorial_step": 255
+    }, 
+    "user_item_possession_limits": [
+        {
+            "current_num": 26, 
+            "enable_give_num": 74, 
+            "item_type_name": "ability", 
+            "max_num": 100
+        }, 
+        {
+            "current_num": 98, 
+            "enable_give_num": 2, 
+            "item_type_name": "equipment", 
+            "max_num": 100
+        }
+    ]
+}

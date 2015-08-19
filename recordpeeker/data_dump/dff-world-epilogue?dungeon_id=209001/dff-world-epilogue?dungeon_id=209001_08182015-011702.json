@@ -1,0 +1,138 @@
+{
+    "dungeon": {
+        "background_image_path": "/dff/static/lang/image/dungeon/209001_bg.png", 
+        "order_no": 1, 
+        "captures": [
+            {
+                "sp_scores": [
+                    {
+                        "title": "Defeat the Masked Man without being KO'd.", 
+                        "battle_id": 309001
+                    }
+                ], 
+                "image_path": "/dff/static/lang/image/enemy/409001.png", 
+                "tip_battle": {
+                    "message": "The Masked Man only uses <span class=\"red\">physical attacks</span>, kupo! Abilities like <span class=\"red\">Power Break</span> and <span class=\"red\">Protect</span> will make him much easier to defeat!", 
+                    "group_id": 410117, 
+                    "id": 410117, 
+                    "title": "Masked Man"
+                }
+            }, 
+            {
+                "sp_scores": [
+                    {
+                        "title": "Defeat Steiner without being KO'd.", 
+                        "battle_id": 309002
+                    }
+                ], 
+                "image_path": "/dff/static/lang/image/enemy/409002.png", 
+                "tip_battle": {
+                    "message": "Steiner only uses <span class=\"red\">physical attacks</span>, kupo! Abilities like <span class=\"red\">Power Break and Protect</span> will take the bite out of his hits!", 
+                    "group_id": 410118, 
+                    "id": 410118, 
+                    "title": "Steiner"
+                }
+            }, 
+            {
+                "sp_scores": [
+                    {
+                        "title": "Defeat Steiner without being KO'd.", 
+                        "battle_id": 309003
+                    }
+                ], 
+                "image_path": "/dff/static/lang/image/enemy/409003.png", 
+                "tip_battle": {
+                    "message": "Steiner only uses <span class=\"red\">physical attacks</span>, kupo! Abilities like <span class=\"red\">Power Break and Protect</span> will take the bite out of his hits!", 
+                    "group_id": 410119, 
+                    "id": 410119, 
+                    "title": "Steiner, Haagen, and Weimar"
+                }
+            }, 
+            {
+                "sp_scores": [
+                    {
+                        "title": "Defeat Steiner before the bomb self-destructs.", 
+                        "battle_id": 309004
+                    }, 
+                    {
+                        "title": "Defeat Steiner and the bomb without being KO'd.", 
+                        "battle_id": 309004
+                    }
+                ], 
+                "image_path": "/dff/static/lang/image/enemy/409004.png", 
+                "tip_battle": {
+                    "message": "If the bomb goes off, it will hit the whole party for major damage, kupo! Either <span class=\"red\">bring down Steiner</span> before it blows up, or <span class=\"red\">heal everyone up</span> before it goes kaboom!", 
+                    "group_id": 410120, 
+                    "id": 410120, 
+                    "title": "Steiner & The Bomb"
+                }
+            }
+        ], 
+        "is_new": false, 
+        "rank": 3, 
+        "closed_at": 2145938400, 
+        "id": 209001, 
+        "is_clear": true, 
+        "button_style": "NORMAL", 
+        "opened_at": 1434675600, 
+        "world_id": 109001, 
+        "type": 1, 
+        "challenge_level": 43, 
+        "is_unlocked": true, 
+        "series_id": 109001, 
+        "prizes": {
+            "1": [
+                {
+                    "id": 92000000, 
+                    "type_name": "COMMON", 
+                    "num": 3500, 
+                    "image_path": "/dff/static/lang/image/common_item/92000000.png", 
+                    "name": "Gil"
+                }
+            ], 
+            "3": [
+                {
+                    "id": 40000053, 
+                    "type_name": "ABILITY_MATERIAL", 
+                    "num": 3, 
+                    "image_path": "/dff/static/lang/image/ability_material/40000053/40000053_112.png", 
+                    "name": "Wind Orb"
+                }, 
+                {
+                    "id": 24099003, 
+                    "type_name": "EQUIPMENT", 
+                    "num": 1, 
+                    "image_path": "/dff/static/lang/image/equipment/24099003/24099003_03_112.png", 
+                    "name": "Adamantite"
+                }
+            ], 
+            "2": [
+                {
+                    "id": 94000000, 
+                    "type_name": "COMMON", 
+                    "num": 1, 
+                    "image_path": "/dff/static/lang/image/common_item/94000000.png", 
+                    "name": "Stamina Shard"
+                }, 
+                {
+                    "id": 91000000, 
+                    "type_name": "COMMON", 
+                    "num": 1, 
+                    "image_path": "/dff/static/lang/image/common_item/91000000.png", 
+                    "name": "Mythril"
+                }
+            ]
+        }, 
+        "total_stamina": 48, 
+        "epilogue": "Zidane went backstage after Garnet, only to have her request her own kidnapping. The Tantalus troupe involved Garnet and Vivi in their performance to escape Steiner, leaving Alexandria aboard the M.S. Prima Vista, but the theater ship was brought down by cannon fire from the castle and crashed in the Evil Forest.", 
+        "epilogue_image_path": "/dff/static/lang/image/dungeon/209001_epilogue.png", 
+        "name": "M.S. Prima Vista", 
+        "bgm": "bgm_09_011", 
+        "prologue": "Our story begins with a performance in celebration of Princess Garnet's birthday that brings Zidane, Vivi, and the princess together.", 
+        "is_master": true, 
+        "prologue_image_path": "/dff/static/lang/image/dungeon/209001_prologue.png"
+    }, 
+    "SERVER_TIME": 1439878622, 
+    "success": true, 
+    "can_review": false
+}
