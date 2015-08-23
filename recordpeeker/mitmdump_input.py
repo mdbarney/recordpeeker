@@ -24,6 +24,26 @@ from recordpeeker.dispatcher import Dispatcher
 current_dungeon_id = 0
 temp_party_list = []
 
+def load_dict(path):
+    with open(path, mode='r') as infile:
+        reader = csv.reader(infile)
+        mydict = dict((rows[0],rows[1]) for rows in reader)
+    return mydict
+
+def sort_item_dict_csv():
+# def sort_item_dict_csv(base_path):
+
+    # used to remove duplicate items and order items by ID/key
+    # a = load_dict(base_path + "data/items.csv")
+    a = load_dict(os.getcwd() + "/data/items.csv")
+    b = a.keys()
+    c = sorted(b)
+    with open(os.getcwd() + "/data/items.csv", 'w') as f:
+        for d in c:
+            print >> f, str(d) + "," + str(a[d])
+            # print str(d) + str(a[d])
+
+
 # TODO
 def save_battles(data):
     # temp.append([dungeon_id, series_id, id, name, difficulty, type, rounds, stamina, has_boss])
@@ -62,6 +82,7 @@ def save_single_equipment_by_id(item, path):
         # reload dict ITEMS dict?
         # doesnt work
         # ITEMS = __init__.load_dict("data/items.csv")
+        sort_item_dict_csv()
 
     if not os.access(os.getcwd() + path + str(equipment_id) + "/", os.F_OK):
         os.mkdir(os.getcwd() + path + str(equipment_id) + "/")
@@ -767,6 +788,7 @@ def handle_grow_egg_use(data):
     buddy = data["buddy"]
     level = buddy.get("level","Unknown")
     job_name = buddy.get("job_name", "Unknown")
+    buddy_id = buddy.get("id","0")
 
     # Tyro check
     if job_name == "Keeper":
@@ -791,8 +813,14 @@ def handle_grow_egg_use(data):
         os.mkdir(os.getcwd() + "/data/buddy/" + a + "/" + str(level) + "/")
 
     test_file_path = os.getcwd() + "/data/buddy/" + a + "/" + str(level) + "/" + a + "_level_" + str(level) + "_stats.json"  
-    with open(test_file_path, 'w') as f:
-        print >> f, json.dumps(buddy, indent=4, sort_keys=False)
+    if not os.access(test_file_path, os.F_OK):
+        print "Saved stats for: [" + buddy["name"] + " (id: " + str(buddy_id) + ") - level " + str(level) + "]"
+        with open(test_file_path, 'w') as f:
+            print >> f, json.dumps(buddy, indent=4, sort_keys=False)
+
+    # test_file_path = os.getcwd() + "/data/buddy/" + a + "/" + str(level) + "/" + a + "_level_" + str(level) + "_stats.json"  
+    # with open(test_file_path, 'w') as f:
+    #     print >> f, json.dumps(buddy, indent=4, sort_keys=False)
 
 def handle_gacha_execute(data):
     var = "gacha_execute"

@@ -615,13 +615,14 @@ def save_single_equipment_by_id(item, path):
 def sort_item_dict_csv(base_path):
 
     # used to remove duplicate items and order items by ID/key
-    a = load_dict(base_path + "data/items.csv")
+    # a = load_dict(base_path + "data/items.csv")
+    a = load_dict(os.getcwd() + "/data/items.csv")
     b = a.keys()
     c = sorted(b)
-    with open(base_path + "data/new_items.csv", 'w') as f:
+    with open(os.getcwd() + "/data/new_items.csv", 'w') as f:
         for d in c:
             print >> f, str(d) + "," + str(a[d])
-            #print str(d) + str(a[d])
+            # print str(d) + str(a[d])
 
 def load_battle_init_file():
     battle_init_file = os.getcwd() + "/json/handle_get_battle_init_data.json"
@@ -650,10 +651,11 @@ def main():
     # build_char_data("/debug/handle_party_list/")
 
 
-    build_equipment_stat_file()
-    build_buddy_stat_file()
+    # build_equipment_stat_file()
+    # build_buddy_stat_file()
 
-    get_items_not_logged()
+    # get_items_not_logged()
+    sort_item_dict_csv("")
 
     # buddy_file = os.getcwd() + "/json/handle_party_list.json"
     # with open(buddy_file, 'r') as f:
