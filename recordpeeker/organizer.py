@@ -377,13 +377,6 @@ def build_equipment_compare_file():
             #         for t in temp1:
             #             # writer.writerow({'level': t["level"], 'hp': t["hp"], 'atk': t["atk"], 'matk': t["matk"], 'acc': t["acc"], 'def': t["def"], 'mdef': t["mdef"], 'eva': t["eva"], 'mnd': t["mnd"], 'spd': t["spd"]})
             #             writer.writerow({name:'','level': t["level"], 'hp': t["hp"], 'atk': t["atk"], 'matk': t["matk"], 'acc': t["acc"], 'def': t["def"], 'mdef': t["mdef"], 'eva': t["eva"], 'mnd': t["mnd"], 'spd': t["spd"], 'series_hp': t["series_hp"], 'series_atk': t["series_atk"], 'series_matk': t["series_matk"], 'series_acc': t["series_acc"], 'series_def': t["series_def"], 'series_mdef': t["series_mdef"], 'series_eva': t["series_eva"], 'series_mnd': t["series_mnd"], 'series_spd': t["series_spd"]})
-            
-
-
-def build_list_based_on_rarity(data):
-
-
-    return
 
 
 def get_drop_list(enemy):
@@ -483,7 +476,17 @@ def build_char_data(path):
                 d = json.loads(my_file.read())
             get_buddy_info(d)
 
-def get_items_not_logged():
+
+def build_max_level_list(max_level):
+    a = []
+    i = 1
+    while i <= max_level:
+        a.append(i)
+        i += 1
+
+    return a
+
+def get_items_logged():
     path = str(os.getcwd()) + "/data/equipment/"
     csv_path = str(os.getcwd()) + "/logged_items.csv"
     log = []
@@ -511,37 +514,7 @@ def get_items_not_logged():
                 level2 = re.split("\.",level1)
                 level3 = level2[0]
                 temp.append(int(level3))
-                # t["name"] = name
-
-                # print name
-
-                # # if d["rarity"] == 1:
-                # #     max_level = 10
-                # # elif d["rarity"] == 2:
-                # #     max_level = 15
-                # # elif d["rarity"] == 3:
-                # #     max_level = 20
-                # # elif d["rarity"] == 4:
-                # #     max_level = 25
-                # # elif d["rarity"] == 5:
-                # #     max_level = 30
-                # # elif (int(d["rarity"]) - int(d["evolution_num"]) == 5:
-                # #     max_level = 30
-                # if d.get("rarity","error") == 1:
-                #     max_level = 10
-                # elif d.get("rarity","error")  == 2:
-                #     max_level = 15
-                # elif d.get("rarity","error")  == 3:
-                #     max_level = 20
-                # elif d.get("rarity","error")  == 4:
-                #     max_level = 25
-                # elif d.get("rarity","error")  == 5:
-                #     max_level = 30
-                # i = 1
-                # temp
-                # while i <= max_level:
-                # 	temp.append(i)
-
+                
             temp1 = sorted(temp)
             q = ""
             for tt in temp1:
@@ -555,7 +528,72 @@ def get_items_not_logged():
     		print t["name"] + str(t["levels"])
     		print >> f, str(t["name"]) + str(t["levels"])
 
+def get_items_not_logged():
+    path = str(os.getcwd()) + "/data/equipment/"
+    csv_path = str(os.getcwd()) + "/items_not_logged.csv"
+    log = []
+    for dir_entry in os.listdir(path):
+        temp = []
+        dir_entry_path = os.path.join(path, dir_entry)
+
+        if os.path.isdir(dir_entry_path):
+            #print dir_entry
+            for level_dir in os.listdir(dir_entry_path):
+                file_path = os.path.join(dir_entry_path, level_dir)
+                #print os.listdir(file_path)
+                with open(file_path, 'r') as f:
+                    d = json.loads(f.read())
+                # t = dict()
+                name = d.get("name","error")
+                utf8_str = name.encode('utf-8')
+                name1 = name
+                if '\xef' in utf8_str:
+                    name2 = re.split('\)', name)
+                    name1 = str(name2[0]) + ")"
+    
+                item_id = d.get("equipment_id","error")
+                level = d.get("level","error")
+                is_armor = d.get("is_armor",False)
+                is_weapon = d.get("is_weapon",False)
+                is_upgrade_material = d.get("is_sp_enhancement_material", False)
+
+                if (is_weapon == True or is_armor == True) and (is_upgrade_material == False):
+
+                    # print name1 + "," + str(item_id)
+                    base_rarity = d.get("base_rarity","error")
+                    # print base_rarity
+                    max_evolution_num = d.get("max_evolution_num","error")
+                    # print max_evolution_num
+                    aa = d["evol_max_level_of_base_rarity"].get(str(max_evolution_num),"error")
+                    # print aa
+                    evol_max_level_of_base_rarity = aa.get(str(max_evolution_num),"error")
+                    # print evol_max_level_of_base_rarity
+                    temp.append(level)
+
+            if (is_weapon == True or is_armor == True) and (is_upgrade_material == False):
+
+                base_list = build_max_level_list(evol_max_level_of_base_rarity)
+
+                for p in temp:
+                    if p in base_list:
+                        base_list.remove(p)
+                print base_list
+                if base_list:
+                    b = sorted(base_list)
+                    q = ""
+                    for tt in b:
+                        q = str(q) +","+ str(tt)
+                    t = {'name': name1, 'id': item_id, 'levels': q}
+                else:
+                    t = {'name': name1, 'id': item_id, 'levels': ",Logged all levels"}
+                log.append(t)
+
+    with open(csv_path, 'w') as f:
+        for t in log:
+            print str(t["name"]) + " " + str(t["id"]) + " - " + str(t["levels"])
+            print >> f, str(t["name"]) + "," + str(t["id"]) + str(t["levels"])
            
+
 def save_equipment(data):
     for item in data["equipments"]:
         equipment_id = item.get("equipment_id","Error")
@@ -654,8 +692,8 @@ def main():
     # build_equipment_stat_file()
     # build_buddy_stat_file()
 
-    # get_items_not_logged()
-    sort_item_dict_csv("")
+    get_items_not_logged()
+    # sort_item_dict_csv("")
 
     # buddy_file = os.getcwd() + "/json/handle_party_list.json"
     # with open(buddy_file, 'r') as f:
