@@ -559,15 +559,17 @@ def get_items_not_logged():
 
                 if (is_weapon == True or is_armor == True) and (is_upgrade_material == False):
 
-                    # print name1 + "," + str(item_id)
                     base_rarity = d.get("base_rarity","error")
                     # print base_rarity
                     max_evolution_num = d.get("max_evolution_num","error")
                     # print max_evolution_num
-                    aa = d["evol_max_level_of_base_rarity"].get(str(max_evolution_num),"error")
+                    aa = d["evol_max_level_of_base_rarity"].get(str(base_rarity),"error")
                     # print aa
                     evol_max_level_of_base_rarity = aa.get(str(max_evolution_num),"error")
                     # print evol_max_level_of_base_rarity
+
+                    # print name1 + "," + str(item_id) + " - " + str(base_rarity) + " - " + str(max_evolution_num) + " - " + str(evol_max_level_of_base_rarity)
+                    
                     temp.append(level)
 
             if (is_weapon == True or is_armor == True) and (is_upgrade_material == False):
@@ -577,20 +579,20 @@ def get_items_not_logged():
                 for p in temp:
                     if p in base_list:
                         base_list.remove(p)
-                print base_list
+                # print base_list
                 if base_list:
                     b = sorted(base_list)
                     q = ""
                     for tt in b:
                         q = str(q) +","+ str(tt)
-                    t = {'name': name1, 'id': item_id, 'levels': q}
+                    t = {'name': name1, 'id': item_id, 'rarity':base_rarity,'levels': q}
                 else:
-                    t = {'name': name1, 'id': item_id, 'levels': ",Logged all levels"}
+                    t = {'name': name1, 'id': item_id, 'rarity':base_rarity, 'levels': ",Logged all levels"}
                 log.append(t)
 
     with open(csv_path, 'w') as f:
         for t in log:
-            print str(t["name"]) + " " + str(t["id"]) + " - " + str(t["levels"])
+            print str(t["name"]) + " " + str(t["id"]) + " - " + str(t["rarity"]) + " - " + str(t["levels"])
             print >> f, str(t["name"]) + "," + str(t["id"]) + str(t["levels"])
            
 
