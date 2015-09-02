@@ -477,6 +477,23 @@ def build_char_data(path):
             get_buddy_info(d)
 
 
+def get_item_max_number_of_levels(rarity):
+
+    result = 0
+    if rarity == 1:
+        result = 10
+    elif rarity == 2:
+        result = 15
+    elif rarity == 3:
+        result = 20
+    elif rarity == 4:
+        result = 25
+    elif rarity == 5:
+        result = 30
+
+    return result
+
+
 def build_max_level_list(max_level):
     a = []
     i = 1
@@ -594,7 +611,67 @@ def get_items_not_logged():
         for t in log:
             print str(t["name"]) + " " + str(t["id"]) + " - " + str(t["rarity"]) + " - " + str(t["levels"])
             print >> f, str(t["name"]) + "," + str(t["id"]) + str(t["levels"])
-           
+
+    items_not_logged_to_html(log)
+
+
+def items_not_logged_to_html(log_data):
+    log_path = str(os.getcwd()) + "/data/html/index.html"
+    not_recorded_red = "#F06060"
+    recorded_blue = "#30A0B0"
+    header_color = "#E0E0E0"
+
+
+    with open(log_path, 'w') as f:
+        print >> f, "<!DOCTYPE html>"
+        print >> f, "<html>"
+        print >> f, "<body>"
+        print >> f, "<table style=\"width:100%\">"
+        print >> f, "<tr>"
+        print >> f, "<td bgcolor=\"#E0E0E0\">Relic</td>"
+        print >> f, "<td bgcolor=\"#E0E0E0\">ID</td>"
+        print >> f, "<td bgcolor=\"#E0E0E0\">Levels</td>"
+        
+        i = 0
+        while i < 30:
+            print >> f, "<td bgcolor=\"#E0E0E0\"></td>"
+            i += 1
+
+        print >> f, "</tr>"
+
+        for t in log_data:
+            print >> f, "<tr>"
+
+            # print >> f, str(t["name"]) + str(t["id"]) + str(t["levels"])
+            print >> f, "<td bgcolor=\"#E0E0E0\">" + str(t["name"]) + "</td>"
+            print >> f, "<td bgcolor=\"#E0E0E0\">" + str(t["id"]) + "</td>"
+
+            temp = build_max_level_list(get_item_max_number_of_levels(t["rarity"]))
+            # print temp
+
+            if 'L' not in t["levels"][1]:
+                c = str(t["levels"][1:]).split(',')
+                aa = [] 
+                for b in c:
+                    aa.append(int(b))
+                
+                for a in temp:
+                    # print a
+                    if a in aa:
+                        print >> f, "<td bgcolor=\"" + not_recorded_red + "\">" + str(a) + "</td>"
+                    else:
+                        print >> f, "<td bgcolor=\"" + recorded_blue + "\">" + str(a) + "</td>"
+            else:
+                for a in temp:
+                    print >> f, "<td bgcolor=\"" + recorded_blue + "\">" + str(a) + "</td>"
+
+            print >> f, "</tr>"
+
+        print >> f, "</tr>"
+        print >> f, "</table>"
+        print >> f, "</body>"
+        print >> f, "</html>"
+
 
 def save_equipment(data):
     for item in data["equipments"]:
@@ -677,7 +754,6 @@ def load_party_list_file():
         data = json.loads(f.read())
     # get_buddy_info(data)
     return data
-
 
 def main():
     # enemy in data - first bracket (start of dict)
