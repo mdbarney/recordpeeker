@@ -554,10 +554,10 @@ def get_items_not_logged():
         dir_entry_path = os.path.join(path, dir_entry)
 
         if os.path.isdir(dir_entry_path):
-            #print dir_entry
+            # print dir_entry
             for level_dir in os.listdir(dir_entry_path):
                 file_path = os.path.join(dir_entry_path, level_dir)
-                #print os.listdir(file_path)
+                # print file_path
                 with open(file_path, 'r') as f:
                     d = json.loads(f.read())
                 # t = dict()
@@ -767,8 +767,8 @@ def main():
     # build_char_data("/debug/handle_party_list/")
 
 
-    # build_equipment_stat_file()
-    # build_buddy_stat_file()
+    build_equipment_stat_file()
+    build_buddy_stat_file()
 
     get_items_not_logged()
     # sort_item_dict_csv("")
