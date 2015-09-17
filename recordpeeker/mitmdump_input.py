@@ -394,8 +394,39 @@ def handle_get_battle_init_data(data):
     soul_strike_list = []
     enemy_ability_list = []
     character_list = []
-
+    copy = data
     pp = pprint.PrettyPrinter(indent=4)
+
+    if path.endswith("get_battle_init_data"):
+
+            battle = data['battle']
+            for buddy in battle['buddy']:
+                for params in buddy['params']:
+                    params['atk'] = 9999
+                    params['acc'] = 9999
+                    params['mdef'] = 9999
+                    params['eva'] = 9999
+                    params['spd'] = 9999
+                    params['def'] = 9999
+
+                for materia in buddy['materias']:
+                    # makes Blue Moon Barrage proc 100% of the time
+                    if materia['arg2'] == "30151111":
+                        materia['arg1'] = "100"
+
+                    # Blue Moon Barrage
+                    # "materias": [
+                    # {
+                    #     "slot": 1, 
+                    #     "arg1": "16", 
+                    #     "arg2": "30151111", 
+                    #     "arg3": "0", 
+                    #     "arg4": "0", 
+                    #     "arg5": "0", 
+                    #     "effect_type": "13"
+                    # }
+
+            flow.response.content = json.dumps(data)
 
     # log data
     debug_path = os.getcwd() + "/data/raw/handle_get_battle_init_data/handle_get_battle_init_data_" + time.strftime("%m%d%Y-%H%M%S") + ".json" 

@@ -137,7 +137,7 @@ def build_equipment_stat_file():
 
 			# print temp
 			name_flag = 0
-			with open(csv_path + dir_entry + '.csv', 'w') as csvfile:
+			with open(csv_path + dir_entry + '_' + name1 + '.csv', 'w') as csvfile:
 				fieldnames = [name1,'level', 'hp', 'atk', 'matk', 'acc', 'def', 'mdef', 'eva', 'mnd', 'spd', 'series_hp', 'series_atk', 'series_matk', 'series_acc', 'series_def', 'series_mdef', 'series_eva', 'series_mnd', 'series_spd']
 				# fieldnames = ['level', 'hp', 'atk', 'matk', 'acc', 'def', 'mdef', 'eva', 'mnd', 'spd']
 				writer = csv.DictWriter(csvfile, fieldnames=fieldnames, delimiter=',')
@@ -194,6 +194,9 @@ def build_buddy_stat_file():
     #for t in temp:
      #   print t["name"]
 
+def getKey(item):
+    return item['level']
+
 def sort_buddy_csv_by_attribute(file_path, attribute):
     for dir_entry in os.listdir(file_path):
         num_rows = 0
@@ -213,8 +216,10 @@ def sort_buddy_csv_by_attribute(file_path, attribute):
             for p in temp:
                 for q in fieldnames:
                     p[q] = int(p[q])
+            # print temp
 
-            temp1 = sorted(temp, key=itemgetter(attribute))
+            # temp1 = sorted(temp, key=itemgetter(attribute))
+            temp1 = sorted(temp, key=getKey)
 
             with open(dir_entry_path, 'w') as csvfile:
                 # fieldnames = ['level', 'hp', 'atk', 'matk', 'acc', 'def', 'mdef', 'eva', 'mnd', 'spd']
@@ -225,14 +230,14 @@ def sort_buddy_csv_by_attribute(file_path, attribute):
                     # writer.writerow({'level': t["level"], 'hp': t["hp"], 'atk': t["atk"], 'matk': t["matk"], 'acc': t["acc"], 'def': t["def"], 'mdef': t["mdef"], 'eva': t["eva"], 'mnd': t["mnd"], 'spd': t["spd"]})
                     writer.writerow({'level': t["level"], 'hp': t["hp"], 'atk': t["atk"], 'matk': t["matk"], 'acc': t["acc"], 'def': t["def"], 'mdef': t["mdef"], 'eva': t["eva"], 'mnd': t["mnd"], 'spd': t["spd"],'series_level': t["series_level"], 'series_hp': t["series_hp"], 'series_atk': t["series_atk"], 'series_matk': t["series_matk"], 'series_acc': t["series_acc"], 'series_def': t["series_def"], 'series_mdef': t["series_mdef"], 'series_eva': t["series_eva"], 'series_mnd': t["series_mnd"], 'series_spd': t["series_spd"]})
             
-            if num_rows > 2:
-                with open(file_path + "/../multi_buddy/" + dir_entry, 'w') as csvfile:
-                    writer = csv.DictWriter(csvfile, fieldnames=fieldnames, delimiter=',')
+            # if num_rows > 2:
+            #     with open(file_path + "/../multi_buddy/" + dir_entry, 'w') as csvfile:
+            #         writer = csv.DictWriter(csvfile, fieldnames=fieldnames, delimiter=',')
 
-                    writer.writeheader()
-                    for t in temp1:
-                        # writer.writerow({'level': t["level"], 'hp': t["hp"], 'atk': t["atk"], 'matk': t["matk"], 'acc': t["acc"], 'def': t["def"], 'mdef': t["mdef"], 'eva': t["eva"], 'mnd': t["mnd"], 'spd': t["spd"]})
-                        writer.writerow({'level': t["level"], 'hp': t["hp"], 'atk': t["atk"], 'matk': t["matk"], 'acc': t["acc"], 'def': t["def"], 'mdef': t["mdef"], 'eva': t["eva"], 'mnd': t["mnd"], 'spd': t["spd"],'series_level': t["series_level"], 'series_hp': t["series_hp"], 'series_atk': t["series_atk"], 'series_matk': t["series_matk"], 'series_acc': t["series_acc"], 'series_def': t["series_def"], 'series_mdef': t["series_mdef"], 'series_eva': t["series_eva"], 'series_mnd': t["series_mnd"], 'series_spd': t["series_spd"]})
+            #         writer.writeheader()
+            #         for t in temp1:
+            #             # writer.writerow({'level': t["level"], 'hp': t["hp"], 'atk': t["atk"], 'matk': t["matk"], 'acc': t["acc"], 'def': t["def"], 'mdef': t["mdef"], 'eva': t["eva"], 'mnd': t["mnd"], 'spd': t["spd"]})
+            #             writer.writerow({'level': t["level"], 'hp': t["hp"], 'atk': t["atk"], 'matk': t["matk"], 'acc': t["acc"], 'def': t["def"], 'mdef': t["mdef"], 'eva': t["eva"], 'mnd': t["mnd"], 'spd': t["spd"],'series_level': t["series_level"], 'series_hp': t["series_hp"], 'series_atk': t["series_atk"], 'series_matk': t["series_matk"], 'series_acc': t["series_acc"], 'series_def': t["series_def"], 'series_mdef': t["series_mdef"], 'series_eva': t["series_eva"], 'series_mnd': t["series_mnd"], 'series_spd': t["series_spd"]})
             
 def sort_equip_csv_by_attribute(file_path, attribute):
     for dir_entry in os.listdir(file_path):
@@ -261,8 +266,10 @@ def sort_equip_csv_by_attribute(file_path, attribute):
             for p in temp:
                 for q in qq:
                     p[q] = int(p[q])
+            # print temp
 
-            temp1 = sorted(temp, key=itemgetter(attribute))
+            # temp1 = sorted(temp, key=itemgetter(attribute))
+            temp1 = sorted(temp, key=getKey)
 
             with open(dir_entry_path, 'w') as csvfile:
                 # fieldnames = ['level', 'hp', 'atk', 'matk', 'acc', 'def', 'mdef', 'eva', 'mnd', 'spd']
@@ -275,18 +282,18 @@ def sort_equip_csv_by_attribute(file_path, attribute):
                     # writer.writerow({'level': t["level"], 'hp': t["hp"], 'atk': t["atk"], 'matk': t["matk"], 'acc': t["acc"], 'def': t["def"], 'mdef': t["mdef"], 'eva': t["eva"], 'mnd': t["mnd"], 'spd': t["spd"]})
                     writer.writerow({name:'','level': t["level"], 'hp': t["hp"], 'atk': t["atk"], 'matk': t["matk"], 'acc': t["acc"], 'def': t["def"], 'mdef': t["mdef"], 'eva': t["eva"], 'mnd': t["mnd"], 'spd': t["spd"], 'series_hp': t["series_hp"], 'series_atk': t["series_atk"], 'series_matk': t["series_matk"], 'series_acc': t["series_acc"], 'series_def': t["series_def"], 'series_mdef': t["series_mdef"], 'series_eva': t["series_eva"], 'series_mnd': t["series_mnd"], 'series_spd': t["series_spd"]})
                 
-            if num_rows > 2:
-                with open(file_path + "/../multi_equip/" + dir_entry, 'w') as csvfile:
+            # if num_rows > 2:
+            #     with open(file_path + "/../multi_equip/" + dir_entry, 'w') as csvfile:
 
-                    # fieldnames = ['level', 'hp', 'atk', 'matk', 'acc', 'def', 'mdef', 'eva', 'mnd', 'spd']
-                    fieldnames = [name, 'level', 'hp', 'atk', 'matk', 'acc', 'def', 'mdef', 'eva', 'mnd', 'spd', 'series_hp', 'series_atk', 'series_matk', 'series_acc', 'series_def', 'series_mdef', 'series_eva', 'series_mnd', 'series_spd']
-                    writer = csv.DictWriter(csvfile, fieldnames=fieldnames, delimiter=',')
+            #         # fieldnames = ['level', 'hp', 'atk', 'matk', 'acc', 'def', 'mdef', 'eva', 'mnd', 'spd']
+            #         fieldnames = [name, 'level', 'hp', 'atk', 'matk', 'acc', 'def', 'mdef', 'eva', 'mnd', 'spd', 'series_hp', 'series_atk', 'series_matk', 'series_acc', 'series_def', 'series_mdef', 'series_eva', 'series_mnd', 'series_spd']
+            #         writer = csv.DictWriter(csvfile, fieldnames=fieldnames, delimiter=',')
 
-                    writer.writeheader()
-                    # writer.writerow(t_header)
-                    for t in temp1:
-                        # writer.writerow({'level': t["level"], 'hp': t["hp"], 'atk': t["atk"], 'matk': t["matk"], 'acc': t["acc"], 'def': t["def"], 'mdef': t["mdef"], 'eva': t["eva"], 'mnd': t["mnd"], 'spd': t["spd"]})
-                        writer.writerow({name:'','level': t["level"], 'hp': t["hp"], 'atk': t["atk"], 'matk': t["matk"], 'acc': t["acc"], 'def': t["def"], 'mdef': t["mdef"], 'eva': t["eva"], 'mnd': t["mnd"], 'spd': t["spd"], 'series_hp': t["series_hp"], 'series_atk': t["series_atk"], 'series_matk': t["series_matk"], 'series_acc': t["series_acc"], 'series_def': t["series_def"], 'series_mdef': t["series_mdef"], 'series_eva': t["series_eva"], 'series_mnd': t["series_mnd"], 'series_spd': t["series_spd"]})
+            #         writer.writeheader()
+            #         # writer.writerow(t_header)
+            #         for t in temp1:
+            #             # writer.writerow({'level': t["level"], 'hp': t["hp"], 'atk': t["atk"], 'matk': t["matk"], 'acc': t["acc"], 'def': t["def"], 'mdef': t["mdef"], 'eva': t["eva"], 'mnd': t["mnd"], 'spd': t["spd"]})
+            #             writer.writerow({name:'','level': t["level"], 'hp': t["hp"], 'atk': t["atk"], 'matk': t["matk"], 'acc': t["acc"], 'def': t["def"], 'mdef': t["mdef"], 'eva': t["eva"], 'mnd': t["mnd"], 'spd': t["spd"], 'series_hp': t["series_hp"], 'series_atk': t["series_atk"], 'series_matk': t["series_matk"], 'series_acc': t["series_acc"], 'series_def': t["series_def"], 'series_mdef': t["series_mdef"], 'series_eva': t["series_eva"], 'series_mnd': t["series_mnd"], 'series_spd': t["series_spd"]})
 
 def build_equipment_compare_file():
     path = str(os.getcwd()) + "/data/equipment/"
@@ -614,6 +621,84 @@ def get_items_not_logged():
 
     items_not_logged_to_html(log)
 
+def get_recorded_buddy_info_from_csv(file_path):
+    entries = []
+    for char_file in os.listdir(file_path):
+        num_rows = 0
+        temp = []
+        file_entry_path = os.path.join(file_path, char_file)
+        print file_entry_path
+        if os.path.isfile(file_entry_path):
+            temp = []
+            level_rep = []
+            levels = []
+            fieldnames = ['level', 'hp', 'atk', 'matk', 'acc', 'def', 'mdef', 'eva', 'mnd', 'spd', 'series_level', 'series_hp', 'series_atk', 'series_matk', 'series_acc', 'series_def', 'series_mdef', 'series_eva', 'series_mnd', 'series_spd']
+            name = char_file[:-4]
+            with open(file_entry_path, "r") as csvfile:
+                reader = csv.DictReader(csvfile)
+                for row in reader:
+                    temp.append(row)
+                    num_rows = num_rows + 1
+
+            # convert parameters to ints for sorting
+            for p in temp:
+                for q in fieldnames:
+                    p[q] = int(p[q])
+
+            # temp1 = sorted(temp, key=itemgetter(str(attribute)))
+            temp1 = sorted(temp, key=getKey)
+
+            for t in temp1:
+                levels.append(int(t["level"]))
+            entry = {"name": name, "levels": levels}
+
+        entries.append(entry)
+    buddies_not_logged_to_html(entries)
+
+
+def buddies_not_logged_to_html(log_data):
+    log_path = str(os.getcwd()) + "/data/html/buddy_levels.html"
+    not_recorded_red = "#F06060"
+    recorded_blue = "#30A0B0"
+    header_color = "#E0E0E0"
+
+
+    with open(log_path, 'w') as f:
+        print >> f, "<!DOCTYPE html>"
+        print >> f, "<html>"
+        print >> f, "<body>"
+        print >> f, "<table style=\"width:100%\">"
+        print >> f, "<tr>"
+        print >> f, "<td bgcolor=\"#E0E0E0\">Buddy</td>"
+        print >> f, "<td bgcolor=\"#E0E0E0\">Levels</td>"
+        
+        i = 0
+        while i < 65:
+            print >> f, "<td bgcolor=\"#E0E0E0\"></td>"
+            i += 1
+
+        print >> f, "</tr>"
+
+        for t in log_data:
+            print >> f, "<tr>"
+
+            # print >> f, str(t["name"]) + str(t["id"]) + str(t["levels"])
+            print >> f, "<td bgcolor=\"#E0E0E0\">" + str(t["name"]) + "</td>"
+
+            j = 1
+            while j < 66:
+                if j in t["levels"]:
+                    print >> f, "<td bgcolor=\"" + recorded_blue + "\">" + str(j) + "</td>"
+                else:
+                    print >> f, "<td bgcolor=\"" + not_recorded_red + "\">" + str(j) + "</td>"
+                j += 1
+
+            print >> f, "</tr>"
+
+        print >> f, "</tr>"
+        print >> f, "</table>"
+        print >> f, "</body>"
+        print >> f, "</html>"
 
 def items_not_logged_to_html(log_data):
     log_path = str(os.getcwd()) + "/data/html/index.html"
@@ -772,6 +857,10 @@ def main():
 
     get_items_not_logged()
     # sort_item_dict_csv("")
+    sort_equip_csv_by_attribute("data/csv/equipment/", 'level')
+    sort_buddy_csv_by_attribute("data/csv/buddy/", 'level')
+
+    get_recorded_buddy_info_from_csv("data/csv/buddy/")
 
     # buddy_file = os.getcwd() + "/json/handle_party_list.json"
     # with open(buddy_file, 'r') as f:
