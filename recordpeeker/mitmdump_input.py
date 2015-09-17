@@ -624,9 +624,11 @@ def handle_party_list(data):
         print tabulate(tbl, headers="firstrow")
         print ""
 
+
+### NO LONGER NEEDED ###
     # print equipment to json file
-    save_equipment_list(data, get_user_id(data))
-    save_equipment(data)
+    # save_equipment_list(data, get_user_id(data))
+    # save_equipment(data)
 
     get_buddy_info(data)
     temp_party_list = data
@@ -801,8 +803,8 @@ def handle_equipment_enhance(data):
     log_data(data,var)
     base_dir_path = "/data/equipment/"
 
-    save_single_equipment_by_id(data["new_src_user_equipment"], base_dir_path)
-    save_single_equipment_by_id(data["old_src_user_equipment"], base_dir_path)
+    # save_single_equipment_by_id(data["new_src_user_equipment"], base_dir_path)
+    # save_single_equipment_by_id(data["old_src_user_equipment"], base_dir_path)
 
 def handle_buddy_save_ability(data):
     var = "buddy_save_ability"
