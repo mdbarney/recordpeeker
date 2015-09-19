@@ -397,36 +397,36 @@ def handle_get_battle_init_data(data):
     copy = data
     pp = pprint.PrettyPrinter(indent=4)
 
-    if path.endswith("get_battle_init_data"):
+    # if path.endswith("get_battle_init_data"):
 
-            battle = data['battle']
-            for buddy in battle['buddy']:
-                for params in buddy['params']:
-                    params['atk'] = 9999
-                    params['acc'] = 9999
-                    params['mdef'] = 9999
-                    params['eva'] = 9999
-                    params['spd'] = 9999
-                    params['def'] = 9999
+    #         battle = data['battle']
+    #         for buddy in battle['buddy']:
+    #             for params in buddy['params']:
+    #                 params['atk'] = 9999
+    #                 params['acc'] = 9999
+    #                 params['mdef'] = 9999
+    #                 params['eva'] = 9999
+    #                 params['spd'] = 9999
+    #                 params['def'] = 9999
 
-                for materia in buddy['materias']:
-                    # makes Blue Moon Barrage proc 100% of the time
-                    if materia['arg2'] == "30151111":
-                        materia['arg1'] = "100"
+    #             for materia in buddy['materias']:
+    #                 # makes Blue Moon Barrage proc 100% of the time
+    #                 if materia['arg2'] == "30151111":
+    #                     materia['arg1'] = "100"
 
-                    # Blue Moon Barrage
-                    # "materias": [
-                    # {
-                    #     "slot": 1, 
-                    #     "arg1": "16", 
-                    #     "arg2": "30151111", 
-                    #     "arg3": "0", 
-                    #     "arg4": "0", 
-                    #     "arg5": "0", 
-                    #     "effect_type": "13"
-                    # }
+    #                 # Blue Moon Barrage
+    #                 # "materias": [
+    #                 # {
+    #                 #     "slot": 1, 
+    #                 #     "arg1": "16", 
+    #                 #     "arg2": "30151111", 
+    #                 #     "arg3": "0", 
+    #                 #     "arg4": "0", 
+    #                 #     "arg5": "0", 
+    #                 #     "effect_type": "13"
+    #                 # }
 
-            flow.response.content = json.dumps(data)
+    #         flow.response.content = json.dumps(data)
 
     # log data
     debug_path = os.getcwd() + "/data/raw/handle_get_battle_init_data/handle_get_battle_init_data_" + time.strftime("%m%d%Y-%H%M%S") + ".json" 
@@ -603,26 +603,27 @@ def handle_party_list(data):
         kind = item.get("equipment_type", 1)
         heapq.heappush(equips[kind], Equipment(slicedict(item, wanted)))
 
-    for series in find_series:
-        if series == 200001:
-            print "Best equipment for FF Core"
-        else:
-            print "Best equipment for FF{0}:".format((series - 100001) / 1000)
+    # uncomment this to see best equipment for each realm
+    # for series in find_series:
+    #     if series == 200001:
+    #         print "Best equipment for FF Core"
+    #     else:
+    #         print "Best equipment for FF{0}:".format((series - 100001) / 1000)
 
-        # Need to use lists for column ordering
-        tbl = ["stat n weapon stat n armor stat n accessory".split()]
-        tbldata = [[],[],[],[]]
-        for itemtype in range(1, 4): ## 1, 2, 3
-            for stat, count in topn.iteritems():
-                for equip in best_equipment(series, equips[itemtype], stat, count):
-                    name = equip["name"].replace(u"\uff0b", "+")
-                    tbldata[itemtype].append([stat, equip[stat], name])
+    #     # Need to use lists for column ordering
+    #     tbl = ["stat n weapon stat n armor stat n accessory".split()]
+    #     tbldata = [[],[],[],[]]
+    #     for itemtype in range(1, 4): ## 1, 2, 3
+    #         for stat, count in topn.iteritems():
+    #             for equip in best_equipment(series, equips[itemtype], stat, count):
+    #                 name = equip["name"].replace(u"\uff0b", "+")
+    #                 tbldata[itemtype].append([stat, equip[stat], name])
 
-        # Transpose data
-        for idx in range(0, len(tbldata[1])):
-            tbl.append(tbldata[1][idx] + tbldata[2][idx] + tbldata[3][idx])
-        print tabulate(tbl, headers="firstrow")
-        print ""
+    #     # Transpose data
+    #     for idx in range(0, len(tbldata[1])):
+    #         tbl.append(tbldata[1][idx] + tbldata[2][idx] + tbldata[3][idx])
+    #     print tabulate(tbl, headers="firstrow")
+    #     print ""
 
 
 ### NO LONGER NEEDED ###

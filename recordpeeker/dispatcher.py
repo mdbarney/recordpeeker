@@ -65,6 +65,7 @@ class Dispatcher(object):
             #     os.mkdir(p)
             # data_path = p + str(flow.request.path) + "_" + time.strftime("%m%d%Y-%H%M%S") + ".json" 
             t_file = open(t, 'a')
+            print flow.request.path
             print >> t_file, flow.request.path
             # # print >> test_file, json.dumps(data, indent=4, sort_keys=True)
             t_file.close()
